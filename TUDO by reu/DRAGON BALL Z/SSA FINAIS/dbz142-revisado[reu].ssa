@@ -1,0 +1,194 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:41.14,0:02:45.41,*Default,,0000,0000,0000,,K-Kami-sama... Não morra...
+Dialogue: Marked=0,0:02:46.67,0:02:48.86,*Default,,0000,0000,0000,,Não sou mais nem Kami e nem Piccolo.
+Dialogue: Marked=0,0:02:49.65,0:02:52.92,*Default,,0000,0000,0000,,Sou um Namekusei-jin que\Nesqueceu o verdadeiro nome.
+Dialogue: Marked=0,0:03:20.07,0:03:23.90,Narrador,,0000,0000,0000,,O monstro misterioso finalmente apareceu.
+Dialogue: Marked=0,0:03:23.90,0:03:27.79,Narrador,,0000,0000,0000,,Ele tem um segredo ainda mais surpreendente.
+
+Dialogue: Marked=0,0:03:34.67,0:03:42.64,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 142
+Dialogue: Marked=0,0:03:34.67,0:03:42.64,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(270,170)}{\fad(300,0)}{\fscx170\fscy150}Kamehameha{\i1}!{\i0}  ?
+Dialogue: Marked=0,0:03:34.67,0:03:42.64,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(370,505)}{\fad(300,0)}{\fscx130\fscy150}O monstro que tem o Ki de Goku
+
+Dialogue: Marked=0,0:04:08.09,0:04:10.29,*Default,,0000,0000,0000,,Apareceu, seu monstro maldito.
+Dialogue: Marked=0,0:04:31.12,0:04:32.81,*Default,,0000,0000,0000,,Salve-me!
+Dialogue: Marked=0,0:04:36.07,0:04:39.57,*Default,,0000,0000,0000,,O-O que é esse Ki que sinto vindo dele?
+Dialogue: Marked=0,0:04:43.57,0:04:44.65,*Default,,0000,0000,0000,,Não pode ser.
+Dialogue: Marked=0,0:04:45.49,0:04:47.74,*Default,,0000,0000,0000,,O-O que isso quer dizer?
+Dialogue: Marked=0,0:05:06.23,0:05:12.89,*Default,,0000,0000,0000,,Mister Popo está com medo.\NKami-sama e Piccolo fundidos ficaram fortes.
+Dialogue: Marked=0,0:05:13.41,0:05:17.11,*Default,,0000,0000,0000,,Mas, sinto que ele não\Npode derrotar aquele monstro.
+Dialogue: Marked=0,0:05:22.93,0:05:24.17,*Default,,0000,0000,0000,,Kami-sama...
+Dialogue: Marked=0,0:05:26.62,0:05:29.78,*Default,,0000,0000,0000,,Ei! Salve-me!
+Dialogue: Marked=0,0:05:30.05,0:05:33.81,*Default,,0000,0000,0000,,Eu sou o mais rico desta cidade!
+Dialogue: Marked=0,0:05:35.26,0:05:38.00,*Default,,0000,0000,0000,,Se você quiser dinheiro,\Ndou tudo, mas salve-me!
+Dialogue: Marked=0,0:05:43.53,0:05:45.97,*Default,,0000,0000,0000,,Ei! Você aí!
+Dialogue: Marked=0,0:05:47.69,0:05:52.15,*Default,,0000,0000,0000,,Não acho que você me entenda, mas solte-o.
+Dialogue: Marked=0,0:05:52.15,0:05:54.18,*Default,,0000,0000,0000,,Mesmo ele sendo assim, uma vida é vida.
+Dialogue: Marked=0,0:06:02.50,0:06:05.04,*Default,,0000,0000,0000,,S-Salve-me...
+Dialogue: Marked=0,0:07:10.89,0:07:14.43,*Default,,0000,0000,0000,,O próximo a acabar assim será você...
+Dialogue: Marked=0,0:07:14.43,0:07:16.01,*Default,,0000,0000,0000,,Piccolo Daimao!
+Dialogue: Marked=0,0:07:37.86,0:07:39.17,*Default,,0000,0000,0000,,O-O quê?
+Dialogue: Marked=0,0:07:40.53,0:07:41.17,*Default,,0000,0000,0000,,Isto é...
+Dialogue: Marked=0,0:08:02.06,0:08:03.31,*Default,,0000,0000,0000,,Qual o problema, Gohan?
+Dialogue: Marked=0,0:08:03.79,0:08:06.28,*Default,,0000,0000,0000,,Eu sinto dois Ki do Piccolo-san.
+Dialogue: Marked=0,0:08:06.86,0:08:08.79,*Default,,0000,0000,0000,,Ahn? Do Piccolo?
+Dialogue: Marked=0,0:08:12.80,0:08:14.20,*Default,,0000,0000,0000,,Isto é...
+Dialogue: Marked=0,0:08:27.77,0:08:32.88,*Default,,0000,0000,0000,,O-O que você é?\NPor que sabe o nome Piccolo?
+Dialogue: Marked=0,0:08:34.54,0:08:36.72,*Default,,0000,0000,0000,,Eu sou seu irmão.
+Dialogue: Marked=0,0:08:37.28,0:08:38.18,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:08:49.65,0:08:51.99,*Default,,0000,0000,0000,,Ei, o que está acontecendo com este Ki?
+Dialogue: Marked=0,0:08:53.51,0:08:55.86,*Default,,0000,0000,0000,,O Ki do Freeza e do seu pai.
+Dialogue: Marked=0,0:08:56.64,0:08:58.22,*Default,,0000,0000,0000,,Sinto outros.
+Dialogue: Marked=0,0:09:05.01,0:09:10.55,*Default,,0000,0000,0000,,Piccolo-san, Freeza e seu pai e meu pai.
+Dialogue: Marked=0,0:09:11.46,0:09:15.34,*Default,,0000,0000,0000,,Tantos Ki estão reunidos em um só lugar.
+Dialogue: Marked=0,0:09:32.72,0:09:36.29,*Default,,0000,0000,0000,,O que isso quer dizer? Isso é impossível!
+Dialogue: Marked=0,0:09:37.41,0:09:38.86,*Default,,0000,0000,0000,,Estou sentindo claramente!
+Dialogue: Marked=0,0:09:39.60,0:09:42.31,*Default,,0000,0000,0000,,Mas, não tem como isso acontecer.
+Dialogue: Marked=0,0:09:42.31,0:09:45.33,*Default,,0000,0000,0000,,Freeza e seu pai estão mortos.
+Dialogue: Marked=0,0:09:46.00,0:09:47.37,*Default,,0000,0000,0000,,Esta direção...
+Dialogue: Marked=0,0:09:48.05,0:09:50.59,*Default,,0000,0000,0000,,Está vindo da direção de Gingertown,
+Dialogue: Marked=0,0:09:50.59,0:09:52.00,*Default,,0000,0000,0000,,de onde os incidentes foram reportados.
+Dialogue: Marked=0,0:09:59.43,0:10:00.76,*Default,,0000,0000,0000,,Isso é impossível.
+Dialogue: Marked=0,0:10:01.61,0:10:03.23,*Default,,0000,0000,0000,,Até o Ki do Goku...
+Dialogue: Marked=0,0:10:10.65,0:10:12.52,*Default,,0000,0000,0000,,O meu pai está dormindo com certeza.
+Dialogue: Marked=0,0:10:17.38,0:10:19.90,*Default,,0000,0000,0000,,Setor 1051 oeste.
+Dialogue: Marked=0,0:10:19.90,0:10:22.49,*Default,,0000,0000,0000,,Perto de onde aquele ovo\Ne o casulo foram encontrados.
+Dialogue: Marked=0,0:10:23.46,0:10:24.74,*Default,,0000,0000,0000,,Não resta dúvidas.
+Dialogue: Marked=0,0:10:38.82,0:10:42.14,*Default,,0000,0000,0000,,Ei, quem exatamente você é?
+Dialogue: Marked=0,0:10:42.14,0:10:44.10,*Default,,0000,0000,0000,,Fale detalhadamente!
+Dialogue: Marked=0,0:10:46.93,0:10:49.61,*Default,,0000,0000,0000,,Isso não é necessário.
+Dialogue: Marked=0,0:10:49.97,0:10:53.40,*Default,,0000,0000,0000,,Porque você já vai virar minha refeição.
+Dialogue: Marked=0,0:10:54.75,0:10:57.40,*Default,,0000,0000,0000,,Entendi, você não pretende falar.
+Dialogue: Marked=0,0:11:04.40,0:11:08.75,*Default,,0000,0000,0000,,Sendo assim, vou acabar\Ncom sua vida sem perguntar nada.
+Dialogue: Marked=0,0:11:10.53,0:11:14.54,*Default,,0000,0000,0000,,Piccolo Daimao, pretende me matar?
+Dialogue: Marked=0,0:11:15.30,0:11:18.76,*Default,,0000,0000,0000,,Por algum motivo, parece\Nque você conhece Piccolo.
+Dialogue: Marked=0,0:11:21.25,0:11:22.26,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:12:07.78,0:12:09.56,*Default,,0000,0000,0000,,Mas, infelizmente...
+Dialogue: Marked=0,0:12:13.82,0:12:15.06,*Default,,0000,0000,0000,,Você está me confundindo.
+Dialogue: Marked=0,0:12:15.44,0:12:17.02,*Default,,0000,0000,0000,,O quê?
+
+Dialogue: Marked=0,0:12:24.20,0:12:28.42,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:24.20,0:12:28.42,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:24.20,0:12:28.42,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:24.20,0:12:28.42,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:31.37,0:12:33.59,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:31.37,0:12:33.59,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:31.37,0:12:33.59,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:31.37,0:12:33.59,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:46.99,0:12:48.39,*Default,,0000,0000,0000,,Estou confundindo?
+Dialogue: Marked=0,0:12:51.99,0:12:54.98,*Default,,0000,0000,0000,,Está dizendo que não é Piccolo Daimao?
+Dialogue: Marked=0,0:12:55.65,0:12:57.56,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:13:14.39,0:13:16.48,*Default,,0000,0000,0000,,Que bom, cheguei a tempo.
+Dialogue: Marked=0,0:13:16.48,0:13:18.63,*Default,,0000,0000,0000,,Esse monstro desconhecido...
+Dialogue: Marked=0,0:13:18.63,0:13:21.82,*Default,,0000,0000,0000,,pode ser perigoso até mesmo para você.
+Dialogue: Marked=0,0:13:21.82,0:13:24.89,*Default,,0000,0000,0000,,Mais um Ki incrível!
+Dialogue: Marked=0,0:13:24.89,0:13:27.47,*Default,,0000,0000,0000,,Mais alguém apareceu!
+Dialogue: Marked=0,0:13:28.77,0:13:30.64,*Default,,0000,0000,0000,,É, foi agora mesmo.
+Dialogue: Marked=0,0:13:31.51,0:13:33.89,*Default,,0000,0000,0000,,O que será que está acontecendo?
+Dialogue: Marked=0,0:13:40.14,0:13:41.36,*Default,,0000,0000,0000,,Esse é o Piccolo!
+Dialogue: Marked=0,0:13:44.24,0:13:48.41,*Default,,0000,0000,0000,,Mas, não é muito\Ndiferente do Ki do Piccolo-san?
+Dialogue: Marked=0,0:13:49.19,0:13:51.62,*Default,,0000,0000,0000,,Incrível! Eles realmente se fundiram!
+Dialogue: Marked=0,0:13:52.72,0:13:56.72,*Default,,0000,0000,0000,,Fundiu-se? Com o Kami-sama?
+Dialogue: Marked=0,0:13:56.72,0:13:59.27,*Default,,0000,0000,0000,,Eles estavam separados há muito tempo.
+Dialogue: Marked=0,0:13:59.27,0:14:00.26,*Default,,0000,0000,0000,,Isso!
+Dialogue: Marked=0,0:14:00.26,0:14:03.76,*Default,,0000,0000,0000,,E como Piccolo tinha uma força inacreditável...
+Dialogue: Marked=0,0:14:04.66,0:14:07.18,*Default,,0000,0000,0000,,Este é o Ki de um Super Namekusei-jin!
+Dialogue: Marked=0,0:14:11.55,0:14:13.27,*Default,,0000,0000,0000,,M-Maravilhoso.
+Dialogue: Marked=0,0:14:14.35,0:14:17.14,*Default,,0000,0000,0000,,Ele conseguiu aumentar tanto assim os poderes?
+Dialogue: Marked=0,0:14:25.74,0:14:30.99,*Default,,0000,0000,0000,,Você ter acabado com as\Npessoas desta cidade foi bom para mim.
+Dialogue: Marked=0,0:14:31.35,0:14:32.28,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:14:39.79,0:14:42.09,*Default,,0000,0000,0000,,O que você quer dizer com isso?
+Dialogue: Marked=0,0:14:43.51,0:14:45.34,*Default,,0000,0000,0000,,Posso ir com tudo.
+Dialogue: Marked=0,0:14:48.53,0:14:49.05,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:15:30.74,0:15:32.89,*Default,,0000,0000,0000,,A-Aquela onda de choque...
+Dialogue: Marked=0,0:15:37.70,0:15:40.07,*Default,,0000,0000,0000,,É lá. Começou.
+Dialogue: Marked=0,0:16:12.44,0:16:15.12,*Default,,0000,0000,0000,,A atmosfera definitivamente tremeu agora.
+Dialogue: Marked=0,0:16:15.12,0:16:15.93,*Default,,0000,0000,0000,,Percebeu?
+Dialogue: Marked=0,0:16:16.35,0:16:17.00,*Default,,0000,0000,0000,,Sim...
+Dialogue: Marked=0,0:16:18.25,0:16:21.77,*Default,,0000,0000,0000,,Será que um vulcão\Nexplodiu em algum lugar? Ou...
+Dialogue: Marked=0,0:16:22.48,0:16:23.95,*Default,,0000,0000,0000,,De qualquer jeito, é longe.
+Dialogue: Marked=0,0:16:25.00,0:16:27.00,*Default,,0000,0000,0000,,Subúrbio de Nishi no Miyako.
+Dialogue: Marked=0,0:16:28.15,0:16:29.23,*Default,,0000,0000,0000,,Nº 16...
+Dialogue: Marked=0,0:16:29.60,0:16:31.74,*Default,,0000,0000,0000,,Dois poderes gigantes\Nprovavelmente estão se confrontando.
+Dialogue: Marked=0,0:16:34.81,0:16:37.70,*Default,,0000,0000,0000,,Você tem um radar de poder instalado?
+Dialogue: Marked=0,0:16:38.81,0:16:40.04,*Default,,0000,0000,0000,,Por que você não falou até agora?
+Dialogue: Marked=0,0:16:40.93,0:16:42.29,*Default,,0000,0000,0000,,Você não perguntou.
+Dialogue: Marked=0,0:16:43.37,0:16:44.27,*Default,,0000,0000,0000,,É mesmo.
+Dialogue: Marked=0,0:16:44.95,0:16:49.09,*Default,,0000,0000,0000,,Bem, pode nos dizer\Nquem está lutando contra quem?
+Dialogue: Marked=0,0:16:50.46,0:16:51.85,*Default,,0000,0000,0000,,Não sei.
+Dialogue: Marked=0,0:16:51.85,0:16:53.88,*Default,,0000,0000,0000,,Não tenho dados sobre nenhum dos dois.
+Dialogue: Marked=0,0:16:55.02,0:16:58.89,*Default,,0000,0000,0000,,Mas, um dos poderes é tão\Ngrande que pode rivalizar com o de vocês.
+Dialogue: Marked=0,0:16:59.73,0:17:00.35,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:17:03.75,0:17:07.04,*Default,,0000,0000,0000,,Parece que o Doutor Gero cometeu outro erro.
+Dialogue: Marked=0,0:17:07.04,0:17:09.84,*Default,,0000,0000,0000,,O seu radar está com defeito.
+Dialogue: Marked=0,0:17:09.84,0:17:13.66,*Default,,0000,0000,0000,,Não existe ninguém neste mundo\Ncom um poder que possa rivalizar ao meu.
+Dialogue: Marked=0,0:17:14.74,0:17:15.57,*Default,,0000,0000,0000,,Que ridículo.
+Dialogue: Marked=0,0:17:18.55,0:17:20.22,*Default,,0000,0000,0000,,Vamos, Nº 16.
+Dialogue: Marked=0,0:19:04.59,0:19:05.41,*Default,,0000,0000,0000,,Isso foi...
+Dialogue: Marked=0,0:19:45.21,0:19:46.51,*Default,,0000,0000,0000,,O seu nível é só isso?
+Dialogue: Marked=0,0:19:47.24,0:19:50.27,*Default,,0000,0000,0000,,Senti que você era\Num monstro inacreditável,
+Dialogue: Marked=0,0:19:50.27,0:19:51.77,*Default,,0000,0000,0000,,mas parece que\Neu não estava certo.
+Dialogue: Marked=0,0:19:52.75,0:19:55.58,*Default,,0000,0000,0000,,Até que você é bom.
+Dialogue: Marked=0,0:19:55.58,0:20:00.07,*Default,,0000,0000,0000,,Mesmo que eu ainda não\Nesteja na minha forma perfeita...
+Dialogue: Marked=0,0:20:01.37,0:20:02.53,*Default,,0000,0000,0000,,F-Forma perfeita?
+Dialogue: Marked=0,0:20:04.99,0:20:06.51,*Default,,0000,0000,0000,,N-Não diga que...
+Dialogue: Marked=0,0:20:07.34,0:20:10.86,*Default,,0000,0000,0000,,É por isso que você\Nestava atacando os humanos?
+Dialogue: Marked=0,0:20:11.63,0:20:15.13,*Default,,0000,0000,0000,,Eu me alimento deles\Ncomo fonte de energia.
+Dialogue: Marked=0,0:20:19.20,0:20:20.59,*Default,,0000,0000,0000,,Responda!
+Dialogue: Marked=0,0:20:20.59,0:20:23.60,*Default,,0000,0000,0000,,Quem foi que o enviou para\Nesta época pela máquina do tempo?
+Dialogue: Marked=0,0:20:25.99,0:20:27.41,*Default,,0000,0000,0000,,Algum companheiro seu?
+Dialogue: Marked=0,0:20:29.85,0:20:33.61,*Default,,0000,0000,0000,,Eu mesmo me enviei.
+Dialogue: Marked=0,0:20:34.13,0:20:38.41,*Default,,0000,0000,0000,,Aquela máquina do tempo\Nera pequena para o meu corpo.
+Dialogue: Marked=0,0:20:38.41,0:20:42.38,*Default,,0000,0000,0000,,Precisei me reduzir em um ovo para caber.
+Dialogue: Marked=0,0:20:43.42,0:20:49.21,*Default,,0000,0000,0000,,Mesmo assim, fico surpreso\Npor você saber da máquina do tempo.
+Dialogue: Marked=0,0:20:49.93,0:20:50.93,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:20:54.94,0:20:57.75,*Default,,0000,0000,0000,,Disso você não sabe...
+Dialogue: Marked=0,0:21:13.17,0:21:16.57,*Default,,0000,0000,0000,,Ahn? É mentira!
+Dialogue: Marked=0,0:21:17.69,0:21:20.11,*Default,,0000,0000,0000,,De novo o Ki do Goku-san!
+Dialogue: Marked=0,0:21:23.60,0:21:24.74,Poder,,0000,0000,0000,,{\fad(200,200)}KA
+Dialogue: Marked=0,0:21:25.52,0:21:27.60,Poder,,0000,0000,0000,,{\fad(200,200)}ME
+Dialogue: Marked=0,0:21:27.60,0:21:28.74,Poder,,0000,0000,0000,,{\fad(200,200)}HA
+Dialogue: Marked=0,0:21:29.42,0:21:32.50,Poder,,0000,0000,0000,,{\fad(200,200)}ME
+Dialogue: Marked=0,0:21:32.61,0:21:33.75,*Default,,0000,0000,0000,,N-Não pode ser!
+Dialogue: Marked=0,0:21:58.45,0:21:59.19,*Default,,0000,0000,0000,,Pai...
+Dialogue: Marked=0,0:22:14.55,0:22:21.46,Narrador,,0000,0000,0000,,O-O quê?\NEste monstro pode usar até o Kamehameha?
+Dialogue: Marked=0,0:22:23.92,0:22:25.77,*Default,,0000,0000,0000,,Uma coisa dessas...
+Dialogue: Marked=0,0:22:26.96,0:22:28.69,Poder,,0000,0000,0000,,{\fad(200,200)}HA!

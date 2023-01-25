@@ -1,0 +1,232 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: LP!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: NB!,MarkerFeltThin-Plain,30,16768443,16777215,16777215,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:44.61,0:13:54.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:54.43,0:01:58.73,*Default,,0000,0000,0000,,Pessoas da Terra! Eu suplico!\NPor favor, dividam sua Genki comigo!
+Dialogue: Marked=0,0:02:01.50,0:02:05.36,Narrador,,0000,0000,0000,,Ouvindo os apelos de Goku,\Nseus velhos amigos...
+Dialogue: Marked=0,0:02:05.50,0:02:07.49,Narrador,,0000,0000,0000,,levantaram as mãos ao céu,\Num após o outro!
+Dialogue: Marked=0,0:02:11.47,0:02:14.25,Narrador,,0000,0000,0000,,E, então, como resultado\Ndas atitudes de Mister Satan,
+Dialogue: Marked=0,0:02:14.25,0:02:17.38,Narrador,,0000,0000,0000,,a Genki de toda a Terra\Nmagnificamente se tornou uma só!
+Dialogue: Marked=0,0:02:23.62,0:02:25.71,*Default,,0000,0000,0000,,Muito bem!\NÉ isso aí! Vão!
+Dialogue: Marked=0,0:02:38.60,0:02:39.77,*Default,,0000,0000,0000,,Está pronta!
+Dialogue: Marked=0,0:02:42.11,0:02:44.88,Narrador,,0000,0000,0000,,A Super Genki-Dama finalmente foi completada!
+Dialogue: Marked=0,0:02:44.88,0:02:50.70,Narrador,,0000,0000,0000,,A longa batalha contra Majin Boo\Nfinalmente está chegando em sua fase final!
+Dialogue: Marked=0,0:02:51.53,0:02:53.45,*Default,,0000,0000,0000,,Afaste-se, Vegeta!
+Dialogue: Marked=0,0:02:53.45,0:02:55.20,*Default,,0000,0000,0000,,Aí vou eu!
+
+Dialogue: Marked=0,0:02:55.73,0:03:03.73,apresDBZ2,,0000,0000,0000,,{\1c&HF4F9F1\3c&HEEFCF5\pos(675,70)\shad3\bord0\fad(400,0)\fscx100\fscy100}episódio 286
+Dialogue: Marked=0,0:02:55.73,0:03:03.73,apresDBZ2,,0000,0000,0000,,{\1c&HF4F9F1\3c&HEEFCF5\pos(370,190)\shad3\bord0\fad(400,0)\fscx130\fscy130}Son Goku é mesmo o mais forte
+Dialogue: Marked=0,0:02:55.73,0:03:03.73,apresDBZ2,,0000,0000,0000,,{\1c&HF4F9F1\3c&HEEFCF5\pos(670,200)\shad3\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-15}!
+Dialogue: Marked=0,0:02:55.73,0:03:03.73,apresDBZ2,,0000,0000,0000,,{\1c&HF4F9F1\3c&HEEFCF5\pos(685,200)\shad3\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-15}!
+Dialogue: Marked=0,0:02:55.73,0:03:03.73,apresDBZ2,,0000,0000,0000,,{\1c&HF4F9F1\3c&HEEFCF5\pos(270,510)\shad3\bord0\fad(400,0)\fscx130\fscy130}Majin Boo é eliminado
+
+Dialogue: Marked=0,0:03:26.28,0:03:28.36,*Default,,0000,0000,0000,,Vegeta, saia logo do caminho!
+Dialogue: Marked=0,0:03:28.95,0:03:33.03,*Default,,0000,0000,0000,,Você poderia calar a boca?!\NEu não consigo mover meu corpo!
+Dialogue: Marked=0,0:03:33.43,0:03:34.95,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:03:35.67,0:03:38.94,*Default,,0000,0000,0000,,Você tem de se esforçar e\Nsair daí de alguma forma, Vegeta!
+Dialogue: Marked=0,0:03:38.94,0:03:40.43,*Default,,0000,0000,0000,,Você será atingido pela explosão!
+Dialogue: Marked=0,0:03:42.09,0:03:44.08,*Default,,0000,0000,0000,,I-Idiota!
+Dialogue: Marked=0,0:03:44.08,0:03:46.18,*Default,,0000,0000,0000,,N-Não se preocupe comigo!
+Dialogue: Marked=0,0:03:46.18,0:03:48.84,*Default,,0000,0000,0000,,Acabe logo com ele, droga!
+Dialogue: Marked=0,0:04:10.76,0:04:12.07,*Default,,0000,0000,0000,,Maldição!
+Dialogue: Marked=0,0:04:16.35,0:04:17.95,*Default,,0000,0000,0000,,V-Vegeta-san está...
+Dialogue: Marked=0,0:04:18.55,0:04:21.21,*Default,,0000,0000,0000,,Assim ele não pode atirar a Genki-Dama!
+Dialogue: Marked=0,0:04:22.07,0:04:23.56,*Default,,0000,0000,0000,,G-Goku-san!
+Dialogue: Marked=0,0:04:30.55,0:04:32.97,*Default,,0000,0000,0000,,É essa piedade que vai custar suas vidas.
+Dialogue: Marked=0,0:04:34.21,0:04:37.47,*Default,,0000,0000,0000,,Boo, é agora!\NAcabe com eles!
+Dialogue: Marked=0,0:04:38.57,0:04:40.49,*Default,,0000,0000,0000,,K-Kakarotto!
+Dialogue: Marked=0,0:04:40.49,0:04:43.28,*Default,,0000,0000,0000,,Se você é um dos guerreiros Saiya-jins,
+Dialogue: Marked=0,0:04:43.28,0:04:44.31,*Default,,0000,0000,0000,,então não hesite!
+Dialogue: Marked=0,0:04:45.11,0:04:46.62,*Default,,0000,0000,0000,,Sim, mas...
+Dialogue: Marked=0,0:05:12.38,0:05:14.19,P!,,0000,0000,0000,,Kakarotto...
+Dialogue: Marked=0,0:05:19.01,0:05:19.47,*Default,,0000,0000,0000,,Vegeta!
+Dialogue: Marked=0,0:05:24.95,0:05:25.89,*Default,,0000,0000,0000,,Merda...
+Dialogue: Marked=0,0:05:35.07,0:05:36.11,*Default,,0000,0000,0000,,Boo...
+Dialogue: Marked=0,0:05:39.88,0:05:41.66,*Default,,0000,0000,0000,,Boo!
+Dialogue: Marked=0,0:05:42.28,0:05:44.71,*Default,,0000,0000,0000,,Boo, você está bem?!
+Dialogue: Marked=0,0:05:45.27,0:05:45.87,*Default,,0000,0000,0000,,Boo...
+Dialogue: Marked=0,0:05:53.91,0:05:54.38,*Default,,0000,0000,0000,,Boo...
+Dialogue: Marked=0,0:06:03.62,0:06:06.19,*Default,,0000,0000,0000,,Boo, o que você...
+Dialogue: Marked=0,0:06:12.54,0:06:14.90,*Default,,0000,0000,0000,,Essa não!
+Dialogue: Marked=0,0:06:14.94,0:06:16.03,*Default,,0000,0000,0000,,Goku!
+Dialogue: Marked=0,0:06:16.03,0:06:20.04,*Default,,0000,0000,0000,,Se você for derrotado, a Genki-Dama pela qual você se esforçou tanto não servirá de nada!
+Dialogue: Marked=0,0:06:20.04,0:06:22.43,*Default,,0000,0000,0000,,Acabe com ele, Goku!\NAcabe com ele!
+Dialogue: Marked=0,0:06:37.86,0:06:39.64,*Default,,0000,0000,0000,,Maldição!
+Dialogue: Marked=0,0:06:46.18,0:06:47.56,*Default,,0000,0000,0000,,Não tem jeito!
+Dialogue: Marked=0,0:06:48.79,0:06:50.19,*Default,,0000,0000,0000,,Vegeta, desculpe!
+Dialogue: Marked=0,0:07:09.66,0:07:10.83,*Default,,0000,0000,0000,,Satan!
+Dialogue: Marked=0,0:07:15.92,0:07:18.01,*Default,,0000,0000,0000,,I-Isso mesmo! Certo...
+Dialogue: Marked=0,0:07:33.59,0:07:35.98,*Default,,0000,0000,0000,,Desculpe, Boo!
+Dialogue: Marked=0,0:07:36.91,0:07:40.49,*Default,,0000,0000,0000,,Droga, faça de uma vez!\NAcabe com ele agora mesmo!
+Dialogue: Marked=0,0:07:47.35,0:07:51.24,*Default,,0000,0000,0000,,Bom trabalho, Satan!\NVocê realmente poderia ser o salvador...
+Dialogue: Marked=0,0:08:01.96,0:08:03.93,*Default,,0000,0000,0000,,do mundo!
+Dialogue: Marked=0,0:08:04.04,0:08:05.57,*Default,,0000,0000,0000,,É o seu fim!
+Dialogue: Marked=0,0:08:19.23,0:08:21.11,*Default,,0000,0000,0000,,Vá!
+Dialogue: Marked=0,0:08:28.24,0:08:29.33,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:08:40.45,0:08:43.72,*Default,,0000,0000,0000,,Droga!\NVá, vá!
+Dialogue: Marked=0,0:09:02.60,0:09:04.07,P!,,0000,0000,0000,,Você pode me ouvir, Gohan?
+Dialogue: Marked=0,0:09:07.74,0:09:10.32,P!,,0000,0000,0000,,Sim, Piccolo-san.\NPode sentir?
+Dialogue: Marked=0,0:09:10.32,0:09:12.38,P!,,0000,0000,0000,,Há uma incrível colisão\Nentre dois Ki acontecendo!
+Dialogue: Marked=0,0:09:12.38,0:09:13.83,P!,,0000,0000,0000,,É o Boo e o meu pai!
+Dialogue: Marked=0,0:09:14.16,0:09:15.28,P!,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:09:15.28,0:09:17.96,P!,,0000,0000,0000,,Aparentemente, eles estão lutando no Kaioshin-kai.
+Dialogue: Marked=0,0:09:19.19,0:09:20.97,P!,,0000,0000,0000,,Naquela região sagrada?
+Dialogue: Marked=0,0:09:20.97,0:09:22.30,P!,,0000,0000,0000,,Então é isso.
+Dialogue: Marked=0,0:09:23.14,0:09:26.97,P!,,0000,0000,0000,,Se estão no Kaioshin-kai, só se o Kibito-san\Nestivesse aqui poderíamos ir ajudá-los.
+Dialogue: Marked=0,0:09:27.83,0:09:29.31,P!,,0000,0000,0000,,Por enquanto, vamos para o Tenkai.
+Dialogue: Marked=0,0:09:29.31,0:09:32.77,P!,,0000,0000,0000,,Lá poderemos sentir o Ki do Goku\Ne dos outros com mais nitidez!
+Dialogue: Marked=0,0:09:33.41,0:09:34.27,P!,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:09:35.07,0:09:37.12,P!,,0000,0000,0000,,Ei, moleques!\NVocês vêm também! Rápido!
+Dialogue: Marked=0,0:09:45.36,0:09:46.86,*Default,,0000,0000,0000,,M-Maldição!
+Dialogue: Marked=0,0:09:50.80,0:09:55.97,*Default,,0000,0000,0000,,A-Aqui não tem só o meu poder!\NEsta é a Genki de todos os terráqueos!
+Dialogue: Marked=0,0:09:57.73,0:10:01.88,*Default,,0000,0000,0000,,É por isso que eu\Nnão posso perder de forma alguma!
+Dialogue: Marked=0,0:10:14.55,0:10:15.56,*Default,,0000,0000,0000,,Piccolo!
+Dialogue: Marked=0,0:10:22.53,0:10:23.79,*Default,,0000,0000,0000,,Gohan!
+Dialogue: Marked=0,0:10:25.23,0:10:26.39,*Default,,0000,0000,0000,,Gohan-kun...
+Dialogue: Marked=0,0:10:28.83,0:10:32.01,*Default,,0000,0000,0000,,Seu bobo, seu bobo!\NEu estava tão preocupada com você!
+Dialogue: Marked=0,0:10:33.22,0:10:36.04,*Default,,0000,0000,0000,,E-Ei, você não precisa chorar tanto...
+Dialogue: Marked=0,0:10:36.83,0:10:40.35,*Default,,0000,0000,0000,,O-O que é isso?\NVocê está deixando sua própria mãe?!
+Dialogue: Marked=0,0:10:40.35,0:10:42.76,*Default,,0000,0000,0000,,Você é o meu Gohan!
+Dialogue: Marked=0,0:10:42.76,0:10:44.31,*Default,,0000,0000,0000,,Bem, bem, está tudo bem, certo?
+Dialogue: Marked=0,0:10:44.31,0:10:46.60,*Default,,0000,0000,0000,,Seria ruim se ele tivesse Complexo de Édipo.
+Dialogue: Marked=0,0:10:56.84,0:10:58.98,*Default,,0000,0000,0000,,Trunks!
+Dialogue: Marked=0,0:10:59.49,0:11:01.94,*Default,,0000,0000,0000,,Goten!
+Dialogue: Marked=0,0:11:03.46,0:11:04.97,P!,,0000,0000,0000,,Isso é estranho...
+Dialogue: Marked=0,0:11:04.97,0:11:08.45,P!,,0000,0000,0000,,O Ki do Goku está\Nficando mais fraco do que antes.
+Dialogue: Marked=0,0:11:09.13,0:11:11.95,*Default,,0000,0000,0000,,P-Por que está demorando tanto, Kakarotto?!
+Dialogue: Marked=0,0:11:14.82,0:11:17.50,*Default,,0000,0000,0000,,Merda!\NNão consigo reunir poder suficiente!
+Dialogue: Marked=0,0:11:22.37,0:11:26.00,*Default,,0000,0000,0000,,Maldição! Maldição!\NEstávamos tão perto!
+Dialogue: Marked=0,0:11:29.96,0:11:33.82,*Default,,0000,0000,0000,,Então é isso.\NNós calculamos mal!
+Dialogue: Marked=0,0:11:33.82,0:11:36.47,*Default,,0000,0000,0000,,O Kakarotto, que está em condição crítica,\Nnão tem forças suficientes...
+Dialogue: Marked=0,0:11:36.47,0:11:38.09,*Default,,0000,0000,0000,,para atirar a Genki-Dama!
+Dialogue: Marked=0,0:11:43.63,0:11:46.48,*Default,,0000,0000,0000,,Merda!
+
+Dialogue: Marked=0,0:11:50.77,0:11:53.51,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:50.77,0:11:53.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:50.77,0:11:53.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:50.77,0:11:53.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:56.78,0:11:59.52,comercial3,,0000,0000,0000,,{\fscx34\fscy45\pos(546,555)\t(9110,0)}animecentral.com.br
+Dialogue: Marked=0,0:11:56.78,0:11:59.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:56.78,0:11:59.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:56.78,0:11:59.52,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:11.31,0:12:12.90,*Default,,0000,0000,0000,,I-Isso é ruim!
+Dialogue: Marked=0,0:12:12.90,0:12:18.44,*Default,,0000,0000,0000,,Será que aquela Genki-Dama ainda\Nestá precisando de um pouco mais de poder?
+Dialogue: Marked=0,0:12:18.44,0:12:22.02,*Default,,0000,0000,0000,,N-Não pode ser!\NNós já esgotamos todo o nosso Ki!
+Dialogue: Marked=0,0:12:22.78,0:12:25.90,*Default,,0000,0000,0000,,Q-Quão durão é esse Boo?
+Dialogue: Marked=0,0:12:29.41,0:12:32.88,*Default,,0000,0000,0000,,Agüente firme, Son Goku!
+Dialogue: Marked=0,0:12:35.33,0:12:39.58,*Default,,0000,0000,0000,,Essa Genki-Dama tem o poder\Ndo Outro Mundo também, você sabe!
+Dialogue: Marked=0,0:13:17.82,0:13:21.58,*Default,,0000,0000,0000,,Dende, faça alguma coisa!\NAumente os poderes do Kakarotto!
+Dialogue: Marked=0,0:13:26.32,0:13:29.55,*Default,,0000,0000,0000,,P-Por favor, me leve\Naté onde o Goku-san está!
+Dialogue: Marked=0,0:13:31.15,0:13:34.35,*Default,,0000,0000,0000,,D-Desculpe, eu usei\Ntoda a minha força antes.
+Dialogue: Marked=0,0:13:34.35,0:13:36.97,*Default,,0000,0000,0000,,Até que eu a recupere,\Neu não posso usar o Shunkan Idou.
+Dialogue: Marked=0,0:13:38.07,0:13:39.47,*Default,,0000,0000,0000,,N-Não pode ser!
+Dialogue: Marked=0,0:13:40.54,0:13:43.15,*Default,,0000,0000,0000,,D-Desculpe, Vegeta-san!
+Dialogue: Marked=0,0:13:43.15,0:13:47.15,*Default,,0000,0000,0000,,Nossas forças também\Nse esgotaram e não podemos ir até aí!
+Dialogue: Marked=0,0:13:48.97,0:13:50.94,*Default,,0000,0000,0000,,Então, é tudo ou nada!
+Dialogue: Marked=0,0:13:50.94,0:13:55.28,*Default,,0000,0000,0000,,Ei, Satan, reúna a Genki\Ndas pessoas da Terra mais uma vez!
+Dialogue: Marked=0,0:14:00.99,0:14:04.33,*Default,,0000,0000,0000,,Aumente o poder da Genki-Dama\Ne acabe com aquele maldito Boo!
+Dialogue: Marked=0,0:14:04.33,0:14:06.12,*Default,,0000,0000,0000,,Faça rápido!
+Dialogue: Marked=0,0:14:13.73,0:14:17.77,*Default,,0000,0000,0000,,{\fad(0,900)}E-Espere, Vegeta!\NVocê não pode fazer isso!
+Dialogue: Marked=0,0:14:22.34,0:14:26.23,*Default,,0000,0000,0000,,Todos ainda não recuperaram suas forças!
+Dialogue: Marked=0,0:14:26.23,0:14:31.62,*Default,,0000,0000,0000,,Se você extrair a Genki\Ndeles novamente, todos vão morrer!
+Dialogue: Marked=0,0:14:41.06,0:14:44.99,*Default,,0000,0000,0000,,Você está tentando matar novamente\Nos terráqueos que você ressuscitou?
+Dialogue: Marked=0,0:14:47.87,0:14:48.92,*Default,,0000,0000,0000,,Cale-se, Kaio!
+Dialogue: Marked=0,0:14:49.71,0:14:53.77,*Default,,0000,0000,0000,,Se perdermos para o Boo deste jeito, eles\Nnão poderão continuar vivos do mesmo jeito!
+Dialogue: Marked=0,0:14:58.73,0:15:01.89,*Default,,0000,0000,0000,,Agora faça!\NAumente o poder da Genki-Dama!
+Dialogue: Marked=0,0:15:11.21,0:15:13.90,*Default,,0000,0000,0000,,Rápido!\NNão temos tempo!
+Dialogue: Marked=0,0:15:19.08,0:15:21.41,*Default,,0000,0000,0000,,É inútil!\NNão consigo reunir poder suficiente!
+Dialogue: Marked=0,0:15:25.11,0:15:28.29,*Default,,0000,0000,0000,,Entendi.\NEu pedirei a todos novamente.
+Dialogue: Marked=0,0:15:31.74,0:15:33.48,*Default,,0000,0000,0000,,Pare, Mister Satan!
+Dialogue: Marked=0,0:15:35.49,0:15:37.30,*Default,,0000,0000,0000,,Contanto que tudo isso fosse...
+Dialogue: Marked=0,0:15:51.74,0:15:54.65,*Default,,0000,0000,0000,,Um sonho meu...
+Dialogue: Marked=0,0:15:55.78,0:15:56.53,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:15:57.71,0:16:02.87,*Default,,0000,0000,0000,,No entanto, isto não é um sonho.\NEu não posso acreditar, mas isto é real!
+Dialogue: Marked=0,0:16:02.87,0:16:06.60,*Default,,0000,0000,0000,,Desculpe, mas eu não posso fazer nada\Nque leve à morte das pessoas da Terra!
+Dialogue: Marked=0,0:16:17.80,0:16:19.67,*Default,,0000,0000,0000,,Ei! Escute bem!
+Dialogue: Marked=0,0:16:19.67,0:16:23.99,*Default,,0000,0000,0000,,Nós podemos trazê-los de volta\Nà vida com as Dragon Balls!
+Dialogue: Marked=0,0:16:25.47,0:16:29.98,*Default,,0000,0000,0000,,Além disso, nós ainda temos\Nnosso terceiro desejo, então...
+Dialogue: Marked=0,0:16:31.28,0:16:32.48,*Default,,0000,0000,0000,,É isso!
+Dialogue: Marked=0,0:16:33.29,0:16:34.98,*Default,,0000,0000,0000,,Dende! O terceiro desejo!
+Dialogue: Marked=0,0:16:36.26,0:16:37.68,*Default,,0000,0000,0000,,I-Isso mesmo!
+Dialogue: Marked=0,0:16:46.11,0:16:49.31,*Default,,0000,0000,0000,,Vocês ainda não têm um terceiro desejo?
+Dialogue: Marked=0,0:16:49.31,0:16:51.87,*Default,,0000,0000,0000,,Nesse caso, se me permitirem, vou desaparecer...
+Dialogue: Marked=0,0:16:52.75,0:16:55.19,*Default,,0000,0000,0000,,E-Espere, Porunga-san!
+Dialogue: Marked=0,0:16:55.19,0:17:00.67,*Default,,0000,0000,0000,,V-Você pode aumentar os poderes\Nde uma pessoa chamada Son Goku,
+Dialogue: Marked=0,0:17:00.67,0:17:03.22,*Default,,0000,0000,0000,,que está lutando contra\NMajin Boo no Kaioshin-kai?
+Dialogue: Marked=0,0:17:03.90,0:17:07.65,*Default,,0000,0000,0000,,Se tudo o que eu tenho a fazer é devolver\No poder de uma pessoa ao seu nível normal,
+Dialogue: Marked=0,0:17:07.65,0:17:08.60,*Default,,0000,0000,0000,,então é possível.
+Dialogue: Marked=0,0:17:09.71,0:17:13.39,*Default,,0000,0000,0000,,Que ótimo!\NE-Então, por favor, faça isso rápido!
+Dialogue: Marked=0,0:17:13.39,0:17:15.00,N!,,0000,0000,0000,,{\fad(300,0)}Idioma Namek
+Dialogue: Marked=0,0:17:15.88,0:17:17.48,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:17:27.92,0:17:30.60,*Default,,0000,0000,0000,,É-É inútil!
+Dialogue: Marked=0,0:17:50.43,0:17:55.64,*Default,,0000,0000,0000,,Goku-san, com o terceiro desejo,\Nsuas forças devem estar voltando ao normal!
+Dialogue: Marked=0,0:17:56.43,0:17:59.98,*Default,,0000,0000,0000,,E-Ela voltou! Ela voltou!
+Dialogue: Marked=0,0:18:00.45,0:18:02.40,*Default,,0000,0000,0000,,Obrigado, Dragon Balls!
+Dialogue: Marked=0,0:18:23.23,0:18:24.59,*Default,,0000,0000,0000,,Ele conseguiu!
+Dialogue: Marked=0,0:18:28.77,0:18:30.47,*Default,,0000,0000,0000,,Muito, muito bom!
+Dialogue: Marked=0,0:18:31.87,0:18:32.72,*Default,,0000,0000,0000,,É isso aí!
+Dialogue: Marked=0,0:18:35.15,0:18:36.52,*Default,,0000,0000,0000,,O Ki do meu pai...
+Dialogue: Marked=0,0:18:38.82,0:18:40.98,*Default,,0000,0000,0000,,Aumentou de repente!
+Dialogue: Marked=0,0:19:03.62,0:19:08.26,*Default,,0000,0000,0000,,Você é incrível!\NMesmo sozinho, você lutou bem!
+Dialogue: Marked=0,0:19:09.89,0:19:11.89,*Default,,0000,0000,0000,,Você mudou de forma tantas vezes...
+Dialogue: Marked=0,0:19:12.83,0:19:14.97,*Default,,0000,0000,0000,,Tantas vezes que eu\Njá estava ficando cansado disso.
+Dialogue: Marked=0,0:20:06.53,0:20:09.11,*Default,,0000,0000,0000,,Da próxima vez, renasça como uma boa pessoa!
+Dialogue: Marked=0,0:20:09.11,0:20:12.11,*Default,,0000,0000,0000,,Eu quero lutar contra você, um contra um.\NEstarei esperando por você!
+Dialogue: Marked=0,0:20:12.77,0:20:15.37,*Default,,0000,0000,0000,,E eu ficarei muito, mas muito mais forte!
+Dialogue: Marked=0,0:20:30.37,0:20:31.09,*Default,,0000,0000,0000,,Adeus!
+Dialogue: Marked=0,0:20:37.71,0:20:38.71,*Default,,0000,0000,0000,,{\pos(700,580)}Goku-san!
+Dialogue: Marked=0,0:20:38.71,0:20:39.63,*Default,,0000,0000,0000,,{\pos(490,310)}Kakarotto!
+Dialogue: Marked=0,0:20:39.63,0:20:40.67,*Default,,0000,0000,0000,,{\pos(100,580)}Pai!
+Dialogue: Marked=0,0:20:40.67,0:20:41.55,*Default,,0000,0000,0000,,{\pos(370,580)}Goku!
+Dialogue: Marked=0,0:20:42.96,0:20:44.27,*Default,,0000,0000,0000,,Vai!
+Dialogue: Marked=0,0:21:43.51,0:21:45.33,*Default,,0000,0000,0000,,E-Está acabado...
+Dialogue: Marked=0,0:21:50.85,0:21:52.46,*Default,,0000,0000,0000,,Demorou demais...
+Dialogue: Marked=0,0:22:19.23,0:22:22.07,Narrador,,0000,0000,0000,,Majin Boo finalmente desapareceu.
+Dialogue: Marked=0,0:22:23.01,0:22:30.05,Narrador,,0000,0000,0000,,Ele foi completamente vaporizado,\Nsem que nenhuma célula restasse.
+
+Dialogue: Marked=0,0:00:25.52,0:00:28.41,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:00:28.41,0:00:28.52,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}Saibankan
+Dialogue: Marked=0,0:01:05.64,0:01:08.70,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(635,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx75\fscy55\pos(237,170)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx55\fscy48\pos(237,245)\t(9110,0)}www.animecentral.com.br

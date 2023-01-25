@@ -1,0 +1,190 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:03:00.48,0:03:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.92,0:02:00.82,Narrador,,0000,0000,0000,,A força de Ginyuu, o Capitão da\NGinyuu Toksentai, faz até um planeta tremer.
+Dialogue: Marked=0,0:02:05.28,0:02:08.11,Narrador,,0000,0000,0000,,Mas, Goku não fica atrás.
+Dialogue: Marked=0,0:02:08.11,0:02:13.48,Narrador,,0000,0000,0000,,Aliás, pode ser que a verdadeira força de Goku seja maior que a de Ginyuu.
+Dialogue: Marked=0,0:02:15.00,0:02:16.63,Poder,,0000,0000,0000,,KAIOKEN
+Dialogue: Marked=0,0:02:25.92,0:02:27.48,*Default,,0000,0000,0000,,90.000!
+Dialogue: Marked=0,0:02:27.48,0:02:28.83,*Default,,0000,0000,0000,,105.000!
+Dialogue: Marked=0,0:02:28.83,0:02:29.99,*Default,,0000,0000,0000,,110.000!
+Dialogue: Marked=0,0:02:29.99,0:02:33.07,*Default,,0000,0000,0000,,A-Ainda está aumentando!
+
+Dialogue: Marked=0,0:02:34.55,0:02:42.54,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 70
+Dialogue: Marked=0,0:02:34.55,0:02:42.54,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(390,200)}{\fad(300,0)}{\fscx170\fscy120}Qual o sentido da luta!?
+Dialogue: Marked=0,0:02:34.55,0:02:42.54,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(390,500)}{\fad(300,0)}{\fscx80\fscy120}O maléfico Freeza se aproxima do Grande Patriarca
+
+Dialogue: Marked=0,0:02:46.97,0:02:51.83,P!,,0000,0000,0000,,117.000... I-Inacreditável...
+Dialogue: Marked=0,0:02:53.10,0:02:58.47,P!,,0000,0000,0000,,A-Até mesmo o poder de luta mais alto\Ndo Capitão Ginyuu chegou a apenas 120.000.
+Dialogue: Marked=0,0:03:10.22,0:03:14.48,*Default,,0000,0000,0000,,120.000... 130.000...
+Dialogue: Marked=0,0:03:28.07,0:03:29.63,*Default,,0000,0000,0000,,140.000!
+Dialogue: Marked=0,0:03:36.13,0:03:41.57,*Default,,0000,0000,0000,,Em todo o universo, eu tenho a força inferior apenas à do Freeza-sama!
+Dialogue: Marked=0,0:03:51.58,0:03:53.48,*Default,,0000,0000,0000,,150.000! Como pode ser?
+Dialogue: Marked=0,0:03:59.60,0:04:01.12,*Default,,0000,0000,0000,,Pare!
+Dialogue: Marked=0,0:04:18.83,0:04:19.67,*Default,,0000,0000,0000,,Maldito!
+Dialogue: Marked=0,0:04:59.46,0:05:01.53,*Default,,0000,0000,0000,,180.000!
+Dialogue: Marked=0,0:05:02.55,0:05:08.06,*Default,,0000,0000,0000,,N-Não posso acreditar!\NEsse é o seu verdadeiro poder!
+Dialogue: Marked=0,0:05:10.20,0:05:15.10,*Default,,0000,0000,0000,,Não há dúvidas de que não temos chance contra ele! Como um Saiya-jin pode ser tão forte?
+Dialogue: Marked=0,0:05:16.63,0:05:18.51,*Default,,0000,0000,0000,,Apenas para que fique bem claro!
+Dialogue: Marked=0,0:05:18.51,0:05:21.90,*Default,,0000,0000,0000,,Eu posso, momentaneamente,\Nextrair muito mais poder do que isso!
+Dialogue: Marked=0,0:05:22.32,0:05:24.74,*Default,,0000,0000,0000,,O-O que você disse?
+Dialogue: Marked=0,0:05:34.22,0:05:36.33,*Default,,0000,0000,0000,,V-Você não poderia...
+Dialogue: Marked=0,0:05:44.13,0:05:45.94,*Default,,0000,0000,0000,,Você não poderia ser...
+Dialogue: Marked=0,0:06:31.80,0:06:35.10,*Default,,0000,0000,0000,,Que terrível!\NEspero poder sair logo deste planeta!
+Dialogue: Marked=0,0:06:45.01,0:06:48.13,*Default,,0000,0000,0000,,As Dragon Balls garantirão qualquer desejo.
+Dialogue: Marked=0,0:07:11.96,0:07:14.72,*Default,,0000,0000,0000,,Grande Patriarca! É o Nail-san!
+Dialogue: Marked=0,0:07:15.81,0:07:17.22,*Default,,0000,0000,0000,,Entendo.
+Dialogue: Marked=0,0:07:33.44,0:07:40.62,*Default,,0000,0000,0000,,Por que você voltou?\NNão lhe mandei ajudar aquelas pessoas da Terra?
+Dialogue: Marked=0,0:07:41.28,0:07:42.91,*Default,,0000,0000,0000,,Minhas sinceras desculpas.
+Dialogue: Marked=0,0:07:42.91,0:07:47.71,*Default,,0000,0000,0000,,Mas, é meu dever, acima de todos\Nos outros, defender a vida do Grande Patriarca.
+Dialogue: Marked=0,0:07:48.14,0:07:49.44,*Default,,0000,0000,0000,,Mesmo assim...
+Dialogue: Marked=0,0:07:49.44,0:07:53.07,*Default,,0000,0000,0000,,Se o Grande Patriarca morrer,\Nas Dragon Balls também desaparecerão.
+Dialogue: Marked=0,0:07:53.83,0:07:57.50,*Default,,0000,0000,0000,,Nesse caso, o desejo dos\Nterráqueos não poderá ser concedido.
+Dialogue: Marked=0,0:08:04.57,0:08:05.88,*Default,,0000,0000,0000,,Muito bem.
+Dialogue: Marked=0,0:08:17.56,0:08:19.58,*Default,,0000,0000,0000,,É logo ali, Kuririn-san.
+Dialogue: Marked=0,0:08:20.03,0:08:21.48,*Default,,0000,0000,0000,,Certo! Vamos!
+Dialogue: Marked=0,0:08:29.13,0:08:30.84,*Default,,0000,0000,0000,,Bulma-san!
+Dialogue: Marked=0,0:08:30.84,0:08:32.27,*Default,,0000,0000,0000,,Viemos pegar o Dragon Radar!
+Dialogue: Marked=0,0:08:45.24,0:08:46.77,*Default,,0000,0000,0000,,Bulma-san!
+Dialogue: Marked=0,0:08:53.33,0:08:56.49,*Default,,0000,0000,0000,,Bulma-san!\NPor favor, saia de onde estiver escondida!
+Dialogue: Marked=0,0:09:10.89,0:09:14.34,*Default,,0000,0000,0000,,Que maravilha...\NE nós ainda não temos tempo a perder.
+Dialogue: Marked=0,0:09:14.34,0:09:18.19,*Default,,0000,0000,0000,,Parece que toda vez que há uma\Nsituação desesperadora, ela não está por perto.
+Dialogue: Marked=0,0:09:18.19,0:09:19.43,*Default,,0000,0000,0000,,Kuririn-san, olhe!
+Dialogue: Marked=0,0:09:24.24,0:09:26.10,*Default,,0000,0000,0000,,Marcas de Jet-Bike!
+Dialogue: Marked=0,0:09:27.07,0:09:30.44,*Default,,0000,0000,0000,,Para onde você acha que a\NBulma-san iria com a Jet-Bike?
+Dialogue: Marked=0,0:09:32.19,0:09:37.09,*Default,,0000,0000,0000,,Será que ela saiu para passear por Namek,\Nou algo assim, em tempos como esse?
+Dialogue: Marked=0,0:09:38.18,0:09:39.45,*Default,,0000,0000,0000,,Passear?
+Dialogue: Marked=0,0:09:40.32,0:09:41.12,*Default,,0000,0000,0000,,Vamos segui-la!
+Dialogue: Marked=0,0:09:42.13,0:09:45.36,*Default,,0000,0000,0000,,Temos que pegar o Dragon Radar com ela e achar as Dragon Balls rapidamente!
+Dialogue: Marked=0,0:09:47.14,0:09:47.72,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:10:12.64,0:10:14.24,*Default,,0000,0000,0000,,Lá está.
+Dialogue: Marked=0,0:10:17.94,0:10:23.08,*Default,,0000,0000,0000,,Então, parece que ele finalmente\Ndescobriu este lugar. Está quase aqui.
+Dialogue: Marked=0,0:10:23.93,0:10:25.34,*Default,,0000,0000,0000,,Dende, venha aqui.
+Dialogue: Marked=0,0:10:25.34,0:10:26.08,*Default,,0000,0000,0000,,Certo.
+Dialogue: Marked=0,0:10:55.24,0:10:57.86,*Default,,0000,0000,0000,,Vá até eles, Dende.
+Dialogue: Marked=0,0:10:58.50,0:11:02.06,*Default,,0000,0000,0000,,Os terráqueos precisam de você.
+Dialogue: Marked=0,0:11:02.06,0:11:06.56,*Default,,0000,0000,0000,,Liberei seu poder oculto, então você\Npoderá chegar lá num curto período de tempo.
+Dialogue: Marked=0,0:11:07.17,0:11:08.30,*Default,,0000,0000,0000,,M-Mas...
+Dialogue: Marked=0,0:11:08.30,0:11:09.87,*Default,,0000,0000,0000,,Ande logo.
+Dialogue: Marked=0,0:11:11.96,0:11:17.55,*Default,,0000,0000,0000,,Certo...\NG-Grande Patriarca, por favor, não morra!
+Dialogue: Marked=0,0:11:34.68,0:11:40.36,*Default,,0000,0000,0000,,Eu me pergunto...\NSerei morto ou morrerei de velhice?
+
+Dialogue: Marked=0,0:11:43.11,0:11:47.34,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:43.11,0:11:47.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:43.11,0:11:47.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:43.11,0:11:47.34,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:50.29,0:11:52.51,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:11:50.29,0:11:52.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:50.29,0:11:52.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:50.29,0:11:52.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:53.14,0:11:55.28,*Default,,0000,0000,0000,,V-Você não poderia ser um...
+Dialogue: Marked=0,0:11:56.41,0:12:01.64,*Default,,0000,0000,0000,,S-Super Saiya-jin, poderia?
+Dialogue: Marked=0,0:12:04.39,0:12:07.40,*Default,,0000,0000,0000,,Vegeta disse a mesma coisa mais cedo.
+Dialogue: Marked=0,0:12:07.40,0:12:10.60,*Default,,0000,0000,0000,,Mas, eu não tenho idéia\Ndo que vocês estão falando.
+Dialogue: Marked=0,0:12:11.28,0:12:14.94,*Default,,0000,0000,0000,,Um Super Saiya-jin! O lendário guerreiro\Nque é mais forte do que qualquer outro!
+Dialogue: Marked=0,0:12:17.05,0:12:19.44,*Default,,0000,0000,0000,,Como isso pôde acontecer?
+Dialogue: Marked=0,0:12:20.06,0:12:23.41,*Default,,0000,0000,0000,,E-Ele é um... Ele é um...
+Dialogue: Marked=0,0:12:23.76,0:12:28.87,*Default,,0000,0000,0000,,Super Saiya-jin, a única coisa que Freeza-sama teme?
+Dialogue: Marked=0,0:12:29.90,0:12:33.12,*Default,,0000,0000,0000,,Me desculpe, mas não\Nhá como você me vencer!
+Dialogue: Marked=0,0:12:34.36,0:12:36.61,*Default,,0000,0000,0000,,Eu não quero lutar uma batalha sem sentido.
+Dialogue: Marked=0,0:12:38.49,0:12:40.96,*Default,,0000,0000,0000,,Saiam deste planeta.
+Dialogue: Marked=0,0:12:46.19,0:12:50.27,*Default,,0000,0000,0000,,O quê? Você quis dizer isso mesmo?
+Dialogue: Marked=0,0:12:52.03,0:12:55.26,*Default,,0000,0000,0000,,Sim, isso mesmo. Principalmente você.
+Dialogue: Marked=0,0:12:55.26,0:12:57.27,*Default,,0000,0000,0000,,Você é um guerreiro muito mais justo\Ndo que eu pensei! Não quero matá-lo...
+Dialogue: Marked=0,0:12:58.05,0:12:59.72,*Default,,0000,0000,0000,,Não quer me matar?
+Dialogue: Marked=0,0:13:03.13,0:13:06.29,P!,,0000,0000,0000,,Não quer lutar batalhas sem sentido?
+Dialogue: Marked=0,0:13:14.78,0:13:17.90,*Default,,0000,0000,0000,,Sair deste planeta?
+Dialogue: Marked=0,0:13:20.25,0:13:26.57,*Default,,0000,0000,0000,,Um Super Saiya-jin deveria ser o guerreiro\Nmais forte do universo e adorar batalhas.
+Dialogue: Marked=0,0:13:26.57,0:13:32.70,*Default,,0000,0000,0000,,É mesmo! Então, você não é\Nnem um pouco Super Saiya-jin, certo?
+Dialogue: Marked=0,0:13:34.51,0:13:36.98,*Default,,0000,0000,0000,,Você não se tornou um\NSuper Saiya-jin por completo.
+Dialogue: Marked=0,0:13:37.41,0:13:41.70,*Default,,0000,0000,0000,,E-Entendo!\NVocê não é mesmo um Super Saiya-jin...
+Dialogue: Marked=0,0:13:43.98,0:13:45.72,*Default,,0000,0000,0000,,Não é mesmo?
+Dialogue: Marked=0,0:14:01.39,0:14:05.90,*Default,,0000,0000,0000,,Entendo.\NEntão é ali que os Namekusei-jins estão.
+Dialogue: Marked=0,0:14:31.51,0:14:36.08,*Default,,0000,0000,0000,,Ah, muito bem. Acho que posso\Ndeixar um pedaço de lixo sozinho.
+Dialogue: Marked=0,0:14:46.17,0:14:47.51,*Default,,0000,0000,0000,,Ele está aqui.
+Dialogue: Marked=0,0:15:25.82,0:15:26.91,*Default,,0000,0000,0000,,O que você quer?
+Dialogue: Marked=0,0:15:28.22,0:15:34.93,*Default,,0000,0000,0000,,Meu nome é Freeza, e tenho um desejo que quero realizar usando as Dragon Balls.
+Dialogue: Marked=0,0:15:35.62,0:15:41.13,*Default,,0000,0000,0000,,Consegui juntar todas as sete, mas, por\Nalguma razão, não consigo realizar meu desejo.
+Dialogue: Marked=0,0:15:43.09,0:15:45.34,*Default,,0000,0000,0000,,E, então, pensei que você poderia me dizer.
+Dialogue: Marked=0,0:15:46.76,0:15:49.82,*Default,,0000,0000,0000,,Como alguém pode realizar seu desejo?
+Dialogue: Marked=0,0:15:50.78,0:15:55.49,*Default,,0000,0000,0000,,Convido-o a voltar para o lugar de\Nonde veio. Não posso contar a alguém maléfico.
+Dialogue: Marked=0,0:16:15.67,0:16:19.30,*Default,,0000,0000,0000,,Bem, bem...\NVocês ainda têm amigos por aí?
+Dialogue: Marked=0,0:16:19.30,0:16:22.75,*Default,,0000,0000,0000,,Eles devem ter um poder de luta bem baixo.
+Dialogue: Marked=0,0:16:22.75,0:16:26.11,*Default,,0000,0000,0000,,Meu Scouter não pôde identificá-los até agora.
+Dialogue: Marked=0,0:16:27.46,0:16:28.57,*Default,,0000,0000,0000,,Eles!
+Dialogue: Marked=0,0:16:48.25,0:16:48.71,*Default,,0000,0000,0000,,- Sim.
+Dialogue: Marked=0,0:16:46.69,0:16:48.71,*Default,,0000,0000,0000,,- Parece que chegamos bem a tempo.
+Dialogue: Marked=0,0:16:49.49,0:16:53.02,*Default,,0000,0000,0000,,P-Parem! Afastem-se!\NVocês não têm chance contra ele!
+Dialogue: Marked=0,0:16:54.17,0:16:57.76,*Default,,0000,0000,0000,,Talvez não tenhamos chance, mas\Nainda podemos acertar um soco ou dois!
+Dialogue: Marked=0,0:16:59.72,0:17:03.27,*Default,,0000,0000,0000,,Afinal, também somos do tipo guerreiro, como você.
+Dialogue: Marked=0,0:17:04.40,0:17:05.89,*Default,,0000,0000,0000,,Tipo guerreiro?
+Dialogue: Marked=0,0:17:17.28,0:17:20.98,*Default,,0000,0000,0000,,Oh, aqui diz que vocês três têm\Num poder de luta perto de 10.000.
+Dialogue: Marked=0,0:17:20.98,0:17:24.33,*Default,,0000,0000,0000,,Acho que é o que devo\Nesperar de guerreiros deste planeta.
+Dialogue: Marked=0,0:17:24.83,0:17:27.80,*Default,,0000,0000,0000,,Minha preocupação é com o nível do lixo.
+Dialogue: Marked=0,0:17:29.80,0:17:30.88,*Default,,0000,0000,0000,,O-O que você disse?
+Dialogue: Marked=0,0:17:35.09,0:17:36.13,*Default,,0000,0000,0000,,Parem! Suas mortes serão em vão!
+Dialogue: Marked=0,0:17:38.29,0:17:41.14,*Default,,0000,0000,0000,,Nail, você cuida do Grande Patriarca!
+Dialogue: Marked=0,0:17:44.93,0:17:48.15,P!,,0000,0000,0000,,Oh, minhas crianças...
+Dialogue: Marked=0,0:18:32.60,0:18:36.32,*Default,,0000,0000,0000,,Você sabe qual é o código das Dragon Balls?
+Dialogue: Marked=0,0:18:42.90,0:18:43.83,*Default,,0000,0000,0000,,Você sabe?
+Dialogue: Marked=0,0:18:51.36,0:18:54.91,*Default,,0000,0000,0000,,Não, acho que um lixo como você não sabe.
+Dialogue: Marked=0,0:18:56.51,0:18:58.76,*Default,,0000,0000,0000,,Foi tolice minha ter perguntado.
+Dialogue: Marked=0,0:19:20.49,0:19:26.41,*Default,,0000,0000,0000,,Seria melhor para você se fizesse o que eu digo.\NNão há razão para eu não matá-lo.
+Dialogue: Marked=0,0:19:27.17,0:19:29.38,*Default,,0000,0000,0000,,Há dois de vocês aqui mesmo.
+Dialogue: Marked=0,0:19:29.38,0:19:32.42,*Default,,0000,0000,0000,,Qualquer um dos dois\Npode responder à minha pergunta.
+Dialogue: Marked=0,0:19:33.26,0:19:40.88,*Default,,0000,0000,0000,,Faça como quiser. Mas, antes de\Nlutarmos, deixe-me dizer uma coisa.
+Dialogue: Marked=0,0:19:41.53,0:19:44.51,*Default,,0000,0000,0000,,O outro que mora nesta casa é o Grande Patriarca de Namek.
+Dialogue: Marked=0,0:19:44.51,0:19:47.10,*Default,,0000,0000,0000,,As Dragon Balls são\Ncriação do Grande Patriarca.
+Dialogue: Marked=0,0:19:49.30,0:19:53.25,*Default,,0000,0000,0000,,Ouça bem e coloque isso nessa sua cabeça!
+Dialogue: Marked=0,0:19:53.25,0:19:56.90,*Default,,0000,0000,0000,,Se matar o Grande Patriarca,\Nas Dragon Balls desaparecerão!
+Dialogue: Marked=0,0:19:59.31,0:20:00.44,*Default,,0000,0000,0000,,Grande Patriarca?
+Dialogue: Marked=0,0:20:30.69,0:20:34.73,*Default,,0000,0000,0000,,Entendo.\NParece que você está dizendo a verdade.
+Dialogue: Marked=0,0:20:35.56,0:20:38.97,*Default,,0000,0000,0000,,Ele certamente é diferente dos outros Namekusei-jins.
+Dialogue: Marked=0,0:20:41.32,0:20:46.74,*Default,,0000,0000,0000,,Grande Patriarca, acho que\Nvocê não me ajudará, certo?
+Dialogue: Marked=0,0:20:48.29,0:20:55.50,*Default,,0000,0000,0000,,Mas, você reconsideraria se este\Ncavalheiro aqui fosse morto, não é?
+Dialogue: Marked=0,0:20:55.91,0:21:00.51,*Default,,0000,0000,0000,,Nail não será derrotado tão facilmente como pensa.
+Dialogue: Marked=0,0:21:01.02,0:21:05.74,*Default,,0000,0000,0000,,{\fad(0,300)}Ele é o mais forte\NNamekusei-jin do tipo guerreiro.
+Dialogue: Marked=0,0:21:06.43,0:21:12.02,*Default,,0000,0000,0000,,Não poderá fazer com ele o que tem feito\Ncom os outros Namekusei-jins até agora.
+Dialogue: Marked=0,0:21:16.81,0:21:21.03,*Default,,0000,0000,0000,,Obviamente, você não tem a intenção de\Nme contar, não importa o que aconteça, não é?
+Dialogue: Marked=0,0:21:21.78,0:21:27.08,P!,,0000,0000,0000,,É com você, Nail.\NGanhe o maior tempo possível.
+Dialogue: Marked=0,0:21:27.08,0:21:28.03,P!,,0000,0000,0000,,Entendido.
+Dialogue: Marked=0,0:21:32.30,0:21:35.85,*Default,,0000,0000,0000,,Muito bem.\NSe você está determinado a isso...
+Dialogue: Marked=0,0:21:35.85,0:21:40.55,*Default,,0000,0000,0000,,Vou lhe mostrar o quão terrível o ser\Nmais poderoso do universo pode ser.
+Dialogue: Marked=0,0:21:58.78,0:22:06.59,*Default,,0000,0000,0000,,Você não é um Super Saiya-jin.\NMas, pelo menos, é muito mais forte do que eu.
+Dialogue: Marked=0,0:22:11.27,0:22:13.51,*Default,,0000,0000,0000,,Uma força incrível!
+Dialogue: Marked=0,0:22:16.89,0:22:20.48,Narrador,,0000,0000,0000,,O maléfico Freeza se aproxima do Grande Patriarca e de Nail.
+Dialogue: Marked=0,0:22:20.48,0:22:24.65,Narrador,,0000,0000,0000,,Será que eles conseguirão manter o\Nsegredo das Dragon Balls em segurança?
+Dialogue: Marked=0,0:22:24.65,0:22:29.18,Narrador,,0000,0000,0000,,E qual será o resultado da luta entre Goku e Ginyuu?

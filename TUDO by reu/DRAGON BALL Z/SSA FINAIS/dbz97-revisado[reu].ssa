@@ -1,0 +1,189 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:10.61,0:13:20.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:16.09,0:02:19.13,*Default,,0000,0000,0000,,Q-Q-Quem é você, miserável?!
+Dialogue: Marked=0,0:02:19.67,0:02:21.87,*Default,,0000,0000,0000,,Você já sabe muito bem, não sabe?
+Dialogue: Marked=0,0:02:23.67,0:02:27.23,*Default,,0000,0000,0000,,Eu sou o Saiya-jin que\Nveio da Terra para derrotá-lo.
+Dialogue: Marked=0,0:02:30.17,0:02:32.46,*Default,,0000,0000,0000,,Apesar da minha calma e\Ndo meu coração tranqüilo,
+Dialogue: Marked=0,0:02:32.46,0:02:35.11,*Default,,0000,0000,0000,,sou o guerreiro lendário,\Ndespertado por uma ira intensa.
+Dialogue: Marked=0,0:02:47.07,0:02:50.08,*Default,,0000,0000,0000,,Super Saiya-jin, Son Goku!
+
+Dialogue: Marked=0,0:02:50.71,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,70)}{\fad(300,0)}{\fscx100\fscy100}Episódio 97
+Dialogue: Marked=0,0:02:50.71,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(420,150)}{\fad(300,0)}{\fscx140\fscy150}O Planeta Namek explodirá!?
+Dialogue: Marked=0,0:02:50.71,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,490)}{\fad(300,0)}{\fscx115\fscy120}O raio maligno que atravessa o chão
+
+Dialogue: Marked=0,0:03:09.21,0:03:14.61,*Default,NTP,0000,0000,0000,!Effect,C-Concordo. Parece que, de alguma forma,\Nvocê realmente é um Super Saiya-jin.
+Dialogue: Marked=0,0:03:22.38,0:03:26.41,*Default,NTP,0000,0000,0000,!Effect,Tem um coração calmo e tranqüilo, e então foi despertado por uma intensa ira, não é?
+Dialogue: Marked=0,0:03:26.95,0:03:28.11,*Default,NTP,0000,0000,0000,!Effect,Entendo.
+Dialogue: Marked=0,0:03:28.11,0:03:31.94,*Default,,0000,0000,0000,,É por isso que, não importa o quanto Vegeta tenha tentado, ele não poderia se tornar um.
+Dialogue: Marked=0,0:03:50.37,0:03:54.73,P!,NTP,0000,0000,0000,!Effect,Kuririn-san... Dende...\NMeu pai com certeza vai vencer Freeza!
+Dialogue: Marked=0,0:03:54.73,0:03:59.07,P!,,0000,0000,0000,,Ele com certeza vai vencer\Ne vingá-los, Kuririn-san e Dende!
+Dialogue: Marked=0,0:04:36.03,0:04:38.11,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:04:46.64,0:04:53.18,P!,NTP,0000,0000,0000,!Effect,Q-Que humilhação da minha parte!\NEu, Freeza-sama, sofrendo assim por causa dele.
+Dialogue: Marked=0,0:04:53.18,0:04:56.75,P!,NTP,0000,0000,0000,!Effect,Por essa escória de macaco\NSaiya-jin! É inacreditável!
+Dialogue: Marked=0,0:04:57.07,0:05:01.42,P!,,0000,0000,0000,,Eu não achava que algo\Nassim pudesse acontecer!
+Dialogue: Marked=0,0:05:20.73,0:05:23.15,*Default,NTP,0000,0000,0000,!Effect,Perdemos o contato com os\Nsenhores da Ginyuu Toksentai!
+Dialogue: Marked=0,0:05:23.89,0:05:26.37,*Default,NTP,0000,0000,0000,!Effect,E o sinal do Scouter do\NFreeza-sama também desapareceu!
+Dialogue: Marked=0,0:05:27.37,0:05:32.05,*Default,NTP,0000,0000,0000,!Effect,O quê? O que diabos está\Nacontecendo no Planeta Namek?!
+Dialogue: Marked=0,0:05:32.05,0:05:34.47,*Default,NTP,0000,0000,0000,!Effect,Talvez finalmente tenha chegado!
+Dialogue: Marked=0,0:05:34.47,0:05:36.21,*Default,NTP,0000,0000,0000,!Effect,Uma nova era!
+Dialogue: Marked=0,0:05:36.99,0:05:38.46,*Default,NTP,0000,0000,0000,!Effect,Uma nova era?
+Dialogue: Marked=0,0:05:38.46,0:05:42.21,*Default,NTP,0000,0000,0000,!Effect,Freeza, que arrasou minha raça,\Nfinalmente foi derrotado!
+Dialogue: Marked=0,0:06:12.76,0:06:14.66,*Default,NTP,0000,0000,0000,!Effect,Seu idiota miserável!
+Dialogue: Marked=0,0:06:15.92,0:06:17.83,*Default,NTP,0000,0000,0000,!Effect,C-Comandante!
+Dialogue: Marked=0,0:06:18.43,0:06:22.81,*Default,NTP,0000,0000,0000,!Effect,Se nós estamos aqui, hoje,\Ntriunfantes sobre o resto do universo,
+Dialogue: Marked=0,0:06:22.81,0:06:25.34,*Default,,0000,0000,0000,,é somente por causa do Freeza-sama!
+Dialogue: Marked=0,0:06:25.71,0:06:31.64,*Default,NTP,0000,0000,0000,!Effect,E isso não é tudo! Ele me prometeu que, algum dia, minha raça será maior que qualquer outra!
+Dialogue: Marked=0,0:06:32.33,0:06:34.10,*Default,NTP,0000,0000,0000,!Effect,Não vai ser assim com suas raças, também?
+Dialogue: Marked=0,0:06:39.91,0:06:44.86,*Default,NTP,0000,0000,0000,!Effect,Freeza-sama é o salvador do universo!\NTraições não serão toleradas!
+Dialogue: Marked=0,0:06:52.33,0:06:55.13,*Default,NTP,0000,0000,0000,!Effect,Sinal nos sensores! É o Freeza-sama!
+Dialogue: Marked=0,0:06:55.13,0:06:57.14,*Default,NTP,0000,0000,0000,!Effect,É uma leitura incrível de poder de luta!
+Dialogue: Marked=0,0:06:58.24,0:07:01.79,*Default,NTP,0000,0000,0000,!Effect,É isso! Freeza-sama finalmente\Ndeve estar lutando a sério!
+Dialogue: Marked=0,0:07:02.35,0:07:05.13,*Default,NTP,0000,0000,0000,!Effect,Outra!\NO que é essa outra leitura gigante?
+Dialogue: Marked=0,0:07:05.65,0:07:07.10,*Default,NTP,0000,0000,0000,!Effect,Qual o problema?
+Dialogue: Marked=0,0:07:07.10,0:07:10.09,*Default,NTP,0000,0000,0000,!Effect,Tem outra incrível leitura\Nbem perto do Freeza-sama!
+Dialogue: Marked=0,0:07:10.73,0:07:11.59,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:07:12.15,0:07:14.25,*Default,,0000,0000,0000,,V-Vou dar o nível da leitura!
+Dialogue: Marked=0,0:07:55.11,0:07:57.10,*Default,NTP,0000,0000,0000,!Effect,É o seu fim, Freeza.
+Dialogue: Marked=0,0:08:04.73,0:08:06.65,*Default,NTP,0000,0000,0000,!Effect,E-Eu sou...
+Dialogue: Marked=0,0:08:08.69,0:08:14.10,*Default,NTP,0000,0000,0000,!Effect,Eu sou Freeza!\NVocê está me dizendo que estou acabado?!
+Dialogue: Marked=0,0:09:26.74,0:09:27.27,*Default,NTP,0000,0000,0000,!Effect,Lá está!
+Dialogue: Marked=0,0:09:30.90,0:09:33.90,*Default,NTP,0000,0000,0000,!Effect,A nave que o meu pai veio!
+Dialogue: Marked=0,0:09:45.97,0:09:50.67,*Default,NTP,0000,0000,0000,!Effect,Ainda não?! Se você não acabar\Ncom isso, vou ficar muito nervosa!
+Dialogue: Marked=0,0:09:52.05,0:09:54.88,*Default,NTP,0000,0000,0000,!Effect,Eu disse que seria muito fácil...
+Dialogue: Marked=0,0:09:54.88,0:09:59.68,*Default,,0000,0000,0000,,Ai! Se você não me apressar...
+Dialogue: Marked=0,0:10:05.78,0:10:08.65,*Default,NTP,0000,0000,0000,!Effect,Alguém entrou na nave do Goku!
+Dialogue: Marked=0,0:10:12.46,0:10:15.15,*Default,NTP,0000,0000,0000,!Effect,Eu instalei sensores de\Nmovimento dentro dela...
+Dialogue: Marked=0,0:10:16.67,0:10:18.66,*Default,NTP,0000,0000,0000,!Effect,Então, quem poderia ser?
+Dialogue: Marked=0,0:10:27.46,0:10:28.25,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:10:31.55,0:10:34.51,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san, espere aqui um momento!
+Dialogue: Marked=0,0:10:37.35,0:10:38.76,Radio,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:10:40.23,0:10:41.14,*Default,NTP,0000,0000,0000,!Effect,Mãe!
+Dialogue: Marked=0,0:10:41.68,0:10:48.14,Radio,NTP,0000,0000,0000,!Effect,Gohan-chan! Você está vivo, não está?!\NEstou tão feliz! Estou realmente feliz!
+Dialogue: Marked=0,0:10:51.12,0:10:52.15,*Default,NTP,0000,0000,0000,!Effect,Mãe!
+Dialogue: Marked=0,0:10:53.21,0:10:56.41,Radio,NTP,0000,0000,0000,!Effect,- Gohan, e o Goku?!\N- O que você está fazendo?
+Dialogue: Marked=0,0:10:56.41,0:10:58.03,Radio,NTP,0000,0000,0000,!Effect,Como estão o Goku e o Kuririn?!
+Dialogue: Marked=0,0:10:59.17,0:11:02.01,*Default,NTP,0000,0000,0000,!Effect,Meu pai está... lutando contra Freeza!
+Dialogue: Marked=0,0:11:03.51,0:11:06.04,*Default,NTP,0000,0000,0000,!Effect,O Kuririn-san... morreu.
+Dialogue: Marked=0,0:11:06.72,0:11:08.25,*Default,NTP,0000,0000,0000,!Effect,O-O que você disse?!
+Dialogue: Marked=0,0:11:08.25,0:11:12.54,Radio,,0000,0000,0000,,Desculpe, mas não tenho tempo\Npara entrar em detalhes agora.
+Dialogue: Marked=0,0:11:13.84,0:11:15.38,P!,NTP,0000,0000,0000,!Effect,Preciso ir pegar a Bulma-san!
+Dialogue: Marked=0,0:11:17.40,0:11:21.30,Radio,NTP,0000,0000,0000,!Effect,Gohan-chan! Não vá a\Nlugar algum! Fique onde está!
+Dialogue: Marked=0,0:11:21.97,0:11:25.56,*Default,NTP,0000,0000,0000,!Effect,- Estou esperando aqui por você!\N- Espere, Gohan! Falei para esperar!
+Dialogue: Marked=0,0:11:44.10,0:11:47.42,*Default,NTP,0000,0000,0000,!Effect,Se é para eu morrer\Npara alguém como você...
+Dialogue: Marked=0,0:11:47.42,0:11:49.70,*Default,NTP,0000,0000,0000,!Effect,Eu vou morrer pelas\Nminhas próprias mãos.
+Dialogue: Marked=0,0:11:51.71,0:11:53.33,*Default,NTP,0000,0000,0000,!Effect,Como quiser.
+Dialogue: Marked=0,0:12:13.61,0:12:19.07,*Default,NTP,0000,0000,0000,!Effect,Idiota. Você acha que eu\Nvou morrer? Você que vai.
+Dialogue: Marked=0,0:12:21.02,0:12:24.71,*Default,NTP,0000,0000,0000,!Effect,Eu posso continuar a viver,\Nmesmo no vácuo do espaço.
+Dialogue: Marked=0,0:12:24.71,0:12:28.33,*Default,,0000,0000,0000,,Mas, será que vocês,\NSaiya-jins, também podem?
+Dialogue: Marked=0,0:12:34.18,0:12:36.84,*Default,NTP,0000,0000,0000,!Effect,Desapareça junto\Ncom este planeta, maldito!
+Dialogue: Marked=0,0:12:40.30,0:12:41.72,*Default,NTP,0000,0000,0000,!Effect,Exploda!
+
+Dialogue: Marked=0,0:12:49.18,0:12:53.40,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:49.18,0:12:53.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:49.18,0:12:53.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:49.18,0:12:53.40,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:56.35,0:12:58.57,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:56.35,0:12:58.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:56.35,0:12:58.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:56.35,0:12:58.57,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:58.91,0:13:01.94,*Default,,0000,0000,0000,,{\fad(0,300)}Desapareça junto\Ncom este planeta, maldito!
+Dialogue: Marked=0,0:13:05.83,0:13:06.78,*Default,,0000,0000,0000,,Essa não!
+Dialogue: Marked=0,0:13:42.26,0:13:45.04,*Default,NTP,0000,0000,0000,!Effect,O-O que é aquilo?\NO que é aquela luz?!
+Dialogue: Marked=0,0:13:45.04,0:13:47.11,*Default,,0000,0000,0000,,Gohan-chan! Gohan-chan!
+Dialogue: Marked=0,0:13:57.61,0:14:00.63,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}O que é isso?\NO que está acontecendo?!
+Dialogue: Marked=0,0:14:17.52,0:14:19.52,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Pai!
+Dialogue: Marked=0,0:15:01.13,0:15:02.90,*Default,NTP,0000,0000,0000,!Effect,K-Kaio-sama!
+Dialogue: Marked=0,0:15:12.90,0:15:14.02,*Default,NTP,0000,0000,0000,!Effect,Não me diga que...
+Dialogue: Marked=0,0:15:15.14,0:15:17.87,*Default,NTP,0000,0000,0000,!Effect,Son Goku lutou bem.
+Dialogue: Marked=0,0:15:21.82,0:15:29.06,*Default,NTP,0000,0000,0000,!Effect,Contra Freeza, sua suprema força\Nprovou sua vitória garantida na luta.
+Dialogue: Marked=0,0:15:30.32,0:15:32.26,*Default,NTP,0000,0000,0000,!Effect,Então, o Goku está...
+Dialogue: Marked=0,0:15:32.69,0:15:34.64,*Default,NTP,0000,0000,0000,!Effect,Ele derrotou Freeza, não foi?
+Dialogue: Marked=0,0:15:35.68,0:15:39.14,*Default,NTP,0000,0000,0000,!Effect,Não. Estando encurralado, Freeza...
+Dialogue: Marked=0,0:15:46.23,0:15:50.15,*Default,NTP,0000,0000,0000,!Effect,Destruiu o Planeta Namek por completo.
+Dialogue: Marked=0,0:15:51.60,0:15:54.16,*Default,NTP,0000,0000,0000,!Effect,Mas... E o Goku e os outros?
+Dialogue: Marked=0,0:15:55.76,0:16:00.19,*Default,NTP,0000,0000,0000,!Effect,Se o planeta foi perdido,\Nninguém pode sobreviver.
+Dialogue: Marked=0,0:16:00.19,0:16:01.67,*Default,,0000,0000,0000,,Ninguém, exceto Freeza.
+Dialogue: Marked=0,0:16:03.53,0:16:05.17,*Default,NTP,0000,0000,0000,!Effect,N-Não pode ser!
+Dialogue: Marked=0,0:16:09.31,0:16:12.22,*Default,NTP,0000,0000,0000,!Effect,Está acabado. Tudo.
+Dialogue: Marked=0,0:16:13.39,0:16:15.68,Radio,NTP,0000,0000,0000,!Effect,Kaio-sama...
+Dialogue: Marked=0,0:16:16.20,0:16:20.18,Radio,NTP,0000,0000,0000,!Effect,Kaio-sama, consegue me ouvir?
+Dialogue: Marked=0,0:16:20.71,0:16:24.69,Radio,NTP,0000,0000,0000,!Effect,Sou eu, o Kami da Terra.
+Dialogue: Marked=0,0:16:26.71,0:16:29.69,*Default,NTP,0000,0000,0000,!Effect,Sim. O que foi? Estou ouvindo!
+Dialogue: Marked=0,0:16:30.18,0:16:35.70,*Default,NTP,0000,0000,0000,!Effect,Mandei o Mister Popo reunir\Nas Dragon Balls da Terra agora.
+Dialogue: Marked=0,0:16:36.24,0:16:40.20,*Default,NTP,0000,0000,0000,!Effect,Acredito que ele\Nconseguirá as sete rapidamente.
+Dialogue: Marked=0,0:16:40.79,0:16:41.81,*Default,NTP,0000,0000,0000,!Effect,É mesmo?
+Dialogue: Marked=0,0:16:42.77,0:16:50.96,*Default,NTP,0000,0000,0000,!Effect,Se puder esperar mais um pouco, posso ressuscitar os que estão sob tutela do Kaio-sama.
+Dialogue: Marked=0,0:16:54.47,0:16:59.97,*Default,NTP,0000,0000,0000,!Effect,Mas, o Chaos está morto\Npela segunda vez, então...
+Dialogue: Marked=0,0:17:01.50,0:17:03.30,*Default,NTP,0000,0000,0000,!Effect,Isso é...
+Dialogue: Marked=0,0:17:05.03,0:17:08.86,*Default,NTP,0000,0000,0000,!Effect,U-Um momento! Você está vivo?
+Dialogue: Marked=0,0:17:11.35,0:17:16.57,*Default,NTP,0000,0000,0000,!Effect,S-Sim!\NGraças às Dragon Balls do Planeta Namek...
+Dialogue: Marked=0,0:17:16.57,0:17:21.37,Radio,NTP,0000,0000,0000,!Effect,Isso quer dizer que o Piccolo\Ntambém não está morto, correto?
+Dialogue: Marked=0,0:17:21.54,0:17:27.04,*Default,NTP,0000,0000,0000,!Effect,C-Como acho que o senhor deve saber, Piccolo e eu originalmente éramos um único ser...
+Dialogue: Marked=0,0:17:28.11,0:17:31.55,*Default,NTP,0000,0000,0000,!Effect,- Isso mesmo! Então, talvez...\N- Kaio-sama!
+Dialogue: Marked=0,0:17:37.59,0:17:44.06,Radio,NTP,0000,0000,0000,!Effect,Ei, Kaio-sama? Kaio-sama? Está me ouvindo?
+Dialogue: Marked=0,0:17:44.06,0:17:45.73,*Default,NTP,0000,0000,0000,!Effect,Ei, cale a boca!
+Dialogue: Marked=0,0:17:46.10,0:17:47.44,*Default,,0000,0000,0000,,Ah, que susto!
+Dialogue: Marked=0,0:18:12.91,0:18:17.93,P!,NTP,0000,0000,0000,!Effect,Eu não posso morrer...\Nem um lugar como este!
+Dialogue: Marked=0,0:18:40.57,0:18:41.83,P!,NTP,0000,0000,0000,!Effect,Pai!
+Dialogue: Marked=0,0:18:57.29,0:19:00.87,*Default,NTP,0000,0000,0000,!Effect,O Planeta Namek não foi destruído!
+Dialogue: Marked=0,0:19:00.87,0:19:06.27,*Default,NTP,0000,0000,0000,!Effect,Goku, Gohan, Piccolo e aquela\Ngarota chamada Bulma estão vivos!
+Dialogue: Marked=0,0:19:08.54,0:19:13.32,*Default,NTP,0000,0000,0000,!Effect,- Legal!\N- Que bom!
+Dialogue: Marked=0,0:19:44.83,0:19:46.64,*Default,NTP,0000,0000,0000,!Effect,Segurei muito meu poder.
+Dialogue: Marked=0,0:19:47.28,0:19:51.69,*Default,NTP,0000,0000,0000,!Effect,É porque você estava com medo\Nde ser pego na explosão do planeta.
+Dialogue: Marked=0,0:19:54.94,0:19:56.07,*Default,NTP,0000,0000,0000,!Effect,Você falhou.
+Dialogue: Marked=0,0:20:02.31,0:20:04.24,*Default,NTP,0000,0000,0000,!Effect,Como resultado, eu continuo vivo.
+Dialogue: Marked=0,0:20:06.91,0:20:08.41,*Default,NTP,0000,0000,0000,!Effect,Continua vivo?
+Dialogue: Marked=0,0:20:11.54,0:20:15.09,*Default,NTP,0000,0000,0000,!Effect,Você parece não entender nada, não é?
+Dialogue: Marked=0,0:20:16.05,0:20:18.34,*Default,NTP,0000,0000,0000,!Effect,O planeta não explodiu de uma vez...
+Dialogue: Marked=0,0:20:19.71,0:20:25.76,*Default,NTP,0000,0000,0000,!Effect,Mas, seu núcleo foi completamente destruído.\NVocê sabe o que isso quer dizer?
+Dialogue: Marked=0,0:20:28.42,0:20:29.81,*Default,NTP,0000,0000,0000,!Effect,Mais cinco minutos.
+Dialogue: Marked=0,0:20:32.89,0:20:39.28,*Default,NTP,0000,0000,0000,!Effect,Mais cinco minutos e o Planeta Namek sofrerá uma grande explosão, virando poeira espacial!
+Dialogue: Marked=0,0:21:01.27,0:21:03.73,*Default,NTP,0000,0000,0000,!Effect,Cinco minutos são o bastante.
+Dialogue: Marked=0,0:21:03.73,0:21:08.16,*Default,,0000,0000,0000,,Eu vou derrotá-lo, e então sairei daqui\Njunto com meus amigos na minha nave!
+Dialogue: Marked=0,0:21:12.40,0:21:16.15,*Default,NTP,0000,0000,0000,!Effect,Infelizmente, eu que\Nposso pensar em fazer isso.
+Dialogue: Marked=0,0:21:17.27,0:21:20.36,*Default,NTP,0000,0000,0000,!Effect,Pelo menos, é uma esperança muito\Nmaior do que a que você tem.
+Dialogue: Marked=0,0:21:22.23,0:21:26.91,*Default,NTP,0000,0000,0000,!Effect,Dessa vez, vou mostrar...\NMeu poder 100% completo!
+Dialogue: Marked=0,0:21:27.36,0:21:30.91,*Default,NTP,0000,0000,0000,!Effect,Não há como você me derrotar! Prepare-se!
+Dialogue: Marked=0,0:21:31.49,0:21:33.91,*Default,NTP,0000,0000,0000,!Effect,Por que esperar até agora\Npara usar seu poder completo?
+Dialogue: Marked=0,0:21:37.47,0:21:39.05,*Default,NTP,0000,0000,0000,!Effect,Eu sei o porquê.
+Dialogue: Marked=0,0:21:39.84,0:21:42.92,*Default,,0000,0000,0000,,Se você tivesse usado todo seu\Npoder, seu corpo não teria resistido!
+Dialogue: Marked=0,0:21:45.50,0:21:48.22,*Default,NTP,0000,0000,0000,!Effect,Não vou deixá-lo me fazer perder mais tempo!
+Dialogue: Marked=0,0:21:48.77,0:21:50.89,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Vou acabar com isso agora!
+Dialogue: Marked=0,0:22:04.39,0:22:08.32,Narrador,NTP,0000,0000,0000,!Effect,Faltam cinco minutos para\Na destruição do Planeta Namek.
+Dialogue: Marked=0,0:22:25.31,0:22:29.13,Narrador,NTP,0000,0000,0000,!Effect,Qual será o resultado desta dura batalha?

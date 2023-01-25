@@ -1,0 +1,266 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:55.70,0:02:04.50,Narrador,,0000,0000,0000,,{\fscx93\fscy93}Por causa do poder esplêndido de Cell, nem mesmo Trunks, que superou o Super Saiya-jin, pode vencer.
+Dialogue: Marked=0,0:02:05.53,0:02:09.05,Narrador,,0000,0000,0000,,O destino da Terra está em maus lençóis.
+Dialogue: Marked=0,0:02:09.82,0:02:10.74,Narrador,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:02:12.86,0:02:14.53,*Default,,0000,0000,0000,,Tenho uma última pergunta.
+Dialogue: Marked=0,0:02:14.53,0:02:18.26,*Default,,0000,0000,0000,,Por que vocês conseguiram aumentar\Ntanto os poderes em pouco tempo?
+Dialogue: Marked=0,0:02:19.05,0:02:22.02,*Default,,0000,0000,0000,,Se tiverem mais tempo,\Nconseguirão aumentar ainda mais?
+Dialogue: Marked=0,0:02:22.02,0:02:24.26,*Default,,0000,0000,0000,,Como vou saber?\NNão dá para saber se não tentarmos!
+Dialogue: Marked=0,0:02:25.39,0:02:27.64,*Default,,0000,0000,0000,,Então, não é impossível?
+Dialogue: Marked=0,0:02:28.73,0:02:33.10,*Default,,0000,0000,0000,,Muito bem.\NEntão, vou realizar um torneio de artes marciais.
+Dialogue: Marked=0,0:02:34.40,0:02:39.52,Narrador,,0000,0000,0000,,O quê? Ele disse que vai\Nrealizar o Tenkaichi Budoukai?
+Dialogue: Marked=0,0:02:39.52,0:02:44.16,Narrador,,0000,0000,0000,,Os fatos mudaram completamente\Npor causa da grande autoconfiança de Cell.
+
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,,{\c&HEFFFFD\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 166
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,,{\c&HEFFFFD\pos(392,190)\fad(500,0)\fscx95\fscy95}Grande batalha decisiva se aproxima de Goku{\i1}!!
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,,{\c&HEFFFFD\pos(385,510)\fad(500,0)\fscx113\fscy113}O mistério do novo Tenkaichi Budoukai
+
+Dialogue: Marked=0,0:03:14.03,0:03:20.11,L!,,0000,0000,0000,,Meu maior objetivo é, lógico, ver os\Nrostos dos humanos cheios de medo.
+Dialogue: Marked=0,0:03:22.17,0:03:25.08,L!,,0000,0000,0000,,Isso, isso! Esse rosto.
+Dialogue: Marked=0,0:03:30.64,0:03:34.33,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:04:16.91,0:04:20.02,*Default,,0000,0000,0000,,Q-Que bom. Ele conseguiu ficar bem.
+Dialogue: Marked=0,0:04:21.30,0:04:24.38,*Default,,0000,0000,0000,,Mas, o que aconteceu? Para onde o Cell foi?
+Dialogue: Marked=0,0:04:25.50,0:04:26.97,*Default,,0000,0000,0000,,Ei, espere por mim!
+Dialogue: Marked=0,0:04:30.95,0:04:31.70,*Default,,0000,0000,0000,,Pai...
+Dialogue: Marked=0,0:04:37.25,0:04:39.57,*Default,,0000,0000,0000,,O que aconteceu com Cell?
+Dialogue: Marked=0,0:04:44.71,0:04:48.08,*Default,,0000,0000,0000,,Não posso vencer... Não pude vencer.
+Dialogue: Marked=0,0:04:49.02,0:04:52.08,*Default,,0000,0000,0000,,O-O que aconteceu aqui?
+Dialogue: Marked=0,0:04:58.70,0:05:02.29,*Default,,0000,0000,0000,,Desculpem-me. Não consegui fazer nada.
+Dialogue: Marked=0,0:05:03.47,0:05:04.50,*Default,,0000,0000,0000,,É claro.
+Dialogue: Marked=0,0:05:06.00,0:05:11.45,*Default,,0000,0000,0000,,De forma alguma alguém como você conseguiria derrotar Cell na sua forma perfeita, não é?
+Dialogue: Marked=0,0:05:11.45,0:05:15.31,*Default,,0000,0000,0000,,{\fscx97\fscy97}- Não fale isso! Afinal, o Trunks tem mais poder...
+Dialogue: Marked=0,0:05:14.66,0:05:15.31,*Default,,0000,0000,0000,,- Kuririn-san!
+Dialogue: Marked=0,0:05:40.02,0:05:43.40,*Default,,0000,0000,0000,,Ah, opa, opa, opa! Opa, opa, opa, opa!
+Dialogue: Marked=0,0:05:44.35,0:05:46.22,*Default,,0000,0000,0000,,Ei, gente!
+Dialogue: Marked=0,0:05:46.22,0:05:49.60,*Default,,0000,0000,0000,,Não fiquem aí! Vão lá ajudar! O Trunks vai...
+Dialogue: Marked=0,0:05:50.78,0:05:52.93,*Default,,0000,0000,0000,,O Trunks vai morrer!
+Dialogue: Marked=0,0:05:56.30,0:05:59.19,*Default,,0000,0000,0000,,Acalme-se! Ele saiu dessa sem morrer!
+Dialogue: Marked=0,0:06:00.14,0:06:00.36,*Default,,0000,0000,0000,,Sério?
+Dialogue: Marked=0,0:06:00.94,0:06:01.98,*Default,,0000,0000,0000,,P-Por quê?
+Dialogue: Marked=0,0:06:02.64,0:06:06.62,P!,,0000,0000,0000,,M-Maldito Cell! Que tipo de cara você é?
+Dialogue: Marked=0,0:06:06.62,0:06:10.95,P!,,0000,0000,0000,,Naquela hora, o poder de Trunks\Ncertamente era muito superior ao de Cell!
+Dialogue: Marked=0,0:06:11.33,0:06:13.95,P!,,0000,0000,0000,,Como será que ele\Nconseguiu anular essa diferença?
+Dialogue: Marked=0,0:06:14.98,0:06:19.96,*Default,,0000,0000,0000,,Parece que eu serei o próximo\Na entrar na Seishin to Toki no Heya!
+Dialogue: Marked=0,0:06:25.02,0:06:26.42,*Default,,0000,0000,0000,,Torneio de artes marciais?
+Dialogue: Marked=0,0:06:29.13,0:06:30.68,*Default,,0000,0000,0000,,Ele disse isso?
+Dialogue: Marked=0,0:06:31.00,0:06:35.18,P!,,0000,0000,0000,,Droga!\NEle está nos usando para se divertir!
+Dialogue: Marked=0,0:06:36.00,0:06:38.51,*Default,,0000,0000,0000,,Mas, quem vai participar?
+Dialogue: Marked=0,0:06:38.51,0:06:41.19,*Default,,0000,0000,0000,,Ele é um adversário que\Nnem vocês puderam fazer nada!
+Dialogue: Marked=0,0:06:58.53,0:07:00.58,*Default,,0000,0000,0000,,Eu... Eu...
+Dialogue: Marked=0,0:07:02.16,0:07:04.19,*Default,,0000,0000,0000,,Quando Goku-san sair,
+Dialogue: Marked=0,0:07:04.19,0:07:07.01,*Default,,0000,0000,0000,,pretendo treinar mais uma\Nvez na Seishin to Toki no Heya.
+Dialogue: Marked=0,0:07:09.55,0:07:11.80,*Default,,0000,0000,0000,,Nem você e nem Kakarotto são necessários!
+Dialogue: Marked=0,0:07:13.42,0:07:18.18,*Default,,0000,0000,0000,,Se eu usar aquela sala por\Nmais um dia, vai estar resolvido.
+Dialogue: Marked=0,0:07:20.54,0:07:21.85,*Default,,0000,0000,0000,,Eu também...
+Dialogue: Marked=0,0:07:27.17,0:07:28.53,*Default,,0000,0000,0000,,Eu também vou participar do torneio!
+Dialogue: Marked=0,0:07:29.69,0:07:30.70,*Default,,0000,0000,0000,,Nº 16...
+Dialogue: Marked=0,0:07:31.21,0:07:36.25,*Default,,0000,0000,0000,,P-Por favor, levem-me\Npara a Capsule Corporation.
+Dialogue: Marked=0,0:07:36.66,0:07:38.41,*Default,,0000,0000,0000,,Para onde a minha mãe está?
+Dialogue: Marked=0,0:07:39.04,0:07:43.67,*Default,,0000,0000,0000,,I-Isso. Lá ela vai poder me\Nconsertar para que eu possa lutar de novo.
+Dialogue: Marked=0,0:07:45.04,0:07:47.42,*Default,,0000,0000,0000,,Vou mostrar que posso ser útil.
+Dialogue: Marked=0,0:07:47.93,0:07:49.43,*Default,,0000,0000,0000,,Não brinque comigo!
+Dialogue: Marked=0,0:07:49.43,0:07:52.01,*Default,,0000,0000,0000,,Você também é um dos\Nandróides do Doutor Gero, não é?
+Dialogue: Marked=0,0:08:16.31,0:08:18.70,*Default,,0000,0000,0000,,Tudo bem. Eu vou levá-lo e pedir para ela.
+Dialogue: Marked=0,0:08:20.91,0:08:21.87,*Default,,0000,0000,0000,,Kuririn-san!
+Dialogue: Marked=0,0:08:22.70,0:08:24.70,*Default,,0000,0000,0000,,Não precisa se preocupar, Trunks.
+Dialogue: Marked=0,0:08:24.70,0:08:27.31,*Default,,0000,0000,0000,,Acho que esse cara não deve ser ruim.
+Dialogue: Marked=0,0:08:27.31,0:08:27.88,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:08:28.63,0:08:32.63,*Default,,0000,0000,0000,,Aqueles dois que foram engolidos pelo\NCell também não eram tão ruins assim.
+Dialogue: Marked=0,0:08:33.32,0:08:37.98,*Default,,0000,0000,0000,,Eles são muito diferentes dos\Nandróides do futuro que você estava.
+Dialogue: Marked=0,0:08:37.98,0:08:39.89,*Default,,0000,0000,0000,,Cada um em sua dimensão.
+Dialogue: Marked=0,0:08:40.41,0:08:44.27,*Default,,0000,0000,0000,,Além disso, precisamos de amigos fortes, não é?
+Dialogue: Marked=0,0:08:46.33,0:08:47.24,*Default,,0000,0000,0000,,Opa...
+Dialogue: Marked=0,0:08:49.17,0:08:50.03,*Default,,0000,0000,0000,,Desculpe-me.
+Dialogue: Marked=0,0:08:54.54,0:08:56.96,P!,,0000,0000,0000,,Saia logo, Kakarotto.
+Dialogue: Marked=0,0:08:56.96,0:08:59.16,P!,,0000,0000,0000,,Não importa o que faça, vai ser inútil.
+Dialogue: Marked=0,0:08:59.71,0:09:02.77,P!,,0000,0000,0000,,Se eu entrar naquela sala mais uma vez,
+Dialogue: Marked=0,0:09:02.77,0:09:05.71,P!,,0000,0000,0000,,vamos sair dessa sem o Cell se achar!
+Dialogue: Marked=0,0:10:46.69,0:10:47.73,*Default,,0000,0000,0000,,Não vou perder...
+Dialogue: Marked=0,0:10:53.06,0:10:54.61,*Default,,0000,0000,0000,,Desculpe-me, pai.
+Dialogue: Marked=0,0:10:56.27,0:10:58.12,*Default,,0000,0000,0000,,Sem perceber, eu...
+Dialogue: Marked=0,0:11:01.14,0:11:03.12,*Default,,0000,0000,0000,,Você se esforçou, Gohan.
+Dialogue: Marked=0,0:11:03.12,0:11:04.54,*Default,,0000,0000,0000,,Descanse por hoje.
+Dialogue: Marked=0,0:11:06.03,0:11:08.29,*Default,,0000,0000,0000,,Mas, e você, pai?
+Dialogue: Marked=0,0:11:10.97,0:11:13.29,*Default,,0000,0000,0000,,Eu vou tentar treinar mais um pouco.
+Dialogue: Marked=0,0:11:14.27,0:11:18.21,*Default,,0000,0000,0000,,E-Então, eu também vou! Leve-me, por favor!
+Dialogue: Marked=0,0:11:22.22,0:11:24.52,*Default,,0000,0000,0000,,Certo, também vou parar por hoje.
+Dialogue: Marked=0,0:11:25.44,0:11:26.56,*Default,,0000,0000,0000,,Pai...
+Dialogue: Marked=0,0:11:27.13,0:11:28.28,*Default,,0000,0000,0000,,Mas, Gohan...
+Dialogue: Marked=0,0:11:30.06,0:11:32.98,*Default,,0000,0000,0000,,Amanhã vamos treinar ainda mais duro!
+Dialogue: Marked=0,0:11:32.98,0:11:37.55,*Default,,0000,0000,0000,,Você precisa alcançar algo acima do\NSuper Saiya-jin o mais rápido possível.
+Dialogue: Marked=0,0:11:38.41,0:11:38.94,*Default,,0000,0000,0000,,S-Sim!
+Dialogue: Marked=0,0:11:40.43,0:11:42.40,*Default,,0000,0000,0000,,Bem, vamos comer alguma coisa?
+Dialogue: Marked=0,0:11:42.40,0:11:43.32,*Default,,0000,0000,0000,,Sim!
+
+Dialogue: Marked=0,0:11:46.12,0:11:50.17,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:46.12,0:11:50.17,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:46.12,0:11:50.17,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:46.12,0:11:50.17,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:53.29,0:11:55.51,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:53.29,0:11:55.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:53.29,0:11:55.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:53.29,0:11:55.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:58.56,0:12:00.55,*Default,,0000,0000,0000,,Obrigada por esperar.
+Dialogue: Marked=0,0:12:03.17,0:12:04.18,*Default,,0000,0000,0000,,Bebam muito.
+Dialogue: Marked=0,0:12:08.29,0:12:11.47,*Default,,0000,0000,0000,,Nossa! Vegeta-chan, quanto tempo!
+Dialogue: Marked=0,0:12:13.18,0:12:16.14,*Default,,0000,0000,0000,,Está bonito como sempre!
+Dialogue: Marked=0,0:12:17.94,0:12:20.53,*Default,,0000,0000,0000,,Esse cavalheiro também é uma pessoa bonita!
+Dialogue: Marked=0,0:12:22.03,0:12:24.77,*Default,,0000,0000,0000,,Você é conhecido do Vegeta-chan?
+Dialogue: Marked=0,0:12:24.77,0:12:26.91,*Default,,0000,0000,0000,,M-Muito prazer em conhecê-la...
+Dialogue: Marked=0,0:12:32.30,0:12:34.46,*Default,,0000,0000,0000,,Com licença. A Bulma-san está?
+Dialogue: Marked=0,0:12:34.65,0:12:35.79,*Default,,0000,0000,0000,,Ah, oi?
+Dialogue: Marked=0,0:12:36.41,0:12:38.92,*Default,,0000,0000,0000,,- A Bulma-san...\N- Oi, Kuririn!
+Dialogue: Marked=0,0:12:41.23,0:12:43.26,*Default,,0000,0000,0000,,Se estiver procurando a Bulma,\Nela acabou de ligar.
+Dialogue: Marked=0,0:12:43.74,0:12:45.89,*Default,,0000,0000,0000,,Disse que estava voltando para cá.
+Dialogue: Marked=0,0:12:46.42,0:12:50.40,*Default,,0000,0000,0000,,Ela ainda não voltou do Tenkai? Entendo...
+Dialogue: Marked=0,0:12:50.40,0:12:52.56,*Default,,0000,0000,0000,,Oi!
+Dialogue: Marked=0,0:12:59.28,0:13:00.59,*Default,,0000,0000,0000,,Muten Roshi-sama!
+Dialogue: Marked=0,0:13:01.99,0:13:06.82,*Default,,0000,0000,0000,,Recebemos um aviso da Bulma dizendo\Nque todos voltariam para a Capsule Corporation.
+Dialogue: Marked=0,0:13:07.66,0:13:11.33,*Default,,0000,0000,0000,,Ficando na Kame House, não dá\Npara saber como está a situação.
+Dialogue: Marked=0,0:13:11.33,0:13:13.33,*Default,,0000,0000,0000,,Onde está o Gohan-chan?
+Dialogue: Marked=0,0:13:13.33,0:13:15.21,*Default,,0000,0000,0000,,Ah, bem, no Tenkai...
+Dialogue: Marked=0,0:13:16.29,0:13:17.71,*Default,,0000,0000,0000,,Ainda?
+Dialogue: Marked=0,0:13:20.89,0:13:25.97,P!,,0000,0000,0000,,Vejamos... Estranho... Então, aqui é...
+Dialogue: Marked=0,0:13:37.02,0:13:39.36,*Default,,0000,0000,0000,,Entendi. Tenkaichi Budoukai?
+Dialogue: Marked=0,0:13:39.91,0:13:43.86,*Default,,0000,0000,0000,,Sim. Cell disse isso.\NSerá realizado dentro de 10 dias.
+Dialogue: Marked=0,0:13:44.57,0:13:47.03,*Default,,0000,0000,0000,,Ele disse que avisará\Nsobre o lugar e o resto.
+Dialogue: Marked=0,0:13:47.03,0:13:49.97,*Default,,0000,0000,0000,,Será que as lutas serão como no torneio?
+Dialogue: Marked=0,0:13:49.97,0:13:52.12,*Default,,0000,0000,0000,,Não. Eu não sei direito,
+Dialogue: Marked=0,0:13:52.86,0:13:56.62,*Default,,0000,0000,0000,,mas parece que cada um\Nvai desafiar Cell uma vez.
+Dialogue: Marked=0,0:13:56.98,0:14:00.84,*Default,,0000,0000,0000,,Maldito Cell! Ele falou isso? Entendi.
+Dialogue: Marked=0,0:14:01.54,0:14:05.87,*Default,,0000,0000,0000,,Pode ser arrogância, agora que\Nele conseguiu a forma suprema.
+Dialogue: Marked=0,0:14:05.87,0:14:10.51,*Default,,0000,0000,0000,,Mas, não está sendo esperto\Nao escolher o Tenkaichi Budoukai?
+Dialogue: Marked=0,0:14:10.51,0:14:12.10,*Default,,0000,0000,0000,,Mal posso esperar para ver como estou!
+Dialogue: Marked=0,0:14:12.58,0:14:14.66,*Default,,0000,0000,0000,,Ficou empolgado, não é, Yamcha-sama?
+Dialogue: Marked=0,0:14:14.66,0:14:14.85,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:14:15.37,0:14:18.31,*Default,,0000,0000,0000,,Está dizendo isso, mas\Nperdeu em todos, não foi?
+Dialogue: Marked=0,0:14:22.34,0:14:27.36,*Default,,0000,0000,0000,,Kame Sennin-san, o que é\Nesse Tenkaichi sei-lá-o-quê?
+Dialogue: Marked=0,0:14:28.26,0:14:34.37,*Default,,0000,0000,0000,,Ah, sim! Como vencedor do\NTenkaichi Budoukai, vou explicar para você.
+Dialogue: Marked=0,0:14:35.66,0:14:39.63,*Default,,0000,0000,0000,,Ahn? O senhor também\Njá venceu, Muten Roshi-sama?
+Dialogue: Marked=0,0:14:40.30,0:14:42.63,*Default,,0000,0000,0000,,É coisa do passado. Bem no passado.
+Dialogue: Marked=0,0:14:44.55,0:14:48.03,*Default,,0000,0000,0000,,Antigamente, havia um torneio\Npara que os mestres de artes marciais...
+Dialogue: Marked=0,0:14:48.03,0:14:53.15,*Default,,0000,0000,0000,,soubessem quem entre eles\Nestava no topo e era o melhor.
+Dialogue: Marked=0,0:14:54.06,0:14:56.18,*Default,,0000,0000,0000,,A primeira vez em que o\NGoku e os outros participaram...
+Dialogue: Marked=0,0:14:56.83,0:15:01.38,*Default,,0000,0000,0000,,foi no 21º Tenkaichi Budoukai, não foi?
+Dialogue: Marked=0,0:15:01.38,0:15:06.24,*Default,,0000,0000,0000,,Foi a primeira vez do Goku e\Nele conseguiu chegar até a final.
+Dialogue: Marked=0,0:15:06.56,0:15:08.90,*Default,,0000,0000,0000,,Mas, o adversário era muito para ele.
+Dialogue: Marked=0,0:15:09.31,0:15:13.83,*Default,,0000,0000,0000,,Infelizmente, ele foi derrotado por\Num mestre chamado Jackie Chun.
+Dialogue: Marked=0,0:15:14.56,0:15:19.37,*Default,,0000,0000,0000,,E, então, 5 anos depois, o 22º\NTenkaichi Budoukai foi realizado.
+Dialogue: Marked=0,0:15:20.15,0:15:25.58,*Default,,0000,0000,0000,,Naquela ocasião, vi Tenshinhan\Ne Chaos pela primeira vez.
+Dialogue: Marked=0,0:15:25.58,0:15:33.55,*Default,,0000,0000,0000,,Goku e Tenshinhan disputavam a vitória,\Nmas por uma pequena diferença, o Goku perdeu!
+Dialogue: Marked=0,0:15:35.34,0:15:37.85,*Default,,0000,0000,0000,,Que nível de luta baixo!
+Dialogue: Marked=0,0:15:39.01,0:15:43.32,*Default,,0000,0000,0000,,{\fscx96\fscy96}Por isso que vocês que estão aqui podiam competir no torneio, considerando a força de vocês.
+Dialogue: Marked=0,0:15:45.43,0:15:51.29,*Default,,0000,0000,0000,,Não. O 23º Tenkaichi Budoukai,\Nque foi realizado 3 anos depois,
+Dialogue: Marked=0,0:15:51.29,0:15:55.66,*Default,,0000,0000,0000,,foi um torneio movimentado e incrível!
+Dialogue: Marked=0,0:15:56.05,0:16:03.34,*Default,,0000,0000,0000,,Goku se casou, Piccolo participou usando o nome Ma Jr...
+Dialogue: Marked=0,0:16:03.34,0:16:07.34,*Default,,0000,0000,0000,,e Kami-sama possuiu o\Ncorpo de um humano e participou.
+Dialogue: Marked=0,0:16:07.34,0:16:11.76,*Default,,0000,0000,0000,,Não era mais o tipo de torneio\Nque qualquer pessoa normal podia entrar.
+Dialogue: Marked=0,0:16:13.76,0:16:21.77,*Default,,0000,0000,0000,,E, então, na luta final, Goku e Piccolo\Nlutaram apostando o destino do mundo.
+Dialogue: Marked=0,0:16:22.86,0:16:28.45,*Default,,0000,0000,0000,,Goku venceu no final e passou\Na ser o homem mais forte da Terra!
+Dialogue: Marked=0,0:16:30.39,0:16:33.45,*Default,,0000,0000,0000,,Mas, o ringue de luta foi perdido.
+Dialogue: Marked=0,0:16:33.45,0:16:38.33,*Default,,0000,0000,0000,,E, desde então, o Tenkaichi Budoukai\Nnão tem sido mais realizado.
+Dialogue: Marked=0,0:16:47.43,0:16:48.53,*Default,,0000,0000,0000,,Isso...
+Dialogue: Marked=0,0:16:49.78,0:16:52.70,*Default,,0000,0000,0000,,Vejamos, foi quantos anos atrás?
+Dialogue: Marked=0,0:16:52.70,0:16:54.22,*Default,,0000,0000,0000,,Hein, Kuririn?
+Dialogue: Marked=0,0:16:57.54,0:17:02.62,*Default,,0000,0000,0000,,Então, foi isso?\NFoi uma coisa terrível, não foi?
+Dialogue: Marked=0,0:17:09.25,0:17:12.32,*Default,,0000,0000,0000,,Mas, por que Cell fez uma coisa dessas?
+Dialogue: Marked=0,0:17:12.32,0:17:15.53,*Default,,0000,0000,0000,,Por que será?\NMesmo se ganhar o Tenkaichi Budoukai,
+Dialogue: Marked=0,0:17:15.53,0:17:17.70,*Default,,0000,0000,0000,,não poderá controlar o mundo.
+Dialogue: Marked=0,0:17:19.15,0:17:23.29,*Default,,0000,0000,0000,,Cell disse que não tem\Ninteresse em controlar o mundo.
+Dialogue: Marked=0,0:17:23.83,0:17:27.06,*Default,,0000,0000,0000,,Ele disse que o propósito\Ndo torneio é confirmar...
+Dialogue: Marked=0,0:17:27.06,0:17:30.09,*Default,,0000,0000,0000,,sua força e deixar o\Nmundo inteiro aterrorizado.
+Dialogue: Marked=0,0:17:30.50,0:17:35.34,*Default,,0000,0000,0000,,Além disso, seria um treino para tirar\Nainda mais força da sua forma perfeita.
+Dialogue: Marked=0,0:17:35.34,0:17:38.33,*Default,,0000,0000,0000,,Droga... Ele está se achando.
+Dialogue: Marked=0,0:17:38.33,0:17:42.85,*Default,,0000,0000,0000,,Certo! Então, também vamos\Nparticipar e acabar com o orgulho dele!
+Dialogue: Marked=0,0:17:42.85,0:17:43.61,*Default,,0000,0000,0000,,É!
+Dialogue: Marked=0,0:17:45.00,0:17:46.77,*Default,,0000,0000,0000,,Parem com essas inutilidades.
+Dialogue: Marked=0,0:17:47.38,0:17:50.27,*Default,,0000,0000,0000,,Peixes pequenos como\Nvocês não prestam para nada.
+Dialogue: Marked=0,0:17:53.41,0:17:56.28,*Default,,0000,0000,0000,,Bem, de qualquer jeito,\Nagora podemos ficar tranqüilos.
+Dialogue: Marked=0,0:17:56.95,0:17:58.91,*Default,,0000,0000,0000,,Por que a Chi-Chi-san disse\Nque podemos ficar tranqüilos?
+Dialogue: Marked=0,0:17:58.91,0:18:00.20,*Default,,0000,0000,0000,,Eu que sei?
+Dialogue: Marked=0,0:18:00.62,0:18:02.80,*Default,,0000,0000,0000,,Não entenderam?
+Dialogue: Marked=0,0:18:02.80,0:18:07.33,*Default,,0000,0000,0000,,Já que ele vai realizar um\NTenkaichi Budoukai, Cell vai obedecer às regras!
+Dialogue: Marked=0,0:18:08.89,0:18:11.77,*Default,,0000,0000,0000,,Se ele matar, vai perder!
+Dialogue: Marked=0,0:18:11.77,0:18:13.89,*Default,,0000,0000,0000,,Vamos passar por isso sem ninguém morrer, não é?
+Dialogue: Marked=0,0:18:13.89,0:18:16.72,*Default,,0000,0000,0000,,- Entendi!\N- Então, será que eu também participo?
+Dialogue: Marked=0,0:18:17.07,0:18:19.52,*Default,,0000,0000,0000,,Será que eu também participo?
+Dialogue: Marked=0,0:18:19.52,0:18:22.13,*Default,,0000,0000,0000,,Não diga que ainda está\Npreso à sua antiga glória.
+Dialogue: Marked=0,0:18:22.13,0:18:24.27,*Default,,0000,0000,0000,,Um velho...
+Dialogue: Marked=0,0:18:25.23,0:18:27.71,*Default,,0000,0000,0000,,Mas, com uma regra dessas,
+Dialogue: Marked=0,0:18:27.71,0:18:29.80,*Default,,0000,0000,0000,,a Terra vai ser salva desta crise, não é?
+Dialogue: Marked=0,0:18:30.85,0:18:32.15,*Default,,0000,0000,0000,,Há o Piccolo-san.
+Dialogue: Marked=0,0:18:33.12,0:18:38.29,*Default,,0000,0000,0000,,Em breve, Goku-san e Gohan-san\Nvão sair da Seishin to Toki no Heya...
+Dialogue: Marked=0,0:18:38.29,0:18:39.33,*Default,,0000,0000,0000,,É!
+Dialogue: Marked=0,0:18:39.33,0:18:40.28,*Default,,0000,0000,0000,,É mesmo, não é?
+Dialogue: Marked=0,0:18:40.99,0:18:42.04,*Default,,0000,0000,0000,,Esperem um pouco!
+Dialogue: Marked=0,0:18:43.79,0:18:50.54,*Default,,0000,0000,0000,,Não posso impedir o Goku-san de participar,\Nmas por que o Gohan-chan teria de participar?
+Dialogue: Marked=0,0:18:51.60,0:18:54.18,*Default,,0000,0000,0000,,Mas, Chi-Chi-san, como você disse antes,
+Dialogue: Marked=0,0:18:54.18,0:18:57.26,*Default,,0000,0000,0000,,há uma regra que não permite\Nmatar, então não é perigoso...
+Dialogue: Marked=0,0:18:57.26,0:19:02.05,*Default,,0000,0000,0000,,Com perigo ou não, não tenho vontade\Nde deixar o Gohan-chan participar do Budoukai!
+Dialogue: Marked=0,0:19:02.62,0:19:03.47,*Default,,0000,0000,0000,,M-Mas...
+Dialogue: Marked=0,0:19:04.19,0:19:07.29,*Default,,0000,0000,0000,,A Terra já foi salva da crise.
+Dialogue: Marked=0,0:19:07.29,0:19:13.48,*Default,,0000,0000,0000,,Cell está realizando o Tenkaichi Budoukai\Napenas para aqueles que quiserem lutar.
+Dialogue: Marked=0,0:19:14.29,0:19:16.20,*Default,,0000,0000,0000,,Pode ser isso, mas...
+Dialogue: Marked=0,0:19:17.18,0:19:20.50,*Default,,0000,0000,0000,,Por isso, não vou mais\Ndeixar o Gohan-chan lutar!
+Dialogue: Marked=0,0:19:20.50,0:19:24.74,*Default,,0000,0000,0000,,Quando o Gohan nasceu,\No Goku-san também concordou!
+Dialogue: Marked=0,0:19:24.97,0:19:27.11,L!,,0000,0000,0000,,Bem, é a hora do leite!
+Dialogue: Marked=0,0:19:37.82,0:19:41.55,L!,,0000,0000,0000,,Goku-san, vou fazer deste\Ngaroto um grande estudioso!
+Dialogue: Marked=0,0:19:41.82,0:19:43.68,L!,,0000,0000,0000,,Ahn? Estudioso?
+Dialogue: Marked=0,0:19:44.23,0:19:47.60,L!,,0000,0000,0000,,Isso. O mundo está em paz agora.
+Dialogue: Marked=0,0:19:47.60,0:19:50.87,L!,,0000,0000,0000,,Se ele virar um lutador de\Nartes marciais, não vai adiantar nada.
+Dialogue: Marked=0,0:19:52.54,0:19:54.20,L!,,0000,0000,0000,,É...
+Dialogue: Marked=0,0:19:58.27,0:20:02.79,*Default,,0000,0000,0000,,É verdade! Não posso abaixar\Na guarda para nenhum de vocês!
+Dialogue: Marked=0,0:20:02.79,0:20:05.45,*Default,,0000,0000,0000,,Vocês fariam o Gohan ser um\Ndos seus amigos delinqüentes!
+Dialogue: Marked=0,0:20:06.40,0:20:07.97,*Default,,0000,0000,0000,,Delinqüentes?
+Dialogue: Marked=0,0:20:07.97,0:20:09.28,*Default,,0000,0000,0000,,Cruel!
+Dialogue: Marked=0,0:20:09.28,0:20:10.96,*Default,,0000,0000,0000,,Eu também sou delinqüente?
+Dialogue: Marked=0,0:20:25.43,0:20:29.04,*Default,,0000,0000,0000,,Bem, o lugar do torneio de artes marciais...
+Dialogue: Marked=0,0:20:29.04,0:20:30.89,*Default,,0000,0000,0000,,Bem, por aqui deve ser bom.
+Dialogue: Marked=0,0:20:43.65,0:20:48.49,*Default,,0000,0000,0000,,Será que devo fazer o ringue um\Npouco maior que o do Tenkaichi Budoukai?
+Dialogue: Marked=0,0:21:10.53,0:21:12.18,*Default,,0000,0000,0000,,Agora...
+Dialogue: Marked=0,0:21:34.57,0:21:37.75,*Default,,0000,0000,0000,,Como pensei, as pedras daqui\Nparecem ser de boa qualidade.
+Dialogue: Marked=0,0:22:04.66,0:22:09.67,*Default,,0000,0000,0000,,Certo. Não tem enfeite algum,\Nmas penso nisso depois.
+Dialogue: Marked=0,0:22:09.67,0:22:12.79,*Default,,0000,0000,0000,,Bem, vou para uma estação de TV?
+Dialogue: Marked=0,0:22:14.14,0:22:16.82,Narrador,,0000,0000,0000,,O jeito único de pensar de Cell.
+Dialogue: Marked=0,0:22:16.82,0:22:24.30,Narrador,,0000,0000,0000,,Será que esse Cell demoníaco vai\Nobedecer às regras do Tenkaichi Budoukai?
+Dialogue: Marked=0,0:22:24.30,0:22:29.87,Narrador,,0000,0000,0000,,Dá para sentir o inferno que espera\Nos guerreiros no Super Tenkaichi Budoukai.

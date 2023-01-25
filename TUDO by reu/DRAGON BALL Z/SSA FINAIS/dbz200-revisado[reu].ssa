@@ -1,0 +1,285 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:14.85,0:02:18.65,Narrador,,0000,0000,0000,,Passaram-se vários anos desde a luta contra Cell.
+Dialogue: Marked=0,0:02:21.69,0:02:26.75,Narrador,,0000,0000,0000,,A Terra foi salva por Son Goku e seu filho...
+Dialogue: Marked=0,0:02:26.75,0:02:31.28,Narrador,,0000,0000,0000,,e as pessoas conseguiram\Nvoltar a viver pacificamente.
+Dialogue: Marked=0,0:02:31.28,0:02:37.57,Narrador,,0000,0000,0000,,Mas, logo, o número de\Npessoas imbecis começou a aumentar.
+Dialogue: Marked=0,0:02:38.24,0:02:41.18,Narrador,,0000,0000,0000,,Os humanos são assim mesmo.
+Dialogue: Marked=0,0:03:25.35,0:03:31.11,Narrador,,0000,0000,0000,,Não tem nenhuma escola na parte\Ndo interior em que Son Gohan mora.
+Dialogue: Marked=0,0:03:31.11,0:03:36.65,Narrador,,0000,0000,0000,,Até agora, ele estava\Nestudando sozinho em casa,
+Dialogue: Marked=0,0:03:36.65,0:03:45.03,N!,,0000,0000,0000,,{\1c&HFEDCBA\fad(300,300)}Koukou = Equivalente ao Segundo Grau
+Dialogue: Marked=0,0:03:36.65,0:03:45.03,Narrador,,0000,0000,0000,,mas sua mãe, Chi-Chi, achou que isso\Nnão era o bastante e o mandou para koukou.
+Dialogue: Marked=0,0:03:57.77,0:04:01.20,*Default,,0000,0000,0000,,Já está perto da cidade.\NAcho que é melhor descer logo.
+Dialogue: Marked=0,0:04:03.50,0:04:07.20,*Default,,0000,0000,0000,,Tchau, tchau, Kinto Un!\NConto com você para a volta!
+Dialogue: Marked=0,0:04:16.41,0:04:23.14,P!,,0000,0000,0000,,{\fad(0,2000)}Pai, acham que o Mister Satan\Né o herói que salvou a Terra.
+Dialogue: Marked=0,0:04:23.14,0:04:30.57,P!,,0000,0000,0000,,Mister Satan já morou aqui, então\Nmudaram o nome da cidade para Satan City.
+
+Dialogue: Marked=0,0:04:40.03,0:04:48.00,apresDBZ2,,0000,0000,0000,,{\c&HD5E0F2\pos(675,70)\shad1\fad(400,0)\fscx100\fscy100}episódio 200
+Dialogue: Marked=0,0:04:40.03,0:04:48.00,apresDBZ2,,0000,0000,0000,,{\c&HD5E0F2\pos(400,175)\shad1\fad(400,0)\fscx160\fscy130}7 anos desde aquilo{\i1}!
+Dialogue: Marked=0,0:04:40.03,0:04:48.00,apresDBZ2,,0000,0000,0000,,{\c&HD5E0F2\pos(410,490)\shad1\fad(400,0)\fscx120\fscy120}A partir de hoje, eu sou um Koukousei
+
+Dialogue: Marked=0,0:04:50.67,0:04:53.58,*Default,,0000,0000,0000,,Ei, ei! Passe logo o dinheiro!
+Dialogue: Marked=0,0:04:53.71,0:04:55.02,*Default,,0000,0000,0000,,Quer morrer?
+Dialogue: Marked=0,0:04:55.71,0:04:57.25,*Default,,0000,0000,0000,,Não enrole!
+Dialogue: Marked=0,0:04:58.14,0:05:00.05,*Default,,0000,0000,0000,,Coloque rápido!
+Dialogue: Marked=0,0:05:03.62,0:05:06.14,*Default,,0000,0000,0000,,Ei, parece que está tudo aqui.
+Dialogue: Marked=0,0:05:06.14,0:05:07.55,*Default,,0000,0000,0000,,Certo, vamos.
+Dialogue: Marked=0,0:05:08.69,0:05:12.14,*Default,,0000,0000,0000,,Quando acabarmos de usar\No dinheiro, vamos voltar aqui.
+Dialogue: Marked=0,0:05:18.98,0:05:22.24,*Default,,0000,0000,0000,,Nossa, eu demorei demais.
+Dialogue: Marked=0,0:05:26.43,0:05:26.95,P!,,0000,0000,0000,,Certo.
+Dialogue: Marked=0,0:05:57.01,0:05:58.52,*Default,,0000,0000,0000,,Atirem!
+Dialogue: Marked=0,0:06:05.49,0:06:09.53,*Default,,0000,0000,0000,,Droga.\NEsta cidade não tem jeito.
+Dialogue: Marked=0,0:06:10.94,0:06:13.67,*Default,,0000,0000,0000,,Preciso me transformar de novo\Npara não me reconhecerem.
+Dialogue: Marked=0,0:06:17.39,0:06:19.46,*Default,,0000,0000,0000,,Ei, ei! Venham para cima!
+Dialogue: Marked=0,0:06:29.36,0:06:30.43,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:06:31.82,0:06:33.51,*Default,,0000,0000,0000,,Q-Quem é você?
+Dialogue: Marked=0,0:07:03.09,0:07:04.80,*Default,,0000,0000,0000,,E-Ele é um monstro!
+Dialogue: Marked=0,0:07:05.30,0:07:06.55,*Default,,0000,0000,0000,,Vamos fugir!
+Dialogue: Marked=0,0:07:29.78,0:07:31.57,*Default,,0000,0000,0000,,Incrível.
+Dialogue: Marked=0,0:07:38.24,0:07:40.59,*Default,,0000,0000,0000,,O que está acontecendo?
+Dialogue: Marked=0,0:07:52.42,0:07:53.64,*Default,,0000,0000,0000,,Ei.
+Dialogue: Marked=0,0:07:54.33,0:07:58.17,*Default,,0000,0000,0000,,Quem fez aquilo?\NNão deve ter sido a polícia.
+Dialogue: Marked=0,0:07:58.99,0:08:01.64,*Default,,0000,0000,0000,,Bem, eu não estava olhando.
+Dialogue: Marked=0,0:08:02.69,0:08:04.86,*Default,,0000,0000,0000,,E eu tive o trabalho de vir até aqui.
+Dialogue: Marked=0,0:08:04.86,0:08:06.31,*Default,,0000,0000,0000,,Quem será que fez isso...
+Dialogue: Marked=0,0:08:08.13,0:08:09.54,*Default,,0000,0000,0000,,Ah, Videl-sama.
+Dialogue: Marked=0,0:08:09.54,0:08:13.66,*Default,,0000,0000,0000,,Eu vi.\NFoi um guerreiro de cabelos dourados.
+Dialogue: Marked=0,0:08:14.16,0:08:17.16,*Default,,0000,0000,0000,,Guerreiro de cabelos dourados?\NDe novo?
+Dialogue: Marked=0,0:08:17.49,0:08:20.79,*Default,,0000,0000,0000,,Ele é muito rápido e forte.
+Dialogue: Marked=0,0:08:20.79,0:08:25.45,*Default,,0000,0000,0000,,Ele também usou algo que\Nparecia o espírito de luta de longe...
+Dialogue: Marked=0,0:08:25.45,0:08:27.59,*Default,,0000,0000,0000,,para fazer virar o carro dos\Ncriminosos que estavam fugindo.
+Dialogue: Marked=0,0:08:28.10,0:08:33.62,*Default,,0000,0000,0000,,Ah, é. Ele é um aluno da\NOrange Star High School, assim como você.
+Dialogue: Marked=0,0:08:33.62,0:08:36.39,*Default,,0000,0000,0000,,Ele também tinha o emblema da escola.
+Dialogue: Marked=0,0:08:39.12,0:08:41.01,*Default,,0000,0000,0000,,Um aluno da minha escola?
+Dialogue: Marked=0,0:08:44.39,0:08:46.71,*Default,,0000,0000,0000,,Tem alguém assim?
+Dialogue: Marked=0,0:08:47.53,0:08:49.45,*Default,,0000,0000,0000,,Com cabelo dourado...
+Dialogue: Marked=0,0:09:04.74,0:09:08.99,*Default,,0000,0000,0000,,Ei, Sharpner, você não é\No guerreiro de cabelos dourados, é?
+Dialogue: Marked=0,0:09:08.99,0:09:13.49,*Default,,0000,0000,0000,,Infelizmente não.\NFico ocupado com os treinos no clube.
+Dialogue: Marked=0,0:09:14.53,0:09:17.51,*Default,,0000,0000,0000,,Não tenho tempo para essas coisas.
+Dialogue: Marked=0,0:09:17.93,0:09:22.06,*Default,,0000,0000,0000,,Ei, Videl, você acha que\Nele é mais forte que o seu pai?
+Dialogue: Marked=0,0:09:22.39,0:09:27.07,*Default,,0000,0000,0000,,Não fale idiotices.\NO pai da Videl salvou a Terra, é o Mister Satan.
+Dialogue: Marked=0,0:09:27.07,0:09:30.32,*Default,,0000,0000,0000,,Não tem ninguém no mundo\Nque seja mais forte que ele.
+Dialogue: Marked=0,0:09:37.81,0:09:39.67,*Default,,0000,0000,0000,,Bom dia a todos.
+Dialogue: Marked=0,0:09:39.67,0:09:44.75,*Default,,0000,0000,0000,,Vou apresentar um novo aluno\Nque vai ser da turma de vocês.
+Dialogue: Marked=0,0:09:45.37,0:09:46.62,*Default,,0000,0000,0000,,Pode entrar.
+Dialogue: Marked=0,0:09:49.99,0:09:53.58,*Default,,0000,0000,0000,,Olá! Sou Son, Son Gohan.
+Dialogue: Marked=0,0:09:53.58,0:09:54.88,*Default,,0000,0000,0000,,Prazer.
+Dialogue: Marked=0,0:09:55.40,0:09:59.17,*Default,,0000,0000,0000,,Nossa, ele é bonito.\NFaz o meu tipo.
+Dialogue: Marked=0,0:09:59.17,0:10:01.14,*Default,,0000,0000,0000,,Gohan? Que nome estranho.
+Dialogue: Marked=0,0:10:06.10,0:10:08.81,*Default,,0000,0000,0000,,Acho que já me encontrei com ele antes.
+Dialogue: Marked=0,0:10:10.37,0:10:13.78,*Default,,0000,0000,0000,,Ele parece ser um CDF.
+Dialogue: Marked=0,0:10:14.17,0:10:18.17,*Default,,0000,0000,0000,,Son-kun tirou a pontuação máxima\Nno exame de admissão em matemática,
+Dialogue: Marked=0,0:10:18.17,0:10:23.76,*Default,,0000,0000,0000,,física, história, japonês e língua estrangeira.
+Dialogue: Marked=0,0:10:25.83,0:10:27.18,*Default,,0000,0000,0000,,Silêncio!
+Dialogue: Marked=0,0:10:27.18,0:10:29.82,*Default,,0000,0000,0000,,Vocês devem aprender com ele.
+Dialogue: Marked=0,0:10:30.53,0:10:34.05,*Default,,0000,0000,0000,,Son-kun, sente em algum lugar vago.
+Dialogue: Marked=0,0:10:34.05,0:10:34.67,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:10:35.55,0:10:37.42,*Default,,0000,0000,0000,,Vejamos...
+Dialogue: Marked=0,0:10:37.42,0:10:38.13,*Default,,0000,0000,0000,,Aqui!
+Dialogue: Marked=0,0:10:39.55,0:10:40.68,*Default,,0000,0000,0000,,Aqui, aqui.
+Dialogue: Marked=0,0:10:41.01,0:10:42.84,*Default,,0000,0000,0000,,Ah, obrigado.
+
+Dialogue: Marked=0,0:11:05.58,0:11:08.30,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:05.58,0:11:08.30,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:05.58,0:11:08.30,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:05.58,0:11:08.30,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:11.58,0:11:13.80,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(546,555)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:11.58,0:11:13.80,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:11.58,0:11:13.80,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:11.58,0:11:13.80,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:16.37,0:11:17.34,*Default,,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:11:17.68,0:11:22.09,*Default,,0000,0000,0000,,Meu nome é Ireza. Prazer.\NE essa aqui é a Videl.
+Dialogue: Marked=0,0:11:24.82,0:11:29.10,*Default,,0000,0000,0000,,Hoje vamos começar a partir da página 24.
+Dialogue: Marked=0,0:11:29.43,0:11:36.94,*Default,,0000,0000,0000,,Gohan-kun, você vai ficar surpreso quando\Nsouber, mas o pai da Videl é o Mister Satan.
+Dialogue: Marked=0,0:11:37.27,0:11:40.22,*Default,,0000,0000,0000,,Ahn? Mister Satan?
+Dialogue: Marked=0,0:11:42.03,0:11:43.75,*Default,,0000,0000,0000,,Viu? Ficou surpreso.
+Dialogue: Marked=0,0:11:44.56,0:11:47.82,*Default,,0000,0000,0000,,Então você é filha do Mister Satan?
+Dialogue: Marked=0,0:11:47.82,0:11:50.37,*Default,,0000,0000,0000,,É, devemos ficar agradecidos.
+Dialogue: Marked=0,0:11:50.37,0:11:55.22,*Default,,0000,0000,0000,,Estamos vivos até agora\Npor causa do pai dessa garota.
+Dialogue: Marked=0,0:11:55.22,0:11:56.30,*Default,,0000,0000,0000,,Isso!
+Dialogue: Marked=0,0:11:57.51,0:12:01.05,*Default,,0000,0000,0000,,Você estava lá quando os criminosos\Nque roubaram o banco foram presos.
+Dialogue: Marked=0,0:12:01.75,0:12:02.86,*Default,,0000,0000,0000,,Sim...
+Dialogue: Marked=0,0:12:02.86,0:12:05.89,*Default,,0000,0000,0000,,O que falou que o guerreiro\Nde cabelos dourados apareceu?
+Dialogue: Marked=0,0:12:06.74,0:12:08.58,*Default,,0000,0000,0000,,Guerreiro de cabelos dourados?
+Dialogue: Marked=0,0:12:08.58,0:12:10.10,*Default,,0000,0000,0000,,O que é isso?
+Dialogue: Marked=0,0:12:10.66,0:12:13.79,*Default,,0000,0000,0000,,Você acabou de chegar, então não sabe.
+Dialogue: Marked=0,0:12:13.79,0:12:17.55,*Default,,0000,0000,0000,,É um guerreiro que apareceu\Ntrês vezes nos últimos dez dias.
+Dialogue: Marked=0,0:12:17.55,0:12:22.45,*Default,,0000,0000,0000,,É um garoto que parece ser muito forte\Ne tem um cabelo dourado e arrepiado.
+Dialogue: Marked=0,0:12:22.45,0:12:24.21,*Default,,0000,0000,0000,,Ele é famoso nesta cidade.
+Dialogue: Marked=0,0:12:24.21,0:12:26.29,P!,,0000,0000,0000,,Sou eu!
+Dialogue: Marked=0,0:12:26.29,0:12:29.82,P!,,0000,0000,0000,,É das duas vezes que vim fazer\Nmatrícula e de hoje de manhã.
+Dialogue: Marked=0,0:12:46.43,0:12:50.28,*Default,,0000,0000,0000,,Eu só queria ficar com você,\Nquando ela me disse que...
+Dialogue: Marked=0,0:12:53.24,0:12:57.73,*Default,,0000,0000,0000,,{\fad(0,1000)}Mas eu quero fazê-la se sentir tão\Nbem, nada que eu possa fazer para você...
+Dialogue: Marked=0,0:13:03.11,0:13:03.46,*Default,,0000,0000,0000,,E...
+Dialogue: Marked=0,0:13:03.75,0:13:04.15,*Default,,0000,0000,0000,,Ei!
+Dialogue: Marked=0,0:13:05.15,0:13:07.07,*Default,,0000,0000,0000,,Uma testemunha me disse que...
+Dialogue: Marked=0,0:13:07.07,0:13:10.22,*Default,,0000,0000,0000,,o guerreiro de cabelos dourados\Nestava usando o emblema desta escola.
+Dialogue: Marked=0,0:13:11.42,0:13:16.17,*Default,,0000,0000,0000,,Camisa branca, colete preto e calça marrom.
+Dialogue: Marked=0,0:13:19.60,0:13:21.82,*Default,,0000,0000,0000,,Que coincidência, é igual a você.
+Dialogue: Marked=0,0:13:21.82,0:13:23.42,*Default,,0000,0000,0000,,Nossa, é verdade.
+Dialogue: Marked=0,0:13:23.55,0:13:25.30,*Default,,0000,0000,0000,,N-Não, é que...
+Dialogue: Marked=0,0:13:25.55,0:13:27.80,*Default,,0000,0000,0000,,Ei, vocês aí! Façam silêncio!
+Dialogue: Marked=0,0:13:28.73,0:13:30.31,*Default,,0000,0000,0000,,Sim, sim.
+Dialogue: Marked=0,0:13:31.07,0:13:35.28,*Default,,0000,0000,0000,,Bem, vou continuar.\NFinalmente, duas semanas se passaram...
+Dialogue: Marked=0,0:13:36.98,0:13:41.17,*Default,,0000,0000,0000,,Olhe melhor para ele.\NVocê acha que ele tem corpo de guerreiro?
+Dialogue: Marked=0,0:13:41.86,0:13:46.82,*Default,,0000,0000,0000,,Tem um ditado que diz:\Nquem é bom nos estudos, não é bom de luta.
+Dialogue: Marked=0,0:13:47.60,0:13:49.70,*Default,,0000,0000,0000,,Além de tudo, ele nem tem cabelos loiros.
+Dialogue: Marked=0,0:13:50.02,0:13:51.32,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:13:52.00,0:13:54.43,*Default,,0000,0000,0000,,Desculpe dizer, mas parece ser meio fracote.
+Dialogue: Marked=0,0:13:54.43,0:13:55.79,*Default,,0000,0000,0000,,É sim.
+Dialogue: Marked=0,0:13:58.93,0:14:01.84,P!,,0000,0000,0000,,Acho que estava errada mesmo, mas...
+Dialogue: Marked=0,0:14:02.62,0:14:05.76,P!,,0000,0000,0000,,Na fita de quando o\Nmeu pai lutou contra Cell,
+Dialogue: Marked=0,0:14:05.76,0:14:10.22,P!,,0000,0000,0000,,tinha um pessoal estranho que\Nfazia o cabelo ficar dourado quando lutava.
+Dialogue: Marked=0,0:14:10.22,0:14:12.72,P!,,0000,0000,0000,,Meu pai disse que era um\Ntruque sem nada de especial, mas...
+Dialogue: Marked=0,0:14:13.29,0:14:18.23,*Default,,0000,0000,0000,,Ei, ei, Gohan-kun, você volta para casa\Nou alugou um apartamento na cidade?
+Dialogue: Marked=0,0:14:18.23,0:14:20.48,*Default,,0000,0000,0000,,Eu venho para a escola de casa.
+Dialogue: Marked=0,0:14:21.04,0:14:22.69,*Default,,0000,0000,0000,,Onde é a sua casa?
+Dialogue: Marked=0,0:14:23.02,0:14:27.32,*Default,,0000,0000,0000,,No ponto 439 leste.\NÉ um vilarejo pequeno.
+Dialogue: Marked=0,0:14:27.50,0:14:33.91,*Default,,0000,0000,0000,,Ahn? 493 leste? É mentira, não é?\NSão uns 1000 quilômetros até aqui, não é?
+Dialogue: Marked=0,0:14:33.91,0:14:36.08,*Default,,0000,0000,0000,,Chega! Parem com isso!
+Dialogue: Marked=0,0:14:36.56,0:14:38.00,*Default,,0000,0000,0000,,Não conseguem ficar em silêncio?
+Dialogue: Marked=0,0:14:41.14,0:14:43.29,*Default,,0000,0000,0000,,Como é que você vem?
+Dialogue: Marked=0,0:14:43.29,0:14:46.42,*Default,,0000,0000,0000,,Mesmo de jato, leva 5 horas.
+Dialogue: Marked=0,0:14:46.70,0:14:51.43,*Default,,0000,0000,0000,,É, leva muito tempo, é difícil.
+Dialogue: Marked=0,0:14:53.65,0:14:55.43,P!,,0000,0000,0000,,Droga...
+Dialogue: Marked=0,0:14:58.25,0:15:00.86,*Default,,0000,0000,0000,,Ele é o homem mais importante...
+Dialogue: Marked=0,0:15:00.86,0:15:03.69,*Default,,0000,0000,0000,,Bem, quero que alguém traduza até aqui.
+Dialogue: Marked=0,0:15:03.77,0:15:06.76,*Default,,0000,0000,0000,,Bem... Quem será?
+Dialogue: Marked=0,0:15:09.51,0:15:14.45,P!,,0000,0000,0000,,Mister Satan está até nos livros.\NSó podia ser na Satan City.
+Dialogue: Marked=0,0:15:15.33,0:15:20.17,*Default,,0000,0000,0000,,Ei, você! Traduza como\Ncumprimento, garoto das notas perfeitas.
+Dialogue: Marked=0,0:15:21.02,0:15:22.35,*Default,,0000,0000,0000,,É, Gohan-kun.
+Dialogue: Marked=0,0:15:26.08,0:15:29.33,*Default,,0000,0000,0000,,Você é o aluno transferido, não é?
+Dialogue: Marked=0,0:15:29.33,0:15:31.22,*Default,,0000,0000,0000,,Qual é o seu nome?
+Dialogue: Marked=0,0:15:31.61,0:15:35.22,*Default,,0000,0000,0000,,Son Gohan das notas\Nperfeitas no exame de admissão.
+Dialogue: Marked=0,0:15:36.03,0:15:39.35,*Default,,0000,0000,0000,,É mesmo.\NBem, Son-kun, tente traduzir.
+Dialogue: Marked=0,0:15:39.99,0:15:41.02,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:15:41.02,0:15:42.61,*Default,,0000,0000,0000,,Vejamos...
+Dialogue: Marked=0,0:15:42.61,0:15:44.36,*Default,,0000,0000,0000,,Qual era a página mesmo?
+Dialogue: Marked=0,0:15:46.66,0:15:48.61,*Default,,0000,0000,0000,,A partir da página 24.
+Dialogue: Marked=0,0:15:49.46,0:15:50.16,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:15:50.16,0:15:52.80,*Default,,0000,0000,0000,,Mister Satan se mudou para Satan City,
+Dialogue: Marked=0,0:15:52.80,0:16:00.08,*Default,,0000,0000,0000,,que antes era conhecida como Orange Star City,\Ndepois de vencer o 24° Tenkaichi Budoukai.
+Dialogue: Marked=0,0:16:00.08,0:16:02.37,*Default,,0000,0000,0000,,Mesmo depois de se tornar campeão mundial,
+Dialogue: Marked=0,0:16:02.37,0:16:05.46,*Default,,0000,0000,0000,,ele continua treinando\Ntodos os dias e seu jogging...
+Dialogue: Marked=0,0:16:05.46,0:16:07.49,*Default,,0000,0000,0000,,todas as manhãs se\Ntornou uma marca da cidade.
+Dialogue: Marked=0,0:16:10.81,0:16:13.41,*Default,,0000,0000,0000,,Alguém está falando sobre mim de novo.
+Dialogue: Marked=0,0:16:13.41,0:16:17.07,*Default,,0000,0000,0000,,Ser famoso é difícil, não acham?
+Dialogue: Marked=0,0:16:24.47,0:16:29.11,*Default,,0000,0000,0000,,Hoje vamos continuar a\Npartida de baseball de antes.
+Dialogue: Marked=0,0:16:29.44,0:16:31.75,*Default,,0000,0000,0000,,Ei, você conhece baseball?
+Dialogue: Marked=0,0:16:32.39,0:16:35.37,*Default,,0000,0000,0000,,Sim. Nunca joguei, mas conheço as regras.
+Dialogue: Marked=0,0:16:35.68,0:16:37.25,*Default,,0000,0000,0000,,Nunca jogou?
+Dialogue: Marked=0,0:16:38.62,0:16:40.11,*Default,,0000,0000,0000,,Que bom.
+Dialogue: Marked=0,0:16:40.11,0:16:42.62,*Default,,0000,0000,0000,,Deve ser porque estava estudando o tempo todo.
+Dialogue: Marked=0,0:16:43.43,0:16:46.14,*Default,,0000,0000,0000,,Videl, deixe-o ficar no seu time.
+Dialogue: Marked=0,0:16:46.14,0:16:47.20,*Default,,0000,0000,0000,,Não preciso dele.
+Dialogue: Marked=0,0:16:47.20,0:16:52.97,*Default,,0000,0000,0000,,Não tem problema. Ele é inteligente e\Npode ser que ele pense em uma boa estratégia.
+Dialogue: Marked=0,0:16:54.56,0:16:56.05,*Default,,0000,0000,0000,,É mesmo.
+Dialogue: Marked=0,0:16:56.05,0:16:59.06,*Default,,0000,0000,0000,,Certo! Proteja o lado "right".
+Dialogue: Marked=0,0:16:59.06,0:17:00.72,*Default,,0000,0000,0000,,Sabe o que é "right"?
+Dialogue: Marked=0,0:17:01.38,0:17:04.04,N!,,0000,0000,0000,,{\fad(300,300)}Migi = Right = Direito
+Dialogue: Marked=0,0:17:01.38,0:17:02.98,*Default,,0000,0000,0000,,Sim! É "migi", não é?
+Dialogue: Marked=0,0:17:03.22,0:17:04.04,*Default,,0000,0000,0000,,Migi?
+Dialogue: Marked=0,0:17:04.85,0:17:07.86,*Default,,0000,0000,0000,,Não está errado, mas...
+Dialogue: Marked=0,0:17:08.70,0:17:11.50,*Default,,0000,0000,0000,,Será que o Gohan está indo bem?
+Dialogue: Marked=0,0:17:12.32,0:17:16.17,*Default,,0000,0000,0000,,É a primeira vez que ele vai para a escola.
+Dialogue: Marked=0,0:17:16.17,0:17:19.37,*Default,,0000,0000,0000,,Espero que ele faça amigos.
+Dialogue: Marked=0,0:17:27.60,0:17:29.79,P!,,0000,0000,0000,,Minha mãe e a Bulma-san disseram que,
+Dialogue: Marked=0,0:17:29.79,0:17:33.48,P!,,0000,0000,0000,,se descobrissem sobre mim,\Nseria uma grande bagunça e viraria um problema.
+Dialogue: Marked=0,0:17:34.16,0:17:36.67,P!,,0000,0000,0000,,Preciso dar um jeito de me segurar.
+Dialogue: Marked=0,0:17:36.67,0:17:39.39,P!,,0000,0000,0000,,A sociedade é complicada...
+Dialogue: Marked=0,0:17:40.62,0:17:42.13,*Default,,0000,0000,0000,,Faça um home-run, Sharpner!
+Dialogue: Marked=0,0:17:44.03,0:17:45.61,*Default,,0000,0000,0000,,Não vou deixar acertar, Sharpner!
+Dialogue: Marked=0,0:17:55.21,0:17:56.20,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:17:56.50,0:17:57.74,*Default,,0000,0000,0000,,Ele conseguiu! É um home-run!
+Dialogue: Marked=0,0:18:08.40,0:18:10.29,*Default,,0000,0000,0000,,O corredor da terceira base não está lá.
+Dialogue: Marked=0,0:18:10.29,0:18:13.69,*Default,,0000,0000,0000,,Se eu jogar para a terceira\Nbase agora, ele vai estar fora.
+Dialogue: Marked=0,0:18:15.02,0:18:18.55,*Default,,0000,0000,0000,,Certo. Com calma, com calma.\NAcho que assim dá.
+Dialogue: Marked=0,0:18:31.35,0:18:33.21,*Default,,0000,0000,0000,,F-Fora!
+Dialogue: Marked=0,0:18:36.67,0:18:39.36,*Default,,0000,0000,0000,,Consegui. Agora vai trocar.
+Dialogue: Marked=0,0:18:46.94,0:18:50.38,P!,,0000,0000,0000,,Essa não!\NSerá que exagerei com aquilo?
+Dialogue: Marked=0,0:18:51.11,0:18:55.91,*Default,,0000,0000,0000,,Foi incrível, garoto.\NVocê pulou uns 8 metros agora?
+Dialogue: Marked=0,0:18:55.91,0:18:57.83,*Default,,0000,0000,0000,,Foi sorte, sorte...
+Dialogue: Marked=0,0:18:58.88,0:19:01.68,*Default,,0000,0000,0000,,O quê? Sorte?
+Dialogue: Marked=0,0:19:01.68,0:19:04.14,*Default,,0000,0000,0000,,Chama aquilo de sorte?
+Dialogue: Marked=0,0:19:04.56,0:19:06.98,*Default,,0000,0000,0000,,Ei, quem é o próximo rebatedor?
+Dialogue: Marked=0,0:19:07.65,0:19:10.94,*Default,,0000,0000,0000,,Começamos com o número 8.\NÉ você, não é?
+Dialogue: Marked=0,0:19:11.30,0:19:12.11,*Default,,0000,0000,0000,,Sim! Sim! Sim!
+Dialogue: Marked=0,0:19:13.20,0:19:14.94,*Default,,0000,0000,0000,,Desculpem-me.
+Dialogue: Marked=0,0:19:15.34,0:19:18.21,*Default,,0000,0000,0000,,É ele.\NComo será que ele deve rebater?
+Dialogue: Marked=0,0:19:18.21,0:19:20.00,*Default,,0000,0000,0000,,V-Vamos ver.
+Dialogue: Marked=0,0:19:23.82,0:19:26.78,*Default,,0000,0000,0000,,Você rebate com a esquerda?
+Dialogue: Marked=0,0:19:26.78,0:19:27.67,*Default,,0000,0000,0000,,Não pode?
+Dialogue: Marked=0,0:19:27.67,0:19:31.93,*Default,,0000,0000,0000,,Não, não tem problema,\Nmas se for destro, está ao contrário.
+Dialogue: Marked=0,0:19:31.93,0:19:32.54,*Default,,0000,0000,0000,,Ao contrário?
+Dialogue: Marked=0,0:19:33.91,0:19:36.19,*Default,,0000,0000,0000,,Pode fazer do jeito que quiser.
+Dialogue: Marked=0,0:19:37.21,0:19:39.74,*Default,,0000,0000,0000,,Ele impediu o meu home-run...
+Dialogue: Marked=0,0:19:40.88,0:19:42.55,*Default,,0000,0000,0000,,Vou acabar com ele.
+Dialogue: Marked=0,0:19:43.29,0:19:47.43,P!,,0000,0000,0000,,Essa não. Vai ser ruim se me\Nnotarem ainda mais. Não posso rebater.
+Dialogue: Marked=0,0:19:49.79,0:19:52.81,P!,,0000,0000,0000,,Lá vou eu.\NVai morrer se não desviar.
+Dialogue: Marked=0,0:19:58.15,0:19:58.90,*Default,,0000,0000,0000,,Cuidado!
+Dialogue: Marked=0,0:20:04.27,0:20:07.91,*Default,,0000,0000,0000,,Idiota! Por que não desviou?
+Dialogue: Marked=0,0:20:17.70,0:20:20.93,*Default,,0000,0000,0000,,Foi uma bola morta, não foi?
+Dialogue: Marked=0,0:20:23.37,0:20:24.67,*Default,,0000,0000,0000,,Que sorte, que sorte.
+Dialogue: Marked=0,0:20:24.67,0:20:28.02,*Default,,0000,0000,0000,,Consegui sair dessa sem rebater.\NNão me notaram, não me notaram.
+Dialogue: Marked=0,0:20:29.28,0:20:31.77,*Default,,0000,0000,0000,,Quem é ele?
+Dialogue: Marked=0,0:20:34.88,0:20:36.52,*Default,,0000,0000,0000,,Suspeito...
+Dialogue: Marked=0,0:20:47.95,0:20:50.95,*Default,,0000,0000,0000,,Ei, você.\NQual atividade você escolheu?
+Dialogue: Marked=0,0:20:51.75,0:20:53.46,*Default,,0000,0000,0000,,Ainda não decidi...
+Dialogue: Marked=0,0:20:54.15,0:20:56.19,*Default,,0000,0000,0000,,Então você deve fazer boxe.
+Dialogue: Marked=0,0:20:56.19,0:20:59.25,*Default,,0000,0000,0000,,Você parece ser mais duro do que pensei.\NPode ser um bom lutador.
+Dialogue: Marked=0,0:20:59.59,0:21:03.19,*Default,,0000,0000,0000,,Bem, estou pensando em não fazer nada.
+Dialogue: Marked=0,0:21:03.19,0:21:03.89,*Default,,0000,0000,0000,,É que...
+Dialogue: Marked=0,0:21:03.89,0:21:10.40,*Default,,0000,0000,0000,,Isso, isso! Gohan-kun mora muito longe.\NEle não tem tempo para outras atividades.
+Dialogue: Marked=0,0:21:10.40,0:21:11.77,*Default,,0000,0000,0000,,Isso mesmo!
+Dialogue: Marked=0,0:21:12.13,0:21:16.87,*Default,,0000,0000,0000,,Ei, Gohan-kun, vamos voltar juntos?\NLeve-me até a minha casa.
+Dialogue: Marked=0,0:21:16.87,0:21:21.45,*Default,,0000,0000,0000,,Desculpe-me.\NMeu carro só dá para uma pessoa.
+Dialogue: Marked=0,0:21:21.45,0:21:24.03,*Default,,0000,0000,0000,,Não seria melhor se você\Nse mudasse para Satan City?
+Dialogue: Marked=0,0:21:24.45,0:21:26.78,*Default,,0000,0000,0000,,Não, é que...
+Dialogue: Marked=0,0:21:32.45,0:21:39.42,*Default,,0000,0000,0000,,É suspeito mesmo! Já que ele mora\Ntão longe, por que não vai de carro ou jato?
+Dialogue: Marked=0,0:21:53.98,0:21:54.71,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:22:08.70,0:22:11.20,*Default,,0000,0000,0000,,A cidade cansa.
+Dialogue: Marked=0,0:22:11.20,0:22:13.80,*Default,,0000,0000,0000,,Guerreiro de cabelos dourados...
+Dialogue: Marked=0,0:22:14.61,0:22:18.02,*Default,,0000,0000,0000,,Preciso de alguma coisa\Npara me esconder melhor.
+Dialogue: Marked=0,0:22:18.02,0:22:20.33,*Default,,0000,0000,0000,,Vou falar com a Bulma-san.
+Dialogue: Marked=0,0:22:20.33,0:22:24.34,Narrador,,0000,0000,0000,,O primeiro dia na "High School" acabou.
+Dialogue: Marked=0,0:22:24.34,0:22:30.64,Narrador,,0000,0000,0000,,Gohan achou que esse foi\No dia mais cansativo da sua vida.

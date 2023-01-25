@@ -1,0 +1,178 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:01.12,0:02:06.72,Narrador,,0000,0000,0000,,Piccolo luta de igual para\Nigual contra o poderoso Freeza.
+Dialogue: Marked=0,0:02:27.95,0:02:32.46,Narrador,,0000,0000,0000,,E Freeza, por um instante,\Ndemonstrou certa hesitação.
+Dialogue: Marked=0,0:02:32.46,0:02:35.11,Narrador,,0000,0000,0000,,Com planejamento e ação eficientes,\NPiccolo consegue encaixar vários golpes.
+Dialogue: Marked=0,0:03:16.00,0:03:18.24,*Default,,0000,0000,0000,,Maldito!
+
+Dialogue: Marked=0,0:03:18.73,0:03:26.75,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 82
+Dialogue: Marked=0,0:03:18.73,0:03:26.75,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(280,170)}{\fad(300,0)}{\fscx110\fscy120}Hora da ação, Goku!!
+Dialogue: Marked=0,0:03:18.73,0:03:26.75,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(385,460)}{\fad(300,0)}{\fscx85\fscy120}A segunda transformação do enfurecido Freeza
+
+Dialogue: Marked=0,0:03:30.47,0:03:33.99,*Default,NTP,0000,0000,0000,!Effect,Incrível!\NEle está se agüentando contra Freeza!
+Dialogue: Marked=0,0:03:33.99,0:03:37.03,*Default,NTP,0000,0000,0000,!Effect,Não! É mais que isso...
+Dialogue: Marked=0,0:03:37.03,0:03:40.34,*Default,NTP,0000,0000,0000,!Effect,Você é mesmo incrível, Piccolo-san!
+Dialogue: Marked=0,0:03:40.34,0:03:47.39,P!,NTP,0000,0000,0000,!Effect,Mas o que será que aconteceu? Não faz tanto tempo assim que ele foi derrotado na Terra!
+Dialogue: Marked=0,0:03:48.16,0:03:51.34,*Default,NTP,0000,0000,0000,!Effect,Temos chances de sair\Ndessa sem morrer, Gohan!
+Dialogue: Marked=0,0:03:51.34,0:03:52.05,*Default,NTP,0000,0000,0000,!Effect,É!
+Dialogue: Marked=0,0:03:55.22,0:04:01.41,P!,NTP,0000,0000,0000,!Effect,Derrote esse Freeza, que matou tantos\Nde nós, usando o poder do Nail-san!
+Dialogue: Marked=0,0:04:06.45,0:04:13.42,P!,NTP,0000,0000,0000,!Effect,Que tipo de treinamento o Piccolo fez?\NContinue assim! Segure-o até eu melhorar!
+Dialogue: Marked=0,0:04:25.42,0:04:31.16,*Default,NTP,0000,0000,0000,!Effect,Kaio-sama, com o poder atual\Nde Piccolo, ele pode derrotar Freeza?
+Dialogue: Marked=0,0:04:31.16,0:04:32.77,*Default,NTP,0000,0000,0000,!Effect,Se ele não ganhar, estamos ferrados!
+Dialogue: Marked=0,0:05:41.76,0:05:45.76,*Default,NTP,0000,0000,0000,!Effect,Que rápido! Eu que deveria\Nter vantagem na velocidade!
+Dialogue: Marked=0,0:06:00.66,0:06:01.88,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san...
+Dialogue: Marked=0,0:06:03.59,0:06:09.07,*Default,NTP,0000,0000,0000,!Effect,Como pode ser? Será que ele não\Nestava levando a sério até agora?
+Dialogue: Marked=0,0:06:09.07,0:06:12.23,*Default,NTP,0000,0000,0000,!Effect,O que é melhor fazer agora?
+Dialogue: Marked=0,0:06:12.23,0:06:13.79,P!,NTP,0000,0000,0000,!Effect,O que eu devo fazer?
+Dialogue: Marked=0,0:06:20.75,0:06:23.38,P!,NTP,0000,0000,0000,!Effect,Maldito!\NFez a gente cantar vitória antes do tempo...
+Dialogue: Marked=0,0:06:25.03,0:06:25.99,P!,NTP,0000,0000,0000,!Effect,Nail-san...
+Dialogue: Marked=0,0:06:27.86,0:06:31.70,P!,NTP,0000,0000,0000,!Effect,Piccolo!\NQue tipo de cara é esse Freeza?
+Dialogue: Marked=0,0:06:34.29,0:06:35.20,*Default,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:06:35.20,0:06:36.12,*Default,NTP,0000,0000,0000,!Effect,Kaio-sama!
+Dialogue: Marked=0,0:06:38.22,0:06:42.40,*Default,NTP,0000,0000,0000,!Effect,Eu disse, eles mexeram\Ncom o que não deveriam...
+Dialogue: Marked=0,0:06:43.52,0:06:44.75,P!,NTP,0000,0000,0000,!Effect,Piccolo...
+Dialogue: Marked=0,0:07:11.79,0:07:15.82,*Default,NTP,0000,0000,0000,!Effect,Desculpe pelo que fiz.\NEu não dei créditos suficientes para você.
+Dialogue: Marked=0,0:07:15.82,0:07:20.69,*Default,NTP,0000,0000,0000,!Effect,Mas você é mais capaz do que pensei.\NDecidi mostrar parte do meu verdadeiro poder.
+Dialogue: Marked=0,0:07:24.27,0:07:26.36,*Default,NTP,0000,0000,0000,!Effect,Quero dizer, meu verdadeiro poder.
+Dialogue: Marked=0,0:07:27.68,0:07:34.83,P!,NTP,0000,0000,0000,!Effect,O poder dele não tem fim! Eu estava\Nmesmo planejando lutar contra aquele monstro?
+Dialogue: Marked=0,0:08:04.02,0:08:05.98,*Default,NTP,0000,0000,0000,!Effect,Eu também. Vamos lutar de verdade.
+Dialogue: Marked=0,0:08:07.77,0:08:08.48,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:08:11.79,0:08:14.22,*Default,NTP,0000,0000,0000,!Effect,Você está dizendo que não\Nestava lutando a sério até agora?
+Dialogue: Marked=0,0:08:16.11,0:08:19.20,*Default,NTP,0000,0000,0000,!Effect,Eu não sabia que os Namekusei-jins\Ncontavam histórias de pescador.
+Dialogue: Marked=0,0:08:21.18,0:08:23.21,*Default,NTP,0000,0000,0000,!Effect,Você vai entender em breve.
+Dialogue: Marked=0,0:08:26.45,0:08:30.51,P!,NTP,0000,0000,0000,!Effect,Ele é um idiota!\NPara precisar blefar em um momento desses...
+Dialogue: Marked=0,0:08:31.66,0:08:33.60,*Default,NTP,0000,0000,0000,!Effect,E-Entendi!
+Dialogue: Marked=0,0:08:33.60,0:08:39.77,*Default,NTP,0000,0000,0000,!Effect,Piccolo estava lutando desse jeito com\Naquele turbante e capa pesados o tempo todo?
+Dialogue: Marked=0,0:08:40.69,0:08:44.77,*Default,NTP,0000,0000,0000,!Effect,Agora sinta a fúria dos\NNamekusei-jins que foram mortos por você!
+Dialogue: Marked=0,0:08:53.30,0:08:57.97,P!,NTP,0000,0000,0000,!Effect,O Ki de Piccolo está ficando mais\Nforte de novo. Esse é o verdadeiro poder!
+Dialogue: Marked=0,0:09:00.23,0:09:02.50,*Default,NTP,0000,0000,0000,!Effect,Ele pode vencer! Piccolo-san pode vencer!
+Dialogue: Marked=0,0:09:03.54,0:09:05.49,*Default,NTP,0000,0000,0000,!Effect,Piccolo! Contamos com você!
+Dialogue: Marked=0,0:09:05.49,0:09:06.96,*Default,NTP,0000,0000,0000,!Effect,A situação mudou de novo!
+Dialogue: Marked=0,0:09:07.82,0:09:10.67,*Default,NTP,0000,0000,0000,!Effect,Você tirou aquelas vestimentas\Npesadas e ficou mais leve...
+Dialogue: Marked=0,0:09:10.67,0:09:14.63,*Default,NTP,0000,0000,0000,!Effect,Quer dizer que sua\Nvelocidade ficou ainda maior?
+Dialogue: Marked=0,0:09:14.63,0:09:15.75,*Default,NTP,0000,0000,0000,!Effect,Veremos.
+Dialogue: Marked=0,0:10:07.22,0:10:11.73,*Default,NTP,0000,0000,0000,!Effect,Precisa de mais do que isso para\Nsatisfazer a fúria dos Namekusei-jins!
+Dialogue: Marked=0,0:10:27.11,0:10:28.11,*Default,NTP,0000,0000,0000,!Effect,Conseguiu!
+Dialogue: Marked=0,0:10:28.11,0:10:28.89,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:10:28.89,0:10:30.33,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:10:35.95,0:10:37.30,*Default,NTP,0000,0000,0000,!Effect,Nail-san!
+Dialogue: Marked=0,0:10:37.76,0:10:39.86,*Default,NTP,0000,0000,0000,!Effect,Boa, Piccolo-san!
+Dialogue: Marked=0,0:10:39.86,0:10:41.01,*Default,NTP,0000,0000,0000,!Effect,Continue assim!
+Dialogue: Marked=0,0:10:42.86,0:10:46.31,P!,NTP,0000,0000,0000,!Effect,Desse jeito, Kakarotto pode chegar a tempo.
+Dialogue: Marked=0,0:10:47.20,0:10:50.40,P!,NTP,0000,0000,0000,!Effect,Se for assim, eu posso sair vivo dessa!
+Dialogue: Marked=0,0:10:56.88,0:10:58.32,*Default,NTP,0000,0000,0000,!Effect,O golpe final!
+
+Dialogue: Marked=0,0:11:18.24,0:11:22.49,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:18.24,0:11:22.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:18.24,0:11:22.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:18.24,0:11:22.49,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:25.41,0:11:27.66,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:11:25.41,0:11:27.66,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:25.41,0:11:27.66,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:25.41,0:11:27.66,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:36.05,0:11:37.05,*Default,NTP,0000,0000,0000,!Effect,Será que Freeza...
+Dialogue: Marked=0,0:11:37.05,0:11:37.86,*Default,NTP,0000,0000,0000,!Effect,Você acha...
+Dialogue: Marked=0,0:11:40.62,0:11:41.62,*Default,NTP,0000,0000,0000,!Effect,Lá!
+Dialogue: Marked=0,0:12:01.67,0:12:03.63,*Default,NTP,0000,0000,0000,!Effect,Persistente, como pensei.
+Dialogue: Marked=0,0:12:04.48,0:12:08.73,*Default,NTP,0000,0000,0000,!Effect,Parece que você tem uma falsa\Nimpressão do meu verdadeiro poder.
+Dialogue: Marked=0,0:12:09.46,0:12:10.58,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:12:19.57,0:12:22.32,*Default,NTP,0000,0000,0000,!Effect,Você acha que o que\Neu mostrei antes foi sério?
+Dialogue: Marked=0,0:12:25.69,0:12:29.62,*Default,NTP,0000,0000,0000,!Effect,Você não tinha como saber\Nque eu me transformaria, tinha?
+Dialogue: Marked=0,0:12:31.09,0:12:32.25,*Default,NTP,0000,0000,0000,!Effect,Transformar?
+Dialogue: Marked=0,0:12:32.87,0:12:37.05,*Default,NTP,0000,0000,0000,!Effect,Vou mostrar para você, assim\Ncomo fiz com Vegeta e os outros.
+Dialogue: Marked=0,0:12:37.05,0:12:39.63,*Default,NTP,0000,0000,0000,!Effect,Um sentimento de terror absoluto vindo de mim.
+Dialogue: Marked=0,0:12:40.21,0:12:44.43,*Default,NTP,0000,0000,0000,!Effect,Bem, primeiro vou fazer\Nsentir falta de esperança.
+Dialogue: Marked=0,0:12:44.43,0:12:47.43,*Default,NTP,0000,0000,0000,!Effect,Falta de esperança por saber que\Nnada que você faça vai ajudar!
+Dialogue: Marked=0,0:12:52.69,0:12:57.46,*Default,NTP,0000,0000,0000,!Effect,Toda vez que eu, Freeza, me transformo,\Nmeu poder aumenta consideravelmente!
+Dialogue: Marked=0,0:12:57.46,0:13:01.75,*Default,NTP,0000,0000,0000,!Effect,E eu ainda tenho mais duas transformações faltando!
+Dialogue: Marked=0,0:13:03.25,0:13:05.00,*Default,NTP,0000,0000,0000,!Effect,Você entende isso?
+Dialogue: Marked=0,0:13:05.81,0:13:07.09,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:13:10.19,0:13:10.99,*Default,NTP,0000,0000,0000,!Effect,Impossível!
+Dialogue: Marked=0,0:13:12.41,0:13:15.13,*Default,NTP,0000,0000,0000,!Effect,Gohan, o que ele disse?
+Dialogue: Marked=0,0:13:16.18,0:13:20.21,*Default,NTP,0000,0000,0000,!Effect,Freeza pode se transformar mais duas vezes.
+Dialogue: Marked=0,0:13:22.93,0:13:26.97,P!,NTP,0000,0000,0000,!Effect,Agora que eu não me caso mesmo...
+Dialogue: Marked=0,0:13:28.32,0:13:30.26,*Default,NTP,0000,0000,0000,!Effect,Então, vou mostrar a você.
+Dialogue: Marked=0,0:13:31.15,0:13:37.83,*Default,NTP,0000,0000,0000,!Effect,Vocês devem se sentir honrados!\NSão os primeiros a ver essa transformação!
+Dialogue: Marked=0,0:13:55.73,0:14:00.66,*Default,NTP,0000,0000,0000,!Effect,Olhem bem! Aí vem a segunda parte\Nda transformação de Freeza-sama!
+Dialogue: Marked=0,0:15:30.33,0:15:36.32,*Default,NTP,0000,0000,0000,!Effect,Desculpe pelo atraso.\NAgora, devemos começar a batalha de novo?
+Dialogue: Marked=0,0:15:36.32,0:15:38.27,*Default,NTP,0000,0000,0000,!Effect,S-Seu monstro!
+Dialogue: Marked=0,0:15:48.53,0:15:51.15,*Default,NTP,0000,0000,0000,!Effect,Ele não mudou tanto assim, mudou?
+Dialogue: Marked=0,0:15:51.15,0:15:56.98,*Default,NTP,0000,0000,0000,!Effect,Idiota! Olhe o poder oculto dele!\NÉ completamente diferente de antes!
+Dialogue: Marked=0,0:15:56.98,0:16:00.87,*Default,NTP,0000,0000,0000,!Effect,E ele ainda ficou mais calmo de novo\Ne recuperou completamente o raciocínio!
+Dialogue: Marked=0,0:16:01.83,0:16:06.38,*Default,NTP,0000,0000,0000,!Effect,Ele também se recuperou dos danos\Nque o Piccolo-san tinha causado!
+Dialogue: Marked=0,0:16:08.18,0:16:15.84,P!,NTP,0000,0000,0000,!Effect,Que droga! O que está acontecendo?\NO Ki de Freeza ficou mais forte de novo!
+Dialogue: Marked=0,0:16:16.89,0:16:22.45,P!,NTP,0000,0000,0000,!Effect,Desse jeito, mesmo quando eu me recuperar,\Npode ser que eu não o vença. E agora?
+Dialogue: Marked=0,0:16:24.45,0:16:26.00,P!,NTP,0000,0000,0000,!Effect,É terrível...
+Dialogue: Marked=0,0:16:28.21,0:16:32.41,P!,NTP,0000,0000,0000,!Effect,Freeza é um supermonstro além da imaginação!
+Dialogue: Marked=0,0:16:47.31,0:16:50.84,*Default,NTP,0000,0000,0000,!Effect,Você tinha tanta confiança na\Nsua velocidade antes, não tinha?
+Dialogue: Marked=0,0:16:51.57,0:16:54.97,*Default,NTP,0000,0000,0000,!Effect,Vamos ver de novo como fica?
+Dialogue: Marked=0,0:17:22.51,0:17:26.01,P!,NTP,0000,0000,0000,!Effect,Desgraçado! Se você tem\Npoder, eu tenho velocidade!
+Dialogue: Marked=0,0:17:26.01,0:17:28.09,P!,,0000,0000,0000,,Você jamais vai me alcançar!
+Dialogue: Marked=0,0:17:32.23,0:17:33.88,P!,NTP,0000,0000,0000,!Effect,N-Não pode ser!
+Dialogue: Marked=0,0:17:35.52,0:17:39.60,*Default,NTP,0000,0000,0000,!Effect,Fazia tempo que isso não acontecia. Cheguei rápido, não?
+Dialogue: Marked=0,0:17:40.50,0:17:43.58,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san perdeu a vantagem da velocidade que tinha.
+Dialogue: Marked=0,0:17:43.58,0:17:46.14,*Default,NTP,0000,0000,0000,!Effect,Isso quer dizer que o poder de\NFreeza aumentou tanto assim?
+Dialogue: Marked=0,0:17:52.07,0:17:54.45,P!,NTP,0000,0000,0000,!Effect,Não perca, Nail-san!
+Dialogue: Marked=0,0:18:04.64,0:18:08.46,L!,NTP,0000,0000,0000,!Effect,Que bom! Não está morto!\NEu já vou curá-lo!
+Dialogue: Marked=0,0:18:18.26,0:18:19.30,P!,NTP,0000,0000,0000,!Effect,É isso!
+Dialogue: Marked=0,0:18:20.32,0:18:22.27,P!,NTP,0000,0000,0000,!Effect,Ainda tem aquele truque!
+Dialogue: Marked=0,0:18:47.82,0:18:49.60,P!,NTP,0000,0000,0000,!Effect,Está tudo acabado agora, não é?
+Dialogue: Marked=0,0:18:49.60,0:18:50.47,P!,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:19:23.29,0:19:25.70,*Default,NTP,0000,0000,0000,!Effect,Vamos colocar um fim nessa brincadeira?
+Dialogue: Marked=0,0:19:26.63,0:19:28.04,P!,NTP,0000,0000,0000,!Effect,Droga...
+Dialogue: Marked=0,0:19:33.53,0:19:37.92,*Default,NTP,0000,0000,0000,!Effect,Você percebeu que, infelizmente,\Na velocidade de que tanto você se orgulhava...
+Dialogue: Marked=0,0:19:37.92,0:19:41.33,*Default,NTP,0000,0000,0000,!Effect,não tem utilidade alguma\Ncontra mim agora, não percebeu?
+Dialogue: Marked=0,0:19:42.03,0:19:44.35,*Default,NTP,0000,0000,0000,!Effect,Então desista agora!
+Dialogue: Marked=0,0:19:56.34,0:19:57.24,P!,NTP,0000,0000,0000,!Effect,Muito rápido!
+Dialogue: Marked=0,0:20:08.59,0:20:10.04,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:20:23.91,0:20:27.35,*Default,NTP,0000,0000,0000,!Effect,São inacreditavelmente rápidos!\NNão tem como ele desviar!
+Dialogue: Marked=0,0:20:38.10,0:20:39.59,P!,NTP,0000,0000,0000,!Effect,Piccolo-san...
+Dialogue: Marked=0,0:20:57.07,0:20:58.01,P!,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:21:05.33,0:21:06.31,P!,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:21:22.56,0:21:25.05,*Default,NTP,0000,0000,0000,!Effect,Pare!
+Dialogue: Marked=0,0:21:27.34,0:21:28.27,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:21:30.58,0:21:32.66,*Default,NTP,0000,0000,0000,!Effect,Gohan! Droga!
+Dialogue: Marked=0,0:21:33.03,0:21:33.81,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:21:34.56,0:21:35.75,*Default,NTP,0000,0000,0000,!Effect,O que está fazendo, Vegeta?
+Dialogue: Marked=0,0:21:36.32,0:21:38.06,*Default,NTP,0000,0000,0000,!Effect,Não adianta você ir!
+Dialogue: Marked=0,0:21:38.06,0:21:40.05,*Default,NTP,0000,0000,0000,!Effect,M-Mas, se continuar assim...
+Dialogue: Marked=0,0:21:40.64,0:21:44.53,*Default,NTP,0000,0000,0000,!Effect,Escute! Desse jeito,\Nnós vamos ser mortos por Freeza!
+Dialogue: Marked=0,0:21:44.53,0:21:48.59,*Default,NTP,0000,0000,0000,!Effect,Não se importe com ele!\NDeixe-me à beira da morte! Agora!
+Dialogue: Marked=0,0:21:53.67,0:21:57.99,P!,NTP,0000,0000,0000,!Effect,Assim que aquele garoto me curar e me\Ntirar da beira da morte mais uma vez,
+Dialogue: Marked=0,0:21:57.99,0:22:02.32,P!,NTP,0000,0000,0000,!Effect,eu certamente vou poder me\Ntransformar em um Super Saiya-jin!
+Dialogue: Marked=0,0:22:16.37,0:22:21.21,Narrador,NTP,0000,0000,0000,!Effect,Com a segunda transformação,\NFreeza ficou ainda mais poderoso.
+Dialogue: Marked=0,0:22:21.21,0:22:27.68,Narrador,NTP,0000,0000,0000,!Effect,Piccolo enfrenta uma grande crise e Gohan\Nvai ajudar. O que será que vai acontecer?

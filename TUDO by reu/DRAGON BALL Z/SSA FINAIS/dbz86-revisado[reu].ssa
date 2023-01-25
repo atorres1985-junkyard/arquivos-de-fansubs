@@ -1,0 +1,158 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:07.69,0:02:14.71,Narrador,,0000,0000,0000,,Diante do grande poder de Freeza,\NVegeta perdeu a vontade de lutar.
+Dialogue: Marked=0,0:02:16.15,0:02:20.73,Narrador,,0000,0000,0000,,E, agora, a morte de Vegeta\Nestá chegando pouco a pouco.
+Dialogue: Marked=0,0:02:22.47,0:02:23.57,Narrador,,0000,0000,0000,,Nessa hora...
+Dialogue: Marked=0,0:02:38.65,0:02:41.94,Narrador,,0000,0000,0000,,Finalmente Son Goku se levantou.
+
+Dialogue: Marked=0,0:02:46.54,0:02:54.55,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 86
+Dialogue: Marked=0,0:02:46.54,0:02:54.55,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(555,270)}{\fad(300,0)}{\fscx120\fscy150}Arrependimento!!
+Dialogue: Marked=0,0:02:46.54,0:02:54.55,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(405,450)}{\fad(300,0)}{\fscx118\fscy120}Vegeta, o orgulhoso Saiya-jin, morre
+
+Dialogue: Marked=0,0:03:06.63,0:03:07.68,P!,NTP,0000,0000,0000,!Effect,Droga...
+Dialogue: Marked=0,0:03:28.38,0:03:29.87,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san...
+Dialogue: Marked=0,0:04:08.27,0:04:12.62,*Default,NTP,0000,0000,0000,!Effect,Certo, eles estão bem perto.\NDesculpem, estou indo agora!
+Dialogue: Marked=0,0:04:12.62,0:04:13.42,*Default,NTP,0000,0000,0000,!Effect,Pode ser que dê em alguma coisa!
+Dialogue: Marked=0,0:05:46.10,0:05:49.69,*Default,NTP,0000,0000,0000,!Effect,Desculpe.\NVocê perdeu mesmo a vontade de revidar.
+Dialogue: Marked=0,0:05:51.78,0:05:55.29,*Default,NTP,0000,0000,0000,!Effect,Ainda está muito cedo,\Nmas talvez eu acabe logo com você.
+Dialogue: Marked=0,0:06:58.90,0:07:05.05,*Default,NTP,0000,0000,0000,!Effect,Entendi, então aquele\NKi imenso era mesmo do Piccolo.
+Dialogue: Marked=0,0:07:07.87,0:07:08.81,*Default,NTP,0000,0000,0000,!Effect,S-Son!
+Dialogue: Marked=0,0:07:10.03,0:07:12.93,*Default,NTP,0000,0000,0000,!Effect,Que bom...\NVocê foi trazido aqui com as Dragon Balls?
+Dialogue: Marked=0,0:07:14.90,0:07:15.56,*Default,NTP,0000,0000,0000,!Effect,Pai!
+Dialogue: Marked=0,0:07:16.64,0:07:18.17,*Default,NTP,0000,0000,0000,!Effect,Você já está bem?
+Dialogue: Marked=0,0:07:18.92,0:07:22.56,*Default,NTP,0000,0000,0000,!Effect,Estou. Graças a vocês,\Nme recuperei de todos aqueles danos.
+Dialogue: Marked=0,0:07:26.33,0:07:30.07,*Default,NTP,0000,0000,0000,!Effect,Você se esforçou muito, Gohan!\NAgora, deixe tudo comigo!
+Dialogue: Marked=0,0:07:30.93,0:07:31.57,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:07:35.60,0:07:40.78,*Default,NTP,0000,0000,0000,!Effect,D-Deixar com você? Você está\Nplanejando derrotar esse doido sozinho?
+Dialogue: Marked=0,0:07:40.78,0:07:41.34,*Default,NTP,0000,0000,0000,!Effect,Isso.
+Dialogue: Marked=0,0:07:45.89,0:07:46.96,*Default,NTP,0000,0000,0000,!Effect,Pai!
+Dialogue: Marked=0,0:07:48.86,0:07:53.47,*Default,NTP,0000,0000,0000,!Effect,Você é mesmo o Goku? Tem alguma\Ncoisa diferente do seu Ki de momentos atrás.
+Dialogue: Marked=0,0:07:54.78,0:07:56.35,*Default,NTP,0000,0000,0000,!Effect,S-Son!
+Dialogue: Marked=0,0:07:57.84,0:08:01.54,P!,NTP,0000,0000,0000,!Effect,Aquele é o Son? Ele tem um Ki inacreditável.
+Dialogue: Marked=0,0:08:01.54,0:08:04.35,P!,NTP,0000,0000,0000,!Effect,Não tem comparação com\Nquando ele estava na Terra.
+Dialogue: Marked=0,0:08:21.01,0:08:22.94,*Default,NTP,0000,0000,0000,!Effect,Você é Freeza?
+Dialogue: Marked=0,0:08:23.53,0:08:26.30,*Default,NTP,0000,0000,0000,!Effect,Você é muito mais baixo do que pensei.
+Dialogue: Marked=0,0:08:29.03,0:08:31.09,*Default,NTP,0000,0000,0000,!Effect,Ainda tem mais lixo sobrando?
+Dialogue: Marked=0,0:08:37.28,0:08:40.72,*Default,NTP,0000,0000,0000,!Effect,Vegeta prometeu lutar contra mim!\NNão atrapalhe!
+Dialogue: Marked=0,0:08:43.26,0:08:45.77,*Default,NTP,0000,0000,0000,!Effect,Você...\NÉ como se eu o tivesse visto antes...
+Dialogue: Marked=0,0:08:56.95,0:08:59.75,*Default,NTP,0000,0000,0000,!Effect,K-Kakarotto, é você...
+Dialogue: Marked=0,0:09:00.42,0:09:04.58,*Default,NTP,0000,0000,0000,!Effect,K-Kakarotto?\NMas isso é nome de Saiya-jin...
+Dialogue: Marked=0,0:09:13.76,0:09:14.54,*Default,NTP,0000,0000,0000,!Effect,É ele!
+Dialogue: Marked=0,0:09:16.22,0:09:20.26,L!,NTP,0000,0000,0000,!Effect,Freeza! Venha aqui fora!
+Dialogue: Marked=0,0:09:20.98,0:09:23.34,L!,NTP,0000,0000,0000,!Effect,Você não vai escapar assim!
+Dialogue: Marked=0,0:09:38.27,0:09:46.74,*Default,NTP,0000,0000,0000,!Effect,Ele parece com aquele último Saiya-jin que se opôs a mim quando destruí o planeta Vegeta.
+Dialogue: Marked=0,0:10:49.70,0:10:53.36,*Default,NTP,0000,0000,0000,!Effect,Não vou deixar nenhum\Nde vocês, Saiya-jins, viver.
+Dialogue: Marked=0,0:10:54.59,0:10:58.36,*Default,NTP,0000,0000,0000,!Effect,Você é idiota. Seria melhor\Nse tremesse diante de mim.
+Dialogue: Marked=0,0:10:59.58,0:11:00.86,*Default,NTP,0000,0000,0000,!Effect,Talvez.
+Dialogue: Marked=0,0:11:02.86,0:11:06.37,P!,NTP,0000,0000,0000,!Effect,E-Ele não é o mesmo Kakarotto de antes...
+Dialogue: Marked=0,0:11:07.23,0:11:12.38,P!,NTP,0000,0000,0000,!Effect,E-Ele finalmente escalou a parede dos seus limites...
+Dialogue: Marked=0,0:11:13.95,0:11:15.88,P!,NTP,0000,0000,0000,!Effect,O-O que significa...
+Dialogue: Marked=0,0:11:17.30,0:11:18.59,*Default,NTP,0000,0000,0000,!Effect,Está pronto?
+Dialogue: Marked=0,0:11:20.65,0:11:20.84,*Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:11:41.11,0:11:44.59,*Default,NTP,0000,0000,0000,!Effect,O-O que foi aquilo? Goku fez alguma coisa?
+Dialogue: Marked=0,0:11:44.59,0:11:45.95,*Default,NTP,0000,0000,0000,!Effect,Mentira!
+Dialogue: Marked=0,0:11:46.65,0:11:51.68,P!,NTP,0000,0000,0000,!Effect,Nem eu pude ver muito bem...\NEle superou a velocidade de Freeza!
+Dialogue: Marked=0,0:12:11.95,0:12:13.77,*Default,NTP,0000,0000,0000,!Effect,É perigoso! Saia daí, Goku!
+
+Dialogue: Marked=0,0:12:22.15,0:12:26.38,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:22.15,0:12:26.38,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:22.15,0:12:26.38,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:22.15,0:12:26.38,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:29.33,0:12:31.55,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:12:29.33,0:12:31.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:29.33,0:12:31.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:29.33,0:12:31.55,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:34.11,0:12:35.92,*Default,,0000,0000,0000,,É perigoso! Saia daí, Goku!
+Dialogue: Marked=0,0:12:37.61,0:12:39.46,*Default,,0000,0000,0000,,Você é arrogante.
+Dialogue: Marked=0,0:14:10.78,0:14:15.31,*Default,NTP,0000,0000,0000,!Effect,Não pode ser!\NEle rebateu todos. E com uma só mão!
+Dialogue: Marked=0,0:14:21.39,0:14:25.90,*Default,NTP,0000,0000,0000,!Effect,Freeza, é melhor você lutar a sério!
+Dialogue: Marked=0,0:14:29.02,0:14:33.37,*Default,NTP,0000,0000,0000,!Effect,Ele é o que você mais teme...
+Dialogue: Marked=0,0:14:36.77,0:14:38.95,*Default,NTP,0000,0000,0000,!Effect,Super Saiya-jin!
+Dialogue: Marked=0,0:14:40.62,0:14:48.65,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo! O guerreiro mais\Nforte do universo: Super Saiya-jin!
+Dialogue: Marked=0,0:14:52.29,0:14:57.28,*Default,NTP,0000,0000,0000,!Effect,Freeza, você está\Nacabado agora! Bem-feito!
+Dialogue: Marked=0,0:15:17.70,0:15:18.29,*Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:15:21.14,0:15:26.17,*Default,NTP,0000,0000,0000,!Effect,Você sabia que eu não gosto de brincadeira, Vegeta?
+Dialogue: Marked=0,0:15:30.08,0:15:30.68,*Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:15:31.51,0:15:35.61,*Default,NTP,0000,0000,0000,!Effect,Ei! Vegeta estava em um estado\Nque não podia nem se mover mais!
+Dialogue: Marked=0,0:15:36.27,0:15:39.18,*Default,NTP,0000,0000,0000,!Effect,Não tinha motivo para\Nacabar com ele de propósito!
+Dialogue: Marked=0,0:15:40.38,0:15:44.30,*Default,NTP,0000,0000,0000,!Effect,Super Saiya-jin não é nada mais do\Nque uma lenda comum e insignificante.
+Dialogue: Marked=0,0:15:44.30,0:15:48.19,*Default,NTP,0000,0000,0000,!Effect,Ele não ia parar de falar sobre isso.\NOdeio quando as pessoas ficam entediantes.
+Dialogue: Marked=0,0:15:52.43,0:15:54.70,*Default,NTP,0000,0000,0000,!Effect,- K-Kakarotto...\N- Vegeta!
+Dialogue: Marked=0,0:15:58.56,0:16:06.07,*Default,NTP,0000,0000,0000,!Effect,V-Você... ainda está falando essas bobagens?\NVocê não é um Super Saiya-jin?!
+Dialogue: Marked=0,0:16:11.06,0:16:12.18,L!,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:16:16.14,0:16:17.85,*Default,NTP,0000,0000,0000,!Effect,Seu idiota de merda!
+Dialogue: Marked=0,0:16:17.85,0:16:25.25,*Default,,0000,0000,0000,,Tenha um coração frio! Se você tivesse descartado sua tolerância, certamente já seria...
+Dialogue: Marked=0,0:16:25.25,0:16:27.19,*Default,NTP,0000,0000,0000,!Effect,Um Super Saiya-jin!
+Dialogue: Marked=0,0:16:28.08,0:16:33.45,*Default,NTP,0000,0000,0000,!Effect,Eu simplesmente não vejo como eu\Npoderia agir tão friamente como você.
+Dialogue: Marked=0,0:16:34.54,0:16:38.04,*Default,NTP,0000,0000,0000,!Effect,Não consigo entender muito bem\Nsobre essa coisa de Super Saiya-jin!
+Dialogue: Marked=0,0:16:39.13,0:16:42.73,*Default,NTP,0000,0000,0000,!Effect,Um Super Saiya-jin é...
+Dialogue: Marked=0,0:17:30.25,0:17:38.47,L!,NTP,0000,0000,0000,!Effect,{\fscx95\fscy95}Maravilhoso! Olhem isso! Zarbon-san, Dodoria-san! Observem que belos fogos de artifício!
+Dialogue: Marked=0,0:17:44.23,0:17:47.75,*Default,NTP,0000,0000,0000,!Effect,O-Ouça bem, Kakarotto...
+Dialogue: Marked=0,0:17:51.10,0:17:55.57,*Default,NTP,0000,0000,0000,!Effect,E eu atravessei o coração dele.\NQue resistência. Vai continuar falando?
+Dialogue: Marked=0,0:17:56.16,0:18:05.02,*Default,NTP,0000,0000,0000,!Effect,O seu... O nosso planeta natal,\NPlaneta Vegeta não foi destruído...
+Dialogue: Marked=0,0:18:06.33,0:18:10.56,*Default,,0000,0000,0000,,Em uma colisão com um meteoro gigante...
+Dialogue: Marked=0,0:18:13.01,0:18:16.55,*Default,NTP,0000,0000,0000,!Effect,Não fale mais!\NVocê só está apressando sua morte!
+Dialogue: Marked=0,0:18:18.88,0:18:21.52,*Default,NTP,0000,0000,0000,!Effect,Foi o Freeza...
+Dialogue: Marked=0,0:18:22.05,0:18:29.30,*Default,NTP,0000,0000,0000,!Effect,Mesmo com nós, Saiya-jins...\NSempre servindo e estando aos seus pés...
+Dialogue: Marked=0,0:18:30.82,0:18:35.31,*Default,,0000,0000,0000,,Trabalhando exatamente como ele ordenava...
+Dialogue: Marked=0,0:18:35.31,0:18:39.95,*Default,NTP,0000,0000,0000,!Effect,Todos, menos nós... foram mortos!
+Dialogue: Marked=0,0:18:40.46,0:18:44.85,*Default,NTP,0000,0000,0000,!Effect,O seu pai...\NE o meu pai, o rei, também!
+Dialogue: Marked=0,0:18:45.50,0:18:51.08,*Default,NTP,0000,0000,0000,!Effect,O Freeza... estava com medo de\Nque os Saiya-jins juntassem forças...
+Dialogue: Marked=0,0:18:51.79,0:18:55.96,*Default,NTP,0000,0000,0000,!Effect,E um Super Saiya-jin nascesse entre nós...
+Dialogue: Marked=0,0:18:57.59,0:18:58.97,*Default,NTP,0000,0000,0000,!Effect,Falou bem.
+Dialogue: Marked=0,0:19:06.16,0:19:07.56,*Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:19:13.82,0:19:18.95,*Default,NTP,0000,0000,0000,!Effect,Eu imploro!\NFreeza... Derrote Freeza!
+Dialogue: Marked=0,0:19:20.55,0:19:28.51,*Default,NTP,0000,0000,0000,!Effect,Por favor...\NC-Com suas mãos de Saiya-jin!
+Dialogue: Marked=0,0:19:42.63,0:19:43.63,P!,NTP,0000,0000,0000,!Effect,Vegeta...
+Dialogue: Marked=0,0:19:49.70,0:19:55.27,*Default,NTP,0000,0000,0000,!Effect,Finalmente morreu?\NBem, devemos retomar o show de terror?
+Dialogue: Marked=0,0:19:59.51,0:20:01.45,*Default,NTP,0000,0000,0000,!Effect,Para você chorar...
+Dialogue: Marked=0,0:20:03.05,0:20:08.66,*Default,NTP,0000,0000,0000,!Effect,Para você ter implorado,\Ndeve ter sido muito difícil, não é?
+Dialogue: Marked=0,0:20:54.93,0:20:56.07,*Default,NTP,0000,0000,0000,!Effect,Entendi.
+Dialogue: Marked=0,0:20:57.28,0:21:01.76,*Default,,0000,0000,0000,,Não foi o fato de seus companheiros Saiya-jins terem sido mortos que foi difícil para você!
+Dialogue: Marked=0,0:21:03.74,0:21:09.43,*Default,NTP,0000,0000,0000,!Effect,Ter de fazer tudo o que ele mandava deve ter sido a pior coisa que você precisou agüentar!
+Dialogue: Marked=0,0:21:16.32,0:21:18.57,*Default,NTP,0000,0000,0000,!Effect,Eu o odiei tanto, mas...
+Dialogue: Marked=0,0:21:22.37,0:21:24.94,*Default,NTP,0000,0000,0000,!Effect,Você tinha o seu orgulho Saiya-jin!
+Dialogue: Marked=0,0:21:46.23,0:21:52.23,*Default,NTP,0000,0000,0000,!Effect,Agora eu também vou compartilhar...\Num pouco desse seu orgulho!
+Dialogue: Marked=0,0:21:55.61,0:21:58.17,*Default,NTP,0000,0000,0000,!Effect,Eu sou um Saiya-jin criado na Terra!
+Dialogue: Marked=0,0:22:01.68,0:22:03.94,*Default,NTP,0000,0000,0000,!Effect,Por todos os Saiya-jins\Nque foram mortos por você...
+Dialogue: Marked=0,0:22:05.90,0:22:09.83,*Default,NTP,0000,0000,0000,!Effect,E por todos os Namekusei-jins daqui...
+Dialogue: Marked=0,0:22:12.80,0:22:15.59,*Default,NTP,0000,0000,0000,!Effect,Eu vou acabar com você!
+Dialogue: Marked=0,0:22:18.07,0:22:19.53,*Default,NTP,0000,0000,0000,!Effect,Que coisa mais estúpida!
+Dialogue: Marked=0,0:22:22.77,0:22:26.74,Narrador,NTP,0000,0000,0000,!Effect,{\fad(0,300)}Son Goku abre seus olhos\Npara seu orgulho Saiya-jin.
+Dialogue: Marked=0,0:22:26.74,0:22:31.21,Narrador,NTP,0000,0000,0000,!Effect,Qual será o tamanho de seu poder com sua ira?

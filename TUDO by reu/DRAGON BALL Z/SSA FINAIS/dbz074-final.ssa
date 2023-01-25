@@ -1,0 +1,231 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:40.48,0:02:50.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:56.27,0:01:59.41,*Default,,0000,0000,0000,,Jiisu, em quanto está\No meu poder de luta agora?
+Dialogue: Marked=0,0:02:00.34,0:02:01.53,*Default,,0000,0000,0000,,23.000.
+Dialogue: Marked=0,0:02:02.43,0:02:03.49,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:02:07.19,0:02:12.21,Narrador,,0000,0000,0000,,Ginyuu, que roubou o corpo de Goku,\Nnão consegue usar bem a força.
+Dialogue: Marked=0,0:02:21.32,0:02:29.60,Narrador,,0000,0000,0000,,Agora, seu golpe especial, Body Change, é questão de vida ou morte. Entretanto...
+Dialogue: Marked=0,0:02:32.27,0:02:34.86,*Default,,0000,0000,0000,,Morra!
+Dialogue: Marked=0,0:02:40.98,0:02:43.49,Poder,,0000,0000,0000,,CHANGE
+Dialogue: Marked=0,0:02:44.08,0:02:48.71,Narrador,,0000,0000,0000,,Usando novamente seu golpe especial,\No Body Change foi voltado para Vegeta.
+Dialogue: Marked=0,0:02:49.53,0:02:51.43,Narrador,,0000,0000,0000,,O que vai fazer, Goku?
+
+Dialogue: Marked=0,0:02:53.63,0:03:01.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 74
+Dialogue: Marked=0,0:02:53.63,0:03:01.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(395,205)}{\fad(300,0)}{\fscx125\fscy120}Grande erro de cálculo! Ginyuu
+Dialogue: Marked=0,0:02:53.63,0:03:01.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(402,480)}{\fad(300,0)}{\fscx219\fscy120}vira um sapo
+
+Dialogue: Marked=0,0:03:17.68,0:03:18.40,*Default,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:03:22.93,0:03:26.87,Poder,,0000,0000,0000,,CHANGE
+Dialogue: Marked=0,0:03:27.55,0:03:30.29,*Default,,0000,0000,0000,,É agora!\NEu posso pegar o meu corpo de volta!
+Dialogue: Marked=0,0:03:30.75,0:03:32.08,*Default,,0000,0000,0000,,Tenho que chegar a tempo!
+Dialogue: Marked=0,0:03:42.19,0:03:42.60,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:03:43.27,0:03:44.89,*Default,,0000,0000,0000,,C-Cuidado!
+Dialogue: Marked=0,0:04:14.85,0:04:20.63,*Default,,0000,0000,0000,,Seu maldito...\NComo ousa... interferir?!
+Dialogue: Marked=0,0:04:25.13,0:04:28.31,*Default,,0000,0000,0000,,Parece que estou de volta ao normal.
+Dialogue: Marked=0,0:04:29.45,0:04:33.31,*Default,,0000,0000,0000,,O que aconteceu?\NO que exatamente Kakarotto acabou de fazer?
+Dialogue: Marked=0,0:04:34.49,0:04:35.80,*Default,,0000,0000,0000,,O que foi aquela luz?
+Dialogue: Marked=0,0:04:35.80,0:04:40.43,*Default,,0000,0000,0000,,O-O Goku pulou entre eles\Npara parar o ataque de Vegeta?
+Dialogue: Marked=0,0:04:52.68,0:04:54.54,*Default,,0000,0000,0000,,Eu posso sentir o meu pai!
+Dialogue: Marked=0,0:04:54.54,0:04:57.63,*Default,,0000,0000,0000,,Pai! Meu pai voltou para o corpo dele!
+Dialogue: Marked=0,0:04:58.14,0:04:59.19,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:04:59.19,0:05:00.57,*Default,,0000,0000,0000,,Verdade, Gohan?
+Dialogue: Marked=0,0:05:03.54,0:05:06.24,*Default,,0000,0000,0000,,Então, o desgraçado do\NGinyuu está ali, agora?
+Dialogue: Marked=0,0:05:11.09,0:05:13.01,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:05:15.49,0:05:18.91,*Default,,0000,0000,0000,,Eu vou para o seu corpo\Ncom certeza dessa vez, Vegeta!
+Dialogue: Marked=0,0:05:18.91,0:05:19.88,*Default,,0000,0000,0000,,Eu não vou deixar!
+Dialogue: Marked=0,0:05:19.88,0:05:20.40,*Default,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:05:30.79,0:05:32.41,Poder,,0000,0000,0000,,{\fad(200,200)}KA
+Dialogue: Marked=0,0:05:33.34,0:05:35.54,Poder,,0000,0000,0000,,{\fad(200,200)}ME
+Dialogue: Marked=0,0:05:37.67,0:05:39.38,*Default,,0000,0000,0000,,K-Kakarotto, você...
+Dialogue: Marked=0,0:05:41.04,0:05:42.38,Poder,,0000,0000,0000,,{\fad(200,200)}HA
+Dialogue: Marked=0,0:05:43.57,0:05:45.38,Poder,,0000,0000,0000,,{\fad(200,200)}ME
+Dialogue: Marked=0,0:05:56.44,0:05:59.61,Poder,,0000,0000,0000,,{\fad(200,200)}HA!
+Dialogue: Marked=0,0:06:03.72,0:06:06.44,*Default,,0000,0000,0000,,Droga, estou muito machucado...
+Dialogue: Marked=0,0:06:07.20,0:06:09.41,*Default,,0000,0000,0000,,Não posso controlar meu ki.
+Dialogue: Marked=0,0:06:13.16,0:06:14.31,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:06:15.25,0:06:16.00,*Default,,0000,0000,0000,,Goku!
+Dialogue: Marked=0,0:06:23.49,0:06:25.26,*Default,,0000,0000,0000,,Foi muito estúpido da sua parte.
+Dialogue: Marked=0,0:06:25.90,0:06:28.30,*Default,,0000,0000,0000,,Você não vai mais me atrapalhar.
+Dialogue: Marked=0,0:06:33.54,0:06:34.83,*Default,,0000,0000,0000,,Isso é ruim!
+Dialogue: Marked=0,0:06:35.64,0:06:40.41,*Default,,0000,0000,0000,,Se deixarmos ele controlar\No corpo de Vegeta agora...
+Dialogue: Marked=0,0:06:40.41,0:06:41.81,*Default,,0000,0000,0000,,Vai estar tudo perdido!
+Dialogue: Marked=0,0:06:47.97,0:06:50.82,*Default,,0000,0000,0000,,Vou pegar o seu corpo, agora!
+Dialogue: Marked=0,0:06:59.52,0:07:02.71,Poder,,0000,0000,0000,,CHAN...
+Dialogue: Marked=0,0:07:03.70,0:07:04.04,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:07:38.64,0:07:40.75,*Default,,0000,0000,0000,,Como eu esperava, hein, Vegeta?
+Dialogue: Marked=0,0:08:14.83,0:08:18.24,*Default,,0000,0000,0000,,Ele está apanhando de\Npropósito, igual fez contra mim.
+Dialogue: Marked=0,0:08:20.62,0:08:22.33,*Default,,0000,0000,0000,,Ele está planejando\Ntrocar de lugar com o Vegeta!
+Dialogue: Marked=0,0:08:27.51,0:08:30.09,*Default,,0000,0000,0000,,Qual é o problema? Já acabou?
+Dialogue: Marked=0,0:08:31.07,0:08:33.48,*Default,,0000,0000,0000,,Isso mesmo! Vá!
+Dialogue: Marked=0,0:08:36.24,0:08:38.06,*Default,,0000,0000,0000,,Acabei!
+Dialogue: Marked=0,0:08:40.70,0:08:42.38,*Default,,0000,0000,0000,,Pare, Vegeta!
+Dialogue: Marked=0,0:08:49.65,0:08:51.77,*Default,,0000,0000,0000,,Caiu na armadilha, Vegeta!
+Dialogue: Marked=0,0:08:54.08,0:08:55.24,*Default,,0000,0000,0000,,É isso.
+Dialogue: Marked=0,0:08:55.89,0:08:58.74,Poder,,0000,0000,0000,,CHANGE
+Dialogue: Marked=0,0:09:54.51,0:09:55.67,*Default,,0000,0000,0000,,O que aconteceu agora?
+Dialogue: Marked=0,0:10:12.52,0:10:13.74,*Default,,0000,0000,0000,,Consegui!
+Dialogue: Marked=0,0:10:17.24,0:10:18.99,*Default,,0000,0000,0000,,Goku! Você está bem?
+Dialogue: Marked=0,0:10:18.99,0:10:21.20,*Default,,0000,0000,0000,,Pai! Agüente!
+Dialogue: Marked=0,0:10:26.28,0:10:31.52,*Default,,0000,0000,0000,,Você acabou mesmo... com o meu corpo, não foi, Vegeta?
+Dialogue: Marked=0,0:10:32.70,0:10:36.59,*Default,,0000,0000,0000,,Deixe isso para lá.\NExplique o que aconteceu com Ginyuu.
+Dialogue: Marked=0,0:10:38.63,0:10:40.80,*Default,,0000,0000,0000,,Aquele que fugiu é um sapo.
+Dialogue: Marked=0,0:10:40.80,0:10:44.72,*Default,,0000,0000,0000,,E aquela coisa que parece\Num sapo ali é o Ginyuu agora.
+Dialogue: Marked=0,0:10:45.17,0:10:45.94,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:10:54.44,0:10:56.82,*Default,,0000,0000,0000,,Não sei como fez isso, mas vou\Nesmagá-lo com o pé de qualquer jeito.
+Dialogue: Marked=0,0:11:05.37,0:11:07.40,*Default,,0000,0000,0000,,Deixe-o em paz, Vegeta...
+Dialogue: Marked=0,0:11:07.40,0:11:10.96,*Default,,0000,0000,0000,,Agora que o Ginyuu está\Nassim, não pode fazer nada.
+Dialogue: Marked=0,0:11:12.99,0:11:15.10,*Default,,0000,0000,0000,,Ah, tudo bem, pode ir.
+Dialogue: Marked=0,0:11:15.10,0:11:18.13,*Default,,0000,0000,0000,,Tenho pena da sua\Nvida de agora em diante.
+Dialogue: Marked=0,0:11:23.33,0:11:24.14,*Default,,0000,0000,0000,,Goku!
+Dialogue: Marked=0,0:11:26.17,0:11:27.30,*Default,,0000,0000,0000,,Pai!
+
+Dialogue: Marked=0,0:11:31.10,0:11:35.33,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:31.10,0:11:35.33,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:31.10,0:11:35.33,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:31.10,0:11:35.33,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:38.61,0:11:40.83,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:11:38.61,0:11:40.83,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:38.61,0:11:40.83,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:38.61,0:11:40.83,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:45.53,0:11:48.91,*Default,,0000,0000,0000,,Ei, Goku, você não\Ntem mais nenhuma Senzu?
+Dialogue: Marked=0,0:11:49.97,0:11:53.46,*Default,,0000,0000,0000,,N-Não... Realmente apanhei muito...
+Dialogue: Marked=0,0:11:58.57,0:12:02.26,*Default,,0000,0000,0000,,Seria tão fácil, para mim,\Nvaporizar os impetulantes agora mesmo.
+Dialogue: Marked=0,0:12:03.08,0:12:03.90,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:12:04.82,0:12:07.76,*Default,,0000,0000,0000,,Vegeta, seu sujo, desonesto...
+Dialogue: Marked=0,0:12:14.54,0:12:18.28,*Default,,0000,0000,0000,,Está tudo bem.\NEle não pode nos matar ainda.
+Dialogue: Marked=0,0:12:20.45,0:12:24.20,*Default,,0000,0000,0000,,Isso mesmo.\NAinda tem o problema das Dragon Balls,
+Dialogue: Marked=0,0:12:24.20,0:12:26.38,*Default,,0000,0000,0000,,assim como a luta contra Freeza,
+Dialogue: Marked=0,0:12:26.38,0:12:29.29,*Default,,0000,0000,0000,,e eu vou precisar do poder de\Ntodos, especialmente do seu, Kakarotto.
+Dialogue: Marked=0,0:12:29.92,0:12:30.52,*Default,,0000,0000,0000,,Venham.
+Dialogue: Marked=0,0:12:31.16,0:12:32.00,*Default,,0000,0000,0000,,Onde você está indo?
+Dialogue: Marked=0,0:12:34.00,0:12:37.79,*Default,,0000,0000,0000,,Para dentro da nave.\NTragam Kakarotto com vocês.
+Dialogue: Marked=0,0:12:46.65,0:12:48.21,*Default,,0000,0000,0000,,O que você vai fazer com o Goku?!
+Dialogue: Marked=0,0:12:48.21,0:12:50.14,*Default,,0000,0000,0000,,Estou me oferecendo para curá-lo.
+Dialogue: Marked=0,0:12:50.98,0:12:52.61,*Default,,0000,0000,0000,,Podemos acreditar nisso?!
+Dialogue: Marked=0,0:12:55.58,0:12:57.81,*Default,,0000,0000,0000,,Bem, façam como quiserem.
+Dialogue: Marked=0,0:12:58.57,0:13:01.41,*Default,,0000,0000,0000,,Vocês podem morrer como\Ncachorros ao lado de Kakarotto.
+Dialogue: Marked=0,0:13:04.53,0:13:05.60,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:13:06.65,0:13:07.78,*Default,,0000,0000,0000,,Kuririn-san...
+Dialogue: Marked=0,0:13:08.57,0:13:10.63,*Default,,0000,0000,0000,,Kuririn, está tudo bem.
+Dialogue: Marked=0,0:13:10.63,0:13:11.25,*Default,,0000,0000,0000,,Tudo bem?
+Dialogue: Marked=0,0:13:11.72,0:13:16.75,*Default,,0000,0000,0000,,Agora, o inimigo de Vegeta\Né Freeza, e não somos nós.
+Dialogue: Marked=0,0:13:17.60,0:13:18.48,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:13:28.78,0:13:30.31,*Default,,0000,0000,0000,,Vamos, Kuririn-san!
+Dialogue: Marked=0,0:13:38.77,0:13:43.07,*Default,,0000,0000,0000,,Andem logo.\NNão sabemos quando Freeza vai voltar.
+Dialogue: Marked=0,0:14:22.72,0:14:23.85,*Default,,0000,0000,0000,,É aqui.
+Dialogue: Marked=0,0:14:23.85,0:14:25.44,*Default,,0000,0000,0000,,Você primeiro.
+Dialogue: Marked=0,0:14:31.70,0:14:34.87,*Default,,0000,0000,0000,,Isto vai tratar dos ferimentos de\NKakarotto e recuperar seu poder máximo.
+Dialogue: Marked=0,0:14:37.27,0:14:38.17,*Default,,0000,0000,0000,,Tudo isso?
+Dialogue: Marked=0,0:14:52.55,0:14:53.43,*Default,,0000,0000,0000,,Injeção!
+Dialogue: Marked=0,0:14:54.86,0:14:56.87,*Default,,0000,0000,0000,,N-Não mesmo!
+Dialogue: Marked=0,0:14:57.52,0:15:00.48,*Default,,0000,0000,0000,,Odeio injeção! Solta, Kuririn!
+Dialogue: Marked=0,0:15:00.97,0:15:03.70,*Default,,0000,0000,0000,,Não preciso de nenhum cuidado médico!
+Dialogue: Marked=0,0:15:04.51,0:15:08.49,*Default,,0000,0000,0000,,Você acha que eu cuidaria de você com\Nalgo tão rústico como uma agulha? Idiota!
+Dialogue: Marked=0,0:15:11.56,0:15:12.45,*Default,,0000,0000,0000,,Verdade?
+Dialogue: Marked=0,0:15:14.42,0:15:17.12,P!,,0000,0000,0000,,Papai, que vergonha!
+Dialogue: Marked=0,0:15:26.78,0:15:29.26,*Default,,0000,0000,0000,,Vegeta, o que é isso?
+Dialogue: Marked=0,0:15:29.97,0:15:35.61,*Default,,0000,0000,0000,,É chamada Medical Machine. Simplificando,\Né como se fosse uma cápsula que cura.
+Dialogue: Marked=0,0:15:35.61,0:15:38.01,*Default,,0000,0000,0000,,Colocando alguém nessa solução especial,
+Dialogue: Marked=0,0:15:38.01,0:15:40.70,*Default,,0000,0000,0000,,a energia é recuperada em pouco tempo.
+Dialogue: Marked=0,0:15:42.26,0:15:43.27,*Default,,0000,0000,0000,,Então é assim...
+Dialogue: Marked=0,0:15:44.15,0:15:48.28,P!,,0000,0000,0000,,Depois que eu tiver derrotado Freeza,\Neu vou matar vocês bem devagar.
+Dialogue: Marked=0,0:15:49.48,0:15:56.19,P!,,0000,0000,0000,,Nesse momento, certamente,\Neu serei um Super Saiya-jin!
+Dialogue: Marked=0,0:16:21.00,0:16:23.49,*Default,,0000,0000,0000,,Que tal finalmente falar para mim?
+Dialogue: Marked=0,0:16:25.22,0:16:27.78,*Default,,0000,0000,0000,,Contar uma coisa simples é o suficiente.
+Dialogue: Marked=0,0:16:27.78,0:16:30.03,*Default,,0000,0000,0000,,Como faço para as Dragon Balls\Nrealizarem o meu desejo?
+Dialogue: Marked=0,0:16:30.63,0:16:32.63,*Default,,0000,0000,0000,,É bom você me explicar isso.
+Dialogue: Marked=0,0:16:34.67,0:16:36.03,*Default,,0000,0000,0000,,Você acha... que eu vou dizer?
+Dialogue: Marked=0,0:16:50.39,0:16:53.34,*Default,,0000,0000,0000,,Você não precisa falar mais nada.
+Dialogue: Marked=0,0:16:55.33,0:16:58.85,*Default,,0000,0000,0000,,E agora?\NVocê ainda quer que eu continue assim?
+Dialogue: Marked=0,0:17:02.15,0:17:02.85,*Default,,0000,0000,0000,,Não me faça rir!
+Dialogue: Marked=0,0:17:19.27,0:17:24.72,P!,,0000,0000,0000,,Minhas desculpas, Neil.\NSó faltam alguns momentos para minha morte.
+Dialogue: Marked=0,0:17:24.72,0:17:28.96,P!,,0000,0000,0000,,Em breve, Dende vai chegar\Nonde os terráqueos estão.
+Dialogue: Marked=0,0:17:30.21,0:17:36.47,P!,,0000,0000,0000,,Por favor, permita-me viver só até esse momento.
+Dialogue: Marked=0,0:17:44.32,0:17:45.74,P!,,0000,0000,0000,,Só mais um pouco.
+Dialogue: Marked=0,0:17:45.74,0:17:48.66,P!,,0000,0000,0000,,O Grande Patriarca disse\Nque eles estavam na região Maima.
+Dialogue: Marked=0,0:17:55.39,0:17:58.68,*Default,,0000,0000,0000,,A Medical Machine nessa\Nsala é o modelo velho. Mas...
+Dialogue: Marked=0,0:17:58.68,0:18:02.56,*Default,,0000,0000,0000,,Conhecendo Kakarotto, ele\Ndeve recuperar a saúde rapidamente.
+Dialogue: Marked=0,0:18:02.56,0:18:03.66,*Default,,0000,0000,0000,,Modelo velho?
+Dialogue: Marked=0,0:18:04.35,0:18:07.67,*Default,,0000,0000,0000,,Eu destruí o mais novo.
+Dialogue: Marked=0,0:18:09.61,0:18:11.67,*Default,,0000,0000,0000,,Ele não pode se afogar ou algo assim, certo?
+Dialogue: Marked=0,0:18:14.49,0:18:16.28,P!,,0000,0000,0000,,Que sensação boa.
+Dialogue: Marked=0,0:18:18.70,0:18:22.61,*Default,,0000,0000,0000,,Agora, vamos pegar umas\Nroupas de batalha pra vocês.
+Dialogue: Marked=0,0:18:22.61,0:18:25.35,*Default,,0000,0000,0000,,Vocês ficarão mais resistentes\Ncom elas, onde houver proteção.
+Dialogue: Marked=0,0:18:27.17,0:18:29.77,*Default,,0000,0000,0000,,Roupa de batalha? Como essa sua?
+Dialogue: Marked=0,0:18:30.45,0:18:32.36,*Default,,0000,0000,0000,,Não é assim que eu quero nos imaginar.
+Dialogue: Marked=0,0:18:39.51,0:18:44.40,*Default,,0000,0000,0000,,Cara, a civilização deles é\Nmais avançada que a da Terra.
+Dialogue: Marked=0,0:18:44.40,0:18:45.70,*Default,,0000,0000,0000,,É o que parece.
+Dialogue: Marked=0,0:18:49.20,0:18:52.02,*Default,,0000,0000,0000,,Tirem suas roupas e coloquem essas camisas.
+Dialogue: Marked=0,0:18:52.02,0:18:54.71,*Default,,0000,0000,0000,,Andem logo! Freeza está vindo!
+Dialogue: Marked=0,0:18:56.17,0:19:01.52,*Default,,0000,0000,0000,,Ei, Gohan, se Vegeta diz que\Naté a nossa força é importante,
+Dialogue: Marked=0,0:19:01.52,0:19:03.35,*Default,,0000,0000,0000,,será que Freeza é\Ntão forte assim mesmo?
+Dialogue: Marked=0,0:19:04.94,0:19:06.77,*Default,,0000,0000,0000,,Isso me assusta...
+Dialogue: Marked=0,0:19:07.71,0:19:09.79,*Default,,0000,0000,0000,,Agora, as jaquetas de batalha.
+Dialogue: Marked=0,0:19:09.79,0:19:12.69,*Default,,0000,0000,0000,,Por sorte, tem algumas menores aqui,\Nusadas pelos caras do planeta Litt.
+Dialogue: Marked=0,0:19:18.23,0:19:20.66,*Default,,0000,0000,0000,,Como se veste isso?
+Dialogue: Marked=0,0:19:20.66,0:19:23.20,*Default,,0000,0000,0000,,A minha cabeça passa,\Nmas meus braços não vão caber.
+Dialogue: Marked=0,0:19:23.85,0:19:29.16,*Default,,0000,0000,0000,,É só forçar. Elas são tão macias\Nque se você empurrar, elas esticam.
+Dialogue: Marked=0,0:19:29.16,0:19:31.72,*Default,,0000,0000,0000,,Na Terra, mesmo quando\Nme transformei em Oozaru,
+Dialogue: Marked=0,0:19:31.72,0:19:33.71,*Default,,0000,0000,0000,,minha armadura\Nnão se quebrou, lembram?
+Dialogue: Marked=0,0:19:34.69,0:19:36.49,*Default,,0000,0000,0000,,E elas ainda agüentam\Nmuito bem os impactos.
+Dialogue: Marked=0,0:19:42.31,0:19:43.83,*Default,,0000,0000,0000,,Nossa, você está certo!
+Dialogue: Marked=0,0:19:46.64,0:19:49.68,*Default,,0000,0000,0000,,As luvas e as botas\Nsão feitas do mesmo material?
+Dialogue: Marked=0,0:19:50.79,0:19:51.73,*Default,,0000,0000,0000,,Talvez.
+Dialogue: Marked=0,0:19:53.44,0:19:55.48,*Default,,0000,0000,0000,,É muito leve!
+Dialogue: Marked=0,0:19:58.59,0:20:00.68,*Default,,0000,0000,0000,,É quase como se não tivesse peso algum!
+Dialogue: Marked=0,0:20:01.44,0:20:06.51,*Default,,0000,0000,0000,,É egoísmo demais vocês ficarem\Nandando por aí com essa coisa tão legal.
+Dialogue: Marked=0,0:20:06.51,0:20:08.12,*Default,,0000,0000,0000,,Não é, Vegeta?
+Dialogue: Marked=0,0:20:12.23,0:20:13.42,*Default,,0000,0000,0000,,Qual é o problema?
+Dialogue: Marked=0,0:20:15.78,0:20:17.17,*Default,,0000,0000,0000,,Não é nada.
+Dialogue: Marked=0,0:20:17.64,0:20:20.75,*Default,,0000,0000,0000,,Eu queria ter uma armadura igual à do Vegeta.
+Dialogue: Marked=0,0:20:20.75,0:20:24.10,*Default,,0000,0000,0000,,A ombreira deve\Nfacilitar muito a movimentação.
+Dialogue: Marked=0,0:20:24.10,0:20:26.08,*Default,,0000,0000,0000,,A minha é antiga.
+Dialogue: Marked=0,0:20:26.08,0:20:29.18,*Default,,0000,0000,0000,,Não tinha nenhuma mais nova\Nque coubesse direito em mim.
+Dialogue: Marked=0,0:20:29.92,0:20:36.15,*Default,,0000,0000,0000,,Mas, não parece atrapalhar em nada,\NKuririn-san. Posso mexer livremente!
+Dialogue: Marked=0,0:20:41.86,0:20:44.15,*Default,,0000,0000,0000,,Você está bem mesmo?
+Dialogue: Marked=0,0:20:45.35,0:20:47.25,*Default,,0000,0000,0000,,Vocês não precisam se preocupar comigo.
+Dialogue: Marked=0,0:20:47.25,0:20:49.66,*Default,,0000,0000,0000,,Tá, se você diz.
+Dialogue: Marked=0,0:20:50.48,0:20:52.81,*Default,,0000,0000,0000,,A propósito, e o Goku?
+Dialogue: Marked=0,0:20:52.81,0:20:54.08,*Default,,0000,0000,0000,,Quanto tempo levará para ele se recuperar?
+Dialogue: Marked=0,0:20:54.97,0:20:59.25,*Default,,0000,0000,0000,,Deixe-me ver.\NSendo ele, deve levar uns 40 ou 50 minutos.
+Dialogue: Marked=0,0:21:01.68,0:21:05.33,*Default,,0000,0000,0000,,Gohan, eu vou no Grande Patriarca e já volto.
+Dialogue: Marked=0,0:21:07.41,0:21:10.52,*Default,,0000,0000,0000,,Sei que Freeza provavelmente\Nestá lá também, mas...
+Dialogue: Marked=0,0:21:10.52,0:21:15.27,*Default,,0000,0000,0000,,Se não pegarmos a senha para chamar Shen-Long, não haverá mais nada a fazer.
+Dialogue: Marked=0,0:21:16.58,0:21:16.98,*Default,,0000,0000,0000,,Eu também vou!
+Dialogue: Marked=0,0:21:18.48,0:21:22.36,*Default,,0000,0000,0000,,Não! Eu vou sozinho! Você espera aqui!
+Dialogue: Marked=0,0:21:32.00,0:21:37.30,Narrador,,0000,0000,0000,,Goku e os outros se reagrupam,\Npreparando-se para o conflito contra Freeza.
+Dialogue: Marked=0,0:22:18.53,0:22:26.44,Narrador,,0000,0000,0000,,Quem conseguirá chamar\NShen-Long com as Dragon Balls?

@@ -1,0 +1,299 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,0,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,0,1,0,0,0,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:50.48,0:13:00.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:52.72,0:01:56.30,narrador,NTP,0000,0000,0000,!Effect,As festividades do Tenkaichi Budoukai acabaram,
+Dialogue: Marked=0,0:01:56.31,0:02:00.74,narrador,NTP,0000,0000,0000,!Effect,e a hora de dizer tchau chegou mais uma vez.
+Dialogue: Marked=0,0:02:04.50,0:02:07.73,*Default,NTP,0000,0000,0000,!Effect,Vocês vão voltar pra casa e continuar treinando agora?
+Dialogue: Marked=0,0:02:07.97,0:02:09.12,*Default,NTP,0000,0000,0000,!Effect,Claro.
+Dialogue: Marked=0,0:02:09.55,0:02:13.37,*Default,NTP,0000,0000,0000,!Effect,Não, acho que lhes ensinei tudo que poderia ensinar.
+Dialogue: Marked=0,0:02:13.39,0:02:15.66,*Default,NTP,0000,0000,0000,!Effect,Agora, vocês deviam seguir seus próprios caminhos!
+Dialogue: Marked=0,0:02:16.68,0:02:18.67,*Default,NTP,0000,0000,0000,!Effect,Continuem treinando por vocês mesmos.
+Dialogue: Marked=0,0:02:18.88,0:02:21.01,*Default,NTP,0000,0000,0000,!Effect,Vocês, mais do que ninguém, devem ser capazes disso.
+Dialogue: Marked=0,0:02:21.74,0:02:22.25,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:02:24.42,0:02:27.70,*Default,NTP,0000,0000,0000,!Effect,Certo, vou achar a Dragon Ball do meu avô!
+Dialogue: Marked=0,0:02:28.09,0:02:28.67,*Default,NTP,0000,0000,0000,!Effect,Hã?!
+Dialogue: Marked=0,0:02:29.51,0:02:30.94,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:02:31.29,0:02:33.97,*Default,NTP,0000,0000,0000,!Effect,Tá falando sério em fazer isso de novo?!
+Dialogue: Marked=0,0:02:35.20,0:02:37.73,*Default,NTP,0000,0000,0000,!Effect,O que é uma Dragon Ball?
+Dialogue: Marked=0,0:02:37.88,0:02:40.07,*Default,NTP,0000,0000,0000,!Effect,É uma lembrança do meu avô.
+Dialogue: Marked=0,0:02:41.34,0:02:45.00,*Default,NTP,0000,0000,0000,!Effect,Ah? A Dragon Ball do Son Gohan...
+Dialogue: Marked=0,0:02:45.49,0:02:47.56,*Default,NTP,0000,0000,0000,!Effect,E ainda posso treinar com isso! É perfeito!
+Dialogue: Marked=0,0:02:47.68,0:02:49.51,*Default,NTP,0000,0000,0000,!Effect,Nós não queremos!
+Dialogue: Marked=0,0:02:50.05,0:02:52.45,*Default,NTP,0000,0000,0000,!Effect,Se você vai atrás delas, que seja sozinho.
+Dialogue: Marked=0,0:02:52.45,0:02:53.54,*Default,NTP,0000,0000,0000,!Effect,É!
+Dialogue: Marked=0,0:02:54.70,0:02:56.16,*Default,NTP,0000,0000,0000,!Effect,Certo, vou sozinho.
+Dialogue: Marked=0,0:02:56.91,0:02:58.92,*Default,NTP,0000,0000,0000,!Effect,O que você quer fazer, Kuririn?
+Dialogue: Marked=0,0:02:59.50,0:03:02.16,*Default,NTP,0000,0000,0000,!Effect,Não posso decidir agora.
+Dialogue: Marked=0,0:03:02.48,0:03:05.58,*Default,NTP,0000,0000,0000,!Effect,Então, acho que gostaria de ficar com você mais um pouco, Muten Roshi.
+Dialogue: Marked=0,0:03:06.83,0:03:10.17,*Default,NTP,0000,0000,0000,!Effect,Não, mesmo que você não esteja comigo, ainda pode fazer muita coisa!
+Dialogue: Marked=0,0:03:10.30,0:03:11.60,*Default,NTP,0000,0000,0000,!Effect,Te garanto!
+Dialogue: Marked=0,0:03:12.48,0:03:14.74,*Default,NTP,0000,0000,0000,!Effect,Não, ainda tenho pouca experiência!
+Dialogue: Marked=0,0:03:15.33,0:03:16.78,*Default,NTP,0000,0000,0000,!Effect,Eu... Eu entendo...
+Dialogue: Marked=0,0:03:17.84,0:03:19.00,P!,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:03:39.29,0:03:42.88,P!,NTP,0000,0000,0000,!Effect,Tinha quase certeza que agora ia ser a Lunch-chan e eu sozinhos, mas...
+Dialogue: Marked=0,0:03:43.99,0:03:45.20,*Default,NTP,0000,0000,0000,!Effect,E vocês aí, Bulma?
+Dialogue: Marked=0,0:03:46.23,0:03:48.59,*Default,NTP,0000,0000,0000,!Effect,Vamos voltar para Metro West.
+Dialogue: Marked=0,0:03:49.04,0:03:52.20,*Default,NTP,0000,0000,0000,!Effect,Muten Roshi, podemos te dar uma carona de volta pra casa se quiser.
+Dialogue: Marked=0,0:03:52.85,0:03:55.76,*Default,NTP,0000,0000,0000,!Effect,Não, tem um lugar que preciso ir antes...
+Dialogue: Marked=0,0:03:56.32,0:03:57.12,*Default,NTP,0000,0000,0000,!Effect,Velhote.
+Dialogue: Marked=0,0:03:57.45,0:03:58.93,*Default,NTP,0000,0000,0000,!Effect,Hã? O quê?
+Dialogue: Marked=0,0:04:00.34,0:04:02.56,*Default,NTP,0000,0000,0000,!Effect,Minhas coisas estão aí?
+Dialogue: Marked=0,0:04:02.67,0:04:04.43,*Default,NTP,0000,0000,0000,!Effect,Coloquei elas ali.
+Dialogue: Marked=0,0:04:05.02,0:04:08.66,*Default,NTP,0000,0000,0000,!Effect,Até mais, todos! Vou indo na Kinto Un!
+Dialogue: Marked=0,0:04:08.91,0:04:11.87,*Default,NTP,0000,0000,0000,!Effect,O quê? Você já vai procurar pela sei-lá-o-nome-que-você-disse?
+Dialogue: Marked=0,0:04:12.61,0:04:14.90,*Default,NTP,0000,0000,0000,!Effect,É bom sempre começar o mais rápido possível.
+Dialogue: Marked=0,0:04:15.46,0:04:17.84,*Default,NTP,0000,0000,0000,!Effect,Faça seu melhor, Goku!
+Dialogue: Marked=0,0:04:18.34,0:04:18.85,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:04:19.40,0:04:20.80,*Default,NTP,0000,0000,0000,!Effect,Kinto Un!
+Dialogue: Marked=0,0:04:22.65,0:04:23.63,*Default,NTP,0000,0000,0000,!Effect,Isso, isso!
+Dialogue: Marked=0,0:04:25.67,0:04:29.08,*Default,NTP,0000,0000,0000,!Effect,Ei, vai ser difícil procurar por essas tais esferas?
+Dialogue: Marked=0,0:04:30.41,0:04:31.41,*Default,NTP,0000,0000,0000,!Effect,Um pouco.
+Dialogue: Marked=0,0:04:32.37,0:04:34.76,*Default,NTP,0000,0000,0000,!Effect,Goku! Posso ir com você?!
+Dialogue: Marked=0,0:04:35.52,0:04:38.91,*Default,NTP,0000,0000,0000,!Effect,Não, tudo bem. Você não pode andar na Kinto Un e tal...
+Dialogue: Marked=0,0:04:39.05,0:04:40.39,*Default,NTP,0000,0000,0000,!Effect,A-Ah, sim...
+Dialogue: Marked=0,0:04:41.79,0:04:45.21,*Default,NTP,0000,0000,0000,!Effect,Você sabe usar o Dragon Radar, certo?
+Dialogue: Marked=0,0:04:45.57,0:04:46.96,*Default,NTP,0000,0000,0000,!Effect,Sei!
+Dialogue: Marked=0,0:04:47.93,0:04:50.29,*Default,NTP,0000,0000,0000,!Effect,Certo, vejo vocês depois!
+Dialogue: Marked=0,0:04:50.73,0:04:52.98,*Default,NTP,0000,0000,0000,!Effect,Boa sorte!
+Dialogue: Marked=0,0:04:53.20,0:04:55.28,*Default,NTP,0000,0000,0000,!Effect,Tchau!
+Dialogue: Marked=0,0:04:57.27,0:04:58.95,*Default,NTP,0000,0000,0000,!Effect,Se cuide!
+Dialogue: Marked=0,0:04:59.94,0:05:01.26,*Default,NTP,0000,0000,0000,!Effect,Tchau!
+Dialogue: Marked=0,0:05:08.32,0:05:10.41,*Default,NTP,0000,0000,0000,!Effect,Você acha que ele pode procurar por elas sozinho?
+Dialogue: Marked=0,0:05:11.15,0:05:13.06,*Default,NTP,0000,0000,0000,!Effect,Ele é o Goku, vai ficar bem.
+Dialogue: Marked=0,0:05:18.00,0:05:18.94,*Default,NTP,0000,0000,0000,!Effect,De fato, ele é admirável.
+Dialogue: Marked=0,0:05:23.93,0:05:31.01,Narrador,NTP,0000,0000,0000,!Effect,Goku será capaz de achar as Dragon Balls de novo?
+Dialogue: Marked=0,0:05:39.00,0:05:46.72,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(200,0)}{\pos(100,200)}{\fscx100\fscy100}Episódio 29
+Dialogue: Marked=0,0:05:39.00,0:05:46.72,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(200,0)}{\pos(190,502)}{\fscx120\fscy110}O lago vagabundo.
+Dialogue: Marked=0,0:05:57.56,0:05:59.28,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:05:59.60,0:06:02.31,*Default,NTP,0000,0000,0000,!Effect,Você está me dizendo para atravessar esse deserto assim?!
+Dialogue: Marked=0,0:06:02.77,0:06:05.40,*Default,NTP,0000,0000,0000,!Effect,Saco, não acredito que perdi a capsula de avião!
+Dialogue: Marked=0,0:06:05.47,0:06:06.79,*Default,NTP,0000,0000,0000,!Effect,Cala boca!
+Dialogue: Marked=0,0:06:08.04,0:06:10.12,*Default,NTP,0000,0000,0000,!Effect,Até mesmo lindas mulheres cometem erros!
+Dialogue: Marked=0,0:06:10.41,0:06:12.64,*Default,NTP,0000,0000,0000,!Effect,Eles são amigos ou não?
+Dialogue: Marked=0,0:06:12.97,0:06:15.03,*Default,NTP,0000,0000,0000,!Effect,Tenho medo disso ser verdade...
+Dialogue: Marked=0,0:06:15.31,0:06:17.73,*Default,NTP,0000,0000,0000,!Effect,Vocês aí, fiquem quietos!
+Dialogue: Marked=0,0:06:33.70,0:06:38.12,*Default,NTP,0000,0000,0000,!Effect,Roshi-sama está atrasado. Será que ele foi muito longe pra comprar lembranças?
+Dialogue: Marked=0,0:06:41.14,0:06:42.46,*Default,NTP,0000,0000,0000,!Effect,Essas são...
+Dialogue: Marked=0,0:06:45.09,0:06:47.44,*Default,NTP,0000,0000,0000,!Effect,Há tantas!
+Dialogue: Marked=0,0:06:49.25,0:06:50.45,*Default,NTP,0000,0000,0000,!Effect,Excelente!
+Dialogue: Marked=0,0:06:51.59,0:06:54.75,*Default,NTP,0000,0000,0000,!Effect,Mas, como... Hmm...
+Dialogue: Marked=0,0:06:59.89,0:07:03.52,*Default,NTP,0000,0000,0000,!Effect,É isso! Vou comprar algumas pra Lunch-san como lembrança!
+Dialogue: Marked=0,0:07:03.93,0:07:04.90,*Default,NTP,0000,0000,0000,!Effect,Bem-vindo...
+Dialogue: Marked=0,0:07:09.44,0:07:10.48,*Default,NTP,0000,0000,0000,!Effect,U-Uhn...
+Dialogue: Marked=0,0:07:14.73,0:07:16.63,*Default,NTP,0000,0000,0000,!Effect,Acho que vou pegar uma lembrança para minha neta...
+Dialogue: Marked=0,0:07:16.88,0:07:19.97,*Default,NTP,0000,0000,0000,!Effect,Essas parecem boas, mas não sei o tamanho dela...
+Dialogue: Marked=0,0:07:20.50,0:07:22.46,*Default,NTP,0000,0000,0000,!Effect,De qualquer forma, quantos anos você tem?
+Dialogue: Marked=0,0:07:22.60,0:07:24.90,*Default,NTP,0000,0000,0000,!Effect,Ahn? Hmm, tenho 19.
+Dialogue: Marked=0,0:07:25.35,0:07:27.99,*Default,NTP,0000,0000,0000,!Effect,Ah, o mesmo que minha neta!
+Dialogue: Marked=0,0:07:29.38,0:07:32.72,*Default,NTP,0000,0000,0000,!Effect,Desculpe te perguntar, mas você poderia provar isso no lugar dela?
+Dialogue: Marked=0,0:07:34.52,0:07:36.26,*Default,NTP,0000,0000,0000,!Effect,Vamos, só por um minuto...
+Dialogue: Marked=0,0:07:50.02,0:07:52.11,*Default,NTP,0000,0000,0000,!Effect,Ainda tem caminho pelo frente...
+Dialogue: Marked=0,0:08:02.26,0:08:04.30,*Default,NTP,0000,0000,0000,!Effect,Você ganhou, Nii-chan?
+Dialogue: Marked=0,0:08:07.90,0:08:09.99,*Default,NTP,0000,0000,0000,!Effect,Agora a vila está condenada...
+Dialogue: Marked=0,0:08:10.90,0:08:13.15,*Default,NTP,0000,0000,0000,!Effect,Pessoal, eu trouxe água!
+Dialogue: Marked=0,0:08:13.44,0:08:14.33,*Default,NTP,0000,0000,0000,!Effect,Hã?!
+Dialogue: Marked=0,0:08:14.64,0:08:15.58,*Default,NTP,0000,0000,0000,!Effect,O-Onde?!
+Dialogue: Marked=0,0:08:17.44,0:08:18.11,*Default,NTP,0000,0000,0000,!Effect,Aqui.
+Dialogue: Marked=0,0:08:19.82,0:08:20.70,*Default,NTP,0000,0000,0000,!Effect,N-Namu...
+Dialogue: Marked=0,0:08:22.91,0:08:24.40,*Default,NTP,0000,0000,0000,!Effect,Certo, para trás, todos!
+Dialogue: Marked=0,0:08:41.06,0:08:42.12,*Default,NTP,0000,0000,0000,!Effect,Água!
+Dialogue: Marked=0,0:08:44.26,0:08:45.13,*Default,NTP,0000,0000,0000,!Effect,Namu.
+Dialogue: Marked=0,0:08:45.40,0:08:47.62,*Default,NTP,0000,0000,0000,!Effect,Obrigado, te coloquei em muitos problemas.
+Dialogue: Marked=0,0:08:48.11,0:08:53.25,*Default,NTP,0000,0000,0000,!Effect,Não, isso é para agradecer a todos que me viram no Tenkaichi Budoukai.
+Dialogue: Marked=0,0:08:53.94,0:08:56.45,*Default,NTP,0000,0000,0000,!Effect,Isso, e Muten Roshi...
+Dialogue: Marked=0,0:08:58.48,0:09:00.71,L!,NTP,0000,0000,0000,!Effect,Leve isso com você.
+Dialogue: Marked=0,0:09:05.11,0:09:06.60,L!,NTP,0000,0000,0000,!Effect,O-O que é isso?
+Dialogue: Marked=0,0:09:07.65,0:09:10.94,L!,NTP,0000,0000,0000,!Effect,Se você colocar muita água nisso e transformá-la numa cápsula,
+Dialogue: Marked=0,0:09:10.98,0:09:12.61,L!,NTP,0000,0000,0000,!Effect,vai ser mais fácil levar pra casa.
+Dialogue: Marked=0,0:09:12.69,0:09:14.93,*Default,NTP,0000,0000,0000,!Effect,Obrigado, Muten Roshi.
+Dialogue: Marked=0,0:09:27.88,0:09:30.62,*Default,NTP,0000,0000,0000,!Effect,Velho, não importa como a seca possa ser ruim,
+Dialogue: Marked=0,0:09:30.64,0:09:33.33,*Default,NTP,0000,0000,0000,!Effect,o jeito que esse rio secou não é normal, é?
+Dialogue: Marked=0,0:09:33.72,0:09:38.87,*Default,NTP,0000,0000,0000,!Effect,De fato. Depois que você foi para o Torneio, choveu umas duas vezes,
+Dialogue: Marked=0,0:09:38.89,0:09:41.54,*Default,NTP,0000,0000,0000,!Effect,mas a água nunca fluiu ali.
+Dialogue: Marked=0,0:09:42.39,0:09:45.75,*Default,NTP,0000,0000,0000,!Effect,Quem sabe alguma coisa aconteceu rio acima.
+Dialogue: Marked=0,0:09:46.35,0:09:47.21,*Default,NTP,0000,0000,0000,!Effect,Rio acima?
+Dialogue: Marked=0,0:09:48.30,0:09:49.82,*Default,NTP,0000,0000,0000,!Effect,Vou dar uma olhada.
+Dialogue: Marked=0,0:09:50.60,0:09:54.43,*Default,NTP,0000,0000,0000,!Effect,Namu... parece que eu só lhe arranjo problemas.
+Dialogue: Marked=0,0:09:54.50,0:09:57.20,*Default,NTP,0000,0000,0000,!Effect,Não, tem bastante água que eu trouxe de volta.
+Dialogue: Marked=0,0:09:57.60,0:10:00.18,*Default,NTP,0000,0000,0000,!Effect,Se não tomarmos providências agora, vamos ficar sem água de novo.
+Dialogue: Marked=0,0:10:02.58,0:10:06.23,*Default,NTP,0000,0000,0000,!Effect,Você já ouviu a lenda do lago mágico?
+Dialogue: Marked=0,0:10:06.88,0:10:08.38,*Default,NTP,0000,0000,0000,!Effect,Lago mágico?
+Dialogue: Marked=0,0:10:09.18,0:10:12.22,*Default,NTP,0000,0000,0000,!Effect,Fala sobre um lago que se move pelo deserto.
+Dialogue: Marked=0,0:10:12.55,0:10:14.70,*Default,NTP,0000,0000,0000,!Effect,Um lago... que se move?! D-De jeito nenhum...
+Dialogue: Marked=0,0:10:16.15,0:10:20.63,*Default,NTP,0000,0000,0000,!Effect,Há muito tempo atrás, o lago se moveu para as margens da cidade, também.
+Dialogue: Marked=0,0:10:20.77,0:10:26.43,*Default,NTP,0000,0000,0000,!Effect,Desde criança, eu ouvia lendas sobre como ele salvou vilarejos que não tinham água.
+Dialogue: Marked=0,0:10:27.90,0:10:29.95,*Default,NTP,0000,0000,0000,!Effect,Um sonho vazio, não...
+Dialogue: Marked=0,0:10:30.52,0:10:32.11,*Default,NTP,0000,0000,0000,!Effect,Um lago que se move...
+Dialogue: Marked=0,0:10:52.56,0:10:54.16,*Default,NTP,0000,0000,0000,!Effect,Então, o rio brota aqui...
+Dialogue: Marked=0,0:11:04.39,0:11:05.39,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:11:08.39,0:11:11.85,Poder,NTP,0000,0000,0000,!Effect,TENKUU PEKEJIKEN
+Dialogue: Marked=0,0:11:14.18,0:11:16.84,*Default,NTP,0000,0000,0000,!Effect,Namu Amida...
+Dialogue: Marked=0,0:11:31.00,0:11:33.43,*Default,NTP,0000,0000,0000,!Effect,Vou te comer por diversão!
+Dialogue: Marked=0,0:11:34.40,0:11:36.16,*Default,NTP,0000,0000,0000,!Effect,Me deixe ir! Droga!
+Dialogue: Marked=0,0:11:41.58,0:11:45.49,*Default,NTP,0000,0000,0000,!Effect,Tão quente... Á-Água...
+Dialogue: Marked=0,0:11:53.84,0:11:55.04,*Default,NTP,0000,0000,0000,!Effect,Á-Água!
+Dialogue: Marked=0,0:12:02.77,0:12:05.36,*Default,NTP,0000,0000,0000,!Effect,Ah, é ótimo...
+Dialogue: Marked=0,0:12:13.61,0:12:15.75,*Default,NTP,0000,0000,0000,!Effect,Me solte!
+Dialogue: Marked=0,0:12:23.10,0:12:26.69,kintoun2,,0000,0000,0000,,{\fscx100\fscy140\pos(676,578)}KINTOUN
+Dialogue: Marked=0,0:12:23.10,0:12:26.69,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(680,581)}KINTOUN
+Dialogue: Marked=0,0:12:23.10,0:12:26.69,apresenta2,,0000,0000,0000,,{\pos(685,597)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:23.10,0:12:26.69,apresenta,,0000,0000,0000,,{\pos(689,601)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:29.25,0:12:31.63,kintoun2,,0000,0000,0000,,{\fscx100\fscy140\pos(610,578)}KINTOUN
+Dialogue: Marked=0,0:12:29.25,0:12:31.63,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(614,581)}KINTOUN
+Dialogue: Marked=0,0:12:29.25,0:12:31.63,apresenta2,,0000,0000,0000,,{\pos(655,597)\fscx100\fscy140}kintoun.animirc.net
+Dialogue: Marked=0,0:12:29.25,0:12:31.63,apresenta,,0000,0000,0000,,{\pos(659,601)\fscx100\fscy140}kintoun.animirc.net
+Dialogue: Marked=0,0:12:32.67,0:12:35.74,*Default,NTP,0000,0000,0000,!Effect,Droga, me solte!
+Dialogue: Marked=0,0:12:36.33,0:12:36.95,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:12:46.11,0:12:48.42,*Default,NTP,0000,0000,0000,!Effect,Kinto Un! Atrás deles!
+Dialogue: Marked=0,0:12:54.46,0:12:55.23,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:12:58.38,0:12:59.20,*Default,NTP,0000,0000,0000,!Effect,Son-kun!
+Dialogue: Marked=0,0:12:59.65,0:13:01.87,*Default,NTP,0000,0000,0000,!Effect,Namu?! Por que você está num lugar como esse?
+Dialogue: Marked=0,0:13:01.95,0:13:03.60,*Default,NTP,0000,0000,0000,!Effect,Quem diabos é você?
+Dialogue: Marked=0,0:13:03.82,0:13:05.16,*Default,NTP,0000,0000,0000,!Effect,Sou Goku.
+Dialogue: Marked=0,0:13:05.39,0:13:07.16,*Default,NTP,0000,0000,0000,!Effect,Son-kun, por favor, me salve.
+Dialogue: Marked=0,0:13:07.29,0:13:10.20,*Default,NTP,0000,0000,0000,!Effect,Não posso evitar de ser morto e comido por ele!
+Dialogue: Marked=0,0:13:10.53,0:13:13.33,*Default,NTP,0000,0000,0000,!Effect,Comido?! Você vai comer ele?!
+Dialogue: Marked=0,0:13:13.39,0:13:14.99,*Default,NTP,0000,0000,0000,!Effect,Cale-se! Saia da frente!
+Dialogue: Marked=0,0:13:19.21,0:13:22.00,*Default,NTP,0000,0000,0000,!Effect,Essa foi perto... Você parece um cara mau!
+Dialogue: Marked=0,0:13:22.21,0:13:23.58,*Default,NTP,0000,0000,0000,!Effect,Dá uma olhada em mim, é lógico!
+Dialogue: Marked=0,0:13:23.63,0:13:26.23,*Default,NTP,0000,0000,0000,!Effect,Acho que vou te comer enquanto estiver assim!
+Dialogue: Marked=0,0:13:26.68,0:13:29.72,*Default,NTP,0000,0000,0000,!Effect,Droga! Me solte!
+Dialogue: Marked=0,0:13:29.86,0:13:33.21,*Default,NTP,0000,0000,0000,!Effect,Pare de lutar, perdedor idiota.
+Dialogue: Marked=0,0:13:33.45,0:13:37.50,*Default,NTP,0000,0000,0000,!Effect,Depois de comer essa criança, vou te comer, então desista!
+Dialogue: Marked=0,0:13:41.90,0:13:43.15,*Default,NTP,0000,0000,0000,!Effect,Cresça bastão!
+Dialogue: Marked=0,0:13:43.35,0:13:45.29,*Default,NTP,0000,0000,0000,!Effect,Sinta o gosto do meu Nyoibou!
+Dialogue: Marked=0,0:14:03.22,0:14:04.68,*Default,NTP,0000,0000,0000,!Effect,Uau, essa passou perto...
+Dialogue: Marked=0,0:14:05.48,0:14:06.33,*Default,NTP,0000,0000,0000,!Effect,Obrigado...
+Dialogue: Marked=0,0:14:07.21,0:14:08.37,*Default,NTP,0000,0000,0000,!Effect,O-O que você tá fazendo?
+Dialogue: Marked=0,0:14:08.99,0:14:10.44,*Default,NTP,0000,0000,0000,!Effect,Você é homem, certo?!
+Dialogue: Marked=0,0:14:11.04,0:14:11.90,*Default,NTP,0000,0000,0000,!Effect,Sou, mas...
+Dialogue: Marked=0,0:14:13.09,0:14:16.63,*Default,NTP,0000,0000,0000,!Effect,Uau! Você é o primeiro homem que anda na minha Kinto Un!
+Dialogue: Marked=0,0:14:17.06,0:14:20.28,*Default,NTP,0000,0000,0000,!Effect,O velhote disse que não se pode andar nela, a não ser que seja uma boa pessoa.
+Dialogue: Marked=0,0:14:35.31,0:14:38.10,*Default,NTP,0000,0000,0000,!Effect,Por que você não trouxe o resto da gasolina?!
+Dialogue: Marked=0,0:14:38.22,0:14:41.52,*Default,NTP,0000,0000,0000,!Effect,Não lembrei. Até mesmo os namorados erram.
+Dialogue: Marked=0,0:14:42.90,0:14:45.28,*Default,NTP,0000,0000,0000,!Effect,Não importa muito, mas vou colocar tudo em suas mãos.
+Dialogue: Marked=0,0:14:45.91,0:14:48.79,*Default,NTP,0000,0000,0000,!Effect,Oolong, transforme-se em um guarda-sol.
+Dialogue: Marked=0,0:14:49.69,0:14:50.89,*Default,NTP,0000,0000,0000,!Effect,Não quero.
+Dialogue: Marked=0,0:14:51.43,0:14:55.00,*Default,NTP,0000,0000,0000,!Effect,Oolong, aposto que você não consegue, consegue?!
+Dialogue: Marked=0,0:14:55.30,0:14:56.44,*Default,NTP,0000,0000,0000,!Effect,O que você disse?!
+Dialogue: Marked=0,0:14:56.54,0:14:59.50,*Default,NTP,0000,0000,0000,!Effect,Eu fui ao jardim de infância de transformação!
+Dialogue: Marked=0,0:14:59.61,0:15:03.79,*Default,NTP,0000,0000,0000,!Effect,Mesmo que você tenha sido expulso por roubar calcinhas das professoras.
+Dialogue: Marked=0,0:15:04.20,0:15:06.02,*Default,NTP,0000,0000,0000,!Effect,Falando dessas coisas bestas de novo...
+Dialogue: Marked=0,0:15:07.48,0:15:08.59,*Default,NTP,0000,0000,0000,!Effect,Olhem!
+Dialogue: Marked=0,0:15:09.71,0:15:10.50,*Default,NTP,0000,0000,0000,!Effect,Henge!
+Dialogue: Marked=0,0:15:11.56,0:15:12.07,*Default,NTP,0000,0000,0000,!Effect,Ali!
+Dialogue: Marked=0,0:15:12.39,0:15:13.97,*Default,NTP,0000,0000,0000,!Effect,Agora, transforme-se em um ventilador, Pual!
+Dialogue: Marked=0,0:15:14.25,0:15:14.89,*Default,NTP,0000,0000,0000,!Effect,Henge!
+Dialogue: Marked=0,0:15:21.36,0:15:22.62,*Default,NTP,0000,0000,0000,!Effect,Está bem assim.
+Dialogue: Marked=0,0:15:23.24,0:15:24.89,*Default,NTP,0000,0000,0000,!Effect,Vamos ficar assim até o anoitecer.
+Dialogue: Marked=0,0:15:26.13,0:15:29.47,*Default,NTP,0000,0000,0000,!Effect,Droga. Fui enganado. Cara, tá quente.
+Dialogue: Marked=0,0:15:41.48,0:15:42.48,*Default,NTP,0000,0000,0000,!Effect,Isso é rápido.
+Dialogue: Marked=0,0:16:04.94,0:16:05.60,*Default,NTP,0000,0000,0000,!Effect,Ali!
+Dialogue: Marked=0,0:16:08.94,0:16:12.60,*Default,NTP,0000,0000,0000,!Effect,Aí está! É por causa da água que estava presa aí...
+Dialogue: Marked=0,0:16:16.38,0:16:17.85,*Default,NTP,0000,0000,0000,!Effect,Já vi eles em outro lugar antes...
+Dialogue: Marked=0,0:16:17.90,0:16:23.05,*Default,NTP,0000,0000,0000,!Effect,Goku, desça a Kinto Un. Vou pedir pra eles abrirem a represa.
+Dialogue: Marked=0,0:16:23.10,0:16:23.61,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:16:26.64,0:16:28.97,*Default,NTP,0000,0000,0000,!Effect,O quê? Você quer que nós desfaçamos a represa?!
+Dialogue: Marked=0,0:16:29.75,0:16:34.30,*Default,NTP,0000,0000,0000,!Effect,Por favor, com toda essa água parada, minha cidade lá embaixo está...
+Dialogue: Marked=0,0:16:35.00,0:16:39.39,*Default,NTP,0000,0000,0000,!Effect,Por favor, deixe a água fluir! Para nós é a água da vida...
+Dialogue: Marked=0,0:16:39.94,0:16:42.72,*Default,NTP,0000,0000,0000,!Effect,É a água da vida para nós, também!
+Dialogue: Marked=0,0:16:42.78,0:16:46.33,*Default,NTP,0000,0000,0000,!Effect,Nós, do clã Giran, amamos mesmo água limpa.
+Dialogue: Marked=0,0:16:49.04,0:16:52.86,*Default,NTP,0000,0000,0000,!Effect,Eu imploro! Por favor, dividam só um pouco de sua água conosco.
+Dialogue: Marked=0,0:16:53.31,0:16:54.73,*Default,NTP,0000,0000,0000,!Effect,Isso não é bom!
+Dialogue: Marked=0,0:16:55.16,0:16:56.10,*Default,NTP,0000,0000,0000,!Effect,Posso te fazer mudar de idéia?!
+Dialogue: Marked=0,0:16:56.14,0:16:57.95,*Default,NTP,0000,0000,0000,!Effect,Eu disse não e quis dizer não!
+Dialogue: Marked=0,0:17:01.78,0:17:02.73,*Default,NTP,0000,0000,0000,!Effect,Eu imploro!
+Dialogue: Marked=0,0:17:03.23,0:17:06.49,*Default,NTP,0000,0000,0000,!Effect,Moleque teimoso! Eu disse não e quis dizer não!
+Dialogue: Marked=0,0:17:14.73,0:17:17.66,*Default,NTP,0000,0000,0000,!Effect,Seu maldito! Ei, cuide dele!
+Dialogue: Marked=0,0:17:23.95,0:17:25.28,*Default,NTP,0000,0000,0000,!Effect,Quem diabos é você?!
+Dialogue: Marked=0,0:17:25.82,0:17:27.76,*Default,NTP,0000,0000,0000,!Effect,Son Goku, a seu serviço.
+Dialogue: Marked=0,0:17:28.18,0:17:30.71,*Default,NTP,0000,0000,0000,!Effect,Son Goku?! Ouvi isso em algum lugar...
+Dialogue: Marked=0,0:17:30.87,0:17:33.69,*Default,NTP,0000,0000,0000,!Effect,Quem se importa! Cuidem dele primeiro!
+Dialogue: Marked=0,0:17:39.27,0:17:40.88,*Default,NTP,0000,0000,0000,!Effect,Maldito! Como ousa!
+Dialogue: Marked=0,0:17:40.89,0:17:41.57,*Default,NTP,0000,0000,0000,!Effect,Parem!
+Dialogue: Marked=0,0:17:43.34,0:17:44.54,*Default,NTP,0000,0000,0000,!Effect,M-Mestre?!
+Dialogue: Marked=0,0:17:47.07,0:17:48.45,*Default,NTP,0000,0000,0000,!Effect,Faz um tempo!
+Dialogue: Marked=0,0:17:49.81,0:17:51.40,*Default,NTP,0000,0000,0000,!Effect,Ah! Você é...
+Dialogue: Marked=0,0:17:51.79,0:17:53.89,*Default,NTP,0000,0000,0000,!Effect,Mestre, você conhece esse cara?
+Dialogue: Marked=0,0:17:53.93,0:17:56.96,*Default,NTP,0000,0000,0000,!Effect,Foi pra ele que perdi o Tenkaichi Budoukai.
+Dialogue: Marked=0,0:17:57.22,0:17:59.13,*Default,NTP,0000,0000,0000,!Effect,Você não é bom o suficiente pra bater nele!
+Dialogue: Marked=0,0:17:59.96,0:18:01.68,*Default,NTP,0000,0000,0000,!Effect,Ei, é você!
+Dialogue: Marked=0,0:18:01.85,0:18:04.84,*Default,NTP,0000,0000,0000,!Effect,Sabia que tinha visto eles antes...
+Dialogue: Marked=0,0:18:04.96,0:18:06.71,*Default,NTP,0000,0000,0000,!Effect,Ouvi sua história.
+Dialogue: Marked=0,0:18:06.99,0:18:13.97,*Default,NTP,0000,0000,0000,!Effect,Mas a represa é feita com a goma do clã Giran Guruguru.
+Dialogue: Marked=0,0:18:14.97,0:18:18.80,*Default,NTP,0000,0000,0000,!Effect,Então, nem mesmo a gente pode abri-la ou movê-la.
+Dialogue: Marked=0,0:18:21.25,0:18:22.44,*Default,NTP,0000,0000,0000,!Effect,Não pense mal de nós.
+Dialogue: Marked=0,0:18:27.08,0:18:29.36,*Default,NTP,0000,0000,0000,!Effect,Vocês não podem nem abrir ela?!
+Dialogue: Marked=0,0:18:30.14,0:18:31.54,*Default,NTP,0000,0000,0000,!Effect,Você se importa se eu quebrar?
+Dialogue: Marked=0,0:18:32.68,0:18:33.87,*Default,NTP,0000,0000,0000,!Effect,Desde que consiga...
+Dialogue: Marked=0,0:18:34.17,0:18:36.09,*Default,NTP,0000,0000,0000,!Effect,Certo! Vou tentar!
+Dialogue: Marked=0,0:18:42.98,0:18:45.34,P!,NTP,0000,0000,0000,!Effect,Goku, deixo em suas mãos.
+Dialogue: Marked=0,0:18:47.20,0:18:54.88,Poder,NTP,0000,0000,0000,!Effect,KAMEHAMEHA
+Dialogue: Marked=0,0:19:09.76,0:19:11.37,*Default,NTP,0000,0000,0000,!Effect,Que garoto!
+Dialogue: Marked=0,0:19:14.49,0:19:17.38,*Default,NTP,0000,0000,0000,!Effect,Bem, o que se esperaria da pessoa que derrotou nosso mestre!
+Dialogue: Marked=0,0:19:21.91,0:19:22.51,*Default,NTP,0000,0000,0000,!Effect,Goku...
+Dialogue: Marked=0,0:19:23.55,0:19:24.36,*Default,NTP,0000,0000,0000,!Effect,Sorte pra nós, hein!
+Dialogue: Marked=0,0:19:28.57,0:19:30.85,*Default,NTP,0000,0000,0000,!Effect,Bem, o que se esperava de você, Goku, de quem eu perdi!
+Dialogue: Marked=0,0:19:43.29,0:19:44.73,*Default,NTP,0000,0000,0000,!Effect,Obrigado, Goku!
+Dialogue: Marked=0,0:19:45.06,0:19:47.24,*Default,NTP,0000,0000,0000,!Effect,Agora, nossa cidade não tem mais problemas...
+Dialogue: Marked=0,0:19:55.20,0:19:57.66,*Default,NTP,0000,0000,0000,!Effect,O que você tá fazendo? Fique em pé!
+Dialogue: Marked=0,0:19:59.24,0:20:02.61,*Default,NTP,0000,0000,0000,!Effect,Idiota! Não posso ficar em pé com esse vento forte!
+Dialogue: Marked=0,0:20:02.88,0:20:06.30,*Default,NTP,0000,0000,0000,!Effect,E você sabe que eu só posso ficar transformado por cinco minutos.
+Dialogue: Marked=0,0:20:06.42,0:20:10.33,*Default,NTP,0000,0000,0000,!Effect,E que eu tenho que ter um minuto de descanso entre as transformações!
+Dialogue: Marked=0,0:20:10.62,0:20:13.56,*Default,NTP,0000,0000,0000,!Effect,Mas o Pual ainda não continua transformado?
+Dialogue: Marked=0,0:20:14.11,0:20:16.84,*Default,NTP,0000,0000,0000,!Effect,É porque eu já acabei o jardim de infância!
+Dialogue: Marked=0,0:20:16.96,0:20:21.04,*Default,NTP,0000,0000,0000,!Effect,Não fui expulso por roubar calcinhas como Oolong!
+Dialogue: Marked=0,0:20:21.65,0:20:24.77,*Default,NTP,0000,0000,0000,!Effect,Cale-se! Quantas vezes você vai falar disso?
+Dialogue: Marked=0,0:20:28.07,0:20:31.81,*Default,NTP,0000,0000,0000,!Effect,É uma tempestade de areia! De volta pro carro! Rápido!
+Dialogue: Marked=0,0:20:40.08,0:20:43.87,*Default,NTP,0000,0000,0000,!Effect,É uma tempestade de areia! Uma tempestade de areia vindo!
+Dialogue: Marked=0,0:21:11.42,0:21:12.49,*Default,NTP,0000,0000,0000,!Effect,Estamos acabados!
+Dialogue: Marked=0,0:21:15.23,0:21:18.57,*Default,NTP,0000,0000,0000,!Effect,E eu pensei que, finalmente, tinha virado um rio com água!
+Dialogue: Marked=0,0:21:21.08,0:21:21.90,*Default,NTP,0000,0000,0000,!Effect,O que é aquilo?!
+Dialogue: Marked=0,0:21:27.09,0:21:28.82,*Default,NTP,0000,0000,0000,!Effect,Ei, é um lago!
+Dialogue: Marked=0,0:21:29.60,0:21:30.66,*Default,NTP,0000,0000,0000,!Effect,Um lago!
+Dialogue: Marked=0,0:21:31.12,0:21:32.86,*Default,NTP,0000,0000,0000,!Effect,Tem água!
+Dialogue: Marked=0,0:21:32.93,0:21:34.15,*Default,NTP,0000,0000,0000,!Effect,É o lago mágico!
+Dialogue: Marked=0,0:21:36.17,0:21:39.93,*Default,NTP,0000,0000,0000,!Effect,É um milagre! O lago mágico está aqui...
+Dialogue: Marked=0,0:21:40.15,0:21:43.46,*Default,NTP,0000,0000,0000,!Effect,O coração de Namu, que só pensava na vila, foi aceito pelos deuses...
+Dialogue: Marked=0,0:21:43.76,0:21:45.11,*Default,NTP,0000,0000,0000,!Effect,Bom pra você, hein, Namu?
+Dialogue: Marked=0,0:22:03.57,0:22:04.41,*Default,NTP,0000,0000,0000,!Effect,Onde estamos?
+Dialogue: Marked=0,0:22:05.19,0:22:09.33,*Default,NTP,0000,0000,0000,!Effect,Graças à tempestade de areia, voltamos ao Metro South de novo...
+Dialogue: Marked=0,0:22:09.68,0:22:10.98,*Default,NTP,0000,0000,0000,!Effect,Isso é ridículo.
+Dialogue: Marked=0,0:22:14.72,0:22:19.74,Narrador,NTP,0000,0000,0000,!Effect,A dura natureza presenteou as pessoas de boa índole.
+Dialogue: Marked=0,0:22:20.01,0:22:23.54,Narrador,NTP,0000,0000,0000,!Effect,O que espera por Goku,
+Dialogue: Marked=0,0:22:23.85,0:22:27.60,Narrador,NTP,0000,0000,0000,!Effect,que saiu novamente numa jornada em busca das Dragon Balls?

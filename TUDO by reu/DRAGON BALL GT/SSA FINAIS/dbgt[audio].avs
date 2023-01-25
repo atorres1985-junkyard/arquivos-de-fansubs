@@ -1,0 +1,26 @@
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\vsfilter.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\DGDecode.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\Undot.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\vaguedenoiser.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\masktools.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\removegrains.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\simpleresize.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\unfilter.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\SangNom.dll")
+import("C:\Arquivos de programas\AviSynth 2.5\plugins\limitedsharpen.avsi")
+import("C:\Arquivos de programas\AviSynth 2.5\plugins\easyLayer.avsi")
+
+
+DirectShowSource("[rd2-RAWS]_DBGT_64.wmv",fps=23.976,convertfps=true,audio=true).trim(2,34746)
+
+#Textsub("DBGT_OP-FINAL-V2.ass")
+#Textsub("apresentacaoDBGT-FINALV2.ssa")
+#Textsub("NEWcreditsDBGT-FINAL.ssa")
+#Textsub("DBGT_ED_4-V2.ass")
+#Textsub("DBGT_58-revisado[reu].ssa")
+
+#vaguedenoiser(nsteps=8,chromaT=0,Wiener=true)
+#unfilter(-10,-10)
+#limitedsharpen(ss_x=1,ss_y=1,smode=4,strength=100,soft=40)
+#fastlinedarken(thinning=0)
+#undot()

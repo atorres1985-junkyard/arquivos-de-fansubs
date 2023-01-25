@@ -1,0 +1,207 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:44.61,0:13:54.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:57.42,0:02:00.77,Narrador,,0000,0000,0000,,Majin Boo, enquanto estava\Nprocurando Goku e os outros,
+Dialogue: Marked=0,0:02:00.77,0:02:02.51,Narrador,,0000,0000,0000,,que haviam escapado para\Na sagrada região do Kaioshin-kai,
+Dialogue: Marked=0,0:02:02.51,0:02:05.67,Narrador,,0000,0000,0000,,estava vagando pelo vasto espaço\Ne finalmente chegou ao Dai Kaio-sei.
+Dialogue: Marked=0,0:02:06.45,0:02:09.70,*Default,,0000,0000,0000,,Boo está planejando\Ndestruir o Dai Kaio-sei também!
+Dialogue: Marked=0,0:02:14.34,0:02:16.71,*Default,,0000,0000,0000,,Somos nós que ele está procurando!
+Dialogue: Marked=0,0:02:16.71,0:02:19.71,*Default,,0000,0000,0000,,Vamos elevar nosso Ki\Ne deixá-lo saber que estamos aqui!
+Dialogue: Marked=0,0:02:20.25,0:02:22.79,*Default,,0000,0000,0000,,Isso mesmo! Muito bem!
+Dialogue: Marked=0,0:02:23.21,0:02:25.60,*Default,,0000,0000,0000,,Aí vou eu!
+Dialogue: Marked=0,0:02:27.43,0:02:31.88,Narrador,,0000,0000,0000,,Majin Boo finalmente surgiu\Nna sagrada região do Kaioshin-kai!
+Dialogue: Marked=0,0:02:31.88,0:02:35.72,Narrador,,0000,0000,0000,,A batalha da qual todo\No universo depende começa agora!
+
+Dialogue: Marked=0,0:02:37.72,0:02:45.71,apresDBZ2,,0000,0000,0000,,{\1c&HF9FBE6\3c&HFFEAF2\pos(675,70)\shad0\bord0\fad(400,0)\fscx100\fscy100}episódio 279
+Dialogue: Marked=0,0:02:37.72,0:02:45.71,apresDBZ2,,0000,0000,0000,,{\1c&HF9FBE6\3c&HFFEAF2\pos(290,185)\shad0\bord0\fad(400,0)\fscx160\fscy150}Agarrem o futuro
+Dialogue: Marked=0,0:02:37.72,0:02:45.71,apresDBZ2,,0000,0000,0000,,{\1c&HF9FBE6\3c&HFFEAF2\pos(510,200)\shad0\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-10}!
+Dialogue: Marked=0,0:02:37.72,0:02:45.71,apresDBZ2,,0000,0000,0000,,{\1c&HF9FBE6\3c&HFFEAF2\pos(535,200)\shad0\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-10}!
+Dialogue: Marked=0,0:02:37.72,0:02:45.71,apresDBZ2,,0000,0000,0000,,{\1c&HF9FBE6\3c&HFFEAF2\pos(400,490)\shad0\bord0\fad(400,0)\fscx105\fscy110}A decisiva batalha com o universo em jogo
+
+Dialogue: Marked=0,0:03:16.37,0:03:18.64,*Default,,0000,0000,0000,,Neste planeta, podemos\Nlutar o quanto quisermos.
+Dialogue: Marked=0,0:03:21.50,0:03:23.59,*Default,,0000,0000,0000,,Kaioshin-sama, por favor,
+Dialogue: Marked=0,0:03:23.59,0:03:26.90,*Default,,0000,0000,0000,,quero que pegue todos e leve para outro planeta.
+Dialogue: Marked=0,0:03:29.12,0:03:32.25,*Default,,0000,0000,0000,,Parece que isso não vai terminar\Ncom uma luta sem usarmos o poder máximo.
+Dialogue: Marked=0,0:03:32.25,0:03:34.34,*Default,,0000,0000,0000,,Eu não quero causar mais problemas para ninguém.
+Dialogue: Marked=0,0:03:34.34,0:03:36.00,*Default,,0000,0000,0000,,Certo, entendi!
+Dialogue: Marked=0,0:03:36.00,0:03:38.65,*Default,,0000,0000,0000,,Ei, e quanto a você?\NCerto, muito bem.
+Dialogue: Marked=0,0:03:38.65,0:03:43.24,*Default,,0000,0000,0000,,Afinal, o Kaioshin-kai não será\Ndestruído por nenhuma coisa comum.
+Dialogue: Marked=0,0:03:43.24,0:03:45.63,*Default,,0000,0000,0000,,Goku e Vegeta:\Nlutem contra ele o mais firme que puderem!
+Dialogue: Marked=0,0:03:46.23,0:03:47.55,*Default,,0000,0000,0000,,Obrigado, velhote.
+Dialogue: Marked=0,0:03:48.87,0:03:51.51,*Default,,0000,0000,0000,,Boa sorte, Goku-san e Vegeta-san!
+Dialogue: Marked=0,0:03:56.87,0:04:00.26,*Default,,0000,0000,0000,,Estão prontos? Por favor,\Ntoquem em alguma parte do meu corpo.
+Dialogue: Marked=0,0:04:01.35,0:04:02.20,*Default,,0000,0000,0000,,Assim?
+Dialogue: Marked=0,0:04:02.20,0:04:04.15,*Default,,0000,0000,0000,,Certo, aí vamos nós!
+Dialogue: Marked=0,0:04:21.42,0:04:22.49,*Default,,0000,0000,0000,,Onde estamos?
+Dialogue: Marked=0,0:04:22.49,0:04:24.34,*Default,,0000,0000,0000,,Em um dos planetas do universo comum.
+Dialogue: Marked=0,0:04:24.34,0:04:28.30,*Default,,0000,0000,0000,,Aqui, mesmo se o Kaioshin-kai\Nfor destruído, não devemos ser afetados.
+Dialogue: Marked=0,0:04:29.30,0:04:30.98,*Default,,0000,0000,0000,,É totalmente coberto de grama.
+Dialogue: Marked=0,0:04:30.98,0:04:33.18,*Default,,0000,0000,0000,,Bem, acho que é melhor\Ndo que ter apenas rochas.
+Dialogue: Marked=0,0:04:33.18,0:04:34.63,*Default,,0000,0000,0000,,Deixe-me ver...
+Dialogue: Marked=0,0:04:36.08,0:04:37.97,*Default,,0000,0000,0000,,Aqueles Saiya-jins são realmente complicados.
+Dialogue: Marked=0,0:04:37.97,0:04:40.27,*Default,,0000,0000,0000,,Eles recusaram nossos preciosos brincos Potala.
+Dialogue: Marked=0,0:04:40.29,0:04:44.13,*Default,,0000,0000,0000,,E, pelo comportamento deles, parece que também não pensam em se fundir com a Fusion.
+Dialogue: Marked=0,0:04:45.49,0:04:48.23,*Default,,0000,0000,0000,,S-Será que eles conseguirão\Nvencer Majin Boo desse jeito?
+Dialogue: Marked=0,0:04:51.01,0:04:53.98,*Default,,0000,0000,0000,,Bem, se os dois usarem suas forças juntos...
+Dialogue: Marked=0,0:04:55.48,0:04:56.31,*Default,,0000,0000,0000,,Muito bem!
+Dialogue: Marked=0,0:04:56.31,0:04:59.16,*Default,,0000,0000,0000,,Que tal se tentássemos acertá-lo em cheio\Numa vez, para ver se podemos dar conta disso?
+Dialogue: Marked=0,0:04:59.85,0:05:00.95,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:05:04.41,0:05:05.79,*Default,,0000,0000,0000,,Quem vai primeiro?
+Dialogue: Marked=0,0:05:06.55,0:05:08.14,*Default,,0000,0000,0000,,Muito bem...
+Dialogue: Marked=0,0:05:09.66,0:05:10.87,*Default,,0000,0000,0000,,Vamos decidir!
+Dialogue: Marked=0,0:05:10.87,0:05:11.73,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:05:12.42,0:05:14.23,*Default,,0000,0000,0000,,Janken!
+Dialogue: Marked=0,0:05:16.85,0:05:21.47,*Default,,0000,0000,0000,,Janken-po!\NDe novo! De novo! De novo!
+Dialogue: Marked=0,0:05:22.20,0:05:24.18,*Default,,0000,0000,0000,,Consegui! Eu venci!
+Dialogue: Marked=0,0:05:27.02,0:05:28.86,*Default,,0000,0000,0000,,Eles planejam lutar um de cada vez!
+Dialogue: Marked=0,0:05:28.86,0:05:30.11,*Default,,0000,0000,0000,,I-Imbecis!
+Dialogue: Marked=0,0:05:30.11,0:05:32.82,*Default,,0000,0000,0000,,Vocês não podem lutar juntos?!\NO adversário de vocês é o Majin Boo!
+Dialogue: Marked=0,0:05:34.39,0:05:38.95,*Default,,0000,0000,0000,,Kakarotto, vou observar\Nmuito bem o seu jeito de lutar!
+Dialogue: Marked=0,0:05:39.29,0:05:40.55,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:05:40.55,0:05:42.83,*Default,,0000,0000,0000,,Até porque sua vez pode simplesmente não existir!
+Dialogue: Marked=0,0:05:45.27,0:05:47.25,*Default,,0000,0000,0000,,Eu posso dizer isso agora, mas a verdade é que...
+Dialogue: Marked=0,0:05:47.25,0:05:52.15,*Default,,0000,0000,0000,,eu poderia ter derrotado aquele Boo gordo quando estava como Super Saiya-jin 3.
+Dialogue: Marked=0,0:05:52.88,0:05:55.95,*Default,,0000,0000,0000,,Mas, ao invés disso, eu quis que\Nos meninos fizessem alguma coisa sobre ele.
+Dialogue: Marked=0,0:05:57.26,0:05:59.37,*Default,,0000,0000,0000,,Pensando em que poderia\Nacontecer à Terra no futuro.
+Dialogue: Marked=0,0:06:00.79,0:06:03.57,*Default,,0000,0000,0000,,Ah, o maldito Vegeta não está escutando!
+Dialogue: Marked=0,0:06:04.33,0:06:05.60,*Default,,0000,0000,0000,,Aí vou eu, Boo!
+Dialogue: Marked=0,0:06:09.90,0:06:12.65,*Default,,0000,0000,0000,,Ele está sendo\Nconsideravelmente tranqüilo desta vez.
+Dialogue: Marked=0,0:06:24.98,0:06:26.43,*Default,,0000,0000,0000,,Ele está dormindo!
+Dialogue: Marked=0,0:06:38.24,0:06:41.52,*Default,,0000,0000,0000,,Merda, por causa desse cara desprezível,
+Dialogue: Marked=0,0:06:41.52,0:06:44.26,*Default,,0000,0000,0000,,a Terra e meus amigos foram destruídos.
+Dialogue: Marked=0,0:06:44.26,0:06:45.82,*Default,,0000,0000,0000,,Eu não vou perdoá-lo!
+Dialogue: Marked=0,0:07:16.04,0:07:16.80,*Default,,0000,0000,0000,,Ele é um cara estranho.
+Dialogue: Marked=0,0:07:18.21,0:07:19.01,*Default,,0000,0000,0000,,Essa não!
+Dialogue: Marked=0,0:07:19.77,0:07:24.45,*Default,,0000,0000,0000,,Esqueci de trazer aquele humano\Nchamado Satan do Kaioshin-kai!
+Dialogue: Marked=0,0:07:24.45,0:07:26.01,*Default,,0000,0000,0000,,Isso não importa. Deixe-o.
+Dialogue: Marked=0,0:07:50.25,0:07:52.87,*Default,,0000,0000,0000,,O que é isso?\NO que está acontecendo?
+Dialogue: Marked=0,0:07:57.50,0:07:59.55,*Default,,0000,0000,0000,,Oh, é você?
+Dialogue: Marked=0,0:08:09.68,0:08:12.69,*Default,,0000,0000,0000,,A propósito, para onde foi todo mundo?
+Dialogue: Marked=0,0:08:26.59,0:08:28.66,*Default,,0000,0000,0000,,É ele! E o Goku também!
+Dialogue: Marked=0,0:08:28.66,0:08:29.75,*Default,,0000,0000,0000,,Onde eles estão?
+Dialogue: Marked=0,0:08:31.06,0:08:32.96,*Default,,0000,0000,0000,,É o Kaioshin-kai.
+Dialogue: Marked=0,0:08:32.96,0:08:38.09,*Default,,0000,0000,0000,,O sagrado Kaioshin-kai, no qual até\Nmesmo nós, os Kaios, tivemos dificuldade de ir.
+Dialogue: Marked=0,0:08:38.09,0:08:40.76,*Default,,0000,0000,0000,,Agora, Boo foi até lá instantaneamente.
+Dialogue: Marked=0,0:08:41.40,0:08:44.76,*Default,,0000,0000,0000,,A razão pela qual ele não destruiu este planeta...
+Dialogue: Marked=0,0:08:45.44,0:08:48.72,*Default,,0000,0000,0000,,foi porque ele queria encontrar\No Goku e os outros o quanto antes!
+Dialogue: Marked=0,0:08:49.26,0:08:50.68,*Default,,0000,0000,0000,,Então é isso?
+Dialogue: Marked=0,0:08:50.68,0:08:53.64,*Default,,0000,0000,0000,,Então, graças ao Goku e aos outros,\Nnós fomos poupados.
+Dialogue: Marked=0,0:08:54.38,0:08:57.16,*Default,,0000,0000,0000,,Kita no Kaio, o que você está resmungando?
+Dialogue: Marked=0,0:08:57.16,0:08:58.19,*Default,,0000,0000,0000,,Qual é o problema?
+Dialogue: Marked=0,0:08:58.94,0:08:59.81,*Default,,0000,0000,0000,,Hã?
+Dialogue: Marked=0,0:08:59.81,0:09:03.47,*Default,,0000,0000,0000,,Você pode ver as coisas longe daqui, certo?
+Dialogue: Marked=0,0:09:03.47,0:09:06.05,*Default,,0000,0000,0000,,Se você olhar, logo vai entender.
+Dialogue: Marked=0,0:09:06.05,0:09:07.05,*Default,,0000,0000,0000,,Para que lado?
+Dialogue: Marked=0,0:09:07.05,0:09:10.58,*Default,,0000,0000,0000,,A sagrada região do Kaioshin-Kai.
+Dialogue: Marked=0,0:09:13.46,0:09:14.12,*Default,,0000,0000,0000,,É o cara de antes!
+Dialogue: Marked=0,0:09:27.40,0:09:29.72,*Default,,0000,0000,0000,,M-Mas que cara irritante!
+Dialogue: Marked=0,0:09:36.37,0:09:39.18,*Default,,0000,0000,0000,,Aquele desgraçado...\NEle não vai fazer nada?
+Dialogue: Marked=0,0:10:35.04,0:10:38.96,*Default,,0000,0000,0000,,Ele venceu, ele venceu!\NO cara loiro venceu!
+Dialogue: Marked=0,0:10:52.13,0:10:53.10,*Default,,0000,0000,0000,,Ele conseguiu?!
+Dialogue: Marked=0,0:10:53.10,0:10:56.07,*Default,,0000,0000,0000,,Incrível, Goku!\NFoi tão de repente, não foi?!
+Dialogue: Marked=0,0:10:56.07,0:10:57.52,P!,,0000,0000,0000,,Muito bem...
+Dialogue: Marked=0,0:10:58.83,0:11:00.52,*Default,,0000,0000,0000,,O Goku-san venceu?
+Dialogue: Marked=0,0:11:01.23,0:11:04.48,*Default,,0000,0000,0000,,Não. Vai precisar de mais do que\Naquilo para que o Boo seja derrotado.
+Dialogue: Marked=0,0:11:18.25,0:11:19.33,*Default,,0000,0000,0000,,Eu sabia...
+Dialogue: Marked=0,0:11:26.85,0:11:28.51,*Default,,0000,0000,0000,,Esse desgraçado!
+
+Dialogue: Marked=0,0:11:36.76,0:11:39.50,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:36.76,0:11:39.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:36.76,0:11:39.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:36.76,0:11:39.50,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:42.76,0:11:45.50,comercial3,,0000,0000,0000,,{\fscx34\fscy45\pos(546,555)\t(9110,0)}animecentral.com.br
+Dialogue: Marked=0,0:11:42.76,0:11:45.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:42.76,0:11:45.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:42.76,0:11:45.50,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:32.59,0:12:36.62,*Default,,0000,0000,0000,,E-Este sonho ainda não terminou?\NEste é um sonho poderoso!
+Dialogue: Marked=0,0:13:35.24,0:13:38.91,*Default,,0000,0000,0000,,Merda! Agüente firme, cara loiro!
+Dialogue: Marked=0,0:13:38.91,0:13:42.33,*Default,,0000,0000,0000,,Não perca!\NÉ um sonho, mas você não deve morrer!
+Dialogue: Marked=0,0:14:48.59,0:14:49.83,*Default,,0000,0000,0000,,Estou surpreso...
+Dialogue: Marked=0,0:14:50.34,0:14:53.00,*Default,,0000,0000,0000,,Estou surpreso!\NMas que luta!
+Dialogue: Marked=0,0:14:54.85,0:14:58.93,*Default,,0000,0000,0000,,Um deles é aquele Son Goku, que veio\Npara cá há pouco tempo para treinar, certo?
+Dialogue: Marked=0,0:14:59.72,0:15:00.63,*Default,,0000,0000,0000,,Certo.
+Dialogue: Marked=0,0:15:00.63,0:15:04.77,N!,,0000,0000,0000,,{\fad(300,300)}Anoyoichi Budoukai = Torneio do Outro Mundo
+Dialogue: Marked=0,0:15:00.63,0:15:04.77,*Default,,0000,0000,0000,,O mesmo que competiu pela vitória\Ncontra Paikuhan no Anoyoichi Budoukai.
+Dialogue: Marked=0,0:15:04.77,0:15:07.86,*Default,,0000,0000,0000,,Desde então, ele se\Ntornou de longe o mais forte.
+Dialogue: Marked=0,0:15:07.86,0:15:09.18,*Default,,0000,0000,0000,,E o outro?
+Dialogue: Marked=0,0:15:09.18,0:15:13.44,*Default,,0000,0000,0000,,Aquele é Majin Boo.\NVocê já ouviu sobre ele, certo?
+Dialogue: Marked=0,0:15:13.78,0:15:16.33,*Default,,0000,0000,0000,,Muito tempo atrás,\Nele percorreu todo o universo...
+Dialogue: Marked=0,0:15:16.33,0:15:19.10,*Default,,0000,0000,0000,,e deu muito trabalho\Npara os quatro Kaioshins-sama.
+Dialogue: Marked=0,0:15:20.67,0:15:24.45,*Default,,0000,0000,0000,,Aquele Majin Boo que\Nfoi criado por Madoushi Bibidi?
+Dialogue: Marked=0,0:15:25.38,0:15:28.76,*Default,,0000,0000,0000,,A lendária essência do mal,\No mais perverso de toda a história?
+Dialogue: Marked=0,0:15:28.76,0:15:29.46,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:15:30.49,0:15:33.30,*Default,,0000,0000,0000,,Aquele é o cara que\Nveio aqui antes e nos atacou?
+Dialogue: Marked=0,0:15:33.30,0:15:35.46,*Default,,0000,0000,0000,,Paikuhan, que bom que você não foi morto!
+Dialogue: Marked=0,0:15:51.59,0:15:53.42,*Default,,0000,0000,0000,,Maldito...
+Dialogue: Marked=0,0:15:53.42,0:15:54.98,*Default,,0000,0000,0000,,Brincou comigo, não foi?
+Dialogue: Marked=0,0:16:30.61,0:16:33.98,*Default,,0000,0000,0000,,E-Este é o poder que aqueles dois têm?!\NEstá em um nível totalmente diferente!
+Dialogue: Marked=0,0:16:36.13,0:16:39.86,*Default,,0000,0000,0000,,Dai Kaioshin-sama, o que você está fazendo?
+Dialogue: Marked=0,0:17:22.80,0:17:26.74,*Default,,0000,0000,0000,,O que ele está pensando?\NEu não vou ficar parado olhando!
+Dialogue: Marked=0,0:17:34.79,0:17:35.29,*Default,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:18:46.77,0:18:48.13,*Default,,0000,0000,0000,,O que é isso?\NO que houve?!
+Dialogue: Marked=0,0:18:48.13,0:18:50.41,*Default,,0000,0000,0000,,Este é o fim do mundo e do Outro Mundo?!
+Dialogue: Marked=0,0:20:18.04,0:20:19.41,*Default,,0000,0000,0000,,E-Está tudo acabado!
+Dialogue: Marked=0,0:20:21.30,0:20:23.23,*Default,,0000,0000,0000,,Nem mesmo o Goku-san é páreo para ele!
+Dialogue: Marked=0,0:20:24.44,0:20:27.19,*Default,,0000,0000,0000,,Boo vai descarregar\Nsua ira sobre todo o universo!
+Dialogue: Marked=0,0:20:28.61,0:20:31.00,*Default,,0000,0000,0000,,Veja, não se preocupe.
+Dialogue: Marked=0,0:20:31.00,0:20:31.26,*Default,,0000,0000,0000,,Hã?
+Dialogue: Marked=0,0:20:31.70,0:20:34.77,*Default,,0000,0000,0000,,Parece que o Goku\Nestá pensando em alguma coisa.
+Dialogue: Marked=0,0:20:36.03,0:20:39.70,*Default,,0000,0000,0000,,Ele está medindo o poder de Boo.
+Dialogue: Marked=0,0:20:39.70,0:20:42.27,*Default,,0000,0000,0000,,Era esse o tipo de luta que ele estava fazendo.
+Dialogue: Marked=0,0:20:43.75,0:20:46.08,*Default,,0000,0000,0000,,É o fim do mundo!\NÉ o fim do Outro Mundo!
+Dialogue: Marked=0,0:20:46.08,0:20:48.78,*Default,,0000,0000,0000,,É o fim de Mister Satan!
+Dialogue: Marked=0,0:20:59.89,0:21:03.36,*Default,,0000,0000,0000,,Majin Boo, você é um estúpido,
+Dialogue: Marked=0,0:21:03.36,0:21:05.83,*Default,,0000,0000,0000,,mas seu poder, velocidade e\Ncapacidade de recuperação são incríveis!
+Dialogue: Marked=0,0:21:06.64,0:21:08.93,*Default,,0000,0000,0000,,Você está em um nível totalmente\Ndiferente de todos os Boos até agora!
+Dialogue: Marked=0,0:21:08.93,0:21:10.84,*Default,,0000,0000,0000,,Você é incrivelmente forte!
+Dialogue: Marked=0,0:21:31.62,0:21:34.86,*Default,,0000,0000,0000,,Vejam!\NO Goku finalmente está ficando sério!
+Dialogue: Marked=0,0:22:01.90,0:22:03.89,*Default,,0000,0000,0000,,Então Kakarotto finalmente\Ndecidiu acabar com isso?
+Dialogue: Marked=0,0:22:08.54,0:22:10.90,*Default,,0000,0000,0000,,Muito bem, a luta começa agora!
+Dialogue: Marked=0,0:22:15.63,0:22:19.90,Narrador,,0000,0000,0000,,Goku finalmente se\Ntransformou em Super Saiya-jin 3.
+Dialogue: Marked=0,0:22:19.90,0:22:24.57,Narrador,,0000,0000,0000,,O clímax da luta, com todo\No universo em jogo, está para ser atingido!
+
+Dialogue: Marked=0,0:00:25.52,0:00:28.41,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:00:28.41,0:00:28.52,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}Saibankan
+Dialogue: Marked=0,0:01:05.64,0:01:08.70,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(635,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx75\fscy55\pos(241,173)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx55\fscy48\pos(241,245)\t(9110,0)}www.animecentral.com.br

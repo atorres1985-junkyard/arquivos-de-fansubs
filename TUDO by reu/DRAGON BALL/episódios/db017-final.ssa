@@ -1,0 +1,282 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,FormalScrp421 BT,36,16119285,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:22:26.67,logokintoun,,0000,0000,0000,Karaoke,{\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#KintouN
+Dialogue: Marked=0,0:01:53.12,0:01:57.42,Narrador,NTP,0000,0000,0000,!Effect,Depois do Mestre Kame e\Ndos outros se sentirem mal...
+Dialogue: Marked=0,0:01:57.42,0:01:59.81,Narrador,NTP,0000,0000,0000,!Effect,por causa do baiacu\Nque Lunch cozinhou,
+Dialogue: Marked=0,0:01:59.81,0:02:02.03,Narrador,NTP,0000,0000,0000,!Effect,parece que eles ficaram um pouco melhores,
+Dialogue: Marked=0,0:02:02.37,0:02:04.32,Narrador,NTP,0000,0000,0000,!Effect,e podem continuar seu treinamento\Ncom o raiar de um novo dia.
+Dialogue: Marked=0,0:02:08.01,0:02:10.88,*Default,NTP,0000,0000,0000,!Effect,Ai, ai, ai!
+Dialogue: Marked=0,0:02:13.96,0:02:16.86,*Default,NTP,0000,0000,0000,!Effect,Diabos, esse moleque\Nse mexe demais quando dorme!
+Dialogue: Marked=0,0:02:47.50,0:02:50.60,P!,NTP,0000,0000,0000,!Effect,Eu tento imaginar por que\Ntoda a vez que eu espirro...
+Dialogue: Marked=0,0:02:50.60,0:02:53.72,P!,NTP,0000,0000,0000,!Effect,minha personalidade e minha\Naparência mudam de repente.
+
+Dialogue: Marked=0,0:03:21.32,0:03:29.01,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(500,0)}{\pos(290,150)}{\fscx100\fscy100}Episódio 17
+Dialogue: Marked=0,0:03:21.32,0:03:29.01,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(500,0)}{\pos(70,410)}{\fscx80\fscy140}Com a vida em jogo! Entrega de leite
+
+Dialogue: Marked=0,0:03:41.82,0:03:44.08,*Default,NTP,0000,0000,0000,!Effect,Ai, ai... Já é manhã?
+Dialogue: Marked=0,0:03:45.53,0:03:51.47,*Default,NTP,0000,0000,0000,!Effect,Ei, ei, Kuririn! Kuririn, acorda!\NTemos o treino da madrugada!
+Dialogue: Marked=0,0:03:51.47,0:03:52.96,*Default,NTP,0000,0000,0000,!Effect,C-Certo...
+Dialogue: Marked=0,0:03:57.14,0:04:00.11,*Default,NTP,0000,0000,0000,!Effect,São só 4:30, não?
+Dialogue: Marked=0,0:04:00.14,0:04:07.12,*Default,NTP,0000,0000,0000,!Effect,Para de resmungar e acorde logo!\NVou acordar Goku.
+Dialogue: Marked=0,0:04:08.97,0:04:12.69,P!,NTP,0000,0000,0000,!Effect,Droga... Se a Lunch-san não\Ntivesse aqueles preconceitos dela,
+Dialogue: Marked=0,0:04:12.69,0:04:14.43,P!,NTP,0000,0000,0000,!Effect,poderíamos ter dormido juntos.
+Dialogue: Marked=0,0:04:14.43,0:04:17.38,P!,NTP,0000,0000,0000,!Effect,Por que eu tenho\Nque dormir com Kuririn?
+Dialogue: Marked=0,0:04:20.94,0:04:22.43,P!,NTP,0000,0000,0000,!Effect,Espera um minuto!
+Dialogue: Marked=0,0:04:38.63,0:04:43.43,P!,NTP,0000,0000,0000,!Effect,Certo, agora para espiar ela...
+Dialogue: Marked=0,0:04:45.09,0:04:48.03,P!,NTP,0000,0000,0000,!Effect,Goku, tenho tanta inveja de você!
+Dialogue: Marked=0,0:04:48.03,0:04:51.18,P!,NTP,0000,0000,0000,!Effect,De qualquer jeito, Goku é o único que\Nse encaixa para estar com essa garota...
+Dialogue: Marked=0,0:04:51.18,0:04:53.28,P!,NTP,0000,0000,0000,!Effect,Não tendo nenhum interesse\Npor mulheres, e tudo mais...
+Dialogue: Marked=0,0:04:56.95,0:04:59.04,*Default,NTP,0000,0000,0000,!Effect,Obrigado por essa comida...
+Dialogue: Marked=0,0:05:00.22,0:05:03.55,P!,NTP,0000,0000,0000,!Effect,Então, imagino em que tipo\Nde roupas a Lunch-san dorme.
+Dialogue: Marked=0,0:05:03.73,0:05:05.59,P!,NTP,0000,0000,0000,!Effect,Vamos dar uma olhada...
+Dialogue: Marked=0,0:05:08.64,0:05:11.70,P!,NTP,0000,0000,0000,!Effect,Isso é um problema!\NAquela é a Lunch-san malvada!
+Dialogue: Marked=0,0:05:11.70,0:05:16.97,P!,NTP,0000,0000,0000,!Effect,Vai ser horrível se ela acordar!\NTenho que acordar o Goku em silêncio!
+Dialogue: Marked=0,0:05:19.27,0:05:23.17,P!,NTP,0000,0000,0000,!Effect,Vamos! Vamos! Goku!
+Dialogue: Marked=0,0:05:24.11,0:05:26.47,*Default,NTP,0000,0000,0000,!Effect,Anda, Goku!
+Dialogue: Marked=0,0:05:26.47,0:05:30.95,*Default,NTP,0000,0000,0000,!Effect,Acorda, digo...\NAnda logo! Goku!
+Dialogue: Marked=0,0:05:31.64,0:05:34.02,*Default,NTP,0000,0000,0000,!Effect,Ah, velhote! E aí?!
+Dialogue: Marked=0,0:05:36.66,0:05:38.16,*Default,NTP,0000,0000,0000,!Effect,O que foi, velhote?
+Dialogue: Marked=0,0:05:41.33,0:05:43.00,*Default,NTP,0000,0000,0000,!Effect,Silêncio!
+Dialogue: Marked=0,0:05:52.83,0:05:53.30,*Default,NTP,0000,0000,0000,!Effect,E aí?
+Dialogue: Marked=0,0:05:55.24,0:05:58.23,*Default,NTP,0000,0000,0000,!Effect,Maldito!\NPor que você está dormindo comigo?!
+Dialogue: Marked=0,0:05:58.23,0:06:02.02,*Default,NTP,0000,0000,0000,!Effect,Não tinha jeito, sabe?\NNão há colchões o bastante.
+Dialogue: Marked=0,0:06:03.82,0:06:05.53,*Default,NTP,0000,0000,0000,!Effect,Cala boca, seu anormal!
+Dialogue: Marked=0,0:06:15.90,0:06:18.60,*Default,NTP,0000,0000,0000,!Effect,Ora, ora! Que malvada!
+Dialogue: Marked=0,0:06:19.37,0:06:22.21,*Default,NTP,0000,0000,0000,!Effect,É isso que você consegue quando vem\Ndormir na minha cama.
+Dialogue: Marked=0,0:06:22.41,0:06:25.73,*Default,NTP,0000,0000,0000,!Effect,De jeito nenhum que eu\Nvou perder pra você!
+Dialogue: Marked=0,0:06:32.45,0:06:34.15,*Default,NTP,0000,0000,0000,!Effect,Durma mais um pouco!
+Dialogue: Marked=0,0:06:34.99,0:06:38.21,*Default,NTP,0000,0000,0000,!Effect,Você não se escondeu contra a mulher, né?
+Dialogue: Marked=0,0:06:38.78,0:06:40.73,*Default,NTP,0000,0000,0000,!Effect,Você é bem direto.
+Dialogue: Marked=0,0:06:43.00,0:06:45.49,*Default,NTP,0000,0000,0000,!Effect,Velhote, o que você quer\Na essa hora da madrugada?
+Dialogue: Marked=0,0:06:45.49,0:06:47.24,*Default,NTP,0000,0000,0000,!Effect,Nós vamos ter treino, finalmente?
+Dialogue: Marked=0,0:06:48.66,0:06:50.74,*Default,NTP,0000,0000,0000,!Effect,É, é isso!\NVamos treinar, não é?
+Dialogue: Marked=0,0:06:56.21,0:07:00.20,*Default,NTP,0000,0000,0000,!Effect,Ah, esse dedo?\NVocê sabe, eu estava... É, é...
+Dialogue: Marked=0,0:07:00.20,0:07:04.00,*Default,NTP,0000,0000,0000,!Effect,O vento vem do Norte\Nnuma velocidade de 2Km/h!
+Dialogue: Marked=0,0:07:06.17,0:07:08.78,*Default,NTP,0000,0000,0000,!Effect,Certo, Goku, anda logo e se vista!
+Dialogue: Marked=0,0:07:12.30,0:07:14.89,*Default,NTP,0000,0000,0000,!Effect,Então, agora...\NNosso treino finalmente começará aqui...
+Dialogue: Marked=0,0:07:14.89,0:07:18.12,*Default,NTP,0000,0000,0000,!Effect,Na Academia de Artes Marciais do Kame...
+Dialogue: Marked=0,0:07:20.72,0:07:24.84,*Default,NTP,0000,0000,0000,!Effect,Mas antes de começarmos, vou dizer\Nalgumas coisas sobre artes marciais.
+Dialogue: Marked=0,0:07:24.84,0:07:25.61,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:07:25.64,0:07:29.17,*Default,NTP,0000,0000,0000,!Effect,O domínio das artes marciais\Nnão é só aquilo de ganhar lutas,
+Dialogue: Marked=0,0:07:29.17,0:07:37.08,*Default,NTP,0000,0000,0000,!Effect,nem mesmo ouvir as garotas dizerem:\N"Oh, você é mesmo forte!"
+Dialogue: Marked=0,0:07:39.95,0:07:41.76,*Default,NTP,0000,0000,0000,!Effect,Para aprender artes marciais,
+Dialogue: Marked=0,0:07:41.76,0:07:44.90,*Default,NTP,0000,0000,0000,!Effect,vocês têm que crescer saudáveis,\Nem corpo e mente, e fazendo isso,
+Dialogue: Marked=0,0:07:44.90,0:07:47.98,*Default,NTP,0000,0000,0000,!Effect,vocês podem conseguir o que foi\Ndado a vocês quando vocês nasceram, e...
+Dialogue: Marked=0,0:07:47.98,0:07:51.13,*Default,NTP,0000,0000,0000,!Effect,desfrutarem melhor de suas vidas, e de tudo mais.
+Dialogue: Marked=0,0:07:54.60,0:07:58.10,*Default,NTP,0000,0000,0000,!Effect,De qualquer maneira, se houver algum\Ninimigo que use um poder sem razão...
+Dialogue: Marked=0,0:07:58.10,0:08:00.45,*Default,NTP,0000,0000,0000,!Effect,para te ameaçar, ou a outras pessoas inocentes...
+Dialogue: Marked=0,0:08:00.45,0:08:03.65,*Default,NTP,0000,0000,0000,!Effect,Vocês têm que acertá-lo bem na boca!
+Dialogue: Marked=0,0:08:03.75,0:08:05.43,*Default,NTP,0000,0000,0000,!Effect,Estão me acompanhando até agora, certo?
+Dialogue: Marked=0,0:08:06.01,0:08:07.02,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:08:08.35,0:08:09.94,*Default,NTP,0000,0000,0000,!Effect,Não entendi nada.
+Dialogue: Marked=0,0:08:15.94,0:08:20.42,*Default,NTP,0000,0000,0000,!Effect,Em outras palavras, treine o mais\Nduro possível, e teremos uma vida divertida.
+Dialogue: Marked=0,0:08:20.42,0:08:21.74,*Default,NTP,0000,0000,0000,!Effect,Isso que eu quero dizer.
+Dialogue: Marked=0,0:08:21.74,0:08:25.88,*Default,NTP,0000,0000,0000,!Effect,Ah, é isso?!\NEntendi, entendi!
+Dialogue: Marked=0,0:08:26.79,0:08:28.49,*Default,NTP,0000,0000,0000,!Effect,Você é um idiota, certo?
+Dialogue: Marked=0,0:08:29.34,0:08:32.63,*Default,NTP,0000,0000,0000,!Effect,Bem...\NAgora, vamos começar nosso treino?
+Dialogue: Marked=0,0:08:32.66,0:08:33.35,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:08:34.80,0:08:37.11,*Default,NTP,0000,0000,0000,!Effect,Enfim, se vocês não podem prosseguir,
+Dialogue: Marked=0,0:08:37.11,0:08:39.22,*Default,NTP,0000,0000,0000,!Effect,não vou me importar nem um\Npouco se vocês caírem fora!
+Dialogue: Marked=0,0:08:39.45,0:08:40.23,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:08:42.01,0:08:44.73,*Default,NTP,0000,0000,0000,!Effect,Tudo bem. Primeiro uma corrida bem leve...\NVenham comigo!
+Dialogue: Marked=0,0:08:45.51,0:08:46.31,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:08:47.94,0:08:48.64,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:09:04.39,0:09:08.47,P!,NTP,0000,0000,0000,!Effect,Quem diria? Eu ouvi dizer que o\Ntreinamento do Mestre Kame era duro,
+Dialogue: Marked=0,0:09:08.47,0:09:10.60,P!,NTP,0000,0000,0000,!Effect,mas não parece tão ruim.
+Dialogue: Marked=0,0:09:21.59,0:09:24.58,*Default,NTP,0000,0000,0000,!Effect,E... parou! Bom dia.
+Dialogue: Marked=0,0:09:26.07,0:09:29.10,*Default,NTP,0000,0000,0000,!Effect,Sou Kame, aquele que te ligou ontem.
+Dialogue: Marked=0,0:09:29.10,0:09:33.27,*Default,NTP,0000,0000,0000,!Effect,Ah, é mesmo?\NObrigado, muito obrigado por fazer isso.
+Dialogue: Marked=0,0:09:34.32,0:09:37.30,*Default,NTP,0000,0000,0000,!Effect,Esse é o mapa dos lugares a serem entregues.
+Dialogue: Marked=0,0:09:37.30,0:09:39.11,*Default,NTP,0000,0000,0000,!Effect,Sim, certo...
+Dialogue: Marked=0,0:09:40.11,0:09:42.45,*Default,NTP,0000,0000,0000,!Effect,Então, nosso treinamento de madrugada será...
+Dialogue: Marked=0,0:09:43.19,0:09:46.17,*Default,NTP,0000,0000,0000,!Effect,Eu queria saber se ele vai\Nnos deixar beber aquele leite!
+Dialogue: Marked=0,0:09:48.67,0:09:52.46,*Default,NTP,0000,0000,0000,!Effect,Certo, vocês dois!\NCada um pegue uma dessas caixas.
+Dialogue: Marked=0,0:09:52.45,0:09:54.06,*Default,NTP,0000,0000,0000,!Effect,Vamos entregar leite!
+Dialogue: Marked=0,0:09:54.59,0:09:57.05,*Default,NTP,0000,0000,0000,!Effect,E-Entregar leite?
+Dialogue: Marked=0,0:09:58.38,0:10:01.60,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo!\NSerá um ótimo exercício!
+Dialogue: Marked=0,0:10:01.77,0:10:04.60,*Default,NTP,0000,0000,0000,!Effect,Não me diga que você planeja correr?
+Dialogue: Marked=0,0:10:06.74,0:10:08.77,*Default,NTP,0000,0000,0000,!Effect,Vocês não vão usar o helicóptero?
+Dialogue: Marked=0,0:10:08.77,0:10:12.58,*Default,NTP,0000,0000,0000,!Effect,Não, se usarmos o helicóptero,\Nnão vai ser um treino, afinal.
+Dialogue: Marked=0,0:10:12.58,0:10:16.32,*Default,NTP,0000,0000,0000,!Effect,De qualquer maneira, se vocês não\Npuderem levar o leite até o café da manhã...
+Dialogue: Marked=0,0:10:16.32,0:10:20.84,*Default,NTP,0000,0000,0000,!Effect,Não precisa se preocupar. Vou me assegurar\Nde que esses dois façam isso.
+Dialogue: Marked=0,0:10:20.84,0:10:23.19,*Default,NTP,0000,0000,0000,!Effect,Andem, peguem uma cada um!
+Dialogue: Marked=0,0:10:23.19,0:10:23.49,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:10:26.95,0:10:30.20,*Default,NTP,0000,0000,0000,!Effect,Muten Roshi-sama, entregar leite também é treino?
+Dialogue: Marked=0,0:10:30.99,0:10:32.41,*Default,NTP,0000,0000,0000,!Effect,Claro que sim.
+Dialogue: Marked=0,0:10:35.17,0:10:37.42,*Default,NTP,0000,0000,0000,!Effect,Certo, me sigam!
+Dialogue: Marked=0,0:10:38.20,0:10:42.17,*Default,NTP,0000,0000,0000,!Effect,Pelos dois quilômetros mais ou menos\Naté a primeira casa, vamos saltitando.
+Dialogue: Marked=0,0:10:43.70,0:10:44.70,*Default,NTP,0000,0000,0000,!Effect,Dois quilômetros?!
+Dialogue: Marked=0,0:10:45.37,0:10:46.69,*Default,NTP,0000,0000,0000,!Effect,Saltitando?
+Dialogue: Marked=0,0:10:51.64,0:10:56.82,*Default,NTP,0000,0000,0000,!Effect,Desse jeito! Saltitar, Saltitar!\NLa, la, la! Saltitar, Saltitar! La, la, la!
+Dialogue: Marked=0,0:10:57.15,0:11:00.07,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la!
+Dialogue: Marked=0,0:11:00.32,0:11:03.58,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la!
+Dialogue: Marked=0,0:11:05.32,0:11:07.66,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la! Vamos!
+Dialogue: Marked=0,0:11:08.33,0:11:11.66,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la! Vamos!
+Dialogue: Marked=0,0:11:11.66,0:11:16.59,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la! Saltitar, Saltitar...
+Dialogue: Marked=0,0:11:16.93,0:11:19.59,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la!
+Dialogue: Marked=0,0:11:23.67,0:11:26.40,*Default,NTP,0000,0000,0000,!Effect,Saltitar, Saltitar! La, la, la!
+Dialogue: Marked=0,0:11:34.40,0:11:39.51,*Default,NTP,0000,0000,0000,!Effect,Bem, estão exaustos, certo?\NCerto, pelo próximo quilômetro...
+Dialogue: Marked=0,0:11:40.36,0:11:42.36,*Default,NTP,0000,0000,0000,!Effect,Tem mais?
+Dialogue: Marked=0,0:11:43.03,0:11:44.24,*Default,NTP,0000,0000,0000,!Effect,Claro que sim!
+Dialogue: Marked=0,0:11:46.84,0:11:50.60,*Default,NTP,0000,0000,0000,!Effect,Dessa vez, vamos por essa estrada\Nreta com um zig-zag, zig-zag!
+Dialogue: Marked=0,0:11:53.70,0:11:55.91,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag?
+Dialogue: Marked=0,0:11:55.91,0:11:58.76,*Default,NTP,0000,0000,0000,!Effect,- Vamos, andem!\N- Tá!
+Dialogue: Marked=0,0:11:58.76,0:12:00.88,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag!
+Dialogue: Marked=0,0:12:00.88,0:12:04.55,*Default,NTP,0000,0000,0000,!Effect,Atrás e na frente, Atrás e na frente!\NAqui vamos nós, aqui vamos nós!
+Dialogue: Marked=0,0:12:04.55,0:12:09.31,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag,\Nzig-zag, zig-zag, zig...
+Dialogue: Marked=0,0:12:21.14,0:12:25.26,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag, zig-zag, zig-zag!
+Dialogue: Marked=0,0:12:25.82,0:12:27.82,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag!
+Dialogue: Marked=0,0:12:27.82,0:12:31.21,*Default,NTP,0000,0000,0000,!Effect,Zig-zag, zig-zag, zig-zag, zig-zag!
+Dialogue: Marked=0,0:12:31.21,0:12:33.67,*Default,NTP,0000,0000,0000,!Effect,Isso é uma linha reta! Volte!
+Dialogue: Marked=0,0:12:34.64,0:12:36.42,*Default,NTP,0000,0000,0000,!Effect,Não vou fazer isso de novo!
+
+Dialogue: Marked=0,0:12:43.30,0:12:46.39,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(676,578)}KINTOUN
+Dialogue: Marked=0,0:12:43.30,0:12:46.39,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(680,581)}KINTOUN
+Dialogue: Marked=0,0:12:43.30,0:12:46.39,apresenta 2,,0000,0000,0000,,{\pos(685,597)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:43.30,0:12:46.39,apresenta,,0000,0000,0000,,{\pos(689,601)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:48.64,0:12:51.07,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(610,578)}KINTOUN
+Dialogue: Marked=0,0:12:48.64,0:12:51.07,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(614,581)}KINTOUN
+Dialogue: Marked=0,0:12:48.64,0:12:51.07,apresenta 2,,0000,0000,0000,,{\pos(655,597)\fscx100\fscy140}kintoun.animirc.net
+Dialogue: Marked=0,0:12:48.64,0:12:51.07,apresenta,,0000,0000,0000,,{\pos(659,601)\fscx100\fscy140}kintoun.animirc.net
+
+Dialogue: Marked=0,0:13:04.61,0:13:09.12,*Default,NTP,0000,0000,0000,!Effect,Você está atrasado, Kuririn!\NSe você perder tempo, o leite vai azedar!
+Dialogue: Marked=0,0:13:09.65,0:13:10.47,*Default,NTP,0000,0000,0000,!Effect,C-Certo...
+Dialogue: Marked=0,0:13:14.21,0:13:17.13,*Default,NTP,0000,0000,0000,!Effect,Kuririn!\NQuem disse que vamos descansar?!
+Dialogue: Marked=0,0:13:17.13,0:13:18.12,*Default,NTP,0000,0000,0000,!Effect,- Certo!\N- Certo!
+Dialogue: Marked=0,0:13:19.21,0:13:21.62,*Default,NTP,0000,0000,0000,!Effect,Agora, vamos subir essas escadas.
+Dialogue: Marked=0,0:13:21.62,0:13:23.91,*Default,NTP,0000,0000,0000,!Effect,Então, não temos\Nque correr aqui.
+Dialogue: Marked=0,0:13:45.91,0:13:50.34,*Default,NTP,0000,0000,0000,!Effect,O treino do Muten Roshi-sama\Ncom certeza vale alguma coisa...
+Dialogue: Marked=0,0:14:21.25,0:14:24.90,*Default,NTP,0000,0000,0000,!Effect,Hoh, até mesmo o Goku\Ncomeçou a se cansar aqui, hã?
+Dialogue: Marked=0,0:14:26.46,0:14:30.69,*Default,NTP,0000,0000,0000,!Effect,Velhote, não posso usar a\NKinto Un para entregar esses?
+Dialogue: Marked=0,0:14:31.48,0:14:34.26,*Default,NTP,0000,0000,0000,!Effect,Isso não te treinaria, não é?
+Dialogue: Marked=0,0:14:34.26,0:14:35.50,*Default,NTP,0000,0000,0000,!Effect,Certo...
+Dialogue: Marked=0,0:14:42.35,0:14:44.30,*Default,NTP,0000,0000,0000,!Effect,Isso me lembra...
+Dialogue: Marked=0,0:14:44.78,0:14:51.51,*Default,NTP,0000,0000,0000,!Effect,Há muito tempo atrás, Son Gohan e Gyumao\Nentregaram leite desse jeito, sabe...
+Dialogue: Marked=0,0:14:54.43,0:14:59.35,*Default,NTP,0000,0000,0000,!Effect,Meu avô fez isso também?\NÉ mesmo?!
+Dialogue: Marked=0,0:15:05.77,0:15:07.86,*Default,NTP,0000,0000,0000,!Effect,Velhote, vou indo!
+Dialogue: Marked=0,0:15:14.70,0:15:15.67,*Default,NTP,0000,0000,0000,!Effect,Ele finalmente chegou, não é?
+Dialogue: Marked=0,0:15:20.03,0:15:22.37,*Default,NTP,0000,0000,0000,!Effect,Kuririn, você está no meio do caminho!
+Dialogue: Marked=0,0:15:22.37,0:15:24.28,*Default,NTP,0000,0000,0000,!Effect,No meio do caminho?
+Dialogue: Marked=0,0:15:50.33,0:15:52.82,*Default,NTP,0000,0000,0000,!Effect,Está bom, por enquanto.
+Dialogue: Marked=0,0:15:53.33,0:15:56.00,*Default,NTP,0000,0000,0000,!Effect,Ai, ai...\NIsso sim é um trabalho bem feito!
+Dialogue: Marked=0,0:15:56.00,0:15:57.62,*Default,NTP,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:15:58.34,0:16:00.34,*Default,NTP,0000,0000,0000,!Effect,Isso dói!
+Dialogue: Marked=0,0:16:00.34,0:16:04.01,*Default,NTP,0000,0000,0000,!Effect,Não se fala "Ei!"\Nse fala "Bom dia."
+Dialogue: Marked=0,0:16:04.01,0:16:06.34,*Default,NTP,0000,0000,0000,!Effect,Bom dia.
+Dialogue: Marked=0,0:16:06.68,0:16:11.02,*Default,NTP,0000,0000,0000,!Effect,Treinando não é?\NMuten Roshi-sama, faz muito tempo.
+Dialogue: Marked=0,0:16:11.02,0:16:14.02,*Default,NTP,0000,0000,0000,!Effect,Abbot, já faz um bom tempo, hein?
+Dialogue: Marked=0,0:16:14.02,0:16:19.69,*Default,NTP,0000,0000,0000,!Effect,Você parece tão vivo como sempre.\NComo vai o treino desses dois?
+Dialogue: Marked=0,0:16:19.69,0:16:23.06,*Default,NTP,0000,0000,0000,!Effect,Eles começaram agora.
+Dialogue: Marked=0,0:16:23.06,0:16:27.03,*Default,NTP,0000,0000,0000,!Effect,Enfim, eu acho que ambos\Nparecem bem promissores.
+Dialogue: Marked=0,0:16:27.03,0:16:28.53,*Default,NTP,0000,0000,0000,!Effect,Ele disse que somos promissores!
+Dialogue: Marked=0,0:16:29.37,0:16:30.79,*Default,NTP,0000,0000,0000,!Effect,Tudo bem!
+Dialogue: Marked=0,0:16:30.79,0:16:32.61,*Default,NTP,0000,0000,0000,!Effect,Se eles treinarem direito,
+Dialogue: Marked=0,0:16:32.61,0:16:36.04,*Default,NTP,0000,0000,0000,!Effect,podem até serem capazes de entrarem\Nno torneio daqui oito meses.
+Dialogue: Marked=0,0:16:36.04,0:16:39.07,*Default,NTP,0000,0000,0000,!Effect,O Tenkaichi Budokai, certo?
+Dialogue: Marked=0,0:16:39.07,0:16:41.50,*Default,NTP,0000,0000,0000,!Effect,Tenkaichi Budokai?
+Dialogue: Marked=0,0:16:41.97,0:16:43.75,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:16:44.05,0:16:46.65,*Default,NTP,0000,0000,0000,!Effect,Você não conhece o Tenkaichi Budokai?
+Dialogue: Marked=0,0:16:47.76,0:16:50.26,*Default,NTP,0000,0000,0000,!Effect,É uma competição incrível, onde os\Nmestres das artes marciais de todas os lugares...
+Dialogue: Marked=0,0:16:50.26,0:16:54.51,*Default,NTP,0000,0000,0000,!Effect,se reúnem para decidir quem é o Tenkaichi,\No melhor abaixo dos céus!
+Dialogue: Marked=0,0:16:54.81,0:16:56.66,*Default,NTP,0000,0000,0000,!Effect,Tenkaichi, hã?
+Dialogue: Marked=0,0:16:56.66,0:17:01.34,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,500)}É organizado no Metro South, a cada cinco anos!
+Dialogue: Marked=0,0:17:00.84,0:17:03.99,PLACA,NTP,0000,0000,0000,!Effect,{\move(380,320,390,320)\fad(300,0)\fscx80\fscy80\t(0,3150,\fscx70\fscy70}Tenkaichi Budokai
+Dialogue: Marked=0,0:17:00.84,0:17:03.99,PLACA,NTP,0000,0000,0000,!Effect,{\move(675,585,665,555)\fad(300,0)\fscx65\fscy65\t(0,3150,\fscx55\fscy55}Recepção de\NParticipantes
+Dialogue: Marked=0,0:17:08.68,0:17:12.26,*Default,NTP,0000,0000,0000,!Effect,Só podem entrar oito pessoas no torneio.\N
+Dialogue: Marked=0,0:17:12.95,0:17:16.36,*Default,NTP,0000,0000,0000,!Effect,No último torneio, havia centenas de lutadores inscritos,
+Dialogue: Marked=0,0:17:16.58,0:17:19.83,*Default,NTP,0000,0000,0000,!Effect,então só passar das preliminares já é bem difícil!
+Dialogue: Marked=0,0:17:21.23,0:17:22.70,*Default,NTP,0000,0000,0000,!Effect,Fantástico!
+Dialogue: Marked=0,0:17:26.96,0:17:28.92,*Default,NTP,0000,0000,0000,!Effect,Eu com certeza quero entrar!
+Dialogue: Marked=0,0:17:28.92,0:17:32.27,*Default,NTP,0000,0000,0000,!Effect,Vamos ficar tão bons assim para entrar?
+Dialogue: Marked=0,0:17:32.27,0:17:35.04,*Default,NTP,0000,0000,0000,!Effect,Se não menosprezarem o\Ntreinamento, vou colocar vocês.
+Dialogue: Marked=0,0:17:35.04,0:17:37.55,*Default,NTP,0000,0000,0000,!Effect,É uma coisa a se desejar, não é?
+Dialogue: Marked=0,0:17:37.55,0:17:39.38,*Default,NTP,0000,0000,0000,!Effect,- Certo!\N- Porém...
+Dialogue: Marked=0,0:17:40.71,0:17:47.35,*Default,NTP,0000,0000,0000,!Effect,Seu objetivo não é se tornar Tenkaichi.\NA vida real não é tão fácil.
+Dialogue: Marked=0,0:17:48.13,0:17:51.50,*Default,NTP,0000,0000,0000,!Effect,Eu acho que se vocês tiverem o\Nobjetivo de entrar no torneio,
+Dialogue: Marked=0,0:17:51.50,0:17:55.46,*Default,NTP,0000,0000,0000,!Effect,fará os frutos do seu treinamento\Namadurecerem bem mais rápido.
+Dialogue: Marked=0,0:17:55.46,0:17:58.83,*Default,NTP,0000,0000,0000,!Effect,Ótimo! Não seria incrível\Nse nós pudéssemos entrar?!
+Dialogue: Marked=0,0:17:59.39,0:18:01.59,*Default,NTP,0000,0000,0000,!Effect,Vai ter vários caras fortes lá, certo?
+Dialogue: Marked=0,0:18:01.59,0:18:05.67,*Default,NTP,0000,0000,0000,!Effect,Bem, então... Temos mais entregas\Nde leite, então vamos indo.
+Dialogue: Marked=0,0:18:05.67,0:18:07.50,*Default,NTP,0000,0000,0000,!Effect,Boa sorte pra vocês.
+Dialogue: Marked=0,0:18:08.50,0:18:09.50,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:18:10.67,0:18:12.98,Narrador,NTP,0000,0000,0000,!Effect,Com os corações de Goku e\NKuririn a ponto de explodir...
+Dialogue: Marked=0,0:18:12.98,0:18:17.34,Narrador,NTP,0000,0000,0000,!Effect,nos pensamentos do Tenkaichi Budokai...
+Dialogue: Marked=0,0:18:17.34,0:18:20.51,Narrador,NTP,0000,0000,0000,!Effect,Havia aquele homem em Metro West...
+Dialogue: Marked=0,0:18:22.18,0:18:24.69,PLACA1,NTP,0000,0000,0000,!Effect,{\move(370,300,370,300)\fad(300,0)\fscx65\fscy65\t(0,2510,\fscx70\fscy70}Sangokuichi Dojo
+Dialogue: Marked=0,0:18:24.72,0:18:26.64,PLACA1,NTP,0000,0000,0000,!Effect,{\frz6.5\move(370,268,370,-200,2300,1320)\fscx100\fscy95}S a n g o k u i c h i  D o j o
+Dialogue: Marked=0,0:18:32.60,0:18:33.50,*Default,NTP,0000,0000,0000,!Effect,Próximo!
+Dialogue: Marked=0,0:18:34.03,0:18:36.18,Narrador,NTP,0000,0000,0000,!Effect,Você se lembra desse homem?
+Dialogue: Marked=0,0:18:36.18,0:18:39.36,Narrador,NTP,0000,0000,0000,!Effect,Certo! É Yamcha, com sua técnica Rogafufu-ken!
+Dialogue: Marked=0,0:18:42.37,0:18:44.71,*Default,NTP,0000,0000,0000,!Effect,Esforce-se!
+Dialogue: Marked=0,0:18:44.71,0:18:46.85,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama! Pega eles, pega eles!
+Dialogue: Marked=0,0:18:54.32,0:18:55.99,*Default,NTP,0000,0000,0000,!Effect,Você vai me enfrentar agora!
+Dialogue: Marked=0,0:19:05.33,0:19:10.66,*Default,NTP,0000,0000,0000,!Effect,Para alguém que se gaba que pode\Nderrotar esse Dojo, você não é tão bom!
+Dialogue: Marked=0,0:19:10.66,0:19:12.90,*Default,NTP,0000,0000,0000,!Effect,Posso começar a terminar com você, então?
+Dialogue: Marked=0,0:19:13.00,0:19:15.34,*Default,NTP,0000,0000,0000,!Effect,Parece que Yamcha vai ser derrotado!
+Dialogue: Marked=0,0:19:15.34,0:19:18.67,*Default,NTP,0000,0000,0000,!Effect,Ele não é tão habilidoso,\Nsó tem uma grande boca.
+Dialogue: Marked=0,0:19:18.67,0:19:20.16,*Default,NTP,0000,0000,0000,!Effect,E agora, ele deixou o oponente bravo com ele.
+Dialogue: Marked=0,0:19:22.01,0:19:24.49,*Default,NTP,0000,0000,0000,!Effect,Pual, temos que fazer algo!
+Dialogue: Marked=0,0:19:24.49,0:19:27.62,*Default,NTP,0000,0000,0000,!Effect,Tudo bem!\NYamcha-sama é forte, afinal!
+Dialogue: Marked=0,0:19:29.12,0:19:32.35,*Default,NTP,0000,0000,0000,!Effect,Experimente a minha técnica Rogafufu-ken!
+Dialogue: Marked=0,0:19:32.35,0:19:33.59,*Default,NTP,0000,0000,0000,!Effect,O que você disse?!
+Dialogue: Marked=0,0:19:36.69,0:19:38.30,Poder,NTP,0000,0000,0000,!Effect,ROGA
+Dialogue: Marked=0,0:19:41.03,0:19:43.34,Poder,NTP,0000,0000,0000,!Effect,FUFU-KEN
+Dialogue: Marked=0,0:19:58.94,0:20:00.52,*Default,NTP,0000,0000,0000,!Effect,Era o que se poderia esperar do Yamcha-sama!
+Dialogue: Marked=0,0:20:00.52,0:20:03.78,*Default,NTP,0000,0000,0000,!Effect,Não há dúvida de que ele\Nvencerá o Tenkaichi Budokai!
+Dialogue: Marked=0,0:20:04.65,0:20:09.29,*Default,NTP,0000,0000,0000,!Effect,Mas Son-kun, que foi para\No Mestre Kame, pode entrar também!
+Dialogue: Marked=0,0:20:09.30,0:20:11.79,*Default,NTP,0000,0000,0000,!Effect,Pra ser honesto, Goku é bem forte!
+Dialogue: Marked=0,0:20:11.99,0:20:14.54,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama é mais forte!
+Dialogue: Marked=0,0:20:17.13,0:20:18.04,*Default,NTP,0000,0000,0000,!Effect,Não tem jeito.
+Dialogue: Marked=0,0:20:19.33,0:20:21.92,*Default,NTP,0000,0000,0000,!Effect,As pessoas que vão entrar para o Tenkaichi Budokai...
+Dialogue: Marked=0,0:20:21.92,0:20:23.80,*Default,NTP,0000,0000,0000,!Effect,serão mais fortes ainda.
+Dialogue: Marked=0,0:20:23.87,0:20:28.74,*Default,NTP,0000,0000,0000,!Effect,Goku, tenha certeza de entrar!\NEstou ficando mais forte, e vou te esperar!
+Dialogue: Marked=0,0:20:30.34,0:20:32.55,*Default,NTP,0000,0000,0000,!Effect,Com certeza!
+Dialogue: Marked=0,0:20:37.02,0:20:39.61,*Default,NTP,0000,0000,0000,!Effect,Lembrem-se, equilíbrio! Equilíbrio!
+Dialogue: Marked=0,0:20:46.36,0:20:49.91,*Default,NTP,0000,0000,0000,!Effect,O que houve? Vamos!
+Dialogue: Marked=0,0:20:50.11,0:20:51.89,*Default,NTP,0000,0000,0000,!Effect,Não olhe pra baixo, senão você cai!
+Dialogue: Marked=0,0:20:52.45,0:20:56.30,*Default,NTP,0000,0000,0000,!Effect,Não quero morrer antes\Nde entrar no Tenkaichi Budokai!
+Dialogue: Marked=0,0:20:56.30,0:20:58.57,*Default,NTP,0000,0000,0000,!Effect,Equilíbrio, equilíbrio!
+Dialogue: Marked=0,0:21:04.23,0:21:07.02,*Default,NTP,0000,0000,0000,!Effect,Vamos, vamos!\NSe vocês forem muito lerdos aqui,
+Dialogue: Marked=0,0:21:07.02,0:21:08.93,*Default,NTP,0000,0000,0000,!Effect,serão engolidos pela areia!
+Dialogue: Marked=0,0:21:10.98,0:21:15.73,P!,NTP,0000,0000,0000,!Effect,Tenkaichi Budokai...\NTenkaichi Budokai...
+Dialogue: Marked=0,0:21:25.00,0:21:29.26,*Default,NTP,0000,0000,0000,!Effect,Não seja arrastado!\NVocê irá sobre a cachoeira!
+Dialogue: Marked=0,0:21:29.26,0:21:32.56,*Default,NTP,0000,0000,0000,!Effect,Vão ter vários caras impressionantes lá!
+Dialogue: Marked=0,0:21:35.19,0:21:37.75,*Default,NTP,0000,0000,0000,!Effect,Não vou ser arrastado!
+Dialogue: Marked=0,0:21:49.41,0:21:52.68,*Default,NTP,0000,0000,0000,!Effect,Vê lá? Se não correr o mais rápido\Nque puder, será comido!
+Dialogue: Marked=0,0:21:52.68,0:21:54.56,*Default,NTP,0000,0000,0000,!Effect,Rápido, rápido, rápido!
+Dialogue: Marked=0,0:22:06.21,0:22:10.39,*Default,NTP,0000,0000,0000,!Effect,Vocês farão essa entrega de leite\Ntodos os dias por oito meses.
+Dialogue: Marked=0,0:22:10.39,0:22:12.95,*Default,NTP,0000,0000,0000,!Effect,Será nosso treino da madrugada.
+Dialogue: Marked=0,0:22:13.05,0:22:16.29,*Default,NTP,0000,0000,0000,!Effect,Agora, vem o nosso treino matinal!
+Dialogue: Marked=0,0:22:18.72,0:22:22.79,Narrador,NTP,0000,0000,0000,!Effect,O treinamento do Mestre Kame é duro, afinal!
+Dialogue: Marked=0,0:22:22.79,0:22:26.99,Narrador,NTP,0000,0000,0000,!Effect,Enfim, esses dois vão trabalhar\Nduro pra alcançar o Tenkaichi Budokai!

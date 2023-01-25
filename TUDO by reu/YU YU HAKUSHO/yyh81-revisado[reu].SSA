@@ -1,0 +1,339 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,2,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,36,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,16777215,8454143,3815994,3815994,0,0,1,0,2,2,30,30,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,16777215,1,0,0,0.3,1,2,30,30,25,0,0
+Style: PLACA2,FormalScrp421 BT,80,10485760,8454143,3815994,3815994,0,0,1,2,2,2,30,30,25,0,0
+Style: PLACA3,FormalScrp421 BT,80,&HFF110099,8454143,3815994,-2147483640,0,0,1,5,5,2,30,30,25,0,0
+Style: PLACA4,Arial,80,&HFF000000,8678640,3815994,-2147483640,1,0,1,1,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:30.46,0:01:33.69,Narrador,NTP,0000,0000,0000,,Sensui e seu grupo\Ncapturaram Kuwabara,
+Dialogue: Marked=0,0:01:33.69,0:01:35.13,Narrador,NTP,0000,0000,0000,,que possui a habilidade\Nde atravessar dimensões.
+Dialogue: Marked=0,0:01:35.87,0:01:38.48,Narrador,NTP,0000,0000,0000,,Yusuke começou\Ndesesperadamente uma perseguição,
+Dialogue: Marked=0,0:01:38.48,0:01:40.01,Narrador,NTP,0000,0000,0000,,mas acabou sendo\Nperseguido por Hagiri, o Sniper.
+Dialogue: Marked=0,0:01:40.53,0:01:42.31,Narrador,NTP,0000,0000,0000,,Yusuke estava com problemas,
+Dialogue: Marked=0,0:01:42.84,0:01:44.77,Narrador,NTP,0000,0000,0000,,mas no momento certo,\Nfoi salvo por Hiei!
+Dialogue: Marked=0,0:01:45.81,0:01:47.60,Narrador,NTP,0000,0000,0000,,Então, eles se juntaram\Ncom Genkai e os outros,
+Dialogue: Marked=0,0:01:47.60,0:01:49.69,Narrador,NTP,0000,0000,0000,,que estavam logo atrás deles.
+Dialogue: Marked=0,0:01:50.15,0:01:52.81,*Default,NTP,0000,0000,0000,,Parece que está\Ntodo mundo aqui.
+Dialogue: Marked=0,0:01:54.11,0:02:00.08,Nome2,NTP,0000,0000,0000,,{\fad(1500,0)}{\fscx120\fscy120}Episódio 081
+Dialogue: Marked=0,0:01:54.11,0:02:00.08,Nome,NTP,0000,0000,0000,,{\fad(1500,0)}{\pos(400,400)}{\fscx87\fscy100}O Mundo dos Jogos Dentro da Caverna
+Dialogue: Marked=0,0:02:02.60,0:02:04.56,*Default,NTP,0000,0000,0000,,Antes de tudo, vamos entender a situação.
+Dialogue: Marked=0,0:02:05.61,0:02:07.62,*Default,NTP,0000,0000,0000,,Nossos inimigos, incluindo Sensui, somam sete no total.
+Dialogue: Marked=0,0:02:08.48,0:02:12.02,*Default,NTP,0000,0000,0000,,Deles, Doctor e Sniper já foram derrotados por Yusuke e os outros.
+Dialogue: Marked=0,0:02:14.75,0:02:17.95,*Default,NTP,0000,0000,0000,,Além disso, Seaman, ou melhor, Mitarai está aqui conosco.
+Dialogue: Marked=0,0:02:17.95,0:02:19.97,*Default,NTP,0000,0000,0000,,O que significa que ainda resta quatro deles, certo?
+Dialogue: Marked=0,0:02:20.45,0:02:22.39,*Default,NTP,0000,0000,0000,,O inimigo capturou Kuwabara-kun.
+Dialogue: Marked=0,0:02:22.39,0:02:25.18,*Default,NTP,0000,0000,0000,,Acreditamos que estejam dentro da Caverna Irima neste momento.
+Dialogue: Marked=0,0:02:25.62,0:02:27.68,*Default,NTP,0000,0000,0000,,É lá que eles se escondem.
+Dialogue: Marked=0,0:02:27.96,0:02:32.13,*Default,NTP,0000,0000,0000,,Sim. Agora, Sensui afirmou que o buraco para o Makai estaria totalmente aberto...
+Dialogue: Marked=0,0:02:32.13,0:02:33.69,*Default,NTP,0000,0000,0000,,dentro dos próximos dois dias.
+Dialogue: Marked=0,0:02:34.23,0:02:37.19,*Default,NTP,0000,0000,0000,,Ou seja, quatro dias mais cedo do que o Reikai previa.
+Dialogue: Marked=0,0:02:37.57,0:02:41.45,*Default,NTP,0000,0000,0000,,No entanto, como o buraco para o Makai poderia ser aberto tão rapidamente?
+Dialogue: Marked=0,0:02:41.74,0:02:44.66,*Default,NTP,0000,0000,0000,,Provavelmente porque a habilidade mágica de Itsuki...
+Dialogue: Marked=0,0:02:44.66,0:02:46.45,*Default,NTP,0000,0000,0000,,está aumentando gradualmente.
+Dialogue: Marked=0,0:02:46.88,0:02:47.84,*Default,NTP,0000,0000,0000,,Falando nisso,
+Dialogue: Marked=0,0:02:47.84,0:02:51.96,*Default,NTP,0000,0000,0000,,Itsuki disse que as coisas estavam indo mais rápido do que ele imaginava.
+Dialogue: Marked=0,0:02:52.63,0:02:56.07,*Default,NTP,0000,0000,0000,,{\fad(0,200)}E com certeza, julgando pela condição da cidade, basta uma olhada para perceber isso.
+Dialogue: Marked=0,0:03:01.33,0:03:05.34,*Default,NTP,0000,0000,0000,,Dada a situação, e considerando que eles estão com o Kuwabara-kun,
+Dialogue: Marked=0,0:03:05.34,0:03:07.47,*Default,NTP,0000,0000,0000,,nossa única escolha é nos dirigirmos à caverna o mais breve possível.
+Dialogue: Marked=0,0:03:08.60,0:03:11.27,*Default,NTP,0000,0000,0000,,Kuwabara-kun tem o poder de atravessar dimensões.
+Dialogue: Marked=0,0:03:11.74,0:03:15.61,*Default,NTP,0000,0000,0000,,Portanto, enquanto o buraco não estiver\Naberto e a barreira não for destruída,
+Dialogue: Marked=0,0:03:15.61,0:03:17.15,*Default,NTP,0000,0000,0000,,eles provavelmente não o matarão.
+Dialogue: Marked=0,0:03:18.18,0:03:20.07,*Default,NTP,0000,0000,0000,,Mas Gourmet também está entre eles.
+Dialogue: Marked=0,0:03:20.27,0:03:23.32,*Default,NTP,0000,0000,0000,,Certo. De acordo com o que Mitarai-kun nos disse,
+Dialogue: Marked=0,0:03:23.32,0:03:26.83,*Default,NTP,0000,0000,0000,,há uma grande possibilidade de Gourmet devorar a habilidade do Kuwabara-kun.
+Dialogue: Marked=0,0:03:27.28,0:03:30.11,*Default,NTP,0000,0000,0000,,Makihara, o Gourmet, literalmente\Ncome a habilidade dos outros.
+Dialogue: Marked=0,0:03:30.75,0:03:33.73,*Default,NTP,0000,0000,0000,,Eu vi o Makihara se\Nalimentando com meus próprios olhos.
+Dialogue: Marked=0,0:03:34.90,0:03:37.51,*Default,NTP,0000,0000,0000,,Quando você diz "comer",\No que ele faz especificamente?
+Dialogue: Marked=0,0:03:37.51,0:03:38.59,*Default,NTP,0000,0000,0000,,Na verdade, ele os consome.
+Dialogue: Marked=0,0:03:39.17,0:03:43.59,*Default,NTP,0000,0000,0000,,Ele engole o corpo de outras pessoas.\NSeu Território fica dentro dele.
+Dialogue: Marked=0,0:03:45.52,0:03:49.73,*Default,NTP,0000,0000,0000,,Nós entendemos toda a situação.\NOu ao menos, a idéia principal.
+Dialogue: Marked=0,0:03:50.24,0:03:52.91,*Default,NTP,0000,0000,0000,,Certo!\NVamos entrar no esconderijo deles!
+Dialogue: Marked=0,0:03:52.91,0:03:53.75,*Default,NTP,0000,0000,0000,,Esperem um pouco!
+Dialogue: Marked=0,0:03:56.23,0:03:58.44,*Default,NTP,0000,0000,0000,,É melhor limitarmos o\Nnúmero de pessoas que irão.
+Dialogue: Marked=0,0:03:58.93,0:04:02.85,*Default,NTP,0000,0000,0000,,Hiei, Kurama e Yusuke: vão vocês três.
+Dialogue: Marked=0,0:04:08.21,0:04:11.43,*Default,NTP,0000,0000,0000,,Ir com muita gente, sem saber o que\Nestá acontecendo, pode ser algo ruim.
+Dialogue: Marked=0,0:04:11.43,0:04:14.25,*Default,NTP,0000,0000,0000,,Além disso, o risco do inimigo\Ntirar vantagem da situação é grande.
+Dialogue: Marked=0,0:04:14.93,0:04:17.44,*Default,NTP,0000,0000,0000,,O restante ficará aqui para monitorar a situação.
+Dialogue: Marked=0,0:04:17.44,0:04:20.26,*Default,NTP,0000,0000,0000,,Deixe-me levá-los através da entrada da caverna.
+Dialogue: Marked=0,0:04:20.94,0:04:23.55,*Default,NTP,0000,0000,0000,,O interior dela parece com um enorme labirinto.
+Dialogue: Marked=0,0:04:23.88,0:04:26.01,*Default,NTP,0000,0000,0000,,Podemos confiar em você?
+Dialogue: Marked=0,0:04:31.99,0:04:33.02,*Default,NTP,0000,0000,0000,,Aquele homem...
+Dialogue: Marked=0,0:04:34.22,0:04:36.27,*Default,NTP,0000,0000,0000,,Eu quero, ao menos,\Najudar o Kuwabara-san.
+Dialogue: Marked=0,0:04:44.56,0:04:47.78,*Default,NTP,0000,0000,0000,,Devo usar minha habilidade\Npara ter certeza disso?
+Dialogue: Marked=0,0:04:55.24,0:04:57.46,*Default,NTP,0000,0000,0000,,Eu confio em você.\NVamos indo.
+Dialogue: Marked=0,0:04:58.84,0:04:59.71,*Default,NTP,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:04:59.91,0:05:03.41,*Default,NTP,0000,0000,0000,,Yusuke, a situação te\Nfaz lembrar algo familiar?
+Dialogue: Marked=0,0:05:03.41,0:05:04.69,*Default,NTP,0000,0000,0000,,Algo familiar?
+Dialogue: Marked=0,0:05:09.51,0:05:11.60,*Default,NTP,0000,0000,0000,,Aquela vez em que fui capturado\Npelo Kaito e os outros!
+Dialogue: Marked=0,0:05:12.00,0:05:12.69,*Default,NTP,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:05:13.35,0:05:16.34,*Default,NTP,0000,0000,0000,,Agora, lembre-se: aconteça o que acontecer, não perca seu estilo.
+Dialogue: Marked=0,0:05:16.34,0:05:18.36,*Default,NTP,0000,0000,0000,,O inimigo certamente aproveitará as\Nchances, e tirará proveito de seu descuido.
+Dialogue: Marked=0,0:05:18.93,0:05:20.80,*Default,NTP,0000,0000,0000,,Certo, deixa que eu cuido disso.
+Dialogue: Marked=0,0:05:20.80,0:05:23.53,*Default,NTP,0000,0000,0000,,Quando sairmos da caverna,\Ntraremos o Sensui conosco...
+Dialogue: Marked=0,0:05:23.53,0:05:24.36,*Default,NTP,0000,0000,0000,,inteiro destruído!
+Dialogue: Marked=0,0:05:34.76,0:05:37.71,*Default,NTP,0000,0000,0000,,De qualquer forma, houve apenas esta explosão repentina!
+Dialogue: Marked=0,0:05:37.71,0:05:39.88,*Default,NTP,0000,0000,0000,,Eu estava com tanto medo, tanto medo!
+Dialogue: Marked=0,0:05:40.21,0:05:43.22,*Default,NTP,0000,0000,0000,,O que poderia ter sido aquilo?!\NUma explosão causada por gás?
+Dialogue: Marked=0,0:05:43.22,0:05:45.39,*Default,NTP,0000,0000,0000,,Bem, não...\NNão temos certeza ainda.
+Dialogue: Marked=0,0:05:45.39,0:05:50.39,*Default,NTP,0000,0000,0000,,Temos testemunhas que dizem que viram alguns jovens lutando no local...
+Dialogue: Marked=0,0:05:51.23,0:05:54.56,*Default,NTP,0000,0000,0000,,Mas uma luta não explodiria uma sacada.
+Dialogue: Marked=0,0:05:54.56,0:05:56.05,*Default,NTP,0000,0000,0000,,Talvez não...
+Dialogue: Marked=0,0:05:56.05,0:05:59.17,*Default,NTP,0000,0000,0000,,Pode ter sido o sinal de algum\Ndesastre natural! Tenho certeza disso!
+Dialogue: Marked=0,0:05:59.17,0:06:01.70,*Default,NTP,0000,0000,0000,,Recentemente, tem acontecido todo\Ntipo de fenômenos estranhos...
+Dialogue: Marked=0,0:06:01.70,0:06:03.80,*Default,NTP,0000,0000,0000,,As florestas tropicais se tornaram desertos,
+Dialogue: Marked=0,0:06:03.80,0:06:05.40,*Default,NTP,0000,0000,0000,,e o buraco na camada de ozônio está aumentando!
+Dialogue: Marked=0,0:06:05.57,0:06:10.76,*Default,NTP,0000,0000,0000,,Calma! Em todo caso, quando descobrirmos\No motivo, entraremos em contato.
+Dialogue: Marked=0,0:06:11.81,0:06:12.94,*Default,NTP,0000,0000,0000,,Com licença.
+Dialogue: Marked=0,0:06:22.82,0:06:23.96,*Default,NTP,0000,0000,0000,,Yusuke...
+Dialogue: Marked=0,0:06:28.93,0:06:30.90,PLACA1,NTP,0000,0000,0000,,{\frz8}{\fscx120\fscy90\t(0,7000)\move(410,240,410,265)\fscx00\fscy70}Mantenha Distância
+Dialogue: Marked=0,0:06:36.20,0:06:40.46,*Default,NTP,0000,0000,0000,,Não há dúvidas disso. Essa é a\Ncaminhonete que levou Kuwabara.
+Dialogue: Marked=0,0:06:40.46,0:06:43.03,*Default,NTP,0000,0000,0000,,O Sensui e os outros estão dentro desta caverna.
+Dialogue: Marked=0,0:06:43.03,0:06:44.94,*Default,NTP,0000,0000,0000,,Então essa é a entrada para o inferno?
+Dialogue: Marked=0,0:06:45.64,0:06:49.45,*Default,NTP,0000,0000,0000,,Quanto tempo levará para irmos daqui até o local onde Itsuki se encontra?
+Dialogue: Marked=0,0:06:49.45,0:06:51.42,*Default,NTP,0000,0000,0000,,Contanto que fiquemos atentos enquanto caminharmos,
+Dialogue: Marked=0,0:06:51.42,0:06:53.30,*Default,NTP,0000,0000,0000,,acho que levará umas duas horas.
+Dialogue: Marked=0,0:06:53.30,0:06:53.99,*Default,NTP,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:06:54.22,0:06:57.96,*Default,NTP,0000,0000,0000,,Supondo que nada aconteça durante o caminho...
+Dialogue: Marked=0,0:07:02.75,0:07:04.05,*Default,NTP,0000,0000,0000,,Estão preparados, certo?
+Dialogue: Marked=0,0:07:04.05,0:07:05.45,*Default,NTP,0000,0000,0000,,Você nem precisa perguntar.
+Dialogue: Marked=0,0:07:05.45,0:07:06.32,*Default,NTP,0000,0000,0000,,Vamos!
+Dialogue: Marked=0,0:07:21.30,0:07:22.90,*Default,NTP,0000,0000,0000,,Certo!\NVamos pela direita.
+Dialogue: Marked=0,0:07:31.96,0:07:33.69,*Default,NTP,0000,0000,0000,,Kurama, o que é isso?
+Dialogue: Marked=0,0:07:33.69,0:07:38.62,*Default,NTP,0000,0000,0000,,Uma erva Akaru. Ela marcará o caminho, embora eu pretenda memorizá-lo também.
+Dialogue: Marked=0,0:07:38.87,0:07:41.62,*Default,NTP,0000,0000,0000,,Supondo que iremos voltar, não é mesmo?
+Dialogue: Marked=0,0:07:56.30,0:07:57.93,*Default,NTP,0000,0000,0000,,Dessa vez, vamos por aqui.
+Dialogue: Marked=0,0:07:58.48,0:08:00.91,*Default,NTP,0000,0000,0000,,Que droga! Isso se parece mesmo com um labirinto.
+Dialogue: Marked=0,0:08:02.36,0:08:04.88,*Default,NTP,0000,0000,0000,,Nós atravessamos umas vinte bifurcações até agora.
+Dialogue: Marked=0,0:08:06.18,0:08:10.90,*Default,NTP,0000,0000,0000,,Se aquelas marcas desaparecerem, creio que nunca sairemos daqui.
+Dialogue: Marked=0,0:08:10.90,0:08:13.32,*Default,NTP,0000,0000,0000,,Está tudo bem.\NNós não estamos enganados.
+Dialogue: Marked=0,0:08:13.32,0:08:14.19,*Default,NTP,0000,0000,0000,,Vamos.
+Dialogue: Marked=0,0:08:23.31,0:08:25.47,*Default,NTP,0000,0000,0000,,Depois que passarmos através daqui, haverá uma grande caverna.
+Dialogue: Marked=0,0:08:26.30,0:08:28.30,*Default,NTP,0000,0000,0000,,Estaremos mais ou menos na metade do caminho.
+Dialogue: Marked=0,0:08:29.95,0:08:31.00,*Default,NTP,0000,0000,0000,,Espere!
+Dialogue: Marked=0,0:08:31.00,0:08:31.76,*Default,NTP,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:08:32.26,0:08:35.26,*Default,NTP,0000,0000,0000,,Isso está estranho...\NAquela porta não estava ali antes!
+Dialogue: Marked=0,0:08:46.87,0:08:49.20,*Default,NTP,0000,0000,0000,,Uma porta?\NEsse é o Gatekeeper?
+Dialogue: Marked=0,0:08:49.87,0:08:53.71,*Default,NTP,0000,0000,0000,,Não. Itsuki não pode se mover até\Nque o buraco esteja completamente aberto.
+Dialogue: Marked=0,0:08:53.71,0:08:56.82,*Default,NTP,0000,0000,0000,,Nós estamos mais ou menos na metade do caminho até o centro do buraco.
+Dialogue: Marked=0,0:08:59.21,0:09:00.56,*Default,NTP,0000,0000,0000,,Esperem...
+Dialogue: Marked=0,0:09:00.56,0:09:03.29,*Default,NTP,0000,0000,0000,,De alguma forma, tenho a sensação de já ter visto essa porta antes...
+Dialogue: Marked=0,0:09:04.96,0:09:06.61,*Default,NTP,0000,0000,0000,,Não era o portão de alguma escola...
+Dialogue: Marked=0,0:09:06.61,0:09:08.79,*Default,NTP,0000,0000,0000,,Nem a entrada de algum restaurante.
+Dialogue: Marked=0,0:09:08.79,0:09:10.79,*Default,NTP,0000,0000,0000,,Eu não consigo lembrar!
+Dialogue: Marked=0,0:09:10.79,0:09:12.27,*Default,NTP,0000,0000,0000,,Mas, com certeza, eu já vi isso em algum lugar!
+Dialogue: Marked=0,0:09:12.84,0:09:14.80,*Default,NTP,0000,0000,0000,,Ela tem a letra maiúscula "G" bem no centro dela!
+Dialogue: Marked=0,0:09:15.45,0:09:16.80,Radio,NTP,0000,0000,0000,,Bem-vindos à Cidade Demoníaca.
+Dialogue: Marked=0,0:09:17.54,0:09:19.81,Radio,NTP,0000,0000,0000,,Vocês sete são os guerreiros escolhidos.
+Dialogue: Marked=0,0:09:20.11,0:09:26.25,Radio,NTP,0000,0000,0000,,Para restaurarem a paz na cidade, vocês devem derrotar o maligno prefeito, Game-Mao!
+Dialogue: Marked=0,0:09:27.68,0:09:28.81,*Default,NTP,0000,0000,0000,,Game Battler?!
+Dialogue: Marked=0,0:09:29.99,0:09:33.36,*Default,NTP,0000,0000,0000,,Isso mesmo!\NEsta é a entrada para o Game Battler!
+Dialogue: Marked=0,0:09:33.69,0:09:35.30,*Default,NTP,0000,0000,0000,,Game Battler?
+Dialogue: Marked=0,0:09:35.30,0:09:36.65,*Default,NTP,0000,0000,0000,,É um videogame.
+Dialogue: Marked=0,0:09:44.53,0:09:48.80,Radio,NTP,0000,0000,0000,,Bem-vindos à Cidade Demoníaca.\NVocês sete são os guerreiros escolhidos.
+Dialogue: Marked=0,0:09:49.53,0:09:50.85,Narrador,NTP,0000,0000,0000,,Game Battler é um novo tipo de jogo,
+Dialogue: Marked=0,0:09:50.85,0:09:53.84,Narrador,NTP,0000,0000,0000,,no qual vocês têm de derrotar o Game-Mao, que controla todos estilos de jogo,
+Dialogue: Marked=0,0:09:54.42,0:09:59.80,Narrador,NTP,0000,0000,0000,,e restaurar a paz na cidade, que está sob controle dele.
+Dialogue: Marked=0,0:10:00.34,0:10:03.52,Narrador,NTP,0000,0000,0000,,De esportes a luta mano-a-mano,\Nde enigmas a quebra-cabeças...
+Dialogue: Marked=0,0:10:03.52,0:10:05.52,Narrador,NTP,0000,0000,0000,,Ele vai desafiá-los em todo tipo de jogo.
+Dialogue: Marked=0,0:10:06.08,0:10:09.69,Narrador,NTP,0000,0000,0000,,Vocês devem vencer, no mínimo,\Nquatro das sete batalhas contra o Game-Mao!
+Dialogue: Marked=0,0:10:11.00,0:10:13.53,*Default,NTP,0000,0000,0000,,O que um Game Battler estaria fazendo num lugar como este?
+Dialogue: Marked=0,0:10:14.12,0:10:17.32,*Default,NTP,0000,0000,0000,,Amanuma... Gamemaster...
+Dialogue: Marked=0,0:10:18.32,0:10:20.32,*Default,NTP,0000,0000,0000,,Bem-vindos ao meu Território!
+Dialogue: Marked=0,0:10:21.28,0:10:22.58,*Default,NTP,0000,0000,0000,,Essa voz é do Amanuma.
+Dialogue: Marked=0,0:10:23.46,0:10:28.04,*Default,NTP,0000,0000,0000,,Dentro do meu Território,\Nvocês devem seguir o enredo do jogo.
+Dialogue: Marked=0,0:10:28.59,0:10:30.60,*Default,NTP,0000,0000,0000,,No Território do Amanuma,
+Dialogue: Marked=0,0:10:30.60,0:10:33.25,*Default,NTP,0000,0000,0000,,ele pode usar qualquer jogo,\Ne materializá-lo em tamanho natural.
+Dialogue: Marked=0,0:10:34.25,0:10:36.91,*Default,NTP,0000,0000,0000,,Mais que isso, qualquer coisa que não tenha algo a ver com o jogo...
+Dialogue: Marked=0,0:10:36.91,0:10:39.09,*Default,NTP,0000,0000,0000,,não pode adentrar o Território.
+Dialogue: Marked=0,0:10:39.87,0:10:44.48,*Default,NTP,0000,0000,0000,,O que significa que entraremos lá como personagens em um jogo?
+Dialogue: Marked=0,0:10:44.48,0:10:46.79,*Default,NTP,0000,0000,0000,,Eu não sei em quantos vocês estão aí fora,
+Dialogue: Marked=0,0:10:46.79,0:10:49.75,*Default,NTP,0000,0000,0000,,mas tem de haver sete guerreiros escolhidos!
+Dialogue: Marked=0,0:10:49.75,0:10:52.36,*Default,NTP,0000,0000,0000,,Seu idiota, sozinhos somos mais do que suficiente!
+Dialogue: Marked=0,0:10:52.36,0:10:53.48,*Default,NTP,0000,0000,0000,,Nada feito desse jeito!
+Dialogue: Marked=0,0:10:54.11,0:10:56.37,*Default,NTP,0000,0000,0000,,Se quisermos adentrar\No Território do Amanuma,
+Dialogue: Marked=0,0:10:56.37,0:10:58.20,*Default,NTP,0000,0000,0000,,devemos obedecer a suas regras.
+Dialogue: Marked=0,0:10:58.68,0:11:02.81,*Default,NTP,0000,0000,0000,,O que significa que não podemos prosseguir sem estarmos em sete no total.
+Dialogue: Marked=0,0:11:02.81,0:11:05.54,*Default,NTP,0000,0000,0000,,Isso mesmo! De outra forma, a porta não abrirá.
+Dialogue: Marked=0,0:11:05.54,0:11:06.99,*Default,NTP,0000,0000,0000,,Merda!
+Dialogue: Marked=0,0:11:07.65,0:11:12.13,*Default,NTP,0000,0000,0000,,Isso significa que eles já perceberam nossa intenção de lutar em um número limitado.
+Dialogue: Marked=0,0:11:12.78,0:11:16.22,*Default,NTP,0000,0000,0000,,Então, que tal eu voltar e trazer mais três pessoas?
+Dialogue: Marked=0,0:11:16.22,0:11:17.88,*Default,NTP,0000,0000,0000,,É perigoso agir sozinho.
+Dialogue: Marked=0,0:11:17.88,0:11:20.75,*Default,NTP,0000,0000,0000,,O tempo perdido pode ser grande,\Nentretanto deveríamos voltar juntos.
+Dialogue: Marked=0,0:11:32.57,0:11:36.23,*Default,NTP,0000,0000,0000,,Bem, bem... Nós já fomos pegos\Nandando pelo esconderijo deles!
+Dialogue: Marked=0,0:11:37.08,0:11:39.11,*Default,NTP,0000,0000,0000,,Ei, agora nós estamos em sete!
+Dialogue: Marked=0,0:11:41.58,0:11:42.91,Radio,NTP,0000,0000,0000,,Bem-vindos à Cidade Demoníaca.
+Dialogue: Marked=0,0:11:43.83,0:11:46.26,Radio,NTP,0000,0000,0000,,Vocês sete são os guerreiros escolhidos.
+Dialogue: Marked=0,0:11:46.26,0:11:52.32,Radio,NTP,0000,0000,0000,,Para restaurarem a paz na cidade, vocês devem derrotar o maligno prefeito, Game-Mao!
+Dialogue: Marked=0,0:12:24.66,0:12:25.84,*Default,NTP,0000,0000,0000,,Que lugar é esse?
+Dialogue: Marked=0,0:12:25.84,0:12:28.19,*Default,NTP,0000,0000,0000,,Bem-vindos ao meu Território!
+Dialogue: Marked=0,0:12:29.37,0:12:31.85,*Default,NTP,0000,0000,0000,,Parece que vocês finalmente estão em sete pessoas.
+Dialogue: Marked=0,0:12:31.85,0:12:34.17,*Default,NTP,0000,0000,0000,,Eu estava ficando cansado de esperar.
+Dialogue: Marked=0,0:12:35.72,0:12:38.13,*Default,NTP,0000,0000,0000,,Aquele é o Amanuma?!\NAquele pirralho?!
+Dialogue: Marked=0,0:12:38.64,0:12:39.73,*Default,NTP,0000,0000,0000,,Qual o problema nisso?
+Dialogue: Marked=0,0:12:40.42,0:12:44.17,*Default,NTP,0000,0000,0000,,Então, que tal começarmos\Nlogo com alguns jogos divertidos?
+Dialogue: Marked=0,0:12:54.75,0:12:58.02,*Default,NTP,0000,0000,0000,,E pensar que o buraco está se\Nexpandindo nessa velocidade...
+Dialogue: Marked=0,0:12:58.59,0:13:00.98,*Default,NTP,0000,0000,0000,,Eu mesmo não posso acreditar.
+Dialogue: Marked=0,0:13:01.25,0:13:04.20,*Default,NTP,0000,0000,0000,,Itsuki, não há motivo para você se desgastar tanto.
+Dialogue: Marked=0,0:13:04.81,0:13:08.45,*Default,NTP,0000,0000,0000,,Afinal, o Amanuma foi jogar com o Urameshi e os outros.
+Dialogue: Marked=0,0:13:09.12,0:13:10.91,*Default,NTP,0000,0000,0000,,Eu não estou me desgastando.
+Dialogue: Marked=0,0:13:11.26,0:13:13.54,*Default,NTP,0000,0000,0000,,O buraco está aumentando sozinho.
+Dialogue: Marked=0,0:13:13.73,0:13:16.74,*Default,NTP,0000,0000,0000,,Seus idiotas!\NO Urameshi e os outros vieram!
+Dialogue: Marked=0,0:13:16.74,0:13:18.21,*Default,NTP,0000,0000,0000,,Ele estará aqui em pouco tempo,
+Dialogue: Marked=0,0:13:18.21,0:13:21.65,*Default,NTP,0000,0000,0000,,e então, ele acabará com vocês,\Nde uma maneira que vocês nem imaginam!
+Dialogue: Marked=0,0:13:23.99,0:13:26.23,*Default,NTP,0000,0000,0000,,E o Urameshi irá cortar essas cordas,
+Dialogue: Marked=0,0:13:26.79,0:13:31.22,*Default,NTP,0000,0000,0000,,e então, usarei o meu Rei-ken\Npara cortar vocês em pedacinhos!
+Dialogue: Marked=0,0:13:31.67,0:13:35.19,*Default,NTP,0000,0000,0000,,Depois de eu ter te amarrado facilmente, o que você poderá fazer?
+Dialogue: Marked=0,0:13:35.79,0:13:39.42,*Default,NTP,0000,0000,0000,,Cale a boca! Eu baixei minha guarda naquele momento!
+Dialogue: Marked=0,0:13:39.42,0:13:41.38,*Default,NTP,0000,0000,0000,,Mas quando o Urameshi e os outros chegarem aqui...
+Dialogue: Marked=0,0:13:41.38,0:13:43.15,*Default,NTP,0000,0000,0000,,Isso não será possível.
+Dialogue: Marked=0,0:13:43.56,0:13:45.82,*Default,NTP,0000,0000,0000,,Amanuma é o Gamemaster.
+Dialogue: Marked=0,0:13:45.82,0:13:51.12,*Default,NTP,0000,0000,0000,,Não existe ninguém que possa derrotá-lo\Nno Game Battler dentro de seu Território.
+Dialogue: Marked=0,0:13:51.57,0:13:52.61,*Default,NTP,0000,0000,0000,,Game...
+Dialogue: Marked=0,0:13:54.09,0:13:57.08,P!,NTP,0000,0000,0000,,O Urameshi é bom em jogos?
+Dialogue: Marked=0,0:13:57.49,0:14:01.04,*Default,NTP,0000,0000,0000,,Ei, Urameshi-san, como é uma luta dentro do Game Battler?
+Dialogue: Marked=0,0:14:01.67,0:14:03.67,*Default,NTP,0000,0000,0000,,Você não conhece o\Nque está na moda agora?
+Dialogue: Marked=0,0:14:04.25,0:14:06.01,*Default,NTP,0000,0000,0000,,Tem uma máquina caça-níqueis ali.\NConsegue ver?
+Dialogue: Marked=0,0:14:06.59,0:14:09.97,*Default,NTP,0000,0000,0000,,Eles a usam para escolher o jogo e o nível.
+Dialogue: Marked=0,0:14:10.59,0:14:13.64,*Default,NTP,0000,0000,0000,,Cada um de nós joga um jogo contra um oponente.
+Dialogue: Marked=0,0:14:14.26,0:14:15.98,*Default,NTP,0000,0000,0000,,Quem ganhar quatro jogos, vence.
+Dialogue: Marked=0,0:14:16.42,0:14:20.77,*Default,NTP,0000,0000,0000,,Preparados? Apressem-se,\Nou a máquina começará a girar!
+Dialogue: Marked=0,0:14:20.93,0:14:22.82,*Default,NTP,0000,0000,0000,,Pode esperar um pouquinho?
+Dialogue: Marked=0,0:14:22.82,0:14:27.28,*Default,NTP,0000,0000,0000,,Vocês também não estão com pressa?\NFiquem perdendo tempo, e eu não lutarei!
+Dialogue: Marked=0,0:14:27.66,0:14:29.75,*Default,NTP,0000,0000,0000,,Mas que pirralho!
+Dialogue: Marked=0,0:14:29.75,0:14:33.06,*Default,NTP,0000,0000,0000,,Se o verdadeiro Game-Mao fosse uma criança, ele agiria exatamente dessa forma.
+Dialogue: Marked=0,0:14:33.62,0:14:35.20,*Default,NTP,0000,0000,0000,,Temos de pensar numa estratégia ao invés de nos preocupar.
+Dialogue: Marked=0,0:14:35.55,0:14:37.92,*Default,NTP,0000,0000,0000,,Antes de tudo, alguém aqui já jogou esse jogo?
+Dialogue: Marked=0,0:14:38.06,0:14:40.76,*Default,NTP,0000,0000,0000,,Sim, sim! Eu!\NEu já joguei ele antes!
+Dialogue: Marked=0,0:14:40.76,0:14:41.89,*Default,NTP,0000,0000,0000,,Eu também.
+Dialogue: Marked=0,0:14:41.89,0:14:42.88,*Default,NTP,0000,0000,0000,,Eu também já joguei.
+Dialogue: Marked=0,0:14:43.03,0:14:45.23,*Default,NTP,0000,0000,0000,,Bem, incluindo eu, estamos em quatro.
+Dialogue: Marked=0,0:14:45.23,0:14:46.29,*Default,NTP,0000,0000,0000,,Eu também.
+Dialogue: Marked=0,0:14:47.07,0:14:48.88,*Default,NTP,0000,0000,0000,,Ba-san, você já jogou esse jogo antes?!
+Dialogue: Marked=0,0:14:49.73,0:14:51.85,*Default,NTP,0000,0000,0000,,Eu não fico só vadiando no meu tempo livre.
+Dialogue: Marked=0,0:14:52.52,0:14:55.35,*Default,NTP,0000,0000,0000,,Bem, alguém já conseguiu chegar até o final?
+Dialogue: Marked=0,0:14:55.57,0:14:59.09,*Default,NTP,0000,0000,0000,,Eu sempre fico preso numa parte, ainda não consegui...
+Dialogue: Marked=0,0:14:59.09,0:15:01.62,*Default,NTP,0000,0000,0000,,Foi apenas uma vez, mas eu consegui virar o jogo.
+Dialogue: Marked=0,0:15:02.49,0:15:04.32,*Default,NTP,0000,0000,0000,,Tá falando sério, Ba-san?!
+Dialogue: Marked=0,0:15:04.79,0:15:07.81,*Default,NTP,0000,0000,0000,,Eu consigo virar o jogo de sete a oito vezes em dez tentativas.
+Dialogue: Marked=0,0:15:07.81,0:15:11.28,*Default,NTP,0000,0000,0000,,Supondo que eu jogue contra o verdadeiro Game-Mao.
+Dialogue: Marked=0,0:15:11.88,0:15:13.24,*Default,NTP,0000,0000,0000,,Consigo mais ou menos isso também.
+Dialogue: Marked=0,0:15:14.98,0:15:17.03,*Default,NTP,0000,0000,0000,,Vocês todos são incríveis!
+Dialogue: Marked=0,0:15:17.03,0:15:19.21,*Default,NTP,0000,0000,0000,,Mas, o Kaito tem razão.
+Dialogue: Marked=0,0:15:19.21,0:15:22.21,*Default,NTP,0000,0000,0000,,Amanuma deve ser bem mais difícil do que o Game-Mao original.
+Dialogue: Marked=0,0:15:22.60,0:15:26.67,*Default,NTP,0000,0000,0000,,Ou então não haveria outro motivo para ele escolher esse jogo, certo?
+Dialogue: Marked=0,0:15:27.70,0:15:28.65,*Default,NTP,0000,0000,0000,,De qualquer forma,
+Dialogue: Marked=0,0:15:28.65,0:15:31.31,*Default,NTP,0000,0000,0000,,gostaria que ganhássemos três vezes seguidas antes de enfrentar o Game-Mao.
+Dialogue: Marked=0,0:15:31.31,0:15:35.01,*Default,NTP,0000,0000,0000,,Eii! Acabou o tempo!\NEstou girando os slots!
+Dialogue: Marked=0,0:15:35.01,0:15:35.93,*Default,NTP,0000,0000,0000,,Tudo bem.
+Dialogue: Marked=0,0:15:36.27,0:15:37.36,*Default,NTP,0000,0000,0000,,Mestra Genkai...
+Dialogue: Marked=0,0:15:38.21,0:15:39.19,*Default,NTP,0000,0000,0000,,Mitarai-kun...
+Dialogue: Marked=0,0:15:40.21,0:15:41.89,*Default,NTP,0000,0000,0000,,E Yusuke...
+Dialogue: Marked=0,0:15:41.89,0:15:42.77,*Default,NTP,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:15:43.46,0:15:45.73,*Default,NTP,0000,0000,0000,,Vocês três ganham três vezes para nós.
+Dialogue: Marked=0,0:15:45.73,0:15:48.74,*Default,NTP,0000,0000,0000,,Depois disso, o Kaito e eu faremos o que estiver ao nosso alcance.
+Dialogue: Marked=0,0:15:49.64,0:15:51.16,*Default,NTP,0000,0000,0000,,Comecem a girar!
+Dialogue: Marked=0,0:16:00.91,0:16:01.58,PLACA4,NTP,0000,0000,0000,,{\move(400,200,-100,200,600,470)\fscx120\fscy90}Esporte
+Dialogue: Marked=0,0:16:02.12,0:16:02.75,PLACA4,NTP,0000,0000,0000,,{\move(400,200,-100,200,570,450)\fscx120\fscy90}Tênis
+Dialogue: Marked=0,0:16:03.29,0:16:04.85,PLACA4,NTP,0000,0000,0000,,{\fscx120\fscy90\t(730,500)\fscx50\fscy50\move(400,200,680,120,700,430)}Nível 7
+Dialogue: Marked=0,0:16:03.79,0:16:04.85,PLACA4,NTP,0000,0000,0000,,{\move(-150,80,150,120,340,100)\fscx50\fscy50}Esporte
+Dialogue: Marked=0,0:16:04.00,0:16:04.85,PLACA4,NTP,0000,0000,0000,,{\move(100,-20,400,120,85,0)\fscx50\fscy50}Tênis
+Dialogue: Marked=0,0:16:06.14,0:16:07.96,*Default,NTP,0000,0000,0000,,O primeiro jogo é tênis.
+Dialogue: Marked=0,0:16:08.40,0:16:11.91,*Default,NTP,0000,0000,0000,,Isso é algo em que eu sou bom!\NDeixem-me jogar!
+Dialogue: Marked=0,0:16:11.91,0:16:12.43,*Default,NTP,0000,0000,0000,,Tudo bem.
+Dialogue: Marked=0,0:16:19.81,0:16:25.90,*Default,NTP,0000,0000,0000,,Para sua informação, o nível do demônio está no mesmo nível do jogo.
+Dialogue: Marked=0,0:16:25.90,0:16:27.32,*Default,NTP,0000,0000,0000,,Isso é um alívio, não acha?
+Dialogue: Marked=0,0:16:28.26,0:16:29.07,*Default,NTP,0000,0000,0000,,Agora...
+Dialogue: Marked=0,0:16:29.87,0:16:33.99,*Default,NTP,0000,0000,0000,,Vamos nos divertir com isso. Afinal, vocês estão em sete.
+Dialogue: Marked=0,0:16:34.79,0:16:37.95,*Default,NTP,0000,0000,0000,,O que é isso, o que é isso?\NEles precisam de sete pessoas?
+Dialogue: Marked=0,0:16:38.21,0:16:41.58,*Default,NTP,0000,0000,0000,,E no final das contas,\Neu fico sozinha aqui fora!
+Dialogue: Marked=0,0:16:41.58,0:16:44.54,*Default,NTP,0000,0000,0000,,Eles falaram que se alguma coisa acontecer, eu tenho de avisar o Koenma-sama!
+Dialogue: Marked=0,0:16:53.03,0:16:57.90,*Default,NTP,0000,0000,0000,,Koenma-sama!\NPor favor, volte logo!
+Dialogue: Marked=0,0:17:05.00,0:17:07.00,*Default,NTP,0000,0000,0000,,Koenma, qual o problema?
+Dialogue: Marked=0,0:17:07.00,0:17:10.61,*Default,NTP,0000,0000,0000,,Certo, há algo que eu desejo discutir com o Senhor.
+Dialogue: Marked=0,0:17:10.88,0:17:14.03,*Default,NTP,0000,0000,0000,,A respeito das ações de Sensui,\No antigo Detetive Espiritual?
+Dialogue: Marked=0,0:17:14.49,0:17:15.01,*Default,NTP,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:17:15.58,0:17:19.37,*Default,NTP,0000,0000,0000,,Eu gostaria de ter a sua permissão\Npara reparar a situação, meu pai.
+Dialogue: Marked=0,0:17:19.37,0:17:20.81,*Default,NTP,0000,0000,0000,,Minha permissão?
+Dialogue: Marked=0,0:17:22.11,0:17:24.50,*Default,NTP,0000,0000,0000,,Sim, se você puder...
+Dialogue: Marked=0,0:17:37.05,0:17:38.86,PLACA2,NTP,0000,0000,0000,,{\fscx80\fscy60\pos(220,100)}Super
+Dialogue: Marked=0,0:17:37.05,0:17:38.86,PLACA2,NTP,0000,0000,0000,,{\fscx80\fscy60\pos(425,300)}Battle Tennis
+Dialogue: Marked=0,0:17:39.61,0:17:42.14,*Default,NTP,0000,0000,0000,,É bom te ver novamente, Mitarai-san.
+Dialogue: Marked=0,0:17:42.79,0:17:48.06,*Default,NTP,0000,0000,0000,,Sensui-san estava certo.\NCom certeza, você nos traiu.
+Dialogue: Marked=0,0:17:50.02,0:17:55.03,*Default,NTP,0000,0000,0000,,Ou talvez você esteja fingindo nos trair, mas na verdade, está enganando eles.
+Dialogue: Marked=0,0:17:55.72,0:18:01.90,*Default,NTP,0000,0000,0000,,Se essa for a verdade, é bastante admirável! Vou ter que te dar mais créditos!
+Dialogue: Marked=0,0:18:01.90,0:18:03.20,*Default,NTP,0000,0000,0000,,Pense nisso agora.
+Dialogue: Marked=0,0:18:11.13,0:18:16.93,*Default,NTP,0000,0000,0000,,Disputas individuais. O primeiro a ganhar três sets, vence. Vamos fazer uma boa partida!
+Dialogue: Marked=0,0:18:20.39,0:18:21.47,PLACA2,NTP,0000,0000,0000,,{\fad(0,800)\fscx80\fscy60\pos(220,100)}Super
+Dialogue: Marked=0,0:18:20.39,0:18:21.47,PLACA2,NTP,0000,0000,0000,,{\fad(0,800)\fscx80\fscy60\pos(425,300)}Battle Tennis
+Dialogue: Marked=0,0:18:40.76,0:18:44.18,N!,NTP,0000,0000,0000,,Service: Sacar a bola para o campo adversário.
+Dialogue: Marked=0,0:18:40.76,0:18:44.18,Radio,NTP,0000,0000,0000,,Comece o jogo! Service, Game Genie!
+Dialogue: Marked=0,0:19:03.88,0:19:04.82,*Default,NTP,0000,0000,0000,,Beleza!
+Dialogue: Marked=0,0:19:05.79,0:19:11.48,*Default,NTP,0000,0000,0000,,Um pouco antes, falávamos sobre como éramos ambos escória na escola, não é?
+Dialogue: Marked=0,0:19:17.14,0:19:19.78,*Default,NTP,0000,0000,0000,,Mas então, depois de falar com Sensui-san,
+Dialogue: Marked=0,0:19:19.78,0:19:23.45,*Default,NTP,0000,0000,0000,,ele disse a razão de você e eu sermos tão diferentes.
+Dialogue: Marked=0,0:19:24.93,0:19:29.18,*Default,NTP,0000,0000,0000,,Sensui-san disse: "Amanuma era alienado por ele ser tão forte."
+Dialogue: Marked=0,0:19:29.18,0:19:32.50,*Default,NTP,0000,0000,0000,,"Mas o Mitarai era alienado por ser tão fraco."
+Dialogue: Marked=0,0:19:36.77,0:19:40.30,*Default,NTP,0000,0000,0000,,Com certeza, todos ao meu redor eram um bando de idiotas,
+Dialogue: Marked=0,0:19:40.30,0:19:42.51,*Default,NTP,0000,0000,0000,,e dos quais me separei.
+Dialogue: Marked=0,0:19:43.19,0:19:46.39,*Default,NTP,0000,0000,0000,,Espera aí!\NVocê está falando demais!
+Dialogue: Marked=0,0:19:46.39,0:19:49.49,*Default,NTP,0000,0000,0000,,O Game-Mao verdadeiro também faz\Nvocê se confundir de várias maneiras.
+Dialogue: Marked=0,0:19:49.49,0:19:51.23,*Default,NTP,0000,0000,0000,,É deixando-o te persuadir\Nque ele consegue te derrotar.
+Dialogue: Marked=0,0:19:55.10,0:19:56.97,*Default,NTP,0000,0000,0000,,1º set, Mitarai!
+Dialogue: Marked=0,0:20:03.46,0:20:06.54,*Default,NTP,0000,0000,0000,,Eu esperava que o Sensui-san entendesse.
+Dialogue: Marked=0,0:20:08.55,0:20:10.62,*Default,NTP,0000,0000,0000,,2º set, Game Genie!
+Dialogue: Marked=0,0:20:12.89,0:20:16.17,*Default,NTP,0000,0000,0000,,Você é completamente diferente de mim, não é?
+Dialogue: Marked=0,0:20:34.20,0:20:37.86,*Default,NTP,0000,0000,0000,,Placar: 3 x 1.\NO participante Mitarai é o vencedor!
+Dialogue: Marked=0,0:20:38.18,0:20:39.51,*Default,NTP,0000,0000,0000,,Eu perdi!
+Dialogue: Marked=0,0:20:47.52,0:20:49.75,*Default,NTP,0000,0000,0000,,Isso aí!\NEssa é a primeira vitória!
+Dialogue: Marked=0,0:20:53.53,0:20:57.32,*Default,NTP,0000,0000,0000,,Amanuma, você está certo.\NEu sou fraco.
+Dialogue: Marked=0,0:20:58.06,0:21:00.45,*Default,NTP,0000,0000,0000,,Era porque eu não tinha a coragem de admitir isso...
+Dialogue: Marked=0,0:21:00.45,0:21:02.09,*Default,NTP,0000,0000,0000,,que eu amaldiçoava todos ao meu redor.
+Dialogue: Marked=0,0:21:03.98,0:21:06.33,*Default,NTP,0000,0000,0000,,Era também porque eu era fraco...
+Dialogue: Marked=0,0:21:06.33,0:21:09.31,*Default,NTP,0000,0000,0000,,que eu me deixei levar por seus planos malignos.
+Dialogue: Marked=0,0:21:09.42,0:21:11.21,*Default,NTP,0000,0000,0000,,Mas eu mudarei!
+Dialogue: Marked=0,0:21:11.21,0:21:14.77,*Default,NTP,0000,0000,0000,,Eu não esquecerei o fato\Nde eu ser uma pessoa fraca!
+Dialogue: Marked=0,0:21:26.40,0:21:27.66,P!,NTP,0000,0000,0000,,Merda!
+Dialogue: Marked=0,0:21:28.10,0:21:31.46,Narrador,NTP,0000,0000,0000,,O Game Battler dentro da caverna já começou.
+Dialogue: Marked=0,0:21:31.46,0:21:34.24,Narrador,NTP,0000,0000,0000,,Se o Gamemaster, Amanuma, não for derrotado,
+Dialogue: Marked=0,0:21:34.24,0:21:37.20,Narrador,NTP,0000,0000,0000,,eles não poderão chegar ao local onde Sensui e os outros se encontram!
+Dialogue: Marked=0,0:21:37.20,0:21:41.51,Narrador,NTP,0000,0000,0000,,Qual será o próximo Game Battler?
+Dialogue: Marked=0,0:21:47.96,0:21:50.48,Conversa,NTP,0000,0000,0000,,Falta só mais um pouco para chegarmos ao esconderijo do inimigo,
+Dialogue: Marked=0,0:21:50.48,0:21:52.93,Conversa,NTP,0000,0000,0000,,mas ao invés disso, parece que entramos num mundo estranho.
+Dialogue: Marked=0,0:21:54.00,0:21:55.44,Conversa,NTP,0000,0000,0000,,Embora não tenhamos do que reclamar.
+Dialogue: Marked=0,0:21:55.92,0:21:58.97,Conversa,NTP,0000,0000,0000,,Para podermos passar por aqui,\Ntemos que vencer esses jogos!
+Dialogue: Marked=0,0:21:59.53,0:22:01.23,Conversa,NTP,0000,0000,0000,,Mas por que o Amanuma está tão calmo?
+Dialogue: Marked=0,0:22:02.27,0:22:05.86,Conversa,NTP,0000,0000,0000,,Não me diga que ele tem algum tipo de truque sujo escondido!
+Dialogue: Marked=0,0:22:06.45,0:22:10.46,Conversa,NTP,0000,0000,0000,,Próximo Episódio:\N"A Assustadora Habilidade de Gamemaster"
+Dialogue: Marked=0,0:22:10.98,0:22:13.12,Conversa,NTP,0000,0000,0000,,O Outro Mundo não está\Nolhando sem motivo algum!

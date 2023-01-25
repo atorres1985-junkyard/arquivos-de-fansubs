@@ -1,0 +1,149 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:10.61,0:13:20.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:08.46,0:02:17.34,*Default,,0000,0000,0000,,Então, se usasse 50% do meu poder máximo, eu poderia te transformar em poeira espacial.
+Dialogue: Marked=0,0:02:18.95,0:02:21.22,*Default,,0000,0000,0000,,Será que ele não está se esquecendo\Nda grande e poderosa técnica Kaioken?
+Dialogue: Marked=0,0:02:21.86,0:02:27.89,*Default,,0000,0000,0000,,O Goku de agora conseguiria utilizar o\NKaioken aumentado em 10 vezes, não?
+Dialogue: Marked=0,0:02:28.42,0:02:33.15,*Default,,0000,0000,0000,,É uma pena, pois ele já está usando\No Kaioken aumentado em 10 vezes....
+Dialogue: Marked=0,0:02:36.50,0:02:41.25,Narrador,,0000,0000,0000,,O Kaioken aumentado em 10 vezes de\NGoku não funcionou contra o Freeza.
+Dialogue: Marked=0,0:02:41.47,0:02:45.78,Narrador,,0000,0000,0000,,Esse é o enorme e terrível poder de Freeza...
+
+Dialogue: Marked=0,0:02:50.62,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,70)}{\fad(300,0)}{\fscx100\fscy100}Episódio 91
+Dialogue: Marked=0,0:02:50.62,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(330,160)}{\fad(300,0)}{\fscx85\fscy150}Conclusão!! A encarnação da chama
+Dialogue: Marked=0,0:02:50.62,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(405,445)}{\fad(300,0)}{\fscx75\fscy120}em um Kamehameha com Kaioken aumentado em 20 vezes
+
+Dialogue: Marked=0,0:03:57.10,0:04:03.28,*Default,NTP,0000,0000,0000,!Effect,Como esperado do Freeza-sama! Ele está apenas brincando com Goku! Que tranqüilidade!
+Dialogue: Marked=0,0:04:07.33,0:04:08.61,*Default,NTP,0000,0000,0000,!Effect,Quem é você?!
+Dialogue: Marked=0,0:04:12.94,0:04:13.71,*Default,NTP,0000,0000,0000,!Effect,Quem, eu?
+Dialogue: Marked=0,0:04:18.00,0:04:23.09,P!,NTP,0000,0000,0000,!Effect,Ele é um sapo! Um sapo! Eu estou aqui!
+Dialogue: Marked=0,0:04:31.27,0:04:34.81,Poder,NTP,0000,0000,0000,!Effect,CHANGE!
+Dialogue: Marked=0,0:04:48.36,0:04:51.21,*Default,NTP,0000,0000,0000,!Effect,E-Então, esse sapo é...
+Dialogue: Marked=0,0:04:52.33,0:04:54.13,*Default,NTP,0000,0000,0000,!Effect,B-Bulma-san?
+Dialogue: Marked=0,0:04:56.87,0:04:58.75,P!,NTP,0000,0000,0000,!Effect,Eu não estava falando isso o tempo todo?!
+Dialogue: Marked=0,0:05:01.18,0:05:04.76,*Default,NTP,0000,0000,0000,!Effect,Eu vou mandá-los para o inferno!
+Dialogue: Marked=0,0:05:25.74,0:05:27.87,*Default,NTP,0000,0000,0000,!Effect,Não vou conseguir nada com isso.
+Dialogue: Marked=0,0:05:33.29,0:05:36.29,*Default,NTP,0000,0000,0000,!Effect,Seu corpo é meu!
+Dialogue: Marked=0,0:05:37.42,0:05:40.61,Poder,NTP,0000,0000,0000,!Effect,CHANGE!
+Dialogue: Marked=0,0:05:40.61,0:05:41.13,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:05:42.17,0:05:43.51,*Default,NTP,0000,0000,0000,!Effect,Piccolo! Cuidado!
+Dialogue: Marked=0,0:05:44.09,0:05:46.39,*Default,NTP,0000,0000,0000,!Effect,M-Meu corpo... não se mexe!
+Dialogue: Marked=0,0:05:50.41,0:05:50.97,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:06:24.29,0:06:26.17,*Default,NTP,0000,0000,0000,!Effect,P-Piccolo-san...
+Dialogue: Marked=0,0:06:32.23,0:06:33.56,*Default,NTP,0000,0000,0000,!Effect,O que aconteceu?
+Dialogue: Marked=0,0:06:38.33,0:06:40.07,*Default,NTP,0000,0000,0000,!Effect,Minhas mãos...
+Dialogue: Marked=0,0:06:40.07,0:06:41.28,*Default,,0000,0000,0000,,Meus pés...
+Dialogue: Marked=0,0:06:42.54,0:06:43.86,*Default,,0000,0000,0000,,Meu corpo...
+Dialogue: Marked=0,0:06:45.84,0:06:47.20,*Default,,0000,0000,0000,,Minha bochecha...
+Dialogue: Marked=0,0:06:50.50,0:06:55.70,*Default,NTP,0000,0000,0000,!Effect,Consegui! Consegui, consegui!\NEstou de volta ao meu corpo!
+Dialogue: Marked=0,0:06:57.38,0:07:04.68,*Default,NTP,0000,0000,0000,!Effect,Ai, ai! Q-Que bom, Bulma-san! Mas é muito perigoso aqui! Se você não se proteger logo...
+Dialogue: Marked=0,0:07:50.59,0:07:52.30,*Default,NTP,0000,0000,0000,!Effect,Já chega!
+Dialogue: Marked=0,0:07:53.11,0:07:54.05,*Default,NTP,0000,0000,0000,!Effect,Bulma-san!
+Dialogue: Marked=0,0:07:54.64,0:07:57.14,*Default,NTP,0000,0000,0000,!Effect,Venha me salvar!
+Dialogue: Marked=0,0:08:09.49,0:08:14.16,*Default,NTP,0000,0000,0000,!Effect,Isso está ficando ridículo.\NVocê pode me divertir um pouco mais, se quiser.
+Dialogue: Marked=0,0:09:48.30,0:09:50.16,*Default,NTP,0000,0000,0000,!Effect,Que técnica!
+Dialogue: Marked=0,0:09:50.16,0:09:57.45,*Default,NTP,0000,0000,0000,!Effect,Como eu disse! Se eu precisasse,\Npoderia destruir o planeta inteiro.
+Dialogue: Marked=0,0:09:58.33,0:10:02.60,*Default,NTP,0000,0000,0000,!Effect,Eu que destruí o planeta Vegeta.
+Dialogue: Marked=0,0:10:16.05,0:10:18.46,*Default,NTP,0000,0000,0000,!Effect,J-Já chega...
+Dialogue: Marked=0,0:10:20.43,0:10:21.91,*Default,NTP,0000,0000,0000,!Effect,Não posso vencer...
+Dialogue: Marked=0,0:10:29.30,0:10:31.63,*Default,NTP,0000,0000,0000,!Effect,O-O que ele fez?
+Dialogue: Marked=0,0:10:33.55,0:10:36.40,*Default,NTP,0000,0000,0000,!Effect,E-Ele cortou o planeta inteiro!
+Dialogue: Marked=0,0:10:37.84,0:10:42.37,*Default,NTP,0000,0000,0000,!Effect,Mesmo assim, será que o\NGoku está planejando alguma coisa?
+Dialogue: Marked=0,0:10:43.33,0:10:45.45,*Default,NTP,0000,0000,0000,!Effect,Parece que só ele está apanhando!
+Dialogue: Marked=0,0:10:46.13,0:10:47.54,*Default,NTP,0000,0000,0000,!Effect,Ele não tem plano algum!
+Dialogue: Marked=0,0:10:49.53,0:10:56.15,*Default,NTP,0000,0000,0000,!Effect,O fato é que o poder de Freeza é\Nmaior do que poderíamos ter pensado!
+Dialogue: Marked=0,0:11:23.28,0:11:28.44,*Default,NTP,0000,0000,0000,!Effect,Não precisa se preocupar. Eu não o mataria instantaneamente com uma coisa daquelas.
+Dialogue: Marked=0,0:11:28.87,0:11:31.35,P!,NTP,0000,0000,0000,!Effect,D-Droga...
+Dialogue: Marked=0,0:11:32.31,0:11:36.36,*Default,NTP,0000,0000,0000,!Effect,Senão, eu não conseguiria acalmar minha ira.
+
+Dialogue: Marked=0,0:11:44.12,0:11:48.34,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:44.12,0:11:48.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:44.12,0:11:48.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:44.12,0:11:48.34,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:51.29,0:11:53.51,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:11:51.29,0:11:53.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:51.29,0:11:53.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:51.29,0:11:53.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:04.13,0:12:05.01,*Default,NTP,0000,0000,0000,!Effect,Então, e o Goku?
+Dialogue: Marked=0,0:12:06.16,0:12:10.83,*Default,NTP,0000,0000,0000,!Effect,Mesmo usando seu limite máximo\Ndo Kaioken aumentado em 10 vezes,
+Dialogue: Marked=0,0:12:10.83,0:12:13.11,*Default,,0000,0000,0000,,o Son está sendo derrotado, Kaio-sama?
+Dialogue: Marked=0,0:12:14.03,0:12:19.07,*Default,NTP,0000,0000,0000,!Effect,Além disso, Freeza parece estar\Nusando apenas metade do seu poder!
+Dialogue: Marked=0,0:12:20.43,0:12:21.95,*Default,NTP,0000,0000,0000,!Effect,N-Não pode ser!
+Dialogue: Marked=0,0:12:22.66,0:12:28.20,*Default,NTP,0000,0000,0000,!Effect,É por causa disso que eu falei que\Nnão era para desafiar Freeza de forma alguma.
+Dialogue: Marked=0,0:12:33.42,0:12:34.81,*Default,NTP,0000,0000,0000,!Effect,Ele perdeu...
+Dialogue: Marked=0,0:12:46.78,0:12:48.43,*Default,NTP,0000,0000,0000,!Effect,Então...
+Dialogue: Marked=0,0:12:50.74,0:12:53.77,*Default,NTP,0000,0000,0000,!Effect,O que eu posso fazer para\Ncausar mais dor em você?
+Dialogue: Marked=0,0:12:54.67,0:12:55.77,P!,,0000,0000,0000,,Droga...
+Dialogue: Marked=0,0:12:56.37,0:13:04.78,*Default,NTP,0000,0000,0000,!Effect,Devo quebrar seu braço? Cortar suas\Norelhas? Ou talvez abrir sua garganta...
+Dialogue: Marked=0,0:13:08.18,0:13:14.24,*Default,NTP,0000,0000,0000,!Effect,A-A única coisa que eu posso fazer é usar,\Nde alguma forma, um Kaioken 20 vezes maior!
+Dialogue: Marked=0,0:13:14.24,0:13:16.84,*Default,NTP,0000,0000,0000,!Effect,Mas meu corpo pode não agüentar.
+Dialogue: Marked=0,0:13:20.07,0:13:26.73,*Default,NTP,0000,0000,0000,!Effect,M-Mas, se ele estiver usando apenas\N50% do seu poder agora como diz,
+Dialogue: Marked=0,0:13:26.73,0:13:29.26,*Default,,0000,0000,0000,,não há mais nada que eu possa fazer...
+Dialogue: Marked=0,0:13:29.94,0:13:35.27,*Default,NTP,0000,0000,0000,!Effect,Agora é muito tarde para você começar\Na agonizar. Afinal, você que começou com isso.
+Dialogue: Marked=0,0:13:36.96,0:13:40.51,*Default,NTP,0000,0000,0000,!Effect,Você vai virar meu brinquedo\Naté que eu me canse de você.
+Dialogue: Marked=0,0:13:52.22,0:13:53.50,*Default,NTP,0000,0000,0000,!Effect,Qual o problema?
+Dialogue: Marked=0,0:13:53.50,0:13:58.08,*Default,,0000,0000,0000,,Se você não resistir um pouco, eu vou\Nachar que está com defeito e ficar entediado.
+Dialogue: Marked=0,0:15:01.13,0:15:04.44,*Default,NTP,0000,0000,0000,!Effect,Ei, ei! A diversão está apenas começando...
+Dialogue: Marked=0,0:15:09.26,0:15:12.15,*Default,NTP,0000,0000,0000,!Effect,Ainda está muito cedo para você ir para a cama.
+Dialogue: Marked=0,0:16:12.69,0:16:13.62,P!,NTP,0000,0000,0000,!Effect,Não adianta!
+Dialogue: Marked=0,0:16:37.57,0:16:39.71,*Default,NTP,0000,0000,0000,!Effect,Como se sente virando um peixe?
+Dialogue: Marked=0,0:17:20.49,0:17:23.18,P!,NTP,0000,0000,0000,!Effect,{\fad(0,500)}Kuririn!
+Dialogue: Marked=0,0:17:49.58,0:17:51.82,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Goku-san!
+Dialogue: Marked=0,0:17:52.72,0:17:55.89,*Default,,0000,0000,0000,,{\fad(0,400)}G-Goku!
+Dialogue: Marked=0,0:17:55.89,0:17:58.33,*Default,,0000,0000,0000,,{\fad(0,400)}Goku!
+Dialogue: Marked=0,0:18:02.14,0:18:09.65,P!,NTP,0000,0000,0000,!Effect,Chi-Chi! Onde você está?!\NVelho Mestre Kame! Oolong!
+Dialogue: Marked=0,0:18:11.98,0:18:14.92,P!,NTP,0000,0000,0000,!Effect,V-Velhote!
+Dialogue: Marked=0,0:18:18.14,0:18:19.55,P!,NTP,0000,0000,0000,!Effect,Chi-Chi!
+Dialogue: Marked=0,0:18:22.02,0:18:25.81,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Goku-san! Goku-san!
+Dialogue: Marked=0,0:18:29.51,0:18:30.90,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Papai!
+Dialogue: Marked=0,0:18:31.59,0:18:33.07,P!,,0000,0000,0000,,{\fad(0,400)}Gohan!
+Dialogue: Marked=0,0:18:33.42,0:18:34.42,*Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:19:23.33,0:19:24.66,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:19:49.59,0:19:51.20,*Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:19:51.20,0:19:51.98,*Default,,0000,0000,0000,,Goku!
+Dialogue: Marked=0,0:19:53.65,0:19:57.91,*Default,NTP,0000,0000,0000,!Effect,Pelo futuro do Gohan, da Chi-Chi,\Nda Terra e do planeta Namek...
+Dialogue: Marked=0,0:19:59.85,0:20:01.82,*Default,NTP,0000,0000,0000,!Effect,Não posso perder de forma alguma!
+Dialogue: Marked=0,0:20:11.31,0:20:17.25,*Default,NTP,0000,0000,0000,!Effect,50% do poder...\NSendo blefe ou não...
+Dialogue: Marked=0,0:20:20.09,0:20:22.68,*Default,NTP,0000,0000,0000,!Effect,Só me resta arriscar tudo em\Num Kaioken aumentado em 20 vezes!
+Dialogue: Marked=0,0:20:40.48,0:20:41.78,Poder,NTP,0000,0000,0000,!Effect,{\fad(100,100)}KA
+Dialogue: Marked=0,0:20:42.18,0:20:43.28,Poder,,0000,0000,0000,,{\fad(100,100)}ME
+Dialogue: Marked=0,0:20:43.62,0:20:44.45,Poder,NTP,0000,0000,0000,!Effect,{\fad(100,100)}HA
+Dialogue: Marked=0,0:20:45.04,0:20:46.41,Poder,,0000,0000,0000,,{\fad(100,100)}ME
+Dialogue: Marked=0,0:20:46.59,0:20:49.58,Poder,NTP,0000,0000,0000,!Effect,{\fad(0,500)}HA!
+Dialogue: Marked=0,0:22:16.97,0:22:19.54,*Default,NTP,0000,0000,0000,!Effect,Maldito cretino!
+Dialogue: Marked=0,0:22:20.25,0:22:24.33,Narrador,NTP,0000,0000,0000,!Effect,Agora que nem mesmo o Kaioken\Naumentado em 20 vezes foi útil,
+Dialogue: Marked=0,0:22:24.33,0:22:27.85,Narrador,NTP,0000,0000,0000,,ainda resta alguma chance de vitória para Goku?

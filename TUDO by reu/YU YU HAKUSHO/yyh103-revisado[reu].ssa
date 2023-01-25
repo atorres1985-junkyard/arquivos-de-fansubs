@@ -1,0 +1,274 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: Radio2,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,2,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,Souvenir Lt BT,40,16777215,12632256,16711680,10485760,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,15,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,16777215,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,&HFF110066,8454143,3815994,&HFF110066,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA3,Arial,40,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:30.54,0:01:35.20,Narrador,NTP,0000,0000,0000,!Effect,O Makai estava entrando em uma\Nnova fase e a tensão aumentava.
+Dialogue: Marked=0,0:01:36.21,0:01:39.16,Narrador,NTP,0000,0000,0000,!Effect,Hiei, que se juntou a Mukuro,
+Dialogue: Marked=0,0:01:39.16,0:01:41.62,Narrador,NTP,0000,0000,0000,!Effect,um dos três poderes que\Ncomandavam o Makai,
+Dialogue: Marked=0,0:01:41.62,0:01:45.35,Narrador,NTP,0000,0000,0000,!Effect,ofereceu a sua força e foi\Npromovido a braço-direito.
+Dialogue: Marked=0,0:01:45.97,0:01:49.58,Narrador,NTP,0000,0000,0000,!Effect,Em outro lugar, Kurama, que foi\Nchamado pelo segundo poder, Yomi,
+Dialogue: Marked=0,0:01:49.58,0:01:51.54,Narrador,NTP,0000,0000,0000,!Effect,provou possuir uma sabedoria excepcional...
+Dialogue: Marked=0,0:01:51.54,0:01:53.69,Narrador,NTP,0000,0000,0000,!Effect,e obteve o posto de Chefe Militar daquela nação.
+Dialogue: Marked=0,0:01:54.07,0:01:56.95,Narrador,NTP,0000,0000,0000,!Effect,Finalmente, Yusuke tem treinado todos os dias...
+Dialogue: Marked=0,0:01:56.99,0:02:01.95,Narrador,NTP,0000,0000,0000,!Effect,no campo do terceiro poder: seu pai, Raizen.
+Dialogue: Marked=0,0:02:02.57,0:02:05.25,Narrador,NTP,0000,0000,0000,!Effect,Faz aproximadamente um ano\Nque eles chegaram ao Makai,
+Dialogue: Marked=0,0:02:05.50,0:02:08.07,Narrador,NTP,0000,0000,0000,!Effect,agitados por propostas ambiciosas.
+
+Dialogue: Marked=0,0:02:08.07,0:02:14.10,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 103
+Dialogue: Marked=0,0:02:08.07,0:02:14.10,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(285,410)}{\fscx70\fscy130}As últimas palavras de um pai .
+Dialogue: Marked=0,0:02:08.07,0:02:14.10,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(440,485)}{\fscx101\fscy130}Memórias de um dia distante
+
+Dialogue: Marked=0,0:04:10.69,0:04:11.46,*Default,NTP,0000,0000,0000,!Effect,Bang!
+Dialogue: Marked=0,0:04:12.71,0:04:14.96,*Default,NTP,0000,0000,0000,!Effect,Já basta. Nós desistimos.
+Dialogue: Marked=0,0:04:15.27,0:04:18.50,*Default,NTP,0000,0000,0000,!Effect,Mesmo nós quatro juntos\Nnão somos páreo para você.
+Dialogue: Marked=0,0:04:18.50,0:04:20.51,*Default,NTP,0000,0000,0000,!Effect,De fato, eu tenho medo de\Nimaginar o que você fará depois.
+Dialogue: Marked=0,0:04:20.51,0:04:21.47,*Default,NTP,0000,0000,0000,!Effect,Que coisa...
+Dialogue: Marked=0,0:04:21.77,0:04:24.88,*Default,NTP,0000,0000,0000,!Effect,Hokushin, você tem o mau hábito de\Ndesviar dos ataques logo de cara...
+Dialogue: Marked=0,0:04:24.88,0:04:26.19,*Default,NTP,0000,0000,0000,!Effect,com sua técnica de esticar o corpo.
+Dialogue: Marked=0,0:04:26.86,0:04:30.47,*Default,NTP,0000,0000,0000,!Effect,Uma vez que a pessoa ataque seus pontos\Nde sustentação, você estará acabado.
+Dialogue: Marked=0,0:04:31.11,0:04:34.33,*Default,NTP,0000,0000,0000,!Effect,Seria preciso alguém tão bom quanto você\Npara encontrá-los e ser capaz de atingi-los.
+Dialogue: Marked=0,0:04:35.22,0:04:38.98,*Default,NTP,0000,0000,0000,!Effect,Ora, ora... No período de um ano,\Nnossas posições se reverteram por completo.
+Dialogue: Marked=0,0:04:39.44,0:04:42.49,*Default,NTP,0000,0000,0000,!Effect,Tudo bem! Estou indo\Nenfrentar o nojento do meu pai!
+Dialogue: Marked=0,0:04:43.78,0:04:47.49,*Default,NTP,0000,0000,0000,!Effect,V-Você quase morreu um mês atrás!
+Dialogue: Marked=0,0:04:47.57,0:04:49.41,*Default,NTP,0000,0000,0000,!Effect,Estou bem melhor agora!
+Dialogue: Marked=0,0:04:51.81,0:04:53.54,*Default,NTP,0000,0000,0000,!Effect,Que coisa, ele é mesmo um monstro.
+Dialogue: Marked=0,0:04:54.05,0:04:56.01,*Default,NTP,0000,0000,0000,!Effect,É realmente filho do pai dele.
+Dialogue: Marked=0,0:04:56.01,0:04:57.24,*Default,NTP,0000,0000,0000,!Effect,Isso é estranho...
+Dialogue: Marked=0,0:04:57.24,0:04:58.00,*Default,NTP,0000,0000,0000,!Effect,O que foi?
+Dialogue: Marked=0,0:04:58.41,0:05:00.50,*Default,NTP,0000,0000,0000,!Effect,É que... o som do estômago do rei...
+Dialogue: Marked=0,0:05:03.25,0:05:04.47,*Default,NTP,0000,0000,0000,!Effect,Não pode ser!
+Dialogue: Marked=0,0:05:11.95,0:05:13.93,*Default,NTP,0000,0000,0000,!Effect,Estou te desafiando!
+Dialogue: Marked=0,0:05:36.67,0:05:37.92,*Default,NTP,0000,0000,0000,!Effect,P-Pai!
+Dialogue: Marked=0,0:06:03.30,0:06:05.39,*Default,NTP,0000,0000,0000,!Effect,M-Mas o quê?
+Dialogue: Marked=0,0:06:07.58,0:06:08.61,*Default,NTP,0000,0000,0000,!Effect,Raizen-sama!
+Dialogue: Marked=0,0:06:12.22,0:06:16.12,*Default,NTP,0000,0000,0000,!Effect,Me dê algo para comer!
+Dialogue: Marked=0,0:06:45.16,0:06:49.53,P!,NTP,0000,0000,0000,!Effect,Desgraçado! Ele está faminto!
+Dialogue: Marked=0,0:07:10.61,0:07:14.14,P!,NTP,0000,0000,0000,!Effect,Ele perdeu a cabeça!\NEle só pode fazer isso?
+Dialogue: Marked=0,0:07:14.66,0:07:17.77,P!,NTP,0000,0000,0000,!Effect,Ele não está hesitando...\NEssa é a força dele?
+Dialogue: Marked=0,0:07:21.97,0:07:22.94,*Default,NTP,0000,0000,0000,!Effect,A-Aonde ele está?
+Dialogue: Marked=0,0:07:42.72,0:07:46.42,*Default,NTP,0000,0000,0000,!Effect,Maldito! Você é desprezível!
+Dialogue: Marked=0,0:07:51.79,0:07:55.35,*Default,NTP,0000,0000,0000,!Effect,Que porção do seu poder você ainda possui?
+Dialogue: Marked=0,0:07:56.41,0:07:58.35,*Default,NTP,0000,0000,0000,!Effect,Por que você está tolerando tanto?
+Dialogue: Marked=0,0:08:01.55,0:08:03.81,*Default,NTP,0000,0000,0000,!Effect,Já basta. Coma.
+Dialogue: Marked=0,0:08:06.90,0:08:11.24,*Default,NTP,0000,0000,0000,!Effect,Se você só pode comer humanos,\Neu pegarei dois ou três deles para você.
+Dialogue: Marked=0,0:08:11.71,0:08:15.67,*Default,NTP,0000,0000,0000,!Effect,Você quer continuar a enfraquecer\Naos poucos até desfalecer?
+Dialogue: Marked=0,0:08:15.67,0:08:18.24,*Default,NTP,0000,0000,0000,!Effect,Você está mesmo satisfeito fazendo isso?
+Dialogue: Marked=0,0:08:19.91,0:08:22.16,*Default,NTP,0000,0000,0000,!Effect,Se fosse comigo, eu não agüentaria.
+Dialogue: Marked=0,0:08:22.66,0:08:26.13,*Default,NTP,0000,0000,0000,!Effect,Fraco como você está, eu não\Nficaria feliz em te derrotar agora!
+Dialogue: Marked=0,0:08:27.78,0:08:31.43,*Default,NTP,0000,0000,0000,!Effect,Ao menos me diga por que você não come!
+Dialogue: Marked=0,0:08:31.43,0:08:35.22,*Default,NTP,0000,0000,0000,!Effect,E se não me convencer, vou enfiar\Num pouco de comida na sua boca!
+Dialogue: Marked=0,0:08:35.90,0:08:37.57,*Default,NTP,0000,0000,0000,!Effect,Você é que nem ela...
+Dialogue: Marked=0,0:08:40.08,0:08:42.02,*Default,NTP,0000,0000,0000,!Effect,Embora tenha um jeito diferente de pensar.
+Dialogue: Marked=0,0:08:43.53,0:08:46.48,*Default,NTP,0000,0000,0000,!Effect,Ela era uma mulher com\Num temperamento violento.
+Dialogue: Marked=0,0:08:48.09,0:08:51.50,*Default,NTP,0000,0000,0000,!Effect,Já deve fazer uns 700 anos agora.
+Dialogue: Marked=0,0:08:51.50,0:08:54.60,*Default,NTP,0000,0000,0000,!Effect,As terras eram um caos e o crime corria solto.
+Dialogue: Marked=0,0:08:54.60,0:08:58.99,*Default,NTP,0000,0000,0000,!Effect,As pessoas viviam uma vida de devastação.
+Dialogue: Marked=0,0:08:59.55,0:09:04.74,*Default,NTP,0000,0000,0000,!Effect,Naquele tempo, não existia qualquer\Nbarreira entre o Makai e o Ningenkai.
+Dialogue: Marked=0,0:09:04.74,0:09:10.25,*Default,NTP,0000,0000,0000,!Effect,Foi uma era em que,\Nonde quer que os humanos morassem,
+Dialogue: Marked=0,0:09:10.25,0:09:12.62,*Default,NTP,0000,0000,0000,!Effect,espíritos do mal se juntariam a eles,
+Dialogue: Marked=0,0:09:12.62,0:09:15.21,*Default,NTP,0000,0000,0000,!Effect,e até mesmo a nação como um todo se juntaria a nós,
+Dialogue: Marked=0,0:09:15.21,0:09:17.26,*Default,NTP,0000,0000,0000,!Effect,empregando feitiçaria para\Nrepelir invasores de fora.
+Dialogue: Marked=0,0:09:18.57,0:09:23.05,*Default,NTP,0000,0000,0000,!Effect,Eu era classificado\Ncomo um devorador de humanos.
+Dialogue: Marked=0,0:09:23.05,0:09:26.31,*Default,NTP,0000,0000,0000,!Effect,Naquela época, eu me\Nalimentava o quanto eu queria.
+Dialogue: Marked=0,0:09:39.64,0:09:43.66,*Default,NTP,0000,0000,0000,!Effect,Foi aí que eu conheci uma\Ncerta mulher no Ningenkai.
+Dialogue: Marked=0,0:09:49.37,0:09:52.37,*Default,NTP,0000,0000,0000,!Effect,Uma mulher pálida e\Nexcessivamente magra, com um peculiar e...
+Dialogue: Marked=0,0:09:52.37,0:09:55.64,*Default,NTP,0000,0000,0000,!Effect,asqueroso cheiro de incenso mágico nela.
+Dialogue: Marked=0,0:09:56.40,0:09:58.75,*Default,NTP,0000,0000,0000,!Effect,Mas eu fui pego por seus olhos.
+Dialogue: Marked=0,0:09:58.75,0:10:03.97,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Foi a primeira vez que eu conheci\Nalguém que me olhasse e me desprezasse.
+
+Dialogue: Marked=0,0:10:37.63,0:10:38.50,L!,NTP,0000,0000,0000,!Effect,Quem és tu?
+Dialogue: Marked=0,0:10:43.52,0:10:45.82,L!,NTP,0000,0000,0000,!Effect,Hum, um espírito maligno?
+Dialogue: Marked=0,0:10:46.31,0:10:49.31,L!,NTP,0000,0000,0000,!Effect,O que te conduziste a tão longe,\Npara que chegasses até aqui?
+Dialogue: Marked=0,0:10:55.89,0:10:57.24,L!,NTP,0000,0000,0000,!Effect,Estás machucado?
+Dialogue: Marked=0,0:11:06.43,0:11:09.62,L!,NTP,0000,0000,0000,!Effect,Permita-me ver, e eu hei de curar-te.
+Dialogue: Marked=0,0:11:11.13,0:11:15.89,*Default,NTP,0000,0000,0000,!Effect,Aquela mulher era uma\Nimportante Kudakusushi budista.
+Dialogue: Marked=0,0:11:15.89,0:11:16.63,*Default,NTP,0000,0000,0000,!Effect,Kudakusushi?
+Dialogue: Marked=0,0:11:17.92,0:11:21.56,*Default,NTP,0000,0000,0000,!Effect,É o que se chamaria de farmacêutico\Nou médico nos dias de hoje.
+Dialogue: Marked=0,0:11:21.56,0:11:24.05,*Default,NTP,0000,0000,0000,!Effect,Dizem que eles voluntariamente engoliam\Nfortes venenos e elementos patogênicos...
+Dialogue: Marked=0,0:11:24.80,0:11:26.90,*Default,NTP,0000,0000,0000,!Effect,para criar imunidade em seus corpos.
+Dialogue: Marked=0,0:11:26.90,0:11:29.70,*Default,NTP,0000,0000,0000,!Effect,Então, usavam sua própria\Ncarne ou sangue como remédio...
+Dialogue: Marked=0,0:11:29.70,0:11:32.64,*Default,NTP,0000,0000,0000,!Effect,para curar qualquer doença.
+Dialogue: Marked=0,0:11:46.55,0:11:48.45,L!,NTP,0000,0000,0000,!Effect,O que é isso? Estás faminto?
+Dialogue: Marked=0,0:11:50.44,0:11:53.60,*Default,NTP,0000,0000,0000,!Effect,Se eu quisesse matá-la,\Npoderia ter feito a qualquer hora.
+Dialogue: Marked=0,0:11:53.60,0:11:59.67,*Default,NTP,0000,0000,0000,!Effect,Eu pensei em tomar aquela mulher da\Nmaneira que eu desejava. No entanto...
+Dialogue: Marked=0,0:12:01.35,0:12:04.99,L!,NTP,0000,0000,0000,!Effect,Queres me consumir? Fascinante.
+Dialogue: Marked=0,0:12:06.12,0:12:08.84,L!,NTP,0000,0000,0000,!Effect,O interior do meu corpo é como\Num recipiente de veneno.
+Dialogue: Marked=0,0:12:08.84,0:12:15.77,L!,NTP,0000,0000,0000,!Effect,Se tu me consumisses, teu estômago\Nseria infectado antes da aurora.
+Dialogue: Marked=0,0:12:19.95,0:12:24.05,L!,NTP,0000,0000,0000,!Effect,Este não é um corpo que um espírito bárbaro\Ne maligno como o teu pode conquistar.
+Dialogue: Marked=0,0:12:25.43,0:12:27.84,L!,NTP,0000,0000,0000,!Effect,Devora-me se fores capaz.
+Dialogue: Marked=0,0:12:29.67,0:12:34.67,*Default,NTP,0000,0000,0000,!Effect,Eu não podia me mexer. Fui totalmente\Nsobrepujado por aquela mulher.
+Dialogue: Marked=0,0:12:37.14,0:12:39.75,L!,NTP,0000,0000,0000,!Effect,Qual é o problema?\NNão me devorarás?
+Dialogue: Marked=0,0:12:40.38,0:12:45.09,L!,NTP,0000,0000,0000,!Effect,Pois bem. Então, poderias simplesmente matar-me...
+Dialogue: Marked=0,0:12:45.58,0:12:47.55,L!,NTP,0000,0000,0000,!Effect,e saíres imediatamente daqui!
+Dialogue: Marked=0,0:12:49.25,0:12:50.70,L!,NTP,0000,0000,0000,!Effect,Contudo, nesse momento,
+Dialogue: Marked=0,0:12:50.70,0:12:54.55,L!,NTP,0000,0000,0000,!Effect,terias abandonado teu orgulho e teu instinto de devorador de humanos.
+Dialogue: Marked=0,0:12:57.93,0:12:59.40,*Default,NTP,0000,0000,0000,!Effect,Então, o que você fez?
+Dialogue: Marked=0,0:13:00.73,0:13:01.86,*Default,NTP,0000,0000,0000,!Effect,Eu a cortejei.
+Dialogue: Marked=0,0:13:09.27,0:13:12.21,*Default,NTP,0000,0000,0000,!Effect,Eu decidi que ela era a\Núnica mulher para mim.
+Dialogue: Marked=0,0:13:12.21,0:13:16.61,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,300)}Eu tinha a sensação de que, se eu a deixasse escapar, eu nunca a alcançaria de novo.
+Dialogue: Marked=0,0:13:16.61,0:13:19.80,*Default,NTP,0000,0000,0000,!Effect,E, então, dia e noite, eu fiz amor com ela.
+Dialogue: Marked=0,0:13:22.61,0:13:26.49,*Default,NTP,0000,0000,0000,!Effect,E-E o resultado disso... sou eu?
+Dialogue: Marked=0,0:13:27.73,0:13:29.27,*Default,NTP,0000,0000,0000,!Effect,Você deveria estar orgulhoso.
+Dialogue: Marked=0,0:13:31.41,0:13:33.18,*Default,,0000,0000,0000,,Ela era uma boa mulher...
+Dialogue: Marked=0,0:13:35.00,0:13:37.46,*Default,NTP,0000,0000,0000,!Effect,Eu não perguntei por detalhes,
+Dialogue: Marked=0,0:13:37.46,0:13:41.03,*Default,NTP,0000,0000,0000,!Effect,mas, aparentemente, ela não\Nnasceu em uma família Kudakusushi.
+Dialogue: Marked=0,0:13:42.01,0:13:46.58,*Default,NTP,0000,0000,0000,!Effect,Ela tomava venenos por desejo próprio, para salvar pessoas machucadas em batalhas...
+Dialogue: Marked=0,0:13:46.58,0:13:49.16,*Default,NTP,0000,0000,0000,!Effect,ou pessoas sofrendo de doenças.
+Dialogue: Marked=0,0:13:49.39,0:13:53.35,*Default,NTP,0000,0000,0000,!Effect,Comparado àquela mulher,\Neu me senti insignificante.
+Dialogue: Marked=0,0:13:54.22,0:13:57.94,*Default,NTP,0000,0000,0000,!Effect,Eu decidi não comer outra pessoa...
+Dialogue: Marked=0,0:13:57.94,0:14:01.25,*Default,NTP,0000,0000,0000,!Effect,até a próxima vez que\Nencontrasse aquela mulher.
+Dialogue: Marked=0,0:14:01.25,0:14:04.71,*Default,NTP,0000,0000,0000,!Effect,Muito embora não tivéssemos\Nmarcado qualquer outro encontro.
+Dialogue: Marked=0,0:14:13.36,0:14:16.98,*Default,NTP,0000,0000,0000,!Effect,De qualquer forma, ela\Nmorreu logo após dar à luz.
+Dialogue: Marked=0,0:14:17.34,0:14:18.64,*Default,NTP,0000,0000,0000,!Effect,Foi a última vez que eu a vi.
+Dialogue: Marked=0,0:14:20.43,0:14:24.63,*Default,NTP,0000,0000,0000,!Effect,Mazokus vivem bastante tempo.\NPortanto, enquanto eu vivesse...
+Dialogue: Marked=0,0:14:24.63,0:14:28.33,*Default,NTP,0000,0000,0000,!Effect,Pensei que encontraria a reencarnação dela.
+Dialogue: Marked=0,0:14:28.33,0:14:30.53,*Default,NTP,0000,0000,0000,!Effect,Era tudo o que eu podia\Npensar enquanto eu vivia.
+Dialogue: Marked=0,0:14:31.73,0:14:36.41,*Default,NTP,0000,0000,0000,!Effect,No entanto, parece que uma mulher\Ncomo ela não nasce tão facilmente.
+Dialogue: Marked=0,0:14:40.67,0:14:46.51,*Default,NTP,0000,0000,0000,!Effect,Juntos, Reikai, Makai e\NNingenkai formam um só mundo.
+Dialogue: Marked=0,0:14:47.12,0:14:48.88,*Default,NTP,0000,0000,0000,!Effect,Eles não são separados!
+Dialogue: Marked=0,0:14:48.88,0:14:53.85,*Default,NTP,0000,0000,0000,!Effect,Nem mesmo os caras no Reikai\Nsabem o destino final da alma.
+Dialogue: Marked=0,0:14:55.46,0:15:00.01,*Default,NTP,0000,0000,0000,!Effect,Você é meu filho, mas\Nvocê quer comer pessoas?
+Dialogue: Marked=0,0:15:00.01,0:15:00.81,*Default,NTP,0000,0000,0000,!Effect,Não.
+Dialogue: Marked=0,0:15:01.42,0:15:05.78,*Default,NTP,0000,0000,0000,!Effect,Você percebe? Mesmo tendo herdado\No meu sangue, você não pode fazer isso.
+Dialogue: Marked=0,0:15:06.04,0:15:11.09,*Default,NTP,0000,0000,0000,!Effect,Tenho certeza de que uma porção de nós,\NMazokus, passou por uma mutação.
+Dialogue: Marked=0,0:15:12.15,0:15:14.85,*Default,NTP,0000,0000,0000,!Effect,Logo, com certeza seremos um obstáculo.
+Dialogue: Marked=0,0:15:18.31,0:15:24.13,*Default,NTP,0000,0000,0000,!Effect,Mukuro e Yomi começaram lutando apenas\Ncom seus sentimentos, mas agora é diferente.
+Dialogue: Marked=0,0:15:25.82,0:15:29.61,*Default,NTP,0000,0000,0000,!Effect,Talvez você e Mukuro se entendam.
+Dialogue: Marked=0,0:15:29.61,0:15:32.79,*Default,NTP,0000,0000,0000,!Effect,Mukuro gosta do Makai do jeito que é agora.
+Dialogue: Marked=0,0:15:32.79,0:15:35.99,*Default,NTP,0000,0000,0000,!Effect,Não interferiria no Reikai ou Ningenkai.
+Dialogue: Marked=0,0:15:36.64,0:15:39.14,*Default,NTP,0000,0000,0000,!Effect,Mas, cuidado com Yomi!
+Dialogue: Marked=0,0:15:40.71,0:15:44.57,*Default,NTP,0000,0000,0000,!Effect,Ele planeja controlar tanto o\NReikai quanto o Ningenkai.
+Dialogue: Marked=0,0:15:44.91,0:15:48.07,*Default,NTP,0000,0000,0000,!Effect,Se tiver que se aliar a\Nalguém, alie-se a Mukuro.
+Dialogue: Marked=0,0:15:48.77,0:15:50.57,*Default,NTP,0000,0000,0000,!Effect,O que você está falando?
+Dialogue: Marked=0,0:15:50.79,0:15:54.64,*Default,NTP,0000,0000,0000,!Effect,E-Eu deixo o Hokushin e os outros para você.
+Dialogue: Marked=0,0:15:55.84,0:15:58.93,*Default,NTP,0000,0000,0000,!Effect,Ei! O-O que você está dizendo?!
+Dialogue: Marked=0,0:16:00.57,0:16:03.00,*Default,NTP,0000,0000,0000,!Effect,Eu estou com tanta fome...
+Dialogue: Marked=0,0:16:33.33,0:16:34.45,*Default,NTP,0000,0000,0000,!Effect,Yusuke-san!
+Dialogue: Marked=0,0:16:34.87,0:16:36.87,*Default,NTP,0000,0000,0000,!Effect,O-Onde está o rei?
+Dialogue: Marked=0,0:16:36.87,0:16:38.77,*Default,NTP,0000,0000,0000,!Effect,O que foi que aconteceu?
+Dialogue: Marked=0,0:16:40.08,0:16:41.03,*Default,NTP,0000,0000,0000,!Effect,Yusuke-san?
+Dialogue: Marked=0,0:16:41.80,0:16:42.88,*Default,NTP,0000,0000,0000,!Effect,Onde está o Raizen-sama?
+Dialogue: Marked=0,0:16:45.39,0:16:46.25,*Default,NTP,0000,0000,0000,!Effect,Ele está morto.
+Dialogue: Marked=0,0:16:58.30,0:17:01.47,*Default,NTP,0000,0000,0000,!Effect,Hokushin, você pode me\Nmostrar o caminho para um lugar?
+Dialogue: Marked=0,0:17:02.30,0:17:03.35,*Default,NTP,0000,0000,0000,!Effect,Qual?
+Dialogue: Marked=0,0:17:04.04,0:17:05.31,*Default,NTP,0000,0000,0000,!Effect,A terra de Yomi.
+Dialogue: Marked=0,0:17:11.16,0:17:14.58,*Default,NTP,0000,0000,0000,!Effect,Eu não ouço mais o som do estômago de Raizen.
+Dialogue: Marked=0,0:17:14.58,0:17:16.73,*Default,NTP,0000,0000,0000,!Effect,Kurama, o que você acha?
+Dialogue: Marked=0,0:17:16.73,0:17:18.65,*Default,NTP,0000,0000,0000,!Effect,Há duas possibilidades.
+Dialogue: Marked=0,0:17:18.65,0:17:22.55,*Default,NTP,0000,0000,0000,!Effect,Uma é que ele não agüentou a\Nfome e comeu alguma coisa.
+Dialogue: Marked=0,0:17:22.55,0:17:25.71,*Default,NTP,0000,0000,0000,!Effect,A outra é que ele não\Nprecisa mais agüentar a fome.
+Dialogue: Marked=0,0:17:26.16,0:17:27.17,*Default,NTP,0000,0000,0000,!Effect,Em outras palavras...
+Dialogue: Marked=0,0:17:28.19,0:17:30.13,*Default,NTP,0000,0000,0000,!Effect,Ele está morto, certo?
+Dialogue: Marked=0,0:17:30.58,0:17:32.67,*Default,NTP,0000,0000,0000,!Effect,Mas isso é mais cedo do que eu imaginava.
+Dialogue: Marked=0,0:17:34.17,0:17:37.74,*Default,NTP,0000,0000,0000,!Effect,Eu acho que é cedo demais para\Nsaber qual dos dois é verdade.
+Dialogue: Marked=0,0:17:37.74,0:17:39.05,*Default,NTP,0000,0000,0000,!Effect,Muito bem.
+Dialogue: Marked=0,0:17:39.46,0:17:43.42,*Default,NTP,0000,0000,0000,!Effect,Como você disse, vamos\Nobservar a situação mais um pouco.
+Dialogue: Marked=0,0:17:53.65,0:17:56.91,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Mukade = Centopéia
+Dialogue: Marked=0,0:17:53.65,0:17:56.87,PLACA,NTP,0000,0000,0000,!Effect,{\fad(400,0)\pos(410,475)\fscx120\fscy120}Fortaleza Móvel Mukade
+Dialogue: Marked=0,0:18:03.47,0:18:06.37,*Default,NTP,0000,0000,0000,!Effect,Sem sombra de dúvida. Raizen está morto.
+Dialogue: Marked=0,0:18:06.72,0:18:10.79,*Default,NTP,0000,0000,0000,!Effect,Verdade? Então o tolo morreu como um tolo.
+Dialogue: Marked=0,0:18:11.23,0:18:12.77,*Default,NTP,0000,0000,0000,!Effect,O que você planeja fazer?
+Dialogue: Marked=0,0:18:12.77,0:18:16.76,*Default,NTP,0000,0000,0000,!Effect,É óbvio. Eu reconstruirei o Makai.
+Dialogue: Marked=0,0:18:23.06,0:18:25.58,*Default,NTP,0000,0000,0000,!Effect,Esta é a nação de Yomi, Gandara.
+Dialogue: Marked=0,0:18:25.58,0:18:28.85,*Default,NTP,0000,0000,0000,!Effect,Obrigado, Hokushin.\NVocê pode voltar agora.
+Dialogue: Marked=0,0:18:28.85,0:18:30.69,*Default,NTP,0000,0000,0000,!Effect,Não. Eu vou com você.
+Dialogue: Marked=0,0:18:30.92,0:18:34.74,*Default,NTP,0000,0000,0000,!Effect,O Yomi provavelmente já sabe da\Nmorte do Raizen-sama. Se isso for verdade...
+Dialogue: Marked=0,0:18:35.39,0:18:37.95,*Default,NTP,0000,0000,0000,!Effect,Sua vida estará em perigo\Nquando você entrar em Gandara.
+Dialogue: Marked=0,0:18:37.95,0:18:40.74,*Default,NTP,0000,0000,0000,!Effect,Seu burro! É por isso que eu vou sozinho.
+Dialogue: Marked=0,0:18:41.61,0:18:44.70,*Default,NTP,0000,0000,0000,!Effect,Agora, você é um rei para nós.
+Dialogue: Marked=0,0:18:44.92,0:18:47.51,*Default,NTP,0000,0000,0000,!Effect,Eu tenho o dever de protegê-lo.
+Dialogue: Marked=0,0:18:47.51,0:18:51.34,*Default,NTP,0000,0000,0000,!Effect,Mas pra quê? Não comece nada.
+Dialogue: Marked=0,0:18:51.34,0:18:54.04,*Default,NTP,0000,0000,0000,!Effect,Hoje vamos apenas conversar.
+Dialogue: Marked=0,0:18:54.04,0:18:56.20,*Default,NTP,0000,0000,0000,!Effect,Estou aliviado em ouvir você dizer isso.
+Dialogue: Marked=0,0:18:56.20,0:18:57.17,*Default,NTP,0000,0000,0000,!Effect,O que você quer dizer?
+Dialogue: Marked=0,0:18:57.76,0:19:00.42,*Default,NTP,0000,0000,0000,!Effect,Nós devemos evitar qualquer\Nconversa perigosa neste local.
+Dialogue: Marked=0,0:19:00.42,0:19:03.64,*Default,NTP,0000,0000,0000,!Effect,Desde que Yomi perdeu a visão, seus ouvidos e seu nariz estão muito mais aguçados.
+Dialogue: Marked=0,0:19:04.55,0:19:09.60,*Default,NTP,0000,0000,0000,!Effect,Raizen-sama disse que ele pode acompanhar qualquer conversa dentro da nação dele.
+Dialogue: Marked=0,0:19:10.08,0:19:11.61,*Default,NTP,0000,0000,0000,!Effect,Certo. Entendido.
+Dialogue: Marked=0,0:19:13.76,0:19:16.57,*Default,NTP,0000,0000,0000,!Effect,Yomi! Ei, consegue me ouvir?!
+Dialogue: Marked=0,0:19:17.81,0:19:21.49,*Default,NTP,0000,0000,0000,!Effect,Nós vamos aí agora!\NPrepare um pouco de chá!
+Dialogue: Marked=0,0:19:21.93,0:19:23.57,*Default,NTP,0000,0000,0000,!Effect,Muito bem. Vamos!
+Dialogue: Marked=0,0:19:23.57,0:19:25.45,*Default,NTP,0000,0000,0000,!Effect,Você é uma pessoa muito excêntrica!
+Dialogue: Marked=0,0:19:26.11,0:19:29.41,*Default,NTP,0000,0000,0000,!Effect,A propósito, o que\Nvocê tem aí nesse saco?
+Dialogue: Marked=0,0:19:29.51,0:19:30.75,*Default,NTP,0000,0000,0000,!Effect,- Você quer dizer este?\N- Sim.
+Dialogue: Marked=0,0:19:31.18,0:19:33.53,*Default,NTP,0000,0000,0000,!Effect,Eu tenho um mau pressentimento sobre isso.
+Dialogue: Marked=0,0:19:34.51,0:19:36.26,*Default,NTP,0000,0000,0000,!Effect,É um segredo!
+Dialogue: Marked=0,0:19:39.86,0:19:44.57,*Default,NTP,0000,0000,0000,!Effect,Kurama, seu amigo é uma\Npessoa bem interessante, não?
+Dialogue: Marked=0,0:19:47.03,0:19:49.87,*Default,NTP,0000,0000,0000,!Effect,O Yusuke está indo encontrar o Yomi.
+Dialogue: Marked=0,0:19:49.87,0:19:53.61,*Default,NTP,0000,0000,0000,!Effect,Hein? O que você acha que o Yusuke está tramando?
+Dialogue: Marked=0,0:19:53.84,0:19:57.56,*Default,NTP,0000,0000,0000,!Effect,Boa pergunta. Ele pode ser um pouco ingênuo,
+Dialogue: Marked=0,0:19:57.56,0:20:00.07,*Default,NTP,0000,0000,0000,!Effect,mas ele também é imprevisível.
+Dialogue: Marked=0,0:20:00.76,0:20:03.53,*Default,NTP,0000,0000,0000,!Effect,Eu não posso nem imaginar\No que ele está fazendo.
+Dialogue: Marked=0,0:20:03.88,0:20:05.57,*Default,NTP,0000,0000,0000,!Effect,Mas, uma vez que eu veja o resultado,
+Dialogue: Marked=0,0:20:05.57,0:20:08.84,*Default,NTP,0000,0000,0000,!Effect,sei que vou pensar:\N"claro, só podia ser coisa daquele idiota."
+Dialogue: Marked=0,0:20:08.84,0:20:11.56,*Default,NTP,0000,0000,0000,!Effect,Isso parece ser a verdade.
+Dialogue: Marked=0,0:20:11.56,0:20:12.50,*Default,NTP,0000,0000,0000,!Effect,O que você quer dizer com isso?
+Dialogue: Marked=0,0:20:13.00,0:20:15.50,*Default,NTP,0000,0000,0000,!Effect,Apesar de tudo, você mente bastante.
+Dialogue: Marked=0,0:20:18.24,0:20:21.38,*Default,NTP,0000,0000,0000,!Effect,Se você se encontrar com\No Yusuke, você lutará contra ele?
+Dialogue: Marked=0,0:20:21.64,0:20:24.79,*Default,NTP,0000,0000,0000,!Effect,Claro. Pelo que eu vi dele agora há pouco,
+Dialogue: Marked=0,0:20:24.79,0:20:27.01,*Default,NTP,0000,0000,0000,!Effect,ele e eu estamos quase empatados.
+Dialogue: Marked=0,0:20:27.01,0:20:29.56,*Default,NTP,0000,0000,0000,!Effect,Mas tanto ele quanto eu podemos crescer.
+Dialogue: Marked=0,0:20:29.56,0:20:33.85,*Default,NTP,0000,0000,0000,!Effect,Se você quiser me matar e matar\No Yusuke, a hora é agora. Pense nisso.
+Dialogue: Marked=0,0:20:34.13,0:20:36.40,*Default,NTP,0000,0000,0000,!Effect,Isso também é verdade, certo?
+Dialogue: Marked=0,0:20:36.40,0:20:38.32,*Default,NTP,0000,0000,0000,!Effect,Você é bastante irritante.
+Dialogue: Marked=0,0:20:38.75,0:20:42.32,*Default,NTP,0000,0000,0000,!Effect,Bem, e se eu lutar contra o\NYusuke, de que lado você ficará?
+Dialogue: Marked=0,0:20:42.71,0:20:46.74,*Default,NTP,0000,0000,0000,!Effect,Não vou ficar do lado de ninguém.\NVou enfrentar o vencedor.
+Dialogue: Marked=0,0:20:47.52,0:20:51.71,*Default,NTP,0000,0000,0000,!Effect,No momento, você o derrotaria com certeza.
+Dialogue: Marked=0,0:20:52.05,0:20:53.83,*Default,NTP,0000,0000,0000,!Effect,Isso é uma meia-verdade.
+Dialogue: Marked=0,0:20:54.68,0:20:58.17,*Default,NTP,0000,0000,0000,!Effect,Se isso acontecesse aqui e agora,\Nvocê se juntaria ao Yusuke.
+Dialogue: Marked=0,0:21:00.67,0:21:03.04,*Default,NTP,0000,0000,0000,!Effect,E, talvez, caso meus poderes e\Nos poderes do Yusuke fossem iguais,
+Dialogue: Marked=0,0:21:03.04,0:21:05.59,*Default,NTP,0000,0000,0000,!Effect,você não se juntaria a nenhum dos dois.
+Dialogue: Marked=0,0:21:06.50,0:21:08.44,*Default,NTP,0000,0000,0000,!Effect,Eu tenho um pouco de inveja disso.
+Dialogue: Marked=0,0:21:13.03,0:21:15.52,*Default,NTP,0000,0000,0000,!Effect,Mude a direção! Vamos a Gandara!
+Dialogue: Marked=0,0:21:16.08,0:21:19.48,*Default,NTP,0000,0000,0000,!Effect,- Todos preparem-se para a batalha!\N- Sim!
+
+Dialogue: Marked=0,0:21:21.00,0:21:24.92,Narrador,NTP,0000,0000,0000,!Effect,Com a morte de Raizen, o\Nequilíbrio no Makai foi destruído.
+Dialogue: Marked=0,0:21:24.92,0:21:30.82,Narrador,NTP,0000,0000,0000,!Effect,Nessa situação incerta,\No que Yusuke pensa em fazer?
+Dialogue: Marked=0,0:21:32.39,0:21:33.87,Narrador,NTP,0000,0000,0000,!Effect,Yomi e Kurama.
+Dialogue: Marked=0,0:21:34.17,0:21:36.33,Narrador,NTP,0000,0000,0000,!Effect,Mukuro e Hiei.
+Dialogue: Marked=0,0:21:37.09,0:21:40.90,Narrador,NTP,0000,0000,0000,!Effect,Cada uma das especulações\Ndeles se misturou no turbulento Makai.
+
+Dialogue: Marked=0,0:21:47.36,0:21:49.30,Conversa,NTP,0000,0000,0000,!Effect,Eu odeio dizer isso\Nagora que ele morreu,
+Dialogue: Marked=0,0:21:49.30,0:21:51.61,Conversa,NTP,0000,0000,0000,!Effect,mas tudo será decidido\Npela ação que eu tomar.
+Dialogue: Marked=0,0:21:51.61,0:21:56.07,Conversa,NTP,0000,0000,0000,!Effect,Nessa situação explosiva,\Nestou ficando excitado por alguma razão.
+Dialogue: Marked=0,0:21:56.07,0:21:57.79,Conversa,NTP,0000,0000,0000,!Effect,Todo o Makai estará envolvido nisso.
+Dialogue: Marked=0,0:21:57.79,0:21:59.95,Conversa,NTP,0000,0000,0000,!Effect,Se eu não fizer isso, eu não sou um homem!
+Dialogue: Marked=0,0:21:59.95,0:22:04.95,Conversa,NTP,0000,0000,0000,!Effect,Hein? Você quer saber o que\Neu vou fazer? Não vou contar!
+Dialogue: Marked=0,0:22:05.27,0:22:09.65,Conversa,NTP,0000,0000,0000,!Effect,Próximo Episódio: "Uma Proposta Inesperada. Uma Mudança no Makai."
+Dialogue: Marked=0,0:22:09.65,0:22:11.58,Conversa,NTP,0000,0000,0000,!Effect,Isso está começando a ficar interessante!

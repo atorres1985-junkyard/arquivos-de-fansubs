@@ -1,0 +1,283 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: LP!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: NB!,MarkerFeltThin-Plain,30,16768443,16777215,16777215,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:23.48,0:02:33.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:44.61,0:13:54.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:57.05,0:01:59.44,*Default,,0000,0000,0000,,O que você está planejando?\NO que está pensando?
+Dialogue: Marked=0,0:02:00.26,0:02:01.40,*Default,,0000,0000,0000,,Desculpe...
+Dialogue: Marked=0,0:02:01.40,0:02:04.00,*Default,,0000,0000,0000,,Mas, não importa como,\Neu quero lutar contra ele.
+Dialogue: Marked=0,0:02:04.00,0:02:07.15,*Default,,0000,0000,0000,,Ele e eu, logo na primeira luta, enquanto\Nnós dois estamos com cem por cento da força.
+Dialogue: Marked=0,0:02:17.94,0:02:21.60,Narrador,,0000,0000,0000,,O Tenkaichi Budoukai\Nestava avançando tranqüilamente.
+Dialogue: Marked=0,0:02:21.60,0:02:24.13,Narrador,,0000,0000,0000,,O garoto incrível do qual Goku estava falando...
+Dialogue: Marked=0,0:02:24.13,0:02:28.82,Narrador,,0000,0000,0000,,não era ninguém além de Oob,\Na reencarnação de Majin Boo.
+Dialogue: Marked=0,0:02:38.99,0:02:40.42,*Default,,0000,0000,0000,,Nem meu pai...
+Dialogue: Marked=0,0:02:42.09,0:02:43.73,*Default,,0000,0000,0000,,e nem minha mãe...
+Dialogue: Marked=0,0:02:44.57,0:02:49.24,*Default,,0000,0000,0000,,são montes de merda!
+
+Dialogue: Marked=0,0:02:49.77,0:02:57.72,apresDBZ2,,0000,0000,0000,,{\1c&HCBBCCE\3c&HCDA17B\pos(675,70)\shad0\bord0\fad(400,0)\fscx100\fscy100}episódio 291
+Dialogue: Marked=0,0:02:49.77,0:02:57.72,apresDBZ2,,0000,0000,0000,,{\1c&HCBBCCE\3c&HCDA17B\pos(245,200)\shad0\bord0\fad(400,0)\fscx120\fscy150}Ainda mais forte
+Dialogue: Marked=0,0:02:49.77,0:02:57.72,apresDBZ2,,0000,0000,0000,,{\1c&HCBBCCE\3c&HCDA17B\pos(405,210)\shad0\bord0\fad(400,0)\fscx120\fscy200\fnArial\frz-15}!
+Dialogue: Marked=0,0:02:49.77,0:02:57.72,apresDBZ2,,0000,0000,0000,,{\1c&HCBBCCE\3c&HCDA17B\pos(430,210)\shad0\bord0\fad(400,0)\fscx120\fscy200\fnArial\frz-15}!
+Dialogue: Marked=0,0:02:49.77,0:02:57.72,apresDBZ2,,0000,0000,0000,,{\1c&HCBBCCE\3c&HCDA17B\pos(400,520)\shad0\bord0\fad(400,0)\fscx150\fscy130}O sonho de Goku é gigantesco
+
+Dialogue: Marked=0,0:03:03.60,0:03:04.36,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:03:05.10,0:03:05.50,*Default,,0000,0000,0000,,Ele é rápido!
+Dialogue: Marked=0,0:03:48.37,0:03:50.03,*Default,,0000,0000,0000,,Estou começando a ficar animado!
+Dialogue: Marked=0,0:03:58.87,0:04:01.75,*Default,,0000,0000,0000,,Não há dúvidas!\NVocê é a reencarnação do maligno Boo!
+Dialogue: Marked=0,0:04:35.39,0:04:37.71,*Default,,0000,0000,0000,,Vamos, vamos!\NQual é o problema?
+Dialogue: Marked=0,0:05:07.08,0:05:09.84,P!,,0000,0000,0000,,Eu não posso perder!\NNão posso perder mesmo!
+Dialogue: Marked=0,0:05:09.84,0:05:14.21,P!,,0000,0000,0000,,Prometi ao papai e\Nà mamãe que eu venceria o torneio...
+Dialogue: Marked=0,0:05:14.21,0:05:16.58,P!,,0000,0000,0000,,e com certeza levaria o prêmio em dinheiro.
+Dialogue: Marked=0,0:05:17.94,0:05:20.53,*Default,,0000,0000,0000,,Você não vem?\NNesse caso, eu vou até você!
+Dialogue: Marked=0,0:05:41.56,0:05:42.98,*Default,,0000,0000,0000,,Ora!
+Dialogue: Marked=0,0:05:42.98,0:05:47.48,*Default,,0000,0000,0000,,O competidor Oob não pode fazer nada\Ndiante dos ferozes ataques do competidor Son!
+Dialogue: Marked=0,0:05:47.48,0:05:48.58,*Default,,0000,0000,0000,,Ele está sendo massacrado!
+Dialogue: Marked=0,0:05:52.35,0:05:53.41,P!,,0000,0000,0000,,Impressionante...
+Dialogue: Marked=0,0:05:53.41,0:05:55.64,P!,,0000,0000,0000,,Pouco a pouco, ele está\Nacompanhando minha velocidade!
+Dialogue: Marked=0,0:06:01.49,0:06:03.38,*Default,,0000,0000,0000,,Não posso acreditar.
+Dialogue: Marked=0,0:06:03.38,0:06:07.02,*Default,,0000,0000,0000,,Aquele garoto está aprendendo\Na lutar enquanto está lutando!
+Dialogue: Marked=0,0:06:09.41,0:06:09.67,P!,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:06:44.83,0:06:45.64,*Default,,0000,0000,0000,,É mentira, certo?!
+Dialogue: Marked=0,0:06:46.18,0:06:48.14,*Default,,0000,0000,0000,,O-O que há com aquele garoto?
+Dialogue: Marked=0,0:06:49.39,0:06:50.31,*Default,,0000,0000,0000,,Inacreditável...
+Dialogue: Marked=0,0:06:51.74,0:06:54.61,*Default,,0000,0000,0000,,E pensar que ele está lutando\Nde igual para igual contra o Goku-san...
+Dialogue: Marked=0,0:06:55.99,0:07:00.36,*Default,,0000,0000,0000,,Será que o cara incrível\Nque o Son-kun mencionou é aquele garoto?
+Dialogue: Marked=0,0:07:12.29,0:07:14.28,*Default,,0000,0000,0000,,Muito bem!\NMuito bem, garoto!
+Dialogue: Marked=0,0:07:14.28,0:07:15.67,*Default,,0000,0000,0000,,Vai! Vai!
+Dialogue: Marked=0,0:07:46.02,0:07:48.08,*Default,,0000,0000,0000,,Tem certeza de que\Nestá tudo bem não assistir às lutas?
+Dialogue: Marked=0,0:07:49.22,0:07:51.35,*Default,,0000,0000,0000,,Está tudo bem.
+Dialogue: Marked=0,0:07:51.35,0:07:56.34,*Default,,0000,0000,0000,,Afinal, será o Goku-san, algum dos outros\Nou você, Boo-san, que vencerá todas as lutas.
+Dialogue: Marked=0,0:07:57.10,0:08:01.28,*Default,,0000,0000,0000,,Além disso, Boo-san, não há ninguém\Nque possa enfrentar você e os outros, há?
+Dialogue: Marked=0,0:08:02.95,0:08:04.64,*Default,,0000,0000,0000,,Entendi!
+Dialogue: Marked=0,0:08:09.80,0:08:11.39,*Default,,0000,0000,0000,,O que é isso?\NO que está acontecendo?!
+Dialogue: Marked=0,0:08:19.70,0:08:21.32,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:08:42.99,0:08:45.37,*Default,,0000,0000,0000,,Eles estão empatados!\NEstão empatados!
+Dialogue: Marked=0,0:08:45.37,0:08:49.10,*Default,,0000,0000,0000,,O competidor Son e o competidor Oob\Nnão estão recuando um passo sequer!
+Dialogue: Marked=0,0:09:13.50,0:09:17.00,*Default,,0000,0000,0000,,P-Parem com isso, por favor!\NA arena está sendo destruída!
+Dialogue: Marked=0,0:09:27.17,0:09:28.18,*Default,,0000,0000,0000,,É verdade!
+Dialogue: Marked=0,0:09:29.49,0:09:33.46,*Default,,0000,0000,0000,,Parece que é exatamente como o Goku disse.\NAparentemente, ele é a reencarnação de Boo.
+Dialogue: Marked=0,0:09:34.22,0:09:36.56,*Default,,0000,0000,0000,,Na verdade,\Né a única coisa que consigo imaginar.
+Dialogue: Marked=0,0:09:47.65,0:09:49.84,*Default,,0000,0000,0000,,O competidor Oob tem um poder incrível!
+Dialogue: Marked=0,0:09:49.84,0:09:51.40,*Default,,0000,0000,0000,,Mesmo com seu pequeno corpo,
+Dialogue: Marked=0,0:09:51.40,0:09:53.95,*Default,,0000,0000,0000,,ele está facilmente\Narremessando o competidor Son!
+Dialogue: Marked=0,0:10:01.52,0:10:04.21,*Default,,0000,0000,0000,,Isso é pelo que você disse antes!
+Dialogue: Marked=0,0:10:10.87,0:10:12.22,*Default,,0000,0000,0000,,- Vovô!
+Dialogue: Marked=0,0:10:11.74,0:10:12.22,*Default,,0000,0000,0000,,- Cuidado!
+Dialogue: Marked=0,0:10:12.92,0:10:14.81,*Default,,0000,0000,0000,,Vovô, agüente firme!
+Dialogue: Marked=0,0:10:17.76,0:10:18.69,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:10:22.69,0:10:23.66,*Default,,0000,0000,0000,,Son-kun...
+Dialogue: Marked=0,0:10:25.54,0:10:26.70,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:10:39.36,0:10:42.79,*Default,,0000,0000,0000,,Ora!\NO participante Son caiu?
+Dialogue: Marked=0,0:10:44.20,0:10:45.71,*Default,,0000,0000,0000,,Incrível, garoto!
+Dialogue: Marked=0,0:11:25.34,0:11:27.38,*Default,,0000,0000,0000,,Você realmente me pegou naquela hora.
+Dialogue: Marked=0,0:11:28.57,0:11:29.63,*Default,,0000,0000,0000,,Muito bem...
+Dialogue: Marked=0,0:11:30.69,0:11:31.68,*Default,,0000,0000,0000,,Venha!
+
+Dialogue: Marked=0,0:11:39.68,0:11:42.50,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:39.68,0:11:42.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:39.68,0:11:42.50,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:39.68,0:11:42.50,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:45.77,0:11:48.51,comercial3,,0000,0000,0000,,{\fscx34\fscy45\pos(546,555)\t(9110,0)}animecentral.com.br
+Dialogue: Marked=0,0:11:45.77,0:11:48.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:45.77,0:11:48.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:45.77,0:11:48.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:10.79,0:12:12.19,*Default,,0000,0000,0000,,Mas que caras!
+Dialogue: Marked=0,0:12:12.19,0:12:15.80,*Default,,0000,0000,0000,,Seria melhor você se afastar também,\Nse não quiser morrer!
+Dialogue: Marked=0,0:12:19.60,0:12:21.89,*Default,,0000,0000,0000,,Aonde vocês estão indo?
+Dialogue: Marked=0,0:12:23.53,0:12:27.48,*Default,,0000,0000,0000,,Knock-san, você ainda vai participar?
+Dialogue: Marked=0,0:12:28.87,0:12:32.53,*Default,,0000,0000,0000,,Bem, eu só estava indo até o banheiro.\NEstou precisando urinar!
+Dialogue: Marked=0,0:12:41.51,0:12:43.78,*Default,,0000,0000,0000,,Bem, eu só...
+Dialogue: Marked=0,0:12:46.33,0:12:48.44,*Default,,0000,0000,0000,,Eu ouço alguém pedindo ajuda!
+Dialogue: Marked=0,0:12:48.44,0:12:50.73,*Default,,0000,0000,0000,,É a voz de uma jovem garota\Nsendo aterrorizada pelo mal!
+Dialogue: Marked=0,0:12:50.73,0:12:52.36,*Default,,0000,0000,0000,,Espere por mim!
+Dialogue: Marked=0,0:12:52.36,0:12:57.60,*Default,,0000,0000,0000,,O Capitão Chicken, o Embaixador\Nda Justiça, está indo agora mesmo!
+Dialogue: Marked=0,0:12:59.07,0:13:02.60,*Default,,0000,0000,0000,,Isso faz perderem seus combates nas finais.
+Dialogue: Marked=0,0:13:33.42,0:13:35.05,*Default,,0000,0000,0000,,Eu não vou perder...
+Dialogue: Marked=0,0:13:35.70,0:13:37.42,*Default,,0000,0000,0000,,Eu fiz uma promessa...
+Dialogue: Marked=0,0:13:37.42,0:13:39.34,*Default,,0000,0000,0000,,Eu não vou perder...
+Dialogue: Marked=0,0:13:39.34,0:13:40.69,*Default,,0000,0000,0000,,Eu não vou perder!
+Dialogue: Marked=0,0:13:41.98,0:13:43.35,*Default,,0000,0000,0000,,Eu não vou perder...
+Dialogue: Marked=0,0:13:43.94,0:13:45.89,*Default,,0000,0000,0000,,Eu não vou perder...
+Dialogue: Marked=0,0:13:45.89,0:13:47.44,*Default,,0000,0000,0000,,Eu não vou perder!
+Dialogue: Marked=0,0:13:48.28,0:13:54.57,*Default,,0000,0000,0000,,Eu não vou perder!
+Dialogue: Marked=0,0:14:27.15,0:14:29.35,*Default,,0000,0000,0000,,I-Isso é impossível!
+Dialogue: Marked=0,0:14:44.12,0:14:45.37,*Default,,0000,0000,0000,,E-Está flutuando!
+Dialogue: Marked=0,0:14:50.74,0:14:52.14,Poder,,0000,0000,0000,,{\fad(200,500)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,1400,\fscx120\fscy120)}KA
+Dialogue: Marked=0,0:14:52.14,0:14:53.13,Poder,,0000,0000,0000,,{\fad(200,500)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,990,\fscx120\fscy120)}ME
+Dialogue: Marked=0,0:14:53.60,0:14:55.14,Poder,,0000,0000,0000,,{\fad(200,500)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,1540,\fscx120\fscy120)}HA
+Dialogue: Marked=0,0:14:55.14,0:14:56.38,Poder,,0000,0000,0000,,{\fad(200,500)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,1240,\fscx120\fscy120)}ME
+Dialogue: Marked=0,0:15:00.90,0:15:01.80,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:15:18.51,0:15:22.22,*Default,,0000,0000,0000,,É mesmo, você ainda\Nnão aprendeu a voar pelo céu?
+Dialogue: Marked=0,0:15:22.22,0:15:23.83,*Default,,0000,0000,0000,,Isso é normal.
+Dialogue: Marked=0,0:15:23.83,0:15:27.25,*Default,,0000,0000,0000,,Já que você não teve um professor\Ne provavelmente nunca sequer pensou sobre isso.
+Dialogue: Marked=0,0:15:34.89,0:15:36.98,*Default,,0000,0000,0000,,Desculpe por eu ter dito aquelas coisas antes.
+Dialogue: Marked=0,0:15:36.98,0:15:37.55,*Default,,0000,0000,0000,,Perdoe-me, por favor?
+Dialogue: Marked=0,0:15:39.22,0:15:41.18,*Default,,0000,0000,0000,,Eu queria saber do que você era capaz.
+Dialogue: Marked=0,0:15:42.20,0:15:45.56,*Default,,0000,0000,0000,,Se eu não tivesse feito aquilo,\Nnão parecia que você lutaria a sério contra mim.
+Dialogue: Marked=0,0:15:46.53,0:15:50.14,*Default,,0000,0000,0000,,Assim como eu esperava,\Nvocê é quem eu achei que seria.
+Dialogue: Marked=0,0:15:50.14,0:15:51.27,*Default,,0000,0000,0000,,Você é impressionante! Incrível!
+Dialogue: Marked=0,0:15:54.54,0:15:57.61,*Default,,0000,0000,0000,,Mas você não está acostumado a usar seu poder.
+Dialogue: Marked=0,0:15:58.49,0:16:01.32,*Default,,0000,0000,0000,,Esta é a primeira vez que\Nvocê lutou dessa forma, certo?
+Dialogue: Marked=0,0:16:03.11,0:16:04.83,*Default,,0000,0000,0000,,Vamos ver...
+Dialogue: Marked=0,0:16:07.54,0:16:08.67,*Default,,0000,0000,0000,,Muito bem, decidi.
+Dialogue: Marked=0,0:16:09.60,0:16:13.74,*Default,,0000,0000,0000,,Eu viverei junto com você na sua casa\Na partir de agora e ensinarei a você como lutar.
+Dialogue: Marked=0,0:16:13.74,0:16:16.65,*Default,,0000,0000,0000,,Assim que eu fizer isso,\Nvocê vai se tornar muito, mas muito forte.
+Dialogue: Marked=0,0:16:16.65,0:16:17.46,*Default,,0000,0000,0000,,Tudo bem, certo?
+Dialogue: Marked=0,0:16:18.44,0:16:20.88,*Default,,0000,0000,0000,,M-Mais forte?
+Dialogue: Marked=0,0:16:20.88,0:16:21.76,*Default,,0000,0000,0000,,M-Mas...
+Dialogue: Marked=0,0:16:23.16,0:16:24.58,*Default,,0000,0000,0000,,O que há de errado?
+Dialogue: Marked=0,0:16:24.58,0:16:27.31,*Default,,0000,0000,0000,,Isso é impossível.\NMinha família é muito pobre.
+Dialogue: Marked=0,0:16:29.52,0:16:32.81,*Default,,0000,0000,0000,,Pelo prêmio em dinheiro\Nque eu insisti em vir até aqui.
+Dialogue: Marked=0,0:16:33.65,0:16:36.46,*Default,,0000,0000,0000,,Sem problemas, sem problemas.\NNão se preocupe com dinheiro.
+Dialogue: Marked=0,0:16:36.46,0:16:38.78,*Default,,0000,0000,0000,,Eu pegarei um pouco do Mister Satan.
+Dialogue: Marked=0,0:16:38.78,0:16:41.95,*Default,,0000,0000,0000,,Afinal, ele consegue bastante por ser um herói.
+Dialogue: Marked=0,0:16:41.95,0:16:42.91,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:16:42.91,0:16:43.68,*Default,,0000,0000,0000,,Não há razão para ficar tão preocupado.
+Dialogue: Marked=0,0:16:44.74,0:16:45.32,*Default,,0000,0000,0000,,Além disso...
+Dialogue: Marked=0,0:16:46.17,0:16:48.65,*Default,,0000,0000,0000,,De agora em diante,\Nse houver alguma situação de emergência,
+Dialogue: Marked=0,0:16:48.65,0:16:50.58,*Default,,0000,0000,0000,,você será o único que\Nestará aqui para proteger a paz!
+Dialogue: Marked=0,0:16:53.60,0:16:54.37,*Default,,0000,0000,0000,,Espere um pouco!
+Dialogue: Marked=0,0:16:54.37,0:16:55.58,*Default,,0000,0000,0000,,T-Tá!
+Dialogue: Marked=0,0:17:03.40,0:17:04.22,*Default,,0000,0000,0000,,P-Papai!
+Dialogue: Marked=0,0:17:05.03,0:17:10.43,*Default,,0000,0000,0000,,Adivinhem! Eu vou morar junto com\Nele na casa dele e assim poderei treiná-lo.
+Dialogue: Marked=0,0:17:11.48,0:17:12.53,*Default,,0000,0000,0000,,G-Goku-san!
+Dialogue: Marked=0,0:17:12.53,0:17:13.52,*Default,,0000,0000,0000,,Son-kun!
+Dialogue: Marked=0,0:17:14.36,0:17:16.91,*Default,,0000,0000,0000,,Eu não sei quantos anos isso vai levar,
+Dialogue: Marked=0,0:17:16.91,0:17:18.44,*Default,,0000,0000,0000,,mas eu virei para casa de vez em quando.
+Dialogue: Marked=0,0:17:19.26,0:17:20.32,*Default,,0000,0000,0000,,Cuidem das coisas por mim, certo?
+Dialogue: Marked=0,0:17:21.08,0:17:23.61,*Default,,0000,0000,0000,,E-Ei, papai, o que você está...
+Dialogue: Marked=0,0:17:24.38,0:17:24.74,*Default,,0000,0000,0000,,Tchau!
+Dialogue: Marked=0,0:17:26.24,0:17:26.95,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:17:27.73,0:17:29.25,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:17:31.47,0:17:32.89,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:17:32.89,0:17:33.75,*Default,,0000,0000,0000,,Goku-san...
+Dialogue: Marked=0,0:17:34.53,0:17:37.46,*Default,,0000,0000,0000,,Vovô!
+Dialogue: Marked=0,0:17:37.91,0:17:40.46,*Default,,0000,0000,0000,,Vovô!
+Dialogue: Marked=0,0:17:45.12,0:17:45.80,*Default,,0000,0000,0000,,O que houve, Pan?
+Dialogue: Marked=0,0:17:46.38,0:17:48.85,*Default,,0000,0000,0000,,É verdade?\NO que você acabou de dizer é verdade?
+Dialogue: Marked=0,0:17:49.56,0:17:50.28,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:17:51.75,0:17:54.38,*Default,,0000,0000,0000,,Não!\NEu não vou poder ver você, vovô...
+Dialogue: Marked=0,0:17:54.38,0:17:56.10,*Default,,0000,0000,0000,,Eu não... Eu não quero isso!
+Dialogue: Marked=0,0:17:57.07,0:17:58.69,*Default,,0000,0000,0000,,Ei, ei, ei, Pan!
+Dialogue: Marked=0,0:17:58.69,0:18:01.18,*Default,,0000,0000,0000,,Não é como se nós nunca\Nmais fôssemos nos ver de novo.
+Dialogue: Marked=0,0:18:01.18,0:18:03.36,*Default,,0000,0000,0000,,Eu disse que viria para casa de vez em quando, certo?
+Dialogue: Marked=0,0:18:06.67,0:18:07.36,*Default,,0000,0000,0000,,Verdade?
+Dialogue: Marked=0,0:18:08.23,0:18:10.10,*Default,,0000,0000,0000,,Sim, eu prometo!
+Dialogue: Marked=0,0:18:10.10,0:18:10.99,*Default,,0000,0000,0000,,Então não chore!
+Dialogue: Marked=0,0:18:15.94,0:18:17.00,*Default,,0000,0000,0000,,Tá!
+Dialogue: Marked=0,0:18:17.79,0:18:19.83,*Default,,0000,0000,0000,,Muito bem, boa menina.
+Dialogue: Marked=0,0:18:21.72,0:18:24.21,*Default,,0000,0000,0000,,E vocês aí não deixem de treinar também!
+Dialogue: Marked=0,0:18:25.02,0:18:26.29,*Default,,0000,0000,0000,,Afinal, assim como acontece com ele,
+Dialogue: Marked=0,0:18:26.29,0:18:30.01,*Default,,0000,0000,0000,,a paz na Terra está\Nsobre seus ombros a partir de agora.
+Dialogue: Marked=0,0:18:32.64,0:18:33.02,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:18:33.87,0:18:35.61,*Default,,0000,0000,0000,,Eu também vou treinar!
+Dialogue: Marked=0,0:18:35.61,0:18:38.93,*Default,,0000,0000,0000,,E eu também vou ficar muito\Nmais forte, assim como você, vovô!
+Dialogue: Marked=0,0:18:38.93,0:18:41.02,*Default,,0000,0000,0000,,Muito bem, esse é o espírito!
+Dialogue: Marked=0,0:18:43.10,0:18:44.09,*Default,,0000,0000,0000,,Então...
+Dialogue: Marked=0,0:18:45.54,0:18:47.46,*Default,,0000,0000,0000,,Desculpe por isso, Vegeta.
+Dialogue: Marked=0,0:18:47.46,0:18:50.16,*Default,,0000,0000,0000,,Logo depois de eu ter\Nconvencido você a vir até aqui...
+Dialogue: Marked=0,0:18:51.50,0:18:54.72,*Default,,0000,0000,0000,,De qualquer forma, em combates\Ninsignificantes como estes, nem eu, você...
+Dialogue: Marked=0,0:18:54.72,0:18:57.21,*Default,,0000,0000,0000,,ou esse garoto, Oob,\Npoderíamos lutar com nossas melhores técnicas.
+Dialogue: Marked=0,0:18:58.34,0:18:59.48,*Default,,0000,0000,0000,,Não é verdade!
+Dialogue: Marked=0,0:19:01.32,0:19:02.21,*Default,,0000,0000,0000,,Tchau!
+Dialogue: Marked=0,0:19:08.85,0:19:11.13,*Default,,0000,0000,0000,,Bem, vamos lá!\NSuba nas minhas costas!
+Dialogue: Marked=0,0:19:11.13,0:19:13.01,*Default,,0000,0000,0000,,S-Sim...\ND-Desse jeito?
+Dialogue: Marked=0,0:19:13.77,0:19:16.59,*Default,,0000,0000,0000,,Sua casa é no sul, certo?
+Dialogue: Marked=0,0:19:16.59,0:19:17.52,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:19:17.52,0:19:19.02,*Default,,0000,0000,0000,,Segure-se firme em mim, Oob!
+Dialogue: Marked=0,0:19:20.03,0:19:21.15,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:19:21.97,0:19:23.40,*Default,,0000,0000,0000,,Muito bem, aí vamos nós!
+Dialogue: Marked=0,0:19:33.65,0:19:36.57,*Default,,0000,0000,0000,,C-Competidor Son?\NCompetidor Oob?!
+Dialogue: Marked=0,0:19:36.57,0:19:38.83,*Default,,0000,0000,0000,,O que devemos fazer com os combates?!
+Dialogue: Marked=0,0:19:39.62,0:19:40.98,*Default,,0000,0000,0000,,- Vovô!\N- Ele se foi!
+Dialogue: Marked=0,0:19:40.98,0:19:44.84,*Default,,0000,0000,0000,,- O-O que está acontecendo?
+Dialogue: Marked=0,0:19:42.29,0:19:44.84,*Default,,0000,0000,0000,,- Tchau, tchau!
+Dialogue: Marked=0,0:19:45.93,0:19:46.96,*Default,,0000,0000,0000,,E-Ele não está falando sério...
+Dialogue: Marked=0,0:19:46.96,0:19:48.02,*Default,,0000,0000,0000,,Não pode ser...
+Dialogue: Marked=0,0:19:48.02,0:19:50.34,*Default,,0000,0000,0000,,Treinamento?\NEi, o que isso significa?
+Dialogue: Marked=0,0:19:53.81,0:19:54.85,*Default,,0000,0000,0000,,Ele se foi!
+Dialogue: Marked=0,0:19:55.65,0:19:57.85,*Default,,0000,0000,0000,,O que o Son-kun estava pensando?!
+Dialogue: Marked=0,0:19:58.61,0:20:01.59,*Default,,0000,0000,0000,,Francamente, ele sempre fez o que quis!
+Dialogue: Marked=0,0:20:04.50,0:20:07.94,*Default,,0000,0000,0000,,Já faz muito tempo desde\Nque vi o Goku feliz assim.
+Dialogue: Marked=0,0:20:10.08,0:20:11.15,*Default,,0000,0000,0000,,Você está certo.
+Dialogue: Marked=0,0:20:13.56,0:20:15.68,*Default,,0000,0000,0000,,Ei, o que está acontecendo?
+Dialogue: Marked=0,0:20:15.68,0:20:17.95,*Default,,0000,0000,0000,,Não faço idéia.\NNão sei o que está havendo.
+Dialogue: Marked=0,0:20:19.76,0:20:23.05,*Default,,0000,0000,0000,,Kakarotto, eu consigo entender suas razões.
+Dialogue: Marked=0,0:20:27.95,0:20:32.07,*Default,,0000,0000,0000,,Você não está treinando esse garoto,\Na reencarnação de Boo,
+Dialogue: Marked=0,0:20:32.07,0:20:34.90,*Default,,0000,0000,0000,,{\fad(0,600)}apenas pelo bem da manutenção da paz.
+Dialogue: Marked=0,0:20:43.85,0:20:45.86,*Default,,0000,0000,0000,,Então, Oob...
+Dialogue: Marked=0,0:20:45.86,0:20:46.32,*Default,,0000,0000,0000,,S-Sim?
+Dialogue: Marked=0,0:20:47.44,0:20:50.13,*Default,,0000,0000,0000,,Assim que seu treinamento estiver completo,
+Dialogue: Marked=0,0:20:50.13,0:20:53.32,*Default,,0000,0000,0000,,vamos lutar a sério de novo?
+Dialogue: Marked=0,0:20:54.55,0:20:55.68,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:20:55.68,0:20:59.33,*Default,,0000,0000,0000,,Para dizer a verdade,\Neste é o meu maior objetivo!
+Dialogue: Marked=0,0:21:01.57,0:21:05.83,*Default,,0000,0000,0000,,Não está animado, Oob, por conseguir\Nencontrar alguém incrivelmente forte?
+Dialogue: Marked=0,0:21:06.84,0:21:07.09,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:21:07.67,0:21:08.92,*Default,,0000,0000,0000,,Não é mesmo?!
+Dialogue: Marked=0,0:21:18.61,0:21:21.28,N!,,0000,0000,0000,,{\fad(300,500)}Por cima da faixa do Tenkaichi Budoukai, há um aviso de "CANCELADO".
+Dialogue: Marked=0,0:21:49.51,0:21:52.40,*Default,,0000,0000,0000,,Muito bem!\NVamos ficar mais fortes!
+Dialogue: Marked=0,0:21:53.42,0:21:55.05,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:21:55.05,0:21:57.43,*Default,,0000,0000,0000,,Não, não!\NVocê deve dizer: "Certo!"
+Dialogue: Marked=0,0:21:59.45,0:22:00.18,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:22:00.84,0:22:04.43,*Default,,0000,0000,0000,,Mais uma vez: vamos ficar mais fortes!
+Dialogue: Marked=0,0:22:05.17,0:22:07.19,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:22:11.39,0:22:15.24,Narrador,,0000,0000,0000,,O guerreiro que sempre\Nlutou para superar seus limites,
+Dialogue: Marked=0,0:22:15.24,0:22:18.77,Narrador,,0000,0000,0000,,buscando manter a paz na Terra,\Nassim como em todo o universo,
+Dialogue: Marked=0,0:22:18.77,0:22:20.16,Narrador,,0000,0000,0000,,Son Goku,
+Dialogue: Marked=0,0:22:20.16,0:22:22.22,Narrador,,0000,0000,0000,,agora faz sua despedida.
+Dialogue: Marked=0,0:22:22.22,0:22:25.25,Narrador,,0000,0000,0000,,Volte logo, Goku!
+Dialogue: Marked=0,0:22:25.25,0:22:29.55,Narrador,,0000,0000,0000,,Todos estão esperando a sua volta!
+
+Dialogue: Marked=0,0:00:25.52,0:00:28.41,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:00:28.41,0:00:28.52,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}Saibankan
+Dialogue: Marked=0,0:01:05.64,0:01:08.70,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(635,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:24:03.67,0:24:10.11,Poder,,0000,0000,0000,,{\1c&HF9E0F4\bord0\fscx75\fscy55\pos(240,160)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.67,0:24:10.11,Poder,,0000,0000,0000,,{\1c&HF9E0F4\bord0\fscx55\fscy48\pos(240,235)\t(9110,0)}www.animecentral.com.br
+
+Dialogue: Marked=0,0:22:49.78,0:22:55.31,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx80\fscy80\pos(400,325)}Para nós, concluir Dragon Ball Z\Nprova que não há sonho impossível de ser realizado.
+Dialogue: Marked=0,0:23:02.46,0:23:08.70,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx70\fscy70\pos(575,300)}É com muito orgulho que esses 291
+Dialogue: Marked=0,0:23:02.46,0:23:08.70,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx70\fscy70\pos(584,335)}episódios são finalmente concluídos.
+Dialogue: Marked=0,0:23:27.57,0:23:36.58,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx80\fscy80\pos(400,490)}Nós, do Kintoun, agradecemos a todos que participaram\Nde alguma forma para a realização deste grandioso projeto.
+Dialogue: Marked=0,0:23:42.17,0:23:49.76,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx80\fscy80\pos(400,325)}Vivam os sonhos intensamente!
+Dialogue: Marked=0,0:23:49.93,0:23:58.89,PLACA,,0000,0000,0000,,{\fad(100,100)\1c&HFEFAF9\bord0\shad0\fscx80\fscy80\pos(400,425)}É Kintoun, porra! :D
+Dialogue: Marked=0,0:24:03.67,0:24:10.11,PLACA,,0000,0000,0000,,{\fad(0,0)\1c&HFEFAF9\bord0\shad0\fscx200\fscy200\pos(700,580)}F I M

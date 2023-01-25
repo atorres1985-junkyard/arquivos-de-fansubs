@@ -1,0 +1,157 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.06,0:01:54.61,*Default,,0000,0000,0000,,É o fim de vocês.
+Dialogue: Marked=0,0:01:57.02,0:01:59.37,*Default,,0000,0000,0000,,Eu vou me explodir.
+Dialogue: Marked=0,0:02:00.11,0:02:03.71,*Default,,0000,0000,0000,,Eu vou morrer, mas todos vocês também vão.
+Dialogue: Marked=0,0:02:03.71,0:02:06.66,*Default,,0000,0000,0000,,A Terra inteira vai ser destruída!
+Dialogue: Marked=0,0:02:07.12,0:02:07.50,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:02:07.82,0:02:09.79,*Default,,0000,0000,0000,,O quê? Vai explodir?
+Dialogue: Marked=0,0:02:13.85,0:02:15.22,*Default,,0000,0000,0000,,Adeus, Gohan!
+Dialogue: Marked=0,0:02:20.77,0:02:21.72,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:02:40.95,0:02:46.06,Narrador,,0000,0000,0000,,Goku deu a sua vida por\Nvontade própria para salvar a Terra.
+Dialogue: Marked=0,0:02:50.02,0:02:55.52,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:03:01.67,0:03:02.68,*Default,,0000,0000,0000,,O que é isso?
+Dialogue: Marked=0,0:03:05.22,0:03:07.68,Narrador,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:03:20.00,0:03:21.70,*Default,,0000,0000,0000,,Este Ki...
+Dialogue: Marked=0,0:03:22.41,0:03:23.95,*Default,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:03:24.98,0:03:26.91,*Default,,0000,0000,0000,,Impossível!
+Dialogue: Marked=0,0:03:53.92,0:03:56.48,Narrador,,0000,0000,0000,,Cell não morreu.
+
+Dialogue: Marked=0,0:03:58.44,0:04:06.46,apresDBZ2,,0000,0000,0000,,{\c&HC4DBEB\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 189
+Dialogue: Marked=0,0:03:58.44,0:04:06.46,apresDBZ2,,0000,0000,0000,,{\c&HC4DBEB\pos(305,175)\fad(500,0)\fscx143\fscy143}Pesadelo do meio-dia{\i1}!!
+Dialogue: Marked=0,0:03:58.44,0:04:06.46,apresDBZ2,,0000,0000,0000,,{\c&HC4DBEB\pos(395,555)\fad(500,0)\fscx260\fscy260}O terror absoluto
+
+Dialogue: Marked=0,0:04:46.95,0:04:49.54,*Default,,0000,0000,0000,,Apenas Cell voltou!
+Dialogue: Marked=0,0:04:50.65,0:04:54.22,*Default,,0000,0000,0000,,O que será que aconteceu com\Naquele jovem que estava junto com Cell?
+Dialogue: Marked=0,0:04:54.69,0:05:02.26,*Default,,0000,0000,0000,,Cell Games: que coisa mais impressionante,\Naterrorizante e fora da imaginação.
+Dialogue: Marked=0,0:05:05.36,0:05:06.84,*Default,,0000,0000,0000,,Estou falando de novo?
+Dialogue: Marked=0,0:05:16.26,0:05:18.65,*Default,,0000,0000,0000,,Por quê? Por quê?
+Dialogue: Marked=0,0:05:20.90,0:05:22.65,*Default,,0000,0000,0000,,Cell está vivo?
+Dialogue: Marked=0,0:05:24.40,0:05:28.54,*Default,,0000,0000,0000,,O que aconteceu, Kaio-sama?\NTenho certeza de que ele explodiu!
+Dialogue: Marked=0,0:05:30.37,0:05:34.91,*Default,,0000,0000,0000,,Não sei o que aconteceu, mas,\Né certo que, de alguma forma, ele sobreviveu.
+Dialogue: Marked=0,0:05:38.33,0:05:39.78,*Default,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:05:39.78,0:05:42.38,*Default,,0000,0000,0000,,Isso quer dizer que o que fiz foi inútil?
+Dialogue: Marked=0,0:05:42.95,0:05:44.56,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:05:45.44,0:05:48.89,*Default,,0000,0000,0000,,E, ainda por cima, fez o meu planeta explodir.
+Dialogue: Marked=0,0:05:54.16,0:05:55.64,*Default,,0000,0000,0000,,Merda...
+Dialogue: Marked=0,0:06:02.77,0:06:04.71,*Default,,0000,0000,0000,,Kami-sama, qual o problema?
+Dialogue: Marked=0,0:06:04.71,0:06:06.74,*Default,,0000,0000,0000,,Cell... Cell reviveu.
+Dialogue: Marked=0,0:06:07.26,0:06:08.36,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:06:09.34,0:06:12.24,*Default,,0000,0000,0000,,E ele ainda aumentou bastante o poder.
+Dialogue: Marked=0,0:06:12.95,0:06:15.58,*Default,,0000,0000,0000,,Mas, Son Gohan pode...
+Dialogue: Marked=0,0:06:19.02,0:06:22.50,*Default,,0000,0000,0000,,Pode ser que Gohan-san não consiga desta vez...
+Dialogue: Marked=0,0:06:28.88,0:06:31.30,*Default,,0000,0000,0000,,Parece que estão surpresos.
+Dialogue: Marked=0,0:06:31.97,0:06:34.02,*Default,,0000,0000,0000,,Bem, vou explicar o que aconteceu.
+Dialogue: Marked=0,0:06:34.89,0:06:38.31,*Default,,0000,0000,0000,,Cometi um infeliz erro de cálculos.
+Dialogue: Marked=0,0:06:44.88,0:06:51.54,*Default,,0000,0000,0000,,Dentro da minha cabeça,\Ntem uma pequena massa.
+Dialogue: Marked=0,0:06:52.32,0:06:58.00,*Default,,0000,0000,0000,,Se ela não for destruída, posso\Nreconstruir o meu corpo inteiro.
+Dialogue: Marked=0,0:06:59.39,0:07:02.84,L!,,0000,0000,0000,,Desculpe, Kaio-sama, mas não tinha outro jeito.
+Dialogue: Marked=0,0:07:03.20,0:07:05.13,L!,,0000,0000,0000,,Mesmo assim...
+Dialogue: Marked=0,0:07:39.73,0:07:41.47,*Default,,0000,0000,0000,,Quando eu me explodi...
+Dialogue: Marked=0,0:07:43.23,0:07:47.70,*Default,,0000,0000,0000,,Meu núcleo permaneceu sem danos.
+Dialogue: Marked=0,0:08:24.33,0:08:29.15,*Default,,0000,0000,0000,,Para dizer a verdade,\Nnão apenas me recuperei.
+Dialogue: Marked=0,0:08:29.15,0:08:31.01,*Default,,0000,0000,0000,,Tive sorte.
+Dialogue: Marked=0,0:08:56.78,0:09:02.91,*Default,,0000,0000,0000,,Para completar, mesmo sem a Nº 18,\Nfui reconstruído para a forma perfeita.
+Dialogue: Marked=0,0:09:05.50,0:09:11.92,*Default,,0000,0000,0000,,E não é a mesma forma perfeita de antes.\NFiquei tão forte quanto Son Gohan.
+Dialogue: Marked=0,0:09:12.74,0:09:15.97,*Default,,0000,0000,0000,,Provavelmente foi por\Ncausa das células de Saiya-jin,
+Dialogue: Marked=0,0:09:16.50,0:09:21.18,*Default,,0000,0000,0000,,que permitem o aumento de\Npoder quando enfrentam a morte.
+Dialogue: Marked=0,0:09:23.17,0:09:28.30,*Default,,0000,0000,0000,,Além disso, eu aprendi\No Shunkan Idou de Son Goku.
+Dialogue: Marked=0,0:09:34.48,0:09:39.16,*Default,,0000,0000,0000,,Resumindo, consegui ficar perfeito e voltar para cá.
+Dialogue: Marked=0,0:09:39.74,0:09:46.17,*Default,,0000,0000,0000,,Ao invés de me derrotar,\Nele me deu vários presentes.
+Dialogue: Marked=0,0:10:06.05,0:10:07.39,*Default,,0000,0000,0000,,G-Gohan...
+Dialogue: Marked=0,0:10:21.80,0:10:23.50,*Default,,0000,0000,0000,,Qual é a graça?
+Dialogue: Marked=0,0:10:25.76,0:10:27.25,*Default,,0000,0000,0000,,Estou feliz.
+Dialogue: Marked=0,0:10:29.41,0:10:30.25,*Default,,0000,0000,0000,,Feliz?
+Dialogue: Marked=0,0:10:31.17,0:10:37.26,*Default,,0000,0000,0000,,É. Estou feliz porque posso vingar\No meu pai, o qual você tirou de mim!
+Dialogue: Marked=0,0:10:40.15,0:10:43.67,*Default,,0000,0000,0000,,Eu queria matá-lo com minhas próprias mãos.
+Dialogue: Marked=0,0:10:43.67,0:10:45.27,*Default,,0000,0000,0000,,Tinha isso em mente.
+Dialogue: Marked=0,0:10:51.46,0:10:53.26,*Default,,0000,0000,0000,,Isso eu não sei.
+Dialogue: Marked=0,0:10:53.26,0:10:56.17,*Default,,0000,0000,0000,,Não pense que pode me derrotar desta vez.
+Dialogue: Marked=0,0:11:19.81,0:11:20.76,*Default,,0000,0000,0000,,Trunks!
+Dialogue: Marked=0,0:11:41.89,0:11:42.99,*Default,,0000,0000,0000,,Trunks...
+Dialogue: Marked=0,0:11:49.25,0:11:50.46,L!,,0000,0000,0000,,Tchau, pessoal.
+Dialogue: Marked=0,0:11:51.12,0:11:51.75,L!,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:11:53.43,0:11:54.50,P!,,0000,0000,0000,,Kakarotto...
+Dialogue: Marked=0,0:12:05.03,0:12:11.52,L!,,0000,0000,0000,,Ao invés de me derrotar,\NSon Goku me deu vários presentes.
+Dialogue: Marked=0,0:12:17.74,0:12:18.65,L!,,0000,0000,0000,,Feliz?
+Dialogue: Marked=0,0:12:19.85,0:12:22.15,L!,,0000,0000,0000,,Estou feliz porque posso vingar o meu pai!
+Dialogue: Marked=0,0:12:23.75,0:12:24.54,P!,,0000,0000,0000,,Gohan...
+Dialogue: Marked=0,0:12:36.66,0:12:39.59,L!,,0000,0000,0000,,Queria matá-lo com as minhas mãos.
+Dialogue: Marked=0,0:12:40.47,0:12:42.59,P!,,0000,0000,0000,,N-Não!
+Dialogue: Marked=0,0:12:43.67,0:12:48.76,P!,,0000,0000,0000,,O guerreiro que vai derrotar\NCell não é Kakarotto e nem seu filho!
+Dialogue: Marked=0,0:12:49.92,0:12:54.10,P!,,0000,0000,0000,,Sou... Sou eu!
+Dialogue: Marked=0,0:12:59.85,0:13:04.37,*Default,,0000,0000,0000,,{\fad(0,1000)}Merda!
+
+Dialogue: Marked=0,0:13:25.05,0:13:29.27,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:13:25.05,0:13:29.27,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:25.05,0:13:29.27,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:25.05,0:13:29.27,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:32.22,0:13:34.44,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:13:32.22,0:13:34.44,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:32.22,0:13:34.44,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:32.22,0:13:34.44,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:15:19.05,0:15:23.00,*Default,,0000,0000,0000,,O que será que está acontecendo?
+Dialogue: Marked=0,0:15:37.47,0:15:38.68,*Default,,0000,0000,0000,,Vegeta!
+Dialogue: Marked=0,0:15:54.81,0:15:55.75,*Default,,0000,0000,0000,,Vegeta...
+Dialogue: Marked=0,0:16:05.50,0:16:10.17,*Default,,0000,0000,0000,,Cell! Eu, o príncipe do\Nplaneta Vegeta, vou derrotá-lo!
+Dialogue: Marked=0,0:17:45.53,0:17:48.48,*Default,,0000,0000,0000,,O que o príncipe do planeta Vegeta ia fazer?
+Dialogue: Marked=0,0:17:57.39,0:17:59.60,*Default,,0000,0000,0000,,Cell acabou ganhando...
+Dialogue: Marked=0,0:18:00.32,0:18:02.96,*Default,,0000,0000,0000,,O que será que vai acontecer agora?
+Dialogue: Marked=0,0:18:14.38,0:18:17.09,*Default,,0000,0000,0000,,Suma, Vegeta!
+Dialogue: Marked=0,0:19:46.78,0:19:50.85,*Default,,0000,0000,0000,,Ora, ora, eu não esperava por essa.
+Dialogue: Marked=0,0:20:13.68,0:20:15.63,*Default,,0000,0000,0000,,G-Gohan!
+Dialogue: Marked=0,0:20:16.73,0:20:18.05,*Default,,0000,0000,0000,,Gohan!
+Dialogue: Marked=0,0:20:18.88,0:20:21.29,*Default,,0000,0000,0000,,Vegeta, seu idiota!
+Dialogue: Marked=0,0:20:21.29,0:20:25.05,*Default,,0000,0000,0000,,O Trunks pode ressuscitar com as Dragon Balls!
+Dialogue: Marked=0,0:20:31.14,0:20:35.75,*Default,,0000,0000,0000,,Parece que ainda tem vontade de lutar.
+Dialogue: Marked=0,0:20:40.25,0:20:42.89,*Default,,0000,0000,0000,,Mas, não vou mais brincar.
+Dialogue: Marked=0,0:20:43.91,0:20:45.99,*Default,,0000,0000,0000,,Vou acabar com tudo de uma vez.
+Dialogue: Marked=0,0:20:47.36,0:20:52.00,P!,,0000,0000,0000,,O poder de Cell aumentou mais do que pensei!
+Dialogue: Marked=0,0:20:53.10,0:20:55.67,*Default,,0000,0000,0000,,Senzu! Não tem mais Senzus?
+Dialogue: Marked=0,0:20:56.85,0:20:58.67,*Default,,0000,0000,0000,,Usamos todas...
+Dialogue: Marked=0,0:21:03.68,0:21:05.45,*Default,,0000,0000,0000,,Esse é o nosso fim.
+Dialogue: Marked=0,0:21:06.38,0:21:09.64,*Default,,0000,0000,0000,,O Gohan não pode lutar ferido daquele jeito.
+Dialogue: Marked=0,0:21:38.19,0:21:39.47,*Default,,0000,0000,0000,,Eu...
+Dialogue: Marked=0,0:21:40.87,0:21:42.67,*Default,,0000,0000,0000,,Não vou perdoá-los!
+Dialogue: Marked=0,0:21:58.04,0:22:00.77,*Default,,0000,0000,0000,,Sumam junto com a Terra!
+Dialogue: Marked=0,0:22:14.03,0:22:20.50,Narrador,,0000,0000,0000,,Cell está para destruir tudo na Terra.
+Dialogue: Marked=0,0:22:21.59,0:22:27.46,Narrador,,0000,0000,0000,,Gohan, que está ferido, não tem o que fazer?

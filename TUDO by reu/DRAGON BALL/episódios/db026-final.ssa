@@ -1,0 +1,251 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,0,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,0,1,0,0,0,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:50.48,0:13:00.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:58.00,0:02:00.26,Default,NTP,0000,0000,0000,!Effect,Como foi dito anteriormente,\Nhá muitas pessoas, e...
+Dialogue: Marked=0,0:02:00.26,0:02:04.79,Default,NTP,0000,0000,0000,!Effect,o Tenkaichi Budoukai,\Nfinalmente, chegou às finais.
+Dialogue: Marked=0,0:02:38.60,0:02:40.43,Default,NTP,0000,0000,0000,!Effect,Enquanto estava em difíceis\Nbatalhas contra estranhos oponentes,
+Dialogue: Marked=0,0:02:40.43,0:02:41.93,Default,NTP,0000,0000,0000,!Effect,e alguns tornando seu caminho\Nmais duro de se percorrer,
+Dialogue: Marked=0,0:02:41.93,0:02:46.27,Default,NTP,0000,0000,0000,!Effect,Goku concentrou sua força para\Neste combate. Enfrentando ele...
+Dialogue: Marked=0,0:02:46.27,0:02:49.14,Default,NTP,0000,0000,0000,!Effect,Derrotando Yamcha e Kuririn com facilidade...
+Dialogue: Marked=0,0:02:49.14,0:02:51.21,Default,NTP,0000,0000,0000,!Effect,Mostrando a eles o quão superior ele é...
+Dialogue: Marked=0,0:02:51.21,0:02:54.42,Default,NTP,0000,0000,0000,!Effect,O misterioso velhinho, Jackie Chun.
+Dialogue: Marked=0,0:02:54.82,0:02:57.55,Default,NTP,0000,0000,0000,!Effect,Sua verdadeira identidade é o\Nde mestre de Goku, Mestre Kame,
+Dialogue: Marked=0,0:02:57.75,0:03:00.12,Default,NTP,0000,0000,0000,!Effect,também conhecido como Muten Roshi!
+Dialogue: Marked=0,0:03:02.52,0:03:05.00,Default,NTP,0000,0000,0000,!Effect,Você pode me derrotar, Goku?
+Dialogue: Marked=0,0:03:06.53,0:03:10.00,Default,NTP,0000,0000,0000,!Effect,A Final!! Kamehameha
+Dialogue: Marked=0,0:03:13.60,0:03:16.96,Default,NTP,0000,0000,0000,!Effect,P-Pardon me a sec, let me through!\NDesculpe-me!  ****
+Dialogue: Marked=0,0:03:19.27,0:03:22.27,Default,NTP,0000,0000,0000,!Effect,Ah, Oolong, você achou o Mestre Kame?
+Dialogue: Marked=0,0:03:22.27,0:03:25.61,Default,NTP,0000,0000,0000,!Effect,Não, é inútil.\NÉ impossível com este tanto de pessoas!
+Dialogue: Marked=0,0:03:25.61,0:03:29.27,Default,NTP,0000,0000,0000,!Effect,Oh, bem. Ele provavelmente\Nestá assistindo de algum lugar.
+Dialogue: Marked=0,0:03:32.61,0:03:37.29,Default,NTP,0000,0000,0000,!Effect,Então, antes de começarmos,\Nvamos entrevistar estes dois.
+Dialogue: Marked=0,0:03:37.29,0:03:40.96,Default,NTP,0000,0000,0000,!Effect,Um, dois! Um, dois! Um, dois...
+Dialogue: Marked=0,0:03:40.96,0:03:46.29,Default,NTP,0000,0000,0000,!Effect,Participante Son Goku: quais são as\Npossibilidades de você ganhar este combate?
+Dialogue: Marked=0,0:03:46.29,0:03:48.96,Default,NTP,0000,0000,0000,!Effect,Possibilidades? O que é isso?
+Dialogue: Marked=0,0:03:48.96,0:03:52.90,Default,NTP,0000,0000,0000,!Effect,O que eu quero dizer é:\Nvocê acha que pode ganhar?
+Dialogue: Marked=0,0:03:52.90,0:03:56.80,Default,NTP,0000,0000,0000,!Effect,EU não sei.\NTudo que sei é que vou dar o meu máximo.
+Dialogue: Marked=0,0:04:01.58,0:04:06.25,Default,NTP,0000,0000,0000,!Effect,Entendo! Uma resposta simples,\Nadequada para um garoto como você!
+Dialogue: Marked=0,0:04:06.25,0:04:11.21,Default,NTP,0000,0000,0000,!Effect,Deve ter sido esta sua humildade que\Nfez com que tenha chegado tão longe!
+Dialogue: Marked=0,0:04:25.27,0:04:29.27,Default,NTP,0000,0000,0000,!Effect,Bem, agora, a seguir, vamos\Nconversar com o participante Jackie Chun.
+Dialogue: Marked=0,0:04:29.27,0:04:31.54,Default,NTP,0000,0000,0000,!Effect,Acredito que, ao contrário do participante Son,
+Dialogue: Marked=0,0:04:31.54,0:04:33.28,Default,NTP,0000,0000,0000,!Effect,podemos esperar palavras mais complexas dele.
+Dialogue: Marked=0,0:04:33.28,0:04:38.28,Default,NTP,0000,0000,0000,!Effect,Participante Jackie:\Nvocê tem alguma estratégia para este combate?
+Dialogue: Marked=0,0:04:38.28,0:04:40.62,Default,NTP,0000,0000,0000,!Effect,Er...
+Dialogue: Marked=0,0:04:40.62,0:04:41.95,Default,NTP,0000,0000,0000,!Effect,Ahn?
+Dialogue: Marked=0,0:04:56.57,0:04:59.93,Default,NTP,0000,0000,0000,!Effect,E-Ele está dormindo...\NParticipante Jackie Chun...
+Dialogue: Marked=0,0:05:01.24,0:05:03.61,Default,NTP,0000,0000,0000,!Effect,Que segredo que nós acabamos de descobrir!
+Dialogue: Marked=0,0:05:03.61,0:05:07.91,Default,NTP,0000,0000,0000,!Effect,Ou talvez, seja apenas\Na soneca de um velhinho.
+Dialogue: Marked=0,0:05:07.91,0:05:10.91,Default,NTP,0000,0000,0000,!Effect,Acho que o Goku pode vencer...
+Dialogue: Marked=0,0:05:10.91,0:05:13.98,Default,NTP,0000,0000,0000,!Effect,Agora que sabemos que\Neste velho não é o Muten Roshi,
+Dialogue: Marked=0,0:05:13.98,0:05:16.25,Default,NTP,0000,0000,0000,!Effect,há alguma esperança\Nde que ele possa perder.
+Dialogue: Marked=0,0:05:16.25,0:05:21.59,Default,NTP,0000,0000,0000,!Effect,Mas, nós dois fomos facilmente\Nderrotados por aquele velhinho.
+Dialogue: Marked=0,0:05:26.26,0:05:27.60,Default,NTP,0000,0000,0000,!Effect,É apenas uma questão de tempo...
+Dialogue: Marked=0,0:05:27.60,0:05:28.65,Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:05:34.60,0:05:36.16,Default,NTP,0000,0000,0000,!Effect,Eu dormi bem...
+Dialogue: Marked=0,0:05:38.61,0:05:41.54,Default,NTP,0000,0000,0000,!Effect,Não terá colher de chá!
+Dialogue: Marked=0,0:05:47.28,0:05:49.84,Default,NTP,0000,0000,0000,!Effect,Digo o mesmo!
+Dialogue: Marked=0,0:05:54.56,0:05:56.85,Default,NTP,0000,0000,0000,!Effect,Luta final, comecem!
+Dialogue: Marked=0,0:06:01.56,0:06:04.93,Default,NTP,0000,0000,0000,!Effect,Nossa! O participante Jackie\Nrepentinamente foi para frente!
+Dialogue: Marked=0,0:06:04.93,0:06:07.40,Default,NTP,0000,0000,0000,!Effect,Ele tomou a ofensiva!
+Dialogue: Marked=0,0:06:31.26,0:06:33.93,Default,NTP,0000,0000,0000,!Effect,I-Isso é ruim!\NEle perderá por cair fora do ringue!
+Dialogue: Marked=0,0:06:33.93,0:06:36.60,Default,NTP,0000,0000,0000,!Effect,Ele não pode usar a Kinto Un!\NÉ proibido!
+Dialogue: Marked=0,0:06:36.60,0:06:40.04,Default,NTP,0000,0000,0000,!Effect,Tolo! Isso é o que você ganha por\Nficar aliviado após desviar de um ataque!
+Dialogue: Marked=0,0:06:40.04,0:06:42.27,Default,NTP,0000,0000,0000,!Effect,O descuido é seu pior inimigo!
+Dialogue: Marked=0,0:06:42.27,0:06:46.24,Default,NTP,0000,0000,0000,!Effect,Mesmo assim, não pensei que\Niria vencer tão facilmente.
+Dialogue: Marked=0,0:06:46.24,0:06:49.94,Default,NTP,0000,0000,0000,!Effect,Não precisava ter me preocupado tanto.
+Dialogue: Marked=0,0:06:53.55,0:06:57.22,Default,NTP,0000,0000,0000,!Effect,Estou numa fria!\NO que devo fazer?
+Dialogue: Marked=0,0:06:57.22,0:07:01.56,Default,NTP,0000,0000,0000,!Effect,Paz! Paz!
+Dialogue: Marked=0,0:07:01.56,0:07:04.23,Default,NTP,0000,0000,0000,!Effect,Ganhei!
+Dialogue: Marked=0,0:07:04.23,0:07:07.90,Default,NTP,0000,0000,0000,!Effect,E-Esse foi um inesperado\Ne decepcionante combate.
+Dialogue: Marked=0,0:07:07.90,0:07:14.90,Default,NTP,0000,0000,0000,!Effect,Foi decidido que o vencedor foi aquele que passou\Nmais tempo treinando, o participante Jackie Chun!
+Dialogue: Marked=0,0:07:14.90,0:07:16.73,Default,NTP,0000,0000,0000,!Effect,Nada mais natural.
+Dialogue: Marked=0,0:07:21.58,0:07:23.58,Default,NTP,0000,0000,0000,!Effect,Ele perdeu.
+Dialogue: Marked=0,0:07:23.58,0:07:26.25,Default,NTP,0000,0000,0000,!Effect,Aquele velho é muito forte,\Napesar das aparências.
+Dialogue: Marked=0,0:07:26.25,0:07:29.58,Default,NTP,0000,0000,0000,!Effect,Incomparavelmente...
+Dialogue: Marked=0,0:07:29.58,0:07:31.61,Default,NTP,0000,0000,0000,!Effect,E-Ei, olhem ali!
+Dialogue: Marked=0,0:07:35.26,0:07:37.35,Default,NTP,0000,0000,0000,!Effect,O quê, o quê? Como?
+Dialogue: Marked=0,0:08:00.22,0:08:02.22,Default,NTP,0000,0000,0000,!Effect,É-É Goku!
+Dialogue: Marked=0,0:08:02.22,0:08:04.22,Default,NTP,0000,0000,0000,!Effect,Ele não perdeu por estar fora da arena!
+Dialogue: Marked=0,0:08:04.22,0:08:06.22,Default,NTP,0000,0000,0000,!Effect,Eba!
+Dialogue: Marked=0,0:08:06.22,0:08:10.42,Default,NTP,0000,0000,0000,!Effect,O-O quê?! C-Como?!
+Dialogue: Marked=0,0:08:24.24,0:08:25.57,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:08:25.57,0:08:27.24,Default,NTP,0000,0000,0000,!Effect,Ele está de volta!
+Dialogue: Marked=0,0:08:27.24,0:08:29.37,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?!
+Dialogue: Marked=0,0:08:34.58,0:08:40.26,Default,NTP,0000,0000,0000,!Effect,Oh, nossa, nossa! Incrível!\NO participante Son está girando seu rabo,
+Dialogue: Marked=0,0:08:40.26,0:08:42.82,Default,NTP,0000,0000,0000,!Effect,e está voando como um helicóptero!
+Dialogue: Marked=0,0:08:49.26,0:08:52.70,Default,NTP,0000,0000,0000,!Effect,É uma pena, né!
+Dialogue: Marked=0,0:08:53.54,0:08:56.77,Default,NTP,0000,0000,0000,!Effect,Então, você só escapou por\Ncausa do seu rabo, não é?
+Dialogue: Marked=0,0:08:56.77,0:08:58.54,Default,NTP,0000,0000,0000,!Effect,Que sorte você tem!
+Dialogue: Marked=0,0:08:58.54,0:09:02.54,Default,NTP,0000,0000,0000,!Effect,Achei que eu teria que usar o meu\NKamehameha para voar, que nem você fez, velhote...
+Dialogue: Marked=0,0:09:02.54,0:09:05.55,Default,NTP,0000,0000,0000,!Effect,Mas resolvi deixar para um momento especial!
+Dialogue: Marked=0,0:09:05.55,0:09:07.82,Default,NTP,0000,0000,0000,!Effect,Que imprudente!
+Dialogue: Marked=0,0:09:07.82,0:09:12.22,Default,NTP,0000,0000,0000,!Effect,Não tem como você usar o\NKamehameha tão bem quanto eu!
+Dialogue: Marked=0,0:09:12.22,0:09:13.89,Default,NTP,0000,0000,0000,!Effect,Oh, tem sim!
+Dialogue: Marked=0,0:09:13.89,0:09:18.89,Default,NTP,0000,0000,0000,!Effect,Como é que é?! Você está tirando\Nsarro do meu Kamehameha, não é?
+Dialogue: Marked=0,0:09:18.89,0:09:26.23,Default,NTP,0000,0000,0000,!Effect,Nesse caso, mostrarei para você o poder do meu\NKamehameha, o qual passei anos para aperfeiçoar!
+Dialogue: Marked=0,0:09:26.23,0:09:32.91,Default,NTP,0000,0000,0000,!Effect,Hã? O velho Mestre Kame era o único\Nque sabia como soltar o Kamehameha, né?
+Dialogue: Marked=0,0:09:32.91,0:09:38.25,Default,NTP,0000,0000,0000,!Effect,I-I-Isso mesmo! Certamente,\Nesta é a técnica do Mestre Kame!
+Dialogue: Marked=0,0:09:38.25,0:09:43.59,Default,NTP,0000,0000,0000,!Effect,Mas você acabou de dizer que passou\Nmuitos anos desenvolvendo, não disse?
+Dialogue: Marked=0,0:09:43.59,0:09:47.92,Default,NTP,0000,0000,0000,!Effect,Bem, agora, você verá!\NO meu foi um aperfeiçoamento!
+Dialogue: Marked=0,0:09:47.92,0:09:48.92,Default,NTP,0000,0000,0000,!Effect,Que tipo?
+Dialogue: Marked=0,0:09:48.92,0:09:53.95,Default,NTP,0000,0000,0000,!Effect,Você está sendo um pirralho incômodo!\NDe qualquer forma, este você não poderá agüentar!
+Dialogue: Marked=0,0:09:57.20,0:10:00.53,Default,NTP,0000,0000,0000,!Effect,Vamos ver...\NSobre o meu, agora...
+Dialogue: Marked=0,0:10:02.54,0:10:05.90,Default,NTP,0000,0000,0000,!Effect,Primeiro, você faz assim...
+Dialogue: Marked=0,0:10:15.55,0:10:17.92,Default,NTP,0000,0000,0000,!Effect,E então, assim! Entendeu?
+Dialogue: Marked=0,0:10:17.92,0:10:21.22,Default,NTP,0000,0000,0000,!Effect,Então, você move seu tórax, e faz assim...
+Dialogue: Marked=0,0:10:21.22,0:10:24.19,Default,NTP,0000,0000,0000,!Effect,Um, dois, três, quatro...
+Dialogue: Marked=0,0:10:29.23,0:10:31.99,Default,NTP,0000,0000,0000,!Effect,O que achou? Entendeu?
+Dialogue: Marked=0,0:10:33.57,0:10:37.24,Poder,NTP,0000,0000,0000,!Effect,KAME
+Dialogue: Marked=0,0:10:37.24,0:10:39.57,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:10:39.57,0:10:43.91,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:10:43.91,0:10:47.25,Poder,NTP,0000,0000,0000,!Effect,KAME
+Dialogue: Marked=0,0:10:47.25,0:10:48.92,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:10:48.92,0:10:52.85,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:10:52.85,0:10:55.85,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:10:56.86,0:10:59.45,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:11:37.23,0:11:42.90,Default,NTP,0000,0000,0000,!Effect,I-Isso é... impossível!
+Dialogue: Marked=0,0:11:42.90,0:11:47.58,Default,NTP,0000,0000,0000,!Effect,Devolvi o Kamehameha!\NEu também sei fazer!
+Dialogue: Marked=0,0:11:47.58,0:11:49.68,Default,NTP,0000,0000,0000,!Effect,I-Inacreditável!
+Dialogue: Marked=0,0:11:49.68,0:11:53.98,Default,NTP,0000,0000,0000,!Effect,Para ele conseguir parar o meu\NKamehameha com o Kamehameha dele...
+Dialogue: Marked=0,0:11:55.92,0:11:58.32,Default,NTP,0000,0000,0000,!Effect,Você conseguiu!
+Dialogue: Marked=0,0:12:00.26,0:12:02.59,Default,NTP,0000,0000,0000,!Effect,Legal, Son-kun!
+Dialogue: Marked=0,0:12:02.59,0:12:06.59,Default,NTP,0000,0000,0000,!Effect,Você está de igual para igual com o velho!
+Dialogue: Marked=0,0:12:06.59,0:12:07.93,Default,NTP,0000,0000,0000,!Effect,Ebaaaa!
+Dialogue: Marked=0,0:12:07.93,0:12:10.53,Default,NTP,0000,0000,0000,!Effect,I-Isso é uma surpresa!
+Dialogue: Marked=0,0:12:10.53,0:12:15.27,Default,NTP,0000,0000,0000,!Effect,O Kamehameha, que era dito\Nser único do Muten Roshi,
+Dialogue: Marked=0,0:12:15.27,0:12:18.34,Default,NTP,0000,0000,0000,!Effect,tem outro que o usa,\No participante Jackie Chun!
+Dialogue: Marked=0,0:12:18.34,0:12:19.94,Default,NTP,0000,0000,0000,!Effect,Incrível, incrível, incrível!
+Dialogue: Marked=0,0:12:19.94,0:12:23.28,Default,NTP,0000,0000,0000,!Effect,Que criança impressionante!
+Dialogue: Marked=0,0:12:23.28,0:12:26.65,Default,NTP,0000,0000,0000,!Effect,Eu nunca pensei que ele\Nestaria tão bom assim!
+Dialogue: Marked=0,0:12:26.65,0:12:29.28,Default,NTP,0000,0000,0000,!Effect,Ir até o Goku com muita pressa,\Nde fato, é muito perigoso!
+Dialogue: Marked=0,0:12:29.28,0:12:32.52,Default,NTP,0000,0000,0000,!Effect,Eu tenho que pensar em uma\Nestratégia durante os comerciais!
+Dialogue: Marked=0,0:12:44.30,0:12:47.97,Default,NTP,0000,0000,0000,!Effect,Um conflito magnífico está\Nacontecendo na Final!
+Dialogue: Marked=0,0:12:47.97,0:12:51.24,Default,NTP,0000,0000,0000,!Effect,Até agora, é uma luta que\Npodemos chamar de empatada!
+Dialogue: Marked=0,0:12:51.24,0:12:53.74,Default,NTP,0000,0000,0000,!Effect,Não, pelo contrário...\NHá uma superioridade do participante Son Goku,
+Dialogue: Marked=0,0:12:53.74,0:12:56.77,Default,NTP,0000,0000,0000,!Effect,que parece lutar alegremente!
+Dialogue: Marked=0,0:13:05.59,0:13:10.26,Default,NTP,0000,0000,0000,!Effect,Oh, caramba! Oh, caramba! Oh, caramba!\NQual ataque que virá agora?
+Dialogue: Marked=0,0:13:10.26,0:13:13.19,Default,NTP,0000,0000,0000,!Effect,Você não está sendo nada legal!
+Dialogue: Marked=0,0:13:13.19,0:13:16.76,Default,NTP,0000,0000,0000,!Effect,Se você está falando tanto,\Nentão pode agüentar esta técnica!
+Dialogue: Marked=0,0:13:19.60,0:13:24.61,Default,NTP,0000,0000,0000,!Effect,O quê? Esta técnica de novo?\NVocê só sabe fazer isso, velhote?
+Dialogue: Marked=0,0:13:24.61,0:13:26.67,Default,NTP,0000,0000,0000,!Effect,Você está...
+Dialogue: Marked=0,0:13:28.28,0:13:30.01,Default,NTP,0000,0000,0000,!Effect,Aqui!
+Dialogue: Marked=0,0:13:32.28,0:13:34.37,Default,NTP,0000,0000,0000,!Effect,Que pena!
+Dialogue: Marked=0,0:13:41.96,0:13:43.96,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:13:43.96,0:13:46.29,Nota,NTP,0000,0000,0000,!Effect,Golpe da sombra dupla
+Dialogue: Marked=0,0:13:43.96,0:13:46.29,Poder,NTP,0000,0000,0000,!Effect,NINJO ZANZO-KEN
+Dialogue: Marked=0,0:13:46.29,0:13:48.76,Default,NTP,0000,0000,0000,!Effect,Foi o bastante?
+Dialogue: Marked=0,0:13:51.23,0:13:54.24,Default,NTP,0000,0000,0000,!Effect,Ei, comece a contagem, viu?
+Dialogue: Marked=0,0:13:54.24,0:13:56.90,Default,NTP,0000,0000,0000,!Effect,Certo! 1...
+Dialogue: Marked=0,0:13:56.90,0:14:01.58,Default,NTP,0000,0000,0000,!Effect,2... 3... 4...
+Dialogue: Marked=0,0:14:01.58,0:14:06.58,Default,NTP,0000,0000,0000,!Effect,Se ele puder se levantar depois do meu chute,\Nentão ele realmente não é de se jogar fora.
+Dialogue: Marked=0,0:14:06.58,0:14:10.59,Default,NTP,0000,0000,0000,!Effect,8...
+Dialogue: Marked=0,0:14:10.59,0:14:15.26,Default,NTP,0000,0000,0000,!Effect,Esse é um ótimo começo!
+Dialogue: Marked=0,0:14:15.26,0:14:18.26,Default,NTP,0000,0000,0000,!Effect,P-Parece que não lhe aconteceu nada!
+Dialogue: Marked=0,0:14:18.26,0:14:21.13,Default,NTP,0000,0000,0000,!Effect,Certo, vou fazer isso, também!
+Dialogue: Marked=0,0:14:24.60,0:14:26.60,Default,NTP,0000,0000,0000,!Effect,Seu maldito macaco imitador!
+Dialogue: Marked=0,0:14:26.60,0:14:29.20,Default,NTP,0000,0000,0000,!Effect,Se tudo que fizer for\Nimitar minhas técnicas,
+Dialogue: Marked=0,0:14:29.20,0:14:32.10,Default,NTP,0000,0000,0000,!Effect,você não acha que eu sou\Ncapaz de ver através delas?
+Dialogue: Marked=0,0:14:34.28,0:14:38.54,Default,NTP,0000,0000,0000,!Effect,Então, você é apto a fazer\No Ninjo Zanzo-ken, hein?
+Dialogue: Marked=0,0:14:42.62,0:14:46.92,Default,NTP,0000,0000,0000,!Effect,Seu tolo! Eu já sei o que você está\Nprestes a fazer! Você está aqui!
+Dialogue: Marked=0,0:14:50.22,0:14:52.22,Default,NTP,0000,0000,0000,!Effect,Estou aqui!
+Dialogue: Marked=0,0:15:02.24,0:15:04.40,Nota,NTP,0000,0000,0000,!Effect,Golpe da sombra tripla
+Dialogue: Marked=0,0:15:02.24,0:15:04.40,Poder,NTP,0000,0000,0000,!Effect,SANJU ZANZO-KEN
+Dialogue: Marked=0,0:15:07.91,0:15:12.25,Default,NTP,0000,0000,0000,!Effect,Esta foi muito boa, não foi?
+Dialogue: Marked=0,0:15:12.25,0:15:13.95,Default,NTP,0000,0000,0000,!Effect,Maldito!\NO que você está pensando...
+Dialogue: Marked=0,0:15:13.95,0:15:16.92,Default,NTP,0000,0000,0000,!Effect,ao bater na cabeça do\Nseu mestre deste jeito!
+Dialogue: Marked=0,0:15:16.92,0:15:23.93,Default,NTP,0000,0000,0000,!Effect,Como assim "meu mestre", velhote?\NMeu mestre é o Mestre Kame!
+Dialogue: Marked=0,0:15:23.93,0:15:27.60,Default,NTP,0000,0000,0000,!Effect,I-Isso mesmo! Eu me enganei!
+Dialogue: Marked=0,0:15:27.60,0:15:30.93,Default,NTP,0000,0000,0000,!Effect,Você também disse umas coisas\Nestranhas agora há pouco, também...
+Dialogue: Marked=0,0:15:30.93,0:15:34.27,Default,NTP,0000,0000,0000,!Effect,O-O que é isso? O que aconteceu\Ncom os olhos cheios de dúvidas?
+Dialogue: Marked=0,0:15:34.27,0:15:36.60,Default,NTP,0000,0000,0000,!Effect,Entendi!
+Dialogue: Marked=0,0:15:36.60,0:15:40.63,Default,NTP,0000,0000,0000,!Effect,Velhote, você é um dos\Nparentes do Mestre Kame, certo?
+Dialogue: Marked=0,0:15:43.95,0:15:46.61,Default,NTP,0000,0000,0000,!Effect,Então, o segredo foi revelado, não é?
+Dialogue: Marked=0,0:15:46.61,0:15:49.91,Default,NTP,0000,0000,0000,!Effect,Eu acho sua cara tão parecida!
+Dialogue: Marked=0,0:15:51.89,0:15:57.62,Default,NTP,0000,0000,0000,!Effect,Olhe aqui... Como pode ver, é verdade!\NA verdade é... que eu sou primo dele!
+Dialogue: Marked=0,0:15:59.56,0:16:00.99,Default,NTP,0000,0000,0000,!Effect,Sabia!
+Dialogue: Marked=0,0:16:13.91,0:16:18.24,Default,NTP,0000,0000,0000,!Effect,Não é hora de ficar rindo!\NVocê é muito bom, garoto!
+Dialogue: Marked=0,0:16:19.25,0:16:23.18,Default,NTP,0000,0000,0000,!Effect,Nesse caso, o que acha disso?
+Dialogue: Marked=0,0:16:29.92,0:16:31.48,Default,NTP,0000,0000,0000,!Effect,Opa, opa, opa, opa!
+Dialogue: Marked=0,0:16:36.93,0:16:39.60,Default,NTP,0000,0000,0000,!Effect,O-O que é isso? Qual é o problema?
+Dialogue: Marked=0,0:16:39.60,0:16:42.40,Default,NTP,0000,0000,0000,!Effect,Ahn, qual poderia ser o problema?
+Dialogue: Marked=0,0:16:42.40,0:16:45.27,Default,NTP,0000,0000,0000,!Effect,O participante Jackie ficou bêbado de repente!
+Dialogue: Marked=0,0:16:45.27,0:16:49.71,Default,NTP,0000,0000,0000,!Effect,Será que só agora a bebedeira\Nde ontem está fazendo efeito?
+Dialogue: Marked=0,0:16:53.55,0:16:55.95,Default,NTP,0000,0000,0000,!Effect,Ei, você está bem?
+Dialogue: Marked=0,0:16:59.22,0:17:01.98,Default,NTP,0000,0000,0000,!Effect,O que você está fazendo?! Isso dói!
+Dialogue: Marked=0,0:17:08.23,0:17:10.20,Default,NTP,0000,0000,0000,!Effect,Não tem jeito!
+Dialogue: Marked=0,0:17:12.23,0:17:13.83,Default,NTP,0000,0000,0000,!Effect,Aquilo é...
+Dialogue: Marked=0,0:17:22.91,0:17:25.01,Default,NTP,0000,0000,0000,!Effect,N-Não seja tolo, Goku!
+Dialogue: Marked=0,0:17:25.01,0:17:29.58,Default,NTP,0000,0000,0000,!Effect,Essa é a técnica do Sui-Ken, com a qual\Nele finge que está bêbado e ataca!\NNota: Sui-Ken = Punho do Bêbado
+Dialogue: Marked=0,0:17:29.58,0:17:30.92,Default,NTP,0000,0000,0000,!Effect,Sui-ken?
+Dialogue: Marked=0,0:17:33.25,0:17:35.26,Default,NTP,0000,0000,0000,!Effect,Você foi entender só agora?
+Dialogue: Marked=0,0:17:35.26,0:17:38.93,Default,NTP,0000,0000,0000,!Effect,É isso! Esta técnica era\Na especialidade do meu avô!
+Dialogue: Marked=0,0:17:38.93,0:17:43.99,Default,NTP,0000,0000,0000,!Effect,É muito sujo fazer isso de repente!\NVocê me pegou direitinho!
+Dialogue: Marked=0,0:17:47.94,0:17:50.64,Default,NTP,0000,0000,0000,!Effect,Oh, nossa!\NIsso parece uma técnica simples...
+Dialogue: Marked=0,0:17:50.64,0:17:52.87,Default,NTP,0000,0000,0000,!Effect,Mas parece estar fazendo efeito.
+Dialogue: Marked=0,0:17:52.87,0:17:56.21,Default,NTP,0000,0000,0000,!Effect,Lá vamos nós!\NBate palma! Palma! Palma!
+Dialogue: Marked=0,0:17:56.21,0:17:58.61,Default,NTP,0000,0000,0000,!Effect,Qual é o problema?
+Dialogue: Marked=0,0:17:58.61,0:17:59.88,Default,NTP,0000,0000,0000,!Effect,Qual é o problema?\NQual é o problema? Qual...
+Dialogue: Marked=0,0:17:59.88,0:18:02.88,Default,NTP,0000,0000,0000,!Effect,Bate palma! Palma! Palma!\NBate palma! Palma! Palma!
+Dialogue: Marked=0,0:18:02.88,0:18:07.98,Default,NTP,0000,0000,0000,!Effect,Oh, nossa! O participante Jackie\Nestá batendo palma e dançando sozinho!
+Dialogue: Marked=0,0:18:08.89,0:18:09.88,Default,NTP,0000,0000,0000,!Effect,Droga...
+Dialogue: Marked=0,0:18:14.23,0:18:18.29,Default,NTP,0000,0000,0000,!Effect,Lá vamos nós! Lá vamos nós!\NIurruuuuu!
+Dialogue: Marked=0,0:18:28.91,0:18:32.81,Default,NTP,0000,0000,0000,!Effect,Isso é um problema! O participante\NJackie está começando a ficar tonto!
+Dialogue: Marked=0,0:18:35.25,0:18:38.09,Default,NTP,0000,0000,0000,!Effect,A técnica do Sui-Ken não\Npode ser imitada por você,
+Dialogue: Marked=0,0:18:38.09,0:18:40.59,Default,NTP,0000,0000,0000,!Effect,Porque você é menor de idade,\Ne nunca ficou bêbado anteriormente!
+Dialogue: Marked=0,0:18:40.59,0:18:42.59,Default,NTP,0000,0000,0000,!Effect,Ele teve o que mereceu, não?
+Dialogue: Marked=0,0:18:42.59,0:18:45.93,Default,NTP,0000,0000,0000,!Effect,Aquele velho é muito forte!
+Dialogue: Marked=0,0:18:45.93,0:18:50.56,Default,NTP,0000,0000,0000,!Effect,Deixe-me ver... Não está na\Nhora de encerrarmos o combate?
+Dialogue: Marked=0,0:18:53.87,0:18:57.90,Default,NTP,0000,0000,0000,!Effect,O-O que é isso? Você está fugindo?\NIsso não é típico de você!
+Dialogue: Marked=0,0:19:13.89,0:19:16.32,Default,NTP,0000,0000,0000,!Effect,V-Você está chorando?
+Dialogue: Marked=0,0:19:27.23,0:19:28.79,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?!
+Dialogue: Marked=0,0:20:26.56,0:20:30.69,Default,NTP,0000,0000,0000,!Effect,Maldito...\NSaltando igual a um macaco!
+Dialogue: Marked=0,0:20:31.90,0:20:33.96,Default,NTP,0000,0000,0000,!Effect,Esta é a técnica do Monkey-ken!
+Dialogue: Marked=0,0:21:03.20,0:21:05.53,Default,NTP,0000,0000,0000,!Effect,Muito bom!
+Dialogue: Marked=0,0:21:05.53,0:21:08.54,Default,NTP,0000,0000,0000,!Effect,Continue assim!
+Dialogue: Marked=0,0:21:08.54,0:21:09.87,Default,NTP,0000,0000,0000,!Effect,Você não acha?
+Dialogue: Marked=0,0:21:09.87,0:21:12.21,Default,NTP,0000,0000,0000,!Effect,Ele deve estar apto a derrotá-lo!
+Dialogue: Marked=0,0:21:12.21,0:21:14.38,Default,NTP,0000,0000,0000,!Effect,É uma incrível variedade de técnicas!
+Dialogue: Marked=0,0:21:14.38,0:21:17.55,Default,NTP,0000,0000,0000,!Effect,Esta é uma luta de tirar\No fôlego nas finais!
+Dialogue: Marked=0,0:21:17.55,0:21:19.01,Default,NTP,0000,0000,0000,!Effect,Entretanto, até agora...
+Dialogue: Marked=0,0:21:19.01,0:21:22.55,Default,NTP,0000,0000,0000,!Effect,O participante Son parece estar um passo\Nà frente, e ninguém sabe o que vai acontecer.
+Dialogue: Marked=0,0:21:22.55,0:21:24.89,Default,NTP,0000,0000,0000,!Effect,E o garoto está provando que, de alguma forma, está\Ntrazendo dificuldades para o participante Jackie!
+Dialogue: Marked=0,0:21:24.89,0:21:29.89,Default,NTP,0000,0000,0000,!Effect,Fique preocupado consigo mesmo, entendeu?
+Dialogue: Marked=0,0:21:29.89,0:21:34.90,Default,NTP,0000,0000,0000,!Effect,Você perderá, mas isso não\Nficará fácil pro seu lado...
+Dialogue: Marked=0,0:21:34.90,0:21:36.49,Default,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:21:38.23,0:21:42.57,Default,NTP,0000,0000,0000,!Effect,O participante Jackie já\Nestá declarando a vitória!
+Dialogue: Marked=0,0:21:42.57,0:21:49.70,Default,NTP,0000,0000,0000,!Effect,Que tipo de técnica aterrorizante\Nsairá daquelas misteriosas mãos?
+Dialogue: Marked=0,0:22:21.61,0:22:26.61,Default,NTP,0000,0000,0000,!Effect,O contra-ataque de Jackie,\Nque também é Muten Roshi, começou.

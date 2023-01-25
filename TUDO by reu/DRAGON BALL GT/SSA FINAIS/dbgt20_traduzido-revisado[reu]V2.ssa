@@ -1,0 +1,197 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: titulo,Gorilla BT,40,7353,&HFF00FFFF,&HFF000000,16777215,1,0,1,3,2,2,30,30,20,0,0
+Style: apresDBZ2,Arial,50,2723501,255,4194368,-2147483640,-1,1,1,2,0,6,0,0,15,0,0
+Style: apresDBZ3,Incised901 NdIt BT,50,11711175,255,4194368,-2147483640,0,1,1,3,0,6,0,0,15,0,0
+Style: apresDBZ4,Incised901 Ct BT,50,11711175,255,4194368,-2147483640,0,0,1,3,0,6,0,0,15,0,0
+Style: apresDBZ5,Broadway,60,1387156,255,4194368,1387156,0,1,1,25,0,6,0,0,15,0,0
+Style: apresDBGT,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.10,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:55.56,0:13:05.57,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:24.51,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:01.44,0:02:05.54,Narrador,NTP,0000,0000,0000,!Effect,General Rild, o Mutante Mecânico mais forte,
+Dialogue: Marked=0,0:02:05.54,0:02:08.57,Narrador,NTP,0000,0000,0000,!Effect,finalmente apareceu.
+Dialogue: Marked=0,0:02:22.13,0:02:25.19,Default,NTP,0000,0000,0000,!Effect,Ei, o que você fez com o Trunks?!
+Dialogue: Marked=0,0:02:33.47,0:02:39.11,Default,NTP,0000,0000,0000,!Effect,Eu o mandei para o Doutor Mu-sama usá-lo como cobaia. É uma honra para ele.
+Dialogue: Marked=0,0:02:39.81,0:02:42.15,Default,NTP,0000,0000,0000,!Effect,Para onde você o mandou?
+Dialogue: Marked=0,0:02:42.15,0:02:45.15,Default,NTP,0000,0000,0000,!Effect,Não tem motivos para não contar.
+Dialogue: Marked=0,0:02:45.15,0:02:47.31,Default,NTP,0000,0000,0000,!Effect,Ele está dentro daquela torre.
+Dialogue: Marked=0,0:03:28.46,0:03:32.80,Narrador,NTP,0000,0000,0000,!Effect,Trunks caiu nas mãos do Doutor Mu!
+Dialogue: Marked=0,0:03:32.80,0:03:36.47,Narrador,NTP,0000,0000,0000,!Effect,E acontece uma colisão de\Npoderes entre o General Rild,
+Dialogue: Marked=0,0:03:36.47,0:03:38.37,Narrador,NTP,0000,0000,0000,!Effect,que adotou sua forma final de Hiper Mega Rild,
+Dialogue: Marked=0,0:03:38.37,0:03:43.07,Narrador,NTP,0000,0000,0000,!Effect,e Goku, que se transformou em Super Saiya-jin.
+
+Dialogue: Marked=0,0:03:46.85,0:03:54.82,apresDBGT,,0000,0000,0000,Karaoke,{\pos(280,85)}{\fad(500,0)}{\fscx100\fscy100}Episódio 20
+Dialogue: Marked=0,0:03:46.85,0:03:54.82,apresDBGT,,0000,0000,0000,Karaoke,{\pos(90,200)}{\fad(500,0)}{\fscx90\fscy100}Estou impressionado{\i1}!!{\i0}
+Dialogue: Marked=0,0:03:46.85,0:03:54.82,apresDBGT,,0000,0000,0000,Karaoke,{\pos(95,480)}{\fad(500,0)}{\fscx85\fscy90}Uma tsunami de metal ataca Goku
+
+Dialogue: Marked=0,0:04:35.64,0:04:38.11,Poder,NTP,0000,0000,0000,!Effect,Hiper Mega-Rild Punch!
+Dialogue: Marked=0,0:04:38.11,0:04:42.41,Default,NTP,0000,0000,0000,!Effect,E eu achando que você\Nusaria alguma técnica nova.
+Dialogue: Marked=0,0:04:47.69,0:04:49.55,Default,NTP,0000,0000,0000,!Effect,Que poder impressionante!
+Dialogue: Marked=0,0:05:46.25,0:05:48.22,Default,NTP,0000,0000,0000,!Effect,Aquele maldito Gill!
+Dialogue: Marked=0,0:05:48.22,0:05:51.58,Default,NTP,0000,0000,0000,!Effect,Quando eu o pegar, ele vai desejar nunca ter sido fabricado!
+Dialogue: Marked=0,0:05:56.39,0:05:57.86,Default,NTP,0000,0000,0000,!Effect,Gill, Gill, Gill!
+Dialogue: Marked=0,0:05:57.86,0:05:59.19,Default,NTP,0000,0000,0000,!Effect,Aí está você!
+Dialogue: Marked=0,0:06:00.36,0:06:02.27,Default,NTP,0000,0000,0000,!Effect,Pan, perigo! Pan, perigo!
+Dialogue: Marked=0,0:06:03.78,0:06:04.83,Default,NTP,0000,0000,0000,!Effect,Gill!
+Dialogue: Marked=0,0:06:04.83,0:06:07.78,Radio,NTP,0000,0000,0000,!Effect,- Gill, Gill, Gill!\N- Sistema de Remoção Coerciva Ativado.
+Dialogue: Marked=0,0:06:14.91,0:06:16.40,P!,NTP,0000,0000,0000,!Effect,De novo, não!
+Dialogue: Marked=0,0:06:19.80,0:06:21.84,Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:06:23.50,0:06:26.88,Default,NTP,0000,0000,0000,!Effect,Gill, que tipo de paredes são essas?
+Dialogue: Marked=0,0:06:54.58,0:06:58.79,Default,NTP,0000,0000,0000,!Effect,Admito que você ficou mais forte do que eu esperava com essa sua nova forma.
+Dialogue: Marked=0,0:06:59.52,0:07:02.50,Default,NTP,0000,0000,0000,!Effect,Mas estamos lutando de igual para igual.
+Dialogue: Marked=0,0:07:02.50,0:07:04.49,Default,NTP,0000,0000,0000,!Effect,Não pense que não serei capaz de te acompanhar.
+Dialogue: Marked=0,0:07:20.64,0:07:24.31,Default,NTP,0000,0000,0000,!Effect,Que prazer inesperado. Muito interessante.
+Dialogue: Marked=0,0:07:24.31,0:07:28.90,Default,NTP,0000,0000,0000,!Effect,Este é o poder Super Saiya-jin que o Doutor Mu tem procurado?
+Dialogue: Marked=0,0:07:29.58,0:07:32.12,Default,NTP,0000,0000,0000,!Effect,Pode admirar meu poder Saiya-jin mais tarde.
+Dialogue: Marked=0,0:07:32.12,0:07:34.68,Default,NTP,0000,0000,0000,!Effect,É hora de acabar com isso!
+Dialogue: Marked=0,0:07:36.12,0:07:38.00,Default,NTP,0000,0000,0000,!Effect,Maldito Saiya-jin...
+Dialogue: Marked=0,0:07:52.14,0:07:53.84,Default,NTP,0000,0000,0000,!Effect,Acabou a brincadeira.
+Dialogue: Marked=0,0:07:54.18,0:07:55.01,Poder,NTP,0000,0000,0000,!Effect,KA
+Dialogue: Marked=0,0:07:55.01,0:07:57.22,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:07:58.68,0:08:00.43,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:08:00.68,0:08:02.52,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:08:18.03,0:08:19.60,Poder,NTP,0000,0000,0000,!Effect,HA!
+Dialogue: Marked=0,0:08:42.82,0:08:47.19,Default,NTP,0000,0000,0000,!Effect,Droga! Odeio essa parede\Nidiota! Parece que está viva!
+Dialogue: Marked=0,0:08:48.96,0:08:52.53,Radio,NTP,0000,0000,0000,!Effect,Alerta! Alerta! Alerta! Alerta!
+Dialogue: Marked=0,0:08:54.27,0:08:57.00,Default,NTP,0000,0000,0000,!Effect,Pode continuar com esse seu alarme irritante.\NEnquanto eu estiver viva,
+Dialogue: Marked=0,0:08:57.00,0:08:59.99,Default,NTP,0000,0000,0000,!Effect,vou continuar odiando esse lugar!
+Dialogue: Marked=0,0:09:14.36,0:09:19.06,Default,NTP,0000,0000,0000,!Effect,Ali está ela. Inimigo registrado. Processando...
+Dialogue: Marked=0,0:09:19.06,0:09:22.03,Default,NTP,0000,0000,0000,!Effect,Vocês estão me atrapalhando. Por mim tudo bem,
+Dialogue: Marked=0,0:09:22.03,0:09:24.73,Default,NTP,0000,0000,0000,!Effect,porque hoje estou com muita vontade de bater em robôs!
+Dialogue: Marked=0,0:09:25.07,0:09:29.20,Default,NTP,0000,0000,0000,!Effect,Registrando. Confirmado.
+Dialogue: Marked=0,0:09:33.84,0:09:36.14,Default,NTP,0000,0000,0000,!Effect,Esperem! Ataquem! Peguem-na!
+Dialogue: Marked=0,0:09:42.55,0:09:46.21,Default,NTP,0000,0000,0000,!Effect,Alguns robôs nunca aprendem. Não mexam com a Pan!
+Dialogue: Marked=0,0:10:14.53,0:10:16.86,Default,NTP,0000,0000,0000,!Effect,E-Espere, Pan-san!
+Dialogue: Marked=0,0:10:17.90,0:10:22.12,Default,NTP,0000,0000,0000,!Effect,Espere um pouco! Você é o cientista do depósito. Você está vivo!
+Dialogue: Marked=0,0:10:22.12,0:10:24.99,Default,NTP,0000,0000,0000,!Effect,Achava que eles iam te desmontar.
+Dialogue: Marked=0,0:10:24.99,0:10:26.45,Default,NTP,0000,0000,0000,!Effect,Pan-san, está machucando!
+Dialogue: Marked=0,0:10:27.33,0:10:30.90,Default,NTP,0000,0000,0000,!Effect,Pode me dizer o que está acontecendo? Eu estava com o Gill,
+Dialogue: Marked=0,0:10:30.90,0:10:34.87,Default,NTP,0000,0000,0000,!Effect,então as paredes se mexeram e\Napareci do lado de fora de novo!
+Dialogue: Marked=0,0:10:34.87,0:10:38.71,Default,NTP,0000,0000,0000,!Effect,A Máquina de Transmissão de Tempo-Espaço controla todo o sistema lá de cima,
+Dialogue: Marked=0,0:10:38.71,0:10:40.01,Default,NTP,0000,0000,0000,!Effect,inclusive o Sistema de Remoção Coerciva.
+Dialogue: Marked=0,0:10:40.01,0:10:42.14,Default,NTP,0000,0000,0000,!Effect,Transmissão de Tempo-Espaço?
+Dialogue: Marked=0,0:10:42.14,0:10:45.78,Default,NTP,0000,0000,0000,!Effect,Exato. É um equipamento ligado diretamente ao Doutor Mu-sama.
+Dialogue: Marked=0,0:10:45.78,0:10:47.01,Default,NTP,0000,0000,0000,!Effect,Mas é melhor não ir lá.
+Dialogue: Marked=0,0:10:47.01,0:10:51.85,Default,NTP,0000,0000,0000,!Effect,{\fscx90\fscy90}Então deve ter sido essa Transmissão Tempo-Espaço que mandou o Trunks para o Doutor Mu.
+Dialogue: Marked=0,0:10:51.85,0:10:53.29,Default,NTP,0000,0000,0000,!Effect,Tenho de achar essa máquina!
+Dialogue: Marked=0,0:10:53.29,0:10:55.52,Default,NTP,0000,0000,0000,!Effect,Mas é perigoso.
+Dialogue: Marked=0,0:10:55.52,0:10:57.99,Default,NTP,0000,0000,0000,!Effect,Então me ajude a chegar ao último andar...
+Dialogue: Marked=0,0:10:57.99,0:11:00.53,Default,NTP,0000,0000,0000,!Effect,sem que eu seja jogada para fora por aquelas paredes de novo?
+Dialogue: Marked=0,0:11:00.53,0:11:04.40,Default,NTP,0000,0000,0000,!Effect,Você pode tentar desativar\No Sistema de Remoção Coerciva.
+Dialogue: Marked=0,0:11:04.40,0:11:06.80,Default,NTP,0000,0000,0000,!Effect,E como posso fazer isso?
+Dialogue: Marked=0,0:11:06.80,0:11:08.80,Default,NTP,0000,0000,0000,!Effect,Você consegue descobrir, Pan-san.\NAfinal, você é muito esperta.
+Dialogue: Marked=0,0:11:08.80,0:11:11.88,Default,NTP,0000,0000,0000,!Effect,Mas não é mais fácil você me contar?
+Dialogue: Marked=0,0:11:12.80,0:11:14.68,Default,NTP,0000,0000,0000,!Effect,Te contar?
+Dialogue: Marked=0,0:11:14.68,0:11:15.88,Default,NTP,0000,0000,0000,!Effect,É, sabe...
+Dialogue: Marked=0,0:11:18.05,0:11:19.72,Default,NTP,0000,0000,0000,!Effect,Como desativar.
+Dialogue: Marked=0,0:11:24.50,0:11:25.48,Default,NTP,0000,0000,0000,!Effect,Eu não sei!
+Dialogue: Marked=0,0:11:41.34,0:11:44.27,Default,NTP,0000,0000,0000,!Effect,Agora sei por que você estava no depósito.
+Dialogue: Marked=0,0:11:59.79,0:12:02.81,Default,NTP,0000,0000,0000,!Effect,Parece que você ainda não\Nentendeu o tamanho do meu poder!
+Dialogue: Marked=0,0:12:32.55,0:12:34.02,Default,NTP,0000,0000,0000,!Effect,Sem essa!
+
+Dialogue: Marked=0,0:12:40.21,0:12:44.55,apresDBZ2,,0000,0000,0000,,{\fad(300,0)\fscx55\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:12:40.21,0:12:44.55,apresDBZ4,,0000,0000,0000,,{\fad(300,0)\fscx70\fscy35\pos(180,530)}irc.rizon.net
+Dialogue: Marked=0,0:12:48.39,0:12:51.55,apresDBZ2,,0000,0000,0000,,{\fad(300,0)\fscx58\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:12:48.39,0:12:51.55,apresDBZ4,,0000,0000,0000,,{\fad(300,0)\fscx58\fscy30\pos(180,533)}kintoun.cjb.net
+
+Dialogue: Marked=0,0:13:05.53,0:13:10.75,*Default,NTP,0000,0000,0000,!Effect,Deixe-me informá-lo que eu,\NMega Rild, a máquina mais forte,
+Dialogue: Marked=0,0:13:10.75,0:13:13.52,*Default,NTP,0000,0000,0000,!Effect,sou o próprio planeta M2.
+Dialogue: Marked=0,0:13:14.95,0:13:15.75,*Default,NTP,0000,0000,0000,!Effect,Interessante!
+Dialogue: Marked=0,0:13:16.10,0:13:22.06,*Default,NTP,0000,0000,0000,!Effect,Sou capaz de controlar todo\No metal do planeta M2.
+Dialogue: Marked=0,0:13:22.17,0:13:26.47,*Default,NTP,0000,0000,0000,!Effect,Ou seja, todo este planeta\Nfaz parte do meu corpo.
+Dialogue: Marked=0,0:13:44.70,0:13:47.84,*Default,NTP,0000,0000,0000,!Effect,Você é mesmo incrível.
+Dialogue: Marked=0,0:13:48.29,0:13:50.59,*Default,NTP,0000,0000,0000,!Effect,Então podemos resolver isso logo?
+Dialogue: Marked=0,0:13:50.87,0:13:55.25,*Default,NTP,0000,0000,0000,!Effect,Não tenho tempo a perder\Ncom os seus planos podres.
+Dialogue: Marked=0,0:14:20.82,0:14:26.26,*Default,NTP,0000,0000,0000,!Effect,Então esse é o lendário Super Saiya-jin?\NÉ muito mais do que eu esperava!
+Dialogue: Marked=0,0:14:39.11,0:14:40.82,*Default,NTP,0000,0000,0000,!Effect,Trunks-kun, não é?
+Dialogue: Marked=0,0:14:41.43,0:14:44.66,*Default,NTP,0000,0000,0000,!Effect,Estou ansioso para analisar os seus dados.
+Dialogue: Marked=0,0:14:48.18,0:14:52.16,*Default,NTP,0000,0000,0000,!Effect,Eu contenho a raiva que vocês,\NSaiya-jins, tanto apreciam.
+Dialogue: Marked=0,0:14:54.25,0:14:56.87,*Default,NTP,0000,0000,0000,!Effect,Também quer soltar sua fúria, não é? Mas...
+Dialogue: Marked=0,0:14:57.45,0:14:59.92,*Default,NTP,0000,0000,0000,!Effect,Você terá de esperar um pouco mais.
+Dialogue: Marked=0,0:15:05.75,0:15:09.91,*Default,NTP,0000,0000,0000,!Effect,O momento para libertar o\Nseu poder está chegando.
+Dialogue: Marked=0,0:15:10.50,0:15:14.90,*Default,NTP,0000,0000,0000,!Effect,Logo, Rild me mandará\Nos outros dois Saiya-jins.
+Dialogue: Marked=0,0:15:32.54,0:15:37.74,*Default,NTP,0000,0000,0000,!Effect,O que vocês estão fazendo?!\NSe não pararem com isso, vão se arrepender!
+Dialogue: Marked=0,0:15:38.18,0:15:41.51,*Default,NTP,0000,0000,0000,!Effect,Tá machucando!\NNão toque em lugares estranhos!
+Dialogue: Marked=0,0:15:41.63,0:15:44.08,*Default,NTP,0000,0000,0000,!Effect,Estou ficando com raiva!
+Dialogue: Marked=0,0:15:53.17,0:15:56.45,*Default,NTP,0000,0000,0000,!Effect,Gill, traidor, já chega!
+Dialogue: Marked=0,0:15:58.42,0:16:01.46,*Default,NTP,0000,0000,0000,!Effect,Já duvidava de você no início!
+Dialogue: Marked=0,0:16:02.98,0:16:06.82,*Default,NTP,0000,0000,0000,!Effect,Você engoliu o Dragon Radar\Nque a Bulma-san construiu!
+Dialogue: Marked=0,0:16:07.61,0:16:10.97,*Default,NTP,0000,0000,0000,!Effect,Você nem nos ajudou quando\Nlutamos contra o General Rild!
+Dialogue: Marked=0,0:16:11.58,0:16:14.93,*Default,NTP,0000,0000,0000,!Effect,Gill, você que quis vir para este planeta.
+Dialogue: Marked=0,0:16:17.42,0:16:20.53,*Default,NTP,0000,0000,0000,!Effect,Você me salvou no deserto só para...
+Dialogue: Marked=0,0:16:20.85,0:16:22.53,*Default,NTP,0000,0000,0000,!Effect,me trazer até aqui...
+Dialogue: Marked=0,0:16:22.53,0:16:26.13,*Default,NTP,0000,0000,0000,!Effect,e me levar para aquele tal de Mu, não é?
+Dialogue: Marked=0,0:16:28.94,0:16:31.69,Radio,NTP,0000,0000,0000,!Effect,Alerta! Alerta! Alerta! Alerta!
+Dialogue: Marked=0,0:16:36.86,0:16:39.19,*Default,NTP,0000,0000,0000,!Effect,Não pode ser! Gill, segure firme!
+Dialogue: Marked=0,0:16:54.71,0:16:56.73,*Default,NTP,0000,0000,0000,!Effect,Gill, segure firme!
+Dialogue: Marked=0,0:17:12.61,0:17:15.59,*Default,NTP,0000,0000,0000,!Effect,Pan-san, desliguei o sistema de remoção!
+Dialogue: Marked=0,0:17:15.81,0:17:17.69,*Default,NTP,0000,0000,0000,!Effect,Você não deixa nada para depois, hein?
+Dialogue: Marked=0,0:17:17.95,0:17:19.94,*Default,NTP,0000,0000,0000,!Effect,Como é? Que absurdo!
+Dialogue: Marked=0,0:17:29.61,0:17:34.53,*Default,NTP,0000,0000,0000,!Effect,Cansei de te seguir, Gill!\NDevolva-me as Dragon Balls, pelo menos!
+Dialogue: Marked=0,0:17:35.05,0:17:37.79,*Default,NTP,0000,0000,0000,!Effect,Se não as juntarmos logo,\Na Terra desaparecerá!
+Dialogue: Marked=0,0:17:38.06,0:17:40.14,*Default,NTP,0000,0000,0000,!Effect,Gill não sabe! Gill não sabe!
+Dialogue: Marked=0,0:17:42.81,0:17:46.09,*Default,NTP,0000,0000,0000,!Effect,O sistema de remoção foi desligado! Vamos, Gill!
+Dialogue: Marked=0,0:17:47.69,0:17:48.69,*Default,NTP,0000,0000,0000,!Effect,Gill não sabe!
+Dialogue: Marked=0,0:17:49.51,0:17:52.53,*Default,NTP,0000,0000,0000,!Effect,Que seja, assim que eu o pegar...
+Dialogue: Marked=0,0:17:54.98,0:18:00.42,*Default,NTP,0000,0000,0000,!Effect,Seu... Gill, abra!\NAbra se não quiser se arrepender!
+Dialogue: Marked=0,0:18:01.41,0:18:02.70,P!,NTP,0000,0000,0000,!Effect,Certo...
+Dialogue: Marked=0,0:18:03.70,0:18:06.02,*Default,NTP,0000,0000,0000,!Effect,Vou explodir tudo com um Kamehameha!
+Dialogue: Marked=0,0:18:17.76,0:18:20.83,*Default,NTP,0000,0000,0000,!Effect,Então é isso, né, Gill?\NNos traindo depois de tanto tempo...
+Dialogue: Marked=0,0:18:23.71,0:18:24.99,*Default,NTP,0000,0000,0000,!Effect,Prepare-se.
+Dialogue: Marked=0,0:18:25.42,0:18:28.62,Poder,NTP,0000,0000,0000,!Effect,KA
+Dialogue: Marked=0,0:18:29.69,0:18:32.89,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:18:34.51,0:18:37.22,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:18:38.40,0:18:40.70,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:18:41.65,0:18:44.35,Radio,NTP,0000,0000,0000,!Effect,Sistema de Remoção de\NEmergência Especial ligado.
+Dialogue: Marked=0,0:18:44.35,0:18:45.59,*Default,NTP,0000,0000,0000,!Effect,O quê? Essa não!
+Dialogue: Marked=0,0:18:51.85,0:18:54.00,*Default,NTP,0000,0000,0000,!Effect,De novo, não!
+Dialogue: Marked=0,0:19:06.11,0:19:06.81,*Default,NTP,0000,0000,0000,!Effect,Pan...
+Dialogue: Marked=0,0:19:29.81,0:19:31.90,*Default,NTP,0000,0000,0000,!Effect,De volta ao início.
+Dialogue: Marked=0,0:19:34.06,0:19:36.35,*Default,NTP,0000,0000,0000,!Effect,Não tenho tempo pra lamentar, certo?
+Dialogue: Marked=0,0:19:44.16,0:19:45.68,*Default,NTP,0000,0000,0000,!Effect,Isso é...
+Dialogue: Marked=0,0:19:46.10,0:19:47.89,*Default,NTP,0000,0000,0000,!Effect,uma Dragon Ball?
+Dialogue: Marked=0,0:19:50.06,0:19:51.79,*Default,NTP,0000,0000,0000,!Effect,Beleza!
+Dialogue: Marked=0,0:19:53.22,0:19:54.14,P!,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:19:55.22,0:19:56.19,P!,NTP,0000,0000,0000,!Effect,Como?
+Dialogue: Marked=0,0:20:22.58,0:20:23.65,*Default,NTP,0000,0000,0000,!Effect,Achei você!
+Dialogue: Marked=0,0:21:04.01,0:21:06.83,*Default,NTP,0000,0000,0000,!Effect,O que está fazendo, Super Saiya-jin?!
+Dialogue: Marked=0,0:21:30.91,0:21:32.51,*Default,NTP,0000,0000,0000,!Effect,Você com certeza é forte.
+Dialogue: Marked=0,0:21:34.13,0:21:36.16,*Default,NTP,0000,0000,0000,!Effect,Machucou um pouco!
+Dialogue: Marked=0,0:21:36.57,0:21:40.35,*Default,NTP,0000,0000,0000,!Effect,Infelizmente terei de lutar a sério.
+Dialogue: Marked=0,0:21:40.86,0:21:44.26,*Default,NTP,0000,0000,0000,!Effect,A não ser que o metal do planeta se acabe,
+Dialogue: Marked=0,0:21:44.26,0:21:47.70,*Default,NTP,0000,0000,0000,!Effect,tudo que você pode fazer é\Ncontinuar apanhando para sempre!
+Dialogue: Marked=0,0:21:47.70,0:21:50.60,*Default,NTP,0000,0000,0000,!Effect,Por que não desiste logo...
+Dialogue: Marked=0,0:21:50.60,0:21:54.26,*Default,NTP,0000,0000,0000,!Effect,e se torna uma cobaia do Doutor Mu-sama?
+Dialogue: Marked=0,0:22:02.26,0:22:06.07,Narrador,NTP,0000,0000,0000,!Effect,Como as Dragon Balls foram\Nparar nas mãos da Pan?
+Dialogue: Marked=0,0:22:06.66,0:22:10.23,Narrador,NTP,0000,0000,0000,!Effect,E o que acontecerá com Trunks,\Nque foi mandado para o Doutor Mu?
+Dialogue: Marked=0,0:22:11.49,0:22:18.81,Narrador,NTP,0000,0000,0000,!Effect,General Rild, que controla todo o metal\Ndo Planeta M2, continua lutando contra Goku.

@@ -1,0 +1,337 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,20th Century Font,45,16777215,12632256,16711680,-2147483640,-1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,20th Century Font,45,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: RadioP!,20th Century Font,45,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,20th Century Font,45,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,20th Century Font,45,16777215,12632256,16711680,&HFF110066,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,20th Century Font,45,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,45,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,15,0,0
+Style: Doutrina1,TimeScrDBol,45,255,16711680,16744576,12632256,-1,-1,1,2,2,2,30,30,15,0,0
+Style: Doutrina2,TimeScrDBol,45,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: DoutrinaKuwa,TimeScrDBol,45,33023,16711680,16744576,16777215,-1,0,1,3,2,2,30,30,20,0,0
+Style: N!,Souvenir Lt BT,29,15007690,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,Arial,80,16777215,8454143,3815994,0,1,0,1,0,0,0,-10000,-10000,25,0,0
+Style: PLACAa,Arial,80,3292242,8454143,3815994,3292242,1,0,1,5,0,5,-10000,-10000,25,0,0
+Style: PLACAb,Arial,80,1253442,8454143,3815994,1253442,1,0,1,5,0,5,-10000,-10000,25,0,0
+Style: PLACAc,Arial,80,-2147483640,8454143,3815994,-2147483640,1,0,1,5,0,5,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,Arial,80,&HFF110066,8454143,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+Style: PLACA3,Arial,80,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:45.77,0:01:47.98,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:01:56.94,0:01:57.87,*Default,NTP,0000,0000,0000,!Effect,Esqueçam isso!
+Dialogue: Marked=0,0:01:58.64,0:02:02.51,*Default,NTP,0000,0000,0000,!Effect,Não há como vocês vencerem!
+Dialogue: Marked=0,0:02:02.51,0:02:05.25,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo! Já está quente demais...
+Dialogue: Marked=0,0:02:05.51,0:02:06.61,*Default,NTP,0000,0000,0000,!Effect,Calem a boca!
+Dialogue: Marked=0,0:02:06.61,0:02:09.95,*Default,NTP,0000,0000,0000,!Effect,Depois de nos livrarmos de vocês,\Nessa cidade nos pertencerá!
+Dialogue: Marked=0,0:02:09.95,0:02:11.30,*Default,NTP,0000,0000,0000,!Effect,Vamos acabar com eles!
+Dialogue: Marked=0,0:02:13.49,0:02:16.11,*Default,NTP,0000,0000,0000,!Effect,Só há uma maneira! Vamos fazer isso rápido!
+Dialogue: Marked=0,0:02:16.11,0:02:17.00,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:02:17.16,0:02:18.59,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:02:19.48,0:02:21.66,*Default,NTP,0000,0000,0000,!Effect,Problemão! Problemão!
+Dialogue: Marked=0,0:02:22.36,0:02:23.60,*Default,NTP,0000,0000,0000,!Effect,Ei! Cuidado!
+Dialogue: Marked=0,0:02:23.77,0:02:24.56,*Default,NTP,0000,0000,0000,!Effect,Problemão!
+Dialogue: Marked=0,0:02:34.24,0:02:36.90,*Default,NTP,0000,0000,0000,!Effect,Qual o seu problema? Mais cuidado na próxima vez!
+Dialogue: Marked=0,0:02:37.43,0:02:38.45,*Default,NTP,0000,0000,0000,!Effect,Apenas me sigam!
+Dialogue: Marked=0,0:02:38.78,0:02:40.70,*Default,NTP,0000,0000,0000,!Effect,De qualquer forma, é um grande problema!
+Dialogue: Marked=0,0:02:40.76,0:02:43.90,*Default,NTP,0000,0000,0000,!Effect,Escute! Nós estamos ocupados\Ncurtindo nossas férias de verão.
+Dialogue: Marked=0,0:02:43.98,0:02:46.85,*Default,NTP,0000,0000,0000,!Effect,Se for uma ordem do Koenma,\Neu não quero nem saber!
+Dialogue: Marked=0,0:02:46.92,0:02:49.65,*Default,NTP,0000,0000,0000,!Effect,Mas o Koenma-sama foi seqüestrado!
+Dialogue: Marked=0,0:02:50.06,0:02:51.21,*Default,NTP,0000,0000,0000,!Effect,O quê? O Koenma...
+Dialogue: Marked=0,0:03:01.17,0:03:05.80,*Default,NTP,0000,0000,0000,!Effect,Ei, se você continuar chorando, nós\Nnão descobriremos o que aconteceu.
+Dialogue: Marked=0,0:03:05.85,0:03:07.40,*Default,NTP,0000,0000,0000,!Effect,Vai, fala pra gente.
+Dialogue: Marked=0,0:03:08.14,0:03:09.27,*Default,NTP,0000,0000,0000,!Effect,S-Sim!
+Dialogue: Marked=0,0:03:10.36,0:03:14.23,*Default,NTP,0000,0000,0000,!Effect,O Koenma-sama queria ter\Numas férias de verão legais.
+Dialogue: Marked=0,0:03:14.85,0:03:17.23,*Default,NTP,0000,0000,0000,!Effect,Ele não é legal...
+Dialogue: Marked=0,0:03:17.80,0:03:24.07,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Shikai no Hamabe: Praia do Oceano da Morte
+Dialogue: Marked=0,0:03:17.80,0:03:22.12,*Default,NTP,0000,0000,0000,!Effect,Então, ele nos levou para a Shikai no Hamabe.
+Dialogue: Marked=0,0:03:29.11,0:03:31.28,PLACA3,NTP,0000,0000,0000,!Effect,{\pos(705,537)\fscx35\fscy15}SORVETE
+Dialogue: Marked=0,0:03:29.11,0:03:31.28,PLACA2,NTP,0000,0000,0000,!Effect,{\pos(750,355)\frz-15\fscx15\fscy25}S\NO\NR\NV\NE\NT\NE
+Dialogue: Marked=0,0:03:31.42,0:03:35.67,Radio,NTP,0000,0000,0000,!Effect,É como o paraíso,\Nmas com muitos biquínis.
+Dialogue: Marked=0,0:03:36.57,0:03:40.57,*Default,NTP,0000,0000,0000,!Effect,Depois de uma soneca, o Koenma-sama estava\Nparticipando do jogo de quebrar melancias.
+Dialogue: Marked=0,0:03:40.57,0:03:41.40,Radio,NTP,0000,0000,0000,!Effect,Cadê ela?
+Dialogue: Marked=0,0:03:48.48,0:03:50.07,Radio,NTP,0000,0000,0000,!Effect,Meu nome é Garuga.
+Dialogue: Marked=0,0:03:50.92,0:03:52.85,Radio,NTP,0000,0000,0000,!Effect,Eu estou levando o Koenma.
+Dialogue: Marked=0,0:03:52.85,0:04:04.03,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Kin In: Selo Dourado ~ Man'madani: Cachoeira de Magma
+Dialogue: Marked=0,0:03:52.85,0:03:59.53,Radio,NTP,0000,0000,0000,!Effect,Se vocês o quiserem de volta, levem o Kin In até a Man'madani ao pôr-do-sol.
+Dialogue: Marked=0,0:04:00.88,0:04:04.03,Radio,NTP,0000,0000,0000,!Effect,Se não fizerem isso, o Koenma morrerá!
+Dialogue: Marked=0,0:04:05.50,0:04:07.93,*Default,NTP,0000,0000,0000,!Effect,Isso foi tão inesperado.
+Dialogue: Marked=0,0:04:11.04,0:04:13.13,*Default,NTP,0000,0000,0000,!Effect,O que é o Kin In?
+Dialogue: Marked=0,0:04:15.21,0:04:16.47,*Default,NTP,0000,0000,0000,!Effect,Ahn...
+Dialogue: Marked=0,0:04:18.64,0:04:19.67,*Default,NTP,0000,0000,0000,!Effect,Achei!
+Dialogue: Marked=0,0:04:31.16,0:04:34.11,*Default,NTP,0000,0000,0000,!Effect,Esse é o Kin In do Enma-Daio-sama.
+Dialogue: Marked=0,0:04:34.11,0:04:35.37,*Default,NTP,0000,0000,0000,!Effect,Ele não deve ser retirado daqui.
+Dialogue: Marked=0,0:04:35.37,0:04:38.93,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Reikai: Mundo Espiritual
+Dialogue: Marked=0,0:04:35.37,0:04:37.31,*Default,NTP,0000,0000,0000,!Effect,É a prova de que ele controla o Reikai.
+Dialogue: Marked=0,0:04:39.61,0:04:44.28,*Default,NTP,0000,0000,0000,!Effect,Se outra pessoa colocasse as mãos nele, seria um caos!
+Dialogue: Marked=0,0:04:44.28,0:04:46.01,*Default,NTP,0000,0000,0000,!Effect,Não haveria mais ordem!
+Dialogue: Marked=0,0:04:46.65,0:04:50.49,*Default,NTP,0000,0000,0000,!Effect,Até mesmo o Enma-Daio-sama\Npoderia ser jogado pra fora do Reikai.
+Dialogue: Marked=0,0:04:50.49,0:04:54.02,*Default,NTP,0000,0000,0000,!Effect,Então eles querem esse selo\Nem troca da vida do Koenma?
+Dialogue: Marked=0,0:04:54.02,0:04:58.54,*Default,NTP,0000,0000,0000,!Effect,Como poderemos pegar o selo, sendo que o\NEnma-Daio-sama está numa viagem de negócios?
+Dialogue: Marked=0,0:04:59.23,0:05:00.89,*Default,NTP,0000,0000,0000,!Effect,Mas, o Koenma-sama...
+Dialogue: Marked=0,0:05:02.60,0:05:05.50,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,500)}Eu não sei o que fazer...
+Dialogue: Marked=0,0:05:08.44,0:05:12.24,*Default,NTP,0000,0000,0000,!Effect,Ele é um pirralho chato.
+Dialogue: Marked=0,0:05:13.11,0:05:15.04,*Default,NTP,0000,0000,0000,!Effect,Yusuke, espere!
+Dialogue: Marked=0,0:05:15.04,0:05:17.31,*Default,NTP,0000,0000,0000,!Effect,Yusuke-san, você não pode.
+Dialogue: Marked=0,0:05:17.31,0:05:20.68,*Default,NTP,0000,0000,0000,!Effect,Mas, se não o levarmos conosco,\Nnão poderemos salvar o Koenma!
+Dialogue: Marked=0,0:05:22.18,0:05:25.45,*Default,NTP,0000,0000,0000,!Effect,Eu não gosto disso!\NMas, se voltarmos com o Kin In...
+Dialogue: Marked=0,0:05:25.45,0:05:28.82,*Default,NTP,0000,0000,0000,!Effect,e também com o Koenma,\Nnão haveria problemas, certo?
+Dialogue: Marked=0,0:05:28.82,0:05:31.99,*Default,NTP,0000,0000,0000,!Effect,Nós não temos muito tempo!\NBotan, você terá que nos guiar!
+Dialogue: Marked=0,0:05:32.40,0:05:34.50,*Default,NTP,0000,0000,0000,!Effect,Claro! Vamos nos apressar!
+Dialogue: Marked=0,0:05:34.86,0:05:38.20,*Default,NTP,0000,0000,0000,!Effect,Ahn? Onde o Hiei se meteu?
+Dialogue: Marked=0,0:05:39.07,0:05:41.17,*Default,NTP,0000,0000,0000,!Effect,Ele estava aqui...
+Dialogue: Marked=0,0:05:41.17,0:05:47.73,*Default,NTP,0000,0000,0000,!Effect,Ele é tão frio... Mas não se preocupe!\NEu resgatarei o pobre Koenma.
+Dialogue: Marked=0,0:05:48.78,0:05:50.71,*Default,NTP,0000,0000,0000,!Effect,Sem problemas!
+Dialogue: Marked=0,0:05:50.71,0:05:54.17,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo!\NTemos que pedir ajuda para o Kurama-san.
+Dialogue: Marked=0,0:06:21.14,0:06:27.81,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Shinpan no Mou: Portão do Julgamento
+Dialogue: Marked=0,0:06:21.14,0:06:24.25,*Default,NTP,0000,0000,0000,!Effect,Seus empregados idiotas estão\Ndeixando o Shinpan no Mou.
+Dialogue: Marked=0,0:06:24.25,0:06:26.32,*Default,NTP,0000,0000,0000,!Effect,Quem está aí?
+Dialogue: Marked=0,0:06:26.32,0:06:27.81,*Default,NTP,0000,0000,0000,!Effect,Você se esqueceu de mim?
+
+Dialogue: Marked=0,0:06:29.83,0:06:29.87,PLACAa,NTP,0000,0000,0000,!Effect,{\pos(425,550)\fscx15\fscy25\1a&h5&\2a&h5&\3a&h5\4a&h5}||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Dialogue: Marked=0,0:06:29.83,0:06:29.87,PLACA,NTP,0000,0000,0000,!Effect,{\pos(574,578)\fscx55\fscy40}GARUGA
+Dialogue: Marked=0,0:06:29.87,0:06:34.83,PLACAa,NTP,0000,0000,0000,!Effect,{\pos(423,553)\fscx15\fscy25\1a&h5&\2a&h5&\3a&h5\4a&h5}||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Dialogue: Marked=0,0:06:29.87,0:06:34.83,PLACA,NTP,0000,0000,0000,!Effect,{\pos(572,581)\fscx55\fscy40}GARUGA
+
+Dialogue: Marked=0,0:06:31.76,0:06:34.83,PLACAb,NTP,0000,0000,0000,!Effect,{\fad(200,0)\frz-0.4\pos(77,437)\fscx15\fscy45\1a&h1&\2a&h1&\3a&h1\4a&h1}||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Dialogue: Marked=0,0:06:31.76,0:06:34.83,PLACA,NTP,0000,0000,0000,!Effect,{\fad(200,0)\pos(325,475)\fscx75\fscy40}KOASHURA
+
+Dialogue: Marked=0,0:06:31.79,0:06:32.48,*Default,NTP,0000,0000,0000,!Effect,{\pos(280,580)}Koashura!
+Dialogue: Marked=0,0:06:33.79,0:06:34.85,*Default,NTP,0000,0000,0000,!Effect,{\pos(280,580)}Ei, Garuga.
+Dialogue: Marked=0,0:06:35.19,0:06:37.23,*Default,NTP,0000,0000,0000,!Effect,Sim, Koashura-sama.
+Dialogue: Marked=0,0:06:38.16,0:06:41.46,*Default,NTP,0000,0000,0000,!Effect,O que você vai fazer comigo?
+Dialogue: Marked=0,0:06:41.46,0:06:47.36,*Default,NTP,0000,0000,0000,!Effect,Bem, eu vou tomar o seu\Nlugar no Shinpan no Mou.
+Dialogue: Marked=0,0:06:49.07,0:06:50.24,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:06:50.61,0:06:56.48,*Default,NTP,0000,0000,0000,!Effect,Quando eu conseguir o Kin In,\Neu vou usá-lo em muitos papéis!
+Dialogue: Marked=0,0:06:57.15,0:06:58.25,*Default,NTP,0000,0000,0000,!Effect,Isso vai causar confusão.
+Dialogue: Marked=0,0:06:58.51,0:07:01.08,*Default,NTP,0000,0000,0000,!Effect,Confusão! Sem confusão!\NPor favor, não faça isso!
+Dialogue: Marked=0,0:07:01.08,0:07:04.25,*Default,NTP,0000,0000,0000,!Effect,Se o meu pai, Enma-Daio,\Ndescobrir que o Kin In foi roubado,
+Dialogue: Marked=0,0:07:04.25,0:07:08.22,*Default,NTP,0000,0000,0000,!Effect,será muito pior do\Nque uma simples confusão!
+Dialogue: Marked=0,0:07:12.50,0:07:17.30,*Default,NTP,0000,0000,0000,!Effect,Essa pedra vai agüentar até o pôr-do-sol.
+Dialogue: Marked=0,0:07:24.97,0:07:30.74,*Default,NTP,0000,0000,0000,!Effect,Se o Kin In não chegar a tempo,\Nvocê cairá direto no magma!
+Dialogue: Marked=0,0:07:38.25,0:07:40.12,*Default,NTP,0000,0000,0000,!Effect,Rápido, rápido!
+Dialogue: Marked=0,0:07:49.83,0:07:51.38,*Default,NTP,0000,0000,0000,!Effect,Ei, o que você está fazendo?
+Dialogue: Marked=0,0:07:57.74,0:07:59.14,*Default,NTP,0000,0000,0000,!Effect,Quem são vocês?
+Dialogue: Marked=0,0:07:59.54,0:08:05.15,*Default,NTP,0000,0000,0000,!Effect,Essa é a terra da maléfica familia-demônio.\NNão podemos deixar vocês passarem.
+Dialogue: Marked=0,0:08:05.98,0:08:09.01,*Default,NTP,0000,0000,0000,!Effect,Nós não temos tempo para perder com vocês no momento.
+Dialogue: Marked=0,0:08:09.01,0:08:09.65,*Default,NTP,0000,0000,0000,!Effect,Até mais!
+Dialogue: Marked=0,0:08:14.46,0:08:18.33,*Default,NTP,0000,0000,0000,!Effect,Eu ouvi que vocês têm o Kin In do Enma-Daio.
+Dialogue: Marked=0,0:08:18.73,0:08:19.33,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:08:20.56,0:08:22.90,*Default,NTP,0000,0000,0000,!Effect,Dê ele para nós!
+Dialogue: Marked=0,0:08:41.72,0:08:42.43,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:08:43.22,0:08:45.27,*Default,NTP,0000,0000,0000,!Effect,Nós não temos tempo! Corra, Kuwabara!
+Dialogue: Marked=0,0:09:07.88,0:09:09.13,Doutrina,NTP,0000,0000,0000,!Effect,Shot-gun
+Dialogue: Marked=0,0:09:22.42,0:09:24.50,*Default,NTP,0000,0000,0000,!Effect,Y-Yusuke!
+Dialogue: Marked=0,0:09:25.93,0:09:30.03,*Default,NTP,0000,0000,0000,!Effect,Fico pensando se seus leais\Nempregados podem chegar aqui.
+Dialogue: Marked=0,0:09:30.03,0:09:32.61,*Default,NTP,0000,0000,0000,!Effect,O quê?! Você fez algo a eles?
+Dialogue: Marked=0,0:09:34.67,0:09:35.90,*Default,NTP,0000,0000,0000,!Effect,Não vou dizer.
+Dialogue: Marked=0,0:09:36.14,0:09:38.04,*Default,NTP,0000,0000,0000,!Effect,O quê? Maldito!
+Dialogue: Marked=0,0:09:38.04,0:09:39.37,*Default,NTP,0000,0000,0000,!Effect,Koashura!
+Dialogue: Marked=0,0:09:41.56,0:09:42.41,*Default,NTP,0000,0000,0000,!Effect,Quente!
+Dialogue: Marked=0,0:09:43.91,0:09:45.04,*Default,NTP,0000,0000,0000,!Effect,Quente!
+Dialogue: Marked=0,0:09:47.68,0:09:50.00,*Default,NTP,0000,0000,0000,!Effect,Idiota, não jogue isso aqui!
+Dialogue: Marked=0,0:09:50.32,0:09:52.50,*Default,NTP,0000,0000,0000,!Effect,Por que você está fazendo isso comigo?
+Dialogue: Marked=0,0:09:53.99,0:09:55.57,*Default,NTP,0000,0000,0000,!Effect,Pergunte a si mesmo!
+Dialogue: Marked=0,0:09:55.99,0:09:56.58,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:09:57.16,0:10:00.60,*Default,NTP,0000,0000,0000,!Effect,Você foi tão mau comigo!
+Dialogue: Marked=0,0:10:01.00,0:10:03.84,*Default,NTP,0000,0000,0000,!Effect,Esta é a minha vingança!
+Dialogue: Marked=0,0:10:14.44,0:10:15.95,*Default,NTP,0000,0000,0000,!Effect,Ei, Kuwabara...
+Dialogue: Marked=0,0:10:15.95,0:10:20.92,*Default,NTP,0000,0000,0000,!Effect,Como você acha que aqueles\Ncaras sabiam que tínhamos o Kin In?
+Dialogue: Marked=0,0:10:20.92,0:10:23.97,*Default,NTP,0000,0000,0000,!Effect,É cedo demais para os boatos começarem.
+Dialogue: Marked=0,0:10:24.52,0:10:26.87,*Default,NTP,0000,0000,0000,!Effect,Eu acho que já caímos na armadilha.
+Dialogue: Marked=0,0:10:27.82,0:10:28.69,*Default,NTP,0000,0000,0000,!Effect,Se é assim...
+Dialogue: Marked=0,0:10:29.76,0:10:30.69,*Default,NTP,0000,0000,0000,!Effect,Botan, cuidado!
+Dialogue: Marked=0,0:10:39.40,0:10:39.93,*Default,NTP,0000,0000,0000,!Effect,Kuwabara!
+Dialogue: Marked=0,0:10:40.97,0:10:42.35,*Default,NTP,0000,0000,0000,!Effect,Que coisa é essa?
+Dialogue: Marked=0,0:10:43.81,0:10:44.89,*Default,NTP,0000,0000,0000,!Effect,Uma árvore de pedra youkai!
+Dialogue: Marked=0,0:10:45.27,0:10:46.31,*Default,NTP,0000,0000,0000,!Effect,Yusuke, lá!
+Dialogue: Marked=0,0:10:49.36,0:10:52.06,*Default,NTP,0000,0000,0000,!Effect,Dêem-me o Kin In!
+Dialogue: Marked=0,0:10:55.85,0:10:57.11,Doutrina2,NTP,0000,0000,0000,!Effect,{\c&H00FF9F9F&}Rei-gun
+Dialogue: Marked=0,0:10:59.96,0:11:00.49,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:11:06.96,0:11:07.83,*Default,NTP,0000,0000,0000,!Effect,Desgraçado!
+Dialogue: Marked=0,0:11:08.16,0:11:10.46,*Default,NTP,0000,0000,0000,!Effect,Eu peguei o tesouro!
+Dialogue: Marked=0,0:11:10.73,0:11:12.04,*Default,NTP,0000,0000,0000,!Effect,Devolva ele!
+Dialogue: Marked=0,0:11:14.04,0:11:14.70,*Default,NTP,0000,0000,0000,!Effect,Botan!
+Dialogue: Marked=0,0:11:20.63,0:11:21.72,*Default,NTP,0000,0000,0000,!Effect,Te peguei!
+Dialogue: Marked=0,0:11:22.24,0:11:25.35,*Default,NTP,0000,0000,0000,!Effect,Essa gaiola pode se regenerar.
+Dialogue: Marked=0,0:11:26.25,0:11:28.27,*Default,NTP,0000,0000,0000,!Effect,Eu começarei pela mulher!
+Dialogue: Marked=0,0:11:28.65,0:11:29.69,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:11:29.95,0:11:30.48,*Default,NTP,0000,0000,0000,!Effect,Botan!
+Dialogue: Marked=0,0:11:39.98,0:11:41.74,*Default,NTP,0000,0000,0000,!Effect,Quem está no meu caminho?
+Dialogue: Marked=0,0:11:42.50,0:11:45.78,*Default,NTP,0000,0000,0000,!Effect,Nós podemos cuidar de uma árvore podre.
+Dialogue: Marked=0,0:11:46.14,0:11:46.76,*Default,NTP,0000,0000,0000,!Effect,Kurama!
+Dialogue: Marked=0,0:11:56.78,0:11:58.55,*Default,NTP,0000,0000,0000,!Effect,Hiei! Você também está aqui!
+Dialogue: Marked=0,0:11:58.78,0:12:02.76,*Default,NTP,0000,0000,0000,!Effect,Eu não posso deixar vocês\Nsozinhos se o Kin In está envolvido.
+Dialogue: Marked=0,0:12:02.75,0:12:03.51,*Default,NTP,0000,0000,0000,!Effect,Aqui!
+Dialogue: Marked=0,0:12:06.63,0:12:09.27,*Default,NTP,0000,0000,0000,!Effect,Deixem isso conosco! Apressem-se!
+Dialogue: Marked=0,0:12:09.66,0:12:11.07,*Default,NTP,0000,0000,0000,!Effect,Eu lhes devo uma!
+Dialogue: Marked=0,0:12:13.96,0:12:15.95,*Default,NTP,0000,0000,0000,!Effect,Não deixem eles escaparem!
+Dialogue: Marked=0,0:12:20.51,0:12:21.99,*Default,NTP,0000,0000,0000,!Effect,Nós não deixaremos vocês irem mais longe!
+Dialogue: Marked=0,0:12:22.17,0:12:23.80,Doutrina2,NTP,0000,0000,0000,!Effect,Rose Whip
+Dialogue: Marked=0,0:12:37.94,0:12:38.90,*Default,NTP,0000,0000,0000,!Effect,O Yusuke chegará a tempo?
+Dialogue: Marked=0,0:12:39.38,0:12:40.26,*Default,NTP,0000,0000,0000,!Effect,Sei lá.
+Dialogue: Marked=0,0:12:43.15,0:12:46.47,*Default,NTP,0000,0000,0000,!Effect,Você não teria deixado o Yusuke\Npegar o Kin In se pensasse um pouco.
+Dialogue: Marked=0,0:12:46.53,0:12:48.43,*Default,NTP,0000,0000,0000,!Effect,Uhn! Então não pergunte!
+Dialogue: Marked=0,0:12:52.60,0:12:57.37,*Default,NTP,0000,0000,0000,!Effect,Ei, o sol está se pondo! Apressem-se!
+Dialogue: Marked=0,0:12:57.37,0:12:59.61,*Default,NTP,0000,0000,0000,!Effect,Idiota! É o mais rápido que eu consigo!
+Dialogue: Marked=0,0:13:03.41,0:13:04.58,*Default,NTP,0000,0000,0000,!Effect,Eles estão de volta de novo!
+Dialogue: Marked=0,0:13:05.03,0:13:06.85,*Default,NTP,0000,0000,0000,!Effect,Droga! O que faremos agora?
+Dialogue: Marked=0,0:13:06.85,0:13:07.78,*Default,NTP,0000,0000,0000,!Effect,Nós temos que atravessar!
+Dialogue: Marked=0,0:13:12.82,0:13:14.21,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:13:16.00,0:13:19.51,*Default,NTP,0000,0000,0000,!Effect,Malditos! Quem vocês pensam que eu sou?
+Dialogue: Marked=0,0:13:23.71,0:13:26.69,*Default,NTP,0000,0000,0000,!Effect,Vocês têm algum problema comigo?
+Dialogue: Marked=0,0:13:32.82,0:13:34.69,*Default,NTP,0000,0000,0000,!Effect,A Man'madani está pra lá.
+Dialogue: Marked=0,0:13:35.56,0:13:37.19,*Default,NTP,0000,0000,0000,!Effect,Droga! Nós não vamos conseguir!
+Dialogue: Marked=0,0:13:37.51,0:13:39.27,*Default,NTP,0000,0000,0000,!Effect,Urameshi, agüente firme!
+Dialogue: Marked=0,0:13:40.22,0:13:41.07,*Default,NTP,0000,0000,0000,!Effect,Cresça!
+Dialogue: Marked=0,0:13:41.07,0:13:42.53,DoutrinaKuwa,NTP,0000,0000,0000,!Effect,Rei-ken
+Dialogue: Marked=0,0:13:48.59,0:13:49.95,*Default,NTP,0000,0000,0000,!Effect,Vai, Urameshi!
+Dialogue: Marked=0,0:14:00.47,0:14:01.40,*Default,NTP,0000,0000,0000,!Effect,Ajude-me!
+Dialogue: Marked=0,0:14:04.21,0:14:08.78,*Default,NTP,0000,0000,0000,!Effect,Ei, se não ajudarmos logo o Koenma, ele vai morrer mesmo.
+Dialogue: Marked=0,0:14:08.78,0:14:12.68,*Default,NTP,0000,0000,0000,!Effect,Do que você está falando?\NNós deveríamos deixá-lo morrer.
+Dialogue: Marked=0,0:14:13.18,0:14:13.72,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:14:14.92,0:14:17.94,*Default,NTP,0000,0000,0000,!Effect,A culpa é deles se não chegarem a tempo.
+Dialogue: Marked=0,0:14:18.52,0:14:19.94,*Default,NTP,0000,0000,0000,!Effect,Sim, mas...
+Dialogue: Marked=0,0:14:21.79,0:14:22.92,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:14:25.83,0:14:27.39,*Default,NTP,0000,0000,0000,!Effect,Nós trouxemos o Kin In!
+Dialogue: Marked=0,0:14:31.33,0:14:32.45,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:14:33.54,0:14:35.41,*Default,NTP,0000,0000,0000,!Effect,Solte o Koenma agora!
+Dialogue: Marked=0,0:14:37.64,0:14:39.73,*Default,NTP,0000,0000,0000,!Effect,Ei, Garuga! Deixe ele ir!
+Dialogue: Marked=0,0:14:49.69,0:14:51.93,*Default,NTP,0000,0000,0000,!Effect,Certo, passe o Kin In pra cá.
+Dialogue: Marked=0,0:14:53.38,0:14:53.93,*Default,NTP,0000,0000,0000,!Effect,Toma.
+Dialogue: Marked=0,0:15:01.13,0:15:03.82,*Default,NTP,0000,0000,0000,!Effect,Este é o Kin In do Enma-Daio.
+Dialogue: Marked=0,0:15:05.96,0:15:07.49,*Default,NTP,0000,0000,0000,!Effect,Finalmente eu consegui!
+Dialogue: Marked=0,0:15:07.70,0:15:09.63,*Default,NTP,0000,0000,0000,!Effect,O Koenma está acabado!
+Dialogue: Marked=0,0:15:10.52,0:15:13.44,*Default,NTP,0000,0000,0000,!Effect,Você é um serviçal! Aproveitarei o\Nmáximo de você pelo resto da sua vida!
+Dialogue: Marked=0,0:15:19.08,0:15:21.81,*Default,NTP,0000,0000,0000,!Effect,É o Kin In! O verdadeiro Kin In!
+Dialogue: Marked=0,0:15:24.15,0:15:26.42,*Default,NTP,0000,0000,0000,!Effect,Ei, Garuga! O que você está fazendo?
+Dialogue: Marked=0,0:15:26.42,0:15:28.67,*Default,NTP,0000,0000,0000,!Effect,Este Kin In é meu!
+Dialogue: Marked=0,0:15:29.19,0:15:30.13,*Default,NTP,0000,0000,0000,!Effect,O que você disse?
+Dialogue: Marked=0,0:15:30.43,0:15:32.68,*Default,NTP,0000,0000,0000,!Effect,O Reikai agora está sob o meu controle!
+Dialogue: Marked=0,0:15:33.26,0:15:35.66,*Default,NTP,0000,0000,0000,!Effect,Ei! Por que não obedece às minhas ordens?
+Dialogue: Marked=0,0:15:35.66,0:15:37.81,*Default,NTP,0000,0000,0000,!Effect,Eu não preciso mais de você!
+Dialogue: Marked=0,0:15:40.38,0:15:43.86,*Default,NTP,0000,0000,0000,!Effect,Seu desgraçado! Você planejou\Nisso desde o começo, não é mesmo?
+Dialogue: Marked=0,0:15:44.71,0:15:46.02,*Default,NTP,0000,0000,0000,!Effect,Devolva-nos o Kin In!
+Dialogue: Marked=0,0:15:46.30,0:15:49.61,*Default,NTP,0000,0000,0000,!Effect,Hah! Você quer pegá-lo de mim?
+Dialogue: Marked=0,0:15:50.15,0:15:52.20,*Default,NTP,0000,0000,0000,!Effect,Eu vou acabar com você com um tiro!
+Dialogue: Marked=0,0:15:52.55,0:15:53.91,Doutrina2,NTP,0000,0000,0000,!Effect,{\c&H00FF9F9F&}Rei-gun
+Dialogue: Marked=0,0:15:58.99,0:15:59.65,*Default,NTP,0000,0000,0000,!Effect,Eu consegui?
+Dialogue: Marked=0,0:16:09.57,0:16:10.38,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:16:13.10,0:16:15.67,*Default,NTP,0000,0000,0000,!Effect,O que você acha do seu poder espiritual?
+Dialogue: Marked=0,0:16:15.67,0:16:18.30,*Default,NTP,0000,0000,0000,!Effect,{\pos(400,590)}Posso refletir seu poder! Você não me vencerá!
+
+Dialogue: Marked=0,0:16:17.38,0:16:20.38,PLACAc,NTP,0000,0000,0000,!Effect,{\fad(200,0)\frz0.4\pos(324,403)\fscx15\fscy33\1a&h40&\2a&h40&\3a&h40\4a&h40}|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Dialogue: Marked=0,0:16:17.38,0:16:20.38,PLACA,NTP,0000,0000,0000,!Effect,{\fad(200,0)\pos(483,433)\fscx80\fscy35}YASHA
+
+Dialogue: Marked=0,0:16:21.44,0:16:28.08,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Yasha: Demônio
+Dialogue: Marked=0,0:16:21.44,0:16:25.42,*Default,NTP,0000,0000,0000,!Effect,Aquele é o youkai fugitivo, Yasha!
+Dialogue: Marked=0,0:16:25.42,0:16:28.08,*Default,NTP,0000,0000,0000,!Effect,Ei, Botan! Pegue o Koenma!
+Dialogue: Marked=0,0:16:33.92,0:16:35.12,*Default,NTP,0000,0000,0000,!Effect,Saiam do meu caminho.
+Dialogue: Marked=0,0:16:42.48,0:16:44.33,*Default,NTP,0000,0000,0000,!Effect,Koenma-sama!
+Dialogue: Marked=0,0:16:47.03,0:16:47.71,*Default,NTP,0000,0000,0000,!Effect,Botan!
+Dialogue: Marked=0,0:16:57.58,0:16:59.18,*Default,NTP,0000,0000,0000,!Effect,Maldito!
+Dialogue: Marked=0,0:17:02.09,0:17:05.69,*Default,NTP,0000,0000,0000,!Effect,Oh! Você pode aumentar o poder espiritual com raiva!
+Dialogue: Marked=0,0:17:05.94,0:17:08.25,*Default,NTP,0000,0000,0000,!Effect,Como pode?
+Dialogue: Marked=0,0:17:15.40,0:17:17.25,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:17:18.00,0:17:21.62,*Default,NTP,0000,0000,0000,!Effect,Devo elogiá-lo por lutar com um braço machucado, mas...
+Dialogue: Marked=0,0:17:22.19,0:17:23.41,*Default,NTP,0000,0000,0000,!Effect,Não há como vencer!
+Dialogue: Marked=0,0:17:26.70,0:17:27.79,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:18:02.37,0:18:03.83,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:18:13.69,0:18:14.97,*Default,NTP,0000,0000,0000,!Effect,Você desconhece seus limites.
+Dialogue: Marked=0,0:18:20.88,0:18:22.85,*Default,NTP,0000,0000,0000,!Effect,Ele está pra lá!
+Dialogue: Marked=0,0:18:25.10,0:18:25.81,*Default,NTP,0000,0000,0000,!Effect,E agora?
+Dialogue: Marked=0,0:18:26.39,0:18:28.69,*Default,NTP,0000,0000,0000,!Effect,Abaixo de vocês há um rio de magma sem fundo.
+Dialogue: Marked=0,0:18:28.69,0:18:30.23,*Default,NTP,0000,0000,0000,!Effect,Vocês querem dar um mergulho?
+Dialogue: Marked=0,0:18:32.34,0:18:32.93,*Default,NTP,0000,0000,0000,!Effect,Hiei!
+Dialogue: Marked=0,0:18:34.61,0:18:35.19,*Default,NTP,0000,0000,0000,!Effect,Pare!
+Dialogue: Marked=0,0:18:42.82,0:18:44.15,*Default,NTP,0000,0000,0000,!Effect,Pare aí mesmo!
+Dialogue: Marked=0,0:18:45.15,0:18:46.15,*Default,NTP,0000,0000,0000,!Effect,Inacreditável!
+Dialogue: Marked=0,0:18:46.15,0:18:50.79,*Default,NTP,0000,0000,0000,!Effect,Ele pode ficar de pé mesmo\Napós receber meus ataques.
+Dialogue: Marked=0,0:18:50.79,0:18:54.67,*Default,NTP,0000,0000,0000,!Effect,Por que você está sacrificando\Nsua vida por essa criança?
+Dialogue: Marked=0,0:18:57.20,0:19:00.60,*Default,NTP,0000,0000,0000,!Effect,Foi ele que me trouxe de volta à vida.
+Dialogue: Marked=0,0:19:01.40,0:19:02.25,P!,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:19:04.57,0:19:06.68,*Default,NTP,0000,0000,0000,!Effect,Então, você deve agora sua vida a ele?
+Dialogue: Marked=0,0:19:07.28,0:19:10.94,*Default,NTP,0000,0000,0000,!Effect,De qualquer forma, não posso\Ndeixar você pegar o Kin In!
+Dialogue: Marked=0,0:19:12.98,0:19:14.17,*Default,NTP,0000,0000,0000,!Effect,Vamos ajudá-lo!
+Dialogue: Marked=0,0:19:14.20,0:19:14.90,*Default,NTP,0000,0000,0000,!Effect,S-Sim!
+Dialogue: Marked=0,0:19:17.72,0:19:19.40,*Default,NTP,0000,0000,0000,!Effect,Seu tolo teimoso...
+Dialogue: Marked=0,0:19:19.65,0:19:21.59,*Default,NTP,0000,0000,0000,!Effect,Eu vou arremessá-lo para longe daqui!
+Dialogue: Marked=0,0:19:24.31,0:19:26.70,*Default,NTP,0000,0000,0000,!Effect,Esse é o fim!
+Dialogue: Marked=0,0:19:32.49,0:19:34.50,Doutrina2,NTP,0000,0000,0000,!Effect,{\c&H00FF9F9F&}Rei-gun
+Dialogue: Marked=0,0:19:35.85,0:19:37.05,*Default,NTP,0000,0000,0000,!Effect,Tolo!
+Dialogue: Marked=0,0:19:42.52,0:19:43.50,*Default,NTP,0000,0000,0000,!Effect,Morra!
+Dialogue: Marked=0,0:19:47.44,0:19:48.14,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:19:59.03,0:19:59.72,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:19:59.72,0:20:00.86,*Default,NTP,0000,0000,0000,!Effect,Nós conseguimos?
+Dialogue: Marked=0,0:20:04.07,0:20:05.58,*Default,NTP,0000,0000,0000,!Effect,Não, ainda não acabou!
+Dialogue: Marked=0,0:20:09.35,0:20:13.38,*Default,NTP,0000,0000,0000,!Effect,Droga! Você está jogando sujo!
+Dialogue: Marked=0,0:20:13.38,0:20:16.09,*Default,NTP,0000,0000,0000,!Effect,Mas, não me subestime!
+Dialogue: Marked=0,0:20:16.67,0:20:18.94,P!,NTP,0000,0000,0000,!Effect,Droga! Não funcionou!
+Dialogue: Marked=0,0:20:22.19,0:20:25.70,*Default,NTP,0000,0000,0000,!Effect,Você pagará por isso!
+Dialogue: Marked=0,0:20:27.66,0:20:30.22,*Default,NTP,0000,0000,0000,!Effect,Esse é todo o meu poder!
+Dialogue: Marked=0,0:20:35.25,0:20:36.32,*Default,NTP,0000,0000,0000,!Effect,Morra!
+Dialogue: Marked=0,0:20:36.80,0:20:38.86,*Default,NTP,0000,0000,0000,!Effect,Dê uma olhada no seu corpo!
+Dialogue: Marked=0,0:20:39.84,0:20:42.28,*Default,NTP,0000,0000,0000,!Effect,O quê? O magma está petrificando!
+Dialogue: Marked=0,0:20:42.91,0:20:43.76,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:20:43.76,0:20:45.45,Doutrina2,NTP,0000,0000,0000,!Effect,{\c&H00FF9F9F&}Rei-gun
+Dialogue: Marked=0,0:20:49.85,0:20:51.25,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:20:54.38,0:20:55.33,*Default,NTP,0000,0000,0000,!Effect,Nós conseguimos!
+Dialogue: Marked=0,0:21:02.45,0:21:03.60,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:21:04.97,0:21:06.89,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:21:08.82,0:21:09.39,*Default,NTP,0000,0000,0000,!Effect,Botan!
+Dialogue: Marked=0,0:21:22.25,0:21:23.24,*Default,NTP,0000,0000,0000,!Effect,O Kin In!
+Dialogue: Marked=0,0:21:36.49,0:21:39.80,*Default,NTP,0000,0000,0000,!Effect,Quando voltarmos ao Shinpan no Mou, vou cuidar de você.
+Dialogue: Marked=0,0:21:39.85,0:21:40.79,*Default,NTP,0000,0000,0000,!Effect,Tudo bem.
+Dialogue: Marked=0,0:21:43.77,0:21:47.87,*Default,NTP,0000,0000,0000,!Effect,Koashura, por que você planejou essa conspiração?
+Dialogue: Marked=0,0:21:47.87,0:21:49.84,*Default,NTP,0000,0000,0000,!Effect,Você disse algo sobre vingança.
+Dialogue: Marked=0,0:21:52.71,0:21:54.92,*Default,NTP,0000,0000,0000,!Effect,Ei, nós não sentimos pena de você!
+Dialogue: Marked=0,0:21:55.58,0:21:57.48,*Default,NTP,0000,0000,0000,!Effect,Mas... Mas...
+Dialogue: Marked=0,0:21:57.48,0:22:01.11,*Default,NTP,0000,0000,0000,!Effect,Quando eu ia ao jardim da infância do Reikai com o Koenma...
+Dialogue: Marked=0,0:22:02.38,0:22:07.45,*Default,NTP,0000,0000,0000,!Effect,Eu ia dar um presente de\Naniversário para a Kotennyo.
+Dialogue: Marked=0,0:22:08.66,0:22:11.33,LP!,NTP,0000,0000,0000,!Effect,O que você quer dizer, Koashura-kun?
+Dialogue: Marked=0,0:22:11.33,0:22:13.90,LP!,NTP,0000,0000,0000,!Effect,Bem, na verdade...
+Dialogue: Marked=0,0:22:13.90,0:22:16.94,LP!,NTP,0000,0000,0000,!Effect,Oi, Kotennyo-chan!
+Dialogue: Marked=0,0:22:18.54,0:22:20.50,LP!,NTP,0000,0000,0000,!Effect,Aqui! Um presente para você!
+Dialogue: Marked=0,0:22:20.53,0:22:23.40,LP!,NTP,0000,0000,0000,!Effect,Uau! Obrigada, Koenma-kun!
+Dialogue: Marked=0,0:22:28.60,0:22:31.41,LP!,NTP,0000,0000,0000,!Effect,Um dia eu terei minha vingança!
+Dialogue: Marked=0,0:22:32.01,0:22:35.43,*Default,NTP,0000,0000,0000,!Effect,O quê? Tudo isso por causa de uma garota?
+Dialogue: Marked=0,0:22:36.08,0:22:37.62,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:22:37.62,0:22:40.11,*Default,NTP,0000,0000,0000,!Effect,Você é mesmo problemático!
+Dialogue: Marked=0,0:22:41.07,0:22:44.14,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,300)}Você teria feito o mesmo!
+Dialogue: Marked=0,0:22:45.11,0:22:50.30,*Default,NTP,0000,0000,0000,!Effect,De qualquer forma, nós\Nrecuperamos o Kin In! Bom trabalho!
+Dialogue: Marked=0,0:22:50.30,0:22:52.29,*Default,NTP,0000,0000,0000,!Effect,O que aconteceu com o pequeno Koashura?
+Dialogue: Marked=0,0:22:52.29,0:23:00.46,*Default,NTP,0000,0000,0000,!Effect,Ele levou apenas dez mil palmadas,\Npois estava sob a influência do Yasha.
+Dialogue: Marked=0,0:23:02.11,0:23:04.38,*Default,NTP,0000,0000,0000,!Effect,Cara, isso não tem graça!
+Dialogue: Marked=0,0:23:04.38,0:23:12.97,*Default,NTP,0000,0000,0000,!Effect,Se você não tivesse colocado ele no magma, quem sabe o que teria acontecido?
+Dialogue: Marked=0,0:23:15.52,0:23:16.89,*Default,NTP,0000,0000,0000,!Effect,Foi apenas sorte.
+Dialogue: Marked=0,0:23:20.13,0:23:20.98,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:23:21.76,0:23:22.98,*Default,NTP,0000,0000,0000,!Effect,Apenas sorte?
+Dialogue: Marked=0,0:23:23.30,0:23:27.04,*Default,NTP,0000,0000,0000,!Effect,Ei, ei! No final das contas, funcionou bem, não foi?
+Dialogue: Marked=0,0:23:28.04,0:23:29.99,*Default,NTP,0000,0000,0000,!Effect,Isso não tem graça!
+Dialogue: Marked=0,0:23:30.84,0:23:32.37,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:23:32.37,0:23:36.44,*Default,NTP,0000,0000,0000,!Effect,Ah, eu tenho um encontro!\NTenho que correr! Até mais!
+Dialogue: Marked=0,0:23:36.44,0:23:38.84,*Default,NTP,0000,0000,0000,!Effect,Ei! Espere aí, Yusuke!

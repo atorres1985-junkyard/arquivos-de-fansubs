@@ -1,0 +1,287 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: Radio2,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,2,30,30,20,0,0
+Style: Radio3,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,1,1,2,1,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,Souvenir Lt BT,40,16777215,12632256,16711680,10485760,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,Arial Black,36,16777215,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,&HFF110066,8454143,3815994,&HFF110066,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA3,Arial,40,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:31.23,0:01:32.96,Narrador,NTP,0000,0000,0000,!Effect,Respeitando o último desejo de Raizen,
+Dialogue: Marked=0,0:01:33.22,0:01:34.67,Narrador,NTP,0000,0000,0000,!Effect,Yusuke propôs que a pessoa\Nque governaria o Makai unificado...
+Dialogue: Marked=0,0:01:34.67,0:01:37.22,Narrador,NTP,0000,0000,0000,!Effect,fosse escolhida em um torneio.
+Dialogue: Marked=0,0:01:37.59,0:01:39.68,Narrador,NTP,0000,0000,0000,!Effect,Como resultado, foi organizado\Num grande torneio de artes marciais...
+Dialogue: Marked=0,0:01:40.20,0:01:42.90,Narrador,NTP,0000,0000,0000,!Effect,abrangendo todo o Makai.
+Dialogue: Marked=0,0:01:44.01,0:01:46.44,Narrador,NTP,0000,0000,0000,!Effect,Com lutadores que observavam\Natentos uma chance de vitória,
+Dialogue: Marked=0,0:01:47.04,0:01:49.40,Narrador,NTP,0000,0000,0000,!Effect,e cujas ambições se misturavam,
+Dialogue: Marked=0,0:01:49.40,0:01:52.52,Narrador,NTP,0000,0000,0000,!Effect,as preliminares do torneio\Nfinalmente começaram.
+Dialogue: Marked=0,0:01:53.15,0:01:55.16,Narrador,NTP,0000,0000,0000,!Effect,Do sorteio das lutas,
+Dialogue: Marked=0,0:01:55.16,0:01:58.57,Narrador,NTP,0000,0000,0000,!Effect,um inevitável confronto entre pai\Ne filho surgiu: Yomi contra Shura.
+Dialogue: Marked=0,0:01:59.73,0:02:04.08,Narrador,NTP,0000,0000,0000,!Effect,Um clima tempestuoso\Npairava sobre o torneio.
+
+Dialogue: Marked=0,0:02:04.14,0:02:10.09,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 106
+Dialogue: Marked=0,0:02:04.14,0:02:10.09,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(283,410)}{\fscx90\fscy130}Batalha entre pai e filho!
+Dialogue: Marked=0,0:02:04.14,0:02:10.09,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(480,485)}{\fscx180\fscy130}Yomi e Shura
+
+Dialogue: Marked=0,0:02:16.27,0:02:18.58,*Default,NTP,0000,0000,0000,!Effect,Dos 128 blocos, apenas o bloco 34,
+Dialogue: Marked=0,0:02:18.58,0:02:22.10,*Default,NTP,0000,0000,0000,!Effect,que tem os participantes Yomi e Shura,
+Dialogue: Marked=0,0:02:22.49,0:02:24.75,*Default,NTP,0000,0000,0000,!Effect,ainda não está finalizado.
+Dialogue: Marked=0,0:02:24.75,0:02:27.38,*Default,NTP,0000,0000,0000,!Effect,E, apesar de ser uma luta preliminar,
+Dialogue: Marked=0,0:02:27.38,0:02:30.60,*Default,NTP,0000,0000,0000,!Effect,não há dúvidas de que esta inevitável\Nluta entre pai e filho será impressionante!
+Dialogue: Marked=0,0:02:30.87,0:02:34.32,*Default,NTP,0000,0000,0000,!Effect,Quem será que vencerá e\Navançará à competição principal?
+Dialogue: Marked=0,0:02:34.32,0:02:36.76,*Default,NTP,0000,0000,0000,!Effect,Ambos os participantes estão se encarando...
+Dialogue: Marked=0,0:02:36.76,0:02:39.11,*Default,NTP,0000,0000,0000,!Effect,E nenhum dos dois está se movendo!
+Dialogue: Marked=0,0:02:39.11,0:02:40.11,*Default,NTP,0000,0000,0000,!Effect,Nossa!
+Dialogue: Marked=0,0:02:46.10,0:02:46.91,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:02:56.58,0:02:58.62,*Default,NTP,0000,0000,0000,!Effect,O participante Shura\Nlança um ataque surpresa!
+Dialogue: Marked=0,0:02:58.62,0:03:02.01,*Default,NTP,0000,0000,0000,!Effect,O participante Yomi\Ndesapareceu dentro da luz!
+Dialogue: Marked=0,0:03:06.92,0:03:07.87,*Default,NTP,0000,0000,0000,!Effect,Consegui!
+Dialogue: Marked=0,0:03:08.46,0:03:10.52,*Default,NTP,0000,0000,0000,!Effect,Por que você está tão feliz?
+Dialogue: Marked=0,0:03:18.20,0:03:18.86,P!,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:03:35.79,0:03:41.16,*Default,NTP,0000,0000,0000,!Effect,Eles são rápidos! A câmera os perdeu\Nde vista! Por favor, esperem um pouco!
+Dialogue: Marked=0,0:03:42.56,0:03:44.85,*Default,NTP,0000,0000,0000,!Effect,A velocidade daquele\Ngaroto é impressionante.
+Dialogue: Marked=0,0:03:45.47,0:03:48.27,*Default,NTP,0000,0000,0000,!Effect,O Yomi também é incrível,\Npor acompanhá-lo.
+Dialogue: Marked=0,0:03:52.47,0:03:57.83,P!,NTP,0000,0000,0000,!Effect,O que esta luta significa para o Yomi?\NSe ele quer apenas a vitória, 
+Dialogue: Marked=0,0:03:57.83,0:04:00.74,P!,NTP,0000,0000,0000,!Effect,ele não deveria se preocupar\Nem lutar contra seu filho... 
+Dialogue: Marked=0,0:04:01.85,0:04:03.35,*Default,NTP,0000,0000,0000,!Effect,O que você acha, Hiei?
+Dialogue: Marked=0,0:04:04.05,0:04:05.50,*Default,NTP,0000,0000,0000,!Effect,Sobre o quê?
+Dialogue: Marked=0,0:04:05.50,0:04:08.41,*Default,NTP,0000,0000,0000,!Effect,Sobre o Yomi. Você acha mesmo\Nque ele desistiu da nação dele...
+Dialogue: Marked=0,0:04:08.41,0:04:11.28,*Default,NTP,0000,0000,0000,!Effect,e está aqui pelo puro prazer de lutar?
+Dialogue: Marked=0,0:04:11.96,0:04:13.25,*Default,NTP,0000,0000,0000,!Effect,Eu não sei.
+Dialogue: Marked=0,0:05:06.20,0:05:08.28,*Default,NTP,0000,0000,0000,!Effect,Droga...
+Dialogue: Marked=0,0:05:11.58,0:05:14.04,*Default,NTP,0000,0000,0000,!Effect,Agora, você já deve ser capaz\Nde saber como esta luta vai terminar.
+Dialogue: Marked=0,0:05:14.04,0:05:16.35,*Default,NTP,0000,0000,0000,!Effect,Shura, admita a sua derrota.
+Dialogue: Marked=0,0:05:18.87,0:05:19.69,*Default,NTP,0000,0000,0000,!Effect,Shura!
+Dialogue: Marked=0,0:05:23.01,0:05:23.69,*Default,NTP,0000,0000,0000,!Effect,S-Sim...
+Dialogue: Marked=0,0:05:24.17,0:05:27.68,*Default,NTP,0000,0000,0000,!Effect,Parece que já foi decidido.\NComo era esperado...
+Dialogue: Marked=0,0:05:27.68,0:05:29.70,*Default,NTP,0000,0000,0000,!Effect,do antigo imperador e\Nsoberano da nação de Gandara!
+Dialogue: Marked=0,0:05:30.05,0:05:34.45,*Default,NTP,0000,0000,0000,!Effect,O participante Yomi mostrou a\Nenorme diferença entre seus poderes!
+Dialogue: Marked=0,0:05:40.14,0:05:42.17,*Default,NTP,0000,0000,0000,!Effect,Shura, você se saiu bem.
+Dialogue: Marked=0,0:05:57.79,0:05:59.35,*Default,NTP,0000,0000,0000,!Effect,Sucesso!
+Dialogue: Marked=0,0:05:59.80,0:06:02.05,*Default,NTP,0000,0000,0000,!Effect,Mas que contra-ataque inesperado!
+Dialogue: Marked=0,0:06:02.05,0:06:07.07,*Default,NTP,0000,0000,0000,!Effect,A energia que o participante Shura liberou\Ntransformou o ringue em um mar de fogo!
+Dialogue: Marked=0,0:06:07.57,0:06:09.24,*Default,NTP,0000,0000,0000,!Effect,Que garoto!
+Dialogue: Marked=0,0:06:09.24,0:06:12.31,*Default,NTP,0000,0000,0000,!Effect,Atacou o próprio pai\Ncomo se ele não fosse nada!
+Dialogue: Marked=0,0:06:12.31,0:06:15.83,*Default,NTP,0000,0000,0000,!Effect,Quem quer que ganhe esta luta\Nserá um oponente formidável.
+Dialogue: Marked=0,0:06:20.18,0:06:21.31,*Default,NTP,0000,0000,0000,!Effect,Parece que está decidido.
+Dialogue: Marked=0,0:06:25.18,0:06:26.25,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:06:39.78,0:06:41.06,*Default,NTP,0000,0000,0000,!Effect,Não pode ser...
+Dialogue: Marked=0,0:06:51.19,0:06:54.95,*Default,NTP,0000,0000,0000,!Effect,Não pode ser...\NEle não está nem arranhado!
+Dialogue: Marked=0,0:06:55.79,0:06:58.96,*Default,NTP,0000,0000,0000,!Effect,Shura, não se empolgue muito.
+Dialogue: Marked=0,0:06:59.57,0:07:02.08,*Default,NTP,0000,0000,0000,!Effect,Minha paciência tem limites.
+Dialogue: Marked=0,0:07:05.14,0:07:09.50,*Default,NTP,0000,0000,0000,!Effect,É isso que eu quero. Você prometeu\Nque lutaria de verdade contra mim,
+Dialogue: Marked=0,0:07:09.50,0:07:10.72,*Default,NTP,0000,0000,0000,!Effect,sem se segurar, não foi?
+Dialogue: Marked=0,0:07:17.27,0:07:20.44,*Default,NTP,0000,0000,0000,!Effect,Mas que surpresa!\NO participante Yomi nem se feriu!
+Dialogue: Marked=0,0:07:20.83,0:07:22.90,*Default,NTP,0000,0000,0000,!Effect,Tal pai, tal filho.
+Dialogue: Marked=0,0:07:22.90,0:07:27.16,*Default,NTP,0000,0000,0000,!Effect,Parece que ambos os participantes são máquinas de combate. Nasceram para lutar!
+Dialogue: Marked=0,0:07:30.71,0:07:31.41,*Default,NTP,0000,0000,0000,!Effect,O que foi?
+Dialogue: Marked=0,0:07:32.16,0:07:34.89,*Default,NTP,0000,0000,0000,!Effect,Nada. É só porque eu estava\Nsurpreso pelas luta entre pai e filho...
+Dialogue: Marked=0,0:07:34.89,0:07:36.96,*Default,NTP,0000,0000,0000,!Effect,que você e Raizen-sama\Ntiveram, Yusuke-san...
+Dialogue: Marked=0,0:07:37.74,0:07:39.84,*Default,NTP,0000,0000,0000,!Effect,Mas aí você olha esses dois lutando, e...
+Dialogue: Marked=0,0:07:39.84,0:07:43.42,*Default,NTP,0000,0000,0000,!Effect,Agora que você falou disso,\Neu nunca fui tão longe com o meu pai.
+Dialogue: Marked=0,0:07:43.83,0:07:44.76,*Default,NTP,0000,0000,0000,!Effect,Seu mentiroso!
+Dialogue: Marked=0,0:07:49.29,0:07:50.34,*Default,NTP,0000,0000,0000,!Effect,Oi!
+Dialogue: Marked=0,0:07:51.61,0:07:53.05,*Default,NTP,0000,0000,0000,!Effect,Quem são vocês?!
+Dialogue: Marked=0,0:07:54.82,0:07:57.51,*Default,NTP,0000,0000,0000,!Effect,Do que você está falando?\NSou eu, Yusuke!
+Dialogue: Marked=0,0:07:57.84,0:07:58.97,*Default,NTP,0000,0000,0000,!Effect,Koenma?!
+Dialogue: Marked=0,0:07:59.41,0:08:00.86,*Default,NTP,0000,0000,0000,!Effect,Já faz...
+Dialogue: Marked=0,0:08:00.86,0:08:02.17,*Default,NTP,0000,0000,0000,!Effect,Tanto tempo!
+Dialogue: Marked=0,0:08:02.17,0:08:04.44,*Default,NTP,0000,0000,0000,!Effect,O que vocês estão fazendo aqui?!
+Dialogue: Marked=0,0:08:05.14,0:08:09.65,*Default,NTP,0000,0000,0000,!Effect,Nós viemos para ver quem uniria o Makai.
+Dialogue: Marked=0,0:08:10.02,0:08:11.64,*Default,NTP,0000,0000,0000,!Effect,Este é o motivo oficial!
+Dialogue: Marked=0,0:08:11.64,0:08:15.34,*Default,NTP,0000,0000,0000,!Effect,O Koenma-sama não perderia a chance de\Nassistir a um evento divertido como esse...
+Dialogue: Marked=0,0:08:15.34,0:08:17.49,*Default,NTP,0000,0000,0000,!Effect,do jeito que ele gosta de festas!
+Dialogue: Marked=0,0:08:17.49,0:08:19.62,*Default,NTP,0000,0000,0000,!Effect,Vocês dois! Calem a boca!
+Dialogue: Marked=0,0:08:20.02,0:08:23.39,*Default,NTP,0000,0000,0000,!Effect,Qualquer que seja a razão, se\Nsouberem que você veio do Reikai...
+Dialogue: Marked=0,0:08:23.39,0:08:26.59,*Default,NTP,0000,0000,0000,!Effect,você poderia ser comido\Npor aqueles Mazokus.
+Dialogue: Marked=0,0:08:27.91,0:08:29.42,*Default,NTP,0000,0000,0000,!Effect,Koenma-sama...
+Dialogue: Marked=0,0:08:29.42,0:08:31.37,*Default,NTP,0000,0000,0000,!Effect,Jorge está com medo!
+Dialogue: Marked=0,0:08:31.37,0:08:34.30,*Default,NTP,0000,0000,0000,!Effect,Está tudo bem! Não saiam de perto de mim!
+Dialogue: Marked=0,0:08:35.19,0:08:36.56,*Default,NTP,0000,0000,0000,!Effect,Koenma-sama!
+Dialogue: Marked=0,0:08:36.56,0:08:37.99,*Default,NTP,0000,0000,0000,!Effect,Nós te amamos!
+Dialogue: Marked=0,0:08:37.99,0:08:40.50,*Default,NTP,0000,0000,0000,!Effect,E eu não vou sair de perto do Yusuke!
+Dialogue: Marked=0,0:08:40.50,0:08:41.56,*Default,NTP,0000,0000,0000,!Effect,Nós te odiamos!
+Dialogue: Marked=0,0:08:42.39,0:08:43.27,*Default,NTP,0000,0000,0000,!Effect,Yusuke-san!
+Dialogue: Marked=0,0:08:44.13,0:08:45.23,*Default,NTP,0000,0000,0000,!Effect,Eles estão se movendo?
+Dialogue: Marked=0,0:08:47.86,0:08:49.15,P!,NTP,0000,0000,0000,!Effect,Aqui vou eu!
+Dialogue: Marked=0,0:09:01.53,0:09:03.90,P!,NTP,0000,0000,0000,!Effect,Ele está concentrando\Nseu youki em ambas as mãos... 
+Dialogue: Marked=0,0:09:03.90,0:09:05.50,P!,NTP,0000,0000,0000,!Effect,Vai ser um ataque de emissão de energia. 
+Dialogue: Marked=0,0:09:06.02,0:09:09.01,Doutrina,NTP,0000,0000,0000,!Effect,Hissatsu Maenko!
+Dialogue: Marked=0,0:09:10.05,0:09:11.93,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,300)\fscx85\fscy85}Mordida Circular Demoníaca Mortal
+Dialogue: Marked=0,0:09:10.05,0:09:11.93,PLACA,NTP,0000,0000,0000,!Effect,{\c&HA4BAB6\fad(0,0)\pos(405,465)\fscx83\fscy80}HISSATSU MAENKO
+Dialogue: Marked=0,0:09:17.52,0:09:19.93,P!,NTP,0000,0000,0000,!Effect,0,04 segundo para o impacto... 
+Dialogue: Marked=0,0:09:29.16,0:09:32.86,Doutrina,NTP,0000,0000,0000,!Effect,Makoiryu Renpa Hanshoheki!
+Dialogue: Marked=0,0:09:32.73,0:09:36.79,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,300)\fscx85\fscy85}Estilo Makoi: Barreira Indestrutível
+Dialogue: Marked=0,0:09:32.73,0:09:36.79,PLACA,NTP,0000,0000,0000,!Effect,{\c&HDADFC6\fad(500,0)\pos(408,480)\fscx103\fscy100}MAKOIRYU RENPA HANSHOHEKI
+Dialogue: Marked=0,0:09:58.14,0:09:59.50,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:10:12.34,0:10:16.65,P!,NTP,0000,0000,0000,!Effect,Não pode ser...\NEle está absorvendo meu poder espectral!
+Dialogue: Marked=0,0:10:17.23,0:10:21.39,*Default,NTP,0000,0000,0000,!Effect,O participante Shura continua\Na lançar ataques poderosos,
+Dialogue: Marked=0,0:10:21.39,0:10:24.62,*Default,NTP,0000,0000,0000,!Effect,mas, por alguma razão, parece que\No participante Yomi está na frente.
+Dialogue: Marked=0,0:10:25.45,0:10:30.02,*Default,NTP,0000,0000,0000,!Effect,Será o lutador Yomi, o pai,\No vencedor desta disputa?!
+Dialogue: Marked=0,0:10:31.69,0:10:35.68,P!,NTP,0000,0000,0000,!Effect,Então é isso. O Shura é igual ao\NYomi quando ele era mais jovem. 
+Dialogue: Marked=0,0:10:35.68,0:10:40.05,P!,NTP,0000,0000,0000,!Effect,E, de alguma maneira, o Yomi está\Nvoltando a ser como ele era há muito tempo. 
+Dialogue: Marked=0,0:10:40.94,0:10:42.72,P!,NTP,0000,0000,0000,!Effect,Essa vai ser uma luta interessante. 
+Dialogue: Marked=0,0:10:46.28,0:10:49.02,*Default,NTP,0000,0000,0000,!Effect,Shura, admita a sua derrota!
+Dialogue: Marked=0,0:10:50.05,0:10:53.48,P!,NTP,0000,0000,0000,!Effect,Já basta, Shura. Você se saiu bem. 
+Dialogue: Marked=0,0:10:54.21,0:10:58.55,P!,NTP,0000,0000,0000,!Effect,Do fundo do meu coração, \Nestou feliz pela sua melhora. 
+Dialogue: Marked=0,0:11:08.79,0:11:10.01,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:11:15.48,0:11:16.34,*Default,NTP,0000,0000,0000,!Effect,Seu...
+Dialogue: Marked=0,0:11:23.96,0:11:25.15,*Default,NTP,0000,0000,0000,!Effect,É aqui que a coisa termina?
+Dialogue: Marked=0,0:11:39.35,0:11:43.45,*Default,NTP,0000,0000,0000,!Effect,Eu não vou perder! Não há como eu perder!
+Dialogue: Marked=0,0:11:44.33,0:11:46.66,*Default,NTP,0000,0000,0000,!Effect,Eu não vou perder para você, papai!
+Dialogue: Marked=0,0:11:47.32,0:11:48.62,*Default,NTP,0000,0000,0000,!Effect,Shura...
+
+Dialogue: Marked=0,0:12:12.07,0:12:15.44,P!,NTP,0000,0000,0000,!Effect,Uma abertura! Eu tenho que achar\Nalguma abertura na defesa do papai! 
+Dialogue: Marked=0,0:12:28.57,0:12:30.29,*Default,NTP,0000,0000,0000,!Effect,N-Não tem como!
+Dialogue: Marked=0,0:12:31.55,0:12:34.57,*Default,NTP,0000,0000,0000,!Effect,O papai não tem... O papai não\Ntem abertura alguma na defesa dele!
+Dialogue: Marked=0,0:12:43.15,0:12:46.64,L!,NTP,0000,0000,0000,!Effect,Isso foi cruel! Papai, você não deixa\Nqualquer abertura na sua defesa!
+Dialogue: Marked=0,0:12:49.41,0:12:51.69,L!,NTP,0000,0000,0000,!Effect,Quando você está\Nenfrentando lutadores de primeira,
+Dialogue: Marked=0,0:12:51.69,0:12:54.10,L!,NTP,0000,0000,0000,!Effect,não adianta você procurar\Npor uma abertura, Shura.
+Dialogue: Marked=0,0:12:54.77,0:12:57.06,L!,NTP,0000,0000,0000,!Effect,Então, o que eu devo fazer?
+Dialogue: Marked=0,0:12:57.73,0:12:59.65,L!,NTP,0000,0000,0000,!Effect,Se o seu oponente não dá qualquer brecha,
+Dialogue: Marked=0,0:12:59.65,0:13:01.44,L!,NTP,0000,0000,0000,!Effect,{\fad(0,400)}você deve criar uma por si próprio.
+Dialogue: Marked=0,0:13:03.43,0:13:05.35,P!,NTP,0000,0000,0000,!Effect,Se o seu oponente não dá qualquer brecha... 
+Dialogue: Marked=0,0:13:05.35,0:13:07.59,P!,NTP,0000,0000,0000,!Effect,Você deve criar uma por si próprio? 
+Dialogue: Marked=0,0:13:08.92,0:13:10.49,P!,NTP,0000,0000,0000,!Effect,Entendi, papai. 
+Dialogue: Marked=0,0:13:30.48,0:13:34.39,P!,NTP,0000,0000,0000,!Effect,Ele está escondendo sua presença\Ncom a explosão para tentar me distrair.
+Dialogue: Marked=0,0:13:36.08,0:13:36.69,*Default,NTP,0000,0000,0000,!Effect,Aí está você!
+Dialogue: Marked=0,0:13:41.03,0:13:42.48,P!,NTP,0000,0000,0000,!Effect,Esse foi um truque audacioso. 
+Dialogue: Marked=0,0:13:48.15,0:13:49.07,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:13:49.21,0:13:50.45,Doutrina,,0000,0000,0000,,Maenko!
+Dialogue: Marked=0,0:14:04.40,0:14:08.80,P!,NTP,0000,0000,0000,!Effect,Ele está fazendo de novo! Ele está\Nabsorvendo meu poder espectral de novo! 
+Dialogue: Marked=0,0:14:09.50,0:14:13.32,P!,NTP,0000,0000,0000,!Effect,Pior que isso, ele pode antecipar\Ntodos os ataques que eu faço. 
+Dialogue: Marked=0,0:14:13.32,0:14:14.28,P!,NTP,0000,0000,0000,!Effect,Eu não posso fazer nada! 
+Dialogue: Marked=0,0:14:15.26,0:14:18.77,*Default,NTP,0000,0000,0000,!Effect,Qual é o problema?\NVocê não está mais atacando?
+Dialogue: Marked=0,0:14:19.31,0:14:21.05,*Default,NTP,0000,0000,0000,!Effect,Neste caso, eu vou te atacar!
+Dialogue: Marked=0,0:14:48.46,0:14:50.86,*Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores, vocês viram isso?
+Dialogue: Marked=0,0:14:50.86,0:14:53.26,*Default,NTP,0000,0000,0000,!Effect,O participante Yomi lançou um forte ataque.
+Dialogue: Marked=0,0:14:53.26,0:14:56.68,*Default,NTP,0000,0000,0000,!Effect,Uma seqüência\Nverdadeiramente cruel de ataques!
+Dialogue: Marked=0,0:14:57.07,0:15:00.13,*Default,NTP,0000,0000,0000,!Effect,Ei, aquele idiota do Yomi é forte.
+Dialogue: Marked=0,0:15:00.76,0:15:03.77,*Default,NTP,0000,0000,0000,!Effect,Ele está atacando seu próprio filho\Ncom todas as forças, sem hesitar!
+Dialogue: Marked=0,0:15:03.77,0:15:06.40,*Default,NTP,0000,0000,0000,!Effect,Ele não está de brincadeira, certo?
+Dialogue: Marked=0,0:15:20.21,0:15:21.83,P!,NTP,0000,0000,0000,!Effect,Droga...
+Dialogue: Marked=0,0:15:22.50,0:15:23.59,*Default,NTP,0000,0000,0000,!Effect,Ai, isso dói...
+Dialogue: Marked=0,0:15:24.45,0:15:25.26,*Default,NTP,0000,0000,0000,!Effect,Shura...
+Dialogue: Marked=0,0:15:26.59,0:15:28.30,*Default,NTP,0000,0000,0000,!Effect,Admita a sua derrota.
+Dialogue: Marked=0,0:15:29.23,0:15:36.27,*Default,NTP,0000,0000,0000,!Effect,Nunca! Você pode me matar!\NVocê prometeu que esta seria uma luta séria!
+Dialogue: Marked=0,0:15:37.56,0:15:38.72,*Default,NTP,0000,0000,0000,!Effect,Não seja tão presunçoso!
+Dialogue: Marked=0,0:15:40.07,0:15:45.31,*Default,NTP,0000,0000,0000,!Effect,Um iniciante como você não\Npode usar as palavras "luta séria"!
+Dialogue: Marked=0,0:15:46.41,0:15:50.37,*Default,NTP,0000,0000,0000,!Effect,Você não percebeu o quanto eu\Nestou suprimindo meus poderes...
+Dialogue: Marked=0,0:15:50.37,0:15:51.75,*Default,NTP,0000,0000,0000,!Effect,enquanto eu luto contra você?!
+Dialogue: Marked=0,0:15:52.73,0:15:55.43,*Default,NTP,0000,0000,0000,!Effect,Se você quiser escolher\Numa morte fácil, você pode.
+Dialogue: Marked=0,0:15:56.20,0:15:58.25,*Default,NTP,0000,0000,0000,!Effect,Provavelmente isso é\Ntudo de que você é capaz.
+Dialogue: Marked=0,0:16:06.42,0:16:09.39,*Default,NTP,0000,0000,0000,!Effect,Essa é a última vez.\NSó vou te pedir mais uma vez.
+Dialogue: Marked=0,0:16:10.18,0:16:12.80,*Default,,0000,0000,0000,,Shura, admita sua derrota!
+Dialogue: Marked=0,0:16:19.41,0:16:21.34,*Default,NTP,0000,0000,0000,!Effect,Eu desisto, papai!
+Dialogue: Marked=0,0:16:22.78,0:16:25.52,*Default,NTP,0000,0000,0000,!Effect,Finalmente, o participante Shura desiste!
+Dialogue: Marked=0,0:16:26.04,0:16:30.72,*Default,NTP,0000,0000,0000,!Effect,O participante Yomi agora avança do\Nbloco 34 para a competição principal...
+Dialogue: Marked=0,0:16:30.72,0:16:33.49,*Default,NTP,0000,0000,0000,!Effect,e todas as preliminares foram concluídas!
+Dialogue: Marked=0,0:16:54.27,0:16:56.18,*Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores,\Npor favor, fiquem quietos!
+Dialogue: Marked=0,0:16:56.93,0:16:59.48,*Default,NTP,0000,0000,0000,!Effect,Agora, antes que comecemos\Na competição principal,
+Dialogue: Marked=0,0:16:59.48,0:17:01.80,*Default,NTP,0000,0000,0000,!Effect,ouviremos as boas-vindas\Ndo participante Urameshi,
+Dialogue: Marked=0,0:17:01.80,0:17:04.39,*Default,NTP,0000,0000,0000,!Effect,que representa os promotores do torneio!
+Dialogue: Marked=0,0:17:12.14,0:17:14.29,*Default,NTP,0000,0000,0000,!Effect,Ele está bastante nervoso, né?
+Dialogue: Marked=0,0:17:14.29,0:17:15.95,*Default,NTP,0000,0000,0000,!Effect,Não é comum ele ficar constrangido.
+Dialogue: Marked=0,0:17:20.85,0:17:23.54,*Default,NTP,0000,0000,0000,!Effect,Entre os participantes que\Nestão na competição principal,
+Dialogue: Marked=0,0:17:23.54,0:17:27.02,*Default,NTP,0000,0000,0000,!Effect,visto que vocês são do tipo\Nque conseguem chegar tão longe,
+Dialogue: Marked=0,0:17:27.02,0:17:30.10,*Default,NTP,0000,0000,0000,!Effect,provavelmente existem aqueles...
+Dialogue: Marked=0,0:17:30.10,0:17:32.30,*Default,NTP,0000,0000,0000,!Effect,que estão até dispostos a morrer lutando.
+Dialogue: Marked=0,0:17:32.81,0:17:36.27,*Default,NTP,0000,0000,0000,!Effect,Mas, pra ser honesto, eu não quero\Nque qualquer um de vocês morra.
+Dialogue: Marked=0,0:17:36.27,0:17:38.44,*Default,NTP,0000,0000,0000,!Effect,Afinal, fica uma sensação\Nestranha depois que isso acontece.
+Dialogue: Marked=0,0:17:39.16,0:17:41.84,*Default,NTP,0000,0000,0000,!Effect,Acima de tudo, todos vocês\Nestão com esse olhar no rosto,
+Dialogue: Marked=0,0:17:41.84,0:17:43.53,*Default,NTP,0000,0000,0000,!Effect,como se vocês quisessem\Nenfrentar muitos desafios,
+Dialogue: Marked=0,0:17:43.53,0:17:45.58,*Default,NTP,0000,0000,0000,!Effect,e eu também quero lutar algumas vezes.
+Dialogue: Marked=0,0:17:47.17,0:17:48.87,*Default,NTP,0000,0000,0000,!Effect,Para dizer a verdade...
+Dialogue: Marked=0,0:17:48.87,0:17:51.98,*Default,NTP,0000,0000,0000,!Effect,Eu não acho que seja\Ncapaz de ganhar desta vez.
+Dialogue: Marked=0,0:17:54.12,0:17:56.45,*Default,NTP,0000,0000,0000,!Effect,Desistindo, mesmo antes de lutar?!
+Dialogue: Marked=0,0:17:57.20,0:18:00.41,*Default,NTP,0000,0000,0000,!Effect,Mesmo assim, daqui a dois anos,\Neu acho que eu irei melhor.
+Dialogue: Marked=0,0:18:01.00,0:18:04.30,*Default,NTP,0000,0000,0000,!Effect,Claro que isso fica a cargo do vencedor decidir.
+Dialogue: Marked=0,0:18:04.30,0:18:07.72,*Default,NTP,0000,0000,0000,!Effect,Se ele disser que esta é a última vez,\Nentão este é o fim do torneio.
+Dialogue: Marked=0,0:18:08.38,0:18:09.79,*Default,NTP,0000,0000,0000,!Effect,Se possível...
+Dialogue: Marked=0,0:18:09.79,0:18:12.87,*Default,NTP,0000,0000,0000,!Effect,Eu acho que seria ótimo se todos\Nse juntassem assim, de tempos em tempos,
+Dialogue: Marked=0,0:18:12.87,0:18:16.43,*Default,NTP,0000,0000,0000,!Effect,e escolhessem quem seria o líder,\Ncomo em uma eleição presidencial.
+Dialogue: Marked=0,0:18:17.25,0:18:18.44,*Default,NTP,0000,0000,0000,!Effect,Papai...
+Dialogue: Marked=0,0:18:18.44,0:18:23.38,*Default,NTP,0000,0000,0000,!Effect,Sim. Da próxima vez, você\Ntambém será um lutador importante.
+Dialogue: Marked=0,0:18:23.38,0:18:24.14,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:18:24.44,0:18:27.40,*Default,NTP,0000,0000,0000,!Effect,Eu não sou do tipo que prevê as coisas,
+Dialogue: Marked=0,0:18:27.40,0:18:31.11,*Default,NTP,0000,0000,0000,!Effect,mas acredito que, independente\Ndo vencedor, todos podem relaxar.
+Dialogue: Marked=0,0:18:31.96,0:18:33.32,*Default,NTP,0000,0000,0000,!Effect,E então, por enquanto...
+Dialogue: Marked=0,0:18:33.38,0:18:35.64,*Default,NTP,0000,0000,0000,!Effect,Vamos começar com isso aqui!
+Dialogue: Marked=0,0:18:47.53,0:18:50.81,*Default,NTP,0000,0000,0000,!Effect,Agora, a competição está prestes a começar.
+Dialogue: Marked=0,0:18:50.81,0:18:52.56,*Default,NTP,0000,0000,0000,!Effect,A competição principal será\Nfeita com os 128 participantes...
+Dialogue: Marked=0,0:18:52.56,0:18:55.79,*Default,NTP,0000,0000,0000,!Effect,que ganharam através das preliminares,\Ndivididos em quatro blocos,
+Dialogue: Marked=0,0:18:55.79,0:19:00.29,*Default,NTP,0000,0000,0000,!Effect,com cada bloco tendo lutas de um contra um.
+Dialogue: Marked=0,0:19:00.29,0:19:01.92,*Default,NTP,0000,0000,0000,!Effect,A vitória será decidida da mesma forma que nas preliminares,
+Dialogue: Marked=0,0:19:01.92,0:19:03.46,*Default,NTP,0000,0000,0000,!Effect,com as disputas continuando...
+Dialogue: Marked=0,0:19:03.46,0:19:05.88,*Default,NTP,0000,0000,0000,!Effect,até que um dos lutadores desista ou\Nfique incapacitado de continuar a lutar.
+Dialogue: Marked=0,0:19:05.88,0:19:07.03,*Default,NTP,0000,0000,0000,!Effect,Muito bem, então!
+Dialogue: Marked=0,0:19:01.47,0:19:07.61,PLACA,NTP,0000,0000,0000,!Effect,{\c&HD3D4DC\fad(0,0)\pos(405,350)\fscx83\fscy80}CAMPEÃO
+Dialogue: Marked=0,0:19:07.03,0:19:09.14,*Default,NTP,0000,0000,0000,!Effect,A primeira luta do bloco A será...
+Dialogue: Marked=0,0:19:09.14,0:19:12.00,*Default,NTP,0000,0000,0000,!Effect,Participante Urameshi\Ncontra participante Nekotama!
+Dialogue: Marked=0,0:19:19.42,0:19:20.28,*Default,NTP,0000,0000,0000,!Effect,Comecem!
+Dialogue: Marked=0,0:19:26.04,0:19:27.49,*Default,NTP,0000,0000,0000,!Effect,Que youki incrível!
+Dialogue: Marked=0,0:19:30.45,0:19:32.96,P!,NTP,0000,0000,0000,!Effect,Eu ouvi que existiam outros no\NMakai além da Mukuro e do Yomi,
+Dialogue: Marked=0,0:19:32.96,0:19:35.04,P!,NTP,0000,0000,0000,!Effect,mas que eles estavam\Nescondendo suas habilidades. 
+Dialogue: Marked=0,0:19:36.04,0:19:39.68,P!,NTP,0000,0000,0000,!Effect,Isso não será fácil \Naté mesmo para o Yusuke. 
+Dialogue: Marked=0,0:19:42.99,0:19:48.10,*Default,NTP,0000,0000,0000,!Effect,O participante Nekotama, numa erupção\Nextraordinária de poder, tornou-se enorme!
+Dialogue: Marked=0,0:19:48.61,0:19:53.06,*Default,NTP,0000,0000,0000,!Effect,O participante Urameshi agüentará\Ncontra o perigoso participante Nekotama?!
+Dialogue: Marked=0,0:20:04.88,0:20:08.20,*Default,NTP,0000,0000,0000,!Effect,As garras do participante Nekotama cresceram!
+Dialogue: Marked=0,0:20:08.20,0:20:11.21,*Default,NTP,0000,0000,0000,!Effect,O participante Urameshi\Nserá espetado desta maneira?!
+Dialogue: Marked=0,0:20:11.50,0:20:12.43,*Default,NTP,0000,0000,0000,!Effect,Yusuke-san!
+Dialogue: Marked=0,0:20:12.43,0:20:13.42,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:20:35.11,0:20:36.15,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:20:36.65,0:20:38.85,*Default,NTP,0000,0000,0000,!Effect,O participante Nekotama caiu!
+Dialogue: Marked=0,0:20:39.70,0:20:43.11,*Default,NTP,0000,0000,0000,!Effect,O participante Urameshi\Navança para a próxima fase!
+Dialogue: Marked=0,0:20:43.44,0:20:44.60,*Default,NTP,0000,0000,0000,!Effect,Ele conseguiu!
+Dialogue: Marked=0,0:20:47.43,0:20:51.31,*Default,NTP,0000,0000,0000,!Effect,O Yusuke já começou\Nlevando as coisas a sério.
+Dialogue: Marked=0,0:20:51.31,0:20:54.72,*Default,NTP,0000,0000,0000,!Effect,Você também. Não perca tempo\Ncom oponentes insignificantes.
+Dialogue: Marked=0,0:20:54.72,0:20:58.59,*Default,NTP,0000,0000,0000,!Effect,Faça como ele fez e cuide\Ndeles de início. Depois volte aqui.
+Dialogue: Marked=0,0:20:58.94,0:20:59.92,*Default,NTP,0000,0000,0000,!Effect,Naturalmente.
+Dialogue: Marked=0,0:21:00.77,0:21:03.65,*Default,NTP,0000,0000,0000,!Effect,Papai, aquele cara não usa qualquer truque...
+Dialogue: Marked=0,0:21:03.65,0:21:05.65,*Default,NTP,0000,0000,0000,!Effect,e também parece que ele\Nnão tem qualquer estratégia.
+Dialogue: Marked=0,0:21:05.65,0:21:09.77,*Default,NTP,0000,0000,0000,!Effect,Você está certo.\NEle realmente luta pela diversão.
+Dialogue: Marked=0,0:21:10.67,0:21:15.73,P!,NTP,0000,0000,0000,!Effect,Shura, eu queria que você\Nlutasse contra ele, não contra mim. 
+Dialogue: Marked=0,0:21:21.08,0:21:22.13,*Default,NTP,0000,0000,0000,!Effect,Aí vamos nós!
+
+Dialogue: Marked=0,0:21:27.42,0:21:28.15,Narrador,NTP,0000,0000,0000,!Effect,E então,
+Dialogue: Marked=0,0:21:28.15,0:21:32.26,Narrador,NTP,0000,0000,0000,!Effect,a competição principal do Torneio\Nde Unificação do Makai estava a caminho. 
+Dialogue: Marked=0,0:21:33.14,0:21:37.89,Narrador,NTP,0000,0000,0000,!Effect,Para quem a deusa da vitória sorrirá? 
+
+Dialogue: Marked=0,0:21:47.15,0:21:50.85,Conversa,NTP,0000,0000,0000,!Effect,Eu não me importo em\Nficar atrás do Koenma-sama, 
+Dialogue: Marked=0,0:21:50.85,0:21:54.18,Conversa,NTP,0000,0000,0000,!Effect,mas há muitos caras perigosos aqui! 
+Dialogue: Marked=0,0:21:54.18,0:21:58.97,Conversa,NTP,0000,0000,0000,!Effect,Eu espero realmente ficar bem. Apesar de\Nque todos eles são pessoas interessantes,
+Dialogue: Marked=0,0:21:58.97,0:22:03.36,Conversa,NTP,0000,0000,0000,!Effect,vindo até aqui só\Npara lutarem contra o Yusuke. 
+Dialogue: Marked=0,0:22:04.45,0:22:07.42,Conversa,NTP,0000,0000,0000,!Effect,Próximo Episódio: "Batalha Feroz!\NIndivíduos Lutando por Seus Sonhos."
+Dialogue: Marked=0,0:22:08.12,0:22:11.37,Conversa,NTP,0000,0000,0000,!Effect,Ah! Senhor, três pipocas e três sucos!

@@ -1,0 +1,220 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:50.62,0:01:55.20,*Default,,0000,0000,0000,,Três anos no futuro desta Era,\Nno dia 12 de maio, por volta das 10 da manhã,
+Dialogue: Marked=0,0:01:55.20,0:02:02.53,*Default,,0000,0000,0000,,{\fscx93\fscy93}dois inimigos terríveis aparecerão numa ilha que fica 9 quilômetros ao sudoeste de Minami no Miyako.
+Dialogue: Marked=0,0:02:09.71,0:02:14.51,*Default,,0000,0000,0000,,São monstros tão fortes que nem\Ndá para achar que são deste mundo.
+Dialogue: Marked=0,0:02:29.86,0:02:33.50,Narrador,,0000,0000,0000,,Trunks, que veio do futuro, disse que o futuro será...
+Dialogue: Marked=0,0:02:33.50,0:02:37.54,Narrador,,0000,0000,0000,,como o inferno e que dois\Ninimigos terríveis aparecerão.
+Dialogue: Marked=0,0:02:37.54,0:02:45.45,Narrador,,0000,0000,0000,,Por causa disso, Goku, Piccolo, Vegeta\Ne os outros guerreiros Z treinam arduamente.
+Dialogue: Marked=0,0:02:45.44,0:02:49.27,Narrador,,0000,0000,0000,,Faltam 3 anos para os andróides aparecerem.
+Dialogue: Marked=0,0:02:49.27,0:02:53.63,Narrador,,0000,0000,0000,,Os guerreiros não têm tempo para descansar.\NUm dia desses...
+
+Dialogue: Marked=0,0:02:54.54,0:03:02.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 125
+Dialogue: Marked=0,0:02:54.54,0:03:02.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(330,170)}{\fad(300,0)}{\fscx115\fscy120}Tirando a carteira?
+Dialogue: Marked=0,0:02:54.54,0:03:02.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,465)}{\fad(300,0)}{\fscx170\fscy120}Um novo teste para Goku
+
+Dialogue: Marked=0,0:03:07.20,0:03:10.44,*Default,,0000,0000,0000,!Effect,Pare! Eu não sou gostosa!
+Dialogue: Marked=0,0:03:20.15,0:03:20.99,*Default,,0000,0000,0000,!Effect,Pare!
+Dialogue: Marked=0,0:04:08.24,0:04:11.87,*Default,,0000,0000,0000,!Effect,Aquela nuvem se parece\Ncom o velhote Kame Sennin.
+Dialogue: Marked=0,0:04:17.94,0:04:19.88,*Default,,0000,0000,0000,!Effect,Pai, olhe!
+Dialogue: Marked=0,0:04:20.43,0:04:24.93,*Default,,0000,0000,0000,!Effect,Nossa, você pegou um enorme, Gohan.\NChi-Chi vai ficar feliz.
+Dialogue: Marked=0,0:04:32.74,0:04:35.44,*Default,,0000,0000,0000,!Effect,Fazer pausas no treinamento é inútil.
+Dialogue: Marked=0,0:04:48.08,0:04:50.83,*Default,,0000,0000,0000,!Effect,Aquele é o casal da montanha ao lado.
+Dialogue: Marked=0,0:05:05.78,0:05:08.67,*Default,,0000,0000,0000,!Effect,Mãe, cheguei!
+Dialogue: Marked=0,0:05:08.67,0:05:09.60,*Default,,0000,0000,0000,!Effect,Aqui, um presente!
+Dialogue: Marked=0,0:05:10.09,0:05:11.63,*Default,,0000,0000,0000,,Bem-vindo de volta, Gohan-chan.
+Dialogue: Marked=0,0:05:22.38,0:05:23.61,*Default,,0000,0000,0000,!Effect,Nós trabalhamos muito hoje.
+Dialogue: Marked=0,0:05:24.71,0:05:27.11,*Default,,0000,0000,0000,!Effect,Gohan, quer tomar banho comigo?
+Dialogue: Marked=0,0:05:29.22,0:05:30.37,*Default,,0000,0000,0000,!Effect,Tá, pai.
+Dialogue: Marked=0,0:05:31.65,0:05:33.87,*Default,,0000,0000,0000,!Effect,Piccolo-san, também vem junto?
+Dialogue: Marked=0,0:05:35.89,0:05:37.95,*Default,,0000,0000,0000,!Effect,Ei, Chi-Chi, vamos tomar banho.
+Dialogue: Marked=0,0:05:41.37,0:05:42.67,*Default,,0000,0000,0000,!Effect,Já chega!
+Dialogue: Marked=0,0:05:43.53,0:05:45.37,*Default,,0000,0000,0000,!Effect,Isso é brincadeira, não é?
+Dialogue: Marked=0,0:05:45.37,0:05:47.77,*Default,,0000,0000,0000,!Effect,Você não faz o Gohan-chan estudar!
+Dialogue: Marked=0,0:05:47.77,0:05:50.26,*Default,,0000,0000,0000,!Effect,E só treina o dia todo com o Piccolo!
+Dialogue: Marked=0,0:05:50.93,0:05:55.27,*Default,,0000,0000,0000,!Effect,Eu acabei de ser perseguida por\Num javali e passei o maior sufoco.
+Dialogue: Marked=0,0:05:55.79,0:05:58.91,*Default,,0000,0000,0000,!Effect,E você, Goku-san,\Nprefere não levar nada a sério.
+Dialogue: Marked=0,0:05:58.91,0:06:02.13,*Default,,0000,0000,0000,!Effect,Às vezes, eu vejo o\Ncasal da montanha ao lado!
+Dialogue: Marked=0,0:06:02.13,0:06:05.03,*Default,,0000,0000,0000,!Effect,Eles vão fazer comprar com um carro aéreo!
+Dialogue: Marked=0,0:06:06.08,0:06:10.95,*Default,,0000,0000,0000,!Effect,Mas nós não temos um carro\Ndesses e eu não tenho carteira.
+Dialogue: Marked=0,0:06:11.30,0:06:13.60,*Default,,0000,0000,0000,!Effect,Então tire uma!
+Dialogue: Marked=0,0:06:13.60,0:06:18.00,*Default,,0000,0000,0000,!Effect,Acho que você é o único que não tem\Numa carteira hoje em dia, Goku-san!
+Dialogue: Marked=0,0:06:19.22,0:06:21.02,*Default,,0000,0000,0000,!Effect,O Piccolo também não tem.
+Dialogue: Marked=0,0:06:21.02,0:06:22.42,*Default,,0000,0000,0000,!Effect,E eu vou ter uma coisa dessas?
+Dialogue: Marked=0,0:06:22.98,0:06:27.25,*Default,,0000,0000,0000,!Effect,Então, a partir de amanhã, vocês dois\Nvão para a auto-escola na cidade e vão aprender!
+Dialogue: Marked=0,0:06:28.17,0:06:31.43,*Default,,0000,0000,0000,!Effect,É uma boa chance para vocês\Naprenderem alguma coisa diferente.
+Dialogue: Marked=0,0:06:31.84,0:06:33.26,*Default,,0000,0000,0000,,O-O quê?
+Dialogue: Marked=0,0:06:34.31,0:06:36.38,*Default,,0000,0000,0000,!Effect,Ei, Ch-Chi, uma coisa dessas de repente...
+Dialogue: Marked=0,0:06:36.38,0:06:40.69,*Default,,0000,0000,0000,!Effect,Não tem conversa! A partir de amanhã,\Nvocês vão parar um pouco o treinamento...
+Dialogue: Marked=0,0:06:40.69,0:06:42.02,*Default,,0000,0000,0000,!Effect,e vão para a auto-escola!
+Dialogue: Marked=0,0:06:44.53,0:06:48.42,*Default,,0000,0000,0000,!Effect,Se não forem, não vão comer.
+Dialogue: Marked=0,0:06:48.42,0:06:49.78,*Default,,0000,0000,0000,!Effect,Entenderam?
+Dialogue: Marked=0,0:07:01.58,0:07:04.84,*Default,,0000,0000,0000,!Effect,Aqui é a auto-escola que\Na Chi-Chi estava falando?
+Dialogue: Marked=0,0:07:05.61,0:07:08.81,*Default,,0000,0000,0000,!Effect,Você não precisava ter me colocado nessa.
+Dialogue: Marked=0,0:07:08.81,0:07:12.59,*Default,,0000,0000,0000,!Effect,Desculpa, desculpa. Foi demais mesmo.
+Dialogue: Marked=0,0:07:12.59,0:07:15.64,*Default,,0000,0000,0000,!Effect,Vamos tirar as carteiras rápido\Ne voltar para o treinamento.
+Dialogue: Marked=0,0:07:16.30,0:07:18.03,*Default,,0000,0000,0000,!Effect,Bem, não temos outra escolha.
+Dialogue: Marked=0,0:07:18.94,0:07:24.65,*Default,,0000,0000,0000,!Effect,Mas o poder daquela terráquea em silenciar o homem mais forte do universo é formidável.
+Dialogue: Marked=0,0:07:25.45,0:07:27.28,*Default,,0000,0000,0000,!Effect,Qual de vocês é o Goku-san?
+Dialogue: Marked=0,0:07:28.64,0:07:29.81,*Default,,0000,0000,0000,!Effect,Sou eu.
+Dialogue: Marked=0,0:07:31.36,0:07:34.10,*Default,,0000,0000,0000,!Effect,Você vai estar sob a minha supervisão.
+Dialogue: Marked=0,0:07:37.59,0:07:40.65,*Default,,0000,0000,0000,!Effect,Espero que a gente se dê bem...
+Dialogue: Marked=0,0:07:40.65,0:07:44.21,*Default,,0000,0000,0000,!Effect,Ei, ei, ei, você está bem, velhote?
+Dialogue: Marked=0,0:07:44.69,0:07:49.68,*Default,,0000,0000,0000,!Effect,Estou bem, estou bem.\NIsso acontece o tempo todo.
+Dialogue: Marked=0,0:07:50.88,0:07:55.80,*Default,,0000,0000,0000,!Effect,Então você é o Piccolo-san\Nque eu vou supervisionar, não é?
+Dialogue: Marked=0,0:07:56.02,0:08:02.81,*Default,,0000,0000,0000,!Effect,Agora eu vou mostrar como\Né que se dirige, então observe bem.
+Dialogue: Marked=0,0:08:03.79,0:08:07.32,P!,,0000,0000,0000,!Effect,Eu vou aprender a dirigir com essa tagarela?
+Dialogue: Marked=0,0:08:13.11,0:08:14.32,*Default,,0000,0000,0000,!Effect,Não se esqueça do cinto.
+Dialogue: Marked=0,0:08:19.35,0:08:20.35,*Default,,0000,0000,0000,!Effect,Merda...
+Dialogue: Marked=0,0:08:26.78,0:08:27.88,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:08:30.88,0:08:32.97,*Default,,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:08:35.47,0:08:38.97,*Default,,0000,0000,0000,!Effect,Abra bem os olhos e veja bem!
+Dialogue: Marked=0,0:08:50.15,0:08:52.24,*Default,,0000,0000,0000,!Effect,Q-Qual o problema dessa mulher?
+Dialogue: Marked=0,0:09:03.43,0:09:05.71,*Default,,0000,0000,0000,!Effect,Que velocidade incrível...
+Dialogue: Marked=0,0:09:06.27,0:09:09.49,*Default,,0000,0000,0000,!Effect,Bem, vamos também...
+Dialogue: Marked=0,0:09:20.00,0:09:24.73,*Default,,0000,0000,0000,!Effect,Desculpe-me... Son-san, não é?\NPoderia abrir a porta para mim?
+Dialogue: Marked=0,0:09:29.85,0:09:33.86,*Default,,0000,0000,0000,!Effect,O Vegeta-chan não tem aparecido.
+Dialogue: Marked=0,0:09:33.86,0:09:35.11,*Default,,0000,0000,0000,!Effect,A mamãe sente falta dele.
+Dialogue: Marked=0,0:09:37.70,0:09:41.24,*Default,,0000,0000,0000,!Effect,Parece que ele está\Npassando as noites na nave.
+Dialogue: Marked=0,0:09:41.67,0:09:46.50,*Default,,0000,0000,0000,!Effect,Sabe, os Saiya-jins têm corpos fortes.
+Dialogue: Marked=0,0:09:47.13,0:09:51.21,*Default,,0000,0000,0000,!Effect,Ultimamente ele está\Ntreinando com a gravidade de 400G.
+Dialogue: Marked=0,0:09:55.06,0:09:58.05,*Default,,0000,0000,0000,!Effect,Ele pode fazer isso porque\Nele é um maníaco por lutas.
+Dialogue: Marked=0,0:10:50.00,0:10:53.11,P!,,0000,0000,0000,!Effect,Merda! Olhe isso, Kakarotto!
+Dialogue: Marked=0,0:11:04.34,0:11:07.29,*Default,,0000,0000,0000,!Effect,Como será que o meu pai\Ne o Piccolo-san estão indo?
+Dialogue: Marked=0,0:11:11.13,0:11:12.38,*Default,,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:11:13.43,0:11:16.80,*Default,,0000,0000,0000,!Effect,Que bom, Gohan-chan!\NEstá estudando o dia todo, não é?
+Dialogue: Marked=0,0:11:17.87,0:11:21.80,*Default,,0000,0000,0000,!Effect,Você ficou muito atrasado por\Ncausa do Goku-san e do Piccolo.
+Dialogue: Marked=0,0:11:22.23,0:11:26.06,*Default,,0000,0000,0000,!Effect,Estude o máximo enquanto\Nnão tiver ninguém atrapalhando.
+Dialogue: Marked=0,0:11:43.38,0:11:46.62,*Default,,0000,0000,0000,!Effect,Isso faz cócegas, Haiya Dragon!
+Dialogue: Marked=0,0:11:46.62,0:11:47.20,*Default,,0000,0000,0000,!Effect,Já sei!
+
+Dialogue: Marked=0,0:11:56.13,0:12:00.35,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:56.13,0:12:00.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:56.13,0:12:00.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:56.13,0:12:00.35,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:03.30,0:12:05.52,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:03.30,0:12:05.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:03.30,0:12:05.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:03.30,0:12:05.52,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:10.08,0:12:13.08,*Default,,0000,0000,0000,!Effect,Você está indo bem, Piccolo-san.
+Dialogue: Marked=0,0:12:21.71,0:12:24.57,*Default,,0000,0000,0000,!Effect,Certo, tente arrancar de novo.
+Dialogue: Marked=0,0:12:28.03,0:12:29.53,*Default,,0000,0000,0000,!Effect,Vai logo.
+Dialogue: Marked=0,0:12:32.15,0:12:34.08,*Default,,0000,0000,0000,!Effect,Eu esqueci como se faz.
+Dialogue: Marked=0,0:12:36.06,0:12:39.81,*Default,,0000,0000,0000,!Effect,Que droga!\NNos meus 70 anos como instrutor,
+Dialogue: Marked=0,0:12:39.81,0:12:42.30,*Default,,0000,0000,0000,!Effect,é a primeira vez que vejo\Nalguém com uma memória tão ruim.
+Dialogue: Marked=0,0:12:43.27,0:12:44.84,*Default,,0000,0000,0000,!Effect,Desculpe, velhote.
+Dialogue: Marked=0,0:12:45.21,0:12:55.10,N!,,0000,0000,0000,,{\fad(300,300)}Akuseru = acelerador  -  Asekusai = cheio de suor
+Dialogue: Marked=0,0:12:45.21,0:12:46.69,*Default,,0000,0000,0000,!Effect,Pise no akuseru.
+Dialogue: Marked=0,0:12:47.42,0:12:51.60,*Default,,0000,0000,0000,!Effect,Akuseru?\NEu tomei banho antes de vir...
+Dialogue: Marked=0,0:12:52.22,0:12:55.10,*Default,,0000,0000,0000,!Effect,Não é asekusai, é akuseru!
+Dialogue: Marked=0,0:12:55.89,0:12:57.63,*Default,,0000,0000,0000,!Effect,O pedal embaixo do seu pé direito.
+Dialogue: Marked=0,0:12:57.63,0:13:00.46,*Default,,0000,0000,0000,!Effect,Aquele é o acelerador. Do lado é o freio.
+Dialogue: Marked=0,0:13:00.46,0:13:02.61,*Default,,0000,0000,0000,!Effect,Quando você vai lembrar disso?
+Dialogue: Marked=0,0:13:03.93,0:13:04.61,*Default,,0000,0000,0000,!Effect,Entendi.
+Dialogue: Marked=0,0:13:15.71,0:13:18.54,*Default,,0000,0000,0000,!Effect,- O-O quê?
+Dialogue: Marked=0,0:13:16.74,0:13:18.54,*Default,,0000,0000,0000,!Effect,- Confundi!
+Dialogue: Marked=0,0:13:33.45,0:13:36.99,*Default,,0000,0000,0000,!Effect,O que você está fazendo?\NDessa vez era para ir de ré! Ré!
+Dialogue: Marked=0,0:13:36.99,0:13:38.86,*Default,,0000,0000,0000,!Effect,Eu queria fazer isso.
+Dialogue: Marked=0,0:13:56.21,0:13:59.10,*Default,,0000,0000,0000,!Effect,O freio! Pise no freio!
+Dialogue: Marked=0,0:14:00.69,0:14:02.84,*Default,,0000,0000,0000,!Effect,O freio é o da esquerda, então...
+Dialogue: Marked=0,0:14:08.22,0:14:09.56,*Default,,0000,0000,0000,!Effect,Me passe o volante!
+Dialogue: Marked=0,0:14:11.02,0:14:12.31,*Default,,0000,0000,0000,!Effect,Me passe o volante!
+Dialogue: Marked=0,0:14:16.14,0:14:17.19,*Default,,0000,0000,0000,!Effect,P-Pode?
+Dialogue: Marked=0,0:14:17.70,0:14:19.56,*Default,,0000,0000,0000,!Effect,Claro! Rápido!
+Dialogue: Marked=0,0:14:29.04,0:14:30.53,*Default,,0000,0000,0000,!Effect,Toma!
+Dialogue: Marked=0,0:14:41.91,0:14:45.77,*Default,,0000,0000,0000,!Effect,Vai levar 3 anos para\Nvocê poder tirar a carteira.
+Dialogue: Marked=0,0:14:45.77,0:14:48.19,*Default,,0000,0000,0000,!Effect,Eu não tenho tanto tempo assim!
+Dialogue: Marked=0,0:14:48.19,0:14:52.26,*Default,,0000,0000,0000,!Effect,Se eu não treinar, os andróides vão...
+Dialogue: Marked=0,0:14:57.85,0:14:59.27,*Default,,0000,0000,0000,!Effect,Idiota.
+Dialogue: Marked=0,0:15:03.22,0:15:05.40,*Default,,0000,0000,0000,!Effect,É lá, Haiya Dragon!
+Dialogue: Marked=0,0:15:09.82,0:15:12.70,*Default,,0000,0000,0000,!Effect,Pronto? Vá para frente. Para frente!
+Dialogue: Marked=0,0:15:12.70,0:15:13.99,*Default,,0000,0000,0000,!Effect,Tá! Deixe comigo!
+Dialogue: Marked=0,0:15:16.83,0:15:20.17,*Default,,0000,0000,0000,!Effect,Certo, pressione aos poucos...
+Dialogue: Marked=0,0:15:23.45,0:15:26.39,*Default,,0000,0000,0000,!Effect,Oba! Fui para frente mesmo!
+Dialogue: Marked=0,0:15:26.39,0:15:28.51,*Default,,0000,0000,0000,!Effect,Eu não falei "aos poucos"?
+Dialogue: Marked=0,0:15:40.06,0:15:42.72,*Default,,0000,0000,0000,!Effect,Goku! Você quer competir comigo?
+Dialogue: Marked=0,0:15:42.72,0:15:44.57,*Default,,0000,0000,0000,!Effect,Certo!\NNão vou perder para alguém como você!
+Dialogue: Marked=0,0:15:48.63,0:15:51.82,*Default,,0000,0000,0000,!Effect,É assim mesmo, Piccolo-san.
+Dialogue: Marked=0,0:16:10.62,0:16:11.34,*Default,,0000,0000,0000,!Effect,Pai!
+Dialogue: Marked=0,0:16:30.73,0:16:33.61,*Default,,0000,0000,0000,!Effect,Você tem talento, Piccolo-san.
+Dialogue: Marked=0,0:16:41.82,0:16:42.29,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:16:54.56,0:16:56.09,*Default,,0000,0000,0000,!Effect,Agüentem...
+Dialogue: Marked=0,0:17:04.54,0:17:07.23,*Default,,0000,0000,0000,!Effect,Carros aéreos são perigosos.
+Dialogue: Marked=0,0:17:08.46,0:17:11.99,*Default,,0000,0000,0000,!Effect,Bem, a partir de hoje,\Nvai ser em estradas públicas.
+Dialogue: Marked=0,0:17:12.79,0:17:17.54,*Default,,0000,0000,0000,!Effect,Se dirigirem sem cuidado\Ncomo antes, vamos expulsá-los.
+Dialogue: Marked=0,0:17:17.54,0:17:20.49,*Default,,0000,0000,0000,!Effect,Não vão poder tirar a carteira\Ne pretendo deixar assim mesmo.
+Dialogue: Marked=0,0:17:41.47,0:17:44.77,*Default,,0000,0000,0000,!Effect,Opa! Não tire suas mãos do volante!\NMenos um ponto!
+Dialogue: Marked=0,0:17:45.55,0:17:47.18,*Default,,0000,0000,0000,!Effect,Ei, espere um pouco...
+Dialogue: Marked=0,0:17:47.18,0:17:50.83,*Default,,0000,0000,0000,!Effect,Não pode olhar para o lado.\NOlhar para o lado: menos dois pontos.
+Dialogue: Marked=0,0:17:50.83,0:17:51.74,*Default,,0000,0000,0000,!Effect,Não pode ser...
+Dialogue: Marked=0,0:17:57.35,0:17:59.37,*Default,,0000,0000,0000,!Effect,Não pode parar assim, de repente.
+Dialogue: Marked=0,0:17:59.37,0:18:02.62,*Default,,0000,0000,0000,!Effect,O que as pessoas que estiverem\Natrás vão fazer? Menos 10 pontos!
+Dialogue: Marked=0,0:19:19.41,0:19:21.00,*Default,,0000,0000,0000,!Effect,Conto com você, Piccolo!
+Dialogue: Marked=0,0:20:08.58,0:20:12.58,*Default,,0000,0000,0000,!Effect,Obrigado, nii-san! Tchau!
+Dialogue: Marked=0,0:20:14.08,0:20:15.41,*Default,,0000,0000,0000,!Effect,Até!
+Dialogue: Marked=0,0:20:16.29,0:20:17.59,*Default,,0000,0000,0000,!Effect,Desculpe, velhote!
+Dialogue: Marked=0,0:20:18.19,0:20:20.72,*Default,,0000,0000,0000,!Effect,Paramos no meio da avaliação...
+Dialogue: Marked=0,0:20:21.45,0:20:25.22,*Default,,0000,0000,0000,!Effect,Ahn? Parece que eu não\Ntenho o que é preciso para dirigir.
+Dialogue: Marked=0,0:20:25.22,0:20:26.72,*Default,,0000,0000,0000,!Effect,Será que não tenho talento?
+Dialogue: Marked=0,0:20:27.36,0:20:29.18,*Default,,0000,0000,0000,!Effect,Como pode dizer isso?
+Dialogue: Marked=0,0:20:30.26,0:20:32.64,*Default,,0000,0000,0000,!Effect,Então vai nos deixar continuar a aula?
+Dialogue: Marked=0,0:20:32.91,0:20:37.28,*Default,,0000,0000,0000,!Effect,Vocês são magníficos! Magníficos!\NEstou impressionado com o que fizeram!
+Dialogue: Marked=0,0:20:37.28,0:20:41.59,*Default,,0000,0000,0000,!Effect,Mesmo? Então vamos começar logo\Ncom a avaliação de novo, velhote!
+Dialogue: Marked=0,0:20:41.59,0:20:46.20,*Default,,0000,0000,0000,!Effect,D-De jeito nenhum.\NNão há nada que possamos ensinar.
+Dialogue: Marked=0,0:20:46.95,0:20:47.79,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:20:49.87,0:20:52.21,*Default,,0000,0000,0000,!Effect,E-E as carteiras?
+Dialogue: Marked=0,0:20:53.78,0:20:56.17,*Default,,0000,0000,0000,!Effect,Está brincando?
+Dialogue: Marked=0,0:20:56.17,0:20:59.76,*Default,,0000,0000,0000,!Effect,Com o poder que vocês têm,\Nnão precisam de carteiras, não é?
+Dialogue: Marked=0,0:21:00.17,0:21:01.38,*Default,,0000,0000,0000,!Effect,É verdade!
+Dialogue: Marked=0,0:21:05.47,0:21:09.26,*Default,,0000,0000,0000,!Effect,O que você disse? Não tiraram a carteira?
+Dialogue: Marked=0,0:21:13.39,0:21:14.77,*Default,,0000,0000,0000,!Effect,Não...
+Dialogue: Marked=0,0:21:22.69,0:21:23.81,*Default,,0000,0000,0000,!Effect,Mãe!
+Dialogue: Marked=0,0:21:23.81,0:21:25.97,*Default,,0000,0000,0000,!Effect,Chi-Chi! Você está bem?
+Dialogue: Marked=0,0:21:27.57,0:21:32.29,Narrador,,0000,0000,0000,!Effect,E, então, 3 anos se\Npassaram em um piscar de olhos.
+Dialogue: Marked=0,0:21:33.18,0:21:37.29,*Default,,0000,0000,0000,!Effect,Gohan-chan, Goku-san,\NPiccolo-san, tomem cuidado!
+Dialogue: Marked=0,0:21:38.01,0:21:43.48,N!,,0000,0000,0000,,{\fad(300,300)}Bentou é uma espécie de marmita japonesa, mas não tem sentido "pejorativo".
+Dialogue: Marked=0,0:21:38.01,0:21:39.51,*Default,,0000,0000,0000,!Effect,Vocês não vão levar bentou mesmo?
+Dialogue: Marked=0,0:21:40.23,0:21:42.56,*Default,,0000,0000,0000,!Effect,N-Não precisa, obrigado.
+Dialogue: Marked=0,0:21:42.56,0:21:43.48,*Default,,0000,0000,0000,!Effect,Desculpe.
+Dialogue: Marked=0,0:21:44.41,0:21:45.34,*Default,,0000,0000,0000,!Effect,Bem, vamos.
+Dialogue: Marked=0,0:21:51.81,0:21:56.81,L!,,0000,0000,0000,!Effect,Por causa dos andróides,\No meu futuro parece o inferno.
+Dialogue: Marked=0,0:21:57.99,0:22:03.40,L!,,0000,0000,0000,!Effect,{\fad(0,2000)}São muito fortes... Eles são muito fortes!
+Dialogue: Marked=0,0:22:16.51,0:22:21.61,Narrador,,0000,0000,0000,!Effect,Finalmente chegou a hora da luta.\NContamos com você, Goku!
+Dialogue: Marked=0,0:22:21.61,0:22:24.59,Narrador,,0000,0000,0000,!Effect,Contamos com vocês, fortes guerreiros!

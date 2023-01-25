@@ -1,0 +1,231 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:01.72,0:00:05.65,Narrador,NTP,0000,0000,0000,!Effect,Depois de uma aterrissagem forçada no Planeta Imegga,
+Dialogue: Marked=0,0:00:05.65,0:00:08.99,Narrador,NTP,0000,0000,0000,!Effect,Goku e os outros invadiram o palácio do soberano local...
+Dialogue: Marked=0,0:00:08.99,0:00:11.65,Narrador,NTP,0000,0000,0000,!Effect,para procurar a nave deles, que fora roubada.
+Dialogue: Marked=0,0:01:12.32,0:01:16.33,Narrador,NTP,0000,0000,0000,!Effect,Goku e seus amigos conseguiram a nave de volta.
+Dialogue: Marked=0,0:01:16.33,0:01:20.83,Narrador,NTP,0000,0000,0000,!Effect,Porém, eles agora são criminosos e estão na lista de procurados!
+
+Dialogue: Marked=0,0:01:48.79,0:01:50.44,*Default,NTP,0000,0000,0000,!Effect,Ei, por aqui!
+Dialogue: Marked=0,0:02:01.40,0:02:02.74,*Default,NTP,0000,0000,0000,!Effect,Eles fugiram.
+Dialogue: Marked=0,0:02:02.74,0:02:06.67,*Default,NTP,0000,0000,0000,!Effect,Ufa, essa foi por pouco.\NCansei desse planeta.
+Dialogue: Marked=0,0:02:06.67,0:02:08.54,*Default,NTP,0000,0000,0000,!Effect,O que podemos fazer quanto à nave?
+Dialogue: Marked=0,0:02:08.74,0:02:14.08,*Default,NTP,0000,0000,0000,!Effect,Nada. Ninguém nos venderá as peças de que precisamos.
+Dialogue: Marked=0,0:02:14.08,0:02:19.97,*Default,NTP,0000,0000,0000,!Effect,Mas, mesmo sendo procurados, essas fotos são muito infantis.
+Dialogue: Marked=0,0:02:21.75,0:02:24.12,*Default,NTP,0000,0000,0000,!Effect,Quer parar de reclamar?!
+Dialogue: Marked=0,0:02:29.76,0:02:35.86,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe. Podemos ser procurados, mas não somos malvados.
+Dialogue: Marked=0,0:02:36.10,0:02:37.23,*Default,NTP,0000,0000,0000,!Effect,Vovô!
+Dialogue: Marked=0,0:02:38.77,0:02:41.95,*Default,NTP,0000,0000,0000,!Effect,Hm, nós...
+Dialogue: Marked=0,0:02:43.78,0:02:45.74,*Default,NTP,0000,0000,0000,!Effect,Ali estão eles!
+Dialogue: Marked=0,0:02:45.78,0:02:47.71,*Default,NTP,0000,0000,0000,!Effect,Por aqui!
+Dialogue: Marked=0,0:02:48.78,0:02:50.42,*Default,NTP,0000,0000,0000,!Effect,Opa.
+Dialogue: Marked=0,0:02:50.78,0:02:52.38,*Default,NTP,0000,0000,0000,!Effect,Cuidado!
+Dialogue: Marked=0,0:03:02.73,0:03:04.68,*Default,NTP,0000,0000,0000,!Effect,Gel, eles foram por ali.
+Dialogue: Marked=0,0:03:05.06,0:03:06.39,*Default,NTP,0000,0000,0000,!Effect,Entendido.
+Dialogue: Marked=0,0:03:06.73,0:03:08.79,*Default,NTP,0000,0000,0000,!Effect,Aí vêm eles!
+Dialogue: Marked=0,0:03:10.40,0:03:13.98,*Default,NTP,0000,0000,0000,!Effect,Não os subestimem por serem crianças!
+Dialogue: Marked=0,0:03:14.74,0:03:18.49,*Default,NTP,0000,0000,0000,!Effect,Essa é por ontem!\NVou acabar com vocês!
+Dialogue: Marked=0,0:03:26.42,0:03:27.95,*Default,NTP,0000,0000,0000,!Effect,Chegaram!
+Dialogue: Marked=0,0:03:45.44,0:03:47.39,*Default,NTP,0000,0000,0000,!Effect,Ora essa, Vovô!
+Dialogue: Marked=0,0:03:50.78,0:03:54.19,*Default,NTP,0000,0000,0000,!Effect,N-Não pode ser...
+Dialogue: Marked=0,0:04:07.39,0:04:09.40,*Default,NTP,0000,0000,0000,!Effect,Ai, ai, ai...
+Dialogue: Marked=0,0:04:09.40,0:04:16.74,*Default,NTP,0000,0000,0000,!Effect,Ai! Isso é péssimo!\NNossa sorte acabou! É uma atrás da outra!
+Dialogue: Marked=0,0:04:16.74,0:04:20.51,*Default,NTP,0000,0000,0000,!Effect,Tudo bem, rápido com isso!
+Dialogue: Marked=0,0:04:21.41,0:04:23.38,*Default,NTP,0000,0000,0000,!Effect,Ah, Vovô!
+Dialogue: Marked=0,0:04:23.41,0:04:28.85,*Default,NTP,0000,0000,0000,!Effect,Ai, ai ai, ai!\NVocê é tão pesada assim?
+Dialogue: Marked=0,0:04:28.85,0:04:32.91,*Default,NTP,0000,0000,0000,!Effect,Tem certeza de que você não está gorda por estar fugindo do treinamento recentemente?
+Dialogue: Marked=0,0:04:33.75,0:04:36.02,*Default,NTP,0000,0000,0000,!Effect,Eu não engordei! Eu cresci!
+Dialogue: Marked=0,0:04:36.42,0:04:39.02,*Default,NTP,0000,0000,0000,!Effect,V-Vocês aí!
+Dialogue: Marked=0,0:04:39.43,0:04:45.07,*Default,NTP,0000,0000,0000,!Effect,E-Eu conheço vocês! Vocês são aqueles criminosos procurados, não são?
+Dialogue: Marked=0,0:04:45.10,0:04:48.43,Radio,NTP,0000,0000,0000,!Effect,Há três criminosos perigosos à solta nas ruas.
+Dialogue: Marked=0,0:04:48.43,0:04:53.34,Radio,NTP,0000,0000,0000,!Effect,Se alguém vir esses criminosos, favor entrar em contato com a polícia.
+Dialogue: Marked=0,0:04:55.11,0:04:57.11,*Default,NTP,0000,0000,0000,!Effect,Olha só, não somos...
+Dialogue: Marked=0,0:04:57.11,0:04:58.75,*Default,NTP,0000,0000,0000,!Effect,Pan-chan!
+Dialogue: Marked=0,0:05:01.71,0:05:04.05,*Default,NTP,0000,0000,0000,!Effect,Estamos de saída.
+Dialogue: Marked=0,0:05:04.05,0:05:07.05,*Default,NTP,0000,0000,0000,!Effect,É. Desculpe pelo telhado.
+Dialogue: Marked=0,0:05:07.05,0:05:09.11,*Default,NTP,0000,0000,0000,!Effect,Sentimos muito.
+Dialogue: Marked=0,0:05:12.73,0:05:14.73,*Default,NTP,0000,0000,0000,!Effect,De novo não, Vovô!
+Dialogue: Marked=0,0:05:14.73,0:05:17.81,*Default,NTP,0000,0000,0000,!Effect,Mas não posso fazer nada. Estou com fome.
+Dialogue: Marked=0,0:05:19.73,0:05:23.13,*Default,NTP,0000,0000,0000,!Effect,E-Esperem um momento.
+Dialogue: Marked=0,0:05:25.74,0:05:30.12,*Default,NTP,0000,0000,0000,!Effect,Vocês são corajosos por entrarem no palácio do Don Kia desse jeito.
+Dialogue: Marked=0,0:05:30.41,0:05:34.41,*Default,NTP,0000,0000,0000,!Effect,Não faço idéia de quantos anos faz que esses canalhas não fazem um estardalhaço desses.
+Dialogue: Marked=0,0:05:34.41,0:05:38.75,*Default,NTP,0000,0000,0000,!Effect,Bem feito! E quer saber? Vocês não se parecem com criminosos perigosos.
+Dialogue: Marked=0,0:05:38.75,0:05:41.91,*Default,NTP,0000,0000,0000,!Effect,Vocês são bondosos e bem-educados, né?
+Dialogue: Marked=0,0:05:42.76,0:05:43.88,*Default,NTP,0000,0000,0000,!Effect,Somos?
+Dialogue: Marked=0,0:05:44.09,0:05:49.64,*Default,NTP,0000,0000,0000,!Effect,Gostei de vocês! Podem comer alguma coisa antes de ir, isso se estiverem com fome!
+Dialogue: Marked=0,0:05:49.76,0:05:52.35,*Default,NTP,0000,0000,0000,!Effect,Venham, venham.
+Dialogue: Marked=0,0:05:54.43,0:05:57.64,*Default,NTP,0000,0000,0000,!Effect,É essa? A sua nave?
+Dialogue: Marked=0,0:05:58.10,0:06:04.71,*Default,NTP,0000,0000,0000,!Effect,De fato! É terrível! Além do mais, não tinha por que nos colocar na lista de procurados!
+Dialogue: Marked=0,0:06:04.71,0:06:08.95,*Default,NTP,0000,0000,0000,!Effect,Neste planeta, é proibido ter uma nave espacial.
+Dialogue: Marked=0,0:06:09.05,0:06:11.28,*Default,NTP,0000,0000,0000,!Effect,Por quê?
+Dialogue: Marked=0,0:06:12.05,0:06:15.87,*Default,NTP,0000,0000,0000,!Effect,É para que ninguém fuja do planeta.
+Dialogue: Marked=0,0:06:16.06,0:06:22.06,*Default,NTP,0000,0000,0000,!Effect,Senão, todos fugiriam daqui com as naves.
+Dialogue: Marked=0,0:06:22.06,0:06:24.93,*Default,NTP,0000,0000,0000,!Effect,Para Don Kia, os habitantes deste planeta não passam de ferramentas...
+Dialogue: Marked=0,0:06:24.93,0:06:27.59,*Default,NTP,0000,0000,0000,!Effect,para fazer dinheiro.
+Dialogue: Marked=0,0:06:27.73,0:06:31.77,*Default,NTP,0000,0000,0000,!Effect,Tiveram outros como nós cujas naves foram roubadas,
+Dialogue: Marked=0,0:06:31.77,0:06:33.97,*Default,NTP,0000,0000,0000,!Effect,e agora não podem sair daqui?
+Dialogue: Marked=0,0:06:34.07,0:06:37.43,*Default,NTP,0000,0000,0000,!Effect,Você está na frente de um, senhorita.
+Dialogue: Marked=0,0:06:39.41,0:06:44.08,*Default,NTP,0000,0000,0000,!Effect,Essa é a história de todos que vivem aqui.
+Dialogue: Marked=0,0:06:44.08,0:06:49.25,*Default,NTP,0000,0000,0000,!Effect,Todo mundo teve seus pertences roubados por Don Kia.
+Dialogue: Marked=0,0:06:53.43,0:06:57.54,*Default,NTP,0000,0000,0000,!Effect,Mas, não podemos desanimar!
+Dialogue: Marked=0,0:06:57.76,0:07:02.21,*Default,NTP,0000,0000,0000,!Effect,Além do mais, algum dia esses canalhas pagarão por tudo que fizeram.
+Dialogue: Marked=0,0:07:02.37,0:07:06.04,*Default,NTP,0000,0000,0000,!Effect,Que horrível!\NVocês deveriam se juntar e dar um jeito nele.
+Dialogue: Marked=0,0:07:06.04,0:07:07.13,*Default,NTP,0000,0000,0000,!Effect,Pan-chan!
+Dialogue: Marked=0,0:07:07.37,0:07:14.71,*Default,NTP,0000,0000,0000,!Effect,Bem que gostaríamos, mas Don Kia tem um excelente guarda-costas chamado Redjic.
+Dialogue: Marked=0,0:07:14.71,0:07:20.05,*Default,NTP,0000,0000,0000,!Effect,Droga, se ele não estivesse por aqui,\Neu acabaria com aquele riquinho!
+Dialogue: Marked=0,0:07:20.05,0:07:21.65,*Default,NTP,0000,0000,0000,!Effect,Redjic?
+Dialogue: Marked=0,0:07:50.08,0:07:52.42,*Default,NTP,0000,0000,0000,!Effect,Desculpe, garoto.
+Dialogue: Marked=0,0:07:52.42,0:07:55.19,*Default,NTP,0000,0000,0000,!Effect,Fiz apenas para dois...
+Dialogue: Marked=0,0:07:55.19,0:08:00.06,*Default,NTP,0000,0000,0000,!Effect,Então, não tenho mais nada para servir para vocês. E você, um garoto crescido...
+Dialogue: Marked=0,0:08:00.69,0:08:03.40,*Default,NTP,0000,0000,0000,!Effect,Senhora, quer dizer que este era...
+Dialogue: Marked=0,0:08:03.70,0:08:10.30,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe. Podemos ficar sem comer por algum tempo sem problemas. Certo, querido?
+Dialogue: Marked=0,0:08:11.37,0:08:12.40,*Default,NTP,0000,0000,0000,!Effect,S-Sim.
+Dialogue: Marked=0,0:08:16.04,0:08:16.95,*Default,NTP,0000,0000,0000,!Effect,Pan-chan!
+Dialogue: Marked=0,0:08:17.38,0:08:18.91,*Default,NTP,0000,0000,0000,!Effect,Decidi!
+Dialogue: Marked=0,0:08:19.04,0:08:21.60,*Default,NTP,0000,0000,0000,!Effect,Decidiu?
+Dialogue: Marked=0,0:08:22.38,0:08:26.21,*Default,NTP,0000,0000,0000,!Effect,Se eles querem tanto nos capturar,\Nentão é isso que faremos!
+Dialogue: Marked=0,0:08:26.39,0:08:31.06,*Default,NTP,0000,0000,0000,!Effect,Afinal, desse jeito não dá para conseguir as peças da nave!
+Dialogue: Marked=0,0:08:31.06,0:08:35.29,*Default,NTP,0000,0000,0000,!Effect,Vamos até esse tal de Don Kia\Ne falaremos umas poucas e boas!
+Dialogue: Marked=0,0:08:35.29,0:08:36.30,*Default,NTP,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:08:36.73,0:08:37.73,*Default,NTP,0000,0000,0000,!Effect,Estamos indo!
+Dialogue: Marked=0,0:08:37.73,0:08:40.40,*Default,NTP,0000,0000,0000,!Effect,Pan-chan! Goku-san!
+Dialogue: Marked=0,0:08:40.40,0:08:42.07,*Default,NTP,0000,0000,0000,!Effect,Garotos!
+Dialogue: Marked=0,0:08:42.07,0:08:49.15,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe, senhora. Nós somos muito fortes!
+Dialogue: Marked=0,0:08:56.08,0:08:58.05,*Default,NTP,0000,0000,0000,!Effect,Oh, ali estão eles!
+Dialogue: Marked=0,0:09:28.05,0:09:31.85,*Default,NTP,0000,0000,0000,!Effect,Vamos logo! Vocês querem nos pegar, certo?
+Dialogue: Marked=0,0:09:31.85,0:09:34.49,*Default,NTP,0000,0000,0000,!Effect,Pois bem, estamos nos entregando.
+Dialogue: Marked=0,0:09:53.07,0:09:57.41,*Default,NTP,0000,0000,0000,!Effect,Não importa quantas vezes eu tente, não consigo contar até o final!
+Dialogue: Marked=0,0:09:57.41,0:09:59.08,*Default,NTP,0000,0000,0000,!Effect,O que foi?
+Dialogue: Marked=0,0:09:59.08,0:10:02.21,*Default,NTP,0000,0000,0000,!Effect,Acabamos de receber uma informação do Gel-sama: ele e os outros...
+Dialogue: Marked=0,0:10:02.21,0:10:04.42,*Default,NTP,0000,0000,0000,!Effect,capturaram os três criminosos procurados.
+Dialogue: Marked=0,0:10:04.42,0:10:08.31,*Default,NTP,0000,0000,0000,!Effect,Foi mais rápido do que eu pensei.\NBem, traga-os aqui.
+Dialogue: Marked=0,0:10:12.76,0:10:13.86,*Default,NTP,0000,0000,0000,!Effect,Como?
+Dialogue: Marked=0,0:10:17.10,0:10:21.43,*Default,NTP,0000,0000,0000,!Effect,Como vocês entraram?!\NCadê o Gel?!
+Dialogue: Marked=0,0:10:21.43,0:10:24.12,*Default,NTP,0000,0000,0000,!Effect,Eles estão no andar de baixo, dormindo.
+Dialogue: Marked=0,0:10:47.43,0:10:48.81,*Default,NTP,0000,0000,0000,!Effect,Don Kia!
+Dialogue: Marked=0,0:10:49.09,0:10:52.06,*Default,NTP,0000,0000,0000,!Effect,Ouvimos sobre as suas maldades!
+Dialogue: Marked=0,0:10:52.10,0:10:54.94,*Default,NTP,0000,0000,0000,!Effect,V-Vocês ouviram demais, hein?
+Dialogue: Marked=0,0:10:55.43,0:10:58.28,*Default,NTP,0000,0000,0000,!Effect,E o que vocês farão comigo?
+Dialogue: Marked=0,0:10:59.77,0:11:00.99,*Default,NTP,0000,0000,0000,!Effect,Faremos isso aqui!
+Dialogue: Marked=0,0:11:04.38,0:11:05.38,*Default,NTP,0000,0000,0000,!Effect,Pan!
+Dialogue: Marked=0,0:11:05.38,0:11:05.74,*Default,NTP,0000,0000,0000,!Effect,Pan-chan!
+Dialogue: Marked=0,0:11:10.38,0:11:12.96,*Default,NTP,0000,0000,0000,!Effect,Pode pedir desculpas, mas não lhe perdoarei!
+Dialogue: Marked=0,0:11:21.39,0:11:22.22,*Default,NTP,0000,0000,0000,!Effect,Morra!
+Dialogue: Marked=0,0:11:41.08,0:11:45.08,*Default,NTP,0000,0000,0000,!Effect,Pare. Você não pode derrotar estes oponentes com esse tipo de arma.
+Dialogue: Marked=0,0:11:45.75,0:11:49.00,*Default,NTP,0000,0000,0000,!Effect,Redjic-sensei, neste caso,\Npor favor, deixe comigo!
+Dialogue: Marked=0,0:11:50.09,0:11:52.96,*Default,NTP,0000,0000,0000,!Effect,Já falei para não me dar ordens.
+Dialogue: Marked=0,0:11:55.09,0:11:56.21,*Default,NTP,0000,0000,0000,!Effect,C-Certo, certo...
+Dialogue: Marked=0,0:11:57.43,0:11:58.17,*Default,NTP,0000,0000,0000,!Effect,Eu...
+Dialogue: Marked=0,0:12:00.10,0:12:02.51,*Default,NTP,0000,0000,0000,!Effect,Luto por mim mesmo.
+Dialogue: Marked=0,0:12:06.70,0:12:09.02,*Default,NTP,0000,0000,0000,!Effect,Medroso... Medroso... Perigo... Perigo...
+Dialogue: Marked=0,0:12:10.38,0:12:11.02,*Default,NTP,0000,0000,0000,!Effect,Trunks!
+Dialogue: Marked=0,0:12:14.38,0:12:17.52,*Default,NTP,0000,0000,0000,!Effect,E-Esse cara aqui é mais forte...
+Dialogue: Marked=0,0:12:20.72,0:12:22.39,*Default,NTP,0000,0000,0000,!Effect,Deixe ele comigo, Trunks.
+Dialogue: Marked=0,0:12:22.39,0:12:23.70,*Default,NTP,0000,0000,0000,!Effect,Goku-san...
+Dialogue: Marked=0,0:12:24.06,0:12:25.37,*Default,NTP,0000,0000,0000,!Effect,Vá até a Pan.
+Dialogue: Marked=0,0:12:25.72,0:12:26.62,*Default,NTP,0000,0000,0000,!Effect,Certo.
+Dialogue: Marked=0,0:12:30.40,0:12:33.62,*Default,NTP,0000,0000,0000,!Effect,Posso sentir a sua força.
+Dialogue: Marked=0,0:12:33.73,0:12:36.50,*Default,NTP,0000,0000,0000,!Effect,Me chamo Goku! Son Goku!
+Dialogue: Marked=0,0:12:36.73,0:12:38.29,*Default,NTP,0000,0000,0000,!Effect,Quem é você?!
+Dialogue: Marked=0,0:12:40.74,0:12:48.64,*Default,NTP,0000,0000,0000,!Effect,Me chamo Redjic. E não dou mole, mesmo que meu oponente seja uma criança.
+Dialogue: Marked=0,0:13:24.72,0:13:25.55,*Default,NTP,0000,0000,0000,!Effect,Aí está você!
+Dialogue: Marked=0,0:13:50.07,0:13:51.95,*Default,NTP,0000,0000,0000,!Effect,Meu palácio!
+Dialogue: Marked=0,0:14:07.36,0:14:10.85,*Default,NTP,0000,0000,0000,!Effect,Você é forte! Estou ficando animado!
+Dialogue: Marked=0,0:14:11.36,0:14:17.70,*Default,NTP,0000,0000,0000,!Effect,Você deve ser mais forte que isso. Não é verdade, Saiya-jin?
+Dialogue: Marked=0,0:14:17.70,0:14:18.27,P!,NTP,0000,0000,0000,!Effect,Como é?
+Dialogue: Marked=0,0:14:21.04,0:14:25.13,*Default,NTP,0000,0000,0000,!Effect,Então tá.\NVamos começar o segundo round!
+Dialogue: Marked=0,0:14:29.38,0:14:32.12,*Default,NTP,0000,0000,0000,!Effect,Crescente de Energia! Crescente!
+Dialogue: Marked=0,0:14:38.72,0:14:39.75,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:14:56.07,0:14:57.02,*Default,NTP,0000,0000,0000,!Effect,Redjic!
+Dialogue: Marked=0,0:15:08.02,0:15:09.86,Poder,NTP,0000,0000,0000,!Effect,KAME
+Dialogue: Marked=0,0:15:12.69,0:15:14.41,Poder,NTP,0000,0000,0000,!Effect,HAME
+Dialogue: Marked=0,0:15:15.03,0:15:16.95,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:15:26.04,0:15:27.92,*Default,NTP,0000,0000,0000,!Effect,S-Sensei!
+Dialogue: Marked=0,0:15:31.04,0:15:33.93,*Default,NTP,0000,0000,0000,!Effect,Se você treinasse, seria ainda mais forte.
+Dialogue: Marked=0,0:15:34.05,0:15:38.93,*Default,NTP,0000,0000,0000,!Effect,Também treinarei e ficarei mais forte, e\Nquando estiver pronto, lutaremos de novo, tá?
+Dialogue: Marked=0,0:15:41.05,0:15:42.86,*Default,NTP,0000,0000,0000,!Effect,Você é um garoto muito engraçado.
+Dialogue: Marked=0,0:15:44.06,0:15:48.73,*Default,NTP,0000,0000,0000,!Effect,Já me disseram que sou engraçado, mas não sou uma criança.
+Dialogue: Marked=0,0:15:48.73,0:15:51.93,*Default,NTP,0000,0000,0000,!Effect,Não entendi muito bem.\NQue seja, o universo é vasto.
+Dialogue: Marked=0,0:15:51.93,0:15:56.40,*Default,NTP,0000,0000,0000,!Effect,Acho que ainda não me desenvolvi por completo...
+Dialogue: Marked=0,0:15:56.40,0:15:57.91,*Default,NTP,0000,0000,0000,!Effect,Ei, você está bem?
+Dialogue: Marked=0,0:15:58.74,0:16:00.96,*Default,NTP,0000,0000,0000,!Effect,Ei, você!
+Dialogue: Marked=0,0:16:07.35,0:16:12.59,*Default,NTP,0000,0000,0000,!Effect,Sensei, dê uma lição neles.\NEu te dou tudo isso!
+Dialogue: Marked=0,0:16:17.36,0:16:19.48,*Default,NTP,0000,0000,0000,!Effect,Seu maldito!
+Dialogue: Marked=0,0:16:25.03,0:16:29.57,*Default,NTP,0000,0000,0000,!Effect,Son Goku...\NDa próxima vez, eu te derrotarei.
+Dialogue: Marked=0,0:16:30.70,0:16:32.49,*Default,NTP,0000,0000,0000,!Effect,Não perderei!
+Dialogue: Marked=0,0:16:45.38,0:16:48.72,*Default,NTP,0000,0000,0000,!Effect,Desculpe! Eu estava errado!
+Dialogue: Marked=0,0:16:48.72,0:16:53.72,*Default,NTP,0000,0000,0000,!Effect,Farei qualquer coisa,\Nmas poupe a minha vida!
+Dialogue: Marked=0,0:16:53.72,0:16:56.39,*Default,NTP,0000,0000,0000,!Effect,Você disse "qualquer coisa", certo?
+Dialogue: Marked=0,0:16:56.39,0:16:57.40,*Default,NTP,0000,0000,0000,!Effect,S-Sim!
+Dialogue: Marked=0,0:16:57.40,0:17:02.33,*Default,NTP,0000,0000,0000,!Effect,Neste caso, que tal abolir o sistema de aluguel deste planeta?
+Dialogue: Marked=0,0:17:02.33,0:17:03.67,*Default,NTP,0000,0000,0000,!Effect,M-Mas...
+Dialogue: Marked=0,0:17:03.67,0:17:05.06,*Default,NTP,0000,0000,0000,!Effect,Oh, não quer?
+Dialogue: Marked=0,0:17:05.34,0:17:07.44,*Default,NTP,0000,0000,0000,!Effect,Certo, Vovô...
+Dialogue: Marked=0,0:17:11.34,0:17:16.57,*Default,NTP,0000,0000,0000,!Effect,Tudo bem! Acabarei com a lei!\NAbolirei a lei humildemente!
+Dialogue: Marked=0,0:17:17.01,0:17:20.58,*Default,NTP,0000,0000,0000,!Effect,Senhor! Senhora!
+Dialogue: Marked=0,0:17:51.72,0:17:53.05,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:17:53.05,0:17:56.99,*Default,NTP,0000,0000,0000,!Effect,Um presente do Don Kia!\NO contrato de todo mundo está aqui.
+Dialogue: Marked=0,0:17:56.99,0:18:01.62,*Default,NTP,0000,0000,0000,!Effect,Podem queimá-los, ou rasgar,\Nou qualquer outra coisa!
+Dialogue: Marked=0,0:18:03.66,0:18:07.62,*Default,NTP,0000,0000,0000,!Effect,Ele também disse que devolverá as naves de todo o mundo!
+Dialogue: Marked=0,0:18:07.67,0:18:12.55,*Default,NTP,0000,0000,0000,!Effect,Bem legal, hein? Agora vocês podem voltar para o seu planeta natal!
+Dialogue: Marked=0,0:18:14.00,0:18:15.88,*Default,NTP,0000,0000,0000,!Effect,Jovem...
+Dialogue: Marked=0,0:18:20.01,0:18:22.68,*Default,NTP,0000,0000,0000,!Effect,Demos uma lição no Don Kia,\Ne de quebra,
+Dialogue: Marked=0,0:18:22.68,0:18:25.68,*Default,NTP,0000,0000,0000,!Effect,a partir de agora, tudo ficará bem.
+Dialogue: Marked=0,0:18:25.68,0:18:29.02,*Default,NTP,0000,0000,0000,!Effect,Finalmente podemos começar a procurar pelas Dragon Balls.
+Dialogue: Marked=0,0:18:29.02,0:18:33.03,*Default,NTP,0000,0000,0000,!Effect,Uhun...\NMas, como faremos isso?
+Dialogue: Marked=0,0:18:33.02,0:18:36.29,*Default,NTP,0000,0000,0000,!Effect,Nosso Dragon Radar foi comido.
+Dialogue: Marked=0,0:18:37.03,0:18:38.41,*Default,NTP,0000,0000,0000,!Effect,Ele fugiu!
+Dialogue: Marked=0,0:18:41.37,0:18:42.83,*Default,NTP,0000,0000,0000,!Effect,Você não vai, não!
+Dialogue: Marked=0,0:18:43.70,0:18:48.25,*Default,NTP,0000,0000,0000,!Effect,Eu disse! Vamos te desmontar e pegar nosso radar de volta!
+Dialogue: Marked=0,0:18:53.38,0:18:54.30,*Default,NTP,0000,0000,0000,!Effect,Vou quebrar!
+Dialogue: Marked=0,0:18:54.38,0:18:58.30,*Default,NTP,0000,0000,0000,!Effect,Se não quiser ser quebrado,\Ncuspa o Dragon Radar!
+Dialogue: Marked=0,0:18:58.72,0:19:00.05,*Default,NTP,0000,0000,0000,!Effect,Vou quebrar!
+Dialogue: Marked=0,0:19:00.05,0:19:01.65,*Default,NTP,0000,0000,0000,!Effect,Vou quebrar!
+Dialogue: Marked=0,0:19:01.65,0:19:02.64,*Default,NTP,0000,0000,0000,!Effect,Pan-chan!
+Dialogue: Marked=0,0:19:06.66,0:19:08.99,*Default,NTP,0000,0000,0000,!Effect,Ah, Trunks, por que você fez isso?!
+Dialogue: Marked=0,0:19:08.99,0:19:11.00,*Default,NTP,0000,0000,0000,!Effect,Tive pena dele, sabe?
+Dialogue: Marked=0,0:19:11.00,0:19:15.02,*Default,NTP,0000,0000,0000,!Effect,Ter pena? Ele é uma máquina, não é?
+Dialogue: Marked=0,0:19:17.67,0:19:21.37,*Default,NTP,0000,0000,0000,!Effect,Máquinas com inteligência artificial são iguais a humanos.
+Dialogue: Marked=0,0:19:21.37,0:19:24.01,*Default,NTP,0000,0000,0000,!Effect,Mesmo que seus corpos sejam feitos de metal frio,
+Dialogue: Marked=0,0:19:24.01,0:19:27.17,*Default,NTP,0000,0000,0000,!Effect,por dentro, eles têm um coração quente.
+Dialogue: Marked=0,0:19:28.01,0:19:30.68,*Default,NTP,0000,0000,0000,!Effect,Você está bem? Se machucou?
+Dialogue: Marked=0,0:19:30.68,0:19:34.17,*Default,NTP,0000,0000,0000,!Effect,E como você planeja usar o Dragon Radar?
+Dialogue: Marked=0,0:19:39.02,0:19:42.08,*Default,NTP,0000,0000,0000,!Effect,E-Esse é o Dragon Radar, não é?
+Dialogue: Marked=0,0:19:43.03,0:19:47.36,*Default,NTP,0000,0000,0000,!Effect,Será que você pode usar as funções de qualquer máquina que você assimila,
+Dialogue: Marked=0,0:19:47.36,0:19:49.37,*Default,NTP,0000,0000,0000,!Effect,e torná-las suas?
+Dialogue: Marked=0,0:19:49.37,0:19:50.35,*Default,NTP,0000,0000,0000,!Effect,Sabia!
+Dialogue: Marked=0,0:19:51.37,0:19:55.94,*Default,NTP,0000,0000,0000,!Effect,E-Então, quer dizer que essa coisa se tornou o Dragon Radar?
+Dialogue: Marked=0,0:19:56.82,0:19:57.94,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:19:59.71,0:20:03.45,*Default,NTP,0000,0000,0000,!Effect,Uma leitura? Ele achou uma Dragon Ball, não achou?
+Dialogue: Marked=0,0:20:03.44,0:20:06.05,*Default,NTP,0000,0000,0000,!Effect,É? Onde? Onde está?
+Dialogue: Marked=0,0:20:06.05,0:20:08.46,*Default,NTP,0000,0000,0000,!Effect,Espere um pouco. Vejamos...
+Dialogue: Marked=0,0:20:08.46,0:20:10.16,*Default,NTP,0000,0000,0000,!Effect,Norte. Norte.
+Dialogue: Marked=0,0:20:10.16,0:20:14.83,*Default,NTP,0000,0000,0000,!Effect,Entendi. Quer dizer que saindo de Imegga, é rumo ao norte, certo?
+Dialogue: Marked=0,0:20:14.83,0:20:17.90,*Default,NTP,0000,0000,0000,!Effect,Que sorte! Já localizamos a primeira!
+Dialogue: Marked=0,0:20:17.90,0:20:21.70,*Default,NTP,0000,0000,0000,!Effect,Certo, assim que acabarmos aqui, partiremos imediatamente para o norte!
+Dialogue: Marked=0,0:20:25.04,0:20:27.47,Narrador,NTP,0000,0000,0000,!Effect,Depois de salvar o povo do Planeta Imegga,
+Dialogue: Marked=0,0:20:27.47,0:20:31.28,Narrador,NTP,0000,0000,0000,!Effect,Goku e seus amigos vão rumo ao norte.
+Dialogue: Marked=0,0:20:31.28,0:20:37.04,Narrador,NTP,0000,0000,0000,!Effect,Que tipo de aventura espera por Goku e os outros?

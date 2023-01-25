@@ -1,0 +1,232 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: Radio2,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,2,30,30,20,0,0
+Style: Radio3,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,1,1,2,1,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,Souvenir Lt BT,40,16777215,12632256,16711680,10485760,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,Arial Black,36,16777215,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,&HFF110066,8454143,3815994,&HFF110066,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA3,Arial,40,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:29.70,0:01:33.56,Narrador,,0000,0000,0000,,{\fscx97\fscy97}O Torneio do Makai, um torneio de artes marciais que tinha em jogo o controle do Makai,
+Dialogue: Marked=0,0:01:33.56,0:01:35.51,Narrador,,0000,0000,0000,,entrou em seu estágio final.
+Dialogue: Marked=0,0:01:36.32,0:01:38.34,Narrador,,0000,0000,0000,,Os amigos de Yusuke lutaram bem,
+Dialogue: Marked=0,0:01:38.69,0:01:43.86,Narrador,,0000,0000,0000,,mas Chu, Rinku, Shishiwaka e Suzuki\Nforam todos eliminados um por um.
+Dialogue: Marked=0,0:01:43.86,0:01:47.60,Narrador,,0000,0000,0000,,Até mesmo Jin e Toya foram\Nderrotados na primeira rodada.
+Dialogue: Marked=0,0:01:48.21,0:01:49.81,Narrador,,0000,0000,0000,,Após batalhas muito acirradas,
+Dialogue: Marked=0,0:01:49.91,0:01:54.94,Narrador,,0000,0000,0000,,somente os mais hábeis\Nconseguiram passar à próxima fase.
+
+Dialogue: Marked=0,0:01:55.06,0:02:01.08,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 108
+Dialogue: Marked=0,0:01:55.06,0:02:01.08,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(390,340)}{\fscx82\fscy130}Kurama, um rompimento com o passado
+
+Dialogue: Marked=0,0:02:06.32,0:02:07.48,*Default,,0000,0000,0000,,Ah, mamãe?
+Dialogue: Marked=0,0:02:09.09,0:02:09.99,*Default,,0000,0000,0000,,Como você está?
+Dialogue: Marked=0,0:02:12.20,0:02:15.91,*Default,,0000,0000,0000,,Não, eu estou bem.\NEstou tomando cuidado com a água.
+Dialogue: Marked=0,0:02:18.43,0:02:20.48,*Default,,0000,0000,0000,,Desculpe por ser tão egoísta...
+Dialogue: Marked=0,0:02:22.75,0:02:23.92,*Default,,0000,0000,0000,,Mas, dessa vez...
+Dialogue: Marked=0,0:02:25.23,0:02:27.62,*Default,,0000,0000,0000,,Eu realmente quero pensar seriamente\Nsobre meu futuro e tudo mais...
+Dialogue: Marked=0,0:02:33.03,0:02:36.77,*Default,,0000,0000,0000,,Eu voltarei em duas semanas mais ou menos.\NComo estão as coisas aí?
+Dialogue: Marked=0,0:02:38.91,0:02:41.51,*Default,,0000,0000,0000,,Ah, é? As cerejeiras no jardim?
+Dialogue: Marked=0,0:02:45.68,0:02:49.04,*Default,,0000,0000,0000,,Eu costumava subir muito nelas quando era pequeno, não é? Naquelas árvores...
+Dialogue: Marked=0,0:02:51.36,0:02:52.84,*Default,,0000,0000,0000,,{\fad(0,700)}Depois eu te ligo.
+Dialogue: Marked=0,0:02:54.05,0:02:56.96,*Default,,0000,0000,0000,,Certo. Bem, eu preciso desligar. Diga a Shuichi e ao papai que eu mandei um oi.
+Dialogue: Marked=0,0:03:06.13,0:03:09.15,*Default,,0000,0000,0000,,Então, continuamos com a\Nsegunda rodada do torneio principal!
+Dialogue: Marked=0,0:03:09.15,0:03:10.94,*Default,,0000,0000,0000,,No bloco B, temos uma notável luta...
+Dialogue: Marked=0,0:03:11.07,0:03:14.19,*Default,,0000,0000,0000,,entre o ex-chanceler militar\Nde Gandara, lutador Kurama,
+Dialogue: Marked=0,0:03:14.19,0:03:17.82,*Default,,0000,0000,0000,,e um dos guerreiros que foi diretamente\Nsubordinado a Mukuro, lutador Shigure!
+Dialogue: Marked=0,0:03:18.82,0:03:21.93,Radio,,0000,0000,0000,,Representante do bloco 67, lutador Kurama...
+Dialogue: Marked=0,0:03:22.63,0:03:25.74,Radio,,0000,0000,0000,,Representante do bloco 13, lutador Shigure...
+Dialogue: Marked=0,0:03:25.74,0:03:30.71,Radio,,0000,0000,0000,,Por favor, compareçam ao 18°\Nringue imediatamente. Repetindo...
+Dialogue: Marked=0,0:03:31.83,0:03:34.96,Radio,,0000,0000,0000,,Representante do Bloco 67, lutador Kurama...
+Dialogue: Marked=0,0:03:35.60,0:03:38.17,Radio,,0000,0000,0000,,Representante do Bloco 13, lutador Shigure...
+Dialogue: Marked=0,0:03:38.62,0:03:42.17,Radio,,0000,0000,0000,,Por favor, compareçam ao 18° ringue imediatamente.
+Dialogue: Marked=0,0:04:20.61,0:04:21.26,*Default,,0000,0000,0000,,Yomi...
+Dialogue: Marked=0,0:04:27.07,0:04:34.35,*Default,,0000,0000,0000,,Naquele dia, quando Urameshi veio me ver,\Nvocê não hesitou em se virar contra mim.
+Dialogue: Marked=0,0:04:36.30,0:04:38.10,*Default,,0000,0000,0000,,Você estava planejando alguma coisa?
+Dialogue: Marked=0,0:04:39.67,0:04:41.69,*Default,,0000,0000,0000,,Talvez você tivesse percebido que\NMukuro estava perto daquele jeito,
+Dialogue: Marked=0,0:04:41.69,0:04:46.87,*Default,,0000,0000,0000,,e assim eu não poderia te\Nmatar naquela hora e naquele lugar.
+Dialogue: Marked=0,0:04:47.13,0:04:47.92,*Default,,0000,0000,0000,,Não.
+Dialogue: Marked=0,0:04:49.69,0:04:54.01,*Default,,0000,0000,0000,,Entendo. Então, você estava preparado\Npara morrer quando me traiu, é isso?
+Dialogue: Marked=0,0:04:56.09,0:04:58.47,*Default,,0000,0000,0000,,Yomi, eu...
+Dialogue: Marked=0,0:04:59.16,0:05:05.24,*Default,,0000,0000,0000,,Está tudo bem. Graças ao Urameshi,\Neu também mudei completamente.
+Dialogue: Marked=0,0:05:05.24,0:05:08.85,*Default,,0000,0000,0000,,Agora, sei exatamente o que me falta.
+Dialogue: Marked=0,0:05:10.42,0:05:12.24,*Default,,0000,0000,0000,,As pessoas podem mudar, não é?
+Dialogue: Marked=0,0:05:13.27,0:05:13.95,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:05:17.39,0:05:21.10,*Default,,0000,0000,0000,,Mostre-nos o seu verdadeiro poder.
+Dialogue: Marked=0,0:05:31.32,0:05:34.80,*Default,,0000,0000,0000,,Muito bem. Os participantes da terceira luta da segunda rodada do bloco B...
+Dialogue: Marked=0,0:05:34.80,0:05:36.62,*Default,,0000,0000,0000,,acabaram de chegar!
+Dialogue: Marked=0,0:05:53.80,0:05:55.68,*Default,,0000,0000,0000,,De acordo com as informações que temos,
+Dialogue: Marked=0,0:05:55.68,0:05:58.40,*Default,,0000,0000,0000,,o lutador Shigure é conhecido\Ncomo o fisioterapeuta do Makai.
+Dialogue: Marked=0,0:05:58.40,0:06:01.06,*Default,,0000,0000,0000,,Yoda-san, que tipo de profissão é essa?
+Dialogue: Marked=0,0:06:01.37,0:06:04.10,*Default,,0000,0000,0000,,Ah, sim. Um fisioterapeuta do Makai...
+Dialogue: Marked=0,0:06:04.10,0:06:07.44,*Default,,0000,0000,0000,,é capaz de alterar artificialmente\Nas habilidades de um youkai...
+Dialogue: Marked=0,0:06:07.44,0:06:09.98,*Default,,0000,0000,0000,,ou até implantar novos poderes nele...
+Dialogue: Marked=0,0:06:10.64,0:06:13.58,*Default,,0000,0000,0000,,por meio de técnicas cirúrgicas\Ne técnicas espectrais especiais.
+Dialogue: Marked=0,0:06:14.04,0:06:17.33,*Default,,0000,0000,0000,,{\fad(0,300)}Pode-se dizer que ele\Né um "médico das trevas".
+Dialogue: Marked=0,0:06:18.18,0:06:21.66,*Default,,0000,0000,0000,,É preciso ter precisão para cortar\Ndentro de centésimos de milímetros,
+Dialogue: Marked=0,0:06:21.66,0:06:24.13,*Default,,0000,0000,0000,,ou não é possível realizar essas operações.
+Dialogue: Marked=0,0:06:24.13,0:06:27.24,*Default,,0000,0000,0000,,Sabendo disso, você\Npode entender a precisão...
+Dialogue: Marked=0,0:06:27.24,0:06:30.47,*Default,,0000,0000,0000,,{\fad(0,300)}das habilidades com a\Nespada do lutador Shigure.
+Dialogue: Marked=0,0:06:30.70,0:06:35.00,*Default,,0000,0000,0000,,Bem, e quais tipos de poderes\Nele deu e a quais tipos de youkai?
+Dialogue: Marked=0,0:06:35.00,0:06:39.44,*Default,,0000,0000,0000,,Bom, isso é combinado em\Nsegredo entre o paciente e o médico.
+Dialogue: Marked=0,0:06:40.13,0:06:42.80,*Default,,0000,0000,0000,,Ninguém, exceto eles, sabe.
+Dialogue: Marked=0,0:06:43.91,0:06:45.36,*Default,,0000,0000,0000,,Como você vê isso, Hiei?
+Dialogue: Marked=0,0:06:45.83,0:06:47.32,*Default,,0000,0000,0000,,Não sei.
+Dialogue: Marked=0,0:06:48.16,0:06:51.53,*Default,,0000,0000,0000,,Certo. Parece que as preparações\Ndos dois lados estão finalizadas!
+Dialogue: Marked=0,0:06:57.25,0:06:59.29,*Default,,0000,0000,0000,,Manda ver, Kurama!
+Dialogue: Marked=0,0:07:04.70,0:07:05.55,*Default,,0000,0000,0000,,Comecem!
+Dialogue: Marked=0,0:07:23.46,0:07:24.65,Doutrina,,0000,0000,0000,,Rose Whip!
+Dialogue: Marked=0,0:07:57.80,0:08:01.48,*Default,,0000,0000,0000,,Nada mal.\NVocê manteve uma distância segura.
+Dialogue: Marked=0,0:08:02.17,0:08:05.65,*Default,,0000,0000,0000,,Então, se me aproximar mais que isso,\Nserei cortado ao meio, não é?
+Dialogue: Marked=0,0:08:05.81,0:08:09.34,*Default,,0000,0000,0000,,Entretanto, você não consegue lutar,\Na não ser que se aproxime.
+Dialogue: Marked=0,0:08:10.03,0:08:12.29,*Default,,0000,0000,0000,,A não ser que você consiga conter a força destrutiva...
+Dialogue: Marked=0,0:08:12.29,0:08:16.08,*Default,,0000,0000,0000,,da minha espada Rinka Enreki-to\Nusando suas técnicas.
+Dialogue: Marked=0,0:08:23.11,0:08:28.05,*Default,,0000,0000,0000,,Minha nossa! O lutador Shigure\Narremessou sua espada Rinka Enreki-to!
+Dialogue: Marked=0,0:08:28.32,0:08:30.51,*Default,,0000,0000,0000,,Que incrível poder destrutivo!
+Dialogue: Marked=0,0:08:31.13,0:08:34.64,*Default,,0000,0000,0000,,O ringue inteiro foi despedaçado em um piscar de olhos!
+Dialogue: Marked=0,0:08:49.71,0:08:50.69,P!,,0000,0000,0000,,Isso não vai funcionar!
+Dialogue: Marked=0,0:09:08.83,0:09:12.78,*Default,,0000,0000,0000,,Há muito tempo, eu decidia se\Naceitaria os pedidos de cirurgias...
+Dialogue: Marked=0,0:09:13.48,0:09:16.84,*Default,,0000,0000,0000,,baseado no fascínio que\Na vida do paciente me trazia.
+Dialogue: Marked=0,0:09:18.06,0:09:21.62,*Default,,0000,0000,0000,,Sua vida parece ser muito interessante.
+Dialogue: Marked=0,0:09:22.56,0:09:24.18,*Default,,0000,0000,0000,,Posso dizer só de olhar nos seus olhos.
+Dialogue: Marked=0,0:09:25.91,0:09:29.52,*Default,,0000,0000,0000,,O que você está tentando decidir?
+Dialogue: Marked=0,0:09:32.63,0:09:38.41,*Default,,0000,0000,0000,,Decidir? Você pode estar certo,\Nmas não tenho intenção de dizê-lo agora!
+Dialogue: Marked=0,0:09:39.66,0:09:41.51,Comentario,,0000,0000,0000,,{\fad(300,300)\fscx85\fscy85}Formação de Batalha - Valsa do Vendaval de Pétalas
+Dialogue: Marked=0,0:09:39.66,0:09:41.51,Doutrina,,0000,0000,0000,,Fuuka Enbu-jin!
+Dialogue: Marked=0,0:09:59.99,0:10:01.64,*Default,,0000,0000,0000,,Isso é incrível!
+Dialogue: Marked=0,0:10:01.64,0:10:06.37,*Default,,0000,0000,0000,,Essa é a quantidade de poder que\Na Rinka Enreki-to de Shigure tem?!
+Dialogue: Marked=0,0:10:12.95,0:10:14.32,*Default,,0000,0000,0000,,Você é meu!
+
+Dialogue: Marked=0,0:10:32.03,0:10:33.34,*Default,,0000,0000,0000,,Você é meu!
+Dialogue: Marked=0,0:10:36.52,0:10:37.88,*Default,,0000,0000,0000,,Acabou?!
+Dialogue: Marked=0,0:10:40.21,0:10:43.86,*Default,,0000,0000,0000,,O poder da Rinka Enreki-to do\Nparticipante Shigure é espantoso!
+Dialogue: Marked=0,0:10:43.86,0:10:48.27,*Default,,0000,0000,0000,,A área inteira foi coberta por uma\Nnuvem de poeira e não podemos ver nada!
+Dialogue: Marked=0,0:10:48.27,0:10:49.94,*Default,,0000,0000,0000,,Câmera-san, por favor, aproxime-se mais.
+Dialogue: Marked=0,0:11:00.10,0:11:05.87,*Default,,0000,0000,0000,,{\fscx97\fscy97}É o lutador Shigure. A área toda se\Ntransformou em uma cratera em forma de cone.
+Dialogue: Marked=0,0:11:06.76,0:11:08.95,*Default,,0000,0000,0000,,O lutador Kurama não pode ser visto.
+Dialogue: Marked=0,0:11:08.95,0:11:12.38,*Default,,0000,0000,0000,,Será que ele explodiu com o poder daquela lâmina?
+Dialogue: Marked=0,0:11:24.50,0:11:28.65,*Default,,0000,0000,0000,,O que pode ser isso?\NTem um outro youki perto de Shigure!
+Dialogue: Marked=0,0:11:30.24,0:11:31.52,*Default,,0000,0000,0000,,Será que...
+Dialogue: Marked=0,0:11:46.58,0:11:48.04,*Default,,0000,0000,0000,,O lendário...
+Dialogue: Marked=0,0:11:48.38,0:11:50.54,*Default,,0000,0000,0000,,Youko Kurama!
+Dialogue: Marked=0,0:11:59.47,0:12:03.93,*Default,,0000,0000,0000,,Isso mesmo, Kurama!\NMostre-me seu verdadeiro poder!
+Dialogue: Marked=0,0:12:04.47,0:12:08.35,*Default,,0000,0000,0000,,Yoda-san, finalmente o lutador Kurama se transformou em Youko!
+Dialogue: Marked=0,0:12:08.35,0:12:12.10,*Default,,0000,0000,0000,,Sim. Parece que Kurama\Nretorna à sua forma Youko...
+Dialogue: Marked=0,0:12:12.10,0:12:14.40,*Default,,0000,0000,0000,,quando acontece um\Nestalo dentro de si mesmo,
+Dialogue: Marked=0,0:12:14.40,0:12:18.97,*Default,,0000,0000,0000,,resultado de uma crescente\Nraiva, ódio ou outra emoção.
+Dialogue: Marked=0,0:12:18.97,0:12:21.87,*Default,,0000,0000,0000,,Seu youki e classe também\Naumentam incomparavelmente.
+Dialogue: Marked=0,0:12:22.74,0:12:28.95,*Default,,0000,0000,0000,,O ladrão lendário, Youko Kurama, em sua forma original.
+Dialogue: Marked=0,0:12:29.15,0:12:32.85,*Default,,0000,0000,0000,,Ele deveria querer isso desde o começo.
+Dialogue: Marked=0,0:12:32.85,0:12:35.92,*Default,,0000,0000,0000,,Então isso é uma parte\Nda estratégia de Kurama?
+Dialogue: Marked=0,0:12:36.26,0:12:36.91,*Default,,0000,0000,0000,,Não.
+Dialogue: Marked=0,0:12:37.69,0:12:38.78,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:12:39.41,0:12:41.12,*Default,,0000,0000,0000,,Estou com um pressentimento\Nde que isso não é certo.
+Dialogue: Marked=0,0:12:42.97,0:12:45.84,P!,,0000,0000,0000,,Kurama estava tentando\Nse transformar em Youko?
+Dialogue: Marked=0,0:12:50.32,0:12:51.85,*Default,,0000,0000,0000,,Interessante!
+Dialogue: Marked=0,0:13:20.00,0:13:24.17,*Default,,0000,0000,0000,,{\fscx97\fscy97}Assim que eu recuperasse meu poder\Nespectral, pretendia sair daqui imediatamente.
+Dialogue: Marked=0,0:13:25.50,0:13:27.80,*Default,,0000,0000,0000,,Mas, então, desde aquele dia...
+Dialogue: Marked=0,0:13:29.04,0:13:32.48,*Default,,0000,0000,0000,,{\fad(0,300)}Desde aquele dia em que assumi\Na identidade de Minamino Shuichi...
+Dialogue: Marked=0,0:13:35.72,0:13:38.60,L!,,0000,0000,0000,,Shuichi, está tudo bem? Você se machucou?
+Dialogue: Marked=0,0:13:38.60,0:13:39.40,LP!,,0000,0000,0000,,Mamãe...
+Dialogue: Marked=0,0:13:40.83,0:13:43.64,*Default,,0000,0000,0000,,Quando eu consegui sentir amor\Npor aquela pessoa como minha mãe...
+Dialogue: Marked=0,0:13:50.48,0:13:54.12,L!,,0000,0000,0000,,Você já experimentou ver\Nsua mãe chorando por você?!
+Dialogue: Marked=0,0:13:55.07,0:13:57.54,L!,,0000,0000,0000,,Não existe nada mais desconfortável que isso!
+Dialogue: Marked=0,0:13:59.25,0:14:00.04,*Default,,0000,0000,0000,,Hiei...
+Dialogue: Marked=0,0:14:00.71,0:14:01.50,*Default,,0000,0000,0000,,Yusuke...
+Dialogue: Marked=0,0:14:02.08,0:14:03.01,*Default,,0000,0000,0000,,Kuwabara-kun...
+Dialogue: Marked=0,0:14:06.53,0:14:09.68,*Default,,0000,0000,0000,,Eu não poderia suportar se um de nós quatro se fosse!
+Dialogue: Marked=0,0:14:11.79,0:14:14.39,*Default,,0000,0000,0000,,Não sou mais o Kurama que costumava ser.
+Dialogue: Marked=0,0:14:20.94,0:14:24.32,*Default,,0000,0000,0000,,Eu não quero...\Ncontinuar vivendo uma mentira!
+Dialogue: Marked=0,0:14:30.78,0:14:32.41,*Default,,0000,0000,0000,,Por que você não ataca?!
+Dialogue: Marked=0,0:14:53.00,0:14:54.35,*Default,,0000,0000,0000,,O que você pensa que está fazendo?!
+Dialogue: Marked=0,0:14:59.37,0:15:03.15,*Default,,0000,0000,0000,,Minha nossa!\NO que o lutador Kurama está tramando?
+Dialogue: Marked=0,0:15:03.15,0:15:07.76,*Default,,0000,0000,0000,,Ele mal acabou de se transformar em Youko,\Nsendo capaz de usar todo seu poder,
+Dialogue: Marked=0,0:15:07.76,0:15:10.28,*Default,,0000,0000,0000,,e já retornou à sua forma original!
+Dialogue: Marked=0,0:15:11.30,0:15:14.88,*Default,,0000,0000,0000,,Então você quer acertar isso nesse corpo, não é?
+Dialogue: Marked=0,0:15:20.97,0:15:24.59,*Default,,0000,0000,0000,,Eu aceito seu desafio, se você quiser.
+Dialogue: Marked=0,0:15:24.89,0:15:27.85,*Default,,0000,0000,0000,,Eu não pretendo negar minha própria força.
+Dialogue: Marked=0,0:15:28.91,0:15:32.59,*Default,,0000,0000,0000,,Quero apenas proteger aquilo\Nque me é mais importante!
+Dialogue: Marked=0,0:15:33.64,0:15:36.35,*Default,,0000,0000,0000,!Effect,Kurama, por quê?!
+Dialogue: Marked=0,0:15:38.00,0:15:41.16,*Default,,0000,0000,0000,!Effect,Muito bem!\NEntão, tudo o que resta é resolver isso!
+Dialogue: Marked=0,0:15:53.88,0:15:54.58,*Default,,0000,0000,0000,!Effect,Kurama!
+Dialogue: Marked=0,0:16:01.76,0:16:04.96,*Default,,0000,0000,0000,!Effect,O que há de errado?!\NJá terminou?!
+Dialogue: Marked=0,0:16:09.74,0:16:11.72,*Default,,0000,0000,0000,!Effect,Por que você está criando tanta confusão?!
+Dialogue: Marked=0,0:16:11.72,0:16:14.14,*Default,,0000,0000,0000,!Effect,Vá para perto do Shigure e o ataque...
+Dialogue: Marked=0,0:16:15.09,0:16:19.31,*Default,,0000,0000,0000,!Effect,Antes que sua lâmina volte!\NÉ a única coisa que você pode fazer!
+Dialogue: Marked=0,0:16:21.84,0:16:26.65,*Default,,0000,0000,0000,!Effect,É impossível repelir\Naquela Rinka Enreki-to giratória!
+Dialogue: Marked=0,0:16:27.12,0:16:29.53,*Default,,0000,0000,0000,!Effect,Não há chance de ele\Nganhar numa luta de espadas.
+Dialogue: Marked=0,0:16:29.87,0:16:32.28,*Default,,0000,0000,0000,!Effect,O que você está fazendo, Kurama?
+Dialogue: Marked=0,0:16:36.91,0:16:38.53,*Default,,0000,0000,0000,!Effect,O que você procura?
+Dialogue: Marked=0,0:16:48.62,0:16:52.42,*Default,,0000,0000,0000,!Effect,Momentos atrás, plantei uma\Nsemente no tronco desta árvore Okunenju.
+Dialogue: Marked=0,0:16:54.29,0:16:56.05,*Default,,0000,0000,0000,!Effect,Parece que ela finalmente se uniu à árvore.
+Dialogue: Marked=0,0:16:56.49,0:17:01.81,*Default,,0000,0000,0000,!Effect,Você quer reviver essa Okunenju fossilizada nesse estado em que você se encontra?
+Dialogue: Marked=0,0:17:01.87,0:17:04.40,*Default,,0000,0000,0000,!Effect,Meu corpo de Youko não é minha melhor carta!
+Dialogue: Marked=0,0:17:12.42,0:17:15.21,*Default,,0000,0000,0000,!Effect,Uau! Isso é incrível!
+Dialogue: Marked=0,0:17:15.21,0:17:18.87,*Default,,0000,0000,0000,!Effect,Parece que ele plantou uma\Nsemente na árvore Okunenju...
+Dialogue: Marked=0,0:17:18.87,0:17:20.53,*Default,,0000,0000,0000,!Effect,que esteve fossilizada por milhões de anos...
+Dialogue: Marked=0,0:17:20.53,0:17:22.56,*Default,,0000,0000,0000,!Effect,e a trouxe de volta à vida!
+Dialogue: Marked=0,0:17:22.56,0:17:25.83,*Default,,0000,0000,0000,!Effect,O que será que o lutador\NKurama está planejando?!
+Dialogue: Marked=0,0:17:29.21,0:17:31.84,*Default,,0000,0000,0000,!Effect,Então é isso! A árvore Okunenju,
+Dialogue: Marked=0,0:17:31.84,0:17:34.50,*Default,,0000,0000,0000,!Effect,que se enraíza fortemente no\Nchão devido ao seu grande porte,
+Dialogue: Marked=0,0:17:35.60,0:17:38.80,*Default,,0000,0000,0000,!Effect,talvez consiga bloquear a Enreki-to!
+Dialogue: Marked=0,0:17:38.93,0:17:40.56,*Default,,0000,0000,0000,!Effect,Isso é incrível!
+Dialogue: Marked=0,0:17:42.41,0:17:43.42,*Default,,0000,0000,0000,!Effect,Kurama...
+Dialogue: Marked=0,0:17:51.65,0:17:57.82,*Default,,0000,0000,0000,!Effect,Fascinante! Vou terminar\Ncom isso como um espadachim!
+Dialogue: Marked=0,0:18:10.10,0:18:10.75,*Default,,0000,0000,0000,!Effect,Kurama!
+Dialogue: Marked=0,0:19:06.31,0:19:07.66,*Default,,0000,0000,0000,!Effect,Eu desisto.
+Dialogue: Marked=0,0:19:09.54,0:19:10.60,*Default,,0000,0000,0000,!Effect,Shigure...
+Dialogue: Marked=0,0:19:15.03,0:19:20.45,*Default,,0000,0000,0000,!Effect,Bonitas. São estas as flores que\Ndesabrocham no lugar de onde você veio?
+Dialogue: Marked=0,0:19:33.33,0:19:34.00,*Default,,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:19:35.31,0:19:36.36,*Default,,0000,0000,0000,!Effect,Então é isso?
+Dialogue: Marked=0,0:19:42.07,0:19:43.46,*Default,,0000,0000,0000,!Effect,Shigure! O que você está...
+Dialogue: Marked=0,0:19:46.17,0:19:51.44,P!,,0000,0000,0000,!Effect,Um espadachim não pode perder duas vezes.\NMukuro-sama é minha única mestra!
+Dialogue: Marked=0,0:20:03.01,0:20:07.24,*Default,,0000,0000,0000,!Effect,O lutador Shigure,\Nadmitindo sua derrota, se jogou...
+Dialogue: Marked=0,0:20:07.24,0:20:08.56,*Default,,0000,0000,0000,!Effect,para terminar com sua vida!
+Dialogue: Marked=0,0:20:16.09,0:20:19.49,*Default,,0000,0000,0000,!Effect,Minha nossa, parece que o lutador\NKurama também perdeu a consciência!
+Dialogue: Marked=0,0:20:19.49,0:20:21.01,*Default,,0000,0000,0000,!Effect,Será que ele está bem?
+Dialogue: Marked=0,0:20:34.88,0:20:35.69,*Default,,0000,0000,0000,!Effect,Ali!
+Dialogue: Marked=0,0:20:36.31,0:20:37.94,*Default,,0000,0000,0000,!Effect,Quem é aquele?
+Dialogue: Marked=0,0:20:55.36,0:20:56.12,*Default,,0000,0000,0000,!Effect,Yomi...
+Dialogue: Marked=0,0:21:10.65,0:21:17.27,*Default,,0000,0000,0000,!Effect,Kurama, você... abandonou sua forma Youko?
+Dialogue: Marked=0,0:21:18.78,0:21:21.58,*Default,,0000,0000,0000,!Effect,Eu não abro mão de nada.
+Dialogue: Marked=0,0:21:23.05,0:21:23.97,*Default,,0000,0000,0000,,Nunca.
+Dialogue: Marked=0,0:21:30.92,0:21:33.00,*Default,,0000,0000,0000,!Effect,Kurama!
+
+Dialogue: Marked=0,0:21:47.53,0:21:50.68,Conversa,,0000,0000,0000,!Effect,Dois lutadores que sobreviveram no Makai...
+Dialogue: Marked=0,0:21:51.36,0:21:54.60,Conversa,,0000,0000,0000,!Effect,sem depender de ninguém e sem\Na ajuda de ninguém. Mukuro e Hiei...
+Dialogue: Marked=0,0:21:55.54,0:21:59.05,Conversa,,0000,0000,0000,!Effect,A luta entre esses dois,\Ncujos corações trazem cicatrizes invisíveis,
+Dialogue: Marked=0,0:21:59.05,0:22:02.28,Conversa,,0000,0000,0000,!Effect,é uma luta feroz e triste,
+Dialogue: Marked=0,0:22:02.28,0:22:04.53,Conversa,,0000,0000,0000,!Effect,como se eles lutassem contra\Nseus próprios reflexos em um espelho.
+Dialogue: Marked=0,0:22:05.18,0:22:08.14,Conversa,,0000,0000,0000,!Effect,Próximo Episódio:\N"Batalha Decisiva! Hiei e Mukuro!"
+Dialogue: Marked=0,0:22:08.14,0:22:11.15,Conversa,,0000,0000,0000,!Effect,Outra batalha se inicia aqui!

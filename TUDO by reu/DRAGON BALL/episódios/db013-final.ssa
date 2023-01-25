@@ -1,0 +1,248 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 576
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Comic Sans MS,40,16777215,16777215,16777215,-2147483640,-1,0,1,2,0,2,30,30,20,0,0
+Style: Narrador,Comic Sans MS,40,16777215,16777215,16777215,-2147483640,-1,1,1,2,0,2,30,30,20,0,0
+Style: P!,Comic Sans MS,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,2,0,2,30,30,20,0,0
+Style: L!,Comic Sans MS,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,-2147483640,-1,1,1,2,0,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,30,0,0
+Style: Nota,Comic Sans MS,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: Poderes,Keypunch,36,16744576,16744576,16744576,16777215,-1,0,1,2,0,2,30,30,30,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:50.20,0:00:54.04,Default,NTP,0000,0000,0000,!Effect,Ei! A cela foi destruída!\NAgora podemos escapar!
+Dialogue: Marked=0,0:00:54.04,0:00:57.36,Default,NTP,0000,0000,0000,!Effect,Goku! Você já pode parar agora!\NPode voltar ao normal!
+Dialogue: Marked=0,0:00:57.36,0:00:59.27,Default,NTP,0000,0000,0000,!Effect,Ei, Goku!
+Dialogue: Marked=0,0:01:03.76,0:01:06.00,Default,NTP,0000,0000,0000,!Effect,Nossa, que barulho!\NNão consigo dormir direito...
+Dialogue: Marked=0,0:01:06.00,0:01:08.30,Default,NTP,0000,0000,0000,!Effect,Façam eles se calarem!
+Dialogue: Marked=0,0:01:17.80,0:01:21.03,Default,NTP,0000,0000,0000,!Effect,Ei, calem a boca!\NNão estou conseguindo dormir!
+Dialogue: Marked=0,0:01:23.12,0:01:24.55,Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!
+Dialogue: Marked=0,0:01:35.16,0:01:38.36,Default,NTP,0000,0000,0000,!Effect,De onde ele veio?!\NLivrem-se dele!
+Dialogue: Marked=0,0:01:38.36,0:01:39.28,Default,NTP,0000,0000,0000,!Effect,S-Sim, senhor!
+Dialogue: Marked=0,0:01:39.28,0:01:43.91,Default,NTP,0000,0000,0000,!Effect,- Seu grande idiota!\N- Dá o fora daqui!
+Dialogue: Marked=0,0:01:44.84,0:01:50.91,Default,NTP,0000,0000,0000,!Effect,Seus idiotas! Vocês acham\Nque isso vai parar esse monstro?
+Dialogue: Marked=0,0:02:02.00,0:02:04.36,Default,NTP,0000,0000,0000,!Effect,Certo! Agora é a nossa chance!\NApressem-se!
+Dialogue: Marked=0,0:02:04.36,0:02:08.71,Default,NTP,0000,0000,0000,!Effect,Você poderia ao menos\Nme dar uma mão aqui!
+Dialogue: Marked=0,0:02:09.84,0:02:12.24,Default,NTP,0000,0000,0000,!Effect,Bem... Hum...
+Dialogue: Marked=0,0:02:12.24,0:02:14.91,Default,NTP,0000,0000,0000,!Effect,Venham, rápido!
+Dialogue: Marked=0,0:02:17.72,0:02:20.10,Default,NTP,0000,0000,0000,!Effect,Vamos fugir de avião!
+Dialogue: Marked=0,0:02:30.88,0:02:33.20,Default,NTP,0000,0000,0000,!Effect,O que você está fazendo?\NRápido, tire-nos daqui!
+Dialogue: Marked=0,0:02:33.20,0:02:35.52,Default,NTP,0000,0000,0000,!Effect,Há algo de errado com o motor...
+Dialogue: Marked=0,0:02:35.52,0:02:36.58,Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:02:43.48,0:02:45.60,Default,NTP,0000,0000,0000,!Effect,Tire-nos daqui!
+Dialogue: Marked=0,0:02:45.60,0:02:48.95,Default,NTP,0000,0000,0000,!Effect,Não consigo!\NO motor não quer funcionar!
+Dialogue: Marked=0,0:03:01.36,0:03:04.07,Default,NTP,0000,0000,0000,!Effect,Nós iremos morrer! Rápido!
+Dialogue: Marked=0,0:03:08.28,0:03:09.95,Default,NTP,0000,0000,0000,!Effect,Funcionou!
+Dialogue: Marked=0,0:03:19.04,0:03:20.18,Default,NTP,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:03:21.80,0:03:26.23,Default,NTP,0000,0000,0000,!Effect,- Conseguimos!\N- Ebaaa!
+Dialogue: Marked=0,0:03:33.72,0:03:35.40,Default,NTP,0000,0000,0000,!Effect,Você está bem?!
+Dialogue: Marked=0,0:03:35.40,0:03:36.79,Default,NTP,0000,0000,0000,!Effect,Levante!
+Dialogue: Marked=0,0:03:38.68,0:03:39.92,Default,NTP,0000,0000,0000,!Effect,Minha perna!
+Dialogue: Marked=0,0:03:39.92,0:03:42.19,Default,NTP,0000,0000,0000,!Effect,Aqui, suba no meu ombro!
+Dialogue: Marked=0,0:03:43.36,0:03:45.92,Default,NTP,0000,0000,0000,!Effect,Não fique parado aí e venha me ajudar!
+Dialogue: Marked=0,0:03:46.72,0:03:49.48,Default,NTP,0000,0000,0000,!Effect,Não, bem, entenda...
+Dialogue: Marked=0,0:03:49.48,0:03:51.78,P!,NTP,0000,0000,0000,!Effect,Eu não consigo tocar em garotas.
+Dialogue: Marked=0,0:03:57.60,0:03:59.48,Default,NTP,0000,0000,0000,!Effect,Rápido, me ajude!
+Dialogue: Marked=0,0:03:59.48,0:04:01.43,Default,NTP,0000,0000,0000,!Effect,Nós daremos o fora daqui!
+Dialogue: Marked=0,0:04:03.32,0:04:05.07,Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:04:06.76,0:04:07.98,Default,NTP,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:04:27.04,0:04:32.80,Default,NTP,0000,0000,0000,!Effect,Como ousa! Esse castelo, que dei sangue e suor para construir, durou muitos anos.
+Dialogue: Marked=0,0:04:32.80,0:04:33.92,Default,NTP,0000,0000,0000,!Effect,Você pagará por isso!
+Dialogue: Marked=0,0:04:33.92,0:04:35.72,Default,NTP,0000,0000,0000,!Effect,Volte, Mai!
+Dialogue: Marked=0,0:04:35.72,0:04:37.40,Default,NTP,0000,0000,0000,!Effect,Eu disse para voltar!
+Dialogue: Marked=0,0:04:37.40,0:04:41.92,Default,NTP,0000,0000,0000,!Effect,Eu recuso deixar esse monstro fugir daqui tendo destruído meu castelo!
+Dialogue: Marked=0,0:04:41.92,0:04:43.32,Default,NTP,0000,0000,0000,!Effect,Mas, Pilaf-sama...
+Dialogue: Marked=0,0:04:43.32,0:04:45.08,Default,NTP,0000,0000,0000,!Effect,Nós finalmente conseguimos fugir...
+Dialogue: Marked=0,0:04:45.08,0:04:47.40,Default,NTP,0000,0000,0000,!Effect,Silêncio! Apenas fique\Ncalada e faça o que eu mando!
+Dialogue: Marked=0,0:04:47.40,0:04:48.54,Default,NTP,0000,0000,0000,!Effect,Sim, senhor!
+Dialogue: Marked=0,0:04:58.36,0:05:00.92,Default,NTP,0000,0000,0000,!Effect,Parece que eu consegui nos tirar de lá...
+Dialogue: Marked=0,0:05:01.32,0:05:02.95,Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:05:04.20,0:05:06.71,Default,NTP,0000,0000,0000,!Effect,Você pode me por no chão?
+Dialogue: Marked=0,0:05:15.44,0:05:19.39,Default,NTP,0000,0000,0000,!Effect,Eu segurei uma garota... e estou normal!
+Dialogue: Marked=0,0:05:24.80,0:05:27.23,Default,NTP,0000,0000,0000,!Effect,Tudo bem! Fogo!
+Dialogue: Marked=0,0:05:31.24,0:05:32.71,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:05:36.72,0:05:37.84,Default,NTP,0000,0000,0000,!Effect,Son-kun!
+Dialogue: Marked=0,0:05:37.84,0:05:41.00,Default,NTP,0000,0000,0000,!Effect,Ele está levando muitos tiros, ele ficará bem?!
+Dialogue: Marked=0,0:05:41.00,0:05:43.43,Default,NTP,0000,0000,0000,!Effect,Fogo! Fogo!
+Dialogue: Marked=0,0:06:12.88,0:06:15.28,Default,NTP,0000,0000,0000,!Effect,Ele ficou nervoso de repente!\NVocê pode com ele?!
+Dialogue: Marked=0,0:06:15.28,0:06:17.80,Default,NTP,0000,0000,0000,!Effect,Isso não está causando nenhum efeito nele!
+Dialogue: Marked=0,0:06:17.80,0:06:21.04,Default,NTP,0000,0000,0000,!Effect,Maldição! Você não me dá escolha!
+Dialogue: Marked=0,0:06:21.04,0:06:23.36,Default,NTP,0000,0000,0000,!Effect,Lance o míssil especial do Pilaf!
+Dialogue: Marked=0,0:06:23.36,0:06:23.91,Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:06:27.88,0:06:30.12,Default,NTP,0000,0000,0000,!Effect,Três, dois, um...
+Dialogue: Marked=0,0:06:30.12,0:06:31.03,Default,NTP,0000,0000,0000,!Effect,Lançar!
+Dialogue: Marked=0,0:06:33.12,0:06:34.55,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:06:37.56,0:06:39.47,Default,NTP,0000,0000,0000,!Effect,Nós conseguimos!
+Dialogue: Marked=0,0:06:58.12,0:07:00.68,Default,NTP,0000,0000,0000,!Effect,Agora você está vendo\No quão terrível eu posso ser?!
+Dialogue: Marked=0,0:07:03.92,0:07:06.43,Default,NTP,0000,0000,0000,!Effect,Son-kun morreu?!
+Dialogue: Marked=0,0:07:08.28,0:07:09.47,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:07:24.60,0:07:27.40,Default,NTP,0000,0000,0000,!Effect,Isso é o que você acha!
+Dialogue: Marked=0,0:07:28.64,0:07:31.64,Default,NTP,0000,0000,0000,!Effect,Mas de onde você acha que ele veio?
+Dialogue: Marked=0,0:07:31.64,0:07:33.28,Default,NTP,0000,0000,0000,!Effect,Não me pergunte.
+Dialogue: Marked=0,0:07:33.28,0:07:37.87,Default,NTP,0000,0000,0000,!Effect,Tudo que sei é que eu era mais forte que esse monstro!
+Dialogue: Marked=0,0:07:39.32,0:07:43.36,Default,NTP,0000,0000,0000,!Effect,Ele destruiu completamente o castelo que eu passei anos construindo!
+Dialogue: Marked=0,0:07:43.36,0:07:47.27,Default,NTP,0000,0000,0000,!Effect,Isso é péssimo!
+Dialogue: Marked=0,0:08:00.20,0:08:01.79,Default,NTP,0000,0000,0000,!Effect,P-Pilaf-sama!
+Dialogue: Marked=0,0:08:13.12,0:08:14.43,Default,NTP,0000,0000,0000,!Effect,Son-kun!
+Dialogue: Marked=0,0:08:25.76,0:08:27.91,Default,NTP,0000,0000,0000,!Effect,Olhe!
+Dialogue: Marked=0,0:08:36.28,0:08:47.35,Default,NTP,0000,0000,0000,!Effect,O-O que é essa coisa?
+Dialogue: Marked=0,0:08:54.92,0:08:56.24,Default,NTP,0000,0000,0000,!Effect,Essa foi por pouco!
+Dialogue: Marked=0,0:08:56.24,0:08:58.40,Default,NTP,0000,0000,0000,!Effect,Esse idiota do Goku!
+Dialogue: Marked=0,0:08:58.40,0:09:01.51,Default,NTP,0000,0000,0000,!Effect,Não tem como falar com Goku com ele neste estado!
+Dialogue: Marked=0,0:09:05.40,0:09:08.87,Default,NTP,0000,0000,0000,!Effect,Precisamos ficar o mais longe dele possível.
+Dialogue: Marked=0,0:09:09.92,0:09:11.92,Default,NTP,0000,0000,0000,!Effect,- Vamos rápido!\N- Sim!
+Dialogue: Marked=0,0:09:11.92,0:09:14.11,Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:09:16.60,0:09:19.12,Default,NTP,0000,0000,0000,!Effect,Eu estou presa!
+Dialogue: Marked=0,0:09:19.12,0:09:21.58,Default,NTP,0000,0000,0000,!Effect,V-Você está bem?!
+Dialogue: Marked=0,0:09:27.08,0:09:30.35,Default,NTP,0000,0000,0000,!Effect,- Nada bom! Eu não consigo nem mover isso!\N- Você só pode estar brincando!
+Dialogue: Marked=0,0:09:33.64,0:09:35.56,Default,NTP,0000,0000,0000,!Effect,Ele está vindo pra cá!
+Dialogue: Marked=0,0:09:35.56,0:09:37.43,Default,NTP,0000,0000,0000,!Effect,- O quê?!\N- Yamcha-sama!
+Dialogue: Marked=0,0:09:41.04,0:09:42.79,Default,NTP,0000,0000,0000,!Effect,Tarde demais!
+Dialogue: Marked=0,0:09:46.48,0:09:47.68,Default,NTP,0000,0000,0000,!Effect,Levantou!
+Dialogue: Marked=0,0:09:47.68,0:09:49.03,Default,NTP,0000,0000,0000,!Effect,Rápido!
+Dialogue: Marked=0,0:09:53.44,0:09:54.80,Default,NTP,0000,0000,0000,!Effect,Bulma!
+Dialogue: Marked=0,0:09:54.80,0:09:59.11,Default,NTP,0000,0000,0000,!Effect,Ei! O que você está fazendo?! Vamos!
+Dialogue: Marked=0,0:10:16.88,0:10:18.92,Default,NTP,0000,0000,0000,!Effect,O que devemos fazer?!
+Dialogue: Marked=0,0:10:18.92,0:10:22.84,Default,NTP,0000,0000,0000,!Effect,Eu sei, Yamcha-sama!\NO rabo não é o ponto fraco dele?!
+Dialogue: Marked=0,0:10:22.84,0:10:24.27,Default,NTP,0000,0000,0000,!Effect,Isso mesmo!
+Dialogue: Marked=0,0:10:30.80,0:10:33.63,Poderes,NTP,0000,0000,0000,!Effect,Rogafufu-ken
+Dialogue: Marked=0,0:11:11.96,0:11:14.07,Default,NTP,0000,0000,0000,!Effect,Yamcha-sama!
+Dialogue: Marked=0,0:11:24.16,0:11:27.12,Default,NTP,0000,0000,0000,!Effect,Agora, Pual! Transforme-se em uma tesoura e corte o rabo dele!
+Dialogue: Marked=0,0:11:27.12,0:11:29.32,Default,NTP,0000,0000,0000,!Effect,Ele deve voltar ao normal!
+Dialogue: Marked=0,0:11:29.32,0:11:30.71,Default,NTP,0000,0000,0000,!Effect,Henge!
+Dialogue: Marked=0,0:11:32.92,0:11:35.38,Default,NTP,0000,0000,0000,!Effect,Cortar, aparar!
+Dialogue: Marked=0,0:12:04.48,0:12:07.31,Default,NTP,0000,0000,0000,!Effect,Ele voltou ao seu estado normal...
+Dialogue: Marked=0,0:12:17.12,0:12:20.52,Default,NTP,0000,0000,0000,!Effect,Aquele moleque estava por trás disso?! Desgraçado!
+Dialogue: Marked=0,0:12:20.52,0:12:23.00,Default,NTP,0000,0000,0000,!Effect,Devíamos ter acabado com ele na noite passada.
+Dialogue: Marked=0,0:12:23.00,0:12:26.87,Default,NTP,0000,0000,0000,!Effect,O castelo foi tão arruinado que não tem jeito de repará-lo.
+Dialogue: Marked=0,0:12:27.24,0:12:30.12,Default,NTP,0000,0000,0000,!Effect,O jeito é reconstruir tudo do início.
+Dialogue: Marked=0,0:12:30.12,0:12:34.03,Default,NTP,0000,0000,0000,!Effect,O quê?\NQue pessimismo é esse?!
+Dialogue: Marked=0,0:12:35.72,0:12:40.99,Default,NTP,0000,0000,0000,!Effect,Isso é horrível! Esse castelo\Nme levou anos para construí­lo!
+Dialogue: Marked=0,0:12:44.68,0:12:46.47,Default,NTP,0000,0000,0000,!Effect,Isso é tudo que precisamos!
+Dialogue: Marked=0,0:12:48.16,0:12:50.28,Default,NTP,0000,0000,0000,!Effect,Certo, prestem bastante atenção, vocês dois!
+Dialogue: Marked=0,0:12:50.28,0:12:51.19,Default,NTP,0000,0000,0000,!Effect,Sim, senhor!
+Dialogue: Marked=0,0:12:52.84,0:12:56.36,Default,NTP,0000,0000,0000,!Effect,Eles estão aliviados por tudo isso ter acabado!
+Dialogue: Marked=0,0:12:56.36,0:12:59.24,Default,NTP,0000,0000,0000,!Effect,E tem mais, aquele garoto-monstro\Nestá completamente exausto!
+Dialogue: Marked=0,0:12:59.24,0:13:02.04,Default,NTP,0000,0000,0000,!Effect,Nós não podemos perder esta chance!
+Dialogue: Marked=0,0:13:02.04,0:13:04.04,Default,NTP,0000,0000,0000,!Effect,Matá-los, certo?
+Dialogue: Marked=0,0:13:04.04,0:13:07.12,Default,NTP,0000,0000,0000,!Effect,E sem mais monstros, um ou outro...
+Dialogue: Marked=0,0:13:07.12,0:13:09.96,Default,NTP,0000,0000,0000,!Effect,Certo! Matar muitos deles!
+Dialogue: Marked=0,0:13:09.96,0:13:12.12,Default,NTP,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:13:12.12,0:13:14.42,Default,NTP,0000,0000,0000,!Effect,Vamos.
+Dialogue: Marked=0,0:13:17.16,0:13:19.24,Default,NTP,0000,0000,0000,!Effect,Pilaf-sama! O que você está fazendo?!
+Dialogue: Marked=0,0:13:19.24,0:13:20.96,Default,NTP,0000,0000,0000,!Effect,Está fugindo?!
+Dialogue: Marked=0,0:13:20.96,0:13:23.48,Default,NTP,0000,0000,0000,!Effect,Seus idiotas! Eu nunca fujo!
+Dialogue: Marked=0,0:13:23.48,0:13:25.48,Default,NTP,0000,0000,0000,!Effect,Estou deixando eles com vocês!
+Dialogue: Marked=0,0:13:25.48,0:13:30.15,Default,NTP,0000,0000,0000,!Effect,Eu apenas não quero\Nmais me envolver com eles!
+Dialogue: Marked=0,0:13:32.48,0:13:34.83,Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!
+Dialogue: Marked=0,0:14:00.84,0:14:04.24,Default,NTP,0000,0000,0000,!Effect,Nós quase morremos por causa deste garoto!
+Dialogue: Marked=0,0:14:04.24,0:14:08.75,Default,NTP,0000,0000,0000,!Effect,Não diga isso. Devo agradecer\Nao Goku por continuarmos vivos ainda.
+Dialogue: Marked=0,0:14:09.24,0:14:16.04,Default,NTP,0000,0000,0000,!Effect,É melhor não contar que\Nfoi ele quem esmagou seu avô.
+Dialogue: Marked=0,0:14:16.04,0:14:19.96,L!,NTP,0000,0000,0000,!Effect,Um grande monstro que\Naparece em noites de Lua Cheia!
+Dialogue: Marked=0,0:14:19.96,0:14:21.36,L!,NTP,0000,0000,0000,!Effect,Eu não estou mentindo!
+Dialogue: Marked=0,0:14:21.36,0:14:25.95,L!,NTP,0000,0000,0000,!Effect,Meu vovô morreu quando foi\Ntentar pará-lo, e foi esmagado!
+Dialogue: Marked=0,0:14:28.24,0:14:30.35,Default,NTP,0000,0000,0000,!Effect,Eu não acredito que isso possa ser verdade...
+Dialogue: Marked=0,0:14:31.04,0:14:34.15,Default,NTP,0000,0000,0000,!Effect,Mas enfim, quem diabos é ele?!
+Dialogue: Marked=0,0:14:34.72,0:14:36.68,Default,NTP,0000,0000,0000,!Effect,Será um alienígena?
+Dialogue: Marked=0,0:14:36.68,0:14:40.52,Default,NTP,0000,0000,0000,!Effect,Mas com esse rabo cortado, duvido que\Nele se transforme naquele monstro novamente.
+Dialogue: Marked=0,0:14:40.52,0:14:42.24,Default,NTP,0000,0000,0000,!Effect,Pois é, isso é verdade!
+Dialogue: Marked=0,0:14:42.24,0:14:45.43,Default,NTP,0000,0000,0000,!Effect,E agora, ele está tão bonitinho enquanto dorme...
+Dialogue: Marked=0,0:14:49.16,0:14:50.87,Default,NTP,0000,0000,0000,!Effect,Ele acordou!
+Dialogue: Marked=0,0:14:55.08,0:14:56.32,Default,NTP,0000,0000,0000,!Effect,Bom dia.
+Dialogue: Marked=0,0:14:56.32,0:14:57.30,Default,NTP,0000,0000,0000,!Effect,Oi!
+Dialogue: Marked=0,0:14:58.56,0:15:01.15,Default,NTP,0000,0000,0000,!Effect,O que é tão engraçado?
+Dialogue: Marked=0,0:15:01.96,0:15:05.12,Default,NTP,0000,0000,0000,!Effect,Ahn? Por que estou pelado?
+Dialogue: Marked=0,0:15:05.12,0:15:07.68,Default,NTP,0000,0000,0000,!Effect,Você não lembra de nada?
+Dialogue: Marked=0,0:15:07.68,0:15:09.68,Default,NTP,0000,0000,0000,!Effect,Lembrar de quê?
+Dialogue: Marked=0,0:15:09.68,0:15:12.68,Default,NTP,0000,0000,0000,!Effect,Oolong, dê a ele essa calcinha.
+Dialogue: Marked=0,0:15:12.68,0:15:17.59,Default,NTP,0000,0000,0000,!Effect,Até parece!\NEu ganhei de Shen-Long!
+Dialogue: Marked=0,0:15:18.04,0:15:20.48,Default,NTP,0000,0000,0000,!Effect,Oolong!
+Dialogue: Marked=0,0:15:20.48,0:15:24.02,Default,NTP,0000,0000,0000,!Effect,Ah, tudo bem.\NVocê pode usar minha calça.
+Dialogue: Marked=0,0:15:31.68,0:15:34.16,Default,NTP,0000,0000,0000,!Effect,Suas pernas são muito curtinhas.
+Dialogue: Marked=0,0:15:34.16,0:15:37.04,Default,NTP,0000,0000,0000,!Effect,Cale a boca!\NA calça se ajustou, não é?!
+Dialogue: Marked=0,0:15:37.04,0:15:38.96,Default,NTP,0000,0000,0000,!Effect,Ahn?
+Dialogue: Marked=0,0:15:38.96,0:15:40.68,Default,NTP,0000,0000,0000,!Effect,Qual o problema?
+Dialogue: Marked=0,0:15:40.68,0:15:43.48,Default,NTP,0000,0000,0000,!Effect,Por algum motivo,\Nnão estou conseguindo ficar de pé...
+Dialogue: Marked=0,0:15:43.48,0:15:46.40,Default,NTP,0000,0000,0000,!Effect,Seu equilíbrio deve ter mudado\Nporque não tem mais o rabo.
+Dialogue: Marked=0,0:15:46.40,0:15:48.84,Default,NTP,0000,0000,0000,!Effect,Aos poucos, você irá se adaptar.
+Dialogue: Marked=0,0:15:48.84,0:15:50.59,Default,NTP,0000,0000,0000,!Effect,Meu rabo sumiu?
+Dialogue: Marked=0,0:15:52.16,0:15:56.31,Default,NTP,0000,0000,0000,!Effect,Sumiu! Meu rabo sumiu!
+Dialogue: Marked=0,0:15:57.04,0:15:59.03,Default,NTP,0000,0000,0000,!Effect,O que aconteceu?!
+Dialogue: Marked=0,0:16:00.08,0:16:02.08,Default,NTP,0000,0000,0000,!Effect,Sumiu!
+Dialogue: Marked=0,0:16:02.08,0:16:03.83,Default,NTP,0000,0000,0000,!Effect,Meu rabo sumiu!
+Dialogue: Marked=0,0:16:05.96,0:16:07.95,Default,NTP,0000,0000,0000,!Effect,Ah, bem.
+Dialogue: Marked=0,0:16:10.16,0:16:13.60,Default,NTP,0000,0000,0000,!Effect,Você não costuma se aborrecer com as coisas, não é?
+Dialogue: Marked=0,0:16:13.60,0:16:16.28,Default,NTP,0000,0000,0000,!Effect,Eu não me importo com meu rabo, mas você viu minha Nyoibou?
+Dialogue: Marked=0,0:16:16.28,0:16:19.43,Default,NTP,0000,0000,0000,!Effect,Bom, ela provavelmente está naquelas ruínas.
+Dialogue: Marked=0,0:16:21.12,0:16:25.03,Default,NTP,0000,0000,0000,!Effect,Vovô me deu aquele bastão!\NEu vou procurá-lo!
+Dialogue: Marked=0,0:16:28.68,0:16:30.16,Default,NTP,0000,0000,0000,!Effect,O que vamos fazer agora?
+Dialogue: Marked=0,0:16:30.16,0:16:34.04,Default,NTP,0000,0000,0000,!Effect,Temos que esperar um ano até que\Npossamos procurar as Dragon Balls novamente.
+Dialogue: Marked=0,0:16:34.04,0:16:36.12,Default,NTP,0000,0000,0000,!Effect,Cada um irá cuidar da própria vida até lá?
+Dialogue: Marked=0,0:16:36.12,0:16:38.76,Default,NTP,0000,0000,0000,!Effect,Parece que sim.
+Dialogue: Marked=0,0:16:38.76,0:16:41.71,Default,NTP,0000,0000,0000,!Effect,Levante, Pual.\NVamos voltar para casa.
+Dialogue: Marked=0,0:16:44.96,0:16:49.31,Default,NTP,0000,0000,0000,!Effect,Eu acho que meu incrível namorado\Nvai ter que esperar mais um ano.
+Dialogue: Marked=0,0:16:50.64,0:16:55.16,P!,NTP,0000,0000,0000,!Effect,Eu acho que ficarei com pavor\Nde garotas por mais outro ano.
+Dialogue: Marked=0,0:16:55.16,0:16:58.78,P!,NTP,0000,0000,0000,!Effect,Com isso, acredito que eu nunca irei me casar...
+Dialogue: Marked=0,0:17:03.76,0:17:06.67,Default,NTP,0000,0000,0000,!Effect,Achei! Eba!
+Dialogue: Marked=0,0:17:07.92,0:17:10.11,Default,NTP,0000,0000,0000,!Effect,Ei, encontrei!
+Dialogue: Marked=0,0:17:11.12,0:17:13.36,Default,NTP,0000,0000,0000,!Effect,Qual problema, Oolong?
+Dialogue: Marked=0,0:17:13.36,0:17:15.99,Default,NTP,0000,0000,0000,!Effect,Olhe estes dois idiotas.
+Dialogue: Marked=0,0:17:22.88,0:17:25.08,Default,NTP,0000,0000,0000,!Effect,O que eles estão fazendo?
+Dialogue: Marked=0,0:17:25.08,0:17:26.83,Default,NTP,0000,0000,0000,!Effect,Eles são muito estranhos.
+Dialogue: Marked=0,0:17:28.48,0:17:32.18,Default,NTP,0000,0000,0000,!Effect,Desculpe! Tudo bem, Bulma?!
+Dialogue: Marked=0,0:17:35.04,0:17:36.55,Default,NTP,0000,0000,0000,!Effect,Tudo bem.
+Dialogue: Marked=0,0:17:42.56,0:17:45.02,Default,NTP,0000,0000,0000,!Effect,O que vocês estão fazendo?!
+Dialogue: Marked=0,0:17:47.92,0:17:52.15,Default,NTP,0000,0000,0000,!Effect,Decidimos ir para a cidade juntos, Son-Kun!
+Dialogue: Marked=0,0:17:52.92,0:17:54.24,Default,NTP,0000,0000,0000,!Effect,Por que não vem conosco?
+Dialogue: Marked=0,0:17:54.24,0:17:57.12,Default,NTP,0000,0000,0000,!Effect,Você será popular com as garotas!\NVocê é até bonitinho!
+Dialogue: Marked=0,0:17:57.12,0:17:59.84,Default,NTP,0000,0000,0000,!Effect,Eu irei ficar com o Mestre Kame.
+Dialogue: Marked=0,0:17:59.84,0:18:03.20,Default,NTP,0000,0000,0000,!Effect,Eu vou treinar mais,\Ne ficarei cada vez mais forte!
+Dialogue: Marked=0,0:18:03.20,0:18:05.60,Default,NTP,0000,0000,0000,!Effect,Mais forte?
+Dialogue: Marked=0,0:18:05.60,0:18:11.80,Default,NTP,0000,0000,0000,!Effect,Alguém destruiu aquele\Ncastelo que eu mal pude arranhar!
+Dialogue: Marked=0,0:18:11.80,0:18:13.60,Default,NTP,0000,0000,0000,!Effect,Então eu ainda não sou forte o bastante!
+Dialogue: Marked=0,0:18:13.60,0:18:17.22,Default,NTP,0000,0000,0000,!Effect,Do que você está falando?\NFoi você quem...
+Dialogue: Marked=0,0:18:19.76,0:18:21.48,Default,NTP,0000,0000,0000,!Effect,Isso é péssimo!
+Dialogue: Marked=0,0:18:21.48,0:18:23.08,Default,NTP,0000,0000,0000,!Effect,O que você vai fazer, Oolong?
+Dialogue: Marked=0,0:18:23.08,0:18:26.80,Default,NTP,0000,0000,0000,!Effect,Realmente há muitas garotas na cidade?
+Dialogue: Marked=0,0:18:26.80,0:18:28.08,Default,NTP,0000,0000,0000,!Effect,Muitas!
+Dialogue: Marked=0,0:18:28.08,0:18:31.76,Default,NTP,0000,0000,0000,!Effect,Mas você é um pervertido detestável,\Nportanto, duvido que se torne popular.
+Dialogue: Marked=0,0:18:31.76,0:18:35.19,Default,NTP,0000,0000,0000,!Effect,Não diga uma besteira dessas!\NEu não preciso ouvir isso de você!
+Dialogue: Marked=0,0:18:37.12,0:18:40.88,Default,NTP,0000,0000,0000,!Effect,Ah, bem.\NAcho que irei com vocês.
+Dialogue: Marked=0,0:18:40.88,0:18:45.24,Default,NTP,0000,0000,0000,!Effect,Vamos procurar as Dragon Balls\Nnovamente no próximo ano, certo?
+Dialogue: Marked=0,0:18:45.24,0:18:47.87,Default,NTP,0000,0000,0000,!Effect,Quem precisa das Dragon Balls?
+Dialogue: Marked=0,0:18:48.12,0:18:49.47,Default,NTP,0000,0000,0000,!Effect,Certo?
+Dialogue: Marked=0,0:18:53.56,0:18:59.60,Default,NTP,0000,0000,0000,!Effect,Como eu irei procurar\Na esfera do meu avô, então?
+Dialogue: Marked=0,0:18:59.60,0:19:02.60,Default,NTP,0000,0000,0000,!Effect,Não se preocupe!\NFique com o Dragon Radar!
+Dialogue: Marked=0,0:19:02.60,0:19:07.28,Default,NTP,0000,0000,0000,!Effect,Se apertar daqui a um ano,\Nelas irão aparecer no radar!
+Dialogue: Marked=0,0:19:07.28,0:19:08.87,Default,NTP,0000,0000,0000,!Effect,Entendi! Obrigado!
+Dialogue: Marked=0,0:19:19.52,0:19:21.23,Default,NTP,0000,0000,0000,!Effect,Bem, vamos indo.
+Dialogue: Marked=0,0:19:28.20,0:19:31.68,Default,NTP,0000,0000,0000,!Effect,Tchau. Torne-se um mestre mais\Nhabilidoso que Muten Roshi-sama.
+Dialogue: Marked=0,0:19:31.68,0:19:32.44,Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:19:32.44,0:19:36.14,Default,NTP,0000,0000,0000,!Effect,- Vamos todos nos ver de novo!\N- Sim!
+Dialogue: Marked=0,0:19:37.28,0:19:38.95,Default,NTP,0000,0000,0000,!Effect,Kinto Un!
+Dialogue: Marked=0,0:19:39.84,0:19:41.75,Default,NTP,0000,0000,0000,!Effect,Aqui embaixo!
+Dialogue: Marked=0,0:19:44.28,0:19:47.35,Default,NTP,0000,0000,0000,!Effect,Me leve para a casa do velhote!
+Dialogue: Marked=0,0:19:48.28,0:19:51.19,Default,NTP,0000,0000,0000,!Effect,- Goku, cuide-se!\N- Você também, Oolong!
+Dialogue: Marked=0,0:20:09.68,0:20:11.55,Default,NTP,0000,0000,0000,!Effect,Tchauzinho!
+Dialogue: Marked=0,0:20:12.40,0:20:14.39,Default,NTP,0000,0000,0000,!Effect,Tchauzinho! Até logo!
+Dialogue: Marked=0,0:20:16.84,0:20:19.48,Default,NTP,0000,0000,0000,!Effect,No mundo existem todos os tipos de pessoas!
+Dialogue: Marked=0,0:20:19.48,0:20:21.03,Default,NTP,0000,0000,0000,!Effect,Isso é tão empolgante!
+Dialogue: Marked=0,0:20:22.68,0:20:24.00,Default,NTP,0000,0000,0000,!Effect,Vamos!
+Dialogue: Marked=0,0:20:24.00,0:20:26.92,Narrador,NTP,0000,0000,0000,!Effect,Obrigado a todos por assistirem até o fim...
+Dialogue: Marked=0,0:20:26.92,0:20:30.04,Narrador,NTP,0000,0000,0000,!Effect,Estou brincando, ainda vem muito por aí!
+Dialogue: Marked=0,0:20:30.04,0:20:32.84,Narrador,NTP,0000,0000,0000,!Effect,Bulma partiu com os outros,
+Dialogue: Marked=0,0:20:32.84,0:20:35.56,Narrador,NTP,0000,0000,0000,!Effect,e agora, Son Goku segue para a casa do Mestre Kame.
+Dialogue: Marked=0,0:20:35.56,0:20:39.79,Narrador,NTP,0000,0000,0000,!Effect,O início do seu intenso treinamento o espera!

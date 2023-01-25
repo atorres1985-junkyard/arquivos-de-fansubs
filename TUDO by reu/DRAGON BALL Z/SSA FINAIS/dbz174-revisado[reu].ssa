@@ -1,0 +1,229 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.12,0:01:59.11,Narrador,,0000,0000,0000,,Goku trouxe Dende do novo planeta Namek\Ne ele se tornou o novo Kami-sama da Terra.
+Dialogue: Marked=0,0:02:12.13,0:02:14.80,Narrador,,0000,0000,0000,,As Dragon Balls foram revividas.
+Dialogue: Marked=0,0:02:15.75,0:02:17.94,*Default,,0000,0000,0000,,Certo, então eu vou reuni-las.
+Dialogue: Marked=0,0:02:27.82,0:02:29.65,*Default,,0000,0000,0000,,Achei a segunda.
+Dialogue: Marked=0,0:02:33.28,0:02:37.26,*Default,,0000,0000,0000,,Estou muito entediado.\N10 dias foi muito tempo.
+Dialogue: Marked=0,0:02:37.90,0:02:43.77,Narrador,,0000,0000,0000,,Falta pouco para o início do terrível\Ntorneio de artes marciais, Cell Games.
+
+Dialogue: Marked=0,0:02:46.75,0:02:54.72,apresDBZ2,,0000,0000,0000,,{\c&HF3EDF8\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 174
+Dialogue: Marked=0,0:02:46.75,0:02:54.72,apresDBZ2,,0000,0000,0000,,{\c&HF3EDF8\pos(330,185)\fad(500,0)\fscx113\fscy115}Problema difícil para Goku{\i1}!?
+Dialogue: Marked=0,0:02:46.75,0:02:54.72,apresDBZ2,,0000,0000,0000,,{\c&HF3EDF8\pos(415,515)\fad(500,0)\fscx130\fscy130}Pegue as Dragon Balls de volta
+
+Dialogue: Marked=0,0:03:14.65,0:03:18.24,*Default,,0000,0000,0000,,Gohan, você está estudando?
+Dialogue: Marked=0,0:03:18.57,0:03:25.20,*Default,,0000,0000,0000,,Sim, minha mãe que mandou.\NEla disse para estudar sempre que tivesse tempo.
+Dialogue: Marked=0,0:03:25.69,0:03:28.50,*Default,,0000,0000,0000,,Que admirável.
+Dialogue: Marked=0,0:03:29.09,0:03:32.51,*Default,,0000,0000,0000,,Na verdade, eu também trouxe dever.
+Dialogue: Marked=0,0:03:33.16,0:03:34.63,*Default,,0000,0000,0000,,Também vou fazer.
+Dialogue: Marked=0,0:03:36.49,0:03:39.04,*Default,,0000,0000,0000,,Em Namek também tem dever?
+Dialogue: Marked=0,0:03:39.04,0:03:43.82,*Default,,0000,0000,0000,,Claro. Para ser um bom membro do\NRyuuzoku, precisa estudar bastante.
+Dialogue: Marked=0,0:03:45.46,0:03:48.22,*Default,,0000,0000,0000,,Não entendo nada do idioma de Namek.
+Dialogue: Marked=0,0:03:51.09,0:03:57.11,*Default,,0000,0000,0000,,Ah, não. Vocês dois começaram a\Nestudar de repente, pareço um preguiçoso.
+Dialogue: Marked=0,0:04:08.75,0:04:10.91,*Default,,0000,0000,0000,,Vou para a Kame House.
+Dialogue: Marked=0,0:04:16.39,0:04:25.84,*Default,,0000,0000,0000,,{\fad(0,3200)}Falta pouco para os Cell Games.\NGoku conseguiu reunir as Dragon Balls?
+Dialogue: Marked=0,0:04:27.57,0:04:30.10,Radio,,0000,0000,0000,,Pessoas do país.
+Dialogue: Marked=0,0:04:31.07,0:04:37.61,*Default,,0000,0000,0000,,A atuação do Mister Satan, campeão do\Ntorneio de artes marciais, vai começar agora.
+Dialogue: Marked=0,0:04:45.89,0:04:55.44,*Default,,0000,0000,0000,,Satan! Satan! Satan! Satan! Satan!
+Dialogue: Marked=0,0:04:55.44,0:05:01.05,*Default,,0000,0000,0000,,Finalmente, o nosso herói: Satan!
+Dialogue: Marked=0,0:05:26.86,0:05:30.26,*Default,,0000,0000,0000,,Satan está puxando 4 ônibus sozinho.
+Dialogue: Marked=0,0:05:31.70,0:05:34.60,*Default,,0000,0000,0000,,Que força sobre-humana!
+Dialogue: Marked=0,0:05:39.72,0:05:41.75,*Default,,0000,0000,0000,,Aquele homem de novo?
+Dialogue: Marked=0,0:05:50.30,0:05:55.64,*Default,,0000,0000,0000,,Mister Satan trouxe alguma coisa.\NO que será que ele pretende fazer desta vez?
+Dialogue: Marked=0,0:05:56.37,0:06:01.48,*Default,,0000,0000,0000,,Opa! São listas telefônicas! Ele colocou todas juntas!
+Dialogue: Marked=0,0:06:01.94,0:06:04.32,*Default,,0000,0000,0000,,O que ele vai fazer com essas listas telefônicas?
+Dialogue: Marked=0,0:06:08.27,0:06:12.53,*Default,,0000,0000,0000,,Não pode ser... Ele vai rasgá-las?
+Dialogue: Marked=0,0:06:25.40,0:06:28.43,*Default,,0000,0000,0000,,Que bom! Ele conseguiu!
+Dialogue: Marked=0,0:06:37.51,0:06:41.48,*Default,,0000,0000,0000,,Ei, Mister Satan, está confiante\Npara vencer os Cell Games?
+Dialogue: Marked=0,0:06:46.19,0:06:52.41,*Default,,0000,0000,0000,,O maldito do Cell vai se arrepender.\NSeu destino vai ser o mesmo deste ônibus.
+Dialogue: Marked=0,0:06:55.73,0:06:58.05,*Default,,0000,0000,0000,,Só podia ser o Mister Satan.
+Dialogue: Marked=0,0:06:58.05,0:07:03.88,*Default,,0000,0000,0000,,Satan é a nossa esperança.\NCom certeza ele vai acabar com Cell.
+Dialogue: Marked=0,0:07:12.50,0:07:13.94,*Default,,0000,0000,0000,,Não consigo tirar.
+Dialogue: Marked=0,0:07:23.52,0:07:24.90,*Default,,0000,0000,0000,,Olhem.
+Dialogue: Marked=0,0:07:26.90,0:07:29.80,*Default,,0000,0000,0000,,Tem muitas pessoas fortes no mundo.
+Dialogue: Marked=0,0:07:37.04,0:07:38.73,*Default,,0000,0000,0000,,Achei a quarta.
+Dialogue: Marked=0,0:07:59.62,0:08:02.19,*Default,,0000,0000,0000,,Pai, como foi?
+Dialogue: Marked=0,0:08:22.70,0:08:23.78,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:08:23.78,0:08:26.75,*Default,,0000,0000,0000,,Duas Dragon Balls estão\Nse movendo ao mesmo tempo.
+Dialogue: Marked=0,0:08:57.77,0:08:59.12,Radio,,0000,0000,0000,,Quem é?
+Dialogue: Marked=0,0:08:59.12,0:09:00.37,*Default,,0000,0000,0000,,Sou eu.
+Dialogue: Marked=0,0:09:00.37,0:09:04.61,Radio,,0000,0000,0000,,Ah, Tao Pai Pai-sensei. Estava esperando.
+Dialogue: Marked=0,0:09:13.69,0:09:18.18,*Default,,0000,0000,0000,,Sensei, trouxe o que prometeu?
+Dialogue: Marked=0,0:09:20.01,0:09:21.77,*Default,,0000,0000,0000,,Aqui estão.
+Dialogue: Marked=0,0:09:24.97,0:09:29.77,*Default,,0000,0000,0000,,Essas são as Dragon Balls,\Nque dizem que realizam qualquer desejo?
+Dialogue: Marked=0,0:09:30.34,0:09:33.94,*Default,,0000,0000,0000,,Tive muito trabalho. Posso deixar\Ncada uma por 100 milhões de zenis.
+Dialogue: Marked=0,0:09:35.83,0:09:41.66,*Default,,0000,0000,0000,,Se eu as tiver, mesmo que aquele\Nmonstro Cell destrua a Terra,
+Dialogue: Marked=0,0:09:41.66,0:09:46.58,*Default,,0000,0000,0000,,somente eu, o rei das gangues,\NWalker-sama, poderei sobreviver.
+Dialogue: Marked=0,0:09:47.07,0:09:48.88,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:09:49.09,0:09:56.22,*Default,,0000,0000,0000,,{\fscx95\fscy95}É isso. Depois que Cell morrer, posso pedir às Dragon Balls para fazer o meu reinado de gangues.
+Dialogue: Marked=0,0:09:58.62,0:10:03.78,*Default,,0000,0000,0000,,Em qualquer mundo, quem prospera\Nsão as pessoas com dinheiro e poder.
+Dialogue: Marked=0,0:10:03.78,0:10:07.33,*Default,,0000,0000,0000,,Quando você vai trazer\No resto das Dragon Balls?
+Dialogue: Marked=0,0:10:08.80,0:10:11.98,*Default,,0000,0000,0000,,Não seja apressado.\NVou trazê-las agora mesmo.
+Dialogue: Marked=0,0:10:12.61,0:10:15.61,*Default,,0000,0000,0000,,Mesmo? Conto com você, sensei.
+Dialogue: Marked=0,0:10:18.47,0:10:21.61,P!,,0000,0000,0000,,Na verdade, encontrei essas duas por acidente.
+Dialogue: Marked=0,0:10:34.96,0:10:37.09,*Default,,0000,0000,0000,,Parece que é por aqui.
+Dialogue: Marked=0,0:10:50.35,0:10:51.73,*Default,,0000,0000,0000,,Quem é ele?
+Dialogue: Marked=0,0:10:58.56,0:11:00.28,*Default,,0000,0000,0000,,Dragon Ball!
+Dialogue: Marked=0,0:11:00.54,0:11:01.41,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:11:02.21,0:11:03.91,*Default,,0000,0000,0000,,Estão aqui mesmo.
+Dialogue: Marked=0,0:11:04.24,0:11:06.91,*Default,,0000,0000,0000,,Parece que o pato veio até a gente.
+Dialogue: Marked=0,0:11:08.74,0:11:10.04,*Default,,0000,0000,0000,,Pato?
+Dialogue: Marked=0,0:11:11.17,0:11:12.17,*Default,,0000,0000,0000,,Onde? Onde?
+Dialogue: Marked=0,0:11:14.38,0:11:16.78,*Default,,0000,0000,0000,,Vou pegá-la logo de uma vez.
+Dialogue: Marked=0,0:11:16.78,0:11:19.17,*Default,,0000,0000,0000,,Sim, tudo bem!
+Dialogue: Marked=0,0:11:21.63,0:11:23.01,*Default,,0000,0000,0000,,Pato?
+Dialogue: Marked=0,0:11:32.18,0:11:33.94,*Default,,0000,0000,0000,,Vou entrar.
+Dialogue: Marked=0,0:11:39.29,0:11:43.32,*Default,,0000,0000,0000,,Vamos ensinar uma boa lição a ele.
+Dialogue: Marked=0,0:11:54.38,0:11:55.29,*Default,,0000,0000,0000,,Consegui!
+Dialogue: Marked=0,0:11:55.61,0:11:58.80,*Default,,0000,0000,0000,,Oba! Oba! Oba!
+Dialogue: Marked=0,0:12:02.07,0:12:05.55,*Default,,0000,0000,0000,,Quebrei. Que coisa eu fiz.
+Dialogue: Marked=0,0:12:08.88,0:12:09.61,*Default,,0000,0000,0000,,Ahn?
+
+Dialogue: Marked=0,0:12:13.31,0:12:17.53,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:13.31,0:12:17.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:13.31,0:12:17.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:13.31,0:12:17.53,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:20.82,0:12:23.04,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:20.82,0:12:23.04,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:20.82,0:12:23.04,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:20.82,0:12:23.04,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:26.47,0:12:28.00,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:12:28.87,0:12:31.87,*Default,,0000,0000,0000,,Tem feito manutenção?
+Dialogue: Marked=0,0:12:32.36,0:12:33.97,*Default,,0000,0000,0000,,Ei! Qual é o problema?
+Dialogue: Marked=0,0:12:33.97,0:12:35.32,*Default,,0000,0000,0000,,Não sei.
+Dialogue: Marked=0,0:12:35.32,0:12:40.83,*Default,,0000,0000,0000,,Idiotas! Vocês não fizeram manutenção\Ndireito! Estamos em uma emergência!
+Dialogue: Marked=0,0:12:40.83,0:12:42.02,*Default,,0000,0000,0000,,Desculpe-nos!
+Dialogue: Marked=0,0:12:42.93,0:12:49.01,*Default,,0000,0000,0000,,Certo. Vamos trazê-lo até\Naqui e pegar a Dragon Ball dele.
+Dialogue: Marked=0,0:12:49.99,0:12:51.52,*Default,,0000,0000,0000,,Está perto.
+Dialogue: Marked=0,0:12:56.39,0:13:00.22,*Default,,0000,0000,0000,,Que bom que veio. Entre nesta sala.
+Dialogue: Marked=0,0:13:01.75,0:13:04.91,*Default,,0000,0000,0000,,Ei! É por aqui...
+Dialogue: Marked=0,0:13:05.69,0:13:06.35,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:13:07.35,0:13:08.83,*Default,,0000,0000,0000,,Aqui. Aqui.
+Dialogue: Marked=0,0:13:14.15,0:13:15.12,*Default,,0000,0000,0000,,Dragon Balls!
+Dialogue: Marked=0,0:13:18.09,0:13:21.92,*Default,,0000,0000,0000,,Que bom que veio e que entrou nesta sala.
+Dialogue: Marked=0,0:13:21.92,0:13:28.01,*Default,,0000,0000,0000,,Se não quiser se machucar,\Né melhor deixar as Dragon Balls e ir embora.
+Dialogue: Marked=0,0:13:32.44,0:13:34.35,*Default,,0000,0000,0000,,Você é o Tao Pai Pai, não é?
+Dialogue: Marked=0,0:13:35.00,0:13:35.60,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:13:36.09,0:13:39.12,*Default,,0000,0000,0000,,Sou eu, Son Goku!
+Dialogue: Marked=0,0:13:39.12,0:13:41.31,*Default,,0000,0000,0000,,Son Goku?
+Dialogue: Marked=0,0:13:41.31,0:13:44.61,*Default,,0000,0000,0000,,Você era mau, mas faz muito tempo.
+Dialogue: Marked=0,0:14:06.97,0:14:08.80,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:14:21.94,0:14:26.74,*Default,,0000,0000,0000,,Onde você está escondendo\No pato? Você trouxe, não foi?
+Dialogue: Marked=0,0:14:27.46,0:14:28.28,*Default,,0000,0000,0000,,Pato?
+Dialogue: Marked=0,0:14:28.63,0:14:30.09,*Default,,0000,0000,0000,,Pato?
+Dialogue: Marked=0,0:14:31.65,0:14:34.37,*Default,,0000,0000,0000,,Não se faça de idiota! Ele é burro!
+Dialogue: Marked=0,0:14:35.54,0:14:37.29,*Default,,0000,0000,0000,,Eu não sei.
+Dialogue: Marked=0,0:14:40.21,0:14:43.13,*Default,,0000,0000,0000,,De qualquer jeito, passe a Dragon Ball!
+Dialogue: Marked=0,0:14:43.58,0:14:44.17,*Default,,0000,0000,0000,,O que está fazendo?
+Dialogue: Marked=0,0:14:46.95,0:14:47.68,*Default,,0000,0000,0000,,Merda!
+Dialogue: Marked=0,0:14:50.16,0:14:52.55,*Default,,0000,0000,0000,,Seu maldito!
+Dialogue: Marked=0,0:14:52.79,0:14:55.22,*Default,,0000,0000,0000,,Ah, não... Usei muita força.
+Dialogue: Marked=0,0:14:55.51,0:14:55.97,*Default,,0000,0000,0000,,Atire!
+Dialogue: Marked=0,0:15:08.51,0:15:10.79,*Default,,0000,0000,0000,,E-Ele é um monstro!
+Dialogue: Marked=0,0:15:12.87,0:15:14.41,*Default,,0000,0000,0000,,Desculpe, você está bem?
+Dialogue: Marked=0,0:15:17.29,0:15:19.21,*Default,,0000,0000,0000,,Chefe.
+Dialogue: Marked=0,0:15:19.21,0:15:25.09,*Default,,0000,0000,0000,,Não entre em pânico, idiota. Tenho um\Naparelho especial para emergências como estas.
+Dialogue: Marked=0,0:15:31.89,0:15:34.81,*Default,,0000,0000,0000,,Chefe!
+Dialogue: Marked=0,0:15:35.10,0:15:36.06,*Default,,0000,0000,0000,,Rápido! Rápido!
+Dialogue: Marked=0,0:15:40.46,0:15:41.35,*Default,,0000,0000,0000,,Conseguiu!
+Dialogue: Marked=0,0:15:41.35,0:15:43.02,*Default,,0000,0000,0000,,Desculpe, chefe!
+Dialogue: Marked=0,0:15:47.87,0:15:50.03,Radio,,0000,0000,0000,,Você sabe o que é isto?
+Dialogue: Marked=0,0:15:53.19,0:15:54.31,*Default,,0000,0000,0000,,Isto...
+Dialogue: Marked=0,0:15:56.37,0:15:58.17,*Default,,0000,0000,0000,,Nem mesmo você...
+Dialogue: Marked=0,0:15:59.04,0:16:02.21,Radio,,0000,0000,0000,,Pode quebrar.
+Dialogue: Marked=0,0:16:03.98,0:16:05.04,*Default,,0000,0000,0000,,Ganhei.
+Dialogue: Marked=0,0:16:17.50,0:16:21.95,*Default,,0000,0000,0000,,S-Sensei, agora é a hora para sua força.
+Dialogue: Marked=0,0:16:21.95,0:16:26.06,*Default,,0000,0000,0000,,Não, hoje... eu não... estou me... sentindo bem.
+Dialogue: Marked=0,0:16:26.18,0:16:30.93,*Default,,0000,0000,0000,,Que droga.\NEu realmente preciso das Dragon Balls,
+Dialogue: Marked=0,0:16:30.93,0:16:34.07,*Default,,0000,0000,0000,,mas parece que vocês também\Ntiveram trabalho para consegui-las.
+Dialogue: Marked=0,0:16:34.91,0:16:37.66,*Default,,0000,0000,0000,,Não tenho nada para dar em troca.
+Dialogue: Marked=0,0:16:40.16,0:16:43.67,*Default,,0000,0000,0000,,Já sei, Goku-kun, que tal isso?
+Dialogue: Marked=0,0:16:51.78,0:16:53.83,*Default,,0000,0000,0000,,São três anéis da sabedoria.
+Dialogue: Marked=0,0:16:53.83,0:16:58.90,*Default,,0000,0000,0000,,Se você separá-los até amanhã de manhã,\Nvamos dar estas Dragon Balls para você.
+Dialogue: Marked=0,0:16:58.90,0:17:03.88,*Default,,0000,0000,0000,,Se não conseguir, as suas\NDragon Balls serão nossas.
+Dialogue: Marked=0,0:17:06.88,0:17:08.15,*Default,,0000,0000,0000,,Anéis da sabedoria?
+Dialogue: Marked=0,0:17:09.53,0:17:15.47,*Default,,0000,0000,0000,,Só podia ser o Tao Pai Pai-sensei!\NCuidar de uma coisa dessas com esperteza...
+Dialogue: Marked=0,0:17:15.47,0:17:19.66,*Default,,0000,0000,0000,,É. Preciso fazer a coisa certa na hora certa.
+Dialogue: Marked=0,0:17:22.02,0:17:26.67,*Default,,0000,0000,0000,,Entendi. Nunca tentei antes,\Nmas vou separá-los até de manhã.
+Dialogue: Marked=0,0:17:27.07,0:17:28.22,*Default,,0000,0000,0000,,Combinado.
+Dialogue: Marked=0,0:17:28.93,0:17:33.67,*Default,,0000,0000,0000,,Peguem uma cadeira para o Son Goku-kun.
+Dialogue: Marked=0,0:17:34.08,0:17:35.80,*Default,,0000,0000,0000,,S-Sim.
+Dialogue: Marked=0,0:17:38.13,0:17:40.76,*Default,,0000,0000,0000,,Tire sua jaqueta. Vai se sentir melhor.
+Dialogue: Marked=0,0:17:51.14,0:17:52.25,*Default,,0000,0000,0000,,Certo.
+Dialogue: Marked=0,0:17:53.86,0:17:57.90,*Default,,0000,0000,0000,,Se ficarmos olhando, vamos atrapalhar.\NVamos ficar lá fora.
+Dialogue: Marked=0,0:17:58.55,0:17:59.45,*Default,,0000,0000,0000,,Tá.
+Dialogue: Marked=0,0:18:00.17,0:18:04.66,*Default,,0000,0000,0000,,Este homem vai ficar aqui.\NPeça se precisar de alguma coisa.
+Dialogue: Marked=0,0:18:08.38,0:18:09.23,*Default,,0000,0000,0000,,Até...
+Dialogue: Marked=0,0:18:22.59,0:18:23.43,*Default,,0000,0000,0000,,Esperem!
+Dialogue: Marked=0,0:18:36.26,0:18:37.99,*Default,,0000,0000,0000,,É muito difícil.
+Dialogue: Marked=0,0:18:48.06,0:18:50.23,*Default,,0000,0000,0000,,Vamos fugir o máximo possível.
+Dialogue: Marked=0,0:18:50.96,0:18:53.55,*Default,,0000,0000,0000,,Só podia ser o Tao Pai Pai-sensei.
+Dialogue: Marked=0,0:18:58.01,0:18:59.30,*Default,,0000,0000,0000,,Consegui!
+Dialogue: Marked=0,0:19:01.95,0:19:03.50,*Default,,0000,0000,0000,,Mais dois.
+Dialogue: Marked=0,0:19:17.71,0:19:19.96,*Default,,0000,0000,0000,,É difícil...
+Dialogue: Marked=0,0:19:35.38,0:19:37.79,*Default,,0000,0000,0000,,Passe por ali...
+Dialogue: Marked=0,0:19:37.79,0:19:40.99,*Default,,0000,0000,0000,,Não fale. Preciso fazer sozinho...
+Dialogue: Marked=0,0:19:42.47,0:19:43.68,*Default,,0000,0000,0000,,S-Sim...
+Dialogue: Marked=0,0:19:44.47,0:19:46.18,*Default,,0000,0000,0000,,Mais um...
+Dialogue: Marked=0,0:19:57.46,0:19:58.99,*Default,,0000,0000,0000,,Consegui.
+Dialogue: Marked=0,0:19:59.84,0:20:01.65,*Default,,0000,0000,0000,,Consegui!
+Dialogue: Marked=0,0:20:01.65,0:20:04.53,*Default,,0000,0000,0000,,Parabéns!
+Dialogue: Marked=0,0:20:14.22,0:20:17.22,*Default,,0000,0000,0000,,Viemos até aqui.\NSon Goku não pode nos perseguir.
+Dialogue: Marked=0,0:20:18.57,0:20:21.72,*Default,,0000,0000,0000,,Isso é tudo por sua causa, sensei.
+Dialogue: Marked=0,0:20:23.27,0:20:24.09,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:20:25.54,0:20:29.01,*Default,,0000,0000,0000,,O chefe e os outros devem\Nter ido a algum lugar, não é?
+Dialogue: Marked=0,0:20:29.01,0:20:30.92,*Default,,0000,0000,0000,,Não precisa se preocupar.
+Dialogue: Marked=0,0:20:39.60,0:20:40.74,*Default,,0000,0000,0000,,Ah!
+Dialogue: Marked=0,0:20:41.07,0:20:43.07,*Default,,0000,0000,0000,,S-Son Goku?
+Dialogue: Marked=0,0:20:43.94,0:20:45.82,*Default,,0000,0000,0000,,Olhem. Consegui tirar.
+Dialogue: Marked=0,0:20:46.40,0:20:48.16,*Default,,0000,0000,0000,,É mesmo...
+Dialogue: Marked=0,0:20:48.49,0:20:51.16,*Default,,0000,0000,0000,,Bem, vou pegar as Dragon Balls.\NTudo bem?
+Dialogue: Marked=0,0:20:51.67,0:20:53.42,*Default,,0000,0000,0000,,Sim, pois não.
+Dialogue: Marked=0,0:20:54.39,0:20:55.38,*Default,,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:21:15.78,0:21:17.02,*Default,,0000,0000,0000,,Finalmente acabamos.
+Dialogue: Marked=0,0:21:37.86,0:21:40.19,*Default,,0000,0000,0000,,Agora achei as sete.
+Dialogue: Marked=0,0:21:41.22,0:21:44.93,Narrador,,0000,0000,0000,,E os 10 dias se passaram rapidamente desse jeito.
+Dialogue: Marked=0,0:21:44.93,0:21:49.64,Narrador,,0000,0000,0000,,A Terra chegou ao dia 17,\Nque vai decidir o destino.
+Dialogue: Marked=0,0:21:58.89,0:22:05.77,*Default,,0000,0000,0000,,Só falta 1 hora para os Cell Games.\NVamos nos preparar para vencer.
+Dialogue: Marked=0,0:22:05.77,0:22:11.50,*Default,,0000,0000,0000,,Trazemos imagens exclusivas de Cell antes\Nde começar. Cell está sem fazer um movimento.
+Dialogue: Marked=0,0:22:14.66,0:22:22.00,Narrador,,0000,0000,0000,,O monstro Cell vai vencer os Cell Games?\NOu vai ser Goku? Ou...
+Dialogue: Marked=0,0:22:24.93,0:22:28.19,Narrador,,0000,0000,0000,,Só falta 1 hora para a decisão.

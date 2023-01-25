@@ -1,0 +1,225 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:44.61,0:13:54.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:58.26,0:02:02.49,Narrador,,0000,0000,0000,,Majin Boo absorveu\NGoten, Trunks, Piccolo e Gohan,
+Dialogue: Marked=0,0:02:02.49,0:02:05.44,Narrador,,0000,0000,0000,,obtendo inteligência e poder.
+Dialogue: Marked=0,0:02:05.49,0:02:10.24,Narrador,,0000,0000,0000,,Para salvar a Terra das mãos de Majin Boo,\NGoku e Vegeta se fundiram,
+Dialogue: Marked=0,0:02:10.43,0:02:12.95,Narrador,,0000,0000,0000,,transformando-se no superguerreiro Vegetto.
+Dialogue: Marked=0,0:02:16.36,0:02:19.78,*Default,,0000,0000,0000,,Você e a Terra deixarão de existir!
+Dialogue: Marked=0,0:03:03.13,0:03:07.13,Narrador,,0000,0000,0000,,A batalha entre Majin Boo\Ne Vegetto alcançou o extremo clímax!
+Dialogue: Marked=0,0:03:07.13,0:03:09.35,Narrador,,0000,0000,0000,,As posturas ofensiva e defensiva foram se alternando entre eles,
+Dialogue: Marked=0,0:03:09.35,0:03:12.97,Narrador,,0000,0000,0000,,e assim que o poder dos\Ndois parecia totalmente equilibrado,
+Dialogue: Marked=0,0:03:12.97,0:03:17.09,Narrador,,0000,0000,0000,,de uma singela aura de luz,\Nsurgiu o Super Vegetto!
+Dialogue: Marked=0,0:03:19.26,0:03:21.23,*Default,,0000,0000,0000,,Este é o Super Vegetto!
+
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(675,70)\shad0\bord0\fad(600,0)\fscx100\fscy100}episódio 270
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(245,190)\shad0\bord0\fad(600,0)\fscx80\fscy100}Uma fissura entre as dimensões
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(440,210)\shad0\bord0\fad(600,0)\fscx130\fscy190\fnArial\frz-15}!
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(460,210)\shad0\bord0\fad(600,0)\fscx130\fscy190\fnArial\frz-15}!
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(350,525)\shad0\bord0\fad(600,0)\fscx175\fscy150}Boo acabou rompendo
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(630,535)\shad0\bord0\fad(600,0)\fscx130\fscy190\fnArial\frz-15}!
+Dialogue: Marked=0,0:03:23.72,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\1c&HFEFCE7\3c&HFFEAF2\pos(660,535)\shad0\bord0\fad(600,0)\fscx130\fscy190\fnArial\frz-15}?
+
+Dialogue: Marked=0,0:03:32.41,0:03:36.78,*Default,,0000,0000,0000,,Satan-san! Satan-san!
+Dialogue: Marked=0,0:03:49.04,0:03:50.68,*Default,,0000,0000,0000,,É o sapato do Satan-san.
+Dialogue: Marked=0,0:03:55.18,0:03:57.43,*Default,,0000,0000,0000,,N-Não me diga que ele caiu daqui...
+Dialogue: Marked=0,0:04:04.65,0:04:06.94,*Default,,0000,0000,0000,,Satan-san!
+Dialogue: Marked=0,0:04:07.79,0:04:09.94,*Default,,0000,0000,0000,,Satan-san!
+Dialogue: Marked=0,0:04:10.88,0:04:12.92,*Default,,0000,0000,0000,,Satan-san!
+Dialogue: Marked=0,0:04:20.92,0:04:21.62,*Default,,0000,0000,0000,,Satan-san?
+Dialogue: Marked=0,0:04:27.94,0:04:29.30,*Default,,0000,0000,0000,,Eu achei que ia morrer...
+Dialogue: Marked=0,0:04:31.02,0:04:33.30,*Default,,0000,0000,0000,,Que bom, Satan-san!\NVocê está bem, não é?!
+Dialogue: Marked=0,0:04:35.79,0:04:39.14,*Default,,0000,0000,0000,,Precisaria mais do que isso para que eu,
+Dialogue: Marked=0,0:04:39.14,0:04:41.83,*Default,,0000,0000,0000,,Mister Satan, o mais poderoso lutador\Nde artes marciais do mundo, morresse!
+Dialogue: Marked=0,0:04:43.10,0:04:45.52,*Default,,0000,0000,0000,,A propósito, o que aconteceu com Majin Boo?
+Dialogue: Marked=0,0:04:49.21,0:04:50.40,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:04:56.64,0:04:58.91,*Default,,0000,0000,0000,,Super Vegetto?
+Dialogue: Marked=0,0:05:03.64,0:05:06.26,*Default,,0000,0000,0000,,Você parece não ter entendido, não é?
+Dialogue: Marked=0,0:05:06.26,0:05:10.92,*Default,,0000,0000,0000,,Eu absorvi três Saiya-jins:\Nos dois moleques e o Gohan!
+Dialogue: Marked=0,0:05:11.91,0:05:15.46,*Default,,0000,0000,0000,,Agora que vocês se fundiram\Ne juntos se transformaram em Super Saiya-jin,
+Dialogue: Marked=0,0:05:15.46,0:05:17.22,*Default,,0000,0000,0000,,acham que isso vai beneficiar vocês?!
+Dialogue: Marked=0,0:05:17.94,0:05:20.52,*Default,,0000,0000,0000,,É você quem não entende.
+Dialogue: Marked=0,0:05:20.52,0:05:23.50,*Default,,0000,0000,0000,,A fusão com os brincos Potala não é uma coisa simples.
+Dialogue: Marked=0,0:05:24.90,0:05:28.07,*Default,,0000,0000,0000,,É claro que você não entenderia\Nse eu explicasse com palavras.
+Dialogue: Marked=0,0:05:30.16,0:05:31.71,*Default,,0000,0000,0000,,Vou mostrar para você.
+Dialogue: Marked=0,0:05:31.71,0:05:33.03,*Default,,0000,0000,0000,,Você tem razão!
+Dialogue: Marked=0,0:05:33.03,0:05:34.66,*Default,,0000,0000,0000,,Se você não consegue\Nentender algo que lhe foi dito,
+Dialogue: Marked=0,0:05:34.66,0:05:36.61,*Default,,0000,0000,0000,,tudo o que resta é fazê-lo entender à força!
+Dialogue: Marked=0,0:05:36.61,0:05:37.93,*Default,,0000,0000,0000,,Tolo miserável!
+Dialogue: Marked=0,0:05:37.93,0:05:39.37,*Default,,0000,0000,0000,,Assim como você!
+Dialogue: Marked=0,0:06:20.37,0:06:23.29,*Default,,0000,0000,0000,,Que tal se fosse: "Assim como eu"?
+Dialogue: Marked=0,0:06:28.28,0:06:30.07,*Default,,0000,0000,0000,,Seu nariz está sangrando.
+Dialogue: Marked=0,0:06:32.03,0:06:35.01,*Default,,0000,0000,0000,,Isso é vergonhoso.\NLimpe rápido.
+Dialogue: Marked=0,0:06:41.42,0:06:46.85,*Default,,0000,0000,0000,,Quanto mais você me irritar,\Nmais vai sofrer antes de morrer.
+Dialogue: Marked=0,0:06:46.85,0:06:48.10,*Default,,0000,0000,0000,,Entendeu isso?
+Dialogue: Marked=0,0:07:09.18,0:07:11.33,*Default,,0000,0000,0000,,Goku-san! Vegeta-san!
+Dialogue: Marked=0,0:07:33.44,0:07:35.43,*Default,,0000,0000,0000,,Eu não senti absolutamente nada.
+Dialogue: Marked=0,0:07:35.43,0:07:38.44,*Default,,0000,0000,0000,,Gostaria que você levasse isso mais a sério.
+Dialogue: Marked=0,0:07:41.87,0:07:45.08,*Default,,0000,0000,0000,,É assim que se causa dano...
+Dialogue: Marked=0,0:07:59.13,0:08:01.51,*Default,,0000,0000,0000,,N-Não pode ser!
+Dialogue: Marked=0,0:08:02.07,0:08:04.51,Poder,,0000,0000,0000,,{\fad(200,200)\bord2\1c&H2E6CCD\3c&H7C462D\fscx90\fscy90\t(0,2440,\fscx120\fscy120)}Big Bang...
+Dialogue: Marked=0,0:08:05.05,0:08:06.35,Poder,,0000,0000,0000,,{\fad(200,200)\bord2\1c&H2E6CCD\3c&H7C462D\fscx90\fscy90\t(0,1300,\fscx120\fscy120)}Attack!
+Dialogue: Marked=0,0:08:16.58,0:08:18.70,*Default,,0000,0000,0000,,Ele conseguiu!
+Dialogue: Marked=0,0:08:18.70,0:08:20.07,*Default,,0000,0000,0000,,Tome isso!
+Dialogue: Marked=0,0:08:22.88,0:08:24.11,*Default,,0000,0000,0000,,Satan-san...
+Dialogue: Marked=0,0:08:52.35,0:08:55.23,*Default,,0000,0000,0000,,Como foi?\NSentiu, não é?
+Dialogue: Marked=0,0:09:23.39,0:09:24.49,*Default,,0000,0000,0000,,Aquilo não doeu...
+Dialogue: Marked=0,0:09:26.11,0:09:27.47,*Default,,0000,0000,0000,,Aquilo não doeu!
+Dialogue: Marked=0,0:09:49.27,0:09:53.00,*Default,,0000,0000,0000,,Que tal isto?\NGostaria de saber se você pode me ver.
+Dialogue: Marked=0,0:09:53.78,0:09:56.96,*Default,,0000,0000,0000,,Não, não posso vê-lo, mas...
+Dialogue: Marked=0,0:10:07.18,0:10:08.93,*Default,,0000,0000,0000,,O-O quê?
+Dialogue: Marked=0,0:10:13.90,0:10:17.73,*Default,,0000,0000,0000,,O importante é localizar\Na força e o movimento do Ki.
+Dialogue: Marked=0,0:10:17.73,0:10:21.06,*Default,,0000,0000,0000,,Você me segue com os olhos, por isso\Nnão consegue acompanhar meus movimentos.
+Dialogue: Marked=0,0:10:22.35,0:10:24.07,*Default,,0000,0000,0000,,V-Você se acha ótimo!
+Dialogue: Marked=0,0:10:41.46,0:10:42.45,*Default,,0000,0000,0000,,Ele é muito forte!
+Dialogue: Marked=0,0:10:42.45,0:10:45.60,*Default,,0000,0000,0000,,E pensar que Majin Boo está impotente.
+Dialogue: Marked=0,0:10:45.60,0:10:48.59,*Default,,0000,0000,0000,,Eu nunca pensei que a\Nfusão Potala pudesse ser tão incrível!
+Dialogue: Marked=0,0:10:49.37,0:10:52.05,*Default,,0000,0000,0000,,Por que você está tão impressionado, seu idiota?
+Dialogue: Marked=0,0:10:52.53,0:10:55.99,*Default,,0000,0000,0000,,Só chegou a esse limite\Nporque foram aqueles dois que fizeram.
+Dialogue: Marked=0,0:10:55.99,0:10:58.86,*Default,,0000,0000,0000,,Afinal, temos, fundidos,\Ndois dos três maiores especialistas...
+Dialogue: Marked=0,0:10:58.86,0:11:01.56,*Default,,0000,0000,0000,,deste mundo e do Outro Mundo.
+Dialogue: Marked=0,0:11:02.46,0:11:04.81,*Default,,0000,0000,0000,,Além disso, são dois rivais reunidos.
+Dialogue: Marked=0,0:11:04.81,0:11:06.57,*Default,,0000,0000,0000,,É óbvio que seria poderoso!
+Dialogue: Marked=0,0:11:07.12,0:11:09.86,*Default,,0000,0000,0000,,Nessas circunstâncias,\Nalgo assim realmente não importa, não é?
+Dialogue: Marked=0,0:11:10.31,0:11:14.87,*Default,,0000,0000,0000,,Nesse caso, agora a Terra,\Nou melhor, todo o universo será salvo!
+Dialogue: Marked=0,0:11:52.04,0:11:53.37,*Default,,0000,0000,0000,,Que vergonha.
+
+Dialogue: Marked=0,0:12:06.74,0:12:09.49,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:06.74,0:12:09.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:06.74,0:12:09.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:06.74,0:12:09.49,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:12.75,0:12:15.49,comercial3,,0000,0000,0000,,{\fscx34\fscy45\pos(546,555)\t(9110,0)}animecentral.com.br
+Dialogue: Marked=0,0:12:12.75,0:12:15.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:12.75,0:12:15.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:12.75,0:12:15.49,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:17.93,0:12:20.35,*Default,,0000,0000,0000,,Incrível!\NRealmente incrível!
+Dialogue: Marked=0,0:12:20.35,0:12:23.50,*Default,,0000,0000,0000,,Majin Boo realmente não é páreo para ele!
+Dialogue: Marked=0,0:12:23.50,0:12:29.82,*Default,,0000,0000,0000,,Apenas por prevenção, pedi ao Enma-sama\Nque deixasse vocês com seus corpos,
+Dialogue: Marked=0,0:12:29.82,0:12:31.51,*Default,,0000,0000,0000,,mas parece que vocês\Nnão terão chances de lutar.
+Dialogue: Marked=0,0:12:32.44,0:12:33.83,*Default,,0000,0000,0000,,Que chance de lutar que nada...
+Dialogue: Marked=0,0:12:33.83,0:12:36.18,*Default,,0000,0000,0000,,Se o adversário é alguém com o qual\No Goku e o Vegeta não puderam lidar,
+Dialogue: Marked=0,0:12:36.18,0:12:38.83,*Default,,0000,0000,0000,,não haveria maneira de vencermos, não é?
+Dialogue: Marked=0,0:12:38.83,0:12:40.12,*Default,,0000,0000,0000,,Isso é verdade...
+Dialogue: Marked=0,0:12:40.74,0:12:43.94,*Default,,0000,0000,0000,,Espere um pouco.\NSe não lutarmos...
+Dialogue: Marked=0,0:12:43.94,0:12:48.63,*Default,,0000,0000,0000,,Vamos perder nossos corpos\Ne seremos transformados em espíritos comuns?
+Dialogue: Marked=0,0:12:49.41,0:12:50.82,*Default,,0000,0000,0000,,Você não precisa se preocupar.
+Dialogue: Marked=0,0:12:50.82,0:12:56.32,*Default,,0000,0000,0000,,Assim como o Goku, vocês são guerreiros\Nque salvaram a Terra do perigo inúmeras vezes.
+Dialogue: Marked=0,0:12:56.32,0:13:01.98,*Default,,0000,0000,0000,,Pedirei ao Dai Kaio-sama que permita\Nque vocês treinem aqui, assim como o Goku fez.
+Dialogue: Marked=0,0:13:03.40,0:13:06.03,*Default,,0000,0000,0000,,Muito obrigado, Kaio-sama!
+Dialogue: Marked=0,0:13:06.03,0:13:07.86,*Default,,0000,0000,0000,,Yamcha, boas notícias... Hã?
+Dialogue: Marked=0,0:13:08.90,0:13:10.73,*Default,,0000,0000,0000,,Yamcha? Yamcha?!
+Dialogue: Marked=0,0:13:22.10,0:13:23.54,*Default,,0000,0000,0000,,O que você está fazendo?
+Dialogue: Marked=0,0:13:30.99,0:13:33.01,*Default,,0000,0000,0000,,Este lugar é incrível!
+Dialogue: Marked=0,0:13:33.01,0:13:35.51,*Default,,0000,0000,0000,,Há caras fortes por toda parte!
+Dialogue: Marked=0,0:13:36.17,0:13:37.75,*Default,,0000,0000,0000,,Meu sangue,\Nque estava adormecido,
+Dialogue: Marked=0,0:13:37.75,0:13:40.14,*Default,,0000,0000,0000,,está fervendo pela primeira vez em anos!
+Dialogue: Marked=0,0:13:41.43,0:13:42.34,*Default,,0000,0000,0000,,Que coisa.
+Dialogue: Marked=0,0:13:42.34,0:13:46.69,*Default,,0000,0000,0000,,Quando ele estava vivo,\Ndesistiu de tudo e nem mesmo treinou.
+Dialogue: Marked=0,0:14:08.66,0:14:11.63,*Default,,0000,0000,0000,,O que houve?\NVocê ficou muito quieto, não ficou?
+Dialogue: Marked=0,0:14:14.95,0:14:17.98,*Default,,0000,0000,0000,,Quer saber de uma coisa?\NIsso não é nem um pouco divertido.
+Dialogue: Marked=0,0:14:17.98,0:14:20.05,*Default,,0000,0000,0000,,Gostaria que você levasse mais a sério.
+Dialogue: Marked=0,0:14:20.76,0:14:24.30,*Default,,0000,0000,0000,,Ou talvez você esteja levando\Na sério e este seja o resultado.
+Dialogue: Marked=0,0:14:24.30,0:14:26.98,*Default,,0000,0000,0000,,Nesse caso, foi rude de minha parte dizer aquilo.
+Dialogue: Marked=0,0:14:26.98,0:14:27.52,*Default,,0000,0000,0000,,Peço desculpas.
+Dialogue: Marked=0,0:14:31.46,0:14:33.00,*Default,,0000,0000,0000,,Maldito!
+Dialogue: Marked=0,0:15:01.18,0:15:02.76,*Default,,0000,0000,0000,,V-Você riu de mim!
+Dialogue: Marked=0,0:15:03.64,0:15:06.18,*Default,,0000,0000,0000,,Um mero humano como você!
+Dialogue: Marked=0,0:15:32.53,0:15:33.54,*Default,,0000,0000,0000,,O que é isto?
+Dialogue: Marked=0,0:15:36.58,0:15:40.17,*Default,,0000,0000,0000,,Que tal?\NEu entrei no seu corpo!
+Dialogue: Marked=0,0:15:40.17,0:15:42.11,*Default,,0000,0000,0000,,Não importa o quão forte você tenha se tornado,
+Dialogue: Marked=0,0:15:42.11,0:15:43.55,*Default,,0000,0000,0000,,duvido que possa fazer algo sobre isto!
+Dialogue: Marked=0,0:15:44.42,0:15:46.30,*Default,,0000,0000,0000,,Prepare-se.
+Dialogue: Marked=0,0:15:46.30,0:15:49.52,*Default,,0000,0000,0000,,Vou destruir seu corpo de dentro para fora!
+Dialogue: Marked=0,0:16:03.74,0:16:06.10,*Default,,0000,0000,0000,,Você é quem deveria estar se preparando.
+Dialogue: Marked=0,0:16:06.10,0:16:06.41,*Default,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:17:13.39,0:17:14.78,*Default,,0000,0000,0000,,Por quê?
+Dialogue: Marked=0,0:17:14.78,0:17:16.80,*Default,,0000,0000,0000,,Por que eu não consigo me mover livremente?!
+Dialogue: Marked=0,0:17:18.28,0:17:23.13,*Default,,0000,0000,0000,,É natural, pois contive\Nseus movimentos com meu Ki.
+Dialogue: Marked=0,0:17:23.13,0:17:26.59,*Default,,0000,0000,0000,,Enquanto estiver dentro do meu corpo,\Nnão poderá se mover livremente.
+Dialogue: Marked=0,0:17:27.38,0:17:29.50,*Default,,0000,0000,0000,,O que você vai fazer?\NQuer continuar?
+Dialogue: Marked=0,0:17:48.73,0:17:50.74,*Default,,0000,0000,0000,,Vocé é um verme desagradável!
+Dialogue: Marked=0,0:17:50.74,0:17:54.60,*Default,,0000,0000,0000,,E, mesmo com todos os que você absorveu,
+Dialogue: Marked=0,0:17:54.60,0:17:56.27,*Default,,0000,0000,0000,,se isso é tudo o que você tem,\Nestou muito desapontado.
+Dialogue: Marked=0,0:17:57.26,0:17:59.27,*Default,,0000,0000,0000,,Desapontado?
+Dialogue: Marked=0,0:18:00.17,0:18:01.83,*Default,,0000,0000,0000,,Comigo?
+Dialogue: Marked=0,0:18:01.83,0:18:04.15,*Default,,0000,0000,0000,,Comigo, o mais forte do universo?!
+Dialogue: Marked=0,0:18:05.96,0:18:08.28,*Default,,0000,0000,0000,,Já chega de me fazer de idiota!
+Dialogue: Marked=0,0:18:29.63,0:18:32.45,*Default,,0000,0000,0000,,Fica me fazendo de idiota, não é?
+Dialogue: Marked=0,0:18:32.45,0:18:35.63,*Default,,0000,0000,0000,,Eu... Eu...
+Dialogue: Marked=0,0:18:51.34,0:18:53.46,*Default,,0000,0000,0000,,Que poder incrível!
+Dialogue: Marked=0,0:18:53.46,0:18:55.08,*Default,,0000,0000,0000,,Você consegue se tentar, não é?
+Dialogue: Marked=0,0:18:57.05,0:18:58.83,*Default,,0000,0000,0000,,Você pagará por isso!
+Dialogue: Marked=0,0:19:04.45,0:19:07.34,*Default,,0000,0000,0000,,Você não pode!\NVocê não deve irritar ainda mais o Majin Boo!
+Dialogue: Marked=0,0:19:08.18,0:19:09.05,*Default,,0000,0000,0000,,O que você quer dizer?
+Dialogue: Marked=0,0:19:09.80,0:19:14.06,*Default,,0000,0000,0000,,Houve um momento em que Majin Boo\Nfoi selado na Seishin to Toki no Heya.
+Dialogue: Marked=0,0:19:17.50,0:19:21.04,L!,,0000,0000,0000,,{\fad(0,2000)}Não posso agüentar isso!
+Dialogue: Marked=0,0:19:29.83,0:19:32.82,*Default,,0000,0000,0000,,Louco de ódio,\NMajin Boo usou seu poder...
+Dialogue: Marked=0,0:19:32.82,0:19:36.08,*Default,,0000,0000,0000,,para abrir caminho através\Ndas dimensões e saiu.
+Dialogue: Marked=0,0:19:40.30,0:19:41.46,*Default,,0000,0000,0000,,Por favor, veja.
+Dialogue: Marked=0,0:19:44.70,0:19:48.97,*Default,,0000,0000,0000,,Tendo se perdido em meio à fúria,\No extremo poder irradiado por Majin Boo...
+Dialogue: Marked=0,0:19:48.97,0:19:50.97,*Default,,0000,0000,0000,,está distorcendo o espaço ao redor dele!
+Dialogue: Marked=0,0:19:52.79,0:19:55.11,*Default,,0000,0000,0000,,A essa altura, as paredes\Nentre as dimensões serão destruídas...
+Dialogue: Marked=0,0:19:55.11,0:19:56.97,*Default,,0000,0000,0000,,e as outras dimensões irão se misturar!
+Dialogue: Marked=0,0:19:58.55,0:20:00.47,*Default,,0000,0000,0000,,Isso seria terrível.
+Dialogue: Marked=0,0:20:02.42,0:20:04.47,*Default,,0000,0000,0000,,Fica me fazendo de idiota?
+Dialogue: Marked=0,0:20:05.20,0:20:09.99,*Default,,0000,0000,0000,,{\fad(0,3000)}Fica me fazendo de idiota?!
+Dialogue: Marked=0,0:20:19.66,0:20:20.67,*Default,,0000,0000,0000,,Isso é ruim!
+Dialogue: Marked=0,0:20:20.67,0:20:23.69,*Default,,0000,0000,0000,,Ele ficou completamente irritado!
+Dialogue: Marked=0,0:20:23.69,0:20:27.19,*Default,,0000,0000,0000,,Se eu não pará-lo, este universo\Nserá destruído por dimensões alternativas!
+Dialogue: Marked=0,0:21:43.09,0:21:45.29,*Default,,0000,0000,0000,,O que aconteceu comigo...
+Dialogue: Marked=0,0:21:46.64,0:21:48.19,*Default,,0000,0000,0000,,Essa passou perto, passou perto!
+Dialogue: Marked=0,0:21:48.19,0:21:51.05,*Default,,0000,0000,0000,,Você tem mesmo um poder impressionante, não é?
+Dialogue: Marked=0,0:21:51.48,0:21:54.66,*Default,,0000,0000,0000,,Nesse caso, use esse poder para vir me atacar!
+Dialogue: Marked=0,0:21:54.66,0:21:56.84,*Default,,0000,0000,0000,,Você ia me derrotar como prova para todos...
+Dialogue: Marked=0,0:21:58.35,0:22:01.35,*Default,,0000,0000,0000,,de que você é o mais forte do universo, não é?
+Dialogue: Marked=0,0:22:06.75,0:22:09.40,*Default,,0000,0000,0000,,Por que ele está falando tanto?
+Dialogue: Marked=0,0:22:10.59,0:22:13.90,*Default,,0000,0000,0000,,Apresse-se e derrote Majin Boo!
+Dialogue: Marked=0,0:22:17.84,0:22:22.62,Narrador,,0000,0000,0000,,Superpoderes se confrontam entre Majin Boo e Vegetto.
+Dialogue: Marked=0,0:22:23.10,0:22:26.67,Narrador,,0000,0000,0000,,Será Vegetto aquele que\Ndecidirá esta feroz batalha?
+Dialogue: Marked=0,0:22:26.67,0:22:29.65,Narrador,,0000,0000,0000,,Ou será Majin Boo?
+
+Dialogue: Marked=0,0:00:25.48,0:00:28.37,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:00:28.37,0:00:28.48,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}Saibankan
+Dialogue: Marked=0,0:01:05.60,0:01:08.66,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(635,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFBEAFC\bord0\fscx75\fscy55\pos(235,175)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFBEAFC\bord0\fscx55\fscy48\pos(235,247)\t(9110,0)}www.animecentral.com.br

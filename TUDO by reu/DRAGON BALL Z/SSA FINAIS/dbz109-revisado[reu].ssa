@@ -1,0 +1,230 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+Behrensschrift
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.52,0:01:59.32,Narrador,,0000,0000,0000,,Goku ainda não voltou,\Nmas a Terra está totalmente em paz.
+Dialogue: Marked=0,0:02:00.11,0:02:01.11,Narrador,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:02:14.39,0:02:25.22,Narrador,,0000,0000,0000,,Garlick Jr, que um dia tentou ser Kami,\Nmas foi preso por Goku na Dead Zone, voltou.
+Dialogue: Marked=0,0:02:58.27,0:03:02.59,*Default,,0000,0000,0000,,Pode ser qualquer coisa viva, cheirando\Nessa névoa, torna-se um monstro.
+Dialogue: Marked=0,0:03:03.12,0:03:06.60,*Default,,0000,0000,0000,,Esse mundo se infestará com os Mazoku.
+
+Dialogue: Marked=0,0:03:22.57,0:03:30.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 109
+Dialogue: Marked=0,0:03:22.57,0:03:30.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(320,165)}{\fad(300,0)}{\fscx110\fscy120}A aterrorizante névoa negra{\i1}!!
+Dialogue: Marked=0,0:03:22.57,0:03:30.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,475)}{\fad(300,0)}{\fscx180\fscy120}Todos viraram Mazoku
+
+Dialogue: Marked=0,0:03:59.34,0:04:01.90,*Default,NTP,0000,0000,0000,!Effect,Garlick, meu pai...
+Dialogue: Marked=0,0:04:02.17,0:04:06.78,*Default,NTP,0000,0000,0000,!Effect,Consegui realizar seu desejo e\Ntomei o trono de Kami para mim.
+Dialogue: Marked=0,0:04:07.89,0:04:12.29,*Default,NTP,0000,0000,0000,!Effect,Agora falta apenas usar as Dragon Balls\Npara ressuscitá-lo neste mundo.
+Dialogue: Marked=0,0:04:13.02,0:04:18.30,*Default,NTP,0000,0000,0000,!Effect,Até lá, a Terra será tomada\Ne controlada pelo Mazoku!
+Dialogue: Marked=0,0:04:20.99,0:04:24.63,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,1000)}Pai, por favor, espere só mais um pouco!
+Dialogue: Marked=0,0:04:31.30,0:04:33.37,*Default,NTP,0000,0000,0000,!Effect,Ainda não os encontrou?
+Dialogue: Marked=0,0:04:33.37,0:04:34.98,*Default,NTP,0000,0000,0000,!Effect,P-Por favor, desculpe-me.
+Dialogue: Marked=0,0:04:36.63,0:04:39.19,*Default,NTP,0000,0000,0000,!Effect,Mesmo agora que tenho o espelho de água do Kami,
+Dialogue: Marked=0,0:04:39.19,0:04:42.69,*Default,NTP,0000,0000,0000,!Effect,que pode projetar qualquer lugar\Ndo mundo inferior, não posso localizá-los...
+Dialogue: Marked=0,0:04:43.45,0:04:44.99,*Default,NTP,0000,0000,0000,!Effect,Vocês dois têm algo a ver com isso.
+Dialogue: Marked=0,0:04:48.58,0:04:51.63,*Default,NTP,0000,0000,0000,!Effect,Vou devolver 100 vezes mais\No que vocês fizeram comigo.
+Dialogue: Marked=0,0:04:51.63,0:04:55.62,*Default,NTP,0000,0000,0000,!Effect,Vocês experimentarão lentamente\Num sofrimento pior que o do inferno.
+Dialogue: Marked=0,0:04:56.08,0:05:00.63,P!,NTP,0000,0000,0000,!Effect,Especialmente aquele Son Goku e seu filho.
+Dialogue: Marked=0,0:05:01.54,0:05:03.26,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:05:04.29,0:05:06.61,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:05:09.49,0:05:11.69,*Default,NTP,0000,0000,0000,!Effect,O Gohan-chan virou um delinqüente!
+Dialogue: Marked=0,0:05:11.69,0:05:15.49,*Default,NTP,0000,0000,0000,!Effect,Ele foi influenciado pelo Kuririn,\Naquele amigo do Goku-san.
+Dialogue: Marked=0,0:05:15.49,0:05:17.65,*Default,NTP,0000,0000,0000,!Effect,Se ele passar muito tempo\Nbrincando na casa do Muten Roshi-sama,
+Dialogue: Marked=0,0:05:17.92,0:05:19.86,*Default,NTP,0000,0000,0000,!Effect,vai acabar ficando depravado também!
+Dialogue: Marked=0,0:05:19.86,0:05:21.65,*Default,NTP,0000,0000,0000,!Effect,Ah, meu Gohan-chan!
+Dialogue: Marked=0,0:05:26.77,0:05:29.83,*Default,NTP,0000,0000,0000,!Effect,Vamos poder encontrar com todos\Ndaqui há pouco, não é, Haiya Dragon?
+Dialogue: Marked=0,0:06:02.29,0:06:03.69,*Default,NTP,0000,0000,0000,!Effect,Qual o problema, Haiya Dragon?
+Dialogue: Marked=0,0:06:18.86,0:06:20.92,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo, Haiya Dragon?
+Dialogue: Marked=0,0:06:28.26,0:06:30.43,*Default,NTP,0000,0000,0000,!Effect,Qual é o problema?
+Dialogue: Marked=0,0:06:33.62,0:06:34.73,*Default,NTP,0000,0000,0000,!Effect,Você é estranho.
+Dialogue: Marked=0,0:06:41.10,0:06:44.73,N!,,0000,0000,0000,,{\fad(300,300)}Risu = Esquilo
+Dialogue: Marked=0,0:06:41.10,0:06:41.96,*Default,NTP,0000,0000,0000,!Effect,Risu-kun!
+Dialogue: Marked=0,0:06:58.65,0:06:59.90,*Default,NTP,0000,0000,0000,!Effect,Haiya Dragon!
+Dialogue: Marked=0,0:07:04.99,0:07:07.34,*Default,NTP,0000,0000,0000,!Effect,Qual é o problema? Parem!
+Dialogue: Marked=0,0:07:09.95,0:07:14.35,*Default,NTP,0000,0000,0000,!Effect,Eles eram animais tão gentis! O que aconteceu?
+Dialogue: Marked=0,0:07:33.41,0:07:37.18,*Default,NTP,0000,0000,0000,!Effect,Mister Popo, não adianta lutar.
+Dialogue: Marked=0,0:07:37.18,0:07:39.96,*Default,NTP,0000,0000,0000,!Effect,Tudo o que podemos fazer é esperar por ajuda.
+Dialogue: Marked=0,0:07:40.23,0:07:47.04,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Aquamist = Neblina Aqua
+Dialogue: Marked=0,0:07:40.23,0:07:44.15,*Default,NTP,0000,0000,0000,!Effect,Mas, Kami-sama, Garlick Jr usou a Aquamist.
+Dialogue: Marked=0,0:07:44.15,0:07:47.04,*Default,NTP,0000,0000,0000,!Effect,Com isso, todos passam a ser Mazoku.
+Dialogue: Marked=0,0:07:48.98,0:07:51.26,*Default,NTP,0000,0000,0000,!Effect,Tanto ele como o pai estão abaixo do ridículo.
+Dialogue: Marked=0,0:07:52.23,0:07:54.49,*Default,NTP,0000,0000,0000,!Effect,Ele está repetindo o que aconteceu antes...
+Dialogue: Marked=0,0:08:46.26,0:08:48.73,*Default,NTP,0000,0000,0000,!Effect,Se Son Goku estivesse aqui...
+Dialogue: Marked=0,0:08:53.05,0:08:54.74,*Default,NTP,0000,0000,0000,!Effect,Garlick Jr-sama, nós o encontramos!
+Dialogue: Marked=0,0:08:55.28,0:08:56.10,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:08:57.39,0:08:58.20,*Default,NTP,0000,0000,0000,!Effect,É o filho de Son Goku!
+Dialogue: Marked=0,0:09:03.99,0:09:05.90,*Default,NTP,0000,0000,0000,!Effect,Nós o encontramos, garoto!
+Dialogue: Marked=0,0:09:07.79,0:09:10.24,*Default,NTP,0000,0000,0000,!Effect,Tragam o garoto aqui!
+Dialogue: Marked=0,0:09:10.24,0:09:15.26,*Default,NTP,0000,0000,0000,!Effect,Se nós o capturarmos, tenho certeza\Nde que Son Goku vai aparecer!
+Dialogue: Marked=0,0:09:37.46,0:09:41.41,*Default,NTP,0000,0000,0000,!Effect,Kuririn!\NPegue alguma coisa boa para o jantar!
+Dialogue: Marked=0,0:09:41.76,0:09:42.90,*Default,NTP,0000,0000,0000,!Effect,Contamos com você!
+Dialogue: Marked=0,0:09:45.18,0:09:46.92,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san, que tal me dar uma ajuda aqui?
+Dialogue: Marked=0,0:09:47.46,0:09:51.92,*Default,NTP,0000,0000,0000,!Effect,{\fscx97\fscy97}Você disse para não me preocupar pois você ia fazer isso para mostrar para sua namorada bonita!
+Dialogue: Marked=0,0:10:00.85,0:10:02.94,*Default,NTP,0000,0000,0000,!Effect,Oi, Kurin-chan!
+Dialogue: Marked=0,0:10:04.13,0:10:06.64,*Default,NTP,0000,0000,0000,!Effect,Eu vou ajudá-lo!
+Dialogue: Marked=0,0:10:08.29,0:10:09.50,*Default,NTP,0000,0000,0000,!Effect,Maron-chan!
+Dialogue: Marked=0,0:10:14.63,0:10:19.89,P!,NTP,0000,0000,0000,!Effect,Olha!\NA pele de uma mulher jovem é tão fina...
+Dialogue: Marked=0,0:10:21.78,0:10:23.83,*Default,NTP,0000,0000,0000,!Effect,Que peituda!
+Dialogue: Marked=0,0:10:34.90,0:10:36.09,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan!
+Dialogue: Marked=0,0:10:37.22,0:10:38.88,*Default,NTP,0000,0000,0000,!Effect,Maron-chan!
+Dialogue: Marked=0,0:10:39.66,0:10:40.39,*Default,NTP,0000,0000,0000,!Effect,Kuririn, cuidado!
+Dialogue: Marked=0,0:11:00.77,0:11:04.58,*Default,NTP,0000,0000,0000,!Effect,Onde está o Gohan?!\NEu sei que ele está aqui em algum lugar!
+Dialogue: Marked=0,0:11:05.39,0:11:06.16,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi-san!
+Dialogue: Marked=0,0:11:06.94,0:11:11.75,*Default,NTP,0000,0000,0000,!Effect,Muten Roshi-sama, agora é o momento\Nmais importante para o meu Gohan-chan.
+Dialogue: Marked=0,0:11:12.46,0:11:14.67,*Default,NTP,0000,0000,0000,!Effect,Eu não quero que ele tenha amigos delinqüentes!
+Dialogue: Marked=0,0:11:16.03,0:11:17.73,*Default,NTP,0000,0000,0000,!Effect,Você está se referindo a nós?
+Dialogue: Marked=0,0:11:17.73,0:11:19.55,*Default,NTP,0000,0000,0000,!Effect,Sim, está!
+Dialogue: Marked=0,0:11:20.61,0:11:21.58,*Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:11:24.15,0:11:25.06,*Default,NTP,0000,0000,0000,!Effect,Espere um pouco, tia.
+Dialogue: Marked=0,0:11:26.21,0:11:27.06,*Default,NTP,0000,0000,0000,!Effect,Tia?!
+Dialogue: Marked=0,0:11:28.08,0:11:31.81,*Default,NTP,0000,0000,0000,!Effect,Todos estão se divertindo,\Nnão quero que você atrapalhe...
+Dialogue: Marked=0,0:11:34.42,0:11:36.94,*Default,NTP,0000,0000,0000,!Effect,Você me chamou de "tia"?
+Dialogue: Marked=0,0:11:37.68,0:11:40.36,*Default,NTP,0000,0000,0000,!Effect,Se você entendeu assim, desculpe-me.
+Dialogue: Marked=0,0:11:45.27,0:11:52.88,*Default,NTP,0000,0000,0000,!Effect,Mas, de qualquer jeito, tia, Gohan-chan, Rice-chan ou quem quer que seja, não está aqui.
+Dialogue: Marked=0,0:11:53.69,0:11:55.21,*Default,NTP,0000,0000,0000,!Effect,Não vou perdoá-la!
+Dialogue: Marked=0,0:11:56.80,0:12:03.26,*Default,NTP,0000,0000,0000,!Effect,Como ousa outra mulher olhar alguém\Njovem e bonita na cara e chamar de "tia"!
+Dialogue: Marked=0,0:12:05.63,0:12:09.18,*Default,NTP,0000,0000,0000,!Effect,E-Espere, Chi-Chi-san!
+Dialogue: Marked=0,0:12:09.18,0:12:11.52,*Default,NTP,0000,0000,0000,!Effect,Você não pode lutar\Nseriamente com esta amadora!
+Dialogue: Marked=0,0:12:14.32,0:12:16.40,*Default,NTP,0000,0000,0000,!Effect,Velho Kame, você é um pervertido!
+Dialogue: Marked=0,0:12:19.11,0:12:20.21,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan!
+Dialogue: Marked=0,0:12:21.62,0:12:23.98,*Default,NTP,0000,0000,0000,!Effect,Maron-chan, vem, vem! Olhe!
+Dialogue: Marked=0,0:12:23.98,0:12:27.12,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan, a tia ia me mostrar alguma coisa.
+Dialogue: Marked=0,0:12:27.39,0:12:32.12,*Default,NTP,0000,0000,0000,!Effect,Solte-me! Solte-me!\NDeixem-me lutar contra aquela garota!
+Dialogue: Marked=0,0:12:34.26,0:12:35.65,*Default,NTP,0000,0000,0000,!Effect,Soltem!
+Dialogue: Marked=0,0:12:35.65,0:12:36.71,*Default,NTP,0000,0000,0000,!Effect,Pafu-pafu, pafu-pafu!
+Dialogue: Marked=0,0:12:37.27,0:12:43.39,*Default,NTP,0000,0000,0000,!Effect,Vou lutar contra ela! Vou fazer aquela garota pagar! Deixem-nos lutar! Ela precisa pagar!
+
+Dialogue: Marked=0,0:12:46.18,0:12:50.40,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:46.18,0:12:50.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:46.18,0:12:50.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:46.18,0:12:50.40,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:53.35,0:12:55.57,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:53.35,0:12:55.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:53.35,0:12:55.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:53.35,0:12:55.57,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:58.74,0:13:01.36,*Default,NTP,0000,0000,0000,!Effect,Maron-chan, é perigoso fazê-la ficar brava!
+Dialogue: Marked=0,0:13:01.93,0:13:02.49,*Default,NTP,0000,0000,0000,!Effect,Por quê?
+Dialogue: Marked=0,0:13:04.58,0:13:08.16,*Default,NTP,0000,0000,0000,!Effect,Ela é a única pessoa que até o mesmo\No Super Saiya-jin Goku tem medo.
+Dialogue: Marked=0,0:13:08.58,0:13:11.46,*Default,NTP,0000,0000,0000,!Effect,O que a faz a mulher mais\Npoderosa do universo!
+Dialogue: Marked=0,0:13:13.57,0:13:15.04,*Default,NTP,0000,0000,0000,!Effect,Mas quem é esse Goku?
+Dialogue: Marked=0,0:13:15.89,0:13:21.21,*Default,NTP,0000,0000,0000,!Effect,Quantas vezes já falei para você?\NSon Goku, o meu amigo.
+Dialogue: Marked=0,0:13:24.01,0:13:25.36,*Default,NTP,0000,0000,0000,!Effect,Ah, tanto faz.
+Dialogue: Marked=0,0:13:26.47,0:13:28.60,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan, espere!
+Dialogue: Marked=0,0:13:42.37,0:13:43.61,*Default,NTP,0000,0000,0000,!Effect,Soltem!
+Dialogue: Marked=0,0:13:44.21,0:13:47.06,*Default,NTP,0000,0000,0000,!Effect,Eu não vou perdoá-la de jeito algum!
+Dialogue: Marked=0,0:13:47.06,0:13:49.87,*Default,NTP,0000,0000,0000,!Effect,Não com aquele maiô\Nhorrível que ela está usando!
+Dialogue: Marked=0,0:13:51.08,0:13:53.35,*Default,NTP,0000,0000,0000,!Effect,Ela é uma mulher demoníaca!
+Dialogue: Marked=0,0:14:14.10,0:14:17.35,*Default,NTP,0000,0000,0000,!Effect,Todos vão ficar surpresos quando eu chegar!
+Dialogue: Marked=0,0:14:33.67,0:14:35.19,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:14:35.95,0:14:37.25,*Default,NTP,0000,0000,0000,!Effect,Ahn? Gohan!
+Dialogue: Marked=0,0:14:38.13,0:14:39.50,*Default,NTP,0000,0000,0000,!Effect,Maron-san, boa tarde!
+Dialogue: Marked=0,0:14:40.29,0:14:42.13,*Default,,0000,0000,0000,,Oi!
+Dialogue: Marked=0,0:14:43.28,0:14:47.39,*Default,NTP,0000,0000,0000,!Effect,Ah, é! Você é o Gohan-kun, não é?
+Dialogue: Marked=0,0:14:47.39,0:14:48.18,*Default,NTP,0000,0000,0000,!Effect,Foi tudo por causa dele.
+Dialogue: Marked=0,0:14:51.58,0:14:54.64,*Default,NTP,0000,0000,0000,!Effect,Ei, Gohan, você não falou com\Na Chi-Chi-san que viria, falou?
+Dialogue: Marked=0,0:14:57.06,0:14:58.64,*Default,NTP,0000,0000,0000,!Effect,Não diga que...
+Dialogue: Marked=0,0:14:59.63,0:15:01.90,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo, sua mãe já está aqui.
+Dialogue: Marked=0,0:15:02.49,0:15:05.40,*Default,NTP,0000,0000,0000,!Effect,E ela está muito brava!
+Dialogue: Marked=0,0:15:05.97,0:15:07.05,*Default,NTP,0000,0000,0000,!Effect,O que eu vou fazer?
+Dialogue: Marked=0,0:15:17.53,0:15:19.26,*Default,NTP,0000,0000,0000,!Effect,Mas não tem problema!
+Dialogue: Marked=0,0:15:19.26,0:15:24.17,*Default,NTP,0000,0000,0000,!Effect,O Kurin-chan disse que vai se desculpar\Ncom a sua mãe por você. Que bom, não é?
+Dialogue: Marked=0,0:15:26.24,0:15:28.84,*Default,NTP,0000,0000,0000,!Effect,Eu me desculpar com a Chi-Chi?!\NNão vou fazer isso mesmo!
+Dialogue: Marked=0,0:15:29.39,0:15:33.72,*Default,NTP,0000,0000,0000,!Effect,É mesmo, Kurin-chan?\NAcho que passei dos limites, não foi?
+Dialogue: Marked=0,0:15:34.10,0:15:35.22,*Default,NTP,0000,0000,0000,!Effect,N-Não...
+Dialogue: Marked=0,0:15:36.32,0:15:37.52,*Default,NTP,0000,0000,0000,!Effect,Eu vou embora.
+Dialogue: Marked=0,0:15:39.77,0:15:42.57,*Default,NTP,0000,0000,0000,!Effect,Entendi, entendi.
+Dialogue: Marked=0,0:15:42.57,0:15:43.94,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:15:44.61,0:15:46.33,*Default,NTP,0000,0000,0000,!Effect,Esse é o meu Kurin-chan!
+Dialogue: Marked=0,0:16:09.50,0:16:11.05,*Default,NTP,0000,0000,0000,!Effect,Estamos quase lá, Gohan.
+Dialogue: Marked=0,0:16:11.99,0:16:13.79,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan, boa sorte!
+Dialogue: Marked=0,0:16:29.50,0:16:31.34,*Default,NTP,0000,0000,0000,!Effect,Mãe!
+Dialogue: Marked=0,0:16:31.99,0:16:35.78,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi-san, por favor, desculpe ele!\NO Gohan não fez por mal!
+Dialogue: Marked=0,0:16:41.34,0:16:45.42,*Default,NTP,0000,0000,0000,!Effect,Desculpe. Saí sem dizer, desculpe.
+Dialogue: Marked=0,0:16:49.04,0:16:51.78,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi-san!\NVocê não precisava ter feito isso!
+Dialogue: Marked=0,0:16:51.78,0:16:53.43,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo, tia?
+Dialogue: Marked=0,0:16:54.23,0:16:54.84,*Default,NTP,0000,0000,0000,!Effect,De novo!
+Dialogue: Marked=0,0:17:02.14,0:17:03.89,*Default,NTP,0000,0000,0000,!Effect,Mãe...
+Dialogue: Marked=0,0:17:15.89,0:17:18.33,*Default,NTP,0000,0000,0000,!Effect,Maron-chan, isso é porque\Nvocê disse aquilo de novo!
+Dialogue: Marked=0,0:17:19.52,0:17:21.25,*Default,NTP,0000,0000,0000,!Effect,Isso é minha culpa?
+Dialogue: Marked=0,0:17:36.18,0:17:39.29,*Default,NTP,0000,0000,0000,!Effect,Desculpe! A partir de agora, vou estudar,
+Dialogue: Marked=0,0:17:39.29,0:17:41.98,*Default,NTP,0000,0000,0000,!Effect,ouvir o que você disser e até ajudar em casa!
+Dialogue: Marked=0,0:18:07.74,0:18:09.80,*Default,NTP,0000,0000,0000,!Effect,Qual é o problema, mãe?
+Dialogue: Marked=0,0:18:14.33,0:18:15.59,*Default,NTP,0000,0000,0000,!Effect,O que você quer, velho?!
+Dialogue: Marked=0,0:18:16.13,0:18:17.81,*Default,NTP,0000,0000,0000,!Effect,Saia daqui!
+Dialogue: Marked=0,0:18:23.09,0:18:24.43,*Default,NTP,0000,0000,0000,!Effect,Kurin-chan, ajude-me!
+Dialogue: Marked=0,0:18:25.30,0:18:27.86,*Default,NTP,0000,0000,0000,!Effect,E-Esperem um pouco, podemos nos entender!
+Dialogue: Marked=0,0:18:30.15,0:18:32.90,*Default,NTP,0000,0000,0000,!Effect,Eu sei que a Maron-chan deve ter\Ndito alguma coisa que os incomodou, mas...
+Dialogue: Marked=0,0:18:35.11,0:18:38.49,*Default,NTP,0000,0000,0000,!Effect,Ela tem tantas outras qualidades cativantes.
+Dialogue: Marked=0,0:18:43.05,0:18:44.29,*Default,NTP,0000,0000,0000,!Effect,Qual o problema com vocês?!
+Dialogue: Marked=0,0:19:10.58,0:19:11.81,*Default,NTP,0000,0000,0000,!Effect,Mãe!
+Dialogue: Marked=0,0:19:19.59,0:19:20.28,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:19:21.06,0:19:23.78,*Default,NTP,0000,0000,0000,!Effect,Cuidado, Gohan!\NTem alguma coisa de errado com eles!
+Dialogue: Marked=0,0:19:27.13,0:19:28.13,*Default,NTP,0000,0000,0000,!Effect,Mãe...
+Dialogue: Marked=0,0:19:40.57,0:19:44.35,*Default,NTP,0000,0000,0000,!Effect,Não! Para trás! Vá embora! Não chegue perto!
+Dialogue: Marked=0,0:19:50.77,0:19:52.81,*Default,NTP,0000,0000,0000,!Effect,Maron-chan!
+Dialogue: Marked=0,0:19:57.50,0:20:01.67,*Default,NTP,0000,0000,0000,!Effect,Então vocês não respiraram a Aquamist?
+Dialogue: Marked=0,0:20:02.74,0:20:06.58,*Default,NTP,0000,0000,0000,!Effect,Que sorte. Deu um pouco de trabalho\Nencontrá-lo, filho de Son Goku!
+Dialogue: Marked=0,0:20:08.67,0:20:10.29,*Default,NTP,0000,0000,0000,!Effect,O que são aqueles monstros?
+Dialogue: Marked=0,0:20:29.90,0:20:30.69,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:20:31.46,0:20:34.23,*Default,NTP,0000,0000,0000,!Effect,Foram vocês que fizeram isso\Ncom a minha mãe, não é?
+Dialogue: Marked=0,0:20:34.98,0:20:36.52,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo, garoto.
+Dialogue: Marked=0,0:20:37.29,0:20:38.65,*Default,NTP,0000,0000,0000,!Effect,Façam a minha mãe voltar ao normal!
+Dialogue: Marked=0,0:20:41.10,0:20:47.24,N!,,0000,0000,0000,Karaoke,{\fad(300,300)}Choushinsui = Água Ultra-Sagrada
+Dialogue: Marked=0,0:20:41.10,0:20:45.66,*Default,NTP,0000,0000,0000,!Effect,É impossível. Para reverter os efeitos\Nda Aquamist, precisa-se da Choushinsui.
+Dialogue: Marked=0,0:20:46.37,0:20:47.24,*Default,NTP,0000,0000,0000,!Effect,Choushinsui?
+Dialogue: Marked=0,0:20:47.91,0:20:51.58,*Default,NTP,0000,0000,0000,!Effect,Mas, a Shinsui só pode ser\Nencontrada no templo dos céus.
+Dialogue: Marked=0,0:20:52.56,0:20:53.84,*Default,NTP,0000,0000,0000,!Effect,Que tal, garoto?
+Dialogue: Marked=0,0:20:53.84,0:20:56.25,*Default,NTP,0000,0000,0000,!Effect,Por que você não vem conosco\Npara o templo dos céus?
+Dialogue: Marked=0,0:20:56.25,0:20:57.35,*Default,NTP,0000,0000,0000,!Effect,Você é bem-vindo!
+Dialogue: Marked=0,0:20:58.34,0:20:59.10,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:21:04.14,0:21:06.37,*Default,NTP,0000,0000,0000,!Effect,Parece que ele quer lutar.
+Dialogue: Marked=0,0:21:06.37,0:21:07.97,*Default,NTP,0000,0000,0000,!Effect,Mas, ele não é páreo para nós.
+Dialogue: Marked=0,0:21:14.54,0:21:16.31,P!,NTP,0000,0000,0000,!Effect,Não posso me mover!
+Dialogue: Marked=0,0:21:16.88,0:21:20.81,*Default,NTP,0000,0000,0000,!Effect,Eu não acabei de falar que\Nvocê não é páreo para nós?
+Dialogue: Marked=0,0:21:32.00,0:21:32.45,*Default,NTP,0000,0000,0000,!Effect,Quem é?!
+Dialogue: Marked=0,0:21:45.82,0:21:46.47,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:21:48.43,0:21:50.76,*Default,NTP,0000,0000,0000,!Effect,Eu estava esperando o Piccolo-san.
+Dialogue: Marked=0,0:21:52.10,0:21:55.77,*Default,NTP,0000,0000,0000,!Effect,Ouvi dizer que uns Mazoku\Nde merda estavam lutando...
+Dialogue: Marked=0,0:21:56.78,0:21:58.27,*Default,NTP,0000,0000,0000,!Effect,Então eram vocês?
+Dialogue: Marked=0,0:21:58.99,0:22:01.49,*Default,NTP,0000,0000,0000,!Effect,Garlick-sama está esperando por você.
+Dialogue: Marked=0,0:22:01.49,0:22:03.78,*Default,NTP,0000,0000,0000,!Effect,Ele disse que tem muitas\Ncoisas para falar com você.
+Dialogue: Marked=0,0:22:04.16,0:22:06.78,*Default,NTP,0000,0000,0000,!Effect,O quê? Garlick Jr?
+Dialogue: Marked=0,0:22:14.82,0:22:18.17,Narrador,NTP,0000,0000,0000,!Effect,Piccolo aparece quando\NGohan estava em perigo.
+Dialogue: Marked=0,0:22:18.17,0:22:27.18,Narrador,NTP,0000,0000,0000,!Effect,Será que há algum jeito de salvar a Terra dos planos da encarnação do demônio, Garlick Jr?

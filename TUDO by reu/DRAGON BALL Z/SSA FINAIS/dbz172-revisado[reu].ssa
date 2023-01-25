@@ -1,0 +1,214 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.23,0:01:56.99,Narrador,,0000,0000,0000,,Goku e Gohan estão passando\Nos dias como Super Saiya-jins.
+Dialogue: Marked=0,0:02:07.30,0:02:12.29,Narrador,,0000,0000,0000,,Eles não podem se controlar naturalmente\Ne o interior da casa está todo quebrado.
+Dialogue: Marked=0,0:02:23.97,0:02:29.03,Narrador,,0000,0000,0000,,Durante os dias de descanso,\Nreviveram os laços familiares.
+Dialogue: Marked=0,0:02:35.01,0:02:40.74,Narrador,,0000,0000,0000,,Mas, o dia dos Cell Games, que vão decidir\No destino, está se aproximando rapidamente.
+
+Dialogue: Marked=0,0:02:50.92,0:02:58.89,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 172
+Dialogue: Marked=0,0:02:50.92,0:02:58.89,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(395,185)\fad(500,0)\fscx165\fscy165}Encontre um Kami-sama{\i1}!!
+Dialogue: Marked=0,0:02:50.92,0:02:58.89,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(400,520)\fad(500,0)\fscx142\fscy142}O Dai Shunkan Idou de Goku
+
+Dialogue: Marked=0,0:02:59.25,0:03:04.51,N!,,0000,0000,0000,,{\fad(300,2000)}Dai = Grande
+Dialogue: Marked=0,0:03:16.01,0:03:18.57,*Default,,0000,0000,0000,,Por que ele está demorando tanto? Que lixo!
+Dialogue: Marked=0,0:03:19.73,0:03:22.32,*Default,,0000,0000,0000,,Ou ele se desgastou lá dentro?
+Dialogue: Marked=0,0:03:23.53,0:03:26.83,*Default,,0000,0000,0000,,Ainda não completou 24 horas, há tempo.
+Dialogue: Marked=0,0:03:27.25,0:03:28.16,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:03:29.89,0:03:32.17,*Default,,0000,0000,0000,,Ouse se atrasar 1 segundo que seja.
+Dialogue: Marked=0,0:03:32.87,0:03:35.23,*Default,,0000,0000,0000,,Vou arrombar a porta e arrancá-lo de lá.
+Dialogue: Marked=0,0:03:39.44,0:03:40.51,*Default,,0000,0000,0000,,Ele está saindo.
+Dialogue: Marked=0,0:03:51.35,0:03:53.15,*Default,,0000,0000,0000,,Finalmente saiu?
+Dialogue: Marked=0,0:04:07.21,0:04:09.66,*Default,,0000,0000,0000,,Certo, agora é minha vez.
+Dialogue: Marked=0,0:04:15.77,0:04:20.30,P!,,0000,0000,0000,,O poder do Piccolo-san\Nestá muito maior que antes.
+Dialogue: Marked=0,0:04:24.26,0:04:27.55,*Default,,0000,0000,0000,,Qual é o seu problema? Não mudou nada.
+Dialogue: Marked=0,0:04:29.15,0:04:30.93,*Default,,0000,0000,0000,,Estava dormindo?
+Dialogue: Marked=0,0:04:53.39,0:04:55.58,P!,,0000,0000,0000,,Observe, Kakarotto.
+Dialogue: Marked=0,0:04:57.90,0:05:00.22,P!,,0000,0000,0000,,Eu vou superá-lo.
+Dialogue: Marked=0,0:05:00.22,0:05:01.51,P!,,0000,0000,0000,,Com certeza!
+Dialogue: Marked=0,0:05:08.86,0:05:19.44,Radio,,0000,0000,0000,,Habitantes da nação, nosso exército\Nde defesa vai fazer o melhor para parar Cell.
+Dialogue: Marked=0,0:05:19.83,0:05:23.44,Radio,,0000,0000,0000,,Não entrem em pânico, continuem cal...
+Dialogue: Marked=0,0:05:24.97,0:05:30.74,*Default,,0000,0000,0000,,O exército não pode vencer Cell...\NSó nos resta contar com o Son-kun e os outros.
+Dialogue: Marked=0,0:05:32.27,0:05:35.00,*Default,,0000,0000,0000,,Mas, ele é incrível mesmo.
+Dialogue: Marked=0,0:05:36.72,0:05:41.75,*Default,,0000,0000,0000,,Além de ser ainda mais\Npoderoso que o Nº 17 e a Nº 18,
+Dialogue: Marked=0,0:05:42.10,0:05:45.52,*Default,,0000,0000,0000,,ele tem um aparelho para detectar Ki...
+Dialogue: Marked=0,0:05:45.52,0:05:48.27,*Default,,0000,0000,0000,,De que tipo de material será que ele foi feito?
+Dialogue: Marked=0,0:06:11.99,0:06:13.83,*Default,,0000,0000,0000,,Achei, achei. Olhem.
+Dialogue: Marked=0,0:06:14.65,0:06:17.45,*Default,,0000,0000,0000,,Tem peixes grandes neste lago.
+Dialogue: Marked=0,0:06:18.61,0:06:19.83,*Default,,0000,0000,0000,,Ei, pai.
+Dialogue: Marked=0,0:06:21.55,0:06:24.12,*Default,,0000,0000,0000,,Podemos ficar tão relaxados assim?
+Dialogue: Marked=0,0:06:24.89,0:06:27.84,*Default,,0000,0000,0000,,Que coisa...\NPor que você está tão calmo?
+Dialogue: Marked=0,0:06:28.19,0:06:31.89,*Default,,0000,0000,0000,,Não se preocupem.\NDeve acontecer alguma coisa.
+Dialogue: Marked=0,0:06:32.99,0:06:34.31,*Default,,0000,0000,0000,,Deve?
+Dialogue: Marked=0,0:06:34.73,0:06:38.73,*Default,,0000,0000,0000,,Não tem problema.\NFalei que podemos vencer.
+Dialogue: Marked=0,0:06:38.73,0:06:41.81,*Default,,0000,0000,0000,,Não adianta treinar mais agora.
+Dialogue: Marked=0,0:06:42.45,0:06:44.59,*Default,,0000,0000,0000,,Chegamos ao nosso limite.
+Dialogue: Marked=0,0:06:44.59,0:06:45.82,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:06:46.51,0:06:50.41,*Default,,0000,0000,0000,,Bem, como foi o Goku que\Ndisse isso, só posso acreditar.
+Dialogue: Marked=0,0:06:51.38,0:06:54.50,*Default,,0000,0000,0000,,Gente, a comida está pronta.
+Dialogue: Marked=0,0:06:55.87,0:06:56.79,*Default,,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:06:57.80,0:07:02.29,*Default,,0000,0000,0000,,Ora, não se preocupe\Ncom isso e aproveite a vida.
+Dialogue: Marked=0,0:07:06.87,0:07:10.63,*Default,,0000,0000,0000,,Nossa! Parece gostoso!
+Dialogue: Marked=0,0:07:13.22,0:07:18.73,*Default,,0000,0000,0000,,Que surpresa. Goku, quando\Nvocê tirou a carteira de motorista?
+Dialogue: Marked=0,0:07:19.19,0:07:23.06,*Default,,0000,0000,0000,,Ele foi tirar 3 anos atrás\Njunto com o Piccolo-san.
+Dialogue: Marked=0,0:07:23.50,0:07:26.07,*Default,,0000,0000,0000,,P-Piccolo?
+Dialogue: Marked=0,0:07:28.29,0:07:31.07,*Default,,0000,0000,0000,,É, mas...
+Dialogue: Marked=0,0:07:31.81,0:07:36.58,*Default,,0000,0000,0000,,Eles eram muito horríveis e\Nderam trabalho para os instrutores.
+Dialogue: Marked=0,0:07:37.78,0:07:39.99,*Default,,0000,0000,0000,,Eles não conseguiram na primeira vez.
+Dialogue: Marked=0,0:07:40.71,0:07:42.87,*Default,,0000,0000,0000,,A-Acho que entendo.
+Dialogue: Marked=0,0:08:19.03,0:08:27.01,*Default,,0000,0000,0000,,Mas, eu convenci a auto-escola a ensiná-los\Nde novo, então finalmente tiraram.
+Dialogue: Marked=0,0:08:27.89,0:08:29.47,*Default,,0000,0000,0000,,E o teste escrito?
+Dialogue: Marked=0,0:08:30.69,0:08:33.51,*Default,,0000,0000,0000,,Passei a noite toda estudando com o Goku-san.
+Dialogue: Marked=0,0:08:34.03,0:08:35.97,*Default,,0000,0000,0000,,S-Sabia.
+Dialogue: Marked=0,0:08:37.02,0:08:41.19,*Default,,0000,0000,0000,,Por causa disso, agora o\NGoku-san pôde nos trazer dirigindo.
+Dialogue: Marked=0,0:08:43.50,0:08:47.45,*Default,,0000,0000,0000,,Estou muito feliz. Parece um sonho.
+Dialogue: Marked=0,0:08:49.90,0:08:53.07,*Default,,0000,0000,0000,,O Goku-san é um bom marido...
+Dialogue: Marked=0,0:09:10.72,0:09:15.30,*Default,,0000,0000,0000,,Já sei! Vamos à casa do\NMuten Roshi-sama antes de voltarmos.
+Dialogue: Marked=0,0:09:16.02,0:09:16.62,*Default,,0000,0000,0000,,Tá.
+Dialogue: Marked=0,0:09:37.12,0:09:40.85,*Default,,0000,0000,0000,,Maldito, por que está parado?
+Dialogue: Marked=0,0:09:40.85,0:09:43.79,*Default,,0000,0000,0000,,Cale a boca!\NVocê vai ser comido pelo Cell!
+Dialogue: Marked=0,0:09:57.01,0:09:59.34,*Default,,0000,0000,0000,,O trânsito está terrível.
+Dialogue: Marked=0,0:09:59.99,0:10:02.52,*Default,,0000,0000,0000,,Todo mundo está fugindo da cidade.
+Dialogue: Marked=0,0:10:03.28,0:10:07.85,*Default,,0000,0000,0000,,Eles acham que é mais\Nseguro fora da cidade.
+Dialogue: Marked=0,0:10:08.65,0:10:10.86,*Default,,0000,0000,0000,,Deve ser.
+Dialogue: Marked=0,0:10:27.39,0:10:31.29,*Default,,0000,0000,0000,,Parece que nenhuma loja está aberta.
+Dialogue: Marked=0,0:10:31.29,0:10:35.49,*Default,,0000,0000,0000,,Deve ser porque todo\Nmundo pode morrer em 7 dias.
+Dialogue: Marked=0,0:10:35.49,0:10:37.30,*Default,,0000,0000,0000,,Ninguém quer trabalhar.
+Dialogue: Marked=0,0:10:38.26,0:10:41.55,*Default,,0000,0000,0000,,Ah, não podemos comprar nada.
+Dialogue: Marked=0,0:10:42.69,0:10:47.06,*Default,,0000,0000,0000,,Eu queria comprar algumas coisas\Npara o velhote Kame Sennin.
+Dialogue: Marked=0,0:10:52.79,0:10:56.61,Radio,,0000,0000,0000,,Interrompemos a programação\Npara uma notícia especial.
+Dialogue: Marked=0,0:10:57.15,0:10:59.61,*Default,,0000,0000,0000,,Ah! Tem alguém trabalhando!
+Dialogue: Marked=0,0:11:01.09,0:11:03.07,Radio,,0000,0000,0000,,É hora de destruir o monstro Cell.
+Dialogue: Marked=0,0:11:03.07,0:11:08.85,Radio,,0000,0000,0000,,O exército de defesa foi para a área\N28-KS e deve começar o ataque em breve.
+Dialogue: Marked=0,0:11:09.76,0:11:10.37,*Default,,0000,0000,0000,,O quê?
+
+Dialogue: Marked=0,0:12:04.47,0:12:08.52,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:04.47,0:12:08.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:04.47,0:12:08.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:04.47,0:12:08.52,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:18.69,0:12:20.52,*Default,,0000,0000,0000,,Senhoras e senhores, olhem, por favor!
+Dialogue: Marked=0,0:12:24.00,0:12:27.66,*Default,,0000,0000,0000,,O exército já está posicionado.
+Dialogue: Marked=0,0:12:29.69,0:12:33.32,*Default,,0000,0000,0000,,Não importa que tipo de monstro seja,\Nnão vai conseguir resistir.
+Dialogue: Marked=0,0:12:41.30,0:12:42.71,*Default,,0000,0000,0000,,Exército?
+Dialogue: Marked=0,0:12:42.71,0:12:48.01,*Default,,0000,0000,0000,,Idiotas. O que estão pensando?\NSerá que não sabem que morrerão em vão?
+Dialogue: Marked=0,0:12:54.02,0:12:57.56,*Default,,0000,0000,0000,,Ora, ora, o exército de idiotas já chegou?
+Dialogue: Marked=0,0:12:58.23,0:13:00.28,*Default,,0000,0000,0000,,Atacar!
+Dialogue: Marked=0,0:13:11.97,0:13:13.29,*Default,,0000,0000,0000,,Ele está fugindo!
+Dialogue: Marked=0,0:13:18.85,0:13:23.17,*Default,,0000,0000,0000,,Idiotas malditos. Não quero que o ringue\Nque construí com tanto esforço seja destruído.
+Dialogue: Marked=0,0:13:23.52,0:13:27.22,*Default,,0000,0000,0000,,Não o deixem escapar!\NAtirem! Comecem o ataque!
+Dialogue: Marked=0,0:14:10.03,0:14:15.35,*Default,,0000,0000,0000,,O ataque em massa começou!\NEscutem o som das bombas!
+Dialogue: Marked=0,0:14:15.81,0:14:20.36,Radio,,0000,0000,0000,,É um ataque impressionante! Ainda continua!
+Dialogue: Marked=0,0:14:20.63,0:14:26.23,Radio,,0000,0000,0000,,Sofrendo um ataque desse nível,\Nele vai ser completamente destruído.
+Dialogue: Marked=0,0:14:27.21,0:14:29.83,*Default,,0000,0000,0000,,F-Fujam! Rápido!
+Dialogue: Marked=0,0:14:42.49,0:14:45.59,*Default,,0000,0000,0000,,Chega, parem!
+Dialogue: Marked=0,0:14:56.51,0:15:00.27,*Default,,0000,0000,0000,,Parem, é o bastante! Não atirem!
+Dialogue: Marked=0,0:15:09.49,0:15:11.91,*Default,,0000,0000,0000,,Que tal? Você mereceu.
+Dialogue: Marked=0,0:15:46.34,0:15:47.94,*Default,,0000,0000,0000,,N-Não pode ser...
+Dialogue: Marked=0,0:15:55.86,0:15:56.91,*Default,,0000,0000,0000,,Impossível...
+Dialogue: Marked=0,0:15:57.41,0:15:58.86,*Default,,0000,0000,0000,,Ainda está vivo!
+Dialogue: Marked=0,0:15:58.86,0:16:00.62,*Default,,0000,0000,0000,,Q-Que monstro!
+Dialogue: Marked=0,0:16:05.95,0:16:09.67,*Default,,0000,0000,0000,,Preciso punir as pessoas idiotas.
+Dialogue: Marked=0,0:16:23.77,0:16:30.23,Radio,,0000,0000,0000,,I-Inacreditável! Está vivo!\NParece que Cell não sofreu nada!
+Dialogue: Marked=0,0:16:32.08,0:16:34.66,*Default,,0000,0000,0000,,P-Pare! Cell, não os mate!
+Dialogue: Marked=0,0:16:43.77,0:16:44.75,*Default,,0000,0000,0000,,Pare!
+Dialogue: Marked=0,0:17:01.62,0:17:04.44,*Default,,0000,0000,0000,,D-Droga!
+Dialogue: Marked=0,0:17:07.57,0:17:09.82,*Default,,0000,0000,0000,,Pelo menos serviram para passar o tempo.
+Dialogue: Marked=0,0:17:21.21,0:17:23.96,*Default,,0000,0000,0000,,Desculpem-me, mas vão na frente.
+Dialogue: Marked=0,0:17:24.86,0:17:26.71,*Default,,0000,0000,0000,,Preciso falar com Piccolo.
+Dialogue: Marked=0,0:17:32.14,0:17:37.39,*Default,,0000,0000,0000,,E-Ei, falar com o Piccolo? O que é?
+Dialogue: Marked=0,0:17:37.39,0:17:38.22,*Default,,0000,0000,0000,,Não sei...
+Dialogue: Marked=0,0:17:43.37,0:17:44.42,*Default,,0000,0000,0000,,Goku.
+Dialogue: Marked=0,0:17:44.42,0:17:45.17,*Default,,0000,0000,0000,,É.
+Dialogue: Marked=0,0:17:46.93,0:17:48.84,*Default,,0000,0000,0000,,Nossa, Piccolo.
+Dialogue: Marked=0,0:17:48.84,0:17:52.61,*Default,,0000,0000,0000,,Você também entrou na\NSeishin to Toki no Heya?
+Dialogue: Marked=0,0:17:52.61,0:17:53.36,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:17:53.71,0:17:58.12,*Default,,0000,0000,0000,,Sabia. Eu percebi, pois\Nvocê ficou muito mais forte.
+Dialogue: Marked=0,0:17:58.70,0:18:04.41,*Default,,0000,0000,0000,,Por que não fala logo? Fiquei mais forte,\Nmas ainda não vai adiantar contra Cell?
+Dialogue: Marked=0,0:18:05.10,0:18:07.42,*Default,,0000,0000,0000,,Não. Não vai adiantar.
+Dialogue: Marked=0,0:18:08.85,0:18:11.17,*Default,,0000,0000,0000,,Você falou mesmo.
+Dialogue: Marked=0,0:18:11.99,0:18:13.90,*Default,,0000,0000,0000,,A propósito, por que veio aqui?
+Dialogue: Marked=0,0:18:13.90,0:18:19.89,*Default,,0000,0000,0000,,Ei, você pode se separar de\NKami-sama e voltar a ser duas pessoas?
+Dialogue: Marked=0,0:18:19.89,0:18:20.68,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:18:21.35,0:18:26.54,*Default,,0000,0000,0000,,As Dragon Balls sumiram porque\NPiccolo e Kami-sama se fundiram.
+Dialogue: Marked=0,0:18:27.47,0:18:33.15,*Default,,0000,0000,0000,,Quero reviver as muitas\Npessoas que Cell matou...
+Dialogue: Marked=0,0:18:34.14,0:18:37.14,*Default,,0000,0000,0000,,E, provavelmente, vão ser importantes agora.
+Dialogue: Marked=0,0:18:39.25,0:18:43.99,*Default,,0000,0000,0000,,Entendi.\NMas, infelizmente, é impossível.
+Dialogue: Marked=0,0:18:44.68,0:18:48.27,*Default,,0000,0000,0000,,Não podemos voltar a ser\Ndois seres depois de nos fundirmos.
+Dialogue: Marked=0,0:18:48.91,0:18:53.00,*Default,,0000,0000,0000,,Se não fosse assim,\Neu não teria hesitado tanto.
+Dialogue: Marked=0,0:18:54.11,0:18:58.57,*Default,,0000,0000,0000,,É mesmo? Não dá?
+Dialogue: Marked=0,0:19:00.59,0:19:07.74,*Default,,0000,0000,0000,,Ei, o Gohan me falou que os Namekusei-jins\Nsobreviventes foram para um outro planeta.
+Dialogue: Marked=0,0:19:07.74,0:19:09.52,*Default,,0000,0000,0000,,Vou tentar achá-los.
+Dialogue: Marked=0,0:19:09.89,0:19:10.77,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:19:11.58,0:19:17.78,*Default,,0000,0000,0000,,Se der certo e um deles\Nficar na Terra para sempre,
+Dialogue: Marked=0,0:19:17.78,0:19:20.78,*Default,,0000,0000,0000,,Kami-sama e as Dragon Balls voltam a existir, certo?
+Dialogue: Marked=0,0:19:25.02,0:19:28.56,*Default,,0000,0000,0000,,Vou procurar o planeta\Ndos Namekusei-jins agora.
+Dialogue: Marked=0,0:19:29.29,0:19:32.92,*Default,,0000,0000,0000,,Popo também vai ficar feliz se\Nvocê encontrar um novo Kami-sama.
+Dialogue: Marked=0,0:19:33.28,0:19:36.21,*Default,,0000,0000,0000,,Mas, Goku, como vai trazê-lo?
+Dialogue: Marked=0,0:19:36.97,0:19:41.72,*Default,,0000,0000,0000,,Deve levar muito tempo para\Ntrazê-lo de outro planeta para cá.
+Dialogue: Marked=0,0:19:42.41,0:19:46.47,*Default,,0000,0000,0000,,O que você está falando?\NVou usar o Shunkan Idou.
+Dialogue: Marked=0,0:19:47.41,0:19:49.87,*Default,,0000,0000,0000,,Vou procurar por um Ki\Nparecido com o do Piccolo.
+Dialogue: Marked=0,0:19:49.87,0:19:51.70,*Default,,0000,0000,0000,,Quando achar, é o\Nplaneta dos Namekusei-jins.
+Dialogue: Marked=0,0:19:51.70,0:19:53.80,*Default,,0000,0000,0000,,Pode procurar por um Ki estando tão longe assim?
+Dialogue: Marked=0,0:19:55.20,0:19:59.07,*Default,,0000,0000,0000,,Talvez. Se não estiver muito\Nlonge, acho que não tem problema.
+Dialogue: Marked=0,0:20:00.18,0:20:01.71,*Default,,0000,0000,0000,,Vou tentar agora.
+Dialogue: Marked=0,0:20:01.71,0:20:02.95,*Default,,0000,0000,0000,,Façam silêncio.
+Dialogue: Marked=0,0:20:42.56,0:20:46.41,*Default,,0000,0000,0000,,Desculpem-me, não consegui sentir.
+Dialogue: Marked=0,0:20:49.11,0:20:53.54,*Default,,0000,0000,0000,,J-Já sei! Talvez eu consiga\Nprocurar do planeta do Kaio-sama.
+Dialogue: Marked=0,0:20:54.62,0:20:58.01,*Default,,0000,0000,0000,,Bem, Kaio-sama, Kaio-sama...
+Dialogue: Marked=0,0:20:58.49,0:21:00.27,*Default,,0000,0000,0000,,Achei!
+Dialogue: Marked=0,0:21:02.34,0:21:04.14,*Default,,0000,0000,0000,,Deve dar certo.
+Dialogue: Marked=0,0:21:04.98,0:21:08.97,*Default,,0000,0000,0000,,Será que ele vai conseguir?
+Dialogue: Marked=0,0:21:16.51,0:21:19.98,*Default,,0000,0000,0000,,Onde será que o Kaio-sama está?
+Dialogue: Marked=0,0:21:30.37,0:21:31.69,*Default,,0000,0000,0000,,Achei, achei!
+Dialogue: Marked=0,0:21:38.77,0:21:41.51,*Default,,0000,0000,0000,,Oi, Bubbles, quanto tempo! Como vai?
+Dialogue: Marked=0,0:21:47.06,0:21:48.53,*Default,,0000,0000,0000,,Kaio-sama.
+Dialogue: Marked=0,0:21:48.53,0:21:51.97,*Default,,0000,0000,0000,,Pode acordar? Sou eu, Son Goku.
+Dialogue: Marked=0,0:21:55.19,0:21:56.35,*Default,,0000,0000,0000,,Goku?
+Dialogue: Marked=0,0:21:58.95,0:21:59.48,*Default,,0000,0000,0000,,Goku?
+Dialogue: Marked=0,0:22:00.80,0:22:07.03,*Default,,0000,0000,0000,,Isso é Super Saiya-jin?\NVocê veio matar o tempo ou algo assim, hein?
+Dialogue: Marked=0,0:22:07.91,0:22:10.58,*Default,,0000,0000,0000,,O quê? Está muito calmo.
+Dialogue: Marked=0,0:22:11.52,0:22:15.08,*Default,,0000,0000,0000,,Você não sabia que a\NTerra está em grande perigo?
+Dialogue: Marked=0,0:22:17.93,0:22:22.91,Narrador,,0000,0000,0000,,Os humanos estão completamente\Ndesesperados diante do demônio Cell.
+Dialogue: Marked=0,0:22:22.91,0:22:28.45,Narrador,,0000,0000,0000,,Mas, por que Goku está tão calmo?

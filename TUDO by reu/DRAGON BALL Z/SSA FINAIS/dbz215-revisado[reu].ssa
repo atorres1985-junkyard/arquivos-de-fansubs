@@ -1,0 +1,302 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.31,0:01:57.31,Narrador,,0000,0000,0000,,Os guerreiros Z estavam empolgados\Npela vitória de Trunks na divisão dos jovens...
+Dialogue: Marked=0,0:01:57.31,0:02:01.06,Narrador,,0000,0000,0000,,e apareceram dois homens\Nmisteriosos na frente deles.
+Dialogue: Marked=0,0:02:14.31,0:02:19.04,Narrador,,0000,0000,0000,,E o sorteio para o\NTenkaichi Budoukai finalmente começou.
+Dialogue: Marked=0,0:02:40.16,0:02:41.75,PLACA,,0000,0000,0000,,{\shad0\bord0\c&H1D272A\fscx100\fscy90\pos(220,558)}S\NO\NN\N\NG\NO\NK\NU
+Dialogue: Marked=0,0:02:40.16,0:02:41.75,PLACA,,0000,0000,0000,,{\shad0\bord0\c&H1D272A\fscx100\fscy100\pos(410,530)}V\NE\NG\NE\NT\NA
+Dialogue: Marked=0,0:02:42.35,0:02:43.27,*Default,,0000,0000,0000,,Vegeta?
+Dialogue: Marked=0,0:02:44.87,0:02:47.11,*Default,,0000,0000,0000,,Mister Satan é o número 10.
+Dialogue: Marked=0,0:02:48.16,0:02:49.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\frz15\pos(385,365)}X
+Dialogue: Marked=0,0:02:48.16,0:02:49.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H30BDB6\fscx130\fscy130\frz40\pos(450,270)}KURIRIN
+Dialogue: Marked=0,0:02:48.16,0:02:49.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H1A60E2\fscx130\fscy130\frz40\pos(400,385)}PUNTA
+Dialogue: Marked=0,0:02:49.25,0:02:50.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx180\fscy200\pos(385,390)}X
+Dialogue: Marked=0,0:02:49.25,0:02:50.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HB79C38\fscx120\fscy130\frz90\pos(380,365)}SHIN
+Dialogue: Marked=0,0:02:49.25,0:02:50.09,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HA0E0E5\fscx130\fscy130\frz90\pos(445,345)}MA JUNIOR
+Dialogue: Marked=0,0:02:50.12,0:02:50.84,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\pos(400,350)}X
+Dialogue: Marked=0,0:02:50.12,0:02:50.84,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HC8B0A1\fscx130\fscy130\pos(730,305)}VIDEL
+Dialogue: Marked=0,0:02:50.12,0:02:50.84,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H9766DD\fscx120\fscy130\pos(110,375)}SPOPOVITCH
+Dialogue: Marked=0,0:02:51.00,0:02:51.72,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\frz10\pos(325,100)}X
+Dialogue: Marked=0,0:02:51.00,0:02:51.72,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HC1A0EE\fscx90\fscy120\frz-72\pos(262,55)}KIBITO
+Dialogue: Marked=0,0:02:51.00,0:02:51.72,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H995372\fscx110\fscy130\frz-72\pos(357,150)}GREAT SAIYAMAN
+Dialogue: Marked=0,0:02:51.75,0:02:52.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\pos(390,355)}X
+Dialogue: Marked=0,0:02:51.75,0:02:52.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HB69A38\fscx160\fscy160\frz65\pos(450,410)}N   18
+Dialogue: Marked=0,0:02:51.75,0:02:52.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HB69A38\fscx120\fscy120\frz60\pos(420,410)}o
+Dialogue: Marked=0,0:02:51.75,0:02:52.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HC0A2C0\fscx120\fscy130\frz65\pos(410,170)}MISTER SATAN
+Dialogue: Marked=0,0:02:52.38,0:02:53.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\frz15\pos(345,390)}X
+Dialogue: Marked=0,0:02:52.38,0:02:53.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HBBA23D\fscx130\fscy130\frz37\pos(365,330)}SON GOKU
+Dialogue: Marked=0,0:02:52.38,0:02:53.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HBD8CF3\fscx130\fscy130\frz37\pos(315,445)}VEGETA
+Dialogue: Marked=0,0:02:53.38,0:02:54.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx180\fscy200\pos(385,150)}X
+Dialogue: Marked=0,0:02:53.38,0:02:54.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H33C3BC\fscx120\fscy130\frz90\pos(385,155)}MIGHTY MASK
+Dialogue: Marked=0,0:02:53.38,0:02:54.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H1D66E5\fscx130\fscy130\frz90\pos(450,70)}KIRA
+Dialogue: Marked=0,0:02:54.25,0:02:55.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&H100F2D\fscx200\fscy200\pos(410,345)}X
+Dialogue: Marked=0,0:02:54.25,0:02:55.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HC2E0A9\fscx130\fscy130\pos(730,305)}YAMU
+Dialogue: Marked=0,0:02:54.25,0:02:55.22,PLACA,,0000,0000,0000,,{\fnPP Handwriting\shad0\bord0\c&HCDB6AA\fscx120\fscy130\pos(70,370)}JEWEL
+Dialogue: Marked=0,0:02:55.91,0:02:57.55,*Default,,0000,0000,0000,,Quanto tempo!
+Dialogue: Marked=0,0:02:57.55,0:03:00.25,*Default,,0000,0000,0000,,Bem, vamos começar?
+Dialogue: Marked=0,0:03:00.94,0:03:05.21,*Default,,0000,0000,0000,,Bem, pessoal, o\NTenkaichi Budoukai finalmente vai começar!
+
+Dialogue: Marked=0,0:03:05.72,0:03:13.70,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(675,70)\shad1\fad(400,0)\fscx100\fscy100}episódio 215
+Dialogue: Marked=0,0:03:05.72,0:03:13.70,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(390,180)\shad1\fad(400,0)\fscx150\fscy130}Qual é o problema, Piccolo{\i1}!!
+Dialogue: Marked=0,0:03:05.72,0:03:13.70,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(455,480)\shad1\fad(400,0)\fscx125\fscy120}A desistência imprevisível
+
+Dialogue: Marked=0,0:03:29.29,0:03:36.02,*Default,,0000,0000,0000,,Mister Satan, quais são suas impressões\Nsobre o sorteio do Tenkaichi Budoukai?
+Dialogue: Marked=0,0:03:36.02,0:03:41.75,*Default,,0000,0000,0000,,Do meu ponto de vista,\Nvários lutadores de alto nível estão aqui.
+Dialogue: Marked=0,0:03:42.72,0:03:47.75,*Default,,0000,0000,0000,,Quero que eles se esforcem para\Nque melhorem nas artes marciais.
+Dialogue: Marked=0,0:03:48.70,0:03:52.15,*Default,,0000,0000,0000,,Tenham uma grande estrela como eu como meta.
+Dialogue: Marked=0,0:03:53.57,0:03:56.18,*Default,,0000,0000,0000,,Só podia ser o Mister Satan.
+Dialogue: Marked=0,0:03:56.18,0:03:59.56,*Default,,0000,0000,0000,,Está sempre pensando no\Nmundo das artes marciais, não é?
+Dialogue: Marked=0,0:04:00.96,0:04:04.06,*Default,,0000,0000,0000,,Que nada.\NIsso é natural de um campeão.
+Dialogue: Marked=0,0:04:04.88,0:04:07.07,*Default,,0000,0000,0000,,Campeão, o que acha deste torneio?
+Dialogue: Marked=0,0:04:08.46,0:04:12.86,*Default,,0000,0000,0000,,Bem, só uma pessoa pode\Nser a melhor do mundo, não é?
+Dialogue: Marked=0,0:04:13.42,0:04:16.87,*Default,,0000,0000,0000,,Podemos considerar isso\Numa declaração de vitória?
+Dialogue: Marked=0,0:04:17.53,0:04:18.71,*Default,,0000,0000,0000,,Não, não.
+Dialogue: Marked=0,0:04:18.71,0:04:22.36,*Default,,0000,0000,0000,,Nunca se sabe o que vai\Nacontecer durante as lutas.
+Dialogue: Marked=0,0:04:22.36,0:04:23.75,*Default,,0000,0000,0000,,Não posso me descuidar.
+Dialogue: Marked=0,0:04:24.26,0:04:26.13,*Default,,0000,0000,0000,,Que modéstia.
+Dialogue: Marked=0,0:04:27.45,0:04:30.59,*Default,,0000,0000,0000,,A propósito, quem é o meu adversário?
+Dialogue: Marked=0,0:04:31.37,0:04:33.97,*Default,,0000,0000,0000,,Nº 18, uma participante feminina.
+Dialogue: Marked=0,0:04:36.19,0:04:39.97,*Default,,0000,0000,0000,,Mulher? Que problema!
+Dialogue: Marked=0,0:04:46.39,0:04:49.27,P!,,0000,0000,0000,,E eu já tinha falado para ele antes...
+Dialogue: Marked=0,0:05:01.09,0:05:02.75,P!,,0000,0000,0000,,Piccolo-san...
+Dialogue: Marked=0,0:05:03.21,0:05:07.88,*Default,,0000,0000,0000,,Ei, Gohan-kun, ele está\Ndaquele jeito há um tempo.
+Dialogue: Marked=0,0:05:07.88,0:05:10.19,*Default,,0000,0000,0000,,Deve estar nervoso, não é?
+Dialogue: Marked=0,0:05:10.19,0:05:14.52,*Default,,0000,0000,0000,,Não é isso.\NEle está fazendo aquilo para aumentar o Ki.
+Dialogue: Marked=0,0:05:17.75,0:05:21.41,P!,,0000,0000,0000,,Piccolo-san, por que está tão nervoso assim?
+Dialogue: Marked=0,0:05:22.38,0:05:24.13,P!,,0000,0000,0000,,É por causa do adversário?
+Dialogue: Marked=0,0:05:36.81,0:05:39.03,*Default,,0000,0000,0000,,Você está bem empolgado, não é, Goku?
+Dialogue: Marked=0,0:05:40.70,0:05:43.29,*Default,,0000,0000,0000,,Mal posso esperar.
+Dialogue: Marked=0,0:05:43.29,0:05:48.19,*Default,,0000,0000,0000,,Você vai lutar contra o Vegeta na primeira luta.\NÉ quase como se já fosse a final.
+Dialogue: Marked=0,0:05:48.19,0:05:49.27,*Default,,0000,0000,0000,,É.
+Dialogue: Marked=0,0:05:50.31,0:05:52.71,*Default,,0000,0000,0000,,Já estou empolgado.
+Dialogue: Marked=0,0:06:00.14,0:06:01.42,*Default,,0000,0000,0000,,Piccolo...
+Dialogue: Marked=0,0:06:02.70,0:06:04.77,*Default,,0000,0000,0000,,Ele também está empolgado.
+Dialogue: Marked=0,0:06:05.51,0:06:09.15,*Default,,0000,0000,0000,,Parece que eu vou ser o\Nadversário do Piccolo na segunda luta.
+Dialogue: Marked=0,0:06:09.61,0:06:11.32,*Default,,0000,0000,0000,,Pegue leve comigo.
+Dialogue: Marked=0,0:06:12.42,0:06:13.64,*Default,,0000,0000,0000,,Não é, Goku?
+Dialogue: Marked=0,0:06:21.01,0:06:26.16,*Default,,0000,0000,0000,,Você vai lutar contra o campeão\Ndo mundo. Bata na cara dele.
+Dialogue: Marked=0,0:06:26.56,0:06:29.50,*Default,,0000,0000,0000,,Cale a boca.\NEu já sei.
+Dialogue: Marked=0,0:06:47.94,0:06:53.25,*Default,,0000,0000,0000,,A Videl é na terceira luta?\NEstou ficando nervosa.
+Dialogue: Marked=0,0:06:53.25,0:06:54.82,*Default,,0000,0000,0000,,Não precisa se preocupar.
+Dialogue: Marked=0,0:06:54.82,0:06:58.24,*Default,,0000,0000,0000,,Só alguém como Mister Satan pode vencer a Videl.
+Dialogue: Marked=0,0:06:59.16,0:07:00.78,*Default,,0000,0000,0000,,É mesmo.
+Dialogue: Marked=0,0:07:01.53,0:07:03.49,*Default,,0000,0000,0000,,O Great Saiyaman está lá.
+Dialogue: Marked=0,0:07:04.96,0:07:09.50,*Default,,0000,0000,0000,,A segunda luta vai ser entre\Ndois parceiros defensores da justiça.
+Dialogue: Marked=0,0:07:10.16,0:07:12.06,*Default,,0000,0000,0000,,Vai ser interessante, não é?
+Dialogue: Marked=0,0:07:12.84,0:07:17.01,*Default,,0000,0000,0000,,Não sei nem se alguém tão brega\Ncomo ele vai vencer a primeira luta.
+Dialogue: Marked=0,0:07:17.24,0:07:18.88,*Default,,0000,0000,0000,,Mostrem suas vozes!
+Dialogue: Marked=0,0:07:18.88,0:07:23.04,*Default,,0000,0000,0000,,Nós, da polícia de Satan City,\Nvamos torcer com tudo para a Videl-san.
+Dialogue: Marked=0,0:07:23.04,0:07:24.01,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:07:25.70,0:07:26.63,*Default,,0000,0000,0000,,Tome!
+Dialogue: Marked=0,0:07:26.63,0:07:30.19,*Default,,0000,0000,0000,,O que foi, Bulma?\NParece estar se divertindo bastante.
+Dialogue: Marked=0,0:07:30.19,0:07:33.84,*Default,,0000,0000,0000,,É que o Trunks venceu a divisão dos jovens.
+Dialogue: Marked=0,0:07:33.84,0:07:36.32,*Default,,0000,0000,0000,,Era óbvio, mas fiquei feliz.
+Dialogue: Marked=0,0:07:37.05,0:07:42.32,*Default,,0000,0000,0000,,Vegeta vai vencer a divisão dos adultos, assim pai e filho ganharão o Tenkaichi Budoukai.
+Dialogue: Marked=0,0:07:43.73,0:07:45.42,*Default,,0000,0000,0000,,Isso é impossível.
+Dialogue: Marked=0,0:07:48.20,0:07:50.59,*Default,,0000,0000,0000,,O adversário dele vai ser o meu Goku-san.
+Dialogue: Marked=0,0:07:50.59,0:07:53.38,*Default,,0000,0000,0000,,Não tem como o Vegeta vencer.\NEle vai perder na primeira luta.
+Dialogue: Marked=0,0:07:53.89,0:08:00.22,*Default,,0000,0000,0000,,Ora, não dá para saber.\NO Trunks ganhou do Goten-kun...
+Dialogue: Marked=0,0:08:00.89,0:08:04.25,*Default,,0000,0000,0000,,É lógico que o Goku-san vai vencer!
+Dialogue: Marked=0,0:08:05.14,0:08:09.10,*Default,,0000,0000,0000,,Do mesmo jeito que o sol nasce no oeste,\Nnão tem como o Goku-san perder.
+Dialogue: Marked=0,0:08:09.74,0:08:14.28,*Default,,0000,0000,0000,,Desculpe-me, mas o Vegeta\Nesteve treinando por cinco anos...
+Dialogue: Marked=0,0:08:14.28,0:08:16.60,*Default,,0000,0000,0000,,na máquina com gravidade\Naumentada que fiz para ele.
+Dialogue: Marked=0,0:08:16.60,0:08:19.10,*Default,,0000,0000,0000,,Desta vez, o Vegeta com certeza vai vencer.
+Dialogue: Marked=0,0:08:19.10,0:08:23.61,*Default,,0000,0000,0000,,A vida da minha família\Ndepende da vitória do Goku-san.
+Dialogue: Marked=0,0:08:23.61,0:08:27.51,*Default,,0000,0000,0000,,Ele não é como certas pessoas\Nque lutam sem ter motivos.
+Dialogue: Marked=0,0:08:27.51,0:08:28.90,*Default,,0000,0000,0000,,O Vegeta vai vencer!
+Dialogue: Marked=0,0:08:28.90,0:08:30.14,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:08:30.14,0:08:31.36,*Default,,0000,0000,0000,,Vegeta!
+Dialogue: Marked=0,0:08:31.36,0:08:32.66,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:08:35.34,0:08:39.55,*Default,,0000,0000,0000,,Ei, parem com isso, vocês duas.\NNem parecem adultas.
+Dialogue: Marked=0,0:08:40.10,0:08:42.26,*Default,,0000,0000,0000,,Cale a boca!
+Dialogue: Marked=0,0:08:44.84,0:08:50.27,*Default,,0000,0000,0000,,Bem, desculpem pela espera.\NQuem será que vai ficar no topo?
+Dialogue: Marked=0,0:08:51.70,0:08:53.54,*Default,,0000,0000,0000,,Agora vamos começar as lutas.
+Dialogue: Marked=0,0:08:53.54,0:08:56.98,*Default,,0000,0000,0000,,Primeiro é o participante Kuririn\Ncontra o participante Punta.
+Dialogue: Marked=0,0:08:57.85,0:08:59.27,*Default,,0000,0000,0000,,Esforce-se, Kuririn!
+Dialogue: Marked=0,0:08:59.27,0:09:00.86,*Default,,0000,0000,0000,,Bem, vou lá e já volto.
+Dialogue: Marked=0,0:09:08.39,0:09:10.00,*Default,,0000,0000,0000,,Quem ele pensa que é?
+Dialogue: Marked=0,0:09:10.00,0:09:12.79,*Default,,0000,0000,0000,,Ah, você estava ali?
+Dialogue: Marked=0,0:09:13.59,0:09:16.75,*Default,,0000,0000,0000,,Pensei que você fosse fugir.
+Dialogue: Marked=0,0:09:19.94,0:09:23.13,*Default,,0000,0000,0000,,Vai lutar logo contra mim.\NNão tem sorte mesmo.
+Dialogue: Marked=0,0:09:23.97,0:09:28.53,*Default,,0000,0000,0000,,Bem, não se preocupe.\NSe tiver sorte, vai para o hospital.
+Dialogue: Marked=0,0:09:31.23,0:09:33.64,*Default,,0000,0000,0000,,Os participantes vão subir no ringue.
+Dialogue: Marked=0,0:09:33.64,0:09:38.49,*Default,,0000,0000,0000,,O participante Kuririn já se deu muito\Nbem neste torneio quando era mais jovem...
+Dialogue: Marked=0,0:09:38.49,0:09:42.23,*Default,,0000,0000,0000,,e, agora, vai participar\Nnovamente depois de muito tempo.
+Dialogue: Marked=0,0:09:42.85,0:09:44.79,*Default,,0000,0000,0000,,Seu adversário, o participante Punta,
+Dialogue: Marked=0,0:09:44.79,0:09:50.75,*Default,,0000,0000,0000,,é conhecido por ser brutal e perdeu\Npor cair do ringue no torneio anterior,
+Dialogue: Marked=0,0:09:50.75,0:09:55.13,*Default,,0000,0000,0000,,mas, logicamente, veio para\Neste torneio visando a vitória!
+Dialogue: Marked=0,0:10:06.64,0:10:10.31,*Default,,0000,0000,0000,,O homem que vai lutar contra\No meu pai é grande e forte.
+Dialogue: Marked=0,0:10:10.31,0:10:11.64,*Default,,0000,0000,0000,,Será que ele vai ficar bem?
+Dialogue: Marked=0,0:10:12.63,0:10:14.10,*Default,,0000,0000,0000,,Fique tranqüila.
+Dialogue: Marked=0,0:10:14.10,0:10:16.26,*Default,,0000,0000,0000,,Aquele homem não é de nada.
+Dialogue: Marked=0,0:10:16.26,0:10:18.39,*Default,,0000,0000,0000,,Seu pai é o mais forte do mundo!
+Dialogue: Marked=0,0:10:18.39,0:10:19.56,*Default,,0000,0000,0000,,Mesmo?
+Dialogue: Marked=0,0:10:19.56,0:10:20.65,*Default,,0000,0000,0000,,É verdade.
+Dialogue: Marked=0,0:10:22.59,0:10:24.65,*Default,,0000,0000,0000,,Entre os terráqueos.
+Dialogue: Marked=0,0:10:26.00,0:10:28.26,*Default,,0000,0000,0000,,Que diferença de porte é aquela?
+Dialogue: Marked=0,0:10:28.26,0:10:30.07,*Default,,0000,0000,0000,,Luta é luta.
+Dialogue: Marked=0,0:10:30.23,0:10:32.70,*Default,,0000,0000,0000,,Coitado do participante Kuririn.
+Dialogue: Marked=0,0:11:03.21,0:11:04.57,*Default,,0000,0000,0000,,Olhem o participante Punta!
+Dialogue: Marked=0,0:11:04.84,0:11:08.69,*Default,,0000,0000,0000,,Mesmo com a grande diferença\Nde tamanho, ele não vai pegar leve.
+Dialogue: Marked=0,0:11:08.69,0:11:10.18,*Default,,0000,0000,0000,,Não dá para pará-lo!
+Dialogue: Marked=0,0:11:10.18,0:11:14.45,*Default,,0000,0000,0000,,Bem, como será que o\Nparticipante Kuririn irá revidar?
+Dialogue: Marked=0,0:11:14.82,0:11:20.95,*Default,,0000,0000,0000,,É lógico! Vou ensinar a ele que o\NTenkaichi Budoukai não é brincadeira!
+Dialogue: Marked=0,0:11:20.95,0:11:24.17,*Default,,0000,0000,0000,,Aqui não é lugar para um\Nvelhote baixinho como você vir.
+Dialogue: Marked=0,0:11:24.85,0:11:26.02,P!,,0000,0000,0000,,Ora, ora.
+Dialogue: Marked=0,0:11:26.02,0:11:29.45,P!,,0000,0000,0000,,Nem preciso fazer força contra esse idiota.
+
+Dialogue: Marked=0,0:11:36.71,0:11:39.46,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:36.71,0:11:39.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:36.71,0:11:39.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:36.71,0:11:39.46,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:42.72,0:11:45.46,comercial3,,0000,0000,0000,,{\fscx30\fscy45\pos(546,555)\t(9110,0)}torrents.ebrain.com.br
+Dialogue: Marked=0,0:11:42.72,0:11:45.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:42.72,0:11:45.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:42.72,0:11:45.46,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:46.89,0:11:51.53,*Default,,0000,0000,0000,,Quando o Punta começa com\Nseu estilo brutal, não tem misericórdia.
+Dialogue: Marked=0,0:12:04.75,0:12:08.01,*Default,,0000,0000,0000,,Bem, comecem a luta logo!
+Dialogue: Marked=0,0:12:28.59,0:12:32.71,*Default,,0000,0000,0000,,Como pôde ver,\Nmesmo sendo grande, sou ágil.
+Dialogue: Marked=0,0:12:32.71,0:12:33.82,*Default,,0000,0000,0000,,Viu?
+Dialogue: Marked=0,0:12:34.67,0:12:37.88,*Default,,0000,0000,0000,,Mesmo se tentar fugir\Nde mim, não vai adiantar.
+Dialogue: Marked=0,0:12:38.88,0:12:42.33,*Default,,0000,0000,0000,,Entendi, entendi.\NNão vou fugir, não vou.
+Dialogue: Marked=0,0:12:45.56,0:12:47.34,*Default,,0000,0000,0000,,Ainda está cedo para chorar.
+Dialogue: Marked=0,0:12:48.26,0:12:53.34,*Default,,0000,0000,0000,,Agora vou mostrar como sou resistente.\NPode me dar um soco.
+Dialogue: Marked=0,0:12:54.86,0:12:57.35,*Default,,0000,0000,0000,,Qual o problema?\NNão se segure.
+Dialogue: Marked=0,0:12:58.38,0:13:01.45,*Default,,0000,0000,0000,,E então? E então? E então?
+Dialogue: Marked=0,0:13:01.45,0:13:01.81,*Default,,0000,0000,0000,,Tá.
+Dialogue: Marked=0,0:13:10.57,0:13:13.47,*Default,,0000,0000,0000,,Você me subestimou!
+Dialogue: Marked=0,0:13:24.96,0:13:27.25,*Default,,0000,0000,0000,,Saiu do ringue!
+Dialogue: Marked=0,0:13:27.92,0:13:32.26,*Default,,0000,0000,0000,,O participante Punta saiu do ringue!\NVitória do participante Kuririn!
+Dialogue: Marked=0,0:13:37.97,0:13:39.60,*Default,,0000,0000,0000,,Ele conseguiu, ele conseguiu!
+Dialogue: Marked=0,0:13:40.21,0:13:42.40,*Default,,0000,0000,0000,,O meu pai é forte!
+Dialogue: Marked=0,0:13:42.40,0:13:43.60,*Default,,0000,0000,0000,,Não disse?
+Dialogue: Marked=0,0:13:44.21,0:13:46.44,P!,,0000,0000,0000,,Que bom! Só podia ser!
+Dialogue: Marked=0,0:13:46.87,0:13:51.23,P!,,0000,0000,0000,,Estava esperando!\NO Tenkaichi Budoukai precisa ser assim!
+Dialogue: Marked=0,0:13:51.78,0:13:53.29,*Default,,0000,0000,0000,,Boa, Kuririn.
+Dialogue: Marked=0,0:13:54.81,0:13:56.61,*Default,,0000,0000,0000,,Foi fácil.
+Dialogue: Marked=0,0:13:56.61,0:13:59.58,*Default,,0000,0000,0000,,Piccolo, agora é sua vez.\NEsforce-se!
+Dialogue: Marked=0,0:14:04.60,0:14:07.17,*Default,,0000,0000,0000,,Ei, por que está nervoso?
+Dialogue: Marked=0,0:14:08.00,0:14:11.17,*Default,,0000,0000,0000,,Não é uma luta para você ficar nervoso.
+Dialogue: Marked=0,0:14:12.61,0:14:14.01,*Default,,0000,0000,0000,,O que foi, pessoal?
+Dialogue: Marked=0,0:14:21.37,0:14:24.82,*Default,,0000,0000,0000,,Isso não vale, Trunks-kun.\NDá um pouco para mim, também.
+Dialogue: Marked=0,0:14:24.82,0:14:28.31,*Default,,0000,0000,0000,,Não posso, vão nos descobrir.\NDepois da luta...
+Dialogue: Marked=0,0:14:28.63,0:14:31.62,*Default,,0000,0000,0000,,Mas aqui dentro está quente!\NNão posso agüentar!
+Dialogue: Marked=0,0:14:31.62,0:14:35.78,*Default,,0000,0000,0000,,Cuidado! Você não desiste! Vou te dar!
+Dialogue: Marked=0,0:14:41.98,0:14:43.19,*Default,,0000,0000,0000,,Ah, gostoso.
+Dialogue: Marked=0,0:14:45.36,0:14:50.38,*Default,,0000,0000,0000,,Vamos continuar com a segunda luta.\NParticipante Shin contra participante Ma Junior.
+Dialogue: Marked=0,0:14:50.83,0:14:52.84,*Default,,0000,0000,0000,,Os participantes podem entrar no ringue.
+Dialogue: Marked=0,0:15:09.62,0:15:13.89,*Default,,0000,0000,0000,,Entendi.\NEste torneio parece ser divertido mesmo.
+Dialogue: Marked=0,0:15:17.16,0:15:19.95,*Default,,0000,0000,0000,,Ambos participantes, por favor...
+Dialogue: Marked=0,0:15:19.95,0:15:23.49,*Default,,0000,0000,0000,,Esta é a primeira vez\Nque o participante Shin compete.
+Dialogue: Marked=0,0:15:23.49,0:15:30.62,*Default,,0000,0000,0000,,Seu adversário, participante Ma Junior, mostrou uma luta incrível na final de um dos torneios...
+Dialogue: Marked=0,0:15:30.64,0:15:33.38,*Default,,0000,0000,0000,,e eu me lembro muito bem.
+Dialogue: Marked=0,0:15:35.29,0:15:38.38,*Default,,0000,0000,0000,,Ei, desta vez, não destrua o estádio.
+Dialogue: Marked=0,0:15:38.92,0:15:42.46,*Default,,0000,0000,0000,,Ei, ele não é uma das\Npessoas que estavam atrapalhando...
+Dialogue: Marked=0,0:15:42.46,0:15:44.83,*Default,,0000,0000,0000,,quando o Mister Satan\Nestava lutando contra Cell?
+Dialogue: Marked=0,0:15:44.83,0:15:46.89,*Default,,0000,0000,0000,,É ele sim.\NApareceu na televisão.
+Dialogue: Marked=0,0:15:56.51,0:15:57.90,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:15:58.42,0:16:01.87,*Default,,0000,0000,0000,,Vocês estão tão preocupados com aquele Shin?
+Dialogue: Marked=0,0:16:01.87,0:16:03.20,*Default,,0000,0000,0000,,É, estamos.
+Dialogue: Marked=0,0:16:03.82,0:16:08.20,*Default,,0000,0000,0000,,Mas ele nem parece ser nada de especial.
+Dialogue: Marked=0,0:16:18.16,0:16:25.14,P!,,0000,0000,0000,,Finalmente vou saber o quão forte ele é.\NAgora não tem como saber.
+Dialogue: Marked=0,0:16:27.28,0:16:31.56,*Default,,0000,0000,0000,,Bem, comecem a segunda luta, por favor!
+Dialogue: Marked=0,0:16:42.55,0:16:44.45,P!,,0000,0000,0000,,Meu poder não vem.
+Dialogue: Marked=0,0:16:58.08,0:17:02.42,P!,,0000,0000,0000,,Por quê?\NPor que será tão difícil lutar contra ele?
+Dialogue: Marked=0,0:17:02.42,0:17:04.35,P!,,0000,0000,0000,,É a primeira vez que o vejo.
+Dialogue: Marked=0,0:17:17.03,0:17:20.24,*Default,,0000,0000,0000,,Qual é o problema?\NPor que não lutam?
+Dialogue: Marked=0,0:17:20.24,0:17:21.19,*Default,,0000,0000,0000,,O que aconteceu?
+Dialogue: Marked=0,0:17:28.12,0:17:30.70,*Default,,0000,0000,0000,,Qual é o problema?\NComecem, por favor.
+Dialogue: Marked=0,0:17:31.17,0:17:33.34,*Default,,0000,0000,0000,,Parem de palhaçada e comecem logo!
+Dialogue: Marked=0,0:17:33.34,0:17:37.71,*Default,,0000,0000,0000,,Nós viemos pelas lutas!\NNão viemos para ver gente se olhando!
+Dialogue: Marked=0,0:17:41.64,0:17:45.59,*Default,,0000,0000,0000,,O tempo vai acabar.\NComecem logo, por favor.
+Dialogue: Marked=0,0:18:03.50,0:18:05.23,P!,,0000,0000,0000,,Impossível!
+Dialogue: Marked=0,0:18:08.48,0:18:10.16,*Default,,0000,0000,0000,,O que aconteceu, Piccolo-san?
+Dialogue: Marked=0,0:18:10.99,0:18:12.16,P!,,0000,0000,0000,,Maldito...
+Dialogue: Marked=0,0:18:22.76,0:18:26.68,P!,,0000,0000,0000,,Q-Quem será que ele é?
+Dialogue: Marked=0,0:18:30.17,0:18:32.10,*Default,,0000,0000,0000,,Você já vai saber.
+Dialogue: Marked=0,0:18:34.13,0:18:36.39,*Default,,0000,0000,0000,,{\fad(0,2000)\t(0,2000,\fscx130\fscy130)}Você já vai saber.
+Dialogue: Marked=0,0:18:45.58,0:18:48.20,*Default,,0000,0000,0000,,Mas, agora, vamos aproveitar a competição.
+Dialogue: Marked=0,0:18:57.88,0:18:59.04,P!,,0000,0000,0000,,Piccolo...
+Dialogue: Marked=0,0:19:01.20,0:19:02.29,*Default,,0000,0000,0000,,Qual é o problema?
+Dialogue: Marked=0,0:19:03.79,0:19:05.67,*Default,,0000,0000,0000,,D-Desculpe.
+Dialogue: Marked=0,0:19:11.60,0:19:12.43,*Default,,0000,0000,0000,,Eu desisto.
+Dialogue: Marked=0,0:19:14.83,0:19:15.81,*Default,,0000,0000,0000,,Desiste?
+Dialogue: Marked=0,0:19:17.20,0:19:19.77,*Default,,0000,0000,0000,,Desiste? Não vai lutar?
+Dialogue: Marked=0,0:19:20.28,0:19:21.94,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:19:24.44,0:19:28.40,P!,,0000,0000,0000,,Entendi.\NEle já foi o Kami deste planeta.
+Dialogue: Marked=0,0:19:28.40,0:19:32.12,P!,,0000,0000,0000,,Já deve ter uma idéia de quem sou.
+Dialogue: Marked=0,0:19:33.05,0:19:38.10,*Default,,0000,0000,0000,,Como o participante Ma Junior desistiu,\Na vitória é do participante Shin.
+Dialogue: Marked=0,0:19:43.07,0:19:47.46,*Default,,0000,0000,0000,,O que foi? O que está acontecendo?\NEle não está bem?
+Dialogue: Marked=0,0:19:47.46,0:19:50.18,*Default,,0000,0000,0000,,Deve ser.\NEle parecia meio pálido.
+Dialogue: Marked=0,0:19:51.02,0:19:52.15,*Default,,0000,0000,0000,,Piccolo-san...
+Dialogue: Marked=0,0:19:52.15,0:19:53.83,*Default,,0000,0000,0000,,Ei, Piccolo...
+Dialogue: Marked=0,0:19:53.83,0:19:55.91,*Default,,0000,0000,0000,,É tanto assim, Piccolo?
+Dialogue: Marked=0,0:19:55.91,0:19:58.18,*Default,,0000,0000,0000,,É.\NNossas dimensões são muito diferentes.
+Dialogue: Marked=0,0:20:01.49,0:20:03.52,*Default,,0000,0000,0000,,É mentira, não é?\NPare de brincadeiras.
+Dialogue: Marked=0,0:20:04.17,0:20:08.03,*Default,,0000,0000,0000,,Ei, eu vou lutar contra ele depois.
+Dialogue: Marked=0,0:20:13.64,0:20:17.66,*Default,,0000,0000,0000,,Bem, vamos prosseguir.\NAgora é a terceira luta.
+Dialogue: Marked=0,0:20:18.42,0:20:21.80,*Default,,0000,0000,0000,,Participante Videl contra participante Spopovitch.
+Dialogue: Marked=0,0:20:26.01,0:20:27.92,*Default,,0000,0000,0000,,Videl! Videl!
+Dialogue: Marked=0,0:20:28.60,0:20:34.82,*Default,,0000,0000,0000,,Videl! Videl! Videl! Videl!
+Dialogue: Marked=0,0:20:34.82,0:20:36.92,*Default,,0000,0000,0000,,Você é muito popular.
+Dialogue: Marked=0,0:20:36.92,0:20:39.29,*Default,,0000,0000,0000,,Esforce-se, Videl-san.
+Dialogue: Marked=0,0:20:39.29,0:20:45.02,*Default,,0000,0000,0000,,Videl! Videl! Videl! Videl!
+Dialogue: Marked=0,0:20:45.02,0:20:47.96,*Default,,0000,0000,0000,,Ei, Spopovitch, é a sua vez.
+Dialogue: Marked=0,0:20:50.40,0:20:51.57,*Default,,0000,0000,0000,,Ei, você ouviu?
+Dialogue: Marked=0,0:21:08.41,0:21:09.76,*Default,,0000,0000,0000,,Chegou a hora.
+Dialogue: Marked=0,0:21:20.74,0:21:21.23,*Default,,0000,0000,0000,,Gohan-kun...
+Dialogue: Marked=0,0:21:23.18,0:21:24.98,*Default,,0000,0000,0000,,Vou esperá-lo na segunda rodada.
+Dialogue: Marked=0,0:21:27.03,0:21:27.94,*Default,,0000,0000,0000,,Tá.
+Dialogue: Marked=0,0:21:29.37,0:21:32.58,*Default,,0000,0000,0000,,A participante Videl, como todos sabem,
+Dialogue: Marked=0,0:21:32.58,0:21:34.99,*Default,,0000,0000,0000,,é filha de Mister Satan...
+Dialogue: Marked=0,0:21:35.19,0:21:41.33,*Default,,0000,0000,0000,,e é uma defensora da justiça que\Ncoopera com a polícia para punir os criminosos.
+Dialogue: Marked=0,0:21:41.85,0:21:48.74,*Default,,0000,0000,0000,,No torneio de sete anos atrás, mesmo ainda\Nsendo pequena, ela venceu a divisão dos jovens.
+Dialogue: Marked=0,0:21:48.74,0:21:53.58,*Default,,0000,0000,0000,,O participante Spopovitch foi eliminado\Nna primeira rodada no torneio anterior,
+Dialogue: Marked=0,0:21:53.58,0:21:56.86,*Default,,0000,0000,0000,,mas mudou sua aparência\Ne está pronto para lutar de novo.
+Dialogue: Marked=0,0:21:58.87,0:22:07.95,*Default,,0000,0000,0000,,Videl! Videl! Videl! Videl! Videl!
+Dialogue: Marked=0,0:22:13.21,0:22:18.24,Narrador,,0000,0000,0000,,O Tenkaichi Budoukai chega ao\Nauge na vez da superpopular Videl.
+Dialogue: Marked=0,0:22:18.68,0:22:25.48,Narrador,,0000,0000,0000,,Mas quem será Shin, que nem mesmo\NPiccolo pôde fazer nada contra ele?
+Dialogue: Marked=0,0:22:25.48,0:22:28.60,Narrador,,0000,0000,0000,,E por que esse olhar?
+
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx75\fscy55\pos(247,174)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx48\fscy48\pos(247,244)\t(9110,0)}http://torrents.ebrain.com.br

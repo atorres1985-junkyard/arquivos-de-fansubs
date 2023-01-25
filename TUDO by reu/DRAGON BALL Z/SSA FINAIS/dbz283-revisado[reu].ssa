@@ -1,0 +1,247 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: LP!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: NB!,MarkerFeltThin-Plain,30,16768443,16777215,16777215,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:44.61,0:13:54.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.64,0:01:55.37,Narrador,,0000,0000,0000,,Vegeta tentou ganhar tempo\Npara que Goku pudesse armazenar Ki...
+Dialogue: Marked=0,0:01:55.37,0:01:56.98,Narrador,,0000,0000,0000,,suficiente para derrotar Majin Boo.
+Dialogue: Marked=0,0:01:57.50,0:02:03.70,Narrador,,0000,0000,0000,,Mas não houve nada que Vegeta pudesse\Nfazer diante da espetacular força de Majin Boo.
+Dialogue: Marked=0,0:02:14.32,0:02:15.58,Narrador,,0000,0000,0000,,Nesse momento...
+Dialogue: Marked=0,0:02:16.22,0:02:20.71,Narrador,,0000,0000,0000,,O gentil Boo, que havia sido\Nabsorvido por Boo, renasceu.
+Dialogue: Marked=0,0:02:29.52,0:02:32.43,*Default,,0000,0000,0000,,Eu odeio você!\NNão importune o Satan!
+Dialogue: Marked=0,0:02:40.33,0:02:43.73,*Default,,0000,0000,0000,,Ainda não terminou?\NVocê ainda não terminou de reunir seu Ki?!
+Dialogue: Marked=0,0:02:44.61,0:02:49.82,*Default,,0000,0000,0000,,M-Meu poder...\NMeu poder está desaparecendo!
+Dialogue: Marked=0,0:02:54.37,0:02:55.75,Narrador,,0000,0000,0000,,Mas o que é isso?
+Dialogue: Marked=0,0:02:55.75,0:02:57.08,Narrador,,0000,0000,0000,,Depois de armazenar seu Ki,
+Dialogue: Marked=0,0:02:57.58,0:03:02.12,Narrador,,0000,0000,0000,,Goku inesperadamente voltou ao normal,\Ndeixando de ser um Super Saiya-jin!
+
+Dialogue: Marked=0,0:03:03.62,0:03:11.57,apresDBZ2,,0000,0000,0000,,{\1c&HF8F5FE\3c&HFFEAF2\pos(675,70)\shad0\bord0\fad(400,0)\fscx100\fscy100}episódio 283
+Dialogue: Marked=0,0:03:03.62,0:03:11.57,apresDBZ2,,0000,0000,0000,,{\1c&HF8F5FE\3c&HFFEAF2\pos(320,190)\shad0\bord0\fad(400,0)\fscx135\fscy150}O plano secreto de Vegeta
+Dialogue: Marked=0,0:03:03.62,0:03:11.57,apresDBZ2,,0000,0000,0000,,{\1c&HF8F5FE\3c&HFFEAF2\pos(595,200)\shad0\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-10}!
+Dialogue: Marked=0,0:03:03.62,0:03:11.57,apresDBZ2,,0000,0000,0000,,{\1c&HF8F5FE\3c&HFFEAF2\pos(620,200)\shad0\bord0\fad(400,0)\fscx120\fscy190\fnArial\frz-10}!
+Dialogue: Marked=0,0:03:03.62,0:03:11.57,apresDBZ2,,0000,0000,0000,,{\1c&HF8F5FE\3c&HFFEAF2\pos(430,520)\shad0\bord0\fad(400,0)\fscx170\fscy170}Porunga e os 2 desejos
+
+Dialogue: Marked=0,0:03:40.44,0:03:43.57,*Default,,0000,0000,0000,,F-Força, Boo!
+Dialogue: Marked=0,0:04:00.94,0:04:03.17,*Default,,0000,0000,0000,,S-Seu idiota!
+Dialogue: Marked=0,0:04:03.17,0:04:06.38,*Default,,0000,0000,0000,,Você vai deixar todo o\Nsofrimento que passei ser em vão!
+Dialogue: Marked=0,0:04:06.38,0:04:07.82,*Default,,0000,0000,0000,,O que você acha que está fazendo, Kakarotto?!
+Dialogue: Marked=0,0:04:10.70,0:04:12.45,*Default,,0000,0000,0000,,D-Desculpe, Vegeta...
+Dialogue: Marked=0,0:04:13.38,0:04:15.31,*Default,,0000,0000,0000,,M-Maldição!
+Dialogue: Marked=0,0:04:15.31,0:04:18.41,*Default,,0000,0000,0000,,Eu nunca tive problemas enquanto estava morto...
+Dialogue: Marked=0,0:04:19.86,0:04:26.56,*Default,,0000,0000,0000,,Afinal, parece que o Super Saiya-jin 3\Nem um corpo vivo consome muito Ki...
+Dialogue: Marked=0,0:04:26.56,0:04:28.84,*Default,,0000,0000,0000,,Fui derrotado.\NRealmente fui derrotado.
+Dialogue: Marked=0,0:05:05.81,0:05:07.33,*Default,,0000,0000,0000,,Boo!
+Dialogue: Marked=0,0:05:10.92,0:05:13.48,*Default,,0000,0000,0000,,Seu desgraçado!\NComo ousa fazer isso com o Boo!
+Dialogue: Marked=0,0:05:16.84,0:05:18.43,*Default,,0000,0000,0000,,Solte-o! Deixe-o ir!
+Dialogue: Marked=0,0:05:19.01,0:05:21.93,*Default,,0000,0000,0000,,Seu nanico de merda!\NVamos, solte-o!
+Dialogue: Marked=0,0:05:31.98,0:05:33.65,*Default,,0000,0000,0000,,Transforme-se em chocolate!
+Dialogue: Marked=0,0:06:12.73,0:06:15.90,*Default,,0000,0000,0000,,I-Isso é ruim.\NDesse jeito, esse vai ser o fim dele.
+Dialogue: Marked=0,0:06:39.34,0:06:42.34,*Default,,0000,0000,0000,,Kaioshins! Dende!\NPodem me ouvir?!
+Dialogue: Marked=0,0:06:42.34,0:06:45.02,*Default,,0000,0000,0000,,Vocês devem estar vendo o que está\Nacontecendo aqui naquela bola de cristal, certo?!
+Dialogue: Marked=0,0:06:46.88,0:06:51.27,*Default,,0000,0000,0000,,Vocês podem me ouvir?!\NSe puderem, então me respondam!
+Dialogue: Marked=0,0:06:53.89,0:06:55.40,*Default,,0000,0000,0000,,Sim, podemos ouvi-lo...
+Dialogue: Marked=0,0:06:56.54,0:06:57.60,*Default,,0000,0000,0000,,Muito bem!
+Dialogue: Marked=0,0:06:57.60,0:07:00.49,*Default,,0000,0000,0000,,Então vão imediatamente\Npara o restaurado planeta Namek...
+Dialogue: Marked=0,0:07:00.49,0:07:02.32,*Default,,0000,0000,0000,,e reúnam as Dragon Balls!
+Dialogue: Marked=0,0:07:04.23,0:07:06.83,*Default,,0000,0000,0000,,E-Ei, como exatamente...
+Dialogue: Marked=0,0:07:07.47,0:07:09.54,*Default,,0000,0000,0000,,Parem de conversa e andem logo com isso!
+Dialogue: Marked=0,0:07:09.99,0:07:11.56,*Default,,0000,0000,0000,,Nós estamos quase sem tempo!
+Dialogue: Marked=0,0:07:12.50,0:07:14.06,*Default,,0000,0000,0000,,As Dragon Balls?
+Dialogue: Marked=0,0:07:16.26,0:07:19.31,*Default,,0000,0000,0000,,Tenho certeza de que o\NVegeta-san tem alguma idéia em mente!
+Dialogue: Marked=0,0:07:19.31,0:07:20.27,*Default,,0000,0000,0000,,Vamos!
+Dialogue: Marked=0,0:07:22.38,0:07:24.58,*Default,,0000,0000,0000,,Ainda assim, aquelas coisas...
+Dialogue: Marked=0,0:07:25.50,0:07:29.17,*Default,,0000,0000,0000,,Não temos tempo para ser tão detalhistas!
+Dialogue: Marked=0,0:07:29.17,0:07:31.48,*Default,,0000,0000,0000,,Como é errado usá-las para algo justo?!
+Dialogue: Marked=0,0:07:32.48,0:07:34.52,*Default,,0000,0000,0000,,E-Entendi. Entendi!
+Dialogue: Marked=0,0:07:37.22,0:07:39.19,*Default,,0000,0000,0000,,Vamos para o planeta Namek!
+Dialogue: Marked=0,0:07:50.11,0:07:52.46,*Default,,0000,0000,0000,,Parece que eles foram.
+Dialogue: Marked=0,0:07:54.25,0:07:56.30,*Default,,0000,0000,0000,,Vegeta, o que você está fazendo?
+Dialogue: Marked=0,0:07:58.42,0:08:01.71,*Default,,0000,0000,0000,,Ainda é muito cedo para usar as Dragon Balls.
+Dialogue: Marked=0,0:08:03.19,0:08:06.93,*Default,,0000,0000,0000,,Kakarotto, quantas vezes\Nvocê salvou a Terra até agora?
+Dialogue: Marked=0,0:08:09.31,0:08:11.37,*Default,,0000,0000,0000,,Que pergunta é essa,\Nassim, tão de repente?
+Dialogue: Marked=0,0:08:11.37,0:08:13.77,*Default,,0000,0000,0000,,Eu perguntei a você quantas vezes a salvou!
+Dialogue: Marked=0,0:08:14.64,0:08:17.17,*Default,,0000,0000,0000,,Vamos ver, quantas vezes foram?
+Dialogue: Marked=0,0:08:18.65,0:08:22.93,*Default,,0000,0000,0000,,Esta é a hora de deixar o povo\Nda Terra assumir a responsabilidade, para variar.
+Dialogue: Marked=0,0:08:45.11,0:08:46.99,*Default,,0000,0000,0000,,Então este é o planeta Namek?
+Dialogue: Marked=0,0:08:47.82,0:08:50.60,*Default,,0000,0000,0000,,S-Sim.\NDeveria ser...
+Dialogue: Marked=0,0:08:51.08,0:08:55.26,*Default,,0000,0000,0000,,É o planeta Namek!\NNão há dúvidas!
+Dialogue: Marked=0,0:08:55.26,0:08:57.71,*Default,,0000,0000,0000,,M-Mas isto aqui...
+Dialogue: Marked=0,0:08:57.71,0:08:59.91,*Default,,0000,0000,0000,,O que você acha, Dende?
+Dialogue: Marked=0,0:08:59.91,0:09:03.70,*Default,,0000,0000,0000,,Está tudo exatamente\Ncomo costumava ser neste planeta!
+Dialogue: Marked=0,0:09:10.45,0:09:12.81,*Default,,0000,0000,0000,,- Bem-vindo!\N- Você realmente cresceu!
+Dialogue: Marked=0,0:09:12.81,0:09:14.93,*Default,,0000,0000,0000,,P-Pessoal!
+Dialogue: Marked=0,0:09:17.12,0:09:18.61,*Default,,0000,0000,0000,,Há quanto tempo!
+Dialogue: Marked=0,0:09:18.61,0:09:21.41,*Default,,0000,0000,0000,,Chourou-sama, estou tão feliz que esteja bem!
+Dialogue: Marked=0,0:09:21.41,0:09:26.31,*Default,,0000,0000,0000,,Dende, você também parece bem.\NE você realmente parece um Kami-sama!
+Dialogue: Marked=0,0:09:27.43,0:09:28.62,*Default,,0000,0000,0000,,D-De forma alguma...
+Dialogue: Marked=0,0:09:28.62,0:09:33.28,*Default,,0000,0000,0000,,Eu ainda sou muito inexperiente\Ne ainda há muito para eu estudar.
+Dialogue: Marked=0,0:09:35.32,0:09:37.66,*Default,,0000,0000,0000,,Desculpe interromper esta reunião tão tocante,
+Dialogue: Marked=0,0:09:37.66,0:09:40.07,*Default,,0000,0000,0000,,mas não temos tempo a perder.
+Dialogue: Marked=0,0:09:41.37,0:09:42.82,*Default,,0000,0000,0000,,Isso mesmo!
+Dialogue: Marked=0,0:09:42.82,0:09:45.17,*Default,,0000,0000,0000,,Chourou-sama, eu tenho um favor para pedir!
+Dialogue: Marked=0,0:09:45.17,0:09:48.07,*Default,,0000,0000,0000,,Você poderia reunir as\NDragon Balls agora mesmo para mim?!
+Dialogue: Marked=0,0:09:49.04,0:09:52.08,*Default,,0000,0000,0000,,Nós precisamos do poder de Porunga!
+Dialogue: Marked=0,0:09:53.27,0:09:55.37,*Default,,0000,0000,0000,,As Dragon Balls, você diz?
+Dialogue: Marked=0,0:10:01.14,0:10:03.42,*Default,,0000,0000,0000,,Aconteceu alguma coisa com as Dragon Balls?
+Dialogue: Marked=0,0:10:30.30,0:10:34.28,*Default,,0000,0000,0000,,Kaioshin-sama, nós estamos a par de toda a situação.
+Dialogue: Marked=0,0:10:34.28,0:10:36.04,*Default,,0000,0000,0000,,Vamos nos apressar!
+Dialogue: Marked=0,0:10:36.76,0:10:39.42,*Default,,0000,0000,0000,,Sim.\NEntão vocês já as reuniram?
+Dialogue: Marked=0,0:10:40.07,0:10:41.51,*Default,,0000,0000,0000,,Muito obrigado!
+Dialogue: Marked=0,0:10:42.61,0:10:43.59,P!,,0000,0000,0000,,Vegeta-san...
+Dialogue: Marked=0,0:10:44.99,0:10:47.02,*Default,,0000,0000,0000,,Vegeta-san, pode me ouvir?!
+Dialogue: Marked=0,0:10:47.02,0:10:51.98,*Default,,0000,0000,0000,,Vegeta-san, todas as sete\NDragon Balls já estão reunidas!
+Dialogue: Marked=0,0:10:56.50,0:10:57.60,*Default,,0000,0000,0000,,Dende?
+Dialogue: Marked=0,0:10:59.15,0:11:02.19,*Default,,0000,0000,0000,,Por favor, invoque Porunga,\Ndo planeta Namek, imediatamente!
+Dialogue: Marked=0,0:11:05.14,0:11:07.53,*Default,,0000,0000,0000,,Há dois desejos que\Neu quero que sejam concedidos!
+Dialogue: Marked=0,0:11:07.53,0:11:12.35,*Default,,0000,0000,0000,,Primeiro, eu quero que a Terra, que foi destruída, seja restaurada ao que era antes!
+Dialogue: Marked=0,0:11:12.35,0:11:17.09,*Default,,0000,0000,0000,,Depois, eu quero que todos os que\Nmorreram desde o Tenkaichi Budoukai,
+Dialogue: Marked=0,0:11:17.09,0:11:20.99,*Default,,0000,0000,0000,,exceto os realmente maus,\Nsejam trazidos de volta à vida!
+Dialogue: Marked=0,0:11:20.99,0:11:22.42,*Default,,0000,0000,0000,,São esses dois desejos!
+Dialogue: Marked=0,0:11:29.30,0:11:31.84,*Default,,0000,0000,0000,,Devo fazer esses desejos agora mesmo?
+Dialogue: Marked=0,0:11:32.31,0:11:35.06,*Default,,0000,0000,0000,,Isso mesmo!\NImediatamente!
+Dialogue: Marked=0,0:11:35.73,0:11:38.06,*Default,,0000,0000,0000,,M-Mas isso...
+Dialogue: Marked=0,0:11:38.70,0:11:42.73,*Default,,0000,0000,0000,,Dende, parece que o Vegeta tem alguma idéia.
+Dialogue: Marked=0,0:11:42.73,0:11:44.81,*Default,,0000,0000,0000,,Desculpe incomodá-lo,\Nmas você poderia fazer o que ele pediu?
+Dialogue: Marked=0,0:11:44.81,0:11:49.57,*Default,,0000,0000,0000,,S-Sim, entendi!\NE quanto ao terceiro desejo?
+Dialogue: Marked=0,0:11:50.51,0:11:52.90,*Default,,0000,0000,0000,,Depois desses dois primeiros,\Nqualquer coisa está boa!
+Dialogue: Marked=0,0:11:52.90,0:11:54.01,*Default,,0000,0000,0000,,Faça o que quiser!
+Dialogue: Marked=0,0:11:55.01,0:11:58.06,*Default,,0000,0000,0000,,Vegeta, sobre o segundo desejo...
+Dialogue: Marked=0,0:11:58.06,0:11:59.54,*Default,,0000,0000,0000,,Não teria sido mais fácil...
+Dialogue: Marked=0,0:11:59.54,0:12:03.13,*Default,,0000,0000,0000,,apenas pedir que todos aqueles\Nque foram mortos por Boo fossem ressuscitados?
+Dialogue: Marked=0,0:12:04.96,0:12:06.17,*Default,,0000,0000,0000,,Idiota.
+Dialogue: Marked=0,0:12:06.17,0:12:10.59,*Default,,0000,0000,0000,,Se eu tivesse feito isso,\Naté mesmo Babidi e Dabura seriam ressuscitados.
+Dialogue: Marked=0,0:12:11.58,0:12:16.60,*Default,,0000,0000,0000,,Além disso, desse jeito, aquele grupo que eu matei na área do torneio não retornaria à vida.
+Dialogue: Marked=0,0:12:18.90,0:12:22.10,*Default,,0000,0000,0000,,Você realmente pensou em tudo, não é?
+Dialogue: Marked=0,0:12:25.08,0:12:26.91,*Default,,0000,0000,0000,,Isso não vai funcionar, Vegeta-san!
+Dialogue: Marked=0,0:12:26.91,0:12:27.90,*Default,,0000,0000,0000,,P-Pensando bem,
+Dialogue: Marked=0,0:12:28.47,0:12:32.60,*Default,,0000,0000,0000,,com Porunga, nós só podemos\Nressuscitar uma pessoa de cada vez!
+Dialogue: Marked=0,0:12:32.60,0:12:34.76,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:12:34.76,0:12:37.41,*Default,,0000,0000,0000,,A-Agora que ele mencionou,\Né isso mesmo, Vegeta!
+
+Dialogue: Marked=0,0:12:45.66,0:12:48.40,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:45.66,0:12:48.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:45.66,0:12:48.40,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:45.66,0:12:48.40,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:51.66,0:12:54.41,comercial3,,0000,0000,0000,,{\fscx34\fscy45\pos(546,555)\t(9110,0)}animecentral.com.br
+Dialogue: Marked=0,0:12:51.66,0:12:54.41,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:51.66,0:12:54.41,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:51.66,0:12:54.41,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:58.84,0:13:00.83,P!,,0000,0000,0000,,O-O que faremos?
+Dialogue: Marked=0,0:13:00.83,0:13:04.72,P!,,0000,0000,0000,,Nós não podemos ressuscitar\Ntodos na Terra desse jeito!
+Dialogue: Marked=0,0:13:07.57,0:13:10.09,*Default,,0000,0000,0000,,Preocupações assim são desnecessárias.
+Dialogue: Marked=0,0:13:10.09,0:13:16.11,*Default,,0000,0000,0000,,Depois do incidente com Freeza,\Neu aumentei os poderes de Porunga!
+Dialogue: Marked=0,0:13:16.48,0:13:18.05,*Default,,0000,0000,0000,,Hã?! Então ele pode ressuscitar\Nqualquer número de pessoas?!
+Dialogue: Marked=0,0:13:18.86,0:13:20.35,*Default,,0000,0000,0000,,Sim, isso mesmo.
+Dialogue: Marked=0,0:13:22.99,0:13:27.04,*Default,,0000,0000,0000,,E-Esses caras estão bagunçando\Ncom a ordem natural das coisas!
+Dialogue: Marked=0,0:13:39.13,0:13:41.56,*Default,,0000,0000,0000,,Vegeta-san, está tudo bem!
+Dialogue: Marked=0,0:13:43.07,0:13:44.37,*Default,,0000,0000,0000,,Ótimo...
+Dialogue: Marked=0,0:13:45.40,0:13:46.81,*Default,,0000,0000,0000,,Então, por favor, comece.
+Dialogue: Marked=0,0:13:54.49,0:13:56.61,*Default,,0000,0000,0000,,Apareça, Porunga!
+Dialogue: Marked=0,0:14:45.59,0:14:47.08,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:14:57.99,0:15:00.34,*Default,,0000,0000,0000,,Esse é o Porunga?
+Dialogue: Marked=0,0:15:01.07,0:15:04.32,*Default,,0000,0000,0000,,Você pode fazer seus desejos!
+Dialogue: Marked=0,0:15:04.32,0:15:08.51,*Default,,0000,0000,0000,,Eu atenderei apenas a três desejos.
+Dialogue: Marked=0,0:15:11.03,0:15:13.55,*Default,,0000,0000,0000,,Certo, faça os pedidos!
+Dialogue: Marked=0,0:15:13.55,0:15:15.73,*Default,,0000,0000,0000,,Você ainda se lembra do idioma de Namek?
+Dialogue: Marked=0,0:15:16.20,0:15:17.61,*Default,,0000,0000,0000,,S-Sim!
+Dialogue: Marked=0,0:15:18.60,0:15:23.87,N!,,0000,0000,0000,,{\fad(300,0)}Idioma Namek
+Dialogue: Marked=0,0:15:29.13,0:15:34.09,*Default,,0000,0000,0000,,Porunga, um planeta distante chamado\NTerra foi destruído e desapareceu!
+Dialogue: Marked=0,0:15:34.10,0:15:36.42,*Default,,0000,0000,0000,,Por favor, se puder,\Ntraga-o de volta à forma que era antes!
+Dialogue: Marked=0,0:15:50.51,0:15:54.38,*Default,,0000,0000,0000,,Certo!\NEsta é uma tarefa simples.
+Dialogue: Marked=0,0:16:28.63,0:16:30.81,*Default,,0000,0000,0000,,A-A Terra realmente voltou!
+Dialogue: Marked=0,0:16:32.36,0:16:34.81,*Default,,0000,0000,0000,,Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:16:35.24,0:16:39.68,*Default,,0000,0000,0000,,Eu atendi ao seu primeiro desejo.\NAgora, o próximo.
+Dialogue: Marked=0,0:16:39.68,0:16:41.82,*Default,,0000,0000,0000,,Você pode fazer o segundo pedido.
+Dialogue: Marked=0,0:16:44.27,0:16:47.33,*Default,,0000,0000,0000,,Vamos ver, como eu devo dizer isso?
+Dialogue: Marked=0,0:16:48.73,0:16:53.83,N!,,0000,0000,0000,,{\fad(300,0)}Idioma Namek
+Dialogue: Marked=0,0:16:58.47,0:17:05.72,*Default,,0000,0000,0000,,{\fscx94}Por favor, traga de volta à vida todos que morreram desde que Madoushi Babidi chegou à Terra,
+Dialogue: Marked=0,0:17:05.72,0:17:07.60,*Default,,0000,0000,0000,,deixando de lado as pessoas realmente más.
+Dialogue: Marked=0,0:17:22.88,0:17:26.23,*Default,,0000,0000,0000,,Entendido.\NContudo, isto vai demorar um pouco.
+Dialogue: Marked=0,0:17:26.23,0:17:28.62,*Default,,0000,0000,0000,,Eles são muitos e será um pouco difícil.
+Dialogue: Marked=0,0:17:29.20,0:17:30.33,*Default,,0000,0000,0000,,S-Sim!
+Dialogue: Marked=0,0:17:31.99,0:17:35.21,*Default,,0000,0000,0000,,O que é isso?\NEle é capaz de fazer até isso?
+Dialogue: Marked=0,0:17:41.23,0:17:46.72,*Default,,0000,0000,0000,,Por quê? Seu nanico!\NEi! Ei! Solte-o!
+Dialogue: Marked=0,0:17:52.20,0:17:54.73,*Default,,0000,0000,0000,,Vamos!
+Dialogue: Marked=0,0:17:58.25,0:18:03.78,*Default,,0000,0000,0000,,Vamos!\NSolte-o, seu nanico estúpido! Seu...
+Dialogue: Marked=0,0:18:13.88,0:18:15.25,*Default,,0000,0000,0000,,Satan!
+Dialogue: Marked=0,0:19:15.52,0:19:18.90,*Default,,0000,0000,0000,,Isso é ruim!\NVocê percebeu, Kakarotto?
+Dialogue: Marked=0,0:19:18.90,0:19:20.02,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:19:20.61,0:19:24.48,*Default,,0000,0000,0000,,Aquele Boo gordo está\Ncomeçando a perder seu poder.
+Dialogue: Marked=0,0:19:25.28,0:19:27.95,*Default,,0000,0000,0000,,Como os dois são Boo,\Nele está sofrendo muitos danos.
+Dialogue: Marked=0,0:19:33.86,0:19:38.63,*Default,,0000,0000,0000,,{\fad(0,1000)}Ainda não está pronto, Dende?\NOs pedidos ainda não foram atendidos?!
+Dialogue: Marked=0,0:19:41.70,0:19:44.92,*Default,,0000,0000,0000,,Que barulhento.\NPare de reclamar!
+Dialogue: Marked=0,0:19:45.64,0:19:47.42,*Default,,0000,0000,0000,,Porunga está tendo muitas dificuldades!
+Dialogue: Marked=0,0:19:50.46,0:19:55.07,*Default,,0000,0000,0000,,Obrigado por esperar.\NSeu segundo desejo foi atendido.
+Dialogue: Marked=0,0:19:57.14,0:19:59.66,*Default,,0000,0000,0000,,Ele conseguiu! Está feito!
+Dialogue: Marked=0,0:19:59.66,0:20:03.11,*Default,,0000,0000,0000,,A Terra e todos nela foram\Ntrazidos de volta à vida, Vegeta-san!
+Dialogue: Marked=0,0:20:04.37,0:20:05.19,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:20:06.58,0:20:09.83,*Default,,0000,0000,0000,,O-O que você está planejando fazer?
+Dialogue: Marked=0,0:20:11.80,0:20:15.35,*Default,,0000,0000,0000,,Vegeta, sua auréola desapareceu!
+Dialogue: Marked=0,0:20:22.80,0:20:26.80,*Default,,0000,0000,0000,,Isso é ótimo!\NVocê não foi considerado realmente mau!
+Dialogue: Marked=0,0:20:34.21,0:20:37.56,*Default,,0000,0000,0000,,E-Então eu não fui morto por Boo?
+Dialogue: Marked=0,0:20:38.17,0:20:41.56,*Default,,0000,0000,0000,,Francamente!\NO que isso significa?
+Dialogue: Marked=0,0:20:42.77,0:20:47.08,*Default,,0000,0000,0000,,- Mas eu tinha certeza...\N- Então nós não morremos?
+Dialogue: Marked=0,0:20:54.47,0:20:55.21,*Default,,0000,0000,0000,,Hã?
+Dialogue: Marked=0,0:21:00.81,0:21:03.58,*Default,,0000,0000,0000,,O que está acontecendo aqui?
+Dialogue: Marked=0,0:21:13.55,0:21:16.43,*Default,,0000,0000,0000,,Tenho certeza de que\Nfui transformada em chocolate,
+Dialogue: Marked=0,0:21:16.43,0:21:20.03,*Default,,0000,0000,0000,,depois fui comida por\NMajin Boo e então fui para o céu...
+Dialogue: Marked=0,0:21:23.25,0:21:25.15,*Default,,0000,0000,0000,,Entendi, Vegeta!
+Dialogue: Marked=0,0:21:26.75,0:21:28.87,*Default,,0000,0000,0000,,Você quis trazer o Gohan\Ne o Gotenks de volta à vida...
+Dialogue: Marked=0,0:21:28.87,0:21:30.63,*Default,,0000,0000,0000,,para que eles lutem também, certo?
+Dialogue: Marked=0,0:21:30.63,0:21:31.82,*Default,,0000,0000,0000,,Errado!
+Dialogue: Marked=0,0:21:43.19,0:21:45.25,*Default,,0000,0000,0000,,Estamos começando! Prepare-se!
+Dialogue: Marked=0,0:21:45.88,0:21:47.13,*Default,,0000,0000,0000,,Preparar para o quê?
+Dialogue: Marked=0,0:21:51.88,0:21:53.13,*Default,,0000,0000,0000,,Prepare-se para fazer uma Genki-Dama!
+Dialogue: Marked=0,0:21:54.08,0:21:56.74,*Default,,0000,0000,0000,,Genki-Dama?\NUma Genki-Dama?!
+Dialogue: Marked=0,0:22:09.87,0:22:10.65,Narrador,,0000,0000,0000,,O-O que é isso?
+Dialogue: Marked=0,0:22:10.84,0:22:14.40,Narrador,,0000,0000,0000,,O plano secreto de\NVegeta era usar a Genki-Dama!
+Dialogue: Marked=0,0:22:14.51,0:22:16.61,Narrador,,0000,0000,0000,,Vamos lá, todos que foram ressuscitados!
+Dialogue: Marked=0,0:22:16.61,0:22:21.22,NB!,,0000,0000,0000,,{\fad(300,300)}Genki = Energia Vital
+Dialogue: Marked=0,0:22:16.61,0:22:21.22,Narrador,,0000,0000,0000,,Dividam sua Genki\Ncom Goku e derrotem Majin Boo!
+Dialogue: Marked=0,0:22:22.05,0:22:24.46,*Default,,0000,0000,0000,,Uma Genki-Dama, você diz?
+
+Dialogue: Marked=0,0:00:25.52,0:00:28.41,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:00:28.41,0:00:28.52,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}Saibankan
+Dialogue: Marked=0,0:01:05.64,0:01:08.70,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(635,135)\t(9110,0)}Saibankan
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx75\fscy55\pos(237,170)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAEEF7\bord0\fscx55\fscy48\pos(237,245)\t(9110,0)}www.animecentral.com.br

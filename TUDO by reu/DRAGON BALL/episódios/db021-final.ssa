@@ -1,0 +1,321 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,-2147483640,1,0,1,1,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:52.98,0:01:56.45,Narrador,NTP,0000,0000,0000,!Effect,Goku e Kuririn ganharam de seus adversários\Num após o outro nas preliminares.
+Dialogue: Marked=0,0:01:56.65,0:02:00.62,Narrador,NTP,0000,0000,0000,!Effect,E, conseqüentemente, puderam\Nparticipar do Tenkaichi Budoukai!
+Dialogue: Marked=0,0:02:04.66,0:02:08.37,Narrador,NTP,0000,0000,0000,!Effect,Além disso, Yamcha também\Nconseguiu ficar entre os oito.
+
+Dialogue: Marked=0,0:02:11.46,0:02:19.19,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(500,0)}{\pos(290,110)}{\fscx100\fscy100}Episódio 21
+Dialogue: Marked=0,0:02:11.46,0:02:19.19,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(500,0)}{\pos(120,420)}{\fscx155\fscy140}Cuidado, Kuririn!
+
+Dialogue: Marked=0,0:02:21.93,0:02:23.13,*Default,NTP,0000,0000,0000,!Effect,Conseguimos!
+Dialogue: Marked=0,0:02:23.13,0:02:25.29,*Default,NTP,0000,0000,0000,!Effect,- Conseguimos!\N- Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:02:41.71,0:02:42.92,*Default,NTP,0000,0000,0000,!Effect,Com licença!
+Dialogue: Marked=0,0:02:44.20,0:02:45.86,*Default,NTP,0000,0000,0000,!Effect,Licença...
+Dialogue: Marked=0,0:02:45.86,0:02:47.49,*Default,NTP,0000,0000,0000,!Effect,- Licença...\N- Licença...
+Dialogue: Marked=0,0:02:48.24,0:02:49.77,*Default,NTP,0000,0000,0000,!Effect,Tantas pessoas!
+Dialogue: Marked=0,0:02:49.77,0:02:53.71,*Default,NTP,0000,0000,0000,!Effect,Parece que não vamos conseguir encontrar\No Muten Roshi-sama ou seus amigos assim, né?
+Dialogue: Marked=0,0:02:53.94,0:02:55.87,*Default,NTP,0000,0000,0000,!Effect,Senhor...
+Dialogue: Marked=0,0:02:57.94,0:02:59.81,*Default,NTP,0000,0000,0000,!Effect,Posso...
+Dialogue: Marked=0,0:03:06.95,0:03:09.61,*Default,NTP,0000,0000,0000,!Effect,Lá estão eles!\NTodo mundo está junto!
+Dialogue: Marked=0,0:03:10.96,0:03:14.44,*Default,NTP,0000,0000,0000,!Effect,Ei, onde você estava?
+Dialogue: Marked=0,0:03:14.96,0:03:18.04,*Default,NTP,0000,0000,0000,!Effect,E-Em lugar nenhum.\NEste lugar é muito grande.
+Dialogue: Marked=0,0:03:18.04,0:03:21.97,*Default,NTP,0000,0000,0000,!Effect,Embora eu tenha conseguido ir ao banheiro\Ndireito, eu me perdi na volta.
+Dialogue: Marked=0,0:03:21.97,0:03:24.14,*Default,NTP,0000,0000,0000,!Effect,Velhote, enquanto você não estava aqui,
+Dialogue: Marked=0,0:03:24.14,0:03:26.95,*Default,NTP,0000,0000,0000,!Effect,Goku e os outros conseguiram entrar no torneio!
+Dialogue: Marked=0,0:03:26.97,0:03:29.29,*Default,NTP,0000,0000,0000,!Effect,Yamcha e Kuririn também!
+Dialogue: Marked=0,0:03:29.64,0:03:33.65,*Default,NTP,0000,0000,0000,!Effect,Uhun...\NEu ouvi isso do narrador.
+Dialogue: Marked=0,0:03:33.65,0:03:37.32,*Default,NTP,0000,0000,0000,!Effect,Bem, isso tira o peso das minhas costas.
+Dialogue: Marked=0,0:03:37.32,0:03:39.55,*Default,NTP,0000,0000,0000,!Effect,Ah, mas não ligue para isso...\NBulma-san...?
+Dialogue: Marked=0,0:03:42.55,0:03:46.27,PLACA,NTP,0000,0000,0000,!Effect,{\pos(590,490)}{\fscx100\fscy100}TEMPLO BUDO
+Dialogue: Marked=0,0:03:42.65,0:03:46.27,*Default,NTP,0000,0000,0000,!Effect,Eu comprei isto aqui daquela\Nbarraca de lembrancinhas lá!
+Dialogue: Marked=0,0:03:46.66,0:03:48.33,*Default,NTP,0000,0000,0000,!Effect,Olha, uma camiseta!
+Dialogue: Marked=0,0:03:48.33,0:03:50.26,*Default,NTP,0000,0000,0000,!Effect,É. Quero ver como vai ficar em você.
+Dialogue: Marked=0,0:03:50.26,0:03:52.26,*Default,NTP,0000,0000,0000,!Effect,Isto... é para mim?
+Dialogue: Marked=0,0:03:52.26,0:03:53.81,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:03:54.27,0:03:58.53,*Default,NTP,0000,0000,0000,!Effect,Eu também comprei este\Nchaveiro escrito "artes marciais".
+Dialogue: Marked=0,0:03:58.94,0:04:03.27,*Default,NTP,0000,0000,0000,!Effect,Nossa, que legal!\NObrigada, Mestre!
+Dialogue: Marked=0,0:04:03.27,0:04:07.61,*Default,NTP,0000,0000,0000,!Effect,E-Em troca, vamos ver...\NVocê sabe...
+Dialogue: Marked=0,0:04:09.61,0:04:12.28,*Default,NTP,0000,0000,0000,!Effect,Você deixa este velho homem...
+Dialogue: Marked=0,0:04:12.28,0:04:16.51,*Default,NTP,0000,0000,0000,!Effect,Com muito pouco tempo pela frente ter o\Nseu desejo realizado? Só uma vez...
+Dialogue: Marked=0,0:04:17.29,0:04:21.52,*Default,NTP,0000,0000,0000,!Effect,Vamos jogar Pafu-Pafu, tá?\NPafu... Pafu?
+Dialogue: Marked=0,0:04:37.31,0:04:40.31,*Default,NTP,0000,0000,0000,!Effect,V-Você deveria ter ido para\Nas preliminares, também.
+Dialogue: Marked=0,0:04:40.31,0:04:43.07,*Default,NTP,0000,0000,0000,!Effect,Oolong!
+Dialogue: Marked=0,0:04:43.31,0:04:43.98,*Default,NTP,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:04:43.98,0:04:48.58,*Default,NTP,0000,0000,0000,!Effect,Goku! Parabéns!\NVocê finalmente conseguiu, né?
+Dialogue: Marked=0,0:04:48.92,0:04:50.92,*Default,NTP,0000,0000,0000,!Effect,Todo mundo foi incrível, não foi?
+Dialogue: Marked=0,0:04:50.92,0:04:53.55,*Default,NTP,0000,0000,0000,!Effect,Você lutou como nunca!
+Dialogue: Marked=0,0:04:55.26,0:04:57.38,*Default,NTP,0000,0000,0000,!Effect,Você foi bem. Muito bem.
+Dialogue: Marked=0,0:04:57.60,0:04:59.26,*Default,NTP,0000,0000,0000,!Effect,Velhote!
+Dialogue: Marked=0,0:04:59.26,0:05:03.60,*Default,NTP,0000,0000,0000,!Effect,Muito obrigado! Isso é tudo graças\Na você, Muten Roshi-sama!
+Dialogue: Marked=0,0:05:03.60,0:05:07.89,*Default,NTP,0000,0000,0000,!Effect,Agora, vamos começar o Tenkaichi\NBudoukai em instantes.
+Dialogue: Marked=0,0:05:08.27,0:05:13.28,*Default,NTP,0000,0000,0000,!Effect,Os oito competidores, por favor,\Nreúnam-se no templo do corredor principal.
+Dialogue: Marked=0,0:05:13.28,0:05:15.28,*Default,NTP,0000,0000,0000,!Effect,Vocês têm de se reunir agora.
+Dialogue: Marked=0,0:05:15.28,0:05:16.86,*Default,NTP,0000,0000,0000,!Effect,- Uhun...\N- Certo!
+Dialogue: Marked=0,0:05:19.62,0:05:21.65,*Default,NTP,0000,0000,0000,!Effect,Tá, vemos vocês mais tarde, então!
+Dialogue: Marked=0,0:05:22.95,0:05:24.79,*Default,NTP,0000,0000,0000,!Effect,Boa sorte!
+Dialogue: Marked=0,0:05:27.29,0:05:29.41,*Default,NTP,0000,0000,0000,!Effect,Agora, então...
+Dialogue: Marked=0,0:05:30.96,0:05:34.63,*Default,NTP,0000,0000,0000,!Effect,Ele está pequeno como sempre, né?
+Dialogue: Marked=0,0:05:34.63,0:05:37.97,*Default,NTP,0000,0000,0000,!Effect,Ei? Onde o velhote foi?
+Dialogue: Marked=0,0:05:37.97,0:05:40.31,*Default,NTP,0000,0000,0000,!Effect,Qual o problema?\NEle sumiu de novo?
+Dialogue: Marked=0,0:05:40.31,0:05:41.92,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:05:46.64,0:05:48.43,*Default,NTP,0000,0000,0000,!Effect,Sério? Você viu todo mundo?
+Dialogue: Marked=0,0:05:48.65,0:05:51.43,*Default,NTP,0000,0000,0000,!Effect,Uhun...\NFoi como nos velhos tempos!
+Dialogue: Marked=0,0:06:03.26,0:06:05.94,*Default,NTP,0000,0000,0000,!Effect,G-Garota, você vai entrar, também?
+Dialogue: Marked=0,0:06:30.29,0:06:32.96,*Default,NTP,0000,0000,0000,!Effect,Argh!
+Dialogue: Marked=0,0:06:32.96,0:06:35.86,*Default,NTP,0000,0000,0000,!Effect,Sai da minha frente! Sai da minha frente!
+Dialogue: Marked=0,0:06:42.97,0:06:44.97,*Default,NTP,0000,0000,0000,!Effect,Quem era?
+Dialogue: Marked=0,0:06:44.97,0:06:49.57,*Default,NTP,0000,0000,0000,!Effect,A-Aquele cara tem uma força\Nsobre-humana assustadora.
+Dialogue: Marked=0,0:06:49.57,0:06:52.58,*Default,NTP,0000,0000,0000,!Effect,Entretanto, o que é mais assustador\Nque sua força é o seu super mau cheiro...
+Dialogue: Marked=0,0:06:52.58,0:06:55.58,*Default,NTP,0000,0000,0000,!Effect,Dizem que ele nunca tomou\Nbanho desde que nasceu!
+Dialogue: Marked=0,0:06:55.58,0:06:58.25,*Default,NTP,0000,0000,0000,!Effect,Ele fede tanto que você tampa\Nseu nariz por instinto!
+Dialogue: Marked=0,0:06:58.25,0:07:01.59,*Default,NTP,0000,0000,0000,!Effect,Assim, o mau cheiro funciona como um ataque,\Njá que impede os adversários de usarem as mãos.
+Dialogue: Marked=0,0:07:01.59,0:07:03.59,*Default,NTP,0000,0000,0000,!Effect,Sua imundície é sua arma, né?
+Dialogue: Marked=0,0:07:03.59,0:07:08.73,*Default,NTP,0000,0000,0000,!Effect,Meu nariz é tão bom quanto o de um cachorro!\NEntão, isso me afeta muito!
+Dialogue: Marked=0,0:07:09.59,0:07:13.76,*Default,NTP,0000,0000,0000,!Effect,Certo! Todos os participantes,\Npor favor, venham juntos!
+Dialogue: Marked=0,0:07:19.94,0:07:22.49,*Default,NTP,0000,0000,0000,!Effect,Poderia chegar um pouco para trás?
+Dialogue: Marked=0,0:07:24.61,0:07:26.81,*Default,NTP,0000,0000,0000,!Effect,Agora, nós vamos ter um sorteio\Npara determinar seus adversários,
+Dialogue: Marked=0,0:07:26.81,0:07:29.95,*Default,NTP,0000,0000,0000,!Effect,e a ordem em que vão lutar.
+Dialogue: Marked=0,0:07:29.95,0:07:32.32,*Default,NTP,0000,0000,0000,!Effect,Quando seu nome for chamado,\Ntire um número.
+Dialogue: Marked=0,0:07:33.62,0:07:34.95,*Default,NTP,0000,0000,0000,!Effect,Ei, um momento...
+Dialogue: Marked=0,0:07:34.95,0:07:36.29,*Default,NTP,0000,0000,0000,!Effect,Pois não?
+Dialogue: Marked=0,0:07:36.29,0:07:40.22,*Default,NTP,0000,0000,0000,!Effect,Eu quero lutar com essa garota.
+Dialogue: Marked=0,0:07:42.29,0:07:45.30,*Default,NTP,0000,0000,0000,!Effect,Por favor, não peça para ter\Nas coisas do seu jeito!
+Dialogue: Marked=0,0:07:45.30,0:07:47.14,P!,NTP,0000,0000,0000,!Effect,Ele não sabe nada de romance!
+Dialogue: Marked=0,0:07:49.90,0:07:53.19,*Default,NTP,0000,0000,0000,!Effect,Agora, eu lerei os nomes.\NHmmm... Namu-san...
+Dialogue: Marked=0,0:07:53.91,0:07:55.13,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:08:01.91,0:08:02.60,*Default,NTP,0000,0000,0000,!Effect,Número 5.
+Dialogue: Marked=0,0:08:03.58,0:08:07.98,*Default,NTP,0000,0000,0000,!Effect,Vamos ver, número 5...\NÉ a terceira luta.
+Dialogue: Marked=0,0:08:09.92,0:08:11.45,*Default,NTP,0000,0000,0000,!Effect,O monstro Giran-san!
+Dialogue: Marked=0,0:08:14.26,0:08:17.99,*Default,NTP,0000,0000,0000,!Effect,Número 8... quarta luta.
+Dialogue: Marked=0,0:08:18.26,0:08:20.79,*Default,NTP,0000,0000,0000,!Effect,Bacteria-san!
+Dialogue: Marked=0,0:08:21.93,0:08:24.50,*Default,NTP,0000,0000,0000,!Effect,N-Número 1... primeira luta.
+Dialogue: Marked=0,0:08:24.94,0:08:25.94,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san!
+Dialogue: Marked=0,0:08:25.94,0:08:26.94,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:08:26.94,0:08:28.42,*Default,NTP,0000,0000,0000,!Effect,Número 4... segunda luta.
+Dialogue: Marked=0,0:08:30.61,0:08:31.80,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:08:32.28,0:08:33.90,*Default,NTP,0000,0000,0000,!Effect,S-Sim!
+Dialogue: Marked=0,0:08:36.61,0:08:38.91,*Default,NTP,0000,0000,0000,!Effect,Sua mão consegue chegar?
+Dialogue: Marked=0,0:08:43.96,0:08:45.23,*Default,NTP,0000,0000,0000,!Effect,Número 2!
+Dialogue: Marked=0,0:08:53.90,0:08:58.07,*Default,NTP,0000,0000,0000,!Effect,Número 2, né? Então é a\Nprimeira luta, contra Bacteria-san.
+Dialogue: Marked=0,0:09:05.75,0:09:08.72,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(400,0)\frz90\pos(135,210)\fscx100\fscy100}Mago Gosora
+Dialogue: Marked=0,0:09:04.24,0:09:08.72,*Default,NTP,0000,0000,0000,!Effect,Vejamos... Mago Gosora-san...
+Dialogue: Marked=0,0:09:09.25,0:09:10.96,*Default,NTP,0000,0000,0000,!Effect,Mago Gosora-san?
+Dialogue: Marked=0,0:09:13.58,0:09:15.76,*Default,NTP,0000,0000,0000,!Effect,Não está? Mago Gosora-san!
+Dialogue: Marked=0,0:09:23.26,0:09:26.85,*Default,NTP,0000,0000,0000,!Effect,Um, dois, três...\NEstranho...
+Dialogue: Marked=0,0:09:29.27,0:09:34.27,Nota,NTP,0000,0000,0000,!Effect,{\fad(400,400)}"Mago Gosora" e "Son Goku" podem ser escritos da mesma maneira em kanji.
+Dialogue: Marked=0,0:09:29.27,0:09:32.28,*Default,NTP,0000,0000,0000,!Effect,Não é "Son Goku"?
+Dialogue: Marked=0,0:09:34.27,0:09:41.75,*Default,NTP,0000,0000,0000,!Effect,I-Isso! Que ignorância da minha parte...\NS-Son Goku-san, você está aí? Son Goku-san?
+Dialogue: Marked=0,0:09:42.08,0:09:42.79,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:09:45.28,0:09:48.30,*Default,NTP,0000,0000,0000,!Effect,Número 7... a quarta luta.
+Dialogue: Marked=0,0:09:48.89,0:09:51.22,*Default,NTP,0000,0000,0000,!Effect,Lanfang-san!
+Dialogue: Marked=0,0:09:51.22,0:09:52.31,*Default,NTP,0000,0000,0000,!Effect,Número 6.
+Dialogue: Marked=0,0:09:52.89,0:09:55.26,*Default,NTP,0000,0000,0000,!Effect,Jackie Chun-san!
+
+Dialogue: Marked=0,0:09:56.34,0:09:58.56,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,0)\pos(120,540)\fscx100\fscy95}K\NU\NR\NI\NR\NI\NN
+Dialogue: Marked=0,0:09:56.34,0:09:58.56,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,0)\pos(650,530)\fscx100\fscy110}Y\NA\NM\NC\NH\NA
+Dialogue: Marked=0,0:09:58.05,0:09:58.56,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,0)\pos(360,350)\fscx100\fscy85}J\NA
+Dialogue: Marked=0,0:09:58.22,0:09:58.56,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,0)\pos(360,380)\fscx100\fscy85}C
+Dialogue: Marked=0,0:09:58.34,0:09:58.56,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,0)\pos(360,410)\fscx100\fscy85}K
+
+Dialogue: Marked=0,0:09:56.56,0:09:58.09,*Default,NTP,0000,0000,0000,!Effect,Número 3.
+Dialogue: Marked=0,0:09:59.56,0:10:02.30,*Default,NTP,0000,0000,0000,!Effect,Foi assim que ficou definido.
+Dialogue: Marked=0,0:10:02.30,0:10:04.24,*Default,NTP,0000,0000,0000,!Effect,As lutas serão definidas por um ponto.
+Dialogue: Marked=0,0:10:04.24,0:10:06.77,*Default,NTP,0000,0000,0000,!Effect,Caindo da plataforma, quero dizer,\Ndo ringue de batalha,
+Dialogue: Marked=0,0:10:06.77,0:10:09.91,*Default,NTP,0000,0000,0000,!Effect,ou dizendo que desiste, você perde.
+Dialogue: Marked=0,0:10:09.91,0:10:14.15,*Default,NTP,0000,0000,0000,!Effect,Entretanto, enfiar o dedos nos olhos ou\Natacar partes vitais são contra as regras.
+Dialogue: Marked=0,0:10:15.25,0:10:16.58,*Default,NTP,0000,0000,0000,!Effect,O que é uma parte vital?
+Dialogue: Marked=0,0:10:16.58,0:10:20.62,*Default,NTP,0000,0000,0000,!Effect,Popularmente, significa seu saco.
+Dialogue: Marked=0,0:10:20.92,0:10:24.62,*Default,NTP,0000,0000,0000,!Effect,Ei, eu não tenho isso...
+Dialogue: Marked=0,0:10:27.93,0:10:30.29,*Default,NTP,0000,0000,0000,!Effect,Agora, as lutas começarão em instantes...
+Dialogue: Marked=0,0:10:30.29,0:10:34.59,*Default,NTP,0000,0000,0000,!Effect,Então, por favor, esperem até sua vez.
+Dialogue: Marked=0,0:10:35.60,0:10:36.63,*Default,NTP,0000,0000,0000,!Effect,Diga! Diga! Diga! Diga! Diga!
+Dialogue: Marked=0,0:10:36.93,0:10:39.27,*Default,NTP,0000,0000,0000,!Effect,E o almoço?
+Dialogue: Marked=0,0:10:39.27,0:10:43.27,*Default,NTP,0000,0000,0000,!Effect,Você vai comer antes das lutas?
+Dialogue: Marked=0,0:10:43.27,0:10:44.94,*Default,NTP,0000,0000,0000,!Effect,Você não prefere esperar até acabar?
+Dialogue: Marked=0,0:10:45.94,0:10:47.48,*Default,NTP,0000,0000,0000,!Effect,Eu vou comer!
+Dialogue: Marked=0,0:10:51.88,0:10:54.22,*Default,NTP,0000,0000,0000,!Effect,Então, preparem alguma coisa para ele.
+Dialogue: Marked=0,0:10:54.22,0:10:56.78,*Default,NTP,0000,0000,0000,!Effect,Entendido.\NPor aqui, por favor.
+Dialogue: Marked=0,0:10:57.56,0:10:58.89,*Default,NTP,0000,0000,0000,!Effect,Kuririn, você está bem?
+Dialogue: Marked=0,0:10:58.89,0:11:02.70,*Default,NTP,0000,0000,0000,!Effect,V-Você só pode estar brincando! Eu estou\Ntão nervoso que não pude nem me abaixar!
+Dialogue: Marked=0,0:11:09.57,0:11:12.76,*Default,NTP,0000,0000,0000,!Effect,Com licença! Mais um!
+Dialogue: Marked=0,0:11:19.58,0:11:22.68,*Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores, pedimos\Ndesculpas pelo longo atraso.
+Dialogue: Marked=0,0:11:23.92,0:11:30.10,*Default,NTP,0000,0000,0000,!Effect,Agora, vamos dar início ao\N21º Tenkaichi Budoukai!
+Dialogue: Marked=0,0:11:30.92,0:11:35.11,*Default,NTP,0000,0000,0000,!Effect,Agora, anunciaremos as lutas\Nda primeira rodada.
+
+Dialogue: Marked=0,0:11:35.11,0:11:38.08,PLACA2,NTP,0000,0000,0000,!Effect,{\pos(400,350)\fscx140\fscy100}Primeira Luta
+
+Dialogue: Marked=0,0:11:36.93,0:11:38.08,*Default,NTP,0000,0000,0000,!Effect,Na primeira luta...
+Dialogue: Marked=0,0:11:38.93,0:11:40.95,*Default,NTP,0000,0000,0000,!Effect,Bacteria contra Kuririn!
+
+Dialogue: Marked=0,0:11:43.11,0:11:46.09,PLACA2,NTP,0000,0000,0000,!Effect,{\pos(400,350)\fscx140\fscy100}Segunda Luta
+
+Dialogue: Marked=0,0:11:44.94,0:11:46.09,*Default,NTP,0000,0000,0000,!Effect,Na segunda luta...
+Dialogue: Marked=0,0:11:46.27,0:11:49.16,*Default,NTP,0000,0000,0000,!Effect,Jackie Chun contra Yamcha!
+
+Dialogue: Marked=0,0:11:51.12,0:11:54.09,PLACA2,NTP,0000,0000,0000,!Effect,{\pos(400,350)\fscx140\fscy100}Terceira Luta
+
+Dialogue: Marked=0,0:11:52.28,0:11:54.09,*Default,NTP,0000,0000,0000,!Effect,Na terceira luta...
+Dialogue: Marked=0,0:11:54.28,0:11:56.59,*Default,NTP,0000,0000,0000,!Effect,Lanfang contra Namu!
+
+Dialogue: Marked=0,0:11:59.13,0:12:02.10,PLACA2,NTP,0000,0000,0000,!Effect,{\pos(400,350)\fscx140\fscy100}Quarta Luta
+
+Dialogue: Marked=0,0:11:59.62,0:12:01.62,*Default,NTP,0000,0000,0000,!Effect,Na quarta luta...
+Dialogue: Marked=0,0:12:01.62,0:12:06.85,*Default,NTP,0000,0000,0000,!Effect,Mago...\NErrr, Son Goku contra Giran!
+
+Dialogue: Marked=0,0:12:09.43,0:12:13.53,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(676,578)}KINTOUN
+Dialogue: Marked=0,0:12:09.43,0:12:13.53,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(680,581)}KINTOUN
+Dialogue: Marked=0,0:12:09.43,0:12:13.53,apresenta 2,,0000,0000,0000,,{\pos(685,597)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:09.43,0:12:13.53,apresenta,,0000,0000,0000,,{\pos(689,601)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:12:15.81,0:12:19.20,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(610,578)}KINTOUN
+Dialogue: Marked=0,0:12:15.81,0:12:19.20,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(614,581)}KINTOUN
+Dialogue: Marked=0,0:12:15.81,0:12:19.20,apresenta 2,,0000,0000,0000,,{\pos(655,597)\fscx100\fscy140}kintoun.animirc.net
+Dialogue: Marked=0,0:12:15.81,0:12:19.20,apresenta,,0000,0000,0000,,{\pos(659,601)\fscx100\fscy140}kintoun.animirc.net
+
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(400,25)\fscx45\fscy45}CAMPEÃO TENKAICHI
+
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(400,150)\fscx45\fscy45}FINAL
+
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(260,200)\fscx45\fscy45}5ª LUTA
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(550,190)\fscx45\fscy45}6ª LUTA
+
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(180,260)\fscx45\fscy45}1ª LUTA
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(340,260)\fscx45\fscy45}2ª LUTA
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(480,260)\fscx45\fscy45}3ª LUTA
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(630,260)\fscx45\fscy45}4ª LUTA
+
+Dialogue: Marked=0,0:12:19.23,0:12:23.28,PLACA1,NTP,0000,0000,0000,!Effect,{\fscx60\fscy48\t(0,4050,\fscx75\fscy75)\move(170,490,220,510,4050,0)}B\NA\NC\NT\NE\NR\NI\NA
+Dialogue: Marked=0,0:12:19.23,0:12:23.28,PLACA1,NTP,0000,0000,0000,!Effect,{\fscx60\fscy60\t(0,4050,\fscx75\fscy75)\move(250,485,330,490,4050,0)}K\NU\NR\NI\NR\NI\NN
+Dialogue: Marked=0,0:12:23.28,0:12:27.21,PLACA1,NTP,0000,0000,0000,!Effect,{\fscx75\fscy75\t(0,6000,\fscx100\fscy100)\move(220,510,350,490,5000,0)}B\NA\NC\NT\NE\NR\NI\NA
+Dialogue: Marked=0,0:12:23.28,0:12:27.21,PLACA1,NTP,0000,0000,0000,!Effect,{\fscx75\fscy75\t(0,6000,\fscx100\fscy100)\move(330,490,560,460,5000,0)}K\NU\NR\NI\NR\NI\NN
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(345,510)\fscx60\fscy45}J\NA\NC\NK\NI\NE\N \NC\NH\NU\NN
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(410,480)\fscx60\fscy60}Y\NA\NM\NC\NH\NA
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(460,460)\fscx60\fscy60}N\NA\NM\NU
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(545,485)\fscx60\fscy60}L\NA\NN\NF\NA\NN\NG
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(620,495)\fscx60\fscy55}S\NO\NN\N \NG\NO\NK\NU
+Dialogue: Marked=0,0:12:19.23,0:12:19.83,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(0,600)\pos(710,470)\fscx60\fscy60}G\NI\NR\NA\NN
+
+Dialogue: Marked=0,0:12:20.44,0:12:25.92,*Default,NTP,0000,0000,0000,!Effect,Daqui a pouco, a primeira luta, entre o\Nlutador Bacteria e o lutador Kuririn, começará.
+Dialogue: Marked=0,0:12:27.61,0:12:34.25,*Default,NTP,0000,0000,0000,!Effect,O vencedor deste torneio vai receber\Num prêmio de 500.000 zeni!
+Dialogue: Marked=0,0:12:35.19,0:12:37.90,*Default,NTP,0000,0000,0000,!Effect,E agora, antes da primeira luta começar,
+Dialogue: Marked=0,0:12:37.90,0:12:41.26,*Default,NTP,0000,0000,0000,!Effect,vamos ouvir umas palavras do\Npadre do templo Budo. Aqui.
+Dialogue: Marked=0,0:12:41.60,0:12:43.50,*Default,NTP,0000,0000,0000,!Effect,Bem, senhor, vá em frente.
+Dialogue: Marked=0,0:13:04.34,0:13:05.53,*Default,NTP,0000,0000,0000,!Effect,AU!
+Dialogue: Marked=0,0:13:06.27,0:13:07.61,*Default,NTP,0000,0000,0000,!Effect,Muito obrigado.
+Dialogue: Marked=0,0:13:10.75,0:13:13.47,*Default,NTP,0000,0000,0000,!Effect,Agora, a primeira luta começa!
+Dialogue: Marked=0,0:13:15.95,0:13:19.58,*Default,NTP,0000,0000,0000,!Effect,Ambos competidores: por favor, entrem!
+Dialogue: Marked=0,0:13:22.62,0:13:24.17,*Default,NTP,0000,0000,0000,!Effect,Boa sorte lá fora, Kuririn!
+Dialogue: Marked=0,0:13:24.62,0:13:27.29,*Default,NTP,0000,0000,0000,!Effect,Você pode ganhar dele com\Ncerteza, você sabe disso!
+Dialogue: Marked=0,0:13:27.29,0:13:28.88,*Default,NTP,0000,0000,0000,!Effect,P-Posso...
+Dialogue: Marked=0,0:13:43.98,0:13:48.85,*Default,NTP,0000,0000,0000,!Effect,Aqui nós temos o participante Kuririn,\Nque é o mais novo nesse torneio,
+Dialogue: Marked=0,0:13:48.85,0:13:50.92,*Default,NTP,0000,0000,0000,!Effect,com apenas 13 anos!
+Dialogue: Marked=0,0:13:50.92,0:13:53.15,*Default,NTP,0000,0000,0000,!Effect,E esse fedorento senhor aqui que...
+Dialogue: Marked=0,0:13:53.15,0:13:57.33,*Default,NTP,0000,0000,0000,!Effect,disse nunca ter tomado banho desde que\Nnasceu é o participante Bacteria!
+Dialogue: Marked=0,0:13:58.11,0:14:00.40,*Default,NTP,0000,0000,0000,!Effect,Então, Kuririn é o mais novo, né?
+Dialogue: Marked=0,0:14:00.40,0:14:02.45,*Default,NTP,0000,0000,0000,!Effect,Está fedendo mesmo, né?
+Dialogue: Marked=0,0:14:02.45,0:14:07.09,*Default,NTP,0000,0000,0000,!Effect,Ei, aquele carinha fez bem só de entrar!
+Dialogue: Marked=0,0:14:10.18,0:14:13.35,*Default,NTP,0000,0000,0000,!Effect,Ei! Torcerei por você!
+Dialogue: Marked=0,0:14:14.97,0:14:16.56,*Default,NTP,0000,0000,0000,!Effect,Escuta aqui...
+Dialogue: Marked=0,0:14:17.41,0:14:19.85,*Default,NTP,0000,0000,0000,!Effect,Se você cair deste ringue, você perde!
+Dialogue: Marked=0,0:14:21.41,0:14:25.32,*Default,NTP,0000,0000,0000,!Effect,Se você for nocauteado e a\Ncontagem for até 10, você perde!
+Dialogue: Marked=0,0:14:25.32,0:14:28.34,*Default,NTP,0000,0000,0000,!Effect,Se você disser "tio", você desiste.
+Dialogue: Marked=0,0:14:28.34,0:14:30.13,*Default,NTP,0000,0000,0000,!Effect,A luta não tem limite de tempo.
+Dialogue: Marked=0,0:14:42.21,0:14:45.71,*Default,NTP,0000,0000,0000,!Effect,Luta 1, comece!
+Dialogue: Marked=0,0:15:14.85,0:15:17.45,*Default,NTP,0000,0000,0000,!Effect,Desviou bem, seu garoto imprudente!
+Dialogue: Marked=0,0:15:18.91,0:15:24.46,*Default,NTP,0000,0000,0000,!Effect,Agora, dê uma cheirada no meu bafo!
+Dialogue: Marked=0,0:15:35.31,0:15:36.52,*Default,NTP,0000,0000,0000,!Effect,E mais...
+Dialogue: Marked=0,0:16:11.07,0:16:12.51,*Default,NTP,0000,0000,0000,!Effect,Ah! Kuririn!
+Dialogue: Marked=0,0:16:13.12,0:16:17.41,*Default,NTP,0000,0000,0000,!Effect,Oh, o participante Kuririn\Né derrubado rapidamente!
+Dialogue: Marked=0,0:16:17.41,0:16:20.02,*Default,NTP,0000,0000,0000,!Effect,1... 2... 3...
+Dialogue: Marked=0,0:16:20.54,0:16:24.02,*Default,NTP,0000,0000,0000,!Effect,Foi um ataque doloroso,\Nde hálito e "virilha"!
+Dialogue: Marked=0,0:16:24.49,0:16:26.65,*Default,NTP,0000,0000,0000,!Effect,Não deve dar para agüentar!
+Dialogue: Marked=0,0:16:27.08,0:16:28.95,*Default,NTP,0000,0000,0000,!Effect,Que técnica vulgar!
+Dialogue: Marked=0,0:16:28.95,0:16:31.09,*Default,NTP,0000,0000,0000,!Effect,Kuririn, levante-se!
+Dialogue: Marked=0,0:16:31.09,0:16:36.02,*Default,NTP,0000,0000,0000,!Effect,Ei, agüenta aí! Agüenta! Vamos!
+Dialogue: Marked=0,0:16:49.70,0:16:52.37,*Default,NTP,0000,0000,0000,!Effect,Eu te estrangularei até a morte!
+Dialogue: Marked=0,0:16:52.37,0:16:56.71,*Default,NTP,0000,0000,0000,!Effect,Oh, Bacteria não é só um cara fedorento!
+Dialogue: Marked=0,0:16:56.71,0:17:02.02,*Default,NTP,0000,0000,0000,!Effect,Ele está segurando o participante Kuririn\Npelo pescoço! Isso que é castigo!
+Dialogue: Marked=0,0:17:03.53,0:17:06.23,*Default,NTP,0000,0000,0000,!Effect,Kuririn!\NMande os braços dele para longe!
+Dialogue: Marked=0,0:17:19.80,0:17:22.33,*Default,NTP,0000,0000,0000,!Effect,1... 2...
+Dialogue: Marked=0,0:17:22.33,0:17:24.03,*Default,NTP,0000,0000,0000,!Effect,Por quê, garoto...?
+Dialogue: Marked=0,0:17:24.03,0:17:25.21,*Default,NTP,0000,0000,0000,!Effect,3...
+Dialogue: Marked=0,0:17:34.46,0:17:38.97,*Default,NTP,0000,0000,0000,!Effect,O participante Kuririn não tem para onde ir!\NSe ele cair do ringue, perde!
+Dialogue: Marked=0,0:18:06.38,0:18:11.50,*Default,NTP,0000,0000,0000,!Effect,E agora? O participante Kuririn foi pego pela\Ngrande parte de trás do participante Bacteria!
+Dialogue: Marked=0,0:18:15.72,0:18:17.55,*Default,NTP,0000,0000,0000,!Effect,E agora, meu golpe final!
+Dialogue: Marked=0,0:18:24.07,0:18:28.40,*Default,NTP,0000,0000,0000,!Effect,Nossa! Lá está!\NSilencioso, mas mortal!
+Dialogue: Marked=0,0:18:28.40,0:18:30.90,*Default,NTP,0000,0000,0000,!Effect,Isto é o que você esperaria\Ndo campeão do mau cheiro!
+Dialogue: Marked=0,0:18:32.41,0:18:34.44,*Default,NTP,0000,0000,0000,!Effect,Sob o efeito do ataque do\Nparticipante Bacteria,
+Dialogue: Marked=0,0:18:34.44,0:18:38.28,*Default,NTP,0000,0000,0000,!Effect,o participante Kuririn não consegue ficar de pé!
+Dialogue: Marked=0,0:18:56.70,0:19:01.40,*Default,NTP,0000,0000,0000,!Effect,O que é isso?!\NEle ainda continua com vários chutes!
+Dialogue: Marked=0,0:19:04.71,0:19:08.18,*Default,NTP,0000,0000,0000,!Effect,Mesmo assim, que truque sujo!
+Dialogue: Marked=0,0:19:08.18,0:19:11.05,*Default,NTP,0000,0000,0000,!Effect,O participante Kuririn\Nparece estar para perder...
+Dialogue: Marked=0,0:19:11.05,0:19:13.29,*Default,NTP,0000,0000,0000,!Effect,sem ter feito nenhum ataque decente!
+Dialogue: Marked=0,0:19:29.73,0:19:31.56,*Default,NTP,0000,0000,0000,!Effect,Consegui!
+Dialogue: Marked=0,0:19:34.40,0:19:36.76,*Default,NTP,0000,0000,0000,!Effect,1... 2...
+Dialogue: Marked=0,0:19:37.41,0:19:39.27,*Default,NTP,0000,0000,0000,!Effect,- Agüente firme, Kuririn!
+Dialogue: Marked=0,0:19:39.07,0:19:41.01,*Default,NTP,0000,0000,0000,!Effect,- Levante-se!
+Dialogue: Marked=0,0:19:41.01,0:19:42.41,*Default,NTP,0000,0000,0000,!Effect,Levante-se!
+Dialogue: Marked=0,0:19:42.41,0:19:44.76,*Default,NTP,0000,0000,0000,!Effect,Kuririn! Kuririn!
+Dialogue: Marked=0,0:19:45.08,0:19:50.35,*Default,NTP,0000,0000,0000,!Effect,Kuririn! Kuririn!\NKuririn! Kuririn!
+Dialogue: Marked=0,0:19:50.35,0:19:53.83,*Default,NTP,0000,0000,0000,!Effect,5... 6...
+Dialogue: Marked=0,0:19:53.83,0:19:57.03,*Default,NTP,0000,0000,0000,!Effect,Levante-se, Kuririn!\NNão perca para esse cara!
+Dialogue: Marked=0,0:19:59.22,0:20:02.36,*Default,NTP,0000,0000,0000,!Effect,- Consegui! Consegui! Consegui!\N- Kuririn, pensa!
+Dialogue: Marked=0,0:20:02.36,0:20:06.03,*Default,NTP,0000,0000,0000,!Effect,O mau cheiro está todo na sua mente!\NNão há como você cheirar, certo?
+Dialogue: Marked=0,0:20:06.59,0:20:09.29,*Default,NTP,0000,0000,0000,!Effect,Você não tem nariz, tem?
+Dialogue: Marked=0,0:20:13.53,0:20:14.79,*Default,NTP,0000,0000,0000,!Effect,É mesmo!
+Dialogue: Marked=0,0:20:15.38,0:20:17.43,*Default,NTP,0000,0000,0000,!Effect,9...
+Dialogue: Marked=0,0:20:18.71,0:20:22.84,*Default,NTP,0000,0000,0000,!Effect,Nossa! O participante Kuririn levantou!\NEle está de pé!
+Dialogue: Marked=0,0:20:24.39,0:20:29.50,*Default,NTP,0000,0000,0000,!Effect,Ele quase não conseguiu!\NInacreditavelmente, ele está de pé!
+Dialogue: Marked=0,0:20:29.50,0:20:31.56,*Default,NTP,0000,0000,0000,!Effect,Obrigado, Goku!
+Dialogue: Marked=0,0:20:32.69,0:20:35.06,*Default,NTP,0000,0000,0000,!Effect,Tudo bem... Aqui vou eu!
+Dialogue: Marked=0,0:20:38.07,0:20:41.02,*Default,NTP,0000,0000,0000,!Effect,Não tem nariz! Você é estranho!
+Dialogue: Marked=0,0:20:42.27,0:20:46.29,*Default,NTP,0000,0000,0000,!Effect,Mas, meus odores não são as\Núnicas armas que eu tenho!
+Dialogue: Marked=0,0:20:50.01,0:20:52.84,*Default,NTP,0000,0000,0000,!Effect,É tão sujo! Seu catarro!
+Dialogue: Marked=0,0:20:52.84,0:20:55.68,*Default,NTP,0000,0000,0000,!Effect,Conseguirá o participante Kuririn\Nevitar completamente seu catarro,
+Dialogue: Marked=0,0:20:55.68,0:20:59.38,*Default,NTP,0000,0000,0000,!Effect,que faz até mesmo os elefantes fugirem?
+Dialogue: Marked=0,0:21:32.92,0:21:34.15,*Default,NTP,0000,0000,0000,!Effect,Tio!
+Dialogue: Marked=0,0:21:38.06,0:21:42.04,*Default,NTP,0000,0000,0000,!Effect,Nossa!\NQue virada sensacional!
+Dialogue: Marked=0,0:21:42.04,0:21:44.42,*Default,NTP,0000,0000,0000,!Effect,O participante Kuririn consegue\Numa vitória maravilhosa!
+Dialogue: Marked=0,0:21:45.07,0:21:46.93,*Default,NTP,0000,0000,0000,!Effect,Você conseguiu!
+Dialogue: Marked=0,0:21:47.40,0:21:48.54,*Default,NTP,0000,0000,0000,!Effect,Eba!
+Dialogue: Marked=0,0:21:48.54,0:21:50.26,*Default,NTP,0000,0000,0000,!Effect,Você conseguiu! Você conseguiu!
+Dialogue: Marked=0,0:21:50.41,0:21:53.52,*Default,NTP,0000,0000,0000,!Effect,Você conseguiu! Você conseguiu!\NVocê conseguiu! Você conseguiu!
+Dialogue: Marked=0,0:21:53.52,0:21:55.17,*Default,NTP,0000,0000,0000,!Effect,Parabéns, Kuririn!
+Dialogue: Marked=0,0:21:55.17,0:21:56.57,*Default,NTP,0000,0000,0000,!Effect,O-Obrigado!
+Dialogue: Marked=0,0:22:02.75,0:22:08.42,*Default,NTP,0000,0000,0000,!Effect,Mesmo para o Bacteria,\Nos gases fedem, afinal!
+Dialogue: Marked=0,0:22:08.42,0:22:10.63,*Default,NTP,0000,0000,0000,!Effect,Agora, nós estamos limpando o ringue.
+Dialogue: Marked=0,0:22:10.63,0:22:14.33,*Default,NTP,0000,0000,0000,!Effect,Por favor, esperem até\Nterminarmos de desodorizar!
+Dialogue: Marked=0,0:22:15.10,0:22:18.38,Narrador,NTP,0000,0000,0000,!Effect,O mundo é mesmo grande!
+Dialogue: Marked=0,0:22:18.38,0:22:21.84,Narrador,NTP,0000,0000,0000,!Effect,Tem gente que você não ganha\Nsimplesmente por ser forte.
+Dialogue: Marked=0,0:22:22.26,0:22:26.98,Narrador,NTP,0000,0000,0000,!Effect,Que batalhas esperam Goku e os outros?

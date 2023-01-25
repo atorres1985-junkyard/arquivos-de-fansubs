@@ -1,0 +1,260 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.41,0:01:56.57,Narrador,,0000,0000,0000,,Bulma fez um aparelho\Nde transformação para Gohan,
+Dialogue: Marked=0,0:01:56.71,0:02:00.54,Narrador,,0000,0000,0000,,que estava preocupado em\Nter sua identidade descoberta...
+Dialogue: Marked=0,0:02:00.54,0:02:05.13,Narrador,,0000,0000,0000,,quando transformado em Super Saiya-jin.
+Dialogue: Marked=0,0:02:23.28,0:02:24.30,*Default,,0000,0000,0000,,Eu sou...
+Dialogue: Marked=0,0:02:27.81,0:02:29.41,*Default,,0000,0000,0000,,O defensor da justiça...
+Dialogue: Marked=0,0:02:32.63,0:02:34.78,*Default,,0000,0000,0000,,Great Saiyaman!
+Dialogue: Marked=0,0:02:35.98,0:02:37.33,P!,,0000,0000,0000,,Que terrível.
+
+Dialogue: Marked=0,0:02:38.70,0:02:46.71,apresDBZ2,,0000,0000,0000,,{\c&HE0DEEC\pos(675,70)\shad1\fad(400,0)\fscx100\fscy100}episódio 202
+Dialogue: Marked=0,0:02:38.70,0:02:46.71,apresDBZ2,,0000,0000,0000,,{\c&HE0DEEC\pos(185,175)\shad1\fad(400,0)\fscx100\fscy100}O atrapalhado
+Dialogue: Marked=0,0:02:38.70,0:02:46.71,apresDBZ2,,0000,0000,0000,,{\c&HE0DEEC\pos(380,500)\shad1\fad(400,0)\fscx150\fscy150}primeiro encontro de Gohan{\i1}!?
+
+Dialogue: Marked=0,0:02:52.21,0:02:57.95,*Default,,0000,0000,0000,,Eu sou o defensor da justiça, o Great Saiyaman!
+Dialogue: Marked=0,0:03:00.85,0:03:03.02,*Default,,0000,0000,0000,,Acho que não gostei dessa.
+Dialogue: Marked=0,0:03:03.02,0:03:05.26,*Default,,0000,0000,0000,,A outra de antes era melhor.
+Dialogue: Marked=0,0:03:06.00,0:03:08.38,*Default,,0000,0000,0000,,Esforce-se, nii-chan.
+Dialogue: Marked=0,0:03:08.38,0:03:09.11,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:03:10.09,0:03:11.38,*Default,,0000,0000,0000,,Que tal essa?
+Dialogue: Marked=0,0:03:12.37,0:03:17.28,*Default,,0000,0000,0000,,Os céus me chamam, a terra me chama,\Nas pessoas me chamam para derrotar o mal.
+Dialogue: Marked=0,0:03:17.82,0:03:20.78,*Default,,0000,0000,0000,,Podem ver este capacete na minha cabeça?
+Dialogue: Marked=0,0:03:21.04,0:03:26.08,*Default,,0000,0000,0000,,Forte, invencível, o maior herói...
+Dialogue: Marked=0,0:03:27.94,0:03:31.05,*Default,,0000,0000,0000,,Great Saiyaman!
+Dialogue: Marked=0,0:03:32.22,0:03:33.47,*Default,,0000,0000,0000,,É essa!
+Dialogue: Marked=0,0:03:34.59,0:03:38.62,*Default,,0000,0000,0000,,Uau! Nii-chan, que legal!
+Dialogue: Marked=0,0:03:40.45,0:03:42.97,*Default,,0000,0000,0000,,Gohan, conseguiu uma boa?
+Dialogue: Marked=0,0:03:43.33,0:03:45.55,*Default,,0000,0000,0000,,Sim, deixe comigo, mãe.
+Dialogue: Marked=0,0:03:46.05,0:03:48.22,*Default,,0000,0000,0000,,Mas está na hora de dormir.
+Dialogue: Marked=0,0:03:48.22,0:03:51.89,*Default,,0000,0000,0000,,Se você acordar tarde amanhã e\Nchegar atrasado na escola, não sei de nada.
+Dialogue: Marked=0,0:03:52.61,0:03:54.90,*Default,,0000,0000,0000,,Não tem problema!
+Dialogue: Marked=0,0:03:59.65,0:04:03.11,*Default,,0000,0000,0000,,Ah! Dormi demais!
+Dialogue: Marked=0,0:04:04.97,0:04:07.66,*Default,,0000,0000,0000,,Essa não! Vou chegar atrasado!
+Dialogue: Marked=0,0:04:53.22,0:04:56.15,*Default,,0000,0000,0000,,E-Ela viu quando me transformei.
+Dialogue: Marked=0,0:04:56.15,0:04:59.77,*Default,,0000,0000,0000,,Ela sabe que sou o Great Saiyaman.
+Dialogue: Marked=0,0:05:13.90,0:05:17.90,*Default,,0000,0000,0000,,Por que está tão desanimado?\NA professora ainda não chegou.
+Dialogue: Marked=0,0:05:32.42,0:05:44.70,*Default,,0000,0000,0000,,Os habitantes da região procuravam\Nproclamar uma nova constituição democrática.
+Dialogue: Marked=0,0:05:44.70,0:05:48.22,*Default,,0000,0000,0000,,Bom, agora o próximo é Son Gohan. Leia.
+Dialogue: Marked=0,0:05:51.06,0:05:52.17,*Default,,0000,0000,0000,,Son Gohan!
+Dialogue: Marked=0,0:05:56.51,0:05:58.43,*Default,,0000,0000,0000,,Que coisa...
+Dialogue: Marked=0,0:05:58.43,0:06:01.38,*Default,,0000,0000,0000,,Aquela garota me viu...
+Dialogue: Marked=0,0:06:01.38,0:06:02.73,*Default,,0000,0000,0000,,Se ela contar para alguém...
+Dialogue: Marked=0,0:06:02.91,0:06:03.69,*Default,,0000,0000,0000,,Son Gohan!
+Dialogue: Marked=0,0:06:09.22,0:06:13.50,*Default,,0000,0000,0000,,Son Gohan-kun, fique em pé no corredor!
+Dialogue: Marked=0,0:06:13.50,0:06:15.04,*Default,,0000,0000,0000,,S-Sim!
+Dialogue: Marked=0,0:06:29.86,0:06:31.35,*Default,,0000,0000,0000,,Estou ferrado...
+Dialogue: Marked=0,0:06:31.70,0:06:34.90,*Default,,0000,0000,0000,,Mesmo investigando, não conseguiram\Npista alguma sobre a origem do ouro.
+Dialogue: Marked=0,0:06:34.90,0:06:37.60,*Default,,0000,0000,0000,,Ninguém sabia o que tinha acontecido com o líder.
+Dialogue: Marked=0,0:06:38.22,0:06:40.60,*Default,,0000,0000,0000,,A próxima é Angela-kun.
+Dialogue: Marked=0,0:06:43.05,0:06:44.12,*Default,,0000,0000,0000,,Angela-kun!
+Dialogue: Marked=0,0:06:49.01,0:06:50.05,*Default,,0000,0000,0000,,Angela!
+Dialogue: Marked=0,0:06:52.96,0:06:55.20,*Default,,0000,0000,0000,,Angela-kun, você também?
+Dialogue: Marked=0,0:06:58.61,0:07:01.71,*Default,,0000,0000,0000,,Desculpe, professor!
+Dialogue: Marked=0,0:07:06.60,0:07:08.94,*Default,,0000,0000,0000,,Ei, Angela-kun...
+Dialogue: Marked=0,0:07:08.94,0:07:12.89,*Default,,0000,0000,0000,,Eu... Eu vou ficar em pé no corredor!
+Dialogue: Marked=0,0:07:21.59,0:07:23.02,*Default,,0000,0000,0000,,Ei...
+Dialogue: Marked=0,0:07:24.10,0:07:25.77,*Default,,0000,0000,0000,,Ahn, você?
+Dialogue: Marked=0,0:07:36.63,0:07:38.87,P!,,0000,0000,0000,,O que foi isso?
+Dialogue: Marked=0,0:07:38.87,0:07:41.62,*Default,,0000,0000,0000,,Ei, Gohan-san...
+Dialogue: Marked=0,0:07:45.20,0:07:45.88,*Default,,0000,0000,0000,,Ei...
+Dialogue: Marked=0,0:07:46.24,0:07:48.63,*Default,,0000,0000,0000,,Eu sou Angela.
+Dialogue: Marked=0,0:07:49.75,0:07:50.55,*Default,,0000,0000,0000,,Prazer...
+Dialogue: Marked=0,0:07:51.06,0:07:53.78,*Default,,0000,0000,0000,,Desculpe, mas você tem namorada?
+Dialogue: Marked=0,0:07:54.66,0:07:56.56,*Default,,0000,0000,0000,,É que...
+Dialogue: Marked=0,0:07:57.28,0:08:03.74,*Default,,0000,0000,0000,,Sabia que tinha. Sabia!
+Dialogue: Marked=0,0:08:03.74,0:08:05.17,*Default,,0000,0000,0000,,Ei, você...
+Dialogue: Marked=0,0:08:06.75,0:08:09.57,*Default,,0000,0000,0000,,Não, que coisa...
+Dialogue: Marked=0,0:08:10.82,0:08:13.66,*Default,,0000,0000,0000,,Eu sei o seu segredo.
+Dialogue: Marked=0,0:08:13.99,0:08:15.95,*Default,,0000,0000,0000,,Ahn?! Sério?
+Dialogue: Marked=0,0:08:16.32,0:08:18.29,*Default,,0000,0000,0000,,Vamos sair em um encontro.
+Dialogue: Marked=0,0:08:19.70,0:08:20.91,*Default,,0000,0000,0000,,Encontro?
+Dialogue: Marked=0,0:08:21.59,0:08:28.71,*Default,,0000,0000,0000,,Sabia que você tinha namorada.\NEu estava pensando em guardar o seu segredo...
+Dialogue: Marked=0,0:08:29.30,0:08:31.47,*Default,,0000,0000,0000,,Entendi, entendi.
+Dialogue: Marked=0,0:08:31.84,0:08:32.88,*Default,,0000,0000,0000,,Verdade?
+Dialogue: Marked=0,0:08:39.22,0:08:41.04,*Default,,0000,0000,0000,,Consegui, consegui!
+Dialogue: Marked=0,0:08:41.04,0:08:44.14,*Default,,0000,0000,0000,,Bem, vamos sair amanhã, que é domingo.
+Dialogue: Marked=0,0:08:45.41,0:08:48.77,*Default,,0000,0000,0000,,Vou esperá-lo às 10 horas\Nna estação de Satan City.
+Dialogue: Marked=0,0:08:56.75,0:09:01.70,*Default,,0000,0000,0000,,Aquela garota sabe mesmo que sou o Great Saiyaman.
+Dialogue: Marked=0,0:09:02.49,0:09:08.32,*Default,,0000,0000,0000,,Preciso ser bom com ela para não\Nrevelar a minha verdadeira identidade.
+Dialogue: Marked=0,0:09:08.32,0:09:12.64,*Default,,0000,0000,0000,,Mas, pensando bem, nunca tive um encontro.
+Dialogue: Marked=0,0:09:12.64,0:09:13.76,*Default,,0000,0000,0000,,O que devo fazer?
+Dialogue: Marked=0,0:09:22.08,0:09:23.77,*Default,,0000,0000,0000,,Cheguei!
+Dialogue: Marked=0,0:09:23.77,0:09:24.65,*Default,,0000,0000,0000,,Bem-vindo de volta!
+Dialogue: Marked=0,0:09:25.32,0:09:29.21,*Default,,0000,0000,0000,,Ei, mãe, quero fazer uma pergunta...
+Dialogue: Marked=0,0:09:29.85,0:09:33.01,*Default,,0000,0000,0000,,Como foi o seu primeiro encontro com o meu pai?
+Dialogue: Marked=0,0:09:33.75,0:09:37.03,*Default,,0000,0000,0000,,Você não tem jeito.\NPor que quer saber disso agora?
+Dialogue: Marked=0,0:09:39.27,0:09:42.78,*Default,,0000,0000,0000,,Bem, foi...
+Dialogue: Marked=0,0:09:57.85,0:10:00.85,L!,,0000,0000,0000,,Bem, Goku-san, hoje vamos\Nter um encontro de verdade!
+Dialogue: Marked=0,0:10:01.55,0:10:07.78,L!,,0000,0000,0000,,Mas, Chi-Chi, eu nunca tive um encontro.\NNão sei direito do que você está falando.
+Dialogue: Marked=0,0:10:07.78,0:10:10.06,L!,,0000,0000,0000,,Você não tem jeito, Goku-san.
+Dialogue: Marked=0,0:10:10.06,0:10:11.49,L!,,0000,0000,0000,,Desde muito tempo atrás,
+Dialogue: Marked=0,0:10:11.49,0:10:16.86,L!,,0000,0000,0000,,encontro é a coisa mais divertida que\Num homem e uma mulher podem fazer juntos.
+Dialogue: Marked=0,0:10:17.43,0:10:19.60,L!,,0000,0000,0000,,Coisa mais divertida?
+Dialogue: Marked=0,0:10:19.60,0:10:21.20,L!,,0000,0000,0000,,Sabia que era aquilo.
+Dialogue: Marked=0,0:10:22.30,0:10:24.33,L!,,0000,0000,0000,,Aquilo?
+Dialogue: Marked=0,0:10:34.73,0:10:37.61,L!,,0000,0000,0000,,Encontros são divertidos!
+Dialogue: Marked=0,0:10:46.38,0:10:52.48,*Default,,0000,0000,0000,,Aquela marca do soco do Goku-san\Nna árvore está no meu coração até hoje.
+Dialogue: Marked=0,0:10:53.33,0:10:55.10,*Default,,0000,0000,0000,,É mesmo?
+
+Dialogue: Marked=0,0:11:00.74,0:11:03.46,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:00.74,0:11:03.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:00.74,0:11:03.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:00.74,0:11:03.46,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:06.75,0:11:09.47,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(546,555)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:06.75,0:11:09.47,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:06.75,0:11:09.47,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:06.75,0:11:09.47,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:20.96,0:11:22.94,*Default,,0000,0000,0000,,Gohan-san!
+Dialogue: Marked=0,0:11:26.40,0:11:29.02,*Default,,0000,0000,0000,,Gohan-san, estou impressionada.
+Dialogue: Marked=0,0:11:29.02,0:11:30.98,*Default,,0000,0000,0000,,Chegou na hora.
+Dialogue: Marked=0,0:11:32.29,0:11:35.77,*Default,,0000,0000,0000,,Ei, agora você promete\Nnão contar o meu segredo?
+Dialogue: Marked=0,0:11:38.40,0:11:40.90,*Default,,0000,0000,0000,,Não é nada, bem...
+Dialogue: Marked=0,0:11:42.35,0:11:43.41,*Default,,0000,0000,0000,,Vamos ver um filme?
+Dialogue: Marked=0,0:11:44.17,0:11:46.26,*Default,,0000,0000,0000,,Estou tão feliz!
+Dialogue: Marked=0,0:11:47.73,0:11:49.78,*Default,,0000,0000,0000,,Vamos, vamos!
+Dialogue: Marked=0,0:11:49.78,0:11:51.22,*Default,,0000,0000,0000,,E-Ei!
+Dialogue: Marked=0,0:11:53.65,0:11:55.71,*Default,,0000,0000,0000,,Ei! Vamos logo!
+Dialogue: Marked=0,0:12:25.19,0:12:26.74,*Default,,0000,0000,0000,,Gohan, seu idiota!
+Dialogue: Marked=0,0:12:30.08,0:12:32.37,*Default,,0000,0000,0000,,É tão chato assim ficar comigo?
+Dialogue: Marked=0,0:12:32.37,0:12:33.75,*Default,,0000,0000,0000,,Vou embora!
+Dialogue: Marked=0,0:12:38.05,0:12:39.11,*Default,,0000,0000,0000,,Desculpe.
+Dialogue: Marked=0,0:12:39.11,0:12:40.39,*Default,,0000,0000,0000,, Não é isso, não é isso.
+Dialogue: Marked=0,0:12:41.78,0:12:42.88,*Default,,0000,0000,0000,,Desculpe.
+Dialogue: Marked=0,0:12:42.88,0:12:44.30,*Default,,0000,0000,0000,,Licença.
+Dialogue: Marked=0,0:12:49.17,0:12:50.14,*Default,,0000,0000,0000,,Desculpe.
+Dialogue: Marked=0,0:12:51.26,0:12:52.82,*Default,,0000,0000,0000,,Sinto muito.
+Dialogue: Marked=0,0:12:54.84,0:12:56.15,*Default,,0000,0000,0000,,Vamos para uma cafeteria.
+Dialogue: Marked=0,0:13:08.87,0:13:14.21,*Default,,0000,0000,0000,,Agora é para perguntar\Nquantas colheradas a garota quer.
+Dialogue: Marked=0,0:13:15.51,0:13:16.79,*Default,,0000,0000,0000,,É mesmo?
+Dialogue: Marked=0,0:13:18.40,0:13:19.09,*Default,,0000,0000,0000,,Quantas?
+Dialogue: Marked=0,0:13:19.59,0:13:20.75,*Default,,0000,0000,0000,,Treze.
+Dialogue: Marked=0,0:13:25.77,0:13:28.93,*Default,,0000,0000,0000,,Doze... Treze!
+Dialogue: Marked=0,0:13:30.13,0:13:31.43,*Default,,0000,0000,0000,,Obrigada.
+Dialogue: Marked=0,0:13:37.13,0:13:41.23,*Default,,0000,0000,0000,,Mas, Gohan-san, você não é bem o que eu esperava.
+Dialogue: Marked=0,0:13:43.17,0:13:45.70,*Default,,0000,0000,0000,,Eu fiquei surpresa quando o vi vestindo aquilo.
+Dialogue: Marked=0,0:13:46.94,0:13:49.38,P!,,0000,0000,0000,,É sobre o Great Saiyaman.
+Dialogue: Marked=0,0:13:49.38,0:13:51.41,*Default,,0000,0000,0000,,Ei, o que você acha?
+Dialogue: Marked=0,0:13:53.45,0:13:55.75,*Default,,0000,0000,0000,,Muito bonito.
+Dialogue: Marked=0,0:13:56.25,0:13:57.25,*Default,,0000,0000,0000,,Bonito?
+Dialogue: Marked=0,0:13:59.88,0:14:02.22,*Default,,0000,0000,0000,,Você sempre fica daquele jeito?
+Dialogue: Marked=0,0:14:04.13,0:14:06.47,*Default,,0000,0000,0000,,Só quando precisa.
+Dialogue: Marked=0,0:14:07.92,0:14:09.71,*Default,,0000,0000,0000,,Que bonito.
+Dialogue: Marked=0,0:14:11.37,0:14:15.14,*Default,,0000,0000,0000,,Por favor, não fale para ninguém.
+Dialogue: Marked=0,0:14:15.55,0:14:17.39,*Default,,0000,0000,0000,,Tá, entendi.
+Dialogue: Marked=0,0:14:20.11,0:14:25.25,N!,,0000,0000,0000,,{\fad(300,300)}Satan Gawa = Rio Satan
+Dialogue: Marked=0,0:14:20.11,0:14:23.23,*Default,,0000,0000,0000,,Ei, agora vamos para o Satan Gawa.
+Dialogue: Marked=0,0:14:24.50,0:14:25.25,*Default,,0000,0000,0000,,Tá?
+Dialogue: Marked=0,0:14:25.74,0:14:28.00,*Default,,0000,0000,0000,,Tá.
+Dialogue: Marked=0,0:14:39.22,0:14:41.75,*Default,,0000,0000,0000,,Fogo! Fogo!
+Dialogue: Marked=0,0:14:51.82,0:14:53.51,*Default,,0000,0000,0000,,Ah! Gohan-san!
+Dialogue: Marked=0,0:15:04.30,0:15:07.47,*Default,,0000,0000,0000,,Ei, parece que várias\Npessoas não conseguiram sair.
+Dialogue: Marked=0,0:15:07.47,0:15:08.34,*Default,,0000,0000,0000,,Sério?
+Dialogue: Marked=0,0:15:15.93,0:15:17.18,*Default,,0000,0000,0000,,Videl-san...
+Dialogue: Marked=0,0:15:21.55,0:15:23.38,*Default,,0000,0000,0000,,Não pode chegar mais perto?
+Dialogue: Marked=0,0:15:23.38,0:15:25.28,*Default,,0000,0000,0000,,Não posso, Videl-san.
+Dialogue: Marked=0,0:15:25.28,0:15:28.13,*Default,,0000,0000,0000,,Não dá mais por causa\Nda fumaça que está subindo.
+Dialogue: Marked=0,0:15:28.13,0:15:29.72,*Default,,0000,0000,0000,,Mas e aquelas pessoas...
+Dialogue: Marked=0,0:15:38.38,0:15:41.11,*Default,,0000,0000,0000,,Tem um grande reservatório de água lá!
+Dialogue: Marked=0,0:15:41.11,0:15:42.95,*Default,,0000,0000,0000,,Não dá para fazer alguma coisa com aquilo?
+Dialogue: Marked=0,0:15:42.95,0:15:44.71,Radio,,0000,0000,0000,,Alguma coisa?
+Dialogue: Marked=0,0:15:44.71,0:15:47.40,*Default,,0000,0000,0000,,Dá para usar a água dele para apagar o fogo?
+Dialogue: Marked=0,0:15:51.14,0:15:55.47,*Default,,0000,0000,0000,,Se abrir a válvula, vai\Ndemorar até a água se distribuir.
+Dialogue: Marked=0,0:15:56.35,0:15:59.12,*Default,,0000,0000,0000,,Mas tem uma válvula externa de emergência.
+Dialogue: Marked=0,0:16:00.27,0:16:03.00,Radio,,0000,0000,0000,,Se eu a abrir, a água vai sair logo?
+Dialogue: Marked=0,0:16:03.93,0:16:08.79,*Default,,0000,0000,0000,,Mas eu não sei se a água que tem lá\Ndentro vai ser suficiente para apagar o fogo.
+Dialogue: Marked=0,0:16:09.67,0:16:12.68,Radio,,0000,0000,0000,,Pelo menos deve conseguir\Ntempo para evacuar o prédio.
+Dialogue: Marked=0,0:16:13.58,0:16:15.57,*Default,,0000,0000,0000,,Videl-san, não!
+Dialogue: Marked=0,0:16:15.57,0:16:17.72,*Default,,0000,0000,0000,,Preciso arriscar.
+Dialogue: Marked=0,0:16:18.67,0:16:20.02,*Default,,0000,0000,0000,,Videl-san!
+Dialogue: Marked=0,0:16:25.41,0:16:26.23,*Default,,0000,0000,0000,,É essa.
+Dialogue: Marked=0,0:16:39.15,0:16:40.79,*Default,,0000,0000,0000,,Gohan-san, para onde você vai?
+Dialogue: Marked=0,0:16:42.27,0:16:44.46,*Default,,0000,0000,0000,,Preciso salvar as pessoas que estão no terraço.
+Dialogue: Marked=0,0:16:45.07,0:16:48.50,*Default,,0000,0000,0000,,Você não pode fazer nada, Gohan-san.
+Dialogue: Marked=0,0:16:49.10,0:16:50.81,*Default,,0000,0000,0000,,Do que você está falando?
+Dialogue: Marked=0,0:16:50.81,0:16:53.76,*Default,,0000,0000,0000,,É para fazer essas coisas\Nque sou o defensor da justiça.
+Dialogue: Marked=0,0:16:55.54,0:16:57.23,*Default,,0000,0000,0000,,Ei, você, é perigoso!
+Dialogue: Marked=0,0:16:58.41,0:16:59.93,*Default,,0000,0000,0000,,Gohan-san...
+Dialogue: Marked=0,0:17:13.34,0:17:14.78,*Default,,0000,0000,0000,,Não adianta!
+Dialogue: Marked=0,0:17:32.27,0:17:34.81,*Default,,0000,0000,0000,,O Great Saiyaman chegou!
+Dialogue: Marked=0,0:17:38.33,0:17:39.64,*Default,,0000,0000,0000,,Saia daí.
+Dialogue: Marked=0,0:18:31.85,0:18:34.07,*Default,,0000,0000,0000,,Nós fomos salvos!
+Dialogue: Marked=0,0:19:04.80,0:19:06.97,*Default,,0000,0000,0000,,E, então, ele apareceu.
+Dialogue: Marked=0,0:19:12.57,0:19:13.71,*Default,,0000,0000,0000,,Son Gohan-kun.
+Dialogue: Marked=0,0:19:20.48,0:19:22.74,*Default,,0000,0000,0000,,Por que você está em um lugar desses?
+Dialogue: Marked=0,0:19:24.15,0:19:25.40,*Default,,0000,0000,0000,,Não é nada...
+Dialogue: Marked=0,0:19:26.88,0:19:29.26,*Default,,0000,0000,0000,,Você não está escondendo algo?
+Dialogue: Marked=0,0:19:30.34,0:19:32.84,*Default,,0000,0000,0000,,Não é nada disso.
+Dialogue: Marked=0,0:19:49.90,0:19:50.89,*Default,,0000,0000,0000,,Angela-san.
+Dialogue: Marked=0,0:19:51.55,0:19:53.40,*Default,,0000,0000,0000,,Gohan-san, que cruel.
+Dialogue: Marked=0,0:19:56.07,0:19:58.39,*Default,,0000,0000,0000,,Você tem mesmo namorada.
+Dialogue: Marked=0,0:19:58.39,0:20:01.66,*Default,,0000,0000,0000,,A Videl-san é sua namorada, não é?
+Dialogue: Marked=0,0:20:04.91,0:20:08.54,*Default,,0000,0000,0000,,Por isso que você entrou no prédio, mesmo sendo perigoso.
+Dialogue: Marked=0,0:20:09.18,0:20:11.79,*Default,,0000,0000,0000,,Bem, Videl-san, você sabe o segredo dele?
+Dialogue: Marked=0,0:20:13.21,0:20:14.17,*Default,,0000,0000,0000,,Segredo?
+Dialogue: Marked=0,0:20:15.55,0:20:17.55,*Default,,0000,0000,0000,,Tudo menos isso...
+Dialogue: Marked=0,0:20:17.55,0:20:18.98,*Default,,0000,0000,0000,,O Gohan-san...
+Dialogue: Marked=0,0:20:23.54,0:20:24.97,*Default,,0000,0000,0000,,O Gohan-san...
+Dialogue: Marked=0,0:20:29.58,0:20:31.48,*Default,,0000,0000,0000,,Usa cueca de ursinho.
+Dialogue: Marked=0,0:20:36.11,0:20:37.25,*Default,,0000,0000,0000,,Ursinho?
+Dialogue: Marked=0,0:20:37.91,0:20:38.98,*Default,,0000,0000,0000,,Cueca?
+Dialogue: Marked=0,0:20:39.35,0:20:43.31,*Default,,0000,0000,0000,,Isso. Eu vi um dia desses.
+Dialogue: Marked=0,0:20:48.07,0:20:51.00,*Default,,0000,0000,0000,,Tenho certeza de que vi um dia desses.
+Dialogue: Marked=0,0:21:02.33,0:21:05.26,*Default,,0000,0000,0000,,{\fad(0,1500)}Bonitinho...
+Dialogue: Marked=0,0:21:06.02,0:21:08.72,*Default,,0000,0000,0000,,Era de ursinho.
+Dialogue: Marked=0,0:21:09.23,0:21:10.52,*Default,,0000,0000,0000,,Esse é o segredo?
+Dialogue: Marked=0,0:21:11.15,0:21:11.98,*Default,,0000,0000,0000,,É.
+Dialogue: Marked=0,0:21:12.69,0:21:16.77,*Default,,0000,0000,0000,,Então, você não viu nada no terraço ontem?
+Dialogue: Marked=0,0:21:17.50,0:21:18.62,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:21:18.62,0:21:23.05,*Default,,0000,0000,0000,,Eu estava sem lentes naquela hora\Ne só vi que era você quando chegou perto.
+Dialogue: Marked=0,0:21:23.05,0:21:24.07,*Default,,0000,0000,0000,,Aconteceu alguma coisa?
+Dialogue: Marked=0,0:21:26.65,0:21:28.88,*Default,,0000,0000,0000,,Cueca de ursinho?
+Dialogue: Marked=0,0:21:28.88,0:21:31.08,*Default,,0000,0000,0000,,Você gosta disso?
+Dialogue: Marked=0,0:21:31.53,0:21:36.41,*Default,,0000,0000,0000,,Não, minha mãe comprou errado.
+Dialogue: Marked=0,0:21:36.41,0:21:38.95,*Default,,0000,0000,0000,,- Às vezes, está tudo para lavar...
+Dialogue: Marked=0,0:21:38.50,0:21:41.09,*Default,,0000,0000,0000,,{\move(400,535,400,580,500,800)}- Não quero mais saber de você, Gohan-san!
+Dialogue: Marked=0,0:21:53.17,0:21:59.61,*Default,,0000,0000,0000,,Acho que devo me\Ndesculpar com a Angela-san...
+Dialogue: Marked=0,0:22:06.72,0:22:11.41,*Default,,0000,0000,0000,,Faz muito tempo que gosto de você.
+Dialogue: Marked=0,0:22:12.09,0:22:16.42,*Default,,0000,0000,0000,,Vou esperá-lo domingo agora\Nna estação de Satan City.
+Dialogue: Marked=0,0:22:22.51,0:22:26.62,Narrador,,0000,0000,0000,,A identidade do\NGreat Saiyaman não foi revelada.
+Dialogue: Marked=0,0:22:26.62,0:22:31.00,Narrador,,0000,0000,0000,,Mas, será que Videl está\Nsuspeitando de alguma coisa?

@@ -1,0 +1,280 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.55,0:01:55.80,Narrador,,0000,0000,0000,,Guiados pelo mal,\NYamu e Spopovitch entram em ação...
+Dialogue: Marked=0,0:01:55.80,0:01:59.46,Narrador,,0000,0000,0000,,e o Tenkaichi Budoukai\Nvira uma grande confusão.
+Dialogue: Marked=0,0:02:01.93,0:02:03.61,*Default,,0000,0000,0000,,Foi mais fácil do que pensei.
+Dialogue: Marked=0,0:02:16.94,0:02:19.75,*Default,,0000,0000,0000,,Sabia que viriam.\NVão ser de grande ajuda!
+Dialogue: Marked=0,0:02:19.75,0:02:23.17,*Default,,0000,0000,0000,,Se não tivermos o poder de vocês do nosso lado, provavelmente não poderemos vencer.
+Dialogue: Marked=0,0:02:23.87,0:02:26.13,*Default,,0000,0000,0000,,Está falando de não\Npoder ganhar daqueles dois?
+Dialogue: Marked=0,0:02:26.74,0:02:32.14,*Default,,0000,0000,0000,,Não. Aqueles dois só\Nestão sendo usados por um Madoushi.
+Dialogue: Marked=0,0:02:33.01,0:02:36.89,Narrador,,0000,0000,0000,,A realidade acabou se mostrando aterrorizante.
+Dialogue: Marked=0,0:02:37.08,0:02:39.96,Narrador,,0000,0000,0000,,Quem será o temível Madoushi que Kaioshin comentou...
+Dialogue: Marked=0,0:02:39.96,0:02:45.51,Narrador,,0000,0000,0000,,e o que vai acontecer\Ncom o Tenkaichi Budoukai?
+
+Dialogue: Marked=0,0:02:47.66,0:02:55.68,apresDBZ2,,0000,0000,0000,,{\c&HF1FDED\pos(675,70)\shad0\fad(400,0)\fscx100\fscy100}episódio 220
+Dialogue: Marked=0,0:02:47.66,0:02:55.68,apresDBZ2,,0000,0000,0000,,{\c&HF1FDED\pos(270,175)\shad0\fad(400,0)\fscx145\fscy150}Aparece o líder{\i1}!!
+Dialogue: Marked=0,0:02:47.66,0:02:55.68,apresDBZ2,,0000,0000,0000,,{\c&HF1FDED\pos(395,500)\shad0\fad(400,0)\fscx147\fscy150}O perverso Madoushi Babidi
+
+Dialogue: Marked=0,0:03:11.12,0:03:12.72,*Default,,0000,0000,0000,,Deu tudo certo.
+Dialogue: Marked=0,0:03:13.64,0:03:18.09,*Default,,0000,0000,0000,,Levando toda esta energia,\NBabidi-sama vai se alegrar.
+Dialogue: Marked=0,0:03:19.46,0:03:21.52,*Default,,0000,0000,0000,,Vamos receber alguma recompensa.\NVamos logo.
+Dialogue: Marked=0,0:03:22.25,0:03:23.20,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:04:44.53,0:04:48.28,*Default,,0000,0000,0000,,Então, quer dizer que esse\Nabsolutamente terrível monstro, Majin Boo,
+Dialogue: Marked=0,0:04:48.28,0:04:51.17,*Default,,0000,0000,0000,,criado em um remoto\Npassado por Madoushi Bibidi,
+Dialogue: Marked=0,0:04:51.17,0:04:55.36,*Default,,0000,0000,0000,,está selado em algum lugar da Terra?
+Dialogue: Marked=0,0:04:56.07,0:04:57.15,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:04:57.15,0:05:00.78,*Default,,0000,0000,0000,,O único que podia retirar\Nesse selo era Madoushi Bibidi,
+Dialogue: Marked=0,0:05:00.78,0:05:03.35,*Default,,0000,0000,0000,,então estávamos tranqüilos.
+Dialogue: Marked=0,0:05:03.35,0:05:08.24,*Default,,0000,0000,0000,,Mas, como acabamos de descobrir,\NMadoushi Bibidi tinha um filho.
+Dialogue: Marked=0,0:05:08.24,0:05:11.13,*Default,,0000,0000,0000,,E esse filho está na Terra agora!
+Dialogue: Marked=0,0:05:11.71,0:05:14.88,*Default,,0000,0000,0000,,É ele que está controlando Yamu e Spopovitch?
+Dialogue: Marked=0,0:05:15.21,0:05:15.98,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:05:15.98,0:05:21.39,*Default,,0000,0000,0000,,É o Madoushi Babidi. Ele tem um coração\Nvoltado para o mal, assim como o seu pai Bibidi.
+Dialogue: Marked=0,0:05:22.29,0:05:26.90,*Default,,0000,0000,0000,,Majin, Madoushi...\NSó gente estranha.
+Dialogue: Marked=0,0:05:27.60,0:05:31.65,*Default,,0000,0000,0000,,Então só precisamos impedir que\Nesse Majin Boo seja revivido, não é?
+Dialogue: Marked=0,0:05:32.18,0:05:33.74,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:05:33.84,0:05:36.74,*Default,,0000,0000,0000,,Precisamos derrotar o\NMadoushi Babidi para isso.
+Dialogue: Marked=0,0:05:37.69,0:05:41.88,*Default,,0000,0000,0000,,O único que pode retirar\No selo de Majin Boo é Babidi.
+Dialogue: Marked=0,0:05:44.42,0:05:47.00,*Default,,0000,0000,0000,,Esse Babidi é forte?
+Dialogue: Marked=0,0:05:47.72,0:05:52.25,*Default,,0000,0000,0000,,Ele tem uma magia poderosa,\Nmas não tem muita força propriamente dita.
+Dialogue: Marked=0,0:05:53.12,0:05:54.85,*Default,,0000,0000,0000,,O pai dele era assim.
+Dialogue: Marked=0,0:05:56.51,0:06:01.82,*Default,,0000,0000,0000,,Porém, um Madoushi pode atacar humanos com o coração maligno, como Yamu e Spopovitch,
+Dialogue: Marked=0,0:06:01.82,0:06:03.72,*Default,,0000,0000,0000,,e manipulá-los.
+Dialogue: Marked=0,0:06:04.96,0:06:08.16,*Default,,0000,0000,0000,,Seria melhor se não houvesse\Npessoas assim perto dele.
+Dialogue: Marked=0,0:06:25.45,0:06:29.93,*Default,,0000,0000,0000,,Então por que Spopovitch e Yamu\Nforam para o Tenkaichi Budoukai?
+Dialogue: Marked=0,0:06:29.93,0:06:31.96,*Default,,0000,0000,0000,,O que eles fizeram comigo?
+Dialogue: Marked=0,0:06:33.09,0:06:37.16,*Default,,0000,0000,0000,,Parece que precisam de uma grande quantidade de energia pura para reviver Majin Boo,
+Dialogue: Marked=0,0:06:37.16,0:06:40.14,*Default,,0000,0000,0000,,que está selado há muito tempo.
+Dialogue: Marked=0,0:06:40.99,0:06:42.74,*Default,,0000,0000,0000,,Energia pura?
+Dialogue: Marked=0,0:06:44.05,0:06:51.08,*Default,,0000,0000,0000,,Babidi enviou aqueles dois para o\NTenkaichi Budoukai para conseguir essa energia.
+Dialogue: Marked=0,0:06:51.86,0:06:56.90,*Default,,0000,0000,0000,,Quando você se transformou em\NSuper Saiya-jin, tornou-se o melhor alvo.
+Dialogue: Marked=0,0:06:57.66,0:07:03.91,*Default,,0000,0000,0000,,{\fscx96}Kaioshin-sama e eu sabíamos que Babidi provavelmente faria isso e também nos infiltramos.
+Dialogue: Marked=0,0:07:04.61,0:07:07.64,*Default,,0000,0000,0000,,Queríamos saber onde Babidi está.
+Dialogue: Marked=0,0:07:07.64,0:07:10.93,*Default,,0000,0000,0000,,Nós procuramos muito\Ndesde que chegamos à Terra,
+Dialogue: Marked=0,0:07:10.93,0:07:15.98,*Default,,0000,0000,0000,,mas a esfera onde Majin Boo está selado\Nnão está mais no mesmo lugar de antes.
+Dialogue: Marked=0,0:07:15.98,0:07:17.67,*Default,,0000,0000,0000,,Parece que mudaram para algum outro lugar.
+Dialogue: Marked=0,0:07:18.64,0:07:24.18,*Default,,0000,0000,0000,,Por isso, estamos seguindo aqueles dois,\Npara saber onde está Babidi.
+Dialogue: Marked=0,0:07:25.54,0:07:26.81,*Default,,0000,0000,0000,,Videl-san...
+Dialogue: Marked=0,0:07:30.01,0:07:30.73,*Default,,0000,0000,0000,,Está tudo bem?
+Dialogue: Marked=0,0:07:32.27,0:07:33.65,*Default,,0000,0000,0000,,Sim...
+Dialogue: Marked=0,0:07:39.02,0:07:45.53,*Default,,0000,0000,0000,,Se esse Majin é tão terrível, por que\No ignoraram quando mataram o pai de Babidi?
+Dialogue: Marked=0,0:07:46.90,0:07:49.13,*Default,,0000,0000,0000,,Não teve jeito.
+Dialogue: Marked=0,0:07:49.13,0:07:53.21,*Default,,0000,0000,0000,,Se usássemos energia,\No selo poderia ser liberado.
+Dialogue: Marked=0,0:07:54.00,0:07:56.37,*Default,,0000,0000,0000,,Além disso, estávamos tranqüilos.
+Dialogue: Marked=0,0:07:57.10,0:07:59.21,*Default,,0000,0000,0000,,A esfera onde Majin Boo estava selado...
+Dialogue: Marked=0,0:08:00.09,0:08:03.65,*Default,,0000,0000,0000,,era praticamente impossível para os humanos,
+Dialogue: Marked=0,0:08:03.65,0:08:06.22,*Default,,0000,0000,0000,,que estavam apenas começando a andar.
+Dialogue: Marked=0,0:08:09.65,0:08:11.55,*Default,,0000,0000,0000,,O que está acontecendo com as lutas?
+Dialogue: Marked=0,0:08:12.35,0:08:14.56,*Default,,0000,0000,0000,,Comecem logo!
+Dialogue: Marked=0,0:08:14.56,0:08:16.31,*Default,,0000,0000,0000,,Não me façam de idiota!
+Dialogue: Marked=0,0:08:18.81,0:08:22.75,*Default,,0000,0000,0000,,Esperem! Esperem um pouco!\NEstamos no meio da competição!
+Dialogue: Marked=0,0:08:22.75,0:08:24.41,*Default,,0000,0000,0000,,Esperem mais um pouco!
+Dialogue: Marked=0,0:08:24.99,0:08:26.65,*Default,,0000,0000,0000,,O que está acontecendo?
+Dialogue: Marked=0,0:08:26.65,0:08:30.04,*Default,,0000,0000,0000,,A Videl e o Son Gohan saíram voando.
+Dialogue: Marked=0,0:08:30.56,0:08:32.22,*Default,,0000,0000,0000,,Que dia mais estranho.
+Dialogue: Marked=0,0:08:32.22,0:08:37.76,*Default,,0000,0000,0000,,A Videl levou uma surra,\Nrecuperou-se e agora saiu voando...
+Dialogue: Marked=0,0:08:37.76,0:08:40.05,*Default,,0000,0000,0000,,Será que isso não é um truque?
+Dialogue: Marked=0,0:08:40.59,0:08:42.67,*Default,,0000,0000,0000,,O Mister Satan falou antes.
+Dialogue: Marked=0,0:08:43.18,0:08:46.01,*Default,,0000,0000,0000,,É!\NDeve ser truque mesmo!
+Dialogue: Marked=0,0:08:46.01,0:08:50.56,*Default,,0000,0000,0000,,O Son Gohan tudo bem,\Nmas é estranho que a Videl possa voar.
+Dialogue: Marked=0,0:08:51.12,0:08:53.29,*Default,,0000,0000,0000,,Ah, então foi isso?
+Dialogue: Marked=0,0:08:53.29,0:08:56.30,*Default,,0000,0000,0000,,Eles combinaram e estão usando truques.
+Dialogue: Marked=0,0:08:56.30,0:08:58.12,*Default,,0000,0000,0000,,Eu estava levando a sério e era isso?
+Dialogue: Marked=0,0:08:58.12,0:09:00.95,*Default,,0000,0000,0000,,Vou reclamar quando encontrá-los na escola.
+Dialogue: Marked=0,0:09:06.46,0:09:08.01,*Default,,0000,0000,0000,,Andem logo!
+Dialogue: Marked=0,0:09:08.67,0:09:10.37,*Default,,0000,0000,0000,,Viemos para ver lutas!
+Dialogue: Marked=0,0:09:10.67,0:09:15.87,*Default,,0000,0000,0000,,Ah, não joguem nada, por favor!\NNão joguem, por favor!
+Dialogue: Marked=0,0:09:21.84,0:09:24.05,*Default,,0000,0000,0000,,Goten, o que aconteceu?
+Dialogue: Marked=0,0:09:25.07,0:09:26.47,*Default,,0000,0000,0000,,Sei lá...
+Dialogue: Marked=0,0:09:34.79,0:09:37.95,*Default,,0000,0000,0000,,Não vamos alcançar o Kaioshin-sama\Ne os outros com esta velocidade!
+Dialogue: Marked=0,0:09:37.95,0:09:40.48,*Default,,0000,0000,0000,,Vamos um pouco mais rápido!
+Dialogue: Marked=0,0:09:40.48,0:09:40.73,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:09:41.47,0:09:43.36,*Default,,0000,0000,0000,,Ah, espere um pouco, por favor.
+Dialogue: Marked=0,0:09:45.74,0:09:48.87,*Default,,0000,0000,0000,,Videl-san, acho que é melhor\Nvocê não se esforçar tanto.
+Dialogue: Marked=0,0:09:53.69,0:09:55.00,*Default,,0000,0000,0000,,Que vergonhoso.
+Dialogue: Marked=0,0:09:56.74,0:09:59.89,*Default,,0000,0000,0000,,Não posso fazer mais que isso.
+Dialogue: Marked=0,0:09:59.89,0:10:02.09,*Default,,0000,0000,0000,,Já estamos tão rápido que\Nsequer consigo abrir os olhos.
+Dialogue: Marked=0,0:10:02.63,0:10:05.82,*Default,,0000,0000,0000,,É porque você acabou de\Ncomeçar a voar, Videl-san.
+Dialogue: Marked=0,0:10:05.82,0:10:07.81,*Default,,0000,0000,0000,,Acho que é melhor você voltar.
+Dialogue: Marked=0,0:10:07.81,0:10:10.29,*Default,,0000,0000,0000,,Não sei o que pode\Nacontecer a partir de agora.
+Dialogue: Marked=0,0:10:10.29,0:10:12.06,*Default,,0000,0000,0000,,Parece que é mais\Nperigoso do que pensei.
+Dialogue: Marked=0,0:10:12.61,0:10:14.74,*Default,,0000,0000,0000,,Acho que não tem jeito.
+Dialogue: Marked=0,0:10:14.74,0:10:17.61,*Default,,0000,0000,0000,,De qualquer forma que\Neu pense, só vou atrapalhar.
+Dialogue: Marked=0,0:10:17.61,0:10:18.90,*Default,,0000,0000,0000,,É uma pena, mas...
+Dialogue: Marked=0,0:10:19.74,0:10:21.29,*Default,,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:10:21.29,0:10:23.20,*Default,,0000,0000,0000,,Volte para o torneio.
+Dialogue: Marked=0,0:10:23.20,0:10:27.24,*Default,,0000,0000,0000,,Se encontrar com o Goten ou com a\Nminha mãe, fale para eles o que aconteceu.
+Dialogue: Marked=0,0:10:27.77,0:10:28.88,*Default,,0000,0000,0000,,Entendi.
+Dialogue: Marked=0,0:10:30.07,0:10:33.12,*Default,,0000,0000,0000,,Mas o Kin'iro no Senshi era\Nvocê mesmo, não era, Gohan-kun?
+Dialogue: Marked=0,0:10:35.81,0:10:40.00,*Default,,0000,0000,0000,,Era, desculpe por ter mentido.\NNão queria que soubessem.
+Dialogue: Marked=0,0:10:40.79,0:10:43.38,*Default,,0000,0000,0000,,Sete anos atrás, na luta contra Cell,
+Dialogue: Marked=0,0:10:43.38,0:10:46.76,*Default,,0000,0000,0000,,as pessoas estranhas que\Napareceram eram vocês, não eram?
+Dialogue: Marked=0,0:10:47.40,0:10:50.17,*Default,,0000,0000,0000,,A criança que estava\Njunto era você, Gohan-kun?
+Dialogue: Marked=0,0:10:52.76,0:10:53.26,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:10:53.93,0:10:58.11,*Default,,0000,0000,0000,,Quem derrotou Cell\Nprovavelmente não foi meu pai.
+Dialogue: Marked=0,0:10:58.11,0:10:58.94,*Default,,0000,0000,0000,,Foram vocês.
+Dialogue: Marked=0,0:11:00.04,0:11:01.06,*Default,,0000,0000,0000,,É que...
+Dialogue: Marked=0,0:11:02.08,0:11:03.40,*Default,,0000,0000,0000,,Eu sabia!
+Dialogue: Marked=0,0:11:03.98,0:11:06.61,*Default,,0000,0000,0000,,Tudo bem, não precisa se preocupar.
+Dialogue: Marked=0,0:11:06.61,0:11:11.59,*Default,,0000,0000,0000,,Até eu estava achando estranho\Nque meu pai o tivesse derrotado.
+Dialogue: Marked=0,0:11:11.59,0:11:13.47,*Default,,0000,0000,0000,,Agora tudo faz sentido!
+Dialogue: Marked=0,0:11:13.47,0:11:18.29,*Default,,0000,0000,0000,,Esforce-se, Gohan-kun.\NDerrote o Madoushi Babidi e salve todos nós.
+Dialogue: Marked=0,0:11:18.99,0:11:20.29,*Default,,0000,0000,0000,,Tá!
+Dialogue: Marked=0,0:11:25.54,0:11:29.80,*Default,,0000,0000,0000,,Gohan-kun, vou esperar no torneio!
+Dialogue: Marked=0,0:11:30.14,0:11:31.80,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:11:32.53,0:11:33.86,*Default,,0000,0000,0000,,Já podemos?
+Dialogue: Marked=0,0:11:33.86,0:11:35.39,*Default,,0000,0000,0000,,Já, desculpe!
+Dialogue: Marked=0,0:11:36.00,0:11:39.60,*Default,,0000,0000,0000,,Então vamos aumentar a velocidade.\NVamos alcançar o Kaioshin-sama e os outros!
+Dialogue: Marked=0,0:11:40.30,0:11:41.27,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:11:48.33,0:11:50.28,*Default,,0000,0000,0000,,Que velocidade.
+Dialogue: Marked=0,0:11:59.42,0:12:01.92,*Default,,0000,0000,0000,,Não morra, Gohan-kun.
+Dialogue: Marked=0,0:12:01.92,0:12:05.50,*Default,,0000,0000,0000,,Se você voltar bem,\Nvamos ter um encontro.
+
+Dialogue: Marked=0,0:12:09.75,0:12:12.49,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:09.75,0:12:12.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:09.75,0:12:12.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:09.75,0:12:12.49,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:15.75,0:12:18.49,comercial3,,0000,0000,0000,,{\fscx30\fscy45\pos(546,555)\t(9110,0)}torrents.ebrain.com.br
+Dialogue: Marked=0,0:12:15.75,0:12:18.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:15.75,0:12:18.49,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:15.75,0:12:18.49,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:47.09,0:12:48.38,*Default,,0000,0000,0000,,Ah, alcançamos!
+Dialogue: Marked=0,0:12:49.15,0:12:51.13,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:12:52.09,0:12:53.58,*Default,,0000,0000,0000,,É o Gohan!
+Dialogue: Marked=0,0:12:53.58,0:12:55.84,*Default,,0000,0000,0000,,Chegaram rápido!
+Dialogue: Marked=0,0:13:02.85,0:13:04.97,*Default,,0000,0000,0000,,Gohan, estávamos esperando.
+Dialogue: Marked=0,0:13:04.97,0:13:06.31,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:13:07.25,0:13:12.17,*Default,,0000,0000,0000,,Já ficou sabendo?\NParece que, desta vez, os inimigos são terríveis!
+Dialogue: Marked=0,0:13:12.17,0:13:12.82,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:13:13.74,0:13:16.61,*Default,,0000,0000,0000,,Vamos acabar com tudo\Nde novo depois de muito tempo!
+Dialogue: Marked=0,0:13:16.61,0:13:17.66,*Default,,0000,0000,0000,,É!
+Dialogue: Marked=0,0:13:18.65,0:13:21.93,*Default,,0000,0000,0000,,O Goku está empolgado,\Nmas será que está tudo bem?
+Dialogue: Marked=0,0:13:21.93,0:13:23.66,*Default,,0000,0000,0000,,Parece que vai ser perigoso.
+Dialogue: Marked=0,0:13:46.82,0:13:48.56,*Default,,0000,0000,0000,,Chegaram.
+Dialogue: Marked=0,0:13:53.79,0:13:54.82,*Default,,0000,0000,0000,,É lá, não é?
+Dialogue: Marked=0,0:14:04.99,0:14:06.42,*Default,,0000,0000,0000,,Começaram a descer.
+Dialogue: Marked=0,0:14:09.86,0:14:11.17,*Default,,0000,0000,0000,,Em um lugar desses?
+Dialogue: Marked=0,0:14:12.19,0:14:15.67,*Default,,0000,0000,0000,,Que estranho.\NTenho certeza de que já procuramos por aqui.
+Dialogue: Marked=0,0:14:41.07,0:14:43.79,*Default,,0000,0000,0000,,Escondam suas presenças.
+Dialogue: Marked=0,0:14:43.79,0:14:44.41,*Default,,0000,0000,0000,,Entenderam?
+Dialogue: Marked=0,0:14:52.66,0:14:53.67,*Default,,0000,0000,0000,,Tem alguém lá!
+Dialogue: Marked=0,0:14:54.48,0:14:56.14,*Default,,0000,0000,0000,,Ele é o Babidi?
+Dialogue: Marked=0,0:14:56.14,0:14:57.98,*Default,,0000,0000,0000,,Não, não é ele.
+Dialogue: Marked=0,0:14:57.98,0:15:00.68,*Default,,0000,0000,0000,,Deve ser um dos homens do Babidi.
+Dialogue: Marked=0,0:15:02.29,0:15:05.43,*Default,,0000,0000,0000,,Tem uma coisa estranha,\Nmas só naquele pedaço.
+Dialogue: Marked=0,0:15:05.43,0:15:06.85,*Default,,0000,0000,0000,,Parece que foi cavado.
+Dialogue: Marked=0,0:15:07.43,0:15:12.36,*Default,,0000,0000,0000,,Então foi isso.\NBabidi estava escondendo a nave espacial.
+Dialogue: Marked=0,0:15:12.36,0:15:14.36,*Default,,0000,0000,0000,,Por isso que procuramos e não encontramos.
+Dialogue: Marked=0,0:15:14.82,0:15:22.21,*Default,,0000,0000,0000,,Talvez Babidi saiba que\Nnós viemos para a Terra.
+Dialogue: Marked=0,0:15:22.21,0:15:24.37,*Default,,0000,0000,0000,,Senão, ele não teria o\Ntrabalho de esconder a nave.
+Dialogue: Marked=0,0:15:25.18,0:15:27.48,*Default,,0000,0000,0000,,Não é melhor atacar logo?
+Dialogue: Marked=0,0:15:27.48,0:15:31.21,*Default,,0000,0000,0000,, Antes de usarem a energia\Ndo Gohan para reviver Majin Boo.
+Dialogue: Marked=0,0:15:31.68,0:15:37.21,*Default,,0000,0000,0000,,Está tudo bem. Vão reviver Majin Boo\Nfora da nave para não destruí-la.
+Dialogue: Marked=0,0:15:37.66,0:15:40.56,*Default,,0000,0000,0000,,Vamos observar um pouco\Nmais e esperar o melhor momento.
+Dialogue: Marked=0,0:16:02.09,0:16:03.41,*Default,,0000,0000,0000,,Alguém vai sair.
+Dialogue: Marked=0,0:16:42.81,0:16:44.49,*Default,,0000,0000,0000,,Dabura!
+Dialogue: Marked=0,0:16:45.31,0:16:47.51,*Default,,0000,0000,0000,,Não pode ser... Dabura?!
+Dialogue: Marked=0,0:16:47.51,0:16:52.50,N!,,0000,0000,0000,,{\fad(300,300)}Makai = Mundo dos Demônios
+Dialogue: Marked=0,0:16:47.51,0:16:52.50,*Default,,0000,0000,0000,,Babidi conseguiu até\Nalguém como o rei do Makai?
+Dialogue: Marked=0,0:16:58.33,0:17:01.54,*Default,,0000,0000,0000,,Dabura? Qual é? O alto?
+Dialogue: Marked=0,0:17:01.54,0:17:02.63,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:17:03.44,0:17:06.18,*Default,,0000,0000,0000,,Ele é bom?
+Dialogue: Marked=0,0:17:07.20,0:17:08.76,*Default,,0000,0000,0000,,Claro.
+Dialogue: Marked=0,0:17:09.97,0:17:13.87,N!,,0000,0000,0000,,{\fad(300,300)}Ankoku Makai = Mundo dos Demônios da Escuridão
+Dialogue: Marked=0,0:17:09.97,0:17:13.24,*Default,,0000,0000,0000,,Afinal, ele é o rei do Ankoku Makai.
+Dialogue: Marked=0,0:17:14.90,0:17:18.40,*Default,,0000,0000,0000,,O-O que é esse Ankoku Makai?
+Dialogue: Marked=0,0:17:19.04,0:17:22.90,*Default,,0000,0000,0000,,Existe um mundo oposto a este.
+Dialogue: Marked=0,0:17:24.46,0:17:28.41,*Default,,0000,0000,0000,,O número um deste mundo\Ndeve ser algum de vocês,
+Dialogue: Marked=0,0:17:28.98,0:17:33.21,*Default,,0000,0000,0000,,mas Dabura certamente\Nestá no topo do outro mundo.
+Dialogue: Marked=0,0:17:34.31,0:17:38.25,*Default,,0000,0000,0000,,Rei do Makai?\NTem um mundo assim?
+Dialogue: Marked=0,0:17:38.25,0:17:43.32,*Default,,0000,0000,0000,,Ele deve ser muito perigoso!\NNão pode ser!
+Dialogue: Marked=0,0:17:44.76,0:17:49.18,*Default,,0000,0000,0000,,Então o menor é o Madoushi Babidi?
+Dialogue: Marked=0,0:17:49.72,0:17:51.09,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:17:51.09,0:17:54.18,*Default,,0000,0000,0000,,Ele? É ele?
+Dialogue: Marked=0,0:17:54.79,0:17:59.06,*Default,,0000,0000,0000,,Ele não tem muita força,\Nmas usa uma magia terrível.
+Dialogue: Marked=0,0:17:59.06,0:18:01.69,*Default,,0000,0000,0000,,Não o subestimem de forma alguma!
+Dialogue: Marked=0,0:18:02.97,0:18:06.70,*Default,,0000,0000,0000,,É tão forte que fez\Nde Dabura um de seus homens.
+Dialogue: Marked=0,0:18:07.09,0:18:13.45,*Default,,0000,0000,0000,,A magia de Babidi é tão forte que conseguiu\Ndominar até mesmo o mais forte do Makai?
+Dialogue: Marked=0,0:18:14.11,0:18:20.97,*Default,,0000,0000,0000,,Não, achamos que ele usa o mal e o ódio que há no coração das vítimas para controlá-las.
+Dialogue: Marked=0,0:18:20.97,0:18:23.73,*Default,,0000,0000,0000,,Sendo assim, Dabura seria a presa perfeita.
+Dialogue: Marked=0,0:18:24.93,0:18:29.86,*Default,,0000,0000,0000,,Na verdade, a magia mais\Nterrível de Babidi é essa.
+Dialogue: Marked=0,0:18:29.86,0:18:34.73,*Default,,0000,0000,0000,,Yamu, Spopovitch e os outros subordinados\Nestão sendo controlados por essa magia.
+Dialogue: Marked=0,0:18:34.73,0:18:37.14,*Default,,0000,0000,0000,,Por isso que nós, assim como vocês,
+Dialogue: Marked=0,0:18:37.14,0:18:40.98,*Default,,0000,0000,0000,,que não temos mal no coração,\Npodemos lutar contra ele.
+Dialogue: Marked=0,0:18:42.08,0:18:44.49,*Default,,0000,0000,0000,,Aqueles que têm mal no coração?
+Dialogue: Marked=0,0:18:44.49,0:18:47.02,*Default,,0000,0000,0000,,Mas isso não é ruim para você, Piccolo?
+Dialogue: Marked=0,0:18:47.02,0:18:48.32,*Default,,0000,0000,0000,,É um Mazoku...
+Dialogue: Marked=0,0:18:48.56,0:18:49.70,*Default,,0000,0000,0000,,Isso é coisa do passado!
+Dialogue: Marked=0,0:18:57.04,0:18:59.35,*Default,,0000,0000,0000,,Está cheio de energia?
+Dialogue: Marked=0,0:19:00.03,0:19:01.64,*Default,,0000,0000,0000,,- Sim.\N - S-Sim!
+Dialogue: Marked=0,0:19:06.20,0:19:09.66,*Default,,0000,0000,0000,,Mesmo assim, foi um grande\Nerro de cálculo Dabura estar aqui.
+Dialogue: Marked=0,0:19:09.66,0:19:12.26,*Default,,0000,0000,0000,,Babidi e Dabura juntos...
+Dialogue: Marked=0,0:19:13.68,0:19:16.52,*Default,,0000,0000,0000,,Está dizendo que não\Ntemos mais chance de vitória?
+Dialogue: Marked=0,0:19:21.54,0:19:25.02,*Default,,0000,0000,0000,,Se Majin Boo reviver,\Nvai ser o fim do mundo?
+Dialogue: Marked=0,0:19:25.02,0:19:28.53,*Default,,0000,0000,0000,,Não vou deixar isso acontecer!\NEu não vou perder para eles!
+Dialogue: Marked=0,0:19:29.95,0:19:33.58,*Default,,0000,0000,0000,,Isso vai ser perigoso mesmo...
+Dialogue: Marked=0,0:19:34.60,0:19:38.87,*Default,,0000,0000,0000,,Kuririn, é melhor você voltar.\NVai ser pior do que pensamos!
+Dialogue: Marked=0,0:19:39.51,0:19:41.68,*Default,,0000,0000,0000,,A-Acho que vou fazer isso mesmo.
+Dialogue: Marked=0,0:19:41.68,0:19:44.59,*Default,,0000,0000,0000,,Parece que é um nível\Ncontra o qual não posso ser útil.
+Dialogue: Marked=0,0:19:45.13,0:19:48.92,*Default,,0000,0000,0000,,E ainda não tem muito\Ntempo que você se casou...
+Dialogue: Marked=0,0:19:49.98,0:19:53.43,*Default,,0000,0000,0000,,É, tenho uma linda esposa e filha...
+Dialogue: Marked=0,0:19:54.96,0:19:56.43,*Default,,0000,0000,0000,,Bem, desculpem-me, mas...
+Dialogue: Marked=0,0:20:08.99,0:20:10.47,*Default,,0000,0000,0000,,Bom trabalho.
+Dialogue: Marked=0,0:20:10.47,0:20:14.24,*Default,,0000,0000,0000,,Agora nos aproximamos\Nbastante de reviver Majin Boo.
+Dialogue: Marked=0,0:20:14.97,0:20:19.83,*Default,,0000,0000,0000,,Que nada.\NFoi um trabalho muito fácil com o nosso poder.
+Dialogue: Marked=0,0:20:20.57,0:20:24.04,*Default,,0000,0000,0000,,Bem, agora vocês não\Ntêm mais utilidade para mim.
+Dialogue: Marked=0,0:21:16.82,0:21:18.64,*Default,,0000,0000,0000,,Fez "boom"!
+Dialogue: Marked=0,0:21:18.64,0:21:20.48,*Default,,0000,0000,0000,,Não importa quantas vezes ouça, sempre é um bom som.
+Dialogue: Marked=0,0:21:20.48,0:21:22.77,*Default,,0000,0000,0000,,Sim, eu também acho isso.
+Dialogue: Marked=0,0:21:23.40,0:21:26.10,*Default,,0000,0000,0000,,Então, eu cuido dele...
+Dialogue: Marked=0,0:21:32.63,0:21:35.35,*Default,,0000,0000,0000,,Puipui, você quer tentar?
+Dialogue: Marked=0,0:21:35.35,0:21:35.99,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:21:57.26,0:21:59.05,*Default,,0000,0000,0000,,Belo tiro!
+Dialogue: Marked=0,0:22:07.64,0:22:09.14,*Default,,0000,0000,0000,,O-Os próprios companheiros...
+Dialogue: Marked=0,0:22:09.14,0:22:11.38,*Default,,0000,0000,0000,,Q-Que gente...
+Dialogue: Marked=0,0:22:14.03,0:22:19.37,Narrador,,0000,0000,0000,,Madoushi Babidi, que está por trás\Nde tudo, finalmente mostrou o rosto.
+Dialogue: Marked=0,0:22:20.12,0:22:23.33,Narrador,,0000,0000,0000,,O rei do Ankoku Makai,\NDabura, também está junto.
+Dialogue: Marked=0,0:22:23.33,0:22:28.13,Narrador,,0000,0000,0000,,Há um pressentimento de que\Nalgo inacreditável está para acontecer.
+
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HF3E8CC\bord0\fscx75\fscy55\pos(235,173)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HF3E8CC\bord0\fscx48\fscy48\pos(235,243)\t(9110,0)}http://torrents.ebrain.com.br

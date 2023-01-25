@@ -1,0 +1,237 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:52.08,0:01:55.86,Narrador,,0000,0000,0000,, Na forma de Super Saiya-jins,\NGoku e Gohan vão descansar 3 dias,
+Dialogue: Marked=0,0:01:56.35,0:02:02.47,Narrador,,0000,0000,0000,,treinar 3 dias e descansar mais 3 dias.
+Dialogue: Marked=0,0:02:09.47,0:02:11.42,*Default,,0000,0000,0000,,Eu vou ser seu adversário!
+Dialogue: Marked=0,0:02:11.84,0:02:17.06,Narrador,,0000,0000,0000,,E, também no Tenkai, Piccolo,\No primeiro a entrar na Seishin to Toki no Heya,
+Dialogue: Marked=0,0:02:17.06,0:02:20.59,Narrador,,0000,0000,0000,,estava realizando um árduo treinamento.
+Dialogue: Marked=0,0:02:43.50,0:02:45.29,*Default,,0000,0000,0000,,Derrote Cell de qualquer jeito.
+Dialogue: Marked=0,0:02:46.80,0:02:49.96,*Default,,0000,0000,0000,,Você vai participar do\NTenkaichi Budoukai, não vai?
+Dialogue: Marked=0,0:02:50.96,0:02:51.96,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:02:54.50,0:03:00.88,Narrador,,0000,0000,0000,,Faltam 8 dias para os Cell Games,\Nque deixaram o mundo inteiro aterrorizado.
+
+Dialogue: Marked=0,0:03:10.60,0:03:18.58,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 171
+Dialogue: Marked=0,0:03:10.60,0:03:18.58,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(305,185)\fad(500,0)\fscx170\fscy170}Força escondida{\i1}!!
+Dialogue: Marked=0,0:03:10.60,0:03:18.58,apresDBZ2,,0000,0000,0000,,{\c&HDCE2E2\pos(405,525)\fad(500,0)\fscx185\fscy185}Quando Gohan era bebê
+
+Dialogue: Marked=0,0:03:19.27,0:03:28.46,*Default,,0000,0000,0000,,Aquele Yajirobe disse:\N"Desculpe. Eu o respeito. Vamos ser amigos?"
+Dialogue: Marked=0,0:03:33.12,0:03:37.75,*Default,,0000,0000,0000,,Assim não, Gohan.\NVocê precisa controlar o seu poder como eu.
+Dialogue: Marked=0,0:03:39.79,0:03:42.00,*Default,,0000,0000,0000,,Não... Errei, errei...
+Dialogue: Marked=0,0:03:42.00,0:03:43.03,*Default,,0000,0000,0000,,Desta vez...
+Dialogue: Marked=0,0:04:02.38,0:04:05.20,*Default,,0000,0000,0000,,Não estou brincando!
+Dialogue: Marked=0,0:04:05.79,0:04:08.42,*Default,,0000,0000,0000,,Não me importo se é para\Nlutar contra o Cell ou não,
+Dialogue: Marked=0,0:04:08.42,0:04:11.08,*Default,,0000,0000,0000,,mas não quero que estejam como\NSuper Saiya-jins na hora de comer!
+Dialogue: Marked=0,0:04:12.25,0:04:16.37,*Default,,0000,0000,0000,,Senão, todos os pratos, não,\Na casa inteira vai ser destruída.
+Dialogue: Marked=0,0:04:16.37,0:04:21.55,*Default,,0000,0000,0000,,Estava pensando em fazer a festa de aniversário\Ndo Gohan hoje à tarde, mas o que vamos fazer?
+Dialogue: Marked=0,0:04:21.55,0:04:22.76,*Default,,0000,0000,0000,,Festa de aniversário?
+Dialogue: Marked=0,0:04:23.05,0:04:26.81,*Default,,0000,0000,0000,,Mas, mãe, hoje não é o meu...
+Dialogue: Marked=0,0:04:26.81,0:04:28.85,*Default,,0000,0000,0000,,Eu sei disso.
+Dialogue: Marked=0,0:04:29.37,0:04:35.85,*Default,,0000,0000,0000,,Mas, quando estava na Seishin to Toki no Heya,\Nvocê fez 11 anos, Gohan-chan.
+Dialogue: Marked=0,0:04:37.68,0:04:43.32,*Default,,0000,0000,0000,,Aniversários são importantes,\Nentão decidi que vamos comemorar hoje.
+Dialogue: Marked=0,0:04:46.59,0:04:48.41,*Default,,0000,0000,0000,,Bem, Goku-san, vá.
+Dialogue: Marked=0,0:04:49.34,0:04:50.66,*Default,,0000,0000,0000,,Ir para onde?
+Dialogue: Marked=0,0:04:51.20,0:04:56.29,*Default,,0000,0000,0000,,Enquanto faço os preparativos para a festa, não posso deixar você quebrar as coisas de novo.
+Dialogue: Marked=0,0:04:57.28,0:05:00.46,*Default,,0000,0000,0000,,Então, vá pegar um peixe grande para a festa.
+Dialogue: Marked=0,0:05:00.91,0:05:04.60,*Default,,0000,0000,0000,,Entendi. Já que é uma coisa dessas, eu vou.
+Dialogue: Marked=0,0:05:04.60,0:05:05.93,*Default,,0000,0000,0000,,Eu também.
+Dialogue: Marked=0,0:05:05.93,0:05:07.85,*Default,,0000,0000,0000,,Pai, eu também.
+Dialogue: Marked=0,0:05:07.85,0:05:10.47,*Default,,0000,0000,0000,,Gohan-chan fica para estudar.
+Dialogue: Marked=0,0:05:11.68,0:05:15.88,*Default,,0000,0000,0000,,Antes da festa começar,\Nvocê precisa estudar bastante.
+Dialogue: Marked=0,0:05:15.88,0:05:18.48,*Default,,0000,0000,0000,,Você está um ano atrasado.
+Dialogue: Marked=0,0:05:19.02,0:05:20.99,*Default,,0000,0000,0000,,É o meu aniversário...
+Dialogue: Marked=0,0:05:20.99,0:05:22.73,*Default,,0000,0000,0000,,O aniversário não importa.
+Dialogue: Marked=0,0:05:23.70,0:05:24.48,*Default,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:05:25.50,0:05:31.25,*Default,,0000,0000,0000,,Gohan, é como a sua mãe disse.\NFique e estude bem.
+Dialogue: Marked=0,0:05:41.59,0:05:42.75,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:05:43.42,0:05:44.67,*Default,,0000,0000,0000,,G-Goku?
+Dialogue: Marked=0,0:05:45.37,0:05:46.89,*Default,,0000,0000,0000,,Pai?
+Dialogue: Marked=0,0:05:47.98,0:05:48.84,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:05:52.34,0:05:53.64,*Default,,0000,0000,0000,,Não está com febre...
+Dialogue: Marked=0,0:06:07.74,0:06:12.34,*Default,,0000,0000,0000,,Que bom, que bom.\NParece que está estudando direito.
+Dialogue: Marked=0,0:06:12.34,0:06:15.22,*Default,,0000,0000,0000,,Mas, o que será que aconteceu com o Goku-san?
+Dialogue: Marked=0,0:06:15.22,0:06:20.09,*Default,,0000,0000,0000,,Até agora, ele nunca o tinha mandado\Nestudar, como um pai de verdade faria.
+Dialogue: Marked=0,0:06:20.09,0:06:24.55,*Default,,0000,0000,0000,,Que sensação estranha.\NEspero que não aconteça nada de errado.
+Dialogue: Marked=0,0:06:48.88,0:06:51.03,*Default,,0000,0000,0000,,O Goku está correndo\Ncomo se fosse uma criança.
+Dialogue: Marked=0,0:06:51.97,0:06:53.34,*Default,,0000,0000,0000,,Ei, Kuririn!
+Dialogue: Marked=0,0:07:12.01,0:07:13.24,*Default,,0000,0000,0000,,Ei, Goku...
+Dialogue: Marked=0,0:07:15.60,0:07:17.93,*Default,,0000,0000,0000,,Seria bom se o Gohan também estivesse aqui.
+Dialogue: Marked=0,0:07:17.93,0:07:27.03,*Default,,0000,0000,0000,,A Chi-Chi-san pressiona demais o Gohan para estudar e agora até você mandou. Coitado dele.
+Dialogue: Marked=0,0:07:29.42,0:07:29.90,*Default,,0000,0000,0000,,Está tudo bem.
+Dialogue: Marked=0,0:07:34.45,0:07:39.41,*Default,,0000,0000,0000,,Dentro de 8 dias, Gohan e\Neu precisamos lutar contra Cell.
+Dialogue: Marked=0,0:07:41.19,0:07:47.17,*Default,,0000,0000,0000,,Cell é inacreditavelmente forte. Para dizer a\Nverdade, não sei se é uma luta que posso vencer.
+Dialogue: Marked=0,0:07:50.07,0:07:54.68,*Default,,0000,0000,0000,,Então, quero deixar o Gohan\Npassar mais tempo com a Chi-Chi até lá.
+Dialogue: Marked=0,0:07:58.10,0:07:58.91,P!,,0000,0000,0000,,Goku...
+Dialogue: Marked=0,0:08:02.98,0:08:08.92,*Default,,0000,0000,0000,,Eu tinha deixado a toalha de mesa aqui...\NOnde está, onde está?
+Dialogue: Marked=0,0:08:09.94,0:08:10.93,*Default,,0000,0000,0000,,Ai!
+Dialogue: Marked=0,0:08:12.84,0:08:14.11,*Default,,0000,0000,0000,,O que é isso?
+Dialogue: Marked=0,0:08:21.21,0:08:24.60,*Default,,0000,0000,0000,,Nossa, quanto tempo!
+Dialogue: Marked=0,0:08:30.74,0:08:37.60,*Default,,0000,0000,0000,,{\fad(0,3000)}Agora ele está bem grande, mas antes era assim.
+Dialogue: Marked=0,0:08:41.66,0:08:42.85,L!,,0000,0000,0000,,Que bonitinho.
+Dialogue: Marked=0,0:08:43.74,0:08:45.79,L!,,0000,0000,0000,,Mas, não é pequeno demais?
+Dialogue: Marked=0,0:08:46.65,0:08:48.57,L!,,0000,0000,0000,,Bebês são pequenos.
+Dialogue: Marked=0,0:08:51.32,0:08:54.57,L!,,0000,0000,0000,,Precisamos dar um nome a ele.
+Dialogue: Marked=0,0:08:55.92,0:08:58.04,L!,,0000,0000,0000,,Eu já pensei em um nome.
+Dialogue: Marked=0,0:09:00.43,0:09:02.08,L!,,0000,0000,0000,,Já pensou?
+Dialogue: Marked=0,0:09:03.85,0:09:05.00,L!,,0000,0000,0000,,Einstein.
+Dialogue: Marked=0,0:09:06.41,0:09:07.71,L!,,0000,0000,0000,,Einstein?
+Dialogue: Marked=0,0:09:08.49,0:09:10.93,L!,,0000,0000,0000,,É o nome de um grande estudioso.
+Dialogue: Marked=0,0:09:17.07,0:09:19.22,L!,,0000,0000,0000,,Opa, opa...
+Dialogue: Marked=0,0:09:20.72,0:09:23.70,L!,,0000,0000,0000,,Tenho certeza de que ele\Nnão vai gostar desse nome.
+Dialogue: Marked=0,0:09:23.70,0:09:25.27,L!,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:09:25.38,0:09:27.02,L!,,0000,0000,0000,,Então, vai ser Arquimedes.
+Dialogue: Marked=0,0:09:30.70,0:09:31.90,L!,,0000,0000,0000,,Esse também não.
+Dialogue: Marked=0,0:09:32.43,0:09:34.95,L!,,0000,0000,0000,,Então, quais são suas idéias, pai?
+Dialogue: Marked=0,0:09:36.33,0:09:38.67,L!,,0000,0000,0000,,Eu pensei em vários.
+Dialogue: Marked=0,0:09:46.35,0:09:47.42,L!,,0000,0000,0000,,Vou começar. Posso?
+Dialogue: Marked=0,0:09:48.09,0:09:54.39,L!,,0000,0000,0000,,Gyumatarou, Gyumahikou,\NDoutor Gyuma, Gyuma no Suke,
+Dialogue: Marked=0,0:09:55.15,0:09:59.49,L!,,0000,0000,0000,,Gyumashi, Gyuman to Hihi, Gyuman Suki.
+Dialogue: Marked=0,0:10:01.93,0:10:03.43,L!,,0000,0000,0000,,Os seus também não são bons, pai.
+Dialogue: Marked=0,0:10:04.20,0:10:05.81,L!,,0000,0000,0000,,Não?
+Dialogue: Marked=0,0:10:23.05,0:10:23.79,L!,,0000,0000,0000,,Já sei!
+Dialogue: Marked=0,0:10:27.06,0:10:27.66,L!,,0000,0000,0000,,Eu?
+Dialogue: Marked=0,0:10:29.12,0:10:31.51,L!,,0000,0000,0000,,Goku-san, você estava pensando em um nome?
+Dialogue: Marked=0,0:10:31.51,0:10:33.42,L!,,0000,0000,0000,,Deve ter pelo menos um!
+Dialogue: Marked=0,0:10:35.25,0:10:35.80,L!,,0000,0000,0000,,Eu...
+Dialogue: Marked=0,0:10:39.57,0:10:40.14,L!,,0000,0000,0000,,Eu...
+Dialogue: Marked=0,0:10:44.88,0:10:47.10,L!,,0000,0000,0000,,Eu estou com muita fome.
+Dialogue: Marked=0,0:10:51.26,0:10:56.40,L!,,0000,0000,0000,,Goku-san, o que você está dizendo\Nem um momento importante como este?
+Dialogue: Marked=0,0:10:57.08,0:11:02.00,N!,,0000,0000,0000,,{\fad(300,300)}Asa Gohan = Café-da-manhã
+Dialogue: Marked=0,0:10:57.08,0:11:00.19,L!,,0000,0000,0000,,Você acabou de tomar café-da-manhã.
+Dialogue: Marked=0,0:11:02.69,0:11:09.84,N!,,0000,0000,0000,,{\fad(300,300)}Hiru Gohan = Almoço
+Dialogue: Marked=0,0:11:02.69,0:11:07.71,L!,,0000,0000,0000,,Você não é mais criança.\NPode esperar até o almoço.
+Dialogue: Marked=0,0:11:07.71,0:11:08.94,L!,,0000,0000,0000,,Desculpe, desculpe.
+Dialogue: Marked=0,0:11:12.70,0:11:14.83,L!,,0000,0000,0000,,Você sempre é assim.
+Dialogue: Marked=0,0:11:14.83,0:11:16.50,L!,,0000,0000,0000,,Ei, Chi-Chi.
+Dialogue: Marked=0,0:11:16.50,0:11:17.55,L!,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:11:17.55,0:11:19.55,L!,,0000,0000,0000,,Escute só.
+Dialogue: Marked=0,0:11:20.21,0:11:21.09,L!,,0000,0000,0000,,Asa gohan.
+Dialogue: Marked=0,0:11:23.54,0:11:24.71,L!,,0000,0000,0000,,Hiru gohan.
+Dialogue: Marked=0,0:11:26.58,0:11:28.18,L!,,0000,0000,0000,,Gohan.
+Dialogue: Marked=0,0:11:34.00,0:11:34.75,L!,,0000,0000,0000,,Gohan.
+Dialogue: Marked=0,0:11:37.75,0:11:39.59,L!,,0000,0000,0000,,É isso!
+Dialogue: Marked=0,0:11:39.59,0:11:41.99,L!,,0000,0000,0000,,Vamos colocar o nome do meu avô.
+Dialogue: Marked=0,0:11:42.99,0:11:49.50,L!,,0000,0000,0000,,Isso. Se for usar o nome de\NSon Gohan, eu não me importo.
+Dialogue: Marked=0,0:11:49.98,0:11:53.85,L!,,0000,0000,0000,,Certo, você vai ser Gohan. Son Gohan.
+Dialogue: Marked=0,0:11:56.87,0:12:00.14,L!,,0000,0000,0000,,Você também está feliz, Gohan?
+Dialogue: Marked=0,0:12:00.14,0:12:01.13,L!,,0000,0000,0000,,Son Gohan.
+Dialogue: Marked=0,0:12:09.44,0:12:11.77,L!,,0000,0000,0000,,{\fad(0,1400)}Goku-san...
+Dialogue: Marked=0,0:12:19.06,0:12:19.90,*Default,,0000,0000,0000,,Gohan!
+Dialogue: Marked=0,0:12:24.86,0:12:26.95,*Default,,0000,0000,0000,,Hoje não precisa mais estudar.
+Dialogue: Marked=0,0:12:27.75,0:12:31.00,*Default,,0000,0000,0000,,O que está fazendo?\NVá logo ajudar o Goku-san!
+Dialogue: Marked=0,0:12:33.14,0:12:34.42,*Default,,0000,0000,0000,,Sim!
+
+Dialogue: Marked=0,0:12:37.17,0:12:41.22,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:37.17,0:12:41.22,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:37.17,0:12:41.22,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:37.17,0:12:41.22,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:44.34,0:12:46.56,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:44.34,0:12:46.56,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:44.34,0:12:46.56,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:44.34,0:12:46.56,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:52.64,0:13:00.27,*Default,,0000,0000,0000,,Estou com muito medo agora.\NHoje vou usar toda a minha coragem.
+Dialogue: Marked=0,0:13:00.27,0:13:04.61,*Default,,0000,0000,0000,,Vou arriscar minha vida pela notícia.\NPor favor, aproveitem.
+Dialogue: Marked=0,0:13:05.91,0:13:11.12,*Default,,0000,0000,0000,,Quem está lá é o assunto mais\Nfalado em todo mundo: Cell.
+Dialogue: Marked=0,0:13:11.77,0:13:18.13,*Default,,0000,0000,0000,,Por que eu preciso fazer um trabalho desses?\NAinda faltam mais 8 dias.
+Dialogue: Marked=0,0:13:18.66,0:13:24.50,*Default,,0000,0000,0000,,Toda a raça humana pode ser destruída,\Nmas está muito tarde para perceber isso agora.
+Dialogue: Marked=0,0:13:24.50,0:13:27.13,*Default,,0000,0000,0000,,Eu não me importo.\NSó preciso seguir em frente.
+Dialogue: Marked=0,0:13:34.67,0:13:36.90,*Default,,0000,0000,0000,,É muito assustador.
+Dialogue: Marked=0,0:13:41.51,0:13:45.74,*Default,,0000,0000,0000,,Senhoras e senhores, caso aconteça\Nalguma coisa, vou me despedir agora.
+Dialogue: Marked=0,0:13:46.45,0:13:47.98,*Default,,0000,0000,0000,,Rápido!
+Dialogue: Marked=0,0:13:47.98,0:13:48.91,*Default,,0000,0000,0000,,C-Certo.
+Dialogue: Marked=0,0:13:56.03,0:13:58.17,*Default,,0000,0000,0000,,Cell-san, com licença.
+Dialogue: Marked=0,0:13:58.94,0:14:05.98,*Default,,0000,0000,0000,,De onde você veio? Os rumores dizem\Nque você veio em um OVNI, é verdade?
+Dialogue: Marked=0,0:14:06.91,0:14:08.95,*Default,,0000,0000,0000,,Qual é o verdadeiro motivo dos Cell Games?
+Dialogue: Marked=0,0:14:08.95,0:14:13.77,*Default,,0000,0000,0000,,Se todos os representantes perderem,\Na partir de onde você vai começar a atacar?
+Dialogue: Marked=0,0:14:14.01,0:14:18.57,*Default,,0000,0000,0000,,Se os humanos começarem a fugir\Npara o espaço, você vai segui-los?
+Dialogue: Marked=0,0:14:19.61,0:14:20.02,*Default,,0000,0000,0000,,Ou...
+Dialogue: Marked=0,0:14:21.23,0:14:22.73,*Default,,0000,0000,0000,,Que lixo barulhento.
+Dialogue: Marked=0,0:14:36.73,0:14:37.71,*Default,,0000,0000,0000,,Está atrapalhando.
+Dialogue: Marked=0,0:15:02.00,0:15:03.52,*Default,,0000,0000,0000,,Que imensa.
+Dialogue: Marked=0,0:15:04.78,0:15:06.10,*Default,,0000,0000,0000,,Será que esta é boa?
+Dialogue: Marked=0,0:15:08.18,0:15:11.45,*Default,,0000,0000,0000,,Desculpe, mas posso pegar algumas frutas?
+Dialogue: Marked=0,0:15:40.68,0:15:42.62,*Default,,0000,0000,0000,,Bom trabalho, Goku.
+Dialogue: Marked=0,0:15:59.11,0:15:59.66,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:16:06.10,0:16:07.84,*Default,,0000,0000,0000,,Magnífico, magnífico.
+Dialogue: Marked=0,0:16:43.29,0:16:44.71,L!,,0000,0000,0000,,Uau! Que lindo!
+Dialogue: Marked=0,0:16:51.77,0:16:56.22,N!,,0000,0000,0000,,{\fad(300,300)}Tori = Pássaro
+Dialogue: Marked=0,0:16:51.77,0:16:54.76,L!,,0000,0000,0000,,Olhe, Gohan-chan. Tori-san.
+Dialogue: Marked=0,0:16:56.79,0:16:59.97,L!,,0000,0000,0000,,Família de três, como a nossa.
+Dialogue: Marked=0,0:17:01.76,0:17:02.79,L!,,0000,0000,0000,,É mesmo.
+Dialogue: Marked=0,0:17:09.22,0:17:11.37,L!,,0000,0000,0000,,Está vendo, Gohan-chan?
+Dialogue: Marked=0,0:17:14.83,0:17:15.99,L!,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:17:20.91,0:17:22.62,L!,,0000,0000,0000,,Espere!
+Dialogue: Marked=0,0:17:37.71,0:17:38.91,L!,,0000,0000,0000,,Gohan!
+Dialogue: Marked=0,0:17:41.43,0:17:44.14,L!,,0000,0000,0000,,Gohan-chan!
+Dialogue: Marked=0,0:17:52.26,0:17:57.57,L!,,0000,0000,0000,,Gohan-chan! Goku-san, não\Nfique de bobeira! Faça alguma coisa!
+Dialogue: Marked=0,0:18:54.80,0:18:57.19,L!,,0000,0000,0000,,Gohan-chan!
+Dialogue: Marked=0,0:19:00.87,0:19:02.13,L!,,0000,0000,0000,,Gohan-chan!
+Dialogue: Marked=0,0:19:06.14,0:19:07.81,L!,,0000,0000,0000,,Não está machucado?
+Dialogue: Marked=0,0:19:13.01,0:19:14.95,L!,,0000,0000,0000,,Que bom.
+Dialogue: Marked=0,0:19:14.95,0:19:19.20,L!,,0000,0000,0000,,Seu pai o salvou. Só podia ter sido ele.
+Dialogue: Marked=0,0:19:19.85,0:19:21.41,L!,,0000,0000,0000,,Não fui eu.
+Dialogue: Marked=0,0:19:21.94,0:19:27.50,L!,,0000,0000,0000,,Foi bom você ter salvado ele,\Nmas não devia ter soltado.
+Dialogue: Marked=0,0:19:28.18,0:19:33.42,L!,,0000,0000,0000,,Ele poderia ter morrido. Vai ter problemas\Nse não tomar mais cuidado da próxima vez.
+Dialogue: Marked=0,0:19:33.80,0:19:35.00,L!,,0000,0000,0000,,Desculpe-me.
+Dialogue: Marked=0,0:19:37.87,0:19:42.96,L!,,0000,0000,0000,,Ei, Gohan-chan, ignore o seu pai\Ncruel e volte com a sua mãe para casa.
+Dialogue: Marked=0,0:19:42.96,0:19:43.93,L!,,0000,0000,0000,,Ei, Chi-Chi.
+Dialogue: Marked=0,0:19:50.39,0:19:53.01,L!,,0000,0000,0000,,Desculpe-me pelo buraco.
+Dialogue: Marked=0,0:19:58.01,0:19:59.49,*Default,,0000,0000,0000,,Pai, vamos embora.
+Dialogue: Marked=0,0:20:01.01,0:20:01.49,*Default,,0000,0000,0000,,Vamos.
+Dialogue: Marked=0,0:20:02.09,0:20:04.55,*Default,,0000,0000,0000,,Deve ter uma janta incrível pronta.
+Dialogue: Marked=0,0:20:06.03,0:20:07.37,*Default,,0000,0000,0000,,Estou morrendo de fome.
+Dialogue: Marked=0,0:20:10.11,0:20:13.50,*Default,,0000,0000,0000,,Gohan-chan, parabéns pelo\Nseu aniversário de 11 anos.
+Dialogue: Marked=0,0:20:14.02,0:20:15.93,*Default,,0000,0000,0000,,Parabéns!
+Dialogue: Marked=0,0:20:20.79,0:20:22.01,*Default,,0000,0000,0000,,Obrigado.
+Dialogue: Marked=0,0:20:22.47,0:20:25.80,*Default,,0000,0000,0000,,Tenho muitos presentes para você, Gohan.
+Dialogue: Marked=0,0:20:27.45,0:20:30.93,*Default,,0000,0000,0000,,Ah, que legal.\NObrigado, Gyuuma ojii-chan.
+Dialogue: Marked=0,0:20:31.44,0:20:35.29,*Default,,0000,0000,0000,,Gohan-chan, primeiro,\Napague as velas do bolo.
+Dialogue: Marked=0,0:20:35.29,0:20:36.48,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:20:37.05,0:20:38.94,*Default,,0000,0000,0000,,Pense bem em um desejo.
+Dialogue: Marked=0,0:20:39.67,0:20:40.25,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:21:12.12,0:21:16.94,*Default,,0000,0000,0000,,Gohan, parece que você ainda\Nnão consegue controlar o seu poder.
+Dialogue: Marked=0,0:21:22.10,0:21:23.09,*Default,,0000,0000,0000,,Gohan.
+Dialogue: Marked=0,0:21:24.73,0:21:26.95,*Default,,0000,0000,0000,,Mãe, desculpe-me.
+Dialogue: Marked=0,0:21:39.71,0:21:43.26,*Default,,0000,0000,0000,,Não tem jeito, você é filho do Goku-san...
+Dialogue: Marked=0,0:22:04.29,0:22:09.39,Narrador,,0000,0000,0000,,Gohan cresceu sob os cuidados\Natenciosos de Goku e Chi-Chi.
+Dialogue: Marked=0,0:22:09.39,0:22:14.41,Narrador,,0000,0000,0000,,E Gohan também sabe\Ndo amor profundo dos dois.
+Dialogue: Marked=0,0:22:15.41,0:22:23.40,Narrador,,0000,0000,0000,,Mas, Goku e Gohan conseguirão\Nproteger este período de paz?
+Dialogue: Marked=0,0:22:24.26,0:22:27.33,Narrador,,0000,0000,0000,,Faltam 7 dias para os Cell Games.

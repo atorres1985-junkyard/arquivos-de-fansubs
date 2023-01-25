@@ -1,0 +1,137 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.94,0:01:59.11,Narrador,,0000,0000,0000,,Vegeta soltou um Final Flash\Ncom toda a força em Cell.
+Dialogue: Marked=0,0:02:15.12,0:02:21.24,Narrador,,0000,0000,0000,,Mas, nem mesmo essa técnica\Nsuprema funcionou contra Cell.
+Dialogue: Marked=0,0:02:57.68,0:03:01.06,Narrador,,0000,0000,0000,,E, agora, com o seu pai,\NVegeta, em perigo,
+Dialogue: Marked=0,0:03:01.06,0:03:07.71,Narrador,,0000,0000,0000,,Trunks liberou um poder que supera\Nem muito a barreira do Super Saiya-jin.
+
+Dialogue: Marked=0,0:03:18.40,0:03:26.67,apresDBZ2,,0000,0000,0000,,{\c&HD0EBCF\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 163
+Dialogue: Marked=0,0:03:18.40,0:03:26.67,apresDBZ2,,0000,0000,0000,,{\c&HD0EBCF\pos(408,175)\fad(500,0)\fscx125\fscy105}Ajude o seu pai{\i1}!!
+Dialogue: Marked=0,0:03:18.40,0:03:26.67,apresDBZ2,,0000,0000,0000,,{\c&HD0EBCF\pos(405,490)\fad(500,0)\fscx120\fscy120}A fúria de Trunks queima até os céus
+
+Dialogue: Marked=0,0:04:16.30,0:04:17.55,*Default,,0000,0000,0000,,O que é aquilo?
+Dialogue: Marked=0,0:04:34.89,0:04:36.02,*Default,,0000,0000,0000,,Trunks!
+Dialogue: Marked=0,0:04:51.94,0:04:55.46,*Default,,0000,0000,0000,,Ainda não está no máximo,\Nmas é um Ki terrível!
+Dialogue: Marked=0,0:04:56.35,0:04:59.22,*Default,,0000,0000,0000,,Como funcionam esses Saiya-jins?
+Dialogue: Marked=0,0:05:06.06,0:05:10.69,*Default,,0000,0000,0000,,Cada vez que aparece um inimigo\Nincrível, eles ficam fortes mais rápido.
+Dialogue: Marked=0,0:05:13.70,0:05:17.44,*Default,,0000,0000,0000,,{\fad(0,300)}A raça guerreira dos Saiya-jins não tem limite?
+Dialogue: Marked=0,0:05:23.11,0:05:24.95,*Default,,0000,0000,0000,,Que tipo de caras eles são?
+Dialogue: Marked=0,0:05:32.01,0:05:32.91,*Default,,0000,0000,0000,,Kuririn-san...
+Dialogue: Marked=0,0:05:34.71,0:05:39.38,*Default,,0000,0000,0000,,{\fscx95\fscy95}Você poderia levar o meu pai para a casa do Muten Roshi-sama ou para algum outro lugar qualquer?
+Dialogue: Marked=0,0:05:41.83,0:05:45.18,*Default,,0000,0000,0000,,Que bom. Você consegue falar normalmente.
+Dialogue: Marked=0,0:05:45.18,0:05:48.39,*Default,,0000,0000,0000,,Pensei que você tivesse ficado maluco,
+Dialogue: Marked=0,0:05:48.88,0:05:52.29,*Default,,0000,0000,0000,,como quando o Goku e os outros\Nse transformaram em macacos gigantes.
+Dialogue: Marked=0,0:05:52.29,0:05:54.89,*Default,,0000,0000,0000,,Está tudo bem. Aliás, tome isto...
+Dialogue: Marked=0,0:05:59.29,0:06:03.53,*Default,,0000,0000,0000,,Quando achar que é a hora certa,\Ndê essa Senzu para o meu pai.
+Dialogue: Marked=0,0:06:05.28,0:06:06.90,*Default,,0000,0000,0000,,Tá. Mas, você vai ficar bem?
+Dialogue: Marked=0,0:06:07.57,0:06:09.93,*Default,,0000,0000,0000,,Você também tem uma Senzu para você?
+Dialogue: Marked=0,0:06:11.02,0:06:12.95,*Default,,0000,0000,0000,,Eu não preciso de uma Senzu para mim...
+Dialogue: Marked=0,0:06:14.50,0:06:15.95,*Default,,0000,0000,0000,,Vou vencer com certeza.
+Dialogue: Marked=0,0:06:22.16,0:06:27.22,*Default,,0000,0000,0000,,P-Para ele dizer uma coisa dessas...\Ndeve estar muito confiante.
+Dialogue: Marked=0,0:06:58.11,0:07:02.31,P!,,0000,0000,0000,,Que forte!\NEle estava escondendo todo esse potencial?
+Dialogue: Marked=0,0:07:22.25,0:07:24.51,*Default,,0000,0000,0000,,Eu vou matá-lo, Cell.
+Dialogue: Marked=0,0:07:30.09,0:07:32.82,*Default,,0000,0000,0000,,É uma afirmação agressiva, Trunks.
+Dialogue: Marked=0,0:08:49.55,0:08:50.73,*Default,,0000,0000,0000,,Sumiram!
+Dialogue: Marked=0,0:08:59.49,0:09:00.30,*Default,,0000,0000,0000,,Estão em cima!
+Dialogue: Marked=0,0:09:17.23,0:09:18.22,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:09:28.62,0:09:33.11,*Default,,0000,0000,0000,,Não pode ser... Será que ele derrotou Cell?
+Dialogue: Marked=0,0:09:42.35,0:09:47.34,*Default,,0000,0000,0000,,Que tipo de treinamento ele\Nfez na Seishin to Toki no Heya?
+Dialogue: Marked=0,0:09:59.22,0:10:02.56,*Default,,0000,0000,0000,,Gohan, vale qualquer coisa. Tente me pegar.
+Dialogue: Marked=0,0:10:09.49,0:10:10.44,*Default,,0000,0000,0000,,Certo!
+Dialogue: Marked=0,0:10:37.62,0:10:40.93,*Default,,0000,0000,0000,,Previu bem! Mas, ainda é muito ingênuo!
+Dialogue: Marked=0,0:10:52.79,0:10:54.12,*Default,,0000,0000,0000,,Foi por pouco, por pouco!
+Dialogue: Marked=0,0:11:26.80,0:11:27.91,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:11:29.21,0:11:30.55,*Default,,0000,0000,0000,,Peguei!
+Dialogue: Marked=0,0:11:30.55,0:11:31.52,*Default,,0000,0000,0000,,Nossa...
+Dialogue: Marked=0,0:11:33.33,0:11:35.11,*Default,,0000,0000,0000,,Você foi bem, Gohan.
+Dialogue: Marked=0,0:11:36.40,0:11:37.00,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:11:44.01,0:11:46.24,*Default,,0000,0000,0000,,Mas, nós exageramos, não foi?
+Dialogue: Marked=0,0:11:46.99,0:11:49.45,*Default,,0000,0000,0000,,Eu me empolguei...
+Dialogue: Marked=0,0:11:50.16,0:11:53.89,*Default,,0000,0000,0000,,Se não consertarmos isso,\NPopo vai ficar nervoso com a gente.
+Dialogue: Marked=0,0:11:55.05,0:11:55.70,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:12:03.84,0:12:05.47,*Default,,0000,0000,0000,,Ele conseguiu!
+Dialogue: Marked=0,0:12:06.17,0:12:10.31,*Default,,0000,0000,0000,,Incrível! Dizer que ele\Nficou mais forte não é o bastante!
+Dialogue: Marked=0,0:12:11.03,0:12:14.26,*Default,,0000,0000,0000,,Ele derrotou aquele monstro Cell.
+Dialogue: Marked=0,0:12:18.85,0:12:20.28,*Default,,0000,0000,0000,,Kuririn-san, cuidado!
+Dialogue: Marked=0,0:12:24.11,0:12:25.24,*Default,,0000,0000,0000,,O quê?
+
+Dialogue: Marked=0,0:12:27.99,0:12:32.05,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:27.99,0:12:32.05,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:27.99,0:12:32.05,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:27.99,0:12:32.05,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:35.17,0:12:37.39,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:35.17,0:12:37.39,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:35.17,0:12:37.39,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:35.17,0:12:37.39,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:23.71,0:13:27.30,*Default,,0000,0000,0000,,Você é aceitável, Trunks.
+Dialogue: Marked=0,0:13:28.58,0:13:32.85,*Default,,0000,0000,0000,,Merda! Cell ainda está animado.
+Dialogue: Marked=0,0:14:12.49,0:14:13.97,*Default,,0000,0000,0000,,Conseguiu!
+Dialogue: Marked=0,0:14:18.01,0:14:20.11,*Default,,0000,0000,0000,,Que poder é esse?
+Dialogue: Marked=0,0:15:18.91,0:15:20.75,*Default,,0000,0000,0000,,Como esperado!
+Dialogue: Marked=0,0:15:21.70,0:15:24.73,*Default,,0000,0000,0000,,Você conseguiu desviar por um fio de cabelo...
+Dialogue: Marked=0,0:16:09.75,0:16:11.41,*Default,,0000,0000,0000,,T-Trunks!
+Dialogue: Marked=0,0:16:34.90,0:16:37.13,*Default,,0000,0000,0000,,N-Não adianta mais...
+Dialogue: Marked=0,0:16:59.55,0:17:01.44,P!,,0000,0000,0000,,Entendi.
+Dialogue: Marked=0,0:17:02.43,0:17:05.23,P!,,0000,0000,0000,,É para que eu salve o Vegeta...
+Dialogue: Marked=0,0:17:28.97,0:17:33.33,*Default,,0000,0000,0000,,{\fscx96\fscy96}Foi isso o que você teve por ter deixado o Cell\Nassumir a forma perfeita por causa do seu orgulho?
+Dialogue: Marked=0,0:17:34.86,0:17:38.47,*Default,,0000,0000,0000,,O Trunks está lutando\Ncom um poder incrível agora.
+Dialogue: Marked=0,0:17:39.38,0:17:42.47,*Default,,0000,0000,0000,,Ele ficou mais forte que você.
+Dialogue: Marked=0,0:17:55.93,0:17:59.09,*Default,,0000,0000,0000,,Eu não vou poder ver essa luta magnífica...
+Dialogue: Marked=0,0:17:59.09,0:18:01.91,*Default,,0000,0000,0000,,e é tudo por causa do seu orgulho imbecil.
+Dialogue: Marked=0,0:18:16.07,0:18:18.82,*Default,,0000,0000,0000,,Eu não me importo se você está vivo ou não...
+Dialogue: Marked=0,0:18:20.29,0:18:22.66,*Default,,0000,0000,0000,,Mas, parece que não é o mesmo para o Trunks.
+Dialogue: Marked=0,0:18:38.97,0:18:42.49,*Default,,0000,0000,0000,,Que coisa, como um pai desses pode ser bom?
+Dialogue: Marked=0,0:19:48.75,0:19:51.44,*Default,,0000,0000,0000,,Agora você pode finalmente lutar sem preocupações?
+Dialogue: Marked=0,0:19:54.09,0:19:56.44,*Default,,0000,0000,0000,,O Vegeta foi levado embora...
+Dialogue: Marked=0,0:19:58.82,0:20:00.41,*Default,,0000,0000,0000,,Você sabia?
+Dialogue: Marked=0,0:20:01.01,0:20:07.11,*Default,,0000,0000,0000,,Claro! Assim como sei que você\Nestava me afastando do Vegeta de propósito.
+Dialogue: Marked=0,0:20:07.11,0:20:10.45,*Default,,0000,0000,0000,,Não esperava que fosse deixá-lo ir...
+Dialogue: Marked=0,0:20:10.45,0:20:14.96,*Default,,0000,0000,0000,,Claro. Meu interesse não é mais nele.
+Dialogue: Marked=0,0:20:16.37,0:20:18.70,*Default,,0000,0000,0000,,Mas sim na sua verdadeira força.
+Dialogue: Marked=0,0:20:39.59,0:20:41.74,*Default,,0000,0000,0000,,Não imaginei que soubesse tanto.
+Dialogue: Marked=0,0:20:44.87,0:20:46.82,*Default,,0000,0000,0000,,Estou ansioso.
+Dialogue: Marked=0,0:20:46.82,0:20:50.75,*Default,,0000,0000,0000,,Chegou a hora de eu conhecer\Na força da minha forma perfeita.
+Dialogue: Marked=0,0:21:05.63,0:21:07.68,*Default,,0000,0000,0000,,Que poder!
+Dialogue: Marked=0,0:21:08.90,0:21:12.71,*Default,,0000,0000,0000,,Supera em muito o Super Vegeta!
+Dialogue: Marked=0,0:21:16.23,0:21:23.70,*Default,,0000,0000,0000,,É isso? É esse o poder Saiya-jin do qual o Goku estava falando que supera o Super Saiya-jin?
+Dialogue: Marked=0,0:22:02.64,0:22:07.49,Narrador,,0000,0000,0000,,Super Trunks finalmente revela o seu superpoder!
+Dialogue: Marked=0,0:22:07.92,0:22:15.63,Narrador,,0000,0000,0000,,Será que esse poder consegue ser\Nmaior que o da forma perfeita de Cell?

@@ -1,0 +1,285 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:02.31,0:02:07.42,Narrador,,0000,0000,0000,,Doutor Gero escapou da\Nperseguição de Kuririn e dos outros...
+Dialogue: Marked=0,0:02:07.42,0:02:14.69,Narrador,,0000,0000,0000,,e finalmente despertou os\Nandróides Nº 17 e Nº 18 de seu sono.
+Dialogue: Marked=0,0:02:15.36,0:02:20.68,Narrador,,0000,0000,0000,,Mas, surpreendentemente, Nº 17 e Nº 18...
+Dialogue: Marked=0,0:02:24.99,0:02:33.05,Narrador,,0000,0000,0000,,roubaram do Doutor Gero o controle\Nque os desativa em caso de emergência.
+Dialogue: Marked=0,0:02:34.64,0:02:36.57,*Default,,0000,0000,0000,,Uma coisa dessas não tem utilidade.
+Dialogue: Marked=0,0:02:40.86,0:02:43.83,*Default,,0000,0000,0000,,O que isso quer dizer?\NEstá de brincadeira?
+Dialogue: Marked=0,0:02:47.20,0:02:50.08,*Default,,0000,0000,0000,,Acha que vou aceitar ser colocado\Npara dormir de novo, velho de merda?
+
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 134
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(415,170)}{\fad(300,0)}{\fscx190\fscy140}Está tarde para tudo{\i1}!?
+Dialogue: Marked=0,0:02:50.54,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(415,485)}{\fad(300,0)}{\fscx120\fscy120}As armas definitivas para matar Goku
+
+Dialogue: Marked=0,0:02:59.23,0:03:00.84,*Default,,0000,0000,0000,!Effect,Merda, chegamos tarde?
+Dialogue: Marked=0,0:03:02.08,0:03:03.65,*Default,,0000,0000,0000,!Effect,Saiam da frente, idiotas malditos!
+Dialogue: Marked=0,0:03:05.14,0:03:08.35,*Default,,0000,0000,0000,!Effect,Não faça isso! Agora nós devemos fugir!
+Dialogue: Marked=0,0:03:08.82,0:03:11.31,*Default,,0000,0000,0000,!Effect,Espere até o Son Goku-san se recuperar.\NDepois disso...
+Dialogue: Marked=0,0:03:11.99,0:03:13.69,*Default,,0000,0000,0000,!Effect,{\fad(0,1000)}Não é necessário!
+Dialogue: Marked=0,0:03:28.07,0:03:32.73,*Default,,0000,0000,0000,!Effect,Lenço no pescoço e cabelo comprido preto.\NEle é o Nº 17?
+Dialogue: Marked=0,0:03:33.41,0:03:35.68,*Default,,0000,0000,0000,!Effect,A Nº 18 é uma mulher bonita.
+Dialogue: Marked=0,0:03:37.03,0:03:41.02,*Default,,0000,0000,0000,!Effect,Trunks, eles são como você disse.\NTem certeza de que são eles?
+Dialogue: Marked=0,0:03:41.83,0:03:42.47,*Default,,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:03:43.47,0:03:46.72,*Default,,0000,0000,0000,!Effect,Aqueles dois são o Nº 17 e a Nº 18?
+Dialogue: Marked=0,0:03:47.50,0:03:50.48,*Default,,0000,0000,0000,!Effect,Você não deve subestimá-los só pela aparência.
+Dialogue: Marked=0,0:03:51.39,0:03:53.48,*Default,,0000,0000,0000,!Effect,Eles são realmente terríveis.
+Dialogue: Marked=0,0:03:56.78,0:04:01.61,*Default,,0000,0000,0000,!Effect,Eles são os amigos de Son Goku,\Ndos quais falei antes. Não peguem leve com eles.
+Dialogue: Marked=0,0:04:02.22,0:04:05.62,*Default,,0000,0000,0000,!Effect,Eles destruíram o Nº 19\Ne quase me mataram, também.
+Dialogue: Marked=0,0:04:06.43,0:04:07.87,*Default,,0000,0000,0000,!Effect,Nº 19?
+Dialogue: Marked=0,0:04:08.77,0:04:10.67,*Default,,0000,0000,0000,!Effect,Você fez um desses?
+Dialogue: Marked=0,0:04:10.67,0:04:11.83,*Default,,0000,0000,0000,!Effect,Fiz.
+Dialogue: Marked=0,0:04:11.83,0:04:17.12,*Default,,0000,0000,0000,!Effect,Entendi. Então você pediu para\Nque ele o transformasse em andróide?
+Dialogue: Marked=0,0:04:17.12,0:04:20.06,*Default,,0000,0000,0000,!Effect,Do tipo que absorve energia?
+Dialogue: Marked=0,0:04:20.06,0:04:21.26,*Default,,0000,0000,0000,!Effect,Isso mesmo.
+Dialogue: Marked=0,0:04:21.91,0:04:27.07,*Default,,0000,0000,0000,!Effect,Já que era modelo novo, por que\Nvocê fez do jeito velho de absorver energia?
+Dialogue: Marked=0,0:04:27.07,0:04:31.43,*Default,,0000,0000,0000,!Effect,{\fscx97\fscy97}Será que foi porque os modelos de energia infinita têm muita energia e ficam fora de controle?
+Dialogue: Marked=0,0:04:31.43,0:04:32.49,*Default,,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:04:32.49,0:04:34.39,*Default,,0000,0000,0000,!Effect,Por isso você está tão acabado.
+Dialogue: Marked=0,0:04:37.07,0:04:38.19,*Default,,0000,0000,0000,!Effect,Fora de controle?
+Dialogue: Marked=0,0:04:40.78,0:04:45.17,*Default,,0000,0000,0000,!Effect,Isso não importa!\NAcabem com eles de uma vez!
+Dialogue: Marked=0,0:04:45.17,0:04:46.87,*Default,,0000,0000,0000,!Effect,Pare com esse papo.
+Dialogue: Marked=0,0:04:47.69,0:04:49.37,*Default,,0000,0000,0000,!Effect,Vamos cuidar deles quando quisermos.
+Dialogue: Marked=0,0:04:49.76,0:04:51.70,*Default,,0000,0000,0000,!Effect,O-O que você disse?
+Dialogue: Marked=0,0:04:56.77,0:04:59.16,P!,,0000,0000,0000,!Effect,Merda!
+Dialogue: Marked=0,0:05:00.56,0:05:03.05,P!,,0000,0000,0000,!Effect,Se eu tivesse o controle...
+Dialogue: Marked=0,0:05:11.97,0:05:13.56,*Default,,0000,0000,0000,!Effect,Nº 16?
+Dialogue: Marked=0,0:05:14.89,0:05:17.06,*Default,,0000,0000,0000,!Effect,Este também é do tipo que\Ntem energia infinita, não é?
+Dialogue: Marked=0,0:05:18.63,0:05:21.31,*Default,,0000,0000,0000,!Effect,Mas tem alguma coisa\Nque é diferente de nós, não é?
+Dialogue: Marked=0,0:05:22.65,0:05:26.09,*Default,,0000,0000,0000,!Effect,Ele é muito grande.\NQual será a diferença?
+Dialogue: Marked=0,0:05:28.14,0:05:31.08,*Default,,0000,0000,0000,!Effect,Não encoste nisso, Nº 18! Não encoste!
+Dialogue: Marked=0,0:05:31.43,0:05:32.93,*Default,,0000,0000,0000,!Effect,Não encoste!
+Dialogue: Marked=0,0:05:35.29,0:05:40.09,P!,,0000,0000,0000,!Effect,N-Nº 16? Eu não conheço!\NO que isso quer dizer?
+Dialogue: Marked=0,0:05:41.01,0:05:43.92,*Default,,0000,0000,0000,!Effect,Parece interessante. Vamos ativá-lo, Nº 18?
+Dialogue: Marked=0,0:05:46.08,0:05:47.91,*Default,,0000,0000,0000,!Effect,Não! Parem!
+Dialogue: Marked=0,0:05:49.45,0:05:52.06,*Default,,0000,0000,0000,!Effect,Vocês querem destruir\No mundo que conhecemos?
+Dialogue: Marked=0,0:05:52.62,0:05:53.56,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:05:54.45,0:05:56.81,*Default,,0000,0000,0000,!Effect,Destruir o mundo que conhecemos?
+Dialogue: Marked=0,0:05:58.10,0:05:59.06,*Default,,0000,0000,0000,!Effect,Que coisa...
+Dialogue: Marked=0,0:06:00.22,0:06:03.94,*Default,,0000,0000,0000,!Effect,Ei, não é melhor fugirmos enquanto eles discutem?
+Dialogue: Marked=0,0:06:04.64,0:06:08.45,*Default,,0000,0000,0000,!Effect,Pode fazer isso. Além de mim,\Nninguém mais pode com eles, não é?
+Dialogue: Marked=0,0:06:11.58,0:06:16.04,*Default,,0000,0000,0000,!Effect,O Nº 16 é uma unidade de teste que não deu certo. Não o ativem de forma alguma!
+Dialogue: Marked=0,0:06:20.23,0:06:22.00,*Default,,0000,0000,0000,!Effect,Pare! Não encoste!
+Dialogue: Marked=0,0:06:27.05,0:06:29.18,*Default,,0000,0000,0000,!Effect,Uma dama não gosta de\Nser tocada com tanta intimidade.
+Dialogue: Marked=0,0:06:37.12,0:06:40.95,*Default,,0000,0000,0000,!Effect,Para uma unidade que não deu certo,\Nvocê a deixou aqui por muito tempo.
+Dialogue: Marked=0,0:06:42.66,0:06:45.37,*Default,,0000,0000,0000,!Effect,Parece que tudo até o Nº 15 foi jogado fora.
+Dialogue: Marked=0,0:06:45.37,0:06:48.65,*Default,,0000,0000,0000,!Effect,Eu estava pensando em reconstruí-lo.
+Dialogue: Marked=0,0:06:49.45,0:06:51.12,*Default,,0000,0000,0000,!Effect,De qualquer jeito, não o ativem!
+Dialogue: Marked=0,0:06:51.12,0:06:54.54,*Default,,0000,0000,0000,,Se o fizerem, pode ser que\Ncuste a minha cabeça e as de vocês!
+Dialogue: Marked=0,0:06:55.51,0:06:58.33,*Default,,0000,0000,0000,!Effect,Pode ser que custe as nossas cabeças?
+Dialogue: Marked=0,0:07:05.41,0:07:08.55,*Default,,0000,0000,0000,!Effect,De acordo com os dados, o meu poder é mais alto?
+Dialogue: Marked=0,0:07:10.22,0:07:11.39,*Default,,0000,0000,0000,!Effect,I-Isso mesmo!
+Dialogue: Marked=0,0:07:13.25,0:07:16.22,*Default,,0000,0000,0000,!Effect,Eu não ligo. Ative-o, Nº 18.
+Dialogue: Marked=0,0:07:16.22,0:07:20.14,*Default,,0000,0000,0000,!Effect,Como ousam me desobedecer?\NVocês são iguais ao Nº 16!
+Dialogue: Marked=0,0:07:20.53,0:07:22.65,*Default,,0000,0000,0000,!Effect,Não deram certo! Façam como quiser!
+Dialogue: Marked=0,0:07:23.66,0:07:25.67,*Default,,0000,0000,0000,!Effect,Vou desativá-los!
+Dialogue: Marked=0,0:07:25.67,0:07:27.50,*Default,,0000,0000,0000,!Effect,Eu quebrei o seu controle.
+Dialogue: Marked=0,0:07:27.50,0:07:28.65,*Default,,0000,0000,0000,!Effect,É só consertar!
+Dialogue: Marked=0,0:07:34.94,0:07:38.20,*Default,,0000,0000,0000,!Effect,Não entendeu nada do que falei?\NNão aperte o botão!
+Dialogue: Marked=0,0:07:51.74,0:07:55.71,*Default,,0000,0000,0000,!Effect,N-Nº 17... Maldito...
+Dialogue: Marked=0,0:07:57.86,0:08:02.52,*Default,,0000,0000,0000,!Effect,O quê? Eu o construí...
+Dialogue: Marked=0,0:08:13.50,0:08:16.45,*Default,,0000,0000,0000,!Effect,Suas peças de ferro-velho desgraçadas!
+Dialogue: Marked=0,0:08:29.60,0:08:33.51,*Default,,0000,0000,0000,!Effect,Que cara...\NEra o criador dele! O pai!
+Dialogue: Marked=0,0:08:47.17,0:08:47.44,*Default,,0000,0000,0000,!Effect,Eu?
+Dialogue: Marked=0,0:08:52.11,0:08:53.45,*Default,,0000,0000,0000,!Effect,Por que só eu?
+Dialogue: Marked=0,0:08:55.17,0:08:57.65,*Default,,0000,0000,0000,!Effect,Deixe de ser perdedor e vá!
+Dialogue: Marked=0,0:08:57.65,0:09:00.95,*Default,,0000,0000,0000,!Effect,É fácil falar! Só eu tenho azar...
+Dialogue: Marked=0,0:09:04.33,0:09:06.84,*Default,,0000,0000,0000,!Effect,Todos terão o mesmo destino, cedo ou tarde.
+Dialogue: Marked=0,0:09:18.18,0:09:21.52,*Default,,0000,0000,0000,!Effect,Eles matam qualquer pessoa\Nque não gostem, seja quem for?
+Dialogue: Marked=0,0:09:21.52,0:09:23.47,*Default,,0000,0000,0000,!Effect,Iguais aos Saiya-jins.
+Dialogue: Marked=0,0:09:23.47,0:09:25.18,*Default,,0000,0000,0000,!Effect,Mesmo pais e filhos.
+Dialogue: Marked=0,0:09:25.18,0:09:29.02,*Default,,0000,0000,0000,!Effect,Só vocês, terráqueos,\Nque ficam falando coisas estranhas.
+Dialogue: Marked=0,0:09:29.26,0:09:30.82,*Default,,0000,0000,0000,!Effect,Bem, aperte o botão.
+Dialogue: Marked=0,0:09:31.53,0:09:35.32,*Default,,0000,0000,0000,!Effect,Não vou permitir! Vou ficar quieto\Nenquanto aumentam o número de andróides?
+Dialogue: Marked=0,0:09:41.87,0:09:42.79,*Default,,0000,0000,0000,!Effect,Idiota!
+Dialogue: Marked=0,0:09:58.24,0:10:00.91,*Default,,0000,0000,0000,!Effect,Se for fazer uma coisa dessas, avise antes, tá?
+Dialogue: Marked=0,0:10:04.95,0:10:08.30,*Default,,0000,0000,0000,!Effect,Idiota maldito! Suas ações são inúteis.
+Dialogue: Marked=0,0:10:08.30,0:10:10.03,*Default,,0000,0000,0000,,Inúteis?
+Dialogue: Marked=0,0:10:10.03,0:10:12.02,*Default,,0000,0000,0000,!Effect,Olhe lá.
+Dialogue: Marked=0,0:10:26.79,0:10:31.00,*Default,,0000,0000,0000,!Effect,Um nível daqueles não é nada\Nmais do que desperdício de energia.
+Dialogue: Marked=0,0:10:32.77,0:10:36.88,*Default,,0000,0000,0000,!Effect,É melhor abrir logo.\NOs tubos e fios estão todos desconectados.
+Dialogue: Marked=0,0:10:43.17,0:10:45.89,*Default,,0000,0000,0000,!Effect,Por isso que dizem que pirralhos não pensam.
+Dialogue: Marked=0,0:11:00.80,0:11:02.25,*Default,,0000,0000,0000,!Effect,E-Ela abriu!
+Dialogue: Marked=0,0:11:03.05,0:11:05.41,*Default,,0000,0000,0000,!Effect,Será que vai ter mais um deles?
+
+Dialogue: Marked=0,0:11:16.09,0:11:20.31,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:16.09,0:11:20.31,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:16.09,0:11:20.31,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:16.09,0:11:20.31,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:23.26,0:11:25.48,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:23.26,0:11:25.48,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:23.26,0:11:25.48,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:23.26,0:11:25.48,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:50.25,0:11:54.80,*Default,,0000,0000,0000,!Effect,A-Aquele é o Nº 16?\NEle parece ser muito forte mesmo!
+Dialogue: Marked=0,0:11:56.55,0:12:01.09,P!,,0000,0000,0000,!Effect,Eu não o conheço! Nunca o vi antes.
+Dialogue: Marked=0,0:12:04.77,0:12:08.18,*Default,,0000,0000,0000,!Effect,Oi, Nº 16.\NÉ a primeira vez que o vemos ativado.
+Dialogue: Marked=0,0:12:08.96,0:12:11.65,*Default,,0000,0000,0000,!Effect,Como você se sente\Nsaindo depois de tanto anos?
+Dialogue: Marked=0,0:12:14.77,0:12:18.23,*Default,,0000,0000,0000,!Effect,Doutor Gero não queria que o ativássemos.
+Dialogue: Marked=0,0:12:19.33,0:12:22.30,*Default,,0000,0000,0000,!Effect,Ele disse que poderia custar as nossas cabeças.
+Dialogue: Marked=0,0:12:22.94,0:12:25.70,*Default,,0000,0000,0000,!Effect,Queremos saber o que ele quis dizer.\NO que você acha?
+Dialogue: Marked=0,0:12:29.39,0:12:30.95,*Default,,0000,0000,0000,!Effect,Não quer falar?
+Dialogue: Marked=0,0:12:31.82,0:12:33.58,*Default,,0000,0000,0000,!Effect,Ou então é de poucas palavras.
+Dialogue: Marked=0,0:12:37.11,0:12:39.73,*Default,,0000,0000,0000,!Effect,Não tem problema. Vamos?
+Dialogue: Marked=0,0:12:39.73,0:12:40.97,*Default,,0000,0000,0000,!Effect,Para onde?
+Dialogue: Marked=0,0:12:40.97,0:12:43.38,*Default,,0000,0000,0000,!Effect,É óbvio, não é? Para a casa de Son Goku.
+Dialogue: Marked=0,0:12:44.31,0:12:48.37,*Default,,0000,0000,0000,!Effect,Você também foi criado\Npara matar Son Goku, não foi?
+Dialogue: Marked=0,0:12:49.71,0:12:50.18,*Default,,0000,0000,0000,!Effect,Isso mesmo.
+Dialogue: Marked=0,0:12:50.56,0:12:53.69,*Default,,0000,0000,0000,!Effect,Nossa, finalmente ele falou alguma coisa.
+Dialogue: Marked=0,0:12:54.36,0:12:57.92,*Default,,0000,0000,0000,!Effect,Você reage de acordo com\Na programação do Doutor Gero.
+Dialogue: Marked=0,0:12:57.92,0:12:59.40,*Default,,0000,0000,0000,!Effect,Foi rude ter dito que você não deu certo.
+Dialogue: Marked=0,0:13:00.30,0:13:03.33,*Default,,0000,0000,0000,!Effect,Por mais que me irrite\Nfazer o que Doutor Gero diz,
+Dialogue: Marked=0,0:13:03.33,0:13:06.91,*Default,,0000,0000,0000,!Effect,até mesmo nós, andróides,\Nprecisamos de alguma meta para começar.
+Dialogue: Marked=0,0:13:07.98,0:13:09.19,*Default,,0000,0000,0000,!Effect,Certo, vamos?
+Dialogue: Marked=0,0:13:23.86,0:13:25.76,P!,,0000,0000,0000,!Effect,I-Impossível!
+Dialogue: Marked=0,0:13:26.65,0:13:28.03,*Default,,0000,0000,0000,!Effect,E-Eles já foram!
+Dialogue: Marked=0,0:13:29.02,0:13:29.89,*Default,,0000,0000,0000,,Que bom...
+Dialogue: Marked=0,0:13:31.10,0:13:34.52,*Default,,0000,0000,0000,!Effect,O que pretendem fazer?\NPara onde estão indo?
+Dialogue: Marked=0,0:13:34.90,0:13:38.26,*Default,,0000,0000,0000,!Effect,Parece que não planejam arrasar Kita no Miyako.
+Dialogue: Marked=0,0:13:38.26,0:13:39.36,*Default,,0000,0000,0000,!Effect,A direção é diferente.
+Dialogue: Marked=0,0:13:39.99,0:13:43.37,*Default,,0000,0000,0000,!Effect,É o Goku! Não estão\Nindo para a casa do Goku?
+Dialogue: Marked=0,0:13:43.37,0:13:44.32,*Default,,0000,0000,0000,,Vejam...
+Dialogue: Marked=0,0:13:44.32,0:13:48.74,*Default,,0000,0000,0000,!Effect,O objetivo do Doutor Gero era matar Goku\Npor ter aniquilado o Exército Red Ribbon, não é?
+Dialogue: Marked=0,0:13:49.98,0:13:53.66,*Default,,0000,0000,0000,!Effect,Mas não acho que eles vão\Nseguir as ordens do Doutor Gero.
+Dialogue: Marked=0,0:13:55.58,0:13:57.65,*Default,,0000,0000,0000,!Effect,Isso não importa!
+Dialogue: Marked=0,0:13:58.37,0:14:01.00,*Default,,0000,0000,0000,,{\fad(0,1300)}Eu estou aqui!
+Dialogue: Marked=0,0:14:02.32,0:14:07.07,*Default,,0000,0000,0000,!Effect,Eles me ignoraram. Querem dizer\Nque estou abaixo do que podem perceber?
+Dialogue: Marked=0,0:14:07.75,0:14:09.47,*Default,,0000,0000,0000,!Effect,Estão brincando comigo.
+Dialogue: Marked=0,0:14:15.42,0:14:15.98,*Default,,0000,0000,0000,!Effect,Não pode persegui-los!
+Dialogue: Marked=0,0:14:16.65,0:14:18.77,*Default,,0000,0000,0000,!Effect,Mais um pouco...\NEspere mais um pouco, por favor!
+Dialogue: Marked=0,0:14:19.68,0:14:21.86,*Default,,0000,0000,0000,!Effect,Até Kakarotto se recuperar da doença?
+Dialogue: Marked=0,0:14:22.64,0:14:26.65,*Default,,0000,0000,0000,!Effect,Kakarotto?\NEstá falando do Goku-san? Isso mesmo!
+Dialogue: Marked=0,0:14:26.65,0:14:28.55,*Default,,0000,0000,0000,,Se não tivermos a força do Goku-san...
+Dialogue: Marked=0,0:14:28.55,0:14:31.37,*Default,,0000,0000,0000,!Effect,e não lutarmos todos juntos,\Nnão poderemos vencer de forma alguma!
+Dialogue: Marked=0,0:14:34.35,0:14:36.51,*Default,,0000,0000,0000,!Effect,Você está se confundindo.
+Dialogue: Marked=0,0:14:36.51,0:14:40.95,*Default,,0000,0000,0000,!Effect,Não são os andróides os que eu mais odeio.
+Dialogue: Marked=0,0:14:40.95,0:14:41.75,*Default,,0000,0000,0000,,É Kakarotto!
+Dialogue: Marked=0,0:14:44.34,0:14:48.26,*Default,,0000,0000,0000,!Effect,Eu posso derrotá-los sem\Na ajuda de alguém como ele.
+Dialogue: Marked=0,0:14:48.86,0:14:52.48,*Default,,0000,0000,0000,!Effect,E, por último, vou acabar com Kakarotto.
+Dialogue: Marked=0,0:14:52.48,0:14:53.85,*Default,,0000,0000,0000,!Effect,Agora que entendeu, saia da frente!
+Dialogue: Marked=0,0:14:53.85,0:14:57.81,*Default,,0000,0000,0000,!Effect,I-Isso não faz sentido! Ir contra eles\Nsozinho é como ir de encontro à morte!
+Dialogue: Marked=0,0:14:58.45,0:15:00.15,*Default,,0000,0000,0000,!Effect,Espere mais um pouco, por favor!
+Dialogue: Marked=0,0:15:13.27,0:15:14.16,*Default,,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:15:15.99,0:15:17.26,*Default,,0000,0000,0000,!Effect,Está bem?
+Dialogue: Marked=0,0:15:17.26,0:15:23.09,*Default,,0000,0000,0000,!Effect,V-Vão atrás dele! Não podemos deixá-lo agir sozinho enquanto o Goku-san não se recuperar.
+Dialogue: Marked=0,0:15:23.67,0:15:24.82,*Default,,0000,0000,0000,!Effect,Parem-no, por favor!
+Dialogue: Marked=0,0:15:25.79,0:15:29.16,*Default,,0000,0000,0000,!Effect,Gohan e Bulma-san estão\Nindo para a casa do Goku.
+Dialogue: Marked=0,0:15:30.35,0:15:32.09,*Default,,0000,0000,0000,!Effect,Eles serão alcançados rápido!
+Dialogue: Marked=0,0:15:33.66,0:15:35.22,*Default,,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:15:36.81,0:15:38.14,*Default,,0000,0000,0000,!Effect,Minha mãe e os outros estão em perigo!
+Dialogue: Marked=0,0:15:38.78,0:15:39.89,*Default,,0000,0000,0000,!Effect,Vamos atrás deles!
+Dialogue: Marked=0,0:15:56.67,0:16:03.14,*Default,,0000,0000,0000,!Effect,Inacreditável. Usar o meu lenço no\Nlugar de uma fralda! Isso nunca vai sair.
+Dialogue: Marked=0,0:16:07.85,0:16:12.35,*Default,,0000,0000,0000,!Effect,Yajirobe! Você não tem\Nmais nada para eu usar nele?
+Dialogue: Marked=0,0:16:12.35,0:16:13.59,*Default,,0000,0000,0000,!Effect,Você acha que eu daria\Noutra coisa para você?
+Dialogue: Marked=0,0:16:14.65,0:16:16.97,*Default,,0000,0000,0000,!Effect,O Trunks-chan vai pegar resfriado.
+Dialogue: Marked=0,0:16:17.62,0:16:21.48,*Default,,0000,0000,0000,!Effect,Fique tranqüila! Sabemos que o\NTrunks vai crescer sem problemas.
+Dialogue: Marked=0,0:16:22.77,0:16:24.57,*Default,,0000,0000,0000,!Effect,É, você está certo.
+Dialogue: Marked=0,0:16:26.23,0:16:30.49,*Default,,0000,0000,0000,!Effect,Trunks-chan, precisa de mais\Ndo que isso para desanimá-lo, não é?
+Dialogue: Marked=0,0:16:34.24,0:16:35.41,*Default,,0000,0000,0000,!Effect,Legal, legal!
+Dialogue: Marked=0,0:16:36.53,0:16:37.85,*Default,,0000,0000,0000,!Effect,Legal!
+Dialogue: Marked=0,0:16:37.85,0:16:40.58,*Default,,0000,0000,0000,!Effect,Legal, legal!
+Dialogue: Marked=0,0:16:43.19,0:16:44.26,*Default,,0000,0000,0000,!Effect,Bulma-san...
+Dialogue: Marked=0,0:16:46.78,0:16:48.88,*Default,,0000,0000,0000,!Effect,Se desse, eu gostaria de ir mais rápido...
+Dialogue: Marked=0,0:16:49.51,0:16:53.05,*Default,,0000,0000,0000,!Effect,É, né? Você está preocupado\Ncom o estado do seu pai, certo?
+Dialogue: Marked=0,0:16:53.05,0:16:53.63,*Default,,0000,0000,0000,,Vamos!
+Dialogue: Marked=0,0:16:55.91,0:16:59.39,P!,,0000,0000,0000,!Effect,Será que o meu pai já melhorou?
+Dialogue: Marked=0,0:17:11.85,0:17:13.53,*Default,,0000,0000,0000,!Effect,Quando o Goku-san melhorar,
+Dialogue: Marked=0,0:17:14.31,0:17:19.50,*Default,,0000,0000,0000,!Effect,tenho certeza de que ele vai dizer: "Estou com fome. Chi-Chi, não tem nada para comer".
+Dialogue: Marked=0,0:17:22.55,0:17:26.59,*Default,,0000,0000,0000,!Effect,Por isso enrolei as mangas e estou\Ncozinhando mais do que ele pode comer.
+Dialogue: Marked=0,0:17:32.75,0:17:34.57,*Default,,0000,0000,0000,!Effect,Goku, o seu remédio!
+Dialogue: Marked=0,0:17:41.61,0:17:42.39,*Default,,0000,0000,0000,!Effect,Goku-san?
+Dialogue: Marked=0,0:17:45.42,0:17:46.49,*Default,,0000,0000,0000,!Effect,Goku-san...
+Dialogue: Marked=0,0:17:49.03,0:17:53.29,*Default,,0000,0000,0000,!Effect,O Goku não vai morrer por\Ncausa da doença. Ele não vai deixar.
+Dialogue: Marked=0,0:17:53.29,0:17:57.20,*Default,,0000,0000,0000,!Effect,Precisamos dele para defender\Na Terra e nós também dos andróides.
+Dialogue: Marked=0,0:18:10.62,0:18:13.54,*Default,,0000,0000,0000,!Effect,Parece que o remédio fez efeito.\NEle ficou mais calmo.
+Dialogue: Marked=0,0:18:15.06,0:18:16.10,*Default,,0000,0000,0000,!Effect,Acha mesmo?
+Dialogue: Marked=0,0:18:17.78,0:18:21.98,*Default,,0000,0000,0000,!Effect,Sim. Sabe de uma coisa?\NDizem que é uma doença viral,
+Dialogue: Marked=0,0:18:21.98,0:18:25.06,*Default,,0000,0000,0000,!Effect,então vou tomar um e\Nvocê também deveria, Chi-Chi-san.
+Dialogue: Marked=0,0:18:25.57,0:18:28.06,*Default,,0000,0000,0000,!Effect,A propósito, o que\Naconteceu com o Gohan-chan?
+Dialogue: Marked=0,0:18:29.53,0:18:34.65,*Default,,0000,0000,0000,!Effect,Ahn? Ele ainda não voltou, não é?\NSerá que ele está brincando em algum lugar?
+Dialogue: Marked=0,0:18:44.63,0:18:48.33,P!,,0000,0000,0000,!Effect,Desgraçados! O que Kakarotto tem de tão bom?
+Dialogue: Marked=0,0:18:48.33,0:18:50.71,P!,,0000,0000,0000,!Effect,Eu também me transformei em Super Saiya-jin.
+Dialogue: Marked=0,0:18:50.71,0:18:53.75,P!,,0000,0000,0000,!Effect,Nas mesmas condições, eu, Vegeta-sama,
+Dialogue: Marked=0,0:18:53.75,0:18:56.31,P!,,0000,0000,0000,!Effect,príncipe dos Saiya-jins,\Nestou muito acima do nível dele!
+Dialogue: Marked=0,0:18:56.31,0:18:59.68,P!,,0000,0000,0000,!Effect,Vou mostrar o meu verdadeiro poder a eles!
+Dialogue: Marked=0,0:19:29.55,0:19:32.16,*Default,,0000,0000,0000,!Effect,Nº 17, por que descemos?
+Dialogue: Marked=0,0:19:32.16,0:19:35.61,*Default,,0000,0000,0000,!Effect,Vamos devagar e aproveitar a viagem.\NNão precisamos ter pressa.
+Dialogue: Marked=0,0:19:36.88,0:19:38.39,*Default,,0000,0000,0000,!Effect,Vamos andando?
+Dialogue: Marked=0,0:19:39.19,0:19:41.01,*Default,,0000,0000,0000,,Vamos de carro.
+Dialogue: Marked=0,0:19:41.01,0:19:44.49,*Default,,0000,0000,0000,!Effect,Daqui a pouco, um carro deve passar por aqui.
+Dialogue: Marked=0,0:19:44.49,0:19:45.64,*Default,,0000,0000,0000,,Vamos nele.
+Dialogue: Marked=0,0:19:47.13,0:19:50.22,*Default,,0000,0000,0000,!Effect,Vocês, garotos, gostam de\Nfazer essas coisas sem sentido.
+Dialogue: Marked=0,0:19:50.22,0:19:52.23,*Default,,0000,0000,0000,,É alguma coisa humana que restou em você?
+Dialogue: Marked=0,0:19:53.66,0:19:55.87,*Default,,0000,0000,0000,!Effect,Você também entende, não é, Nº 16?
+Dialogue: Marked=0,0:19:55.87,0:19:58.53,*Default,,0000,0000,0000,,Você foi construído a\Npartir de um homem, não foi?
+Dialogue: Marked=0,0:20:00.33,0:20:03.07,*Default,,0000,0000,0000,!Effect,Não. Eu fui feito do nada.
+Dialogue: Marked=0,0:20:04.21,0:20:06.27,*Default,,0000,0000,0000,!Effect,Você não é baseado em um humano?
+Dialogue: Marked=0,0:20:06.27,0:20:08.66,*Default,,0000,0000,0000,!Effect,Ele é mesmo muito diferente de nós.
+Dialogue: Marked=0,0:20:12.29,0:20:14.02,P!,,0000,0000,0000,!Effect,Estranho.
+Dialogue: Marked=0,0:20:14.02,0:20:18.49,P!,,0000,0000,0000,,Se o Doutor Gero tinha tecnologia\Npara construir um andróide do nada,
+Dialogue: Marked=0,0:20:18.49,0:20:21.81,P!,,0000,0000,0000,!Effect,por que ele voltou atrás e começou\Na construir com um humano como base?
+Dialogue: Marked=0,0:20:24.81,0:20:25.56,*Default,,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:20:28.77,0:20:32.81,*Default,,0000,0000,0000,!Effect,Não achei que fosse\Nencontrá-los vagando por aqui.
+Dialogue: Marked=0,0:20:33.68,0:20:36.28,*Default,,0000,0000,0000,!Effect,Ahn? Você está com um\Naspecto diferente de antes.
+Dialogue: Marked=0,0:20:37.29,0:20:38.89,*Default,,0000,0000,0000,!Effect,Não é só o aspecto.
+Dialogue: Marked=0,0:20:39.75,0:20:43.32,*Default,,0000,0000,0000,!Effect,Quero que me digam para onde pretendem ir.
+Dialogue: Marked=0,0:20:44.07,0:20:46.79,*Default,,0000,0000,0000,!Effect,Casa de Son Goku. Vamos matá-lo.
+Dialogue: Marked=0,0:20:47.35,0:20:51.08,*Default,,0000,0000,0000,!Effect,Sabia que era isso.\NMas vocês não podem dar mais um passo.
+Dialogue: Marked=0,0:20:51.59,0:20:54.46,*Default,,0000,0000,0000,!Effect,Porque eu vou acabar com vocês.
+Dialogue: Marked=0,0:20:57.97,0:20:59.10,*Default,,0000,0000,0000,!Effect,É engraçado?
+Dialogue: Marked=0,0:20:59.98,0:21:02.80,*Default,,0000,0000,0000,,Riam enquanto podem.
+Dialogue: Marked=0,0:21:03.77,0:21:08.91,*Default,,0000,0000,0000,!Effect,Os Saiya-jins têm muita autoconfiança.\NSon Goku também deve ser assim.
+Dialogue: Marked=0,0:21:09.63,0:21:13.65,*Default,,0000,0000,0000,!Effect,Por causa desse orgulho, quanto mais\Ndespreparados estiverem, mais cedo morrem.
+Dialogue: Marked=0,0:21:16.02,0:21:18.95,*Default,,0000,0000,0000,!Effect,Você fala demais para um boneco!
+Dialogue: Marked=0,0:21:18.95,0:21:21.20,*Default,,0000,0000,0000,!Effect,Vou fazê-los em pedaços!\NQuem vai ser o primeiro?
+Dialogue: Marked=0,0:21:21.86,0:21:24.86,*Default,,0000,0000,0000,!Effect,O pirralho? A mulher? O burro gigante?
+Dialogue: Marked=0,0:21:26.02,0:21:28.91,*Default,,0000,0000,0000,!Effect,Ou vocês querem que eu\Nacabe com os três de uma vez?
+Dialogue: Marked=0,0:21:30.09,0:21:31.29,*Default,,0000,0000,0000,!Effect,Você está exagerando.
+Dialogue: Marked=0,0:21:32.00,0:21:33.00,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:21:34.17,0:21:37.63,*Default,,0000,0000,0000,!Effect,Nº 16, eu quero ver o seu poder. Pode ir.
+Dialogue: Marked=0,0:21:38.54,0:21:39.04,*Default,,0000,0000,0000,!Effect,Recuso.
+Dialogue: Marked=0,0:21:41.14,0:21:43.55,*Default,,0000,0000,0000,!Effect,Parece que ele percebeu...
+Dialogue: Marked=0,0:21:44.63,0:21:46.13,*Default,,0000,0000,0000,,A minha força!
+Dialogue: Marked=0,0:21:47.77,0:21:50.39,*Default,,0000,0000,0000,!Effect,Que cara estranho. Ele recusou.
+Dialogue: Marked=0,0:21:53.39,0:21:54.84,*Default,,0000,0000,0000,!Effect,Deveria ter ficado na sua.
+Dialogue: Marked=0,0:21:57.37,0:21:59.72,*Default,,0000,0000,0000,!Effect,Tudo bem. Eu vou.
+Dialogue: Marked=0,0:22:01.98,0:22:06.12,*Default,,0000,0000,0000,!Effect,Vou falar logo. Não vou me\Nsegurar porque você é mulher.
+Dialogue: Marked=0,0:22:06.89,0:22:10.29,*Default,,0000,0000,0000,!Effect,Aliás, você é andróide.\NNão é mulher, é?
+Dialogue: Marked=0,0:22:11.01,0:22:20.02,Narrador,,0000,0000,0000,!Effect,A hora da andróide Nº 18 mostrar\Na força que Trunks tanto teme chegou.
+Dialogue: Marked=0,0:22:20.97,0:22:29.41,Narrador,,0000,0000,0000,!Effect,Que tipo de luta haverá entre ela e Vegeta, que se transformou em Super Saiya-jin?

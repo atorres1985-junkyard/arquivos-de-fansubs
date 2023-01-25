@@ -1,0 +1,269 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.37,0:01:54.18,Narrador,,0000,0000,0000,,A fim de derrotar o poderoso Majin Boo,
+Dialogue: Marked=0,0:01:54.60,0:01:59.44,Narrador,,0000,0000,0000,,Goku inicia os treinos com\NGoten e Trunks para a técnica Fusion.
+Dialogue: Marked=0,0:02:06.20,0:02:10.20,Narrador,,0000,0000,0000,,Por outro lado, Madoushi Babidi e Majin Boo...
+Dialogue: Marked=0,0:02:16.25,0:02:19.83,Radio,,0000,0000,0000,,Acabo de receber valiosas informações.
+Dialogue: Marked=0,0:02:22.76,0:02:27.51,*Default,,0000,0000,0000,,Um dos três animais, o pivete chamado Trunks, aparentemente mora em Nishi no Miyako.
+Dialogue: Marked=0,0:02:27.73,0:02:32.10,Radio,,0000,0000,0000,,Em um lugar chamado Capsule Corporation.
+Dialogue: Marked=0,0:02:36.28,0:02:38.33,*Default,,0000,0000,0000,,Será que iremos para lá?
+Dialogue: Marked=0,0:02:38.33,0:02:40.53,*Default,,0000,0000,0000,,Acho melhor aparecer logo.
+Dialogue: Marked=0,0:02:40.53,0:02:43.35,*Default,,0000,0000,0000,,A cidade em que você mora logo desaparecerá.
+Dialogue: Marked=0,0:02:46.56,0:02:50.93,*Default,,0000,0000,0000,,Son-kun, será péssimo se\NNishi no Miyako for realmente destruída.
+Dialogue: Marked=0,0:02:50.93,0:02:52.95,*Default,,0000,0000,0000,,O Dragon Radar será destruído!
+Dialogue: Marked=0,0:02:55.89,0:02:56.49,*Default,,0000,0000,0000,,Certo...
+Dialogue: Marked=0,0:02:56.49,0:03:01.38,*Default,,0000,0000,0000,,Trunks, volte rapidamente\Npara sua casa e pegue o radar.
+Dialogue: Marked=0,0:03:02.08,0:03:05.34,*Default,,0000,0000,0000,,Farei com que Majin Boo\Nfique ocupado por algum tempo.
+Dialogue: Marked=0,0:03:08.33,0:03:09.38,*Default,,0000,0000,0000,,Olá!
+Dialogue: Marked=0,0:03:12.63,0:03:15.24,*Default,,0000,0000,0000,,Matarei aquele cara para você.
+Dialogue: Marked=0,0:03:15.24,0:03:17.39,*Default,,0000,0000,0000,,Ele parece ser bonzinho e eu odeio isso.
+Dialogue: Marked=0,0:03:21.44,0:03:25.07,Narrador,,0000,0000,0000,,Majin Boo e Babidi, que seguiam para\NNishi no Miyako, deparam-se com Goku.
+Dialogue: Marked=0,0:03:25.07,0:03:28.87,Narrador,,0000,0000,0000,,Será que ele será capaz de detê-los?
+Dialogue: Marked=0,0:03:35.01,0:03:37.81,*Default,,0000,0000,0000,,Quero lhes mostrar o Super Saiya-jin...
+Dialogue: Marked=0,0:03:37.81,0:03:41.29,*Default,,0000,0000,0000,,que superou ainda mais o poder do\NSuper Saiya-jin que havia superado o anterior.
+
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(675,70)\shad0\bord0\fad(600,0)\fscx100\fscy100}episódio 245
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(360,175)\shad0\bord0\fad(600,0)\fscx95\fscy100}O grande espanto na supertransformação
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(655,185)\shad0\bord0\fad(600,0)\fscx120\fscy200\fnArial\frz-15}!
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(675,185)\shad0\bord0\fad(600,0)\fscx120\fscy200\fnArial\frz-15}!
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(465,515)\shad0\bord0\fad(600,0)\fscx150\fscy160}Super Saiya-jin
+Dialogue: Marked=0,0:03:41.80,0:03:49.78,apresDBZ2,,0000,0000,0000,,{\1c&HF1F5F6\3c&HA9490E\pos(683,527)\shad0\bord0\fad(600,0)\fscx170\fscy200\fnArial}3
+
+Dialogue: Marked=0,0:04:03.39,0:04:06.97,*Default,,0000,0000,0000,,Super o quê?\NQue superou ainda mais o super o quê?
+Dialogue: Marked=0,0:04:06.97,0:04:08.44,*Default,,0000,0000,0000,,O que quer dizer com isso?
+Dialogue: Marked=0,0:04:09.18,0:04:12.03,*Default,,0000,0000,0000,,O que será que ele está querendo dizer?
+Dialogue: Marked=0,0:04:12.03,0:04:13.92,*Default,,0000,0000,0000,,Não entendi nada.
+Dialogue: Marked=0,0:04:13.92,0:04:18.90,*Default,,0000,0000,0000,,Majin Boo, acabe logo com ele\Ne vamos para Nishi no Miyako.
+Dialogue: Marked=0,0:04:24.96,0:04:28.92,P!,,0000,0000,0000,,A primeira impressão é de\Nque ele parece ser muito fraco...
+Dialogue: Marked=0,0:04:29.93,0:04:33.93,P!,,0000,0000,0000,,Mas é um oponente contra o qual\Naté mesmo o Vegeta nada pôde fazer.
+Dialogue: Marked=0,0:04:34.69,0:04:39.04,P!,,0000,0000,0000,,Tenho que atrasá-los até que o\NTrunks consiga nos trazer o Dragon Radar.
+Dialogue: Marked=0,0:05:01.82,0:05:05.92,*Default,,0000,0000,0000,,Será que o Trunks já conseguiu\Nchegar à Capsule Corporation?
+Dialogue: Marked=0,0:05:06.76,0:05:08.84,*Default,,0000,0000,0000,,Não, ele ainda está a caminho.
+Dialogue: Marked=0,0:05:15.50,0:05:17.97,P!,,0000,0000,0000,,O Ki do Trunks está imóvel.
+Dialogue: Marked=0,0:05:18.78,0:05:21.06,P!,,0000,0000,0000,,Será que ele parou no meio do caminho?
+Dialogue: Marked=0,0:05:23.03,0:05:25.08,P!,,0000,0000,0000,,Ande logo.
+Dialogue: Marked=0,0:05:25.08,0:05:28.73,P!,,0000,0000,0000,,Quero evitar ao máximo usar\Na aparência do Super Saiya-jin...
+Dialogue: Marked=0,0:05:28.73,0:05:30.27,P!,,0000,0000,0000,,que supera os poderes do\NSuper Saiya-jin que superou o anterior.
+Dialogue: Marked=0,0:05:31.39,0:05:34.36,*Default,,0000,0000,0000,,Esse é o Ki do pai do Goten?
+Dialogue: Marked=0,0:05:34.36,0:05:35.54,*Default,,0000,0000,0000,,É um Ki incrível!
+Dialogue: Marked=0,0:05:36.40,0:05:39.49,*Default,,0000,0000,0000,,E ainda conseguiu se mover muito\Nmais rápido, me deixando para trás.
+Dialogue: Marked=0,0:05:40.90,0:05:45.17,*Default,,0000,0000,0000,,{\fad(0,1500)}Será que essa é a\Ntécnica chamada Shunkan Idou?
+Dialogue: Marked=0,0:05:50.69,0:05:52.80,Radio,,0000,0000,0000,,O que está esperando?!
+Dialogue: Marked=0,0:05:53.29,0:05:54.84,*Default,,0000,0000,0000,,Vá logo buscar o radar!
+Dialogue: Marked=0,0:05:55.20,0:05:56.30,*Default,,0000,0000,0000,,S-Sim!
+Dialogue: Marked=0,0:06:00.33,0:06:01.26,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:06:02.06,0:06:04.62,*Default,,0000,0000,0000,,Com quem está falando?
+Dialogue: Marked=0,0:06:04.62,0:06:06.36,*Default,,0000,0000,0000,,Você disse radar?
+Dialogue: Marked=0,0:06:09.14,0:06:10.62,*Default,,0000,0000,0000,,Não é nada.
+Dialogue: Marked=0,0:06:10.62,0:06:11.94,*Default,,0000,0000,0000,,Não se preocupe com isso.
+Dialogue: Marked=0,0:06:15.55,0:06:19.58,*Default,,0000,0000,0000,,Pode ser que aquele oji-san\Nseja tão forte quanto o meu pai.
+Dialogue: Marked=0,0:06:20.47,0:06:24.29,*Default,,0000,0000,0000,,Antes de mais nada, tenho que\Nir logo buscar o Dragon Radar!
+Dialogue: Marked=0,0:06:26.20,0:06:29.50,*Default,,0000,0000,0000,,Parece que está tentando esconder algo inútil.
+Dialogue: Marked=0,0:06:30.15,0:06:31.16,*Default,,0000,0000,0000,,Mais ou menos.
+Dialogue: Marked=0,0:06:32.47,0:06:33.75,P!,,0000,0000,0000,,Não tenho outra alternativa.
+Dialogue: Marked=0,0:06:33.75,0:06:35.81,P!,,0000,0000,0000,,Será que terei que mantê-los ocupados?
+Dialogue: Marked=0,0:06:43.51,0:06:45.24,*Default,,0000,0000,0000,,Por que voltou ao normal?
+Dialogue: Marked=0,0:06:45.24,0:06:46.48,*Default,,0000,0000,0000,,Está desistindo?
+Dialogue: Marked=0,0:06:47.15,0:06:48.60,*Default,,0000,0000,0000,,Não é isso.
+Dialogue: Marked=0,0:06:48.60,0:06:53.00,*Default,,0000,0000,0000,,Farei uma explicação fácil\Na vocês sobre os Super Saiya-jins.
+Dialogue: Marked=0,0:06:54.32,0:06:57.53,*Default,,0000,0000,0000,,Super... Saiya-jin?
+Dialogue: Marked=0,0:06:58.04,0:07:00.00,*Default,,0000,0000,0000,,Dispenso todo esse trabalho.
+Dialogue: Marked=0,0:07:00.00,0:07:02.12,*Default,,0000,0000,0000,,Não estou interessado nisso.
+Dialogue: Marked=0,0:07:02.63,0:07:04.45,*Default,,0000,0000,0000,,Não diga isso.
+Dialogue: Marked=0,0:07:04.45,0:07:05.47,*Default,,0000,0000,0000,,Prestem bastante atenção.
+Dialogue: Marked=0,0:07:05.47,0:07:07.75,*Default,,0000,0000,0000,,Esta é a minha forma normal, correto?
+Dialogue: Marked=0,0:07:10.95,0:07:13.00,*Default,,0000,0000,0000,,Esta é a forma Super Saiya-jin.
+Dialogue: Marked=0,0:07:14.45,0:07:15.42,*Default,,0000,0000,0000,,E...
+Dialogue: Marked=0,0:07:17.33,0:07:21.64,*Default,,0000,0000,0000,,Esta é a forma Super Saiya-jin que\Nsupera os poderes do Super Saiya-jin.
+Dialogue: Marked=0,0:07:22.99,0:07:26.22,*Default,,0000,0000,0000,,Bom, acho que podemos dizer\Nque é a forma Super Saiya-jin 2.
+Dialogue: Marked=0,0:07:29.47,0:07:31.81,*Default,,0000,0000,0000,,São transformações inúteis.
+Dialogue: Marked=0,0:07:31.81,0:07:33.52,*Default,,0000,0000,0000,,Não fez nenhuma grande mudança.
+Dialogue: Marked=0,0:07:35.89,0:07:36.91,*Default,,0000,0000,0000,,E...
+Dialogue: Marked=0,0:07:38.53,0:07:42.87,*Default,,0000,0000,0000,,S-Super Saiya-jin que supera o Super Saiya-jin...
+Dialogue: Marked=0,0:07:42.87,0:07:44.62,*Default,,0000,0000,0000,,que havia superado o anterior?
+Dialogue: Marked=0,0:07:45.68,0:07:48.14,*Default,,0000,0000,0000,,Você está blefando, não é, Goku?
+Dialogue: Marked=0,0:07:48.14,0:07:50.37,*Default,,0000,0000,0000,,Existir algo acima disso...
+Dialogue: Marked=0,0:07:51.94,0:07:52.92,*Default,,0000,0000,0000,,Este é o...
+Dialogue: Marked=0,0:07:53.27,0:07:55.71,*Default,,0000,0000,0000,,G-Goku...
+Dialogue: Marked=0,0:07:57.07,0:08:01.68,*Default,,0000,0000,0000,,É o que supera mais ainda o\NSuper Saiya-jin que superou o anterior!
+Dialogue: Marked=0,0:08:23.35,0:08:25.80,*Default,,0000,0000,0000,,P-Pare, Goku!
+Dialogue: Marked=0,0:08:25.80,0:08:29.62,*Default,,0000,0000,0000,,Se fizer isso, o tempo que lhe resta acabará.
+Dialogue: Marked=0,0:08:30.58,0:08:34.04,*Default,,0000,0000,0000,,O seu tempo é limitado!
+Dialogue: Marked=0,0:08:57.92,0:08:59.41,*Default,,0000,0000,0000,,É incrível!
+Dialogue: Marked=0,0:09:00.23,0:09:02.99,*Default,,0000,0000,0000,,O Ki não para de se expandir!
+Dialogue: Marked=0,0:09:04.17,0:09:05.45,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:09:06.08,0:09:07.87,*Default,,0000,0000,0000,,O que significa isso?
+Dialogue: Marked=0,0:09:13.11,0:09:14.62,*Default,,0000,0000,0000,,I-Incrível!
+Dialogue: Marked=0,0:09:15.20,0:09:17.94,*Default,,0000,0000,0000,,Está bem maior que antes!
+Dialogue: Marked=0,0:09:22.20,0:09:24.62,*Default,,0000,0000,0000,,Isso não é bom!\NTenho que me apressar!
+Dialogue: Marked=0,0:10:05.13,0:10:06.24,*Default,,0000,0000,0000,,Pare!
+Dialogue: Marked=0,0:10:06.24,0:10:08.68,*Default,,0000,0000,0000,,Pare com isso, Goku!
+Dialogue: Marked=0,0:10:24.55,0:10:25.82,Radio,,0000,0000,0000,,O planeta está sendo ameaçado...
+Dialogue: Marked=0,0:10:39.64,0:10:41.63,*Default,,0000,0000,0000,,O planeta inteiro está tremendo.
+Dialogue: Marked=0,0:10:42.52,0:10:44.87,*Default,,0000,0000,0000,,Esse é o poder do Goku?
+Dialogue: Marked=0,0:10:44.87,0:10:46.88,*Default,,0000,0000,0000,,Mesmo estando tão afastado...
+Dialogue: Marked=0,0:10:49.09,0:10:51.71,*Default,,0000,0000,0000,,O-O que está havendo?
+Dialogue: Marked=0,0:12:11.29,0:12:14.03,*Default,,0000,0000,0000,,Este é o Super Saiya-jin 3.
+Dialogue: Marked=0,0:12:14.84,0:12:17.91,*Default,,0000,0000,0000,,Desculpem-me por fazê-los esperar.
+Dialogue: Marked=0,0:12:17.91,0:12:20.48,*Default,,0000,0000,0000,,Ainda não me acostumei a esta transformação.
+Dialogue: Marked=0,0:12:34.26,0:12:36.90,*Default,,0000,0000,0000,,E-Esse é o Goku?
+Dialogue: Marked=0,0:12:44.55,0:12:46.64,*Default,,0000,0000,0000,,E-Esse Ki é...
+Dialogue: Marked=0,0:12:46.64,0:12:49.38,*Default,,0000,0000,0000,,Não pode ser do meu pai lá na Terra!
+Dialogue: Marked=0,0:12:51.00,0:12:52.59,*Default,,0000,0000,0000,,Não, não é.
+Dialogue: Marked=0,0:12:53.44,0:12:55.05,*Default,,0000,0000,0000,,Sim, é dele!
+Dialogue: Marked=0,0:12:57.36,0:12:59.30,*Default,,0000,0000,0000,,É o Son Goku-san!
+Dialogue: Marked=0,0:12:59.30,0:13:01.84,*Default,,0000,0000,0000,,É uma energia incrível!
+Dialogue: Marked=0,0:13:01.84,0:13:02.73,*Default,,0000,0000,0000,,Sem dúvida.
+Dialogue: Marked=0,0:13:05.15,0:13:07.70,*Default,,0000,0000,0000,,C-Completamente inacreditável!
+Dialogue: Marked=0,0:13:08.51,0:13:12.78,*Default,,0000,0000,0000,,Um poder da Terra conseguir\Nchegar até este solo sagrado!
+Dialogue: Marked=0,0:13:13.52,0:13:14.94,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:13:15.68,0:13:17.79,*Default,,0000,0000,0000,,Mas o que está havendo?!
+
+Dialogue: Marked=0,0:13:22.86,0:13:25.60,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:13:22.86,0:13:25.60,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:22.86,0:13:25.60,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:22.86,0:13:25.60,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:28.87,0:13:31.61,comercial3,,0000,0000,0000,,{\fscx30\fscy45\pos(546,555)\t(9110,0)}torrents.ebrain.com.br
+Dialogue: Marked=0,0:13:28.87,0:13:31.61,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:28.87,0:13:31.61,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:28.87,0:13:31.61,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:52.01,0:13:55.74,*Default,,0000,0000,0000,,Mesmo com essa cara medonha,\Nnão fiquei nem um pouco com medo!
+Dialogue: Marked=0,0:13:56.60,0:13:59.26,*Default,,0000,0000,0000,,É isso mesmo, seu idiota!
+Dialogue: Marked=0,0:13:59.26,0:14:01.75,*Default,,0000,0000,0000,,Que asneira é essa de super sei-lá-o-quê 3?
+Dialogue: Marked=0,0:14:01.75,0:14:03.56,*Default,,0000,0000,0000,,Está querendo mostrar alguma postura...
+Dialogue: Marked=0,0:14:04.76,0:14:08.42,*Default,,0000,0000,0000,,Majin Boo, acabe logo com esse cara!
+Dialogue: Marked=0,0:14:09.39,0:14:10.75,*Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: Marked=0,0:14:10.75,0:14:12.25,*Default,,0000,0000,0000,,Vamos logo com isso.
+Dialogue: Marked=0,0:14:15.38,0:14:19.50,*Default,,0000,0000,0000,,Todos os terráqueos estão nos assistindo!
+Dialogue: Marked=0,0:14:19.50,0:14:22.26,*Default,,0000,0000,0000,,Boo, faça com que ele passe vexame!
+Dialogue: Marked=0,0:14:25.92,0:14:28.11,P!,,0000,0000,0000,,Será que o Trunks ainda não...
+Dialogue: Marked=0,0:14:39.34,0:14:40.53,*Default,,0000,0000,0000,,Cheguei!
+Dialogue: Marked=0,0:14:42.21,0:14:43.23,*Default,,0000,0000,0000,,Chegou!
+Dialogue: Marked=0,0:14:43.23,0:14:44.45,*Default,,0000,0000,0000,,O Trunks acabou de chegar!
+Dialogue: Marked=0,0:14:45.02,0:14:46.44,*Default,,0000,0000,0000,,Ele conseguiu!
+Dialogue: Marked=0,0:14:46.44,0:14:49.13,*Default,,0000,0000,0000,,Com isso, o Dragon Radar está a salvo!
+Dialogue: Marked=0,0:14:49.13,0:14:50.46,*Default,,0000,0000,0000,,Muito bem, Trunks!
+Dialogue: Marked=0,0:14:51.01,0:14:52.40,*Default,,0000,0000,0000,,Vovô!
+Dialogue: Marked=0,0:14:59.22,0:15:01.74,*Default,,0000,0000,0000,,Trunks, seja bem-vindo.
+Dialogue: Marked=0,0:15:01.74,0:15:03.89,*Default,,0000,0000,0000,,Ora, ora, ora!
+Dialogue: Marked=0,0:15:03.89,0:15:06.48,*Default,,0000,0000,0000,,Chegou em boa hora!\NAcabei de preparar o chá!
+Dialogue: Marked=0,0:15:06.86,0:15:08.31,*Default,,0000,0000,0000,,Não é hora para isso!
+Dialogue: Marked=0,0:15:08.97,0:15:13.25,*Default,,0000,0000,0000,,Então você prefere leite em vez de chá?
+Dialogue: Marked=0,0:15:13.25,0:15:14.15,*Default,,0000,0000,0000,,Ou chocolate quente?
+Dialogue: Marked=0,0:15:14.78,0:15:16.44,*Default,,0000,0000,0000,,Não, não é isso!
+Dialogue: Marked=0,0:15:17.18,0:15:18.05,*Default,,0000,0000,0000,,Vejamos...
+Dialogue: Marked=0,0:15:18.05,0:15:21.12,*Default,,0000,0000,0000,,Além dessas bebidas,\No que o Trunks também bebe?
+Dialogue: Marked=0,0:15:21.12,0:15:24.08,*Default,,0000,0000,0000,,Será que era suco?\NOu café gelado?
+Dialogue: Marked=0,0:15:24.54,0:15:26.12,*Default,,0000,0000,0000,,Não é isso! Não é isso!
+Dialogue: Marked=0,0:15:26.12,0:15:28.08,*Default,,0000,0000,0000,,Ei, onde está o Dragon Radar?
+Dialogue: Marked=0,0:15:29.73,0:15:31.06,*Default,,0000,0000,0000,,Dragon Radar?
+Dialogue: Marked=0,0:15:31.77,0:15:32.63,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:15:33.59,0:15:38.33,*Default,,0000,0000,0000,,Ah, deixe-me pensar...\NDragon Radar, certo?
+Dialogue: Marked=0,0:15:38.33,0:15:41.61,*Default,,0000,0000,0000,,Bem, acho que deve estar...
+Dialogue: Marked=0,0:15:42.37,0:15:45.64,*Default,,0000,0000,0000,,Seja rápido!\NRápido, rápido!
+Dialogue: Marked=0,0:15:49.72,0:15:52.78,*Default,,0000,0000,0000,,Ao trabalho, Majin Boo!
+Dialogue: Marked=0,0:16:05.29,0:16:06.08,*Default,,0000,0000,0000,,Boo!
+Dialogue: Marked=0,0:16:24.35,0:16:26.60,*Default,,0000,0000,0000,,Majin Boo, o que está havendo com você?
+Dialogue: Marked=0,0:16:27.09,0:16:28.58,*Default,,0000,0000,0000,,Ei, Boo!
+Dialogue: Marked=0,0:16:34.02,0:16:35.38,*Default,,0000,0000,0000,,Incrível!
+Dialogue: Marked=0,0:16:35.38,0:16:37.52,*Default,,0000,0000,0000,,Você é incrível, Goku!
+Dialogue: Marked=0,0:16:38.29,0:16:39.27,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:16:40.03,0:16:41.57,*Default,,0000,0000,0000,,Desse jeito, ele\Ncom certeza conseguirá ganhar!
+Dialogue: Marked=0,0:16:42.43,0:16:43.32,*Default,,0000,0000,0000,,Será mesmo?
+Dialogue: Marked=0,0:16:45.19,0:16:49.33,*Default,,0000,0000,0000,,Sem dúvida, o Goku é\Nconsiderado uma pessoa incrível.
+Dialogue: Marked=0,0:16:50.23,0:16:54.08,*Default,,0000,0000,0000,,Mas será que ele é realmente\Ncapaz de derrotar Majin Boo?
+Dialogue: Marked=0,0:16:55.37,0:16:58.63,*Default,,0000,0000,0000,,Esse Majin Boo é tão forte assim?
+Dialogue: Marked=0,0:16:59.43,0:17:00.26,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:17:07.36,0:17:09.46,*Default,,0000,0000,0000,,Há alguém lutando contra Boo!
+Dialogue: Marked=0,0:17:09.46,0:17:11.04,*Default,,0000,0000,0000,,Incrível!
+Dialogue: Marked=0,0:17:11.04,0:17:13.33,*Default,,0000,0000,0000,,Não sei quem é, mas esforce-se!
+Dialogue: Marked=0,0:17:13.33,0:17:15.56,*Default,,0000,0000,0000,,Acabe com Majin Boo por nós!
+Dialogue: Marked=0,0:17:18.22,0:17:20.03,*Default,,0000,0000,0000,,O que está fazendo, Boo?
+Dialogue: Marked=0,0:17:52.76,0:17:55.28,*Default,,0000,0000,0000,,Ah! Boo?!
+Dialogue: Marked=0,0:17:56.65,0:17:57.99,*Default,,0000,0000,0000,,Ei, o que foi que aconteceu?
+Dialogue: Marked=0,0:17:57.99,0:17:59.03,*Default,,0000,0000,0000,,O que foi?!
+Dialogue: Marked=0,0:18:12.56,0:18:14.35,*Default,,0000,0000,0000,,Isso mesmo! Isso mesmo!
+Dialogue: Marked=0,0:18:17.05,0:18:19.21,P!,,0000,0000,0000,,Praticamente sem danos?
+Dialogue: Marked=0,0:18:26.46,0:18:28.09,P!,,0000,0000,0000,,Essa é a técnica do Vegeta!
+Dialogue: Marked=0,0:18:43.02,0:18:44.99,P!,,0000,0000,0000,,Seu desgraçado...
+Dialogue: Marked=0,0:18:44.99,0:18:47.70,P!,,0000,0000,0000,,Lutando por um breve tempo,\Nele consegue rapidamente...
+Dialogue: Marked=0,0:18:47.70,0:18:49.97,P!,,0000,0000,0000,,aprender todas as técnicas\Nusadas pelo adversário.
+Dialogue: Marked=0,0:18:51.24,0:18:55.79,*Default,,0000,0000,0000,,O que está esperando, Boo?\NAcabe logo com esse cara!
+Dialogue: Marked=0,0:19:28.17,0:19:32.24,*Default,,0000,0000,0000,,Goku, isso já é o bastante.
+Dialogue: Marked=0,0:19:32.86,0:19:35.40,*Default,,0000,0000,0000,,Gastar um poder desse nível só fará...
+Dialogue: Marked=0,0:19:35.40,0:19:39.55,*Default,,0000,0000,0000,,que seu tempo na Terra\Nseja drasticamente reduzido.
+Dialogue: Marked=0,0:19:39.55,0:19:43.25,*Default,,0000,0000,0000,,Você tem o dever de\Nensinar a Fusion aos garotos!
+Dialogue: Marked=0,0:20:11.21,0:20:14.16,*Default,,0000,0000,0000,,Além de cortês e bonzinho,\Né bastante forte.
+Dialogue: Marked=0,0:20:15.98,0:20:17.62,*Default,,0000,0000,0000,,Você também.
+Dialogue: Marked=0,0:20:18.22,0:20:21.62,*Default,,0000,0000,0000,,Ei, Majin Boo, o que é que está esperando?
+Dialogue: Marked=0,0:20:23.28,0:20:25.67,*Default,,0000,0000,0000,,Acabe logo com esse cara!
+Dialogue: Marked=0,0:20:25.67,0:20:26.50,*Default,,0000,0000,0000,,Fique quieto!
+Dialogue: Marked=0,0:20:27.68,0:20:30.51,*Default,,0000,0000,0000,,Que falta de educação foi essa?
+Dialogue: Marked=0,0:20:30.94,0:20:33.19,*Default,,0000,0000,0000,,Como pode dirigir-se dessa forma ao seu superior?
+Dialogue: Marked=0,0:20:33.19,0:20:36.25,*Default,,0000,0000,0000,,Ei, você está me ouvindo, Boo?!
+Dialogue: Marked=0,0:20:36.25,0:20:39.02,*Default,,0000,0000,0000,,Eu estou lhe dizendo para\Nacabar logo com esse cara!
+Dialogue: Marked=0,0:20:40.97,0:20:43.35,P!,,0000,0000,0000,,O Trunks ainda não partiu.
+Dialogue: Marked=0,0:20:44.42,0:20:47.02,*Default,,0000,0000,0000,,Trunks, o que está fazendo?\NAnde logo!
+Dialogue: Marked=0,0:20:48.73,0:20:50.53,*Default,,0000,0000,0000,,Trunks?
+Dialogue: Marked=0,0:20:50.86,0:20:52.78,*Default,,0000,0000,0000,,Radar, radar!
+Dialogue: Marked=0,0:20:55.36,0:20:57.74,*Default,,0000,0000,0000,,Onde ele está?
+Dialogue: Marked=0,0:20:57.74,0:20:59.54,*Default,,0000,0000,0000,,Ele certamente deve estar por aqui.
+Dialogue: Marked=0,0:21:02.20,0:21:06.04,*Default,,0000,0000,0000,,Como imaginei, estava se comunicando\Ncom esse tal de Trunks, não é?
+Dialogue: Marked=0,0:21:06.28,0:21:07.96,*Default,,0000,0000,0000,,Ei, Boo!
+Dialogue: Marked=0,0:21:07.96,0:21:12.76,*Default,,0000,0000,0000,,Espanque-o da forma mais dolorosa\Naté que ele nos diga onde se encontra Trunks.
+Dialogue: Marked=0,0:21:18.31,0:21:22.02,P!,,0000,0000,0000,,Terei que ganhar tempo de novo.
+Dialogue: Marked=0,0:21:30.63,0:21:33.07,*Default,,0000,0000,0000,,Isso mesmo, Goku!\NVocê está se saindo bem!
+Dialogue: Marked=0,0:21:33.83,0:21:35.57,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:21:42.97,0:21:49.09,Narrador,,0000,0000,0000,,{\fscx98\fscy100}O Super Saiya-jin que superou ainda mais o Super Saiya-jin que havia superado o anterior, Goku.
+Dialogue: Marked=0,0:21:54.94,0:21:57.44,Narrador,,0000,0000,0000,,Esse poder é impressionante.
+Dialogue: Marked=0,0:21:59.02,0:22:00.69,*Default,,0000,0000,0000,,Não está aqui!
+Dialogue: Marked=0,0:22:00.92,0:22:03.06,*Default,,0000,0000,0000,,Não está aqui!
+Dialogue: Marked=0,0:22:03.06,0:22:05.14,*Default,,0000,0000,0000,,Não está em lugar algum!
+Dialogue: Marked=0,0:22:05.97,0:22:10.79,Narrador,,0000,0000,0000,,Será que Trunks não\Nconseguirá achar o Dragon Radar?
+Dialogue: Marked=0,0:22:19.00,0:22:24.13,Narrador,,0000,0000,0000,,Talvez possa haver alguma chance\Nde Goku derrotar Majin Boo.
+
+Dialogue: Marked=0,0:00:25.52,0:00:28.41,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}assahina
+Dialogue: Marked=0,0:00:28.41,0:00:28.48,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}assahina
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAE7F6\bord0\fscx75\fscy55\pos(240,170)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.67,0:24:10.08,Poder,,0000,0000,0000,,{\1c&HFAE7F6\bord0\fscx48\fscy48\pos(240,245)\t(9110,0)}http://torrents.ebrain.com.br

@@ -1,0 +1,329 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,Souvenir Lt BT,40,16777215,12632256,16711680,10485760,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,15,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,16777215,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,7,0,2,-10000,-10000,25,0,0
+Style: PLACA3,Arial,80,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:29.55,0:01:32.47,L!,NTP,0000,0000,0000,!Effect,Eu não posso deixar você sofrer contra ele...
+Dialogue: Marked=0,0:01:32.55,0:01:33.34,L!,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:01:33.89,0:01:36.27,L!,NTP,0000,0000,0000,!Effect,Deixe-me mostrar como usar o seu poder!
+Dialogue: Marked=0,0:01:48.43,0:01:51.69,*Default,NTP,0000,0000,0000,!Effect,Quando eu voltei a mim,\Neu tinha disparado o Rei-gun.
+Dialogue: Marked=0,0:01:51.90,0:01:53.69,L!,NTP,0000,0000,0000,!Effect,Sensui! Saia do caminho!
+Dialogue: Marked=0,0:01:54.91,0:01:58.39,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,250)}Tinha um poder incomparável.\NEu não poderia disparar aquilo agora.
+Dialogue: Marked=0,0:01:58.58,0:02:01.20,*Default,NTP,0000,0000,0000,!Effect,{\fad(250,0)}E esse cara está dentro do Makai.
+Dialogue: Marked=0,0:02:01.58,0:02:04.70,*Default,NTP,0000,0000,0000,!Effect,Eu vou procurar pelo\Ncara que me controlou!
+Dialogue: Marked=0,0:02:05.92,0:02:07.83,*Default,NTP,0000,0000,0000,!Effect,Do que você está falando?!
+Dialogue: Marked=0,0:02:08.48,0:02:11.48,*Default,NTP,0000,0000,0000,!Effect,Vamos deixar que isso acabe por aqui!
+Dialogue: Marked=0,0:02:11.92,0:02:14.59,*Default,NTP,0000,0000,0000,!Effect,Desta forma, eu não tive nenhum prazer.
+Dialogue: Marked=0,0:02:14.83,0:02:19.09,*Default,NTP,0000,0000,0000,!Effect,Ele interrompeu uma luta séria que\Neu estava tendo. Vai pagar por isso!
+Dialogue: Marked=0,0:02:19.70,0:02:20.78,*Default,NTP,0000,0000,0000,!Effect,Yusuke...
+Dialogue: Marked=0,0:02:22.14,0:02:23.85,*Default,NTP,0000,0000,0000,!Effect,Pense bem antes de decidir.
+Dialogue: Marked=0,0:02:24.81,0:02:28.31,*Default,NTP,0000,0000,0000,!Effect,Você pode voltar ao Ningenkai\Nou ficar aqui no Makai.
+Dialogue: Marked=0,0:02:28.74,0:02:30.19,*Default,NTP,0000,0000,0000,!Effect,Um dos dois.
+Dialogue: Marked=0,0:02:34.58,0:02:36.70,*Default,NTP,0000,0000,0000,!Effect,Vou te dar um tempo para pensar.
+Dialogue: Marked=0,0:02:38.75,0:02:40.76,*Default,NTP,0000,0000,0000,!Effect,Não preciso de tempo algum.
+Dialogue: Marked=0,0:02:40.88,0:02:41.57,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:02:46.43,0:02:49.26,*Default,NTP,0000,0000,0000,!Effect,Vamos para casa, para o Ningenkai.
+
+Dialogue: Marked=0,0:02:49.24,0:02:55.30,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 094
+Dialogue: Marked=0,0:02:49.24,0:02:55.30,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(370,410)}{\fscx300\fscy150}Epílogo !
+Dialogue: Marked=0,0:02:49.24,0:02:55.30,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(490,500)}{\fscx100\fscy120}Em direção ao amanhã !
+
+Dialogue: Marked=0,0:03:12.12,0:03:13.56,*Default,NTP,0000,0000,0000,!Effect,Eles voltaram!
+Dialogue: Marked=0,0:03:18.70,0:03:19.79,*Default,NTP,0000,0000,0000,!Effect,Quem é aquele?
+Dialogue: Marked=0,0:03:19.79,0:03:21.00,*Default,NTP,0000,0000,0000,!Effect,N-Não sei...
+Dialogue: Marked=0,0:03:21.13,0:03:21.87,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:03:22.80,0:03:24.13,*Default,NTP,0000,0000,0000,!Effect,Urameshi-san?
+Dialogue: Marked=0,0:03:24.13,0:03:25.08,*Default,NTP,0000,0000,0000,!Effect,É o Yusuke!
+Dialogue: Marked=0,0:03:29.22,0:03:30.76,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:03:35.74,0:03:36.46,*Default,NTP,0000,0000,0000,!Effect,Bem-vindo de volta!
+Dialogue: Marked=0,0:03:37.86,0:03:39.46,*Default,NTP,0000,0000,0000,!Effect,Oi, estou em casa.
+Dialogue: Marked=0,0:03:39.75,0:03:41.47,*Default,NTP,0000,0000,0000,!Effect,Você está certa! É o Yusuke!
+Dialogue: Marked=0,0:03:43.08,0:03:45.47,*Default,NTP,0000,0000,0000,!Effect,Nossa, você parece bem diferente!
+Dialogue: Marked=0,0:03:46.09,0:03:47.97,*Default,NTP,0000,0000,0000,!Effect,O que aconteceu com você?
+Dialogue: Marked=0,0:03:48.31,0:03:50.76,*Default,NTP,0000,0000,0000,!Effect,É!\NO que aconteceu com a sua cabeça?
+Dialogue: Marked=0,0:03:50.76,0:03:52.98,*Default,NTP,0000,0000,0000,!Effect,E que marcas são essas? Algum tipo de feitiço?
+Dialogue: Marked=0,0:03:53.43,0:03:57.19,*Default,NTP,0000,0000,0000,!Effect,Bem, muitas coisas aconteceram. Vou\Ndemorar bastante para contar tudo a vocês.
+Dialogue: Marked=0,0:03:59.56,0:04:01.68,*Default,NTP,0000,0000,0000,!Effect,Mas parece que, no momento,\Nnão há tempo para falar.
+Dialogue: Marked=0,0:04:04.44,0:04:06.18,*Default,NTP,0000,0000,0000,!Effect,Os caras do Esquadrão Especial de Defesa?
+Dialogue: Marked=0,0:04:08.44,0:04:11.83,*Default,NTP,0000,0000,0000,!Effect,Koenma-sama, o Reikai\Nnão perdoará o que você fez.
+Dialogue: Marked=0,0:04:12.45,0:04:13.56,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:04:13.78,0:04:18.34,*Default,NTP,0000,0000,0000,!Effect,Enma-Daio-sama ordenou que\NUrameshi Yusuke fosse eliminado.
+Dialogue: Marked=0,0:04:18.75,0:04:21.43,*Default,NTP,0000,0000,0000,!Effect,Você carrega uma grande responsabilidade\Npor ter desobedecido àquela ordem...
+Dialogue: Marked=0,0:04:21.43,0:04:24.84,*Default,NTP,0000,0000,0000,!Effect,e ter permitido que Urameshi\Nvoltasse à vida como um Mazoku.
+Dialogue: Marked=0,0:04:25.13,0:04:29.35,*Default,NTP,0000,0000,0000,!Effect,Sim, eu sei...\NAceitarei qualquer castigo que me dêem.
+Dialogue: Marked=0,0:04:31.40,0:04:32.51,*Default,NTP,0000,0000,0000,!Effect,Ei, vocês!
+Dialogue: Marked=0,0:04:32.61,0:04:33.60,*Default,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:04:33.87,0:04:37.40,*Default,NTP,0000,0000,0000,!Effect,Não tenho intenção alguma de arrumar briga\Ncontra alguém que eu sei que posso derrotar!
+Dialogue: Marked=0,0:04:37.40,0:04:38.40,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:04:38.74,0:04:41.57,*Default,NTP,0000,0000,0000,!Effect,No entanto, enfrentarei todos!
+Dialogue: Marked=0,0:04:42.05,0:04:44.36,*Default,NTP,0000,0000,0000,!Effect,Dependendo de como for,\Nesmagarei todos com a minha força!
+Dialogue: Marked=0,0:04:44.84,0:04:50.37,*Default,NTP,0000,0000,0000,!Effect,O Koenma deu o melhor de si. Vocês não\Ntêm o direito de falar nada sobre ele!
+Dialogue: Marked=0,0:04:55.09,0:04:59.09,*Default,NTP,0000,0000,0000,!Effect,E tentem me provocar\Ncom suas atuações baratas!
+Dialogue: Marked=0,0:04:59.75,0:05:00.84,*Default,NTP,0000,0000,0000,!Effect,Eu irei acabar com vocês!
+Dialogue: Marked=0,0:05:14.55,0:05:18.31,*Default,NTP,0000,0000,0000,!Effect,Nossa missão é fechar o\Nburaco que leva ao Makai.
+Dialogue: Marked=0,0:05:18.59,0:05:21.11,*Default,NTP,0000,0000,0000,!Effect,Não há motivo para lutas desnecessárias.
+Dialogue: Marked=0,0:05:21.24,0:05:23.05,*Default,NTP,0000,0000,0000,!Effect,- Vamos!\N- Sim!
+Dialogue: Marked=0,0:05:31.96,0:05:33.50,*Default,NTP,0000,0000,0000,!Effect,Koenma, desculpe-me.
+Dialogue: Marked=0,0:05:34.23,0:05:37.50,*Default,NTP,0000,0000,0000,!Effect,Do que você está falando?\NEssa é a minha fala.
+Dialogue: Marked=0,0:05:47.74,0:05:49.08,*Default,NTP,0000,0000,0000,!Effect,Está acabado?
+Dialogue: Marked=0,0:05:49.08,0:05:50.01,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:05:50.41,0:05:52.97,*Default,NTP,0000,0000,0000,!Effect,Certo!\NAcho que vou para casa!
+Dialogue: Marked=0,0:05:53.75,0:05:57.75,*Default,NTP,0000,0000,0000,!Effect,Parece que estivemos\Npor lutando um ano inteiro.
+Dialogue: Marked=0,0:05:57.75,0:06:00.09,*Default,NTP,0000,0000,0000,!Effect,Eu já ouvi essas palavras.
+Dialogue: Marked=0,0:06:00.09,0:06:03.53,*Default,NTP,0000,0000,0000,!Effect,Ainda bem que todos estão a salvo...\NAinda bem!
+Dialogue: Marked=0,0:06:04.53,0:06:07.73,*Default,NTP,0000,0000,0000,!Effect,Keiko, o que você está fazendo?\NVocê será deixada para trás!
+Dialogue: Marked=0,0:06:08.43,0:06:09.53,*Default,NTP,0000,0000,0000,!Effect,E-Esperem!
+Dialogue: Marked=0,0:06:12.23,0:06:15.57,*Default,NTP,0000,0000,0000,!Effect,Kamiya, você esteve na prisão, não esteve?
+Dialogue: Marked=0,0:06:16.41,0:06:18.54,*Default,NTP,0000,0000,0000,!Effect,Vocês têm sorte por terem\Nchegado tão longe a salvo.
+Dialogue: Marked=0,0:06:19.77,0:06:22.79,*Default,NTP,0000,0000,0000,!Effect,Acho que sim. Eu estava bastante\Ndesesperado naquele momento.
+Dialogue: Marked=0,0:06:23.20,0:06:24.80,*Default,NTP,0000,0000,0000,!Effect,Sua fuga da prisão?
+Dialogue: Marked=0,0:06:32.39,0:06:34.05,*Default,NTP,0000,0000,0000,!Effect,Com certeza acabou.
+Dialogue: Marked=0,0:06:34.05,0:06:38.21,*Default,NTP,0000,0000,0000,!Effect,É. Até mesmo os insetos Makaichu\Ndesapareceram, sem falar nos youkais.
+Dialogue: Marked=0,0:06:39.73,0:06:41.76,*Default,NTP,0000,0000,0000,!Effect,O Sensui perdeu.
+Dialogue: Marked=0,0:06:42.63,0:06:43.32,*Default,NTP,0000,0000,0000,!Effect,Sim, ele perdeu.
+Dialogue: Marked=0,0:06:44.73,0:06:45.57,*Default,NTP,0000,0000,0000,!Effect,Hagiri...
+Dialogue: Marked=0,0:06:47.07,0:06:50.07,*Default,NTP,0000,0000,0000,!Effect,Este corte no seu tórax\Nera um ferimento bem sério.
+Dialogue: Marked=0,0:06:50.92,0:06:52.61,*Default,NTP,0000,0000,0000,!Effect,Eu já cortei centenas de pessoas,
+Dialogue: Marked=0,0:06:52.61,0:06:54.03,*Default,NTP,0000,0000,0000,!Effect,mas me admirei com seu corte, mesmo sem entender.
+Dialogue: Marked=0,0:06:54.51,0:06:56.67,*Default,NTP,0000,0000,0000,!Effect,Nenhum órgão ou músculo\Nimportante foi atingido.
+Dialogue: Marked=0,0:06:56.95,0:07:01.00,*Default,NTP,0000,0000,0000,!Effect,Não era como se você tivesse sido "cortado",\Nmas sim como se tivesse sido "transpassado".
+Dialogue: Marked=0,0:07:10.57,0:07:12.34,LP!,NTP,0000,0000,0000,!Effect,Sensui-san...
+Dialogue: Marked=0,0:07:17.22,0:07:20.32,*Default,NTP,0000,0000,0000,!Effect,Quando eu vi o seu ferimento,\Nminha intuição me disse algo.
+Dialogue: Marked=0,0:07:20.77,0:07:22.67,*Default,NTP,0000,0000,0000,!Effect,O Sensui era mais forte do que qualquer um!
+Dialogue: Marked=0,0:07:23.04,0:07:26.77,*Default,NTP,0000,0000,0000,!Effect,Mas, mesmo assim, nós provavelmente\Nnão derrotaríamos os outros.
+Dialogue: Marked=0,0:07:28.54,0:07:31.45,*Default,NTP,0000,0000,0000,!Effect,Não importa.\NFoi divertido de alguma maneira.
+Dialogue: Marked=0,0:07:31.71,0:07:35.19,*Default,NTP,0000,0000,0000,!Effect,No final, você acaba\Nacordando de seus sonhos.
+Dialogue: Marked=0,0:07:40.56,0:07:42.08,*Default,NTP,0000,0000,0000,!Effect,Bem, agora...
+Dialogue: Marked=0,0:07:43.06,0:07:46.55,*Default,NTP,0000,0000,0000,!Effect,Eu tenho que me esconder.\NHagiri, o que você vai fazer?
+Dialogue: Marked=0,0:07:46.93,0:07:50.01,*Default,NTP,0000,0000,0000,!Effect,O de sempre.\NTomar café da manhã, ir à escola...
+Dialogue: Marked=0,0:07:50.40,0:07:51.74,*Default,NTP,0000,0000,0000,!Effect,Escola?
+Dialogue: Marked=0,0:07:54.40,0:07:56.30,*Default,NTP,0000,0000,0000,!Effect,Kamiya, e você?
+Dialogue: Marked=0,0:07:57.07,0:08:00.89,*Default,NTP,0000,0000,0000,!Effect,Vamos ver...\NVai ser como andar através da neblina...
+Dialogue: Marked=0,0:08:12.09,0:08:14.65,P!,NTP,0000,0000,0000,!Effect,O Kurama cortou meu cabelo.
+Dialogue: Marked=0,0:08:15.09,0:08:18.49,P!,NTP,0000,0000,0000,!Effect,As estranhas marcas no meu corpo\Ndesapareceram depois de eu acordar.
+Dialogue: Marked=0,0:08:19.09,0:08:23.03,P!,NTP,0000,0000,0000,!Effect,E eu voltei à minha vida normal.
+Dialogue: Marked=0,0:08:24.43,0:08:27.75,*Default,NTP,0000,0000,0000,!Effect,Ei, matando aula de novo?!
+Dialogue: Marked=0,0:08:29.37,0:08:32.24,*Default,NTP,0000,0000,0000,!Effect,Você nunca vai ser alguém se continuar assim.
+Dialogue: Marked=0,0:08:32.28,0:08:35.18,*Default,NTP,0000,0000,0000,!Effect,Olha, se alguma coisa está\Nte incomodando, me conte!
+Dialogue: Marked=0,0:08:38.71,0:08:46.04,*Default,NTP,0000,0000,0000,!Effect,Ah, eu não posso agüentar! Como você não\Nconsegue apreciar dias calmos como esse?
+Dialogue: Marked=0,0:08:47.95,0:08:50.44,*Default,NTP,0000,0000,0000,!Effect,Já faz quase uma semana que\Nas coisas estão tranqüilas.
+Dialogue: Marked=0,0:08:51.73,0:08:54.40,*Default,NTP,0000,0000,0000,!Effect,Ei, falando nisso, eu recebi\Numa carta do Mitarai.
+Dialogue: Marked=0,0:08:55.73,0:08:58.87,*Default,NTP,0000,0000,0000,!Effect,O Mitarai e o Amanuma voltaram à escola.
+Dialogue: Marked=0,0:08:59.24,0:09:02.27,*Default,NTP,0000,0000,0000,!Effect,Ainda assim, aqueles dois não\Nse acostumaram com a vida diária.
+Dialogue: Marked=0,0:09:02.27,0:09:04.58,*Default,NTP,0000,0000,0000,!Effect,É por esse motivo que foram seduzidos pelo Sensui.
+Dialogue: Marked=0,0:09:05.07,0:09:10.28,*Default,NTP,0000,0000,0000,!Effect,Eles com certeza causarão mais problemas.\NE é com isso que eu estou preocupado.
+Dialogue: Marked=0,0:09:12.83,0:09:15.30,PLACA,NTP,0000,0000,0000,!Effect,{\fad(300,300)}{\pos(455,420)}{\fscx70\fscy70}UMA SEMANA DEPOIS...
+Dialogue: Marked=0,0:09:17.93,0:09:20.15,PLACA1,NTP,0000,0000,0000,!Effect,{\frz-5\move(-50,65,480,65,2200,0)}{\fscx65\fscy65}f l i p e r a m a
+Dialogue: Marked=0,0:09:20.15,0:09:20.81,PLACA1,NTP,0000,0000,0000,!Effect,{\frz-5\move(480,65,480,75,0,0)}{\fscx65\fscy65\t(0,660,\fscx67\fscy67}f l i p e r a m a
+Dialogue: Marked=0,0:09:20.81,0:09:20.92,PLACA2,NTP,0000,0000,0000,!Effect,{\frz-8\pos(550,105)}{\fscx205\fscy205}f   l   i   p   e   r   a   m   a
+Dialogue: Marked=0,0:09:20.92,0:09:22.64,PLACA2,NTP,0000,0000,0000,!Effect,{\frz-8\move(550,105,0,70,2000,0)}{\fscx205\fscy205}f   l   i   p   e   r   a   m   a
+Dialogue: Marked=0,0:09:20.59,0:09:22.64,*Default,NTP,0000,0000,0000,!Effect,Ah, droga! Eu não consigo vencer nisso!
+Dialogue: Marked=0,0:09:23.23,0:09:27.38,*Default,NTP,0000,0000,0000,!Effect,Amanuma, você é bom mesmo em jogos!\NEu pensei que você só estudasse...
+Dialogue: Marked=0,0:09:28.56,0:09:31.57,*Default,NTP,0000,0000,0000,!Effect,Mas, por que você está num\Nfliperama tão longe da cidade?
+Dialogue: Marked=0,0:09:32.37,0:09:35.84,*Default,NTP,0000,0000,0000,!Effect,Nós estamos voltando de um treino\Nque tivemos com nosso time de futebol.
+Dialogue: Marked=0,0:09:42.46,0:09:44.20,*Default,NTP,0000,0000,0000,!Effect,Nenhuma razão em particular.
+Dialogue: Marked=0,0:09:45.18,0:09:47.62,P!,NTP,0000,0000,0000,!Effect,Eu apenas não queria vê-los.
+Dialogue: Marked=0,0:09:49.72,0:09:51.63,*Default,NTP,0000,0000,0000,!Effect,Tudo bem se nós formos\Nà sua casa um dia desses?
+Dialogue: Marked=0,0:09:52.14,0:09:55.59,*Default,NTP,0000,0000,0000,!Effect,Por mim, tudo bem. Meus pais\Nnão estarão em casa até a noite.
+Dialogue: Marked=0,0:09:55.87,0:09:56.85,*Default,NTP,0000,0000,0000,!Effect,Legal.
+Dialogue: Marked=0,0:09:56.95,0:10:00.99,*Default,NTP,0000,0000,0000,!Effect,Meus pais trabalham fora de casa,\Npor isso são muito exigentes.
+Dialogue: Marked=0,0:10:01.73,0:10:04.06,*Default,NTP,0000,0000,0000,!Effect,Você queria poder se livrar\Ndeles de vez em quando?
+Dialogue: Marked=0,0:10:04.19,0:10:05.06,*Default,NTP,0000,0000,0000,!Effect,Você está brincando, certo?
+Dialogue: Marked=0,0:10:05.73,0:10:07.68,*Default,NTP,0000,0000,0000,!Effect,Às vezes eu realmente penso nisso.
+Dialogue: Marked=0,0:10:07.73,0:10:10.99,*Default,NTP,0000,0000,0000,!Effect,Às vezes? Eu penso nisso todo dia.
+Dialogue: Marked=0,0:10:11.16,0:10:13.03,*Default,NTP,0000,0000,0000,!Effect,Eles me controlam só\Nporque são meus pais.
+Dialogue: Marked=0,0:10:13.67,0:10:17.24,*Default,NTP,0000,0000,0000,!Effect,E por serem tão idiotas, são muito teimosos,\Nquerendo que o filho deles só estude.
+Dialogue: Marked=0,0:10:17.64,0:10:20.50,*Default,NTP,0000,0000,0000,!Effect,E quando eu consigo boas notas, tudo o\Nque eles dizem é: "continue se esforçando".
+Dialogue: Marked=0,0:10:20.75,0:10:22.95,*Default,NTP,0000,0000,0000,!Effect,Vocês são meus pais,\Nesforcem-se vocês também!
+Dialogue: Marked=0,0:10:23.08,0:10:25.34,*Default,NTP,0000,0000,0000,!Effect,É difícil ser educado.
+Dialogue: Marked=0,0:10:31.02,0:10:33.77,P!,NTP,0000,0000,0000,!Effect,O que você sabe? Todos são iguais.
+Dialogue: Marked=0,0:10:39.30,0:10:40.66,Comentario,NTP,0000,0000,0000,!Effect,Espírito morto, retorne!
+Dialogue: Marked=0,0:10:39.30,0:10:40.66,Doutrina,NTP,0000,0000,0000,!Effect,Yukon kaiki
+Dialogue: Marked=0,0:10:47.04,0:10:49.19,*Default,NTP,0000,0000,0000,!Effect,É bom mesmo estar vivo!
+Dialogue: Marked=0,0:10:50.04,0:10:51.15,*Default,NTP,0000,0000,0000,!Effect,Você disse alguma coisa?
+Dialogue: Marked=0,0:10:52.05,0:10:53.06,*Default,NTP,0000,0000,0000,!Effect,Não é nada.
+Dialogue: Marked=0,0:10:53.90,0:10:56.15,*Default,NTP,0000,0000,0000,!Effect,Já sei! Que tal irmos agora?
+Dialogue: Marked=0,0:10:56.38,0:10:58.05,*Default,NTP,0000,0000,0000,!Effect,Ahn? Agora?
+Dialogue: Marked=0,0:10:58.22,0:10:59.39,*Default,NTP,0000,0000,0000,!Effect,Vamos jogar alguma coisa!
+Dialogue: Marked=0,0:10:59.57,0:11:03.08,*Default,NTP,0000,0000,0000,!Effect,Tem certeza? Você tem Dokabon?\NEu sou muito bom nesse.
+Dialogue: Marked=0,0:11:03.72,0:11:06.47,*Default,NTP,0000,0000,0000,!Effect,Sim! Eu tenho quase todos os jogos!
+Dialogue: Marked=0,0:11:07.06,0:11:09.68,Narrador,NTP,0000,0000,0000,!Effect,Amanuma Tsukihito.\NIdade: 11. Tipo sangüíneo: B.
+Dialogue: Marked=0,0:11:09.83,0:11:13.19,Narrador,NTP,0000,0000,0000,!Effect,Nascido dia 7 de novembro, vive\Njunto com seus pais em uma casa.
+Dialogue: Marked=0,0:11:13.40,0:11:15.60,Narrador,NTP,0000,0000,0000,!Effect,Mais tarde, ele entraria em uma\Nescola de ensino médio particular...
+Dialogue: Marked=0,0:11:15.98,0:11:19.07,Narrador,NTP,0000,0000,0000,!Effect,E, através dos jogos, aumentaria\Ngradualmente suas amizades,
+Dialogue: Marked=0,0:11:19.07,0:11:21.80,Narrador,NTP,0000,0000,0000,!Effect,vivendo como um estudante comum.
+Dialogue: Marked=0,0:11:22.41,0:11:23.26,*Default,NTP,0000,0000,0000,!Effect,Vamos, por aqui!
+Dialogue: Marked=0,0:11:29.73,0:11:29.84,PLACA3,NTP,0000,0000,0000,!Effect,{\pos(410,80)}{\fscx40\fscy40}PROCURADO
+Dialogue: Marked=0,0:11:29.73,0:11:29.84,PLACA3,NTP,0000,0000,0000,!Effect,{\pos(287,490)}{\fscx40\fscy35}K\NA\NM\NI\NY\NA\N\NM\NI\NN\NO\NR\NU
+Dialogue: Marked=0,0:11:29.84,0:11:31.65,PLACA3,NTP,0000,0000,0000,!Effect,{\fad(0,300)}{\move(410,80,410,55)}{\fscx40\fscy40}PROCURADO
+Dialogue: Marked=0,0:11:29.84,0:11:31.65,PLACA3,NTP,0000,0000,0000,!Effect,{\fad(0,300)}{\move(287,490,270,470)}{\fscx40\fscy35}K\NA\NM\NI\NY\NA\N\NM\NI\NN\NO\NR\NU
+Dialogue: Marked=0,0:11:39.76,0:11:42.82,*Default,NTP,0000,0000,0000,!Effect,Você aí! Sabe alguma\Ncoisa sobre esse homem?
+Dialogue: Marked=0,0:11:43.91,0:11:47.50,*Default,NTP,0000,0000,0000,!Effect,Não, achei ele parecido com alguém\Nque conheço, mas é uma mera coincidência.
+Dialogue: Marked=0,0:11:47.60,0:11:49.07,*Default,NTP,0000,0000,0000,!Effect,Apenas minha imaginação.
+Dialogue: Marked=0,0:11:52.77,0:11:55.62,Narrador,NTP,0000,0000,0000,!Effect,Kamiya Minoru.\NIdade: 29. Tipo sangüíneo: AB.
+Dialogue: Marked=0,0:11:55.79,0:12:00.45,Narrador,NTP,0000,0000,0000,!Effect,Nascido dia 20 de agosto. Usando sua própria\Nhabilidade, alterou seu rosto e conseguiu fugir.
+Dialogue: Marked=0,0:12:00.67,0:12:06.79,Narrador,NTP,0000,0000,0000,!Effect,Mais tarde, fingindo ser um cirurgião espírita,\Nconstruiria o "Doujou Mãos Milagrosas".
+Dialogue: Marked=0,0:12:06.83,0:12:09.34,Narrador,NTP,0000,0000,0000,!Effect,E, usando suas habilidades,\Ntrataria muitas pessoas doentes.
+Dialogue: Marked=0,0:12:30.41,0:12:32.05,*Default,NTP,0000,0000,0000,!Effect,Quem poderia fazer algo tão horrível?
+Dialogue: Marked=0,0:12:32.99,0:12:35.98,*Default,NTP,0000,0000,0000,!Effect,Mesmo assim, de uma alguma forma, eu os entendo.
+Dialogue: Marked=0,0:12:37.08,0:12:38.94,*Default,NTP,0000,0000,0000,!Effect,É como ter uma arma incrivelmente poderosa.
+Dialogue: Marked=0,0:12:39.01,0:12:41.28,*Default,NTP,0000,0000,0000,!Effect,Você vai querer testá-la, certo?
+Dialogue: Marked=0,0:12:41.84,0:12:43.23,*Default,NTP,0000,0000,0000,!Effect,Ou quando você está de mau humor...
+Dialogue: Marked=0,0:12:43.42,0:12:47.62,*Default,NTP,0000,0000,0000,!Effect,e quer atormentar alguém\Nmais fraco que você.
+Dialogue: Marked=0,0:12:54.65,0:13:02.66,*Default,NTP,0000,0000,0000,!Effect,Mas, eu parei. Eu pensei comigo mesma:\N"isso vai machucar" ou "pobre criatura."
+Dialogue: Marked=0,0:13:06.45,0:13:10.68,*Default,NTP,0000,0000,0000,!Effect,Portanto, eu tenho um pouco de inveja\Nde quem não consegue parar...
+Dialogue: Marked=0,0:13:11.06,0:13:13.04,*Default,NTP,0000,0000,0000,!Effect,e faz algo assim.
+Dialogue: Marked=0,0:13:14.12,0:13:18.27,*Default,NTP,0000,0000,0000,!Effect,No entanto, são pessoas que esqueceram\Nque seus corpos estão vivos...
+Dialogue: Marked=0,0:13:18.36,0:13:20.95,*Default,NTP,0000,0000,0000,!Effect,graças ao sacrifício de\Nincontáveis plantas e animais,
+Dialogue: Marked=0,0:13:21.13,0:13:25.68,*Default,NTP,0000,0000,0000,!Effect,e então, fazem coisas como estas, que eu desprezo.
+Dialogue: Marked=0,0:13:32.07,0:13:34.99,*Default,NTP,0000,0000,0000,!Effect,Ainda há memórias no corpo dela.
+Dialogue: Marked=0,0:13:37.41,0:13:43.80,*Default,NTP,0000,0000,0000,!Effect,{\fscx96\fscy96}Memórias fortes, terríveis. Deve ter sido\Nhorripilante. Ela está olhando para os culpados.
+Dialogue: Marked=0,0:13:47.09,0:13:49.53,*Default,NTP,0000,0000,0000,!Effect,Três garotos, todos na adolescência.
+Dialogue: Marked=0,0:13:51.29,0:13:54.94,*Default,NTP,0000,0000,0000,!Effect,Eles parecem gentis à primeira\Nvista, como estudantes respeitáveis.
+Dialogue: Marked=0,0:14:01.63,0:14:03.48,*Default,NTP,0000,0000,0000,!Effect,Aqui, essa é a cara deles.
+Dialogue: Marked=0,0:14:07.11,0:14:10.62,*Default,NTP,0000,0000,0000,!Effect,Todos eles têm uma expressão\Nrepreensível em seus rostos.
+Dialogue: Marked=0,0:14:13.11,0:14:18.31,*Default,NTP,0000,0000,0000,!Effect,{\fscx97\fscy97}Pessoas são covardes, e se tornam mais brutais\Nà medida em que se aglomeram, não é mesmo?
+Dialogue: Marked=0,0:14:20.12,0:14:23.16,*Default,NTP,0000,0000,0000,!Effect,Irei caçá-los agora mesmo.
+Dialogue: Marked=0,0:14:26.79,0:14:30.96,*Default,NTP,0000,0000,0000,!Effect,Eles são meus colegas de classe. Eu não\Nconsigo mais nem olhar na cara deles.
+Dialogue: Marked=0,0:14:31.73,0:14:34.37,Narrador,NTP,0000,0000,0000,!Effect,Hagiri Kaname.\NIdade: 17. Tipo sangüíneo: O.
+Dialogue: Marked=0,0:14:34.44,0:14:38.83,Narrador,NTP,0000,0000,0000,!Effect,Nascido dia 3 de dezembro, vive em\Nfamília com sua mãe, irmão e irmã.
+Dialogue: Marked=0,0:14:39.41,0:14:41.93,Narrador,NTP,0000,0000,0000,!Effect,Ele desapareceria depois de\Nse graduar no ensino médio.
+Dialogue: Marked=0,0:14:49.52,0:14:52.13,*Default,NTP,0000,0000,0000,!Effect,Você quer fazer o exame\Npara entrar na Academia?
+Dialogue: Marked=0,0:14:52.42,0:14:52.80,*Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:14:55.76,0:14:58.86,*Default,NTP,0000,0000,0000,!Effect,Para ser sincero, olhando as suas notas\Nda segunda metade do ano passado,
+Dialogue: Marked=0,0:14:58.96,0:15:00.27,*Default,NTP,0000,0000,0000,!Effect,vai ser difícil você passar.
+Dialogue: Marked=0,0:15:00.60,0:15:02.23,*Default,NTP,0000,0000,0000,!Effect,Tenho certeza de que posso recuperar isso.
+Dialogue: Marked=0,0:15:03.91,0:15:08.26,*Default,NTP,0000,0000,0000,!Effect,Bem, se você se esforçar,\Ndará tudo certo.
+Dialogue: Marked=0,0:15:08.61,0:15:10.66,*Default,NTP,0000,0000,0000,!Effect,Mitarai, aconteceu alguma coisa?
+Dialogue: Marked=0,0:15:12.06,0:15:16.16,*Default,NTP,0000,0000,0000,!Effect,Pode parecer estranho eu falar isso,\Nmas você parece mais feliz agora.
+Dialogue: Marked=0,0:15:16.69,0:15:20.12,*Default,NTP,0000,0000,0000,!Effect,Muita coisa aconteceu e tudo isso\Nme causou uma grande angústia.
+Dialogue: Marked=0,0:15:20.76,0:15:23.34,Narrador,NTP,0000,0000,0000,!Effect,Mitarai Kiyoshi.\NIdade: 14. Tipo sangüíneo: A.
+Dialogue: Marked=0,0:15:23.45,0:15:27.07,Narrador,NTP,0000,0000,0000,!Effect,Nascido dia 10 de fevereiro, vive em\Nfamília com os pais e uma irmã.
+Dialogue: Marked=0,0:15:27.45,0:15:29.72,Narrador,NTP,0000,0000,0000,!Effect,Mais tarde, ele seria aceito\Nna escola que escolheu.
+Dialogue: Marked=0,0:15:32.73,0:15:35.29,*Default,NTP,0000,0000,0000,!Effect,Genkai-san, é aqui que nos despedimos.
+Dialogue: Marked=0,0:15:35.40,0:15:36.18,*Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:15:36.40,0:15:41.14,*Default,NTP,0000,0000,0000,!Effect,M-Me desculpe, eu não pude ser de\Ngrande ajuda quando a coisa ficou feia.
+Dialogue: Marked=0,0:15:41.49,0:15:44.11,*Default,NTP,0000,0000,0000,!Effect,Vocês três foram de grande ajuda.
+Dialogue: Marked=0,0:15:45.88,0:15:50.03,*Default,NTP,0000,0000,0000,!Effect,Graças a vocês, o Yusuke\Ne os outros se motivaram.
+Dialogue: Marked=0,0:15:50.30,0:15:53.99,*Default,NTP,0000,0000,0000,!Effect,Baa-san, como você pode falar isso?!\NEu sempre levo as coisas a sério.
+Dialogue: Marked=0,0:15:54.75,0:15:56.57,*Default,NTP,0000,0000,0000,!Effect,Quando foi que você levou\Nalguma coisa a sério?
+Dialogue: Marked=0,0:15:56.65,0:15:58.87,*Default,NTP,0000,0000,0000,!Effect,Quantas vezes você acha que eu\Npensei que iria morrer lá?!
+Dialogue: Marked=0,0:15:59.01,0:16:00.75,*Default,NTP,0000,0000,0000,!Effect,Você está me machucando! Estou morrendo!
+Dialogue: Marked=0,0:16:01.75,0:16:04.21,*Default,NTP,0000,0000,0000,!Effect,Maldito!\NQuer se acalmar um pouco?!
+Dialogue: Marked=0,0:16:04.76,0:16:06.53,*Default,NTP,0000,0000,0000,!Effect,Ei! Pare! Pare!
+Dialogue: Marked=0,0:16:06.76,0:16:08.43,*Default,NTP,0000,0000,0000,!Effect,Yanagisawa, Kaito, Kido!
+Dialogue: Marked=0,0:16:08.59,0:16:09.18,*Default,NTP,0000,0000,0000,!Effect,Sim?
+Dialogue: Marked=0,0:16:09.73,0:16:14.61,*Default,NTP,0000,0000,0000,!Effect,Parem de usar as habilidades\Nque vocês possuem.
+Dialogue: Marked=0,0:16:14.99,0:16:17.54,*Default,NTP,0000,0000,0000,!Effect,Quanto mais vocês as usam,\Nmais vocês se separam...
+Dialogue: Marked=0,0:16:17.54,0:16:19.27,*Default,NTP,0000,0000,0000,!Effect,das pessoas normais.
+Dialogue: Marked=0,0:16:19.77,0:16:21.23,*Default,NTP,0000,0000,0000,!Effect,Certo, tomem cuidado.
+Dialogue: Marked=0,0:16:21.44,0:16:24.02,*Default,NTP,0000,0000,0000,!Effect,Certo. Muito obrigado.
+Dialogue: Marked=0,0:16:26.59,0:16:30.35,Narrador,NTP,0000,0000,0000,!Effect,Kido Asato. Tem a habilidade de\Nimpedir os movimentos do oponente...
+Dialogue: Marked=0,0:16:30.35,0:16:32.44,Narrador,NTP,0000,0000,0000,!Effect,pisando sobre a sombra dele.
+Dialogue: Marked=0,0:16:33.18,0:16:36.21,Narrador,NTP,0000,0000,0000,!Effect,Yanagisawa Mitsunari. Tem a habilidade\Nde copiar a forma do oponente.
+Dialogue: Marked=0,0:16:36.29,0:16:41.66,Narrador,NTP,0000,0000,0000,!Effect,Voz, impressões digitais e até\Nmesmo sua memória e personalidade.
+Dialogue: Marked=0,0:16:42.40,0:16:45.09,Narrador,NTP,0000,0000,0000,!Effect,Kaito Yu. Tem a habilidade de\Nremover a alma de alguém...
+Dialogue: Marked=0,0:16:45.16,0:16:49.07,Narrador,NTP,0000,0000,0000,!Effect,se uma palavra proibida for\Ndita dentro de seu território,
+Dialogue: Marked=0,0:16:49.07,0:16:51.64,Narrador,NTP,0000,0000,0000,!Effect,e também pode impedir\Nqualquer ação hostil.
+Dialogue: Marked=0,0:16:52.96,0:16:54.80,*Default,NTP,0000,0000,0000,!Effect,Venham nos visitar um dia desses!
+Dialogue: Marked=0,0:16:55.29,0:16:56.05,*Default,NTP,0000,0000,0000,!Effect,Até mais!
+Dialogue: Marked=0,0:16:56.62,0:16:58.95,Narrador,NTP,0000,0000,0000,!Effect,Eles três voltaram à escola...
+Dialogue: Marked=0,0:16:59.33,0:17:01.75,Narrador,NTP,0000,0000,0000,!Effect,E, desde então, têm\Nobedecido ao conselho de Genkai...
+Dialogue: Marked=0,0:17:01.81,0:17:04.85,Narrador,NTP,0000,0000,0000,!Effect,de nunca mais usarem as habilidades.
+Dialogue: Marked=0,0:17:05.18,0:17:07.48,Narrador,NTP,0000,0000,0000,!Effect,Mais tarde, eles se\Ngraduariam sem problemas.
+Dialogue: Marked=0,0:17:21.10,0:17:23.30,*Default,NTP,0000,0000,0000,!Effect,Por que você trouxe junto?
+Dialogue: Marked=0,0:17:24.44,0:17:26.88,*Default,NTP,0000,0000,0000,!Effect,O Koenma disse que era melhor.
+Dialogue: Marked=0,0:17:28.28,0:17:29.88,*Default,NTP,0000,0000,0000,!Effect,Essa é a fita dos Capítulos Negros?
+Dialogue: Marked=0,0:17:32.38,0:17:35.24,*Default,NTP,0000,0000,0000,!Effect,Uma gravação de crimes mostrando\No lado mais obscuro da humanidade.
+Dialogue: Marked=0,0:17:36.29,0:17:38.76,*Default,NTP,0000,0000,0000,!Effect,De todos os pecados que a\Nhumanidade cometeu,
+Dialogue: Marked=0,0:17:39.35,0:17:41.20,*Default,NTP,0000,0000,0000,!Effect,estes são os mais brutais\Ne cruéis entre eles,
+Dialogue: Marked=0,0:17:41.39,0:17:43.71,*Default,NTP,0000,0000,0000,!Effect,arquivados em inúmeras horas de duração.
+Dialogue: Marked=0,0:17:45.39,0:17:48.44,*Default,NTP,0000,0000,0000,!Effect,Eu gostaria de devolvê-la ao\NSalão de Materiais do Reikai.
+Dialogue: Marked=0,0:17:48.73,0:17:51.82,*Default,NTP,0000,0000,0000,!Effect,Eu ia fazer isso, mas, Hiei,\Nse você quer mesmo voltar ao Makai,
+Dialogue: Marked=0,0:17:52.10,0:17:53.57,*Default,NTP,0000,0000,0000,!Effect,pode negociá-la com eles.
+Dialogue: Marked=0,0:18:05.54,0:18:07.42,*Default,NTP,0000,0000,0000,!Effect,Esse material não tem valor...
+Dialogue: Marked=0,0:18:15.65,0:18:17.21,*Default,NTP,0000,0000,0000,!Effect,Silêncio...
+Dialogue: Marked=0,0:18:19.09,0:18:20.83,*Default,NTP,0000,0000,0000,!Effect,Como está silencioso...
+Dialogue: Marked=0,0:18:22.61,0:18:30.06,*Default,NTP,0000,0000,0000,!Effect,Diga, Shinobu, quando você era o Shinobu,\Nvocê sentia dores inimagináveis.
+Dialogue: Marked=0,0:18:31.04,0:18:35.03,*Default,NTP,0000,0000,0000,!Effect,E, mesmo assim, você\Nnunca demonstrou isso.
+Dialogue: Marked=0,0:18:36.71,0:18:39.29,*Default,NTP,0000,0000,0000,!Effect,Eu estou um pouco angustiado com aquilo.
+Dialogue: Marked=0,0:18:43.65,0:18:44.95,*Default,NTP,0000,0000,0000,!Effect,E agora, você não falará nada.
+Dialogue: Marked=0,0:18:45.50,0:18:49.45,*Default,NTP,0000,0000,0000,!Effect,Shinobu, você continuará\Ndormindo em paz dessa maneira.
+Dialogue: Marked=0,0:18:50.39,0:18:53.61,*Default,NTP,0000,0000,0000,!Effect,Ninguém irá nos perturbar novamente.
+Dialogue: Marked=0,0:18:54.39,0:19:06.04,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Reikai Tantei: Detetive do Mundo Espiritual
+Dialogue: Marked=0,0:18:54.39,0:18:57.05,Narrador,NTP,0000,0000,0000,!Effect,Sensui Shinobu: antigo Reikai Tantei.
+Dialogue: Marked=0,0:18:57.05,0:19:00.82,Narrador,NTP,0000,0000,0000,!Effect,Idade: 26. Tipo sangüíneo: A.\NNascido dia 6 de junho.
+Dialogue: Marked=0,0:19:01.45,0:19:06.04,Narrador,NTP,0000,0000,0000,!Effect,Itsuki. Idade, data de nascimento\Ne tudo mais: desconhecidos.
+Dialogue: Marked=0,0:19:06.88,0:19:11.27,Narrador,NTP,0000,0000,0000,!Effect,Depois, ninguém sabe\No que aconteceu com os dois.
+Dialogue: Marked=0,0:19:19.63,0:19:21.33,*Default,NTP,0000,0000,0000,!Effect,O que foi que o Koenma-sama disse?
+Dialogue: Marked=0,0:19:21.75,0:19:23.99,*Default,NTP,0000,0000,0000,!Effect,Ele disse que não planeja\Nvoltar ao Reikai.
+Dialogue: Marked=0,0:19:24.76,0:19:28.96,*Default,NTP,0000,0000,0000,!Effect,É verdade que o Koenma-sama foi contra\Nas leis do Reikai. Mas, mesmo assim...
+Dialogue: Marked=0,0:19:29.62,0:19:32.06,*Default,NTP,0000,0000,0000,!Effect,Também é verdade que o crédito\Npor terem selado o túnel...
+Dialogue: Marked=0,0:19:32.13,0:19:34.88,*Default,NTP,0000,0000,0000,!Effect,deveria ser do Koenma-sama.
+Dialogue: Marked=0,0:19:35.58,0:19:36.88,*Default,NTP,0000,0000,0000,!Effect,Enma-Daio-sama!
+Dialogue: Marked=0,0:19:37.37,0:19:40.09,*Default,NTP,0000,0000,0000,!Effect,O Koenma me desafiou.
+Dialogue: Marked=0,0:19:42.02,0:19:46.84,*Default,NTP,0000,0000,0000,!Effect,Eu pensei que ele fosse uma criança.\NQuando foi que ele cresceu?
+Dialogue: Marked=0,0:19:50.21,0:19:52.61,*Default,NTP,0000,0000,0000,!Effect,Depois eu irei informá-lo\Nsobre o castigo do Koenma.
+Dialogue: Marked=0,0:19:52.72,0:19:53.55,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:20:04.06,0:20:05.95,*Default,NTP,0000,0000,0000,!Effect,Por favor!
+Dialogue: Marked=0,0:20:07.62,0:20:10.50,*Default,NTP,0000,0000,0000,!Effect,Ei! Ei, Keiko-chan,\Nvocê viu o Urameshi?
+Dialogue: Marked=0,0:20:11.07,0:20:13.21,*Default,NTP,0000,0000,0000,!Effect,Eu não sei onde ele está.\NAlgum problema?
+Dialogue: Marked=0,0:20:13.41,0:20:17.85,*Default,NTP,0000,0000,0000,!Effect,Bem, eu esqueci que tinha emprestado a ele meu livro de matemática...
+Dialogue: Marked=0,0:20:17.85,0:20:18.92,*Default,NTP,0000,0000,0000,!Effect,Que é minha próxima aula.
+Dialogue: Marked=0,0:20:19.41,0:20:21.00,*Default,NTP,0000,0000,0000,!Effect,Vejamos...
+Dialogue: Marked=0,0:20:21.87,0:20:26.14,*Default,NTP,0000,0000,0000,!Effect,Já procurou no telhado? Ele normalmente\Nmata aula e tira um cochilo por lá.
+Dialogue: Marked=0,0:20:26.57,0:20:31.10,*Default,NTP,0000,0000,0000,!Effect,Agora que você falou, eu não olhei\Nno telhado! Voltarei num instante!
+Dialogue: Marked=0,0:20:36.92,0:20:38.38,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:20:41.93,0:20:43.78,*Default,NTP,0000,0000,0000,!Effect,Droga, ele não está aqui também.
+Dialogue: Marked=0,0:20:43.85,0:20:47.19,*Default,NTP,0000,0000,0000,!Effect,Para onde aquele desgraçado\Npoderia ter ido?
+Dialogue: Marked=0,0:20:47.54,0:20:50.12,*Default,NTP,0000,0000,0000,!Effect,Acho que terei que pedir emprestado\Npara a Keiko-chan ou algo assim.
+Dialogue: Marked=0,0:20:52.38,0:20:55.03,P!,NTP,0000,0000,0000,!Effect,{\fad(0,300)}A vida comum é muito chata.
+Dialogue: Marked=0,0:20:55.72,0:20:59.00,P!,NTP,0000,0000,0000,!Effect,Todos parecem ter começado vidas novas.
+Dialogue: Marked=0,0:21:01.05,0:21:03.25,P!,NTP,0000,0000,0000,!Effect,Mas, eu saí perdendo.
+Dialogue: Marked=0,0:21:07.88,0:21:09.38,L!,NTP,0000,0000,0000,!Effect,Morra!
+Dialogue: Marked=0,0:21:19.34,0:21:20.82,L!,NTP,0000,0000,0000,!Effect,Sensui! Saia do caminho!
+Dialogue: Marked=0,0:21:22.37,0:21:25.74,P!,NTP,0000,0000,0000,!Effect,Isso mesmo! Ainda há aquele\Ncara que me controlou...
+Dialogue: Marked=0,0:21:27.08,0:21:30.24,P!,NTP,0000,0000,0000,!Effect,Aquela não era a luta dele.
+Dialogue: Marked=0,0:21:30.90,0:21:33.76,P!,NTP,0000,0000,0000,!Effect,E aquilo não está certo...
+
+Dialogue: Marked=0,0:21:47.59,0:21:50.93,Conversa,NTP,0000,0000,0000,!Effect,Desista! Quando alguém\Ncomo você fica aborrecido,
+Dialogue: Marked=0,0:21:50.93,0:21:52.91,Conversa,NTP,0000,0000,0000,!Effect,o melhor a fazer\Né pensar superficialmente.
+Dialogue: Marked=0,0:21:53.01,0:21:57.06,Conversa,NTP,0000,0000,0000,!Effect,Quanto mais você pensa,\Nmais você se atola na lama.
+Dialogue: Marked=0,0:21:57.41,0:22:00.11,Conversa,NTP,0000,0000,0000,!Effect,Que tal isso? Por que você\Nnão vai ver alguém para desabafar?
+Dialogue: Marked=0,0:22:00.30,0:22:04.48,Conversa,NTP,0000,0000,0000,!Effect,Sanada Kuroko, o primeiro Reikai Tantei.
+Dialogue: Marked=0,0:22:04.78,0:22:08.20,Conversa,NTP,0000,0000,0000,!Effect,Próximo Episódio: \N"O Destino de Yusuke. Passos Perigosos."
+Dialogue: Marked=0,0:22:08.45,0:22:11.48,Conversa,NTP,0000,0000,0000,!Effect,Conheça a si mesmo!\NE então, supere-se, Yusuke!

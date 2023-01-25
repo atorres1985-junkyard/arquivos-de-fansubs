@@ -1,0 +1,272 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:59.65,0:02:06.26,Narrador,,0000,0000,0000,,As injustiças que o andróide Cell,\No qual fez Goku de vítima,
+Dialogue: Marked=0,0:02:06.26,0:02:09.78,Narrador,,0000,0000,0000,,estava causando chegaram\Na um fim pelas mãos de Gohan.
+Dialogue: Marked=0,0:02:14.54,0:02:17.76,Narrador,,0000,0000,0000,,A paz voltou para a Terra.
+Dialogue: Marked=0,0:02:31.55,0:02:34.25,Narrador,,0000,0000,0000,,E Goku...
+Dialogue: Marked=0,0:02:45.29,0:02:49.91,Narrador,,0000,0000,0000,,Estava vivendo bem e\Npensando em artes marciais.
+Dialogue: Marked=0,0:03:19.02,0:03:21.67,*Default,,0000,0000,0000,,Não tenho energia para construir de novo...
+
+Dialogue: Marked=0,0:03:38.67,0:03:46.61,apresDBZ2,,0000,0000,0000,,{\c&HD8DFDB\pos(675,70)\shad1\fad(300,0)\fscx100\fscy100}episódio 195
+Dialogue: Marked=0,0:03:38.67,0:03:46.61,apresDBZ2,,0000,0000,0000,,{\c&HD8DFDB\pos(210,180)\shad1\fad(300,0)\fscx105\fscy105}Grande emoção{\i1}!!
+Dialogue: Marked=0,0:03:38.67,0:03:46.61,apresDBZ2,,0000,0000,0000,,{\c&HD8DFDB\pos(400,500)\shad1\fad(300,0)\fscx120\fscy120}Achei{\i1}!{\i0}  O cara incrível no outro mundo
+
+Dialogue: Marked=0,0:03:52.91,0:03:56.65,*Default,,0000,0000,0000,,Ei, ei, pare, Goku! Ei!
+Dialogue: Marked=0,0:03:56.90,0:04:00.26,*Default,,0000,0000,0000,,É perigoso, pare! Ei!
+Dialogue: Marked=0,0:04:14.42,0:04:22.21,N!,,0000,0000,0000,,{\fad(300,300)}Hebi no Michi = Caminho da Serpente
+Dialogue: Marked=0,0:04:14.42,0:04:18.56,*Default,,0000,0000,0000,,O Hebi no Michi continua grande como sempre.
+Dialogue: Marked=0,0:04:18.56,0:04:22.21,*Default,,0000,0000,0000,,Não pode ir um pouco mais rápido, Kaio-sama?
+Dialogue: Marked=0,0:04:22.21,0:04:25.72,*Default,,0000,0000,0000,,Goku, você tem pressa para tudo.
+Dialogue: Marked=0,0:04:25.72,0:04:30.10,*Default,,0000,0000,0000,,Nós estamos mortos, temos tempo de sobra.
+Dialogue: Marked=0,0:04:30.65,0:04:34.21,*Default,,0000,0000,0000,,Mas eu quero me encontrar logo com\Nos mestres de artes marciais do outro mundo!
+Dialogue: Marked=0,0:04:34.21,0:04:37.32,*Default,,0000,0000,0000,,Quero ver como são fortes e lutar contra eles!
+Dialogue: Marked=0,0:04:37.32,0:04:39.63,*Default,,0000,0000,0000,,Você fala assim...
+Dialogue: Marked=0,0:04:39.63,0:04:43.53,*Default,,0000,0000,0000,,Se subestimar os mestres de artes\Nmarciais do outro mundo, vai se arrepender.
+Dialogue: Marked=0,0:04:44.06,0:04:47.20,*Default,,0000,0000,0000,,Esses caras, os mestres de artes marciais\Ndo outro mundo, são tão fortes assim?
+Dialogue: Marked=0,0:04:47.61,0:04:52.04,*Default,,0000,0000,0000,,Ei! Não os chame de "caras"!
+Dialogue: Marked=0,0:04:53.07,0:04:58.60,*Default,,0000,0000,0000,,Um deles é a pessoa mais importante\Ndo outro mundo! É o Dai Kaio-sama!
+Dialogue: Marked=0,0:04:59.22,0:05:01.21,*Default,,0000,0000,0000,,Dai Kaio-sama?
+Dialogue: Marked=0,0:05:04.55,0:05:06.40,*Default,,0000,0000,0000,,Dai Kaio-sama.
+Dialogue: Marked=0,0:05:14.40,0:05:20.53,*Default,,0000,0000,0000,,Ele está no topo da galáxia e\Ncontrola norte, sul, leste e oeste.
+Dialogue: Marked=0,0:05:20.53,0:05:25.09,*Default,,0000,0000,0000,,Ele é o mais importante e\Nmais forte do outro mundo.
+Dialogue: Marked=0,0:05:29.27,0:05:32.45,*Default,,0000,0000,0000,,Além disso, o Dai Kaio-sama\Ngosta de artes marciais.
+Dialogue: Marked=0,0:05:33.13,0:05:38.06,*Default,,0000,0000,0000,,Outros praticantes de artes marciais que,\Ncomo você, receberam um corpo especial,
+Dialogue: Marked=0,0:05:38.06,0:05:40.46,*Default,,0000,0000,0000,,treinam todo dia no planeta Kaio.
+Dialogue: Marked=0,0:05:41.24,0:05:46.47,*Default,,0000,0000,0000,,Agora eu quero mais ainda\Nme encontrar com esse Dai Kaio.
+Dialogue: Marked=0,0:06:01.58,0:06:03.82,*Default,,0000,0000,0000,,Posso voar...
+Dialogue: Marked=0,0:06:10.46,0:06:15.74,*Default,,0000,0000,0000,,Ah, não! Eu não perguntei\Ncomo se chega no Dai Kaiosei...
+Dialogue: Marked=0,0:06:15.74,0:06:18.87,*Default,,0000,0000,0000,,Para ir para o Dai Kaiosei, precisa ir de avião.
+Dialogue: Marked=0,0:06:18.91,0:06:21.04,*Default,,0000,0000,0000,,De avião? Valeu.
+Dialogue: Marked=0,0:06:26.92,0:06:31.47,*Default,,0000,0000,0000,,Ele não tem jeito mesmo.\NVai voltar de novo daqui a pouco.
+Dialogue: Marked=0,0:06:34.11,0:06:35.31,*Default,,0000,0000,0000,, Pronto, já veio.
+Dialogue: Marked=0,0:06:39.14,0:06:41.69,*Default,,0000,0000,0000,,E onde está esse avião?
+Dialogue: Marked=0,0:06:41.69,0:06:47.40,N!,,0000,0000,0000,,{\fad(300,300)}Tengoku = Céu
+Dialogue: Marked=0,0:06:41.69,0:06:45.74,*Default,,0000,0000,0000,,O aeroporto do Tengoku fica\Nao lado da cidade de Enma-Daio.
+Dialogue: Marked=0,0:06:45.74,0:06:47.40,*Default,,0000,0000,0000,,Certo, entendi. Já vou.
+Dialogue: Marked=0,0:06:51.52,0:06:56.79,*Default,,0000,0000,0000,,Será que ele vai voltar de novo?\NQuero que ele volte.
+Dialogue: Marked=0,0:07:01.75,0:07:03.38,*Default,,0000,0000,0000,,Ele veio, ele veio!
+Dialogue: Marked=0,0:07:11.93,0:07:14.95,*Default,,0000,0000,0000,,Ir para onde o Enma-Daio\Nestá é mais rápido assim.
+Dialogue: Marked=0,0:07:17.50,0:07:18.52,*Default,,0000,0000,0000,,Goku, não!
+Dialogue: Marked=0,0:07:33.41,0:07:38.47,*Default,,0000,0000,0000,,Não empurrem. Fiquem na fila.
+Dialogue: Marked=0,0:07:40.75,0:07:42.42,*Default,,0000,0000,0000,,Para o céu.
+Dialogue: Marked=0,0:07:42.84,0:07:48.58,*Default,,0000,0000,0000,,Oba, oba, para o céu! Oba, oba, consegui!
+Dialogue: Marked=0,0:07:49.27,0:07:50.22,*Default,,0000,0000,0000,,Certo...
+Dialogue: Marked=0,0:07:50.73,0:07:52.60,*Default,,0000,0000,0000,,O próximo.
+Dialogue: Marked=0,0:07:55.37,0:07:56.35,*Default,,0000,0000,0000,,Oi!
+Dialogue: Marked=0,0:07:56.35,0:07:59.56,*Default,,0000,0000,0000,,Vejam só, é Son Goku.
+Dialogue: Marked=0,0:07:59.93,0:08:01.74,*Default,,0000,0000,0000,,Morreu de novo?
+Dialogue: Marked=0,0:08:01.74,0:08:03.98,*Default,,0000,0000,0000,,E o Kaio-sama também?
+Dialogue: Marked=0,0:08:04.78,0:08:07.57,*Default,,0000,0000,0000,,Aconteceu muita coisa...
+Dialogue: Marked=0,0:08:08.07,0:08:11.23,*Default,,0000,0000,0000,,Enma-Daio, já vou indo.
+Dialogue: Marked=0,0:08:11.23,0:08:13.45,*Default,,0000,0000,0000,,Ei, tome um chá pelo menos.
+Dialogue: Marked=0,0:08:14.30,0:08:16.99,*Default,,0000,0000,0000,,Ei, espere um pouco. Não pode furar fila.
+Dialogue: Marked=0,0:08:17.70,0:08:20.10,*Default,,0000,0000,0000,,Fique na fila para ser julgado.
+Dialogue: Marked=0,0:08:29.28,0:08:31.01,*Default,,0000,0000,0000,,Você tem corpo.
+Dialogue: Marked=0,0:08:33.35,0:08:37.01,*Default,,0000,0000,0000,,Então você tem passe livre, não é?\NE a primeira vez que vejo alguém assim.
+Dialogue: Marked=0,0:08:38.04,0:08:39.64,*Default,,0000,0000,0000,,Estou muito emocionado!
+Dialogue: Marked=0,0:08:41.68,0:08:43.08,*Default,,0000,0000,0000,,Por favor.
+Dialogue: Marked=0,0:08:44.35,0:08:45.35,*Default,,0000,0000,0000,,Obrigado...
+Dialogue: Marked=0,0:08:45.77,0:08:50.11,*Default,,0000,0000,0000,,Ele é muito apressado. Ele tem problema.
+Dialogue: Marked=0,0:08:51.22,0:08:52.43,*Default,,0000,0000,0000,,Até, Enma.
+Dialogue: Marked=0,0:08:53.37,0:08:54.69,*Default,,0000,0000,0000,,Cuide-se.
+Dialogue: Marked=0,0:09:02.78,0:09:06.12,*Default,,0000,0000,0000,,Ele usava artes marciais pela justiça,
+Dialogue: Marked=0,0:09:06.12,0:09:09.29,*Default,,0000,0000,0000,,então também pode treinar\Ncom o corpo no outro mundo.
+Dialogue: Marked=0,0:09:09.85,0:09:13.53,*Default,,0000,0000,0000,,Goku salvou a Terra?
+Dialogue: Marked=0,0:09:13.53,0:09:14.80,*Default,,0000,0000,0000,,Entendi...
+Dialogue: Marked=0,0:09:23.76,0:09:30.44,*Default,,0000,0000,0000,,As almas do Grupo A que\Nvão para o céu: por favor, me sigam.
+Dialogue: Marked=0,0:09:30.97,0:09:33.44,*Default,,0000,0000,0000,,Não saiam da fila.
+Dialogue: Marked=0,0:09:33.88,0:09:38.74,*Default,,0000,0000,0000,,Sigam as almas que estão\Nna sua frente para não se perder.
+Dialogue: Marked=0,0:09:38.74,0:09:40.45,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:09:52.15,0:09:56.13,*Default,,0000,0000,0000,,Por que só o nosso avião é uma tralha dessas?
+Dialogue: Marked=0,0:09:57.48,0:10:01.10,*Default,,0000,0000,0000,,Eu queria andar em um avião grande daqueles.
+Dialogue: Marked=0,0:10:06.00,0:10:09.77,*Default,,0000,0000,0000,,Esse é o Tengoku? É imenso!
+Dialogue: Marked=0,0:10:10.14,0:10:12.67,*Default,,0000,0000,0000,,Já vamos chegar, Goku.
+Dialogue: Marked=0,0:10:12.67,0:10:14.05,*Default,,0000,0000,0000,,Onde? Onde? Onde?
+Dialogue: Marked=0,0:10:15.10,0:10:17.00,*Default,,0000,0000,0000,,Olhe, é lá.
+Dialogue: Marked=0,0:10:17.00,0:10:18.00,*Default,,0000,0000,0000,,Onde?
+Dialogue: Marked=0,0:10:19.12,0:10:21.10,*Default,,0000,0000,0000,,Aquele é o Dai Kaiosei.
+Dialogue: Marked=0,0:10:22.58,0:10:26.29,*Default,,0000,0000,0000,,O quê? É menor do que pensei.
+Dialogue: Marked=0,0:10:27.23,0:10:28.62,*Default,,0000,0000,0000,,Ei? O que você disse?
+Dialogue: Marked=0,0:10:28.62,0:10:33.05,*Default,,0000,0000,0000,,Desculpe, desculpe.\NÉ muito maior que o seu planeta, Kaio-sama.
+Dialogue: Marked=0,0:10:35.52,0:10:37.47,*Default,,0000,0000,0000,,Isso é muito indelicado.
+Dialogue: Marked=0,0:10:54.88,0:10:59.62,*Default,,0000,0000,0000,,Incrível!\NQuem treina direto só poderia ser assim.
+Dialogue: Marked=0,0:11:03.34,0:11:07.04,*Default,,0000,0000,0000,,Kaio-sama! Quanto tempo!
+Dialogue: Marked=0,0:11:07.04,0:11:08.12,*Default,,0000,0000,0000,,Há muito tempo que não nos vemos.
+Dialogue: Marked=0,0:11:08.63,0:11:10.69,*Default,,0000,0000,0000,,Ah, vocês estão dando duro.
+Dialogue: Marked=0,0:11:10.69,0:11:11.93,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:11:11.93,0:11:16.37,*Default,,0000,0000,0000,,Kaio-sama, você é muito\Nfamoso no outro mundo, não é?
+Dialogue: Marked=0,0:11:16.37,0:11:18.84,*Default,,0000,0000,0000,,Ele veio da galáxia do norte.
+Dialogue: Marked=0,0:11:19.72,0:11:21.13,*Default,,0000,0000,0000,,Igual a mim?
+Dialogue: Marked=0,0:11:21.59,0:11:26.19,*Default,,0000,0000,0000,,Mas ele chegou aqui 2300 anos antes de você.
+Dialogue: Marked=0,0:11:28.46,0:11:30.64,*Default,,0000,0000,0000,,Nossa, 2300 anos...
+Dialogue: Marked=0,0:11:30.84,0:11:33.44,*Default,,0000,0000,0000,,Ahn? 2300 anos?
+Dialogue: Marked=0,0:11:34.19,0:11:37.69,*Default,,0000,0000,0000,,Ele ficou treinando esse tempo todo?
+Dialogue: Marked=0,0:11:43.41,0:11:45.25,*Default,,0000,0000,0000,,400.001.303.
+
+Dialogue: Marked=0,0:11:49.12,0:11:53.34,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:49.12,0:11:53.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:49.12,0:11:53.34,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:49.12,0:11:53.34,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:56.13,0:11:58.35,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:56.13,0:11:58.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:56.13,0:11:58.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:56.13,0:11:58.35,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:04.67,0:12:08.85,*Default,,0000,0000,0000,,Aqui é onde o Dai Kaio-sama mora.
+Dialogue: Marked=0,0:12:11.84,0:12:16.30,*Default,,0000,0000,0000,,Já vou me encontrar com o Dai Kaio,\No mais forte do outro mundo...
+Dialogue: Marked=0,0:12:16.30,0:12:21.45,*Default,,0000,0000,0000,,Use "sama" quando falar sobre Dai Kaio-sama!\NVai ser repreendido se continuar falando assim!
+Dialogue: Marked=0,0:12:22.17,0:12:24.91,*Default,,0000,0000,0000,,Dai Kaio é tão forte assim?
+Dialogue: Marked=0,0:12:25.07,0:12:26.16,*Default,,0000,0000,0000,,Sama!
+Dialogue: Marked=0,0:12:26.62,0:12:28.16,*Default,,0000,0000,0000,,Sama?
+Dialogue: Marked=0,0:12:28.67,0:12:35.67,*Default,,0000,0000,0000,,Para falar a verdade,\Neu ainda não vi o Dai Kaio-sama lutar.
+Dialogue: Marked=0,0:12:37.62,0:12:45.68,*Default,,0000,0000,0000,,Mas ele é tão incrível e aterrorizante que não deve dar para descrever sua força com palavras.
+Dialogue: Marked=0,0:12:52.16,0:12:55.50,*Default,,0000,0000,0000,,Eu queria um carro desses!
+Dialogue: Marked=0,0:12:55.50,0:13:00.40,*Default,,0000,0000,0000,,Dai Kaio-sama, que bom!\NEu também quero um desses!
+Dialogue: Marked=0,0:13:01.04,0:13:06.34,*Default,,0000,0000,0000,,Este carro é sexy.\NÉ o melhor, é o melhor.
+Dialogue: Marked=0,0:13:07.65,0:13:11.35,*Default,,0000,0000,0000,,Kaio-sama, vamos logo.
+Dialogue: Marked=0,0:13:11.35,0:13:12.91,*Default,,0000,0000,0000,,Você...
+Dialogue: Marked=0,0:13:14.05,0:13:15.42,*Default,,0000,0000,0000,,O que é?
+Dialogue: Marked=0,0:13:22.21,0:13:25.51,N!,,0000,0000,0000,,{\fad(300,300)}Nishi no Kaio = Kaio do Oeste
+Dialogue: Marked=0,0:13:22.21,0:13:23.51,*Default,,0000,0000,0000,,Nishi no Kaio.
+Dialogue: Marked=0,0:13:31.23,0:13:32.02,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:13:40.88,0:13:42.93,*Default,,0000,0000,0000,,O que aconteceu?
+Dialogue: Marked=0,0:13:42.93,0:13:45.61,*Default,,0000,0000,0000,,O quê? O quê? O quê? O que é isso?
+Dialogue: Marked=0,0:13:46.06,0:13:47.74,*Default,,0000,0000,0000,,Por que você está aqui?
+Dialogue: Marked=0,0:13:48.82,0:13:49.91,*Default,,0000,0000,0000,,E você?
+Dialogue: Marked=0,0:13:51.74,0:13:55.66,*Default,,0000,0000,0000,,Já tinha muito tempo que\Nnão via Paikuhan. Vim vê-lo.
+Dialogue: Marked=0,0:13:55.97,0:13:59.92,*Default,,0000,0000,0000,,Paikuhan é o melhor lutador de\Nartes marciais da galáxia do oeste.
+Dialogue: Marked=0,0:14:08.23,0:14:09.27,*Default,,0000,0000,0000,,O que é?
+Dialogue: Marked=0,0:14:14.26,0:14:16.39,*Default,,0000,0000,0000,,O que é?
+Dialogue: Marked=0,0:14:26.71,0:14:27.57,*Default,,0000,0000,0000,,Você morreu?
+Dialogue: Marked=0,0:14:29.67,0:14:30.57,*Default,,0000,0000,0000,,Isto é...
+Dialogue: Marked=0,0:14:30.92,0:14:33.11,*Default,,0000,0000,0000,,É um Kaio e mesmo assim morreu...
+Dialogue: Marked=0,0:14:33.92,0:14:37.58,*Default,,0000,0000,0000,,Isto me faz rir muito mais\Ndo que suas piadas inúteis!
+Dialogue: Marked=0,0:14:37.98,0:14:41.00,*Default,,0000,0000,0000,,O que são piadas inúteis? O que são?
+Dialogue: Marked=0,0:14:41.92,0:14:44.60,*Default,,0000,0000,0000,,Aconteceu muita coisa.
+Dialogue: Marked=0,0:14:45.59,0:14:48.26,*Default,,0000,0000,0000,,O Kaio-sama ter morrido é minha culpa.
+Dialogue: Marked=0,0:14:49.44,0:14:51.05,*Default,,0000,0000,0000,,Quem é esse jovem?
+Dialogue: Marked=0,0:14:51.94,0:14:54.33,*Default,,0000,0000,0000,,Eu? Sou Son Goku.
+Dialogue: Marked=0,0:14:54.33,0:15:01.56,*Default,,0000,0000,0000,,Goku é um lutador inacreditavelmente\Nforte que salvou a Terra lutando pela justiça.
+Dialogue: Marked=0,0:15:01.84,0:15:04.57,*Default,,0000,0000,0000,,O quê? Inacreditavelmente forte?
+Dialogue: Marked=0,0:15:05.52,0:15:08.79,*Default,,0000,0000,0000,,Mas não é como o Paikuhan.
+Dialogue: Marked=0,0:15:08.79,0:15:09.82,*Default,,0000,0000,0000,,Não.
+Dialogue: Marked=0,0:15:10.13,0:15:12.58,*Default,,0000,0000,0000,,Goku é mais forte.
+Dialogue: Marked=0,0:15:12.58,0:15:17.66,*Default,,0000,0000,0000,,Não pode ser.\NNão, é lógico que Paikuhan é mais forte.
+Dialogue: Marked=0,0:15:17.95,0:15:19.96,*Default,,0000,0000,0000,,Não. É claro que é o Goku.
+Dialogue: Marked=0,0:15:20.90,0:15:23.61,*Default,,0000,0000,0000,,É claro, é claro que é o Paikuhan!
+Dialogue: Marked=0,0:15:23.61,0:15:25.45,*Default,,0000,0000,0000,,Você não entende!
+Dialogue: Marked=0,0:15:25.45,0:15:26.88,*Default,,0000,0000,0000,,Quem não entende é você!
+Dialogue: Marked=0,0:15:26.88,0:15:28.43,*Default,,0000,0000,0000,,Então eles vão lutar!
+Dialogue: Marked=0,0:15:30.67,0:15:31.80,*Default,,0000,0000,0000,,Isso que eu queria.
+Dialogue: Marked=0,0:15:38.92,0:15:41.23,*Default,,0000,0000,0000,,Bem, vá, Goku!
+Dialogue: Marked=0,0:15:41.23,0:15:43.19,*Default,,0000,0000,0000,,"Vá"? É para lutar aqui?
+Dialogue: Marked=0,0:15:43.54,0:15:46.47,*Default,,0000,0000,0000,,Paikuhan, acabe com ele.
+Dialogue: Marked=0,0:15:46.47,0:15:48.24,*Default,,0000,0000,0000,,Esperem um pouco...
+Dialogue: Marked=0,0:15:48.42,0:15:50.70,*Default,,0000,0000,0000,,Ah! Essa voz...
+Dialogue: Marked=0,0:15:51.21,0:15:53.74,*Default,,0000,0000,0000,,É o Dai Kaio-sama!
+Dialogue: Marked=0,0:15:54.88,0:15:56.08,*Default,,0000,0000,0000,,Onde?
+Dialogue: Marked=0,0:15:56.08,0:15:58.45,*Default,,0000,0000,0000,,Ei, ei, ei, Goku, fique curvado!
+Dialogue: Marked=0,0:16:18.97,0:16:19.93,*Default,,0000,0000,0000,,Oi!
+Dialogue: Marked=0,0:16:20.48,0:16:23.19,*Default,,0000,0000,0000,,Dai Kaio-sama!
+Dialogue: Marked=0,0:16:34.49,0:16:36.78,P!,,0000,0000,0000,,Ele é o Dai Kaio-sama?
+Dialogue: Marked=0,0:16:46.37,0:16:48.52,*Default,,0000,0000,0000,,Desculpe por interromper, mas...
+Dialogue: Marked=0,0:16:49.22,0:16:52.95,*Default,,0000,0000,0000,,Paikuhan-chan, poderia ir até Kujigo?
+Dialogue: Marked=0,0:16:52.95,0:16:53.73,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:16:54.23,0:16:56.06,*Default,,0000,0000,0000,,O que é Kujigo?
+Dialogue: Marked=0,0:16:56.06,0:17:03.69,N!,,0000,0000,0000,,{\fad(300,300)}Jigoku = Inferno
+Dialogue: Marked=0,0:16:56.06,0:17:00.10,*Default,,0000,0000,0000,,É o inferno.\NColoque o "ku" de "jigoku" na frente.
+Dialogue: Marked=0,0:17:00.40,0:17:03.65,*Default,,0000,0000,0000,,Está tendo alguns problemas no Kujigo.
+Dialogue: Marked=0,0:17:04.35,0:17:05.69,*Default,,0000,0000,0000,,Problemas?
+Dialogue: Marked=0,0:17:06.39,0:17:11.44,*Default,,0000,0000,0000,,Enma-chan mandou um cara chamado\NCell para o inferno há pouco tempo.
+Dialogue: Marked=0,0:17:12.21,0:17:13.15,*Default,,0000,0000,0000,,Cell?
+Dialogue: Marked=0,0:17:15.93,0:17:17.45,L!,,0000,0000,0000,!Effect,Cell, vá para o inferno!
+Dialogue: Marked=0,0:17:24.54,0:17:29.57,*Default,,0000,0000,0000,,Cell e um outro tal de Freeza\Nestão causando vários problemas.
+Dialogue: Marked=0,0:17:29.57,0:17:30.72,*Default,,0000,0000,0000,,Cell...
+Dialogue: Marked=0,0:17:30.72,0:17:31.83,*Default,,0000,0000,0000,,Com Freeza?
+Dialogue: Marked=0,0:17:31.83,0:17:35.55,*Default,,0000,0000,0000,,Por isso, quero que você vá lá cuidar disso.
+Dialogue: Marked=0,0:17:35.55,0:17:36.54,*Default,,0000,0000,0000,,Entendi.
+Dialogue: Marked=0,0:17:38.30,0:17:41.06,*Default,,0000,0000,0000,,Ele não pode fazer isso sozinho! Também vou!
+Dialogue: Marked=0,0:17:41.19,0:17:43.21,*Default,,0000,0000,0000,,Goku, não faça do seu jeito!
+Dialogue: Marked=0,0:17:43.21,0:17:44.43,*Default,,0000,0000,0000,,Não tem problema.
+Dialogue: Marked=0,0:17:44.99,0:17:50.20,N!,,0000,0000,0000,,{\fad(300,300)}Kita no Kaio = Kaio do Norte
+Dialogue: Marked=0,0:17:44.99,0:17:48.20,*Default,,0000,0000,0000,,Kita no Kaio-chan, deixe-o fazer como quiser.
+Dialogue: Marked=0,0:17:55.05,0:17:57.45,*Default,,0000,0000,0000,,Não me lembro de ter pedido ajuda.
+Dialogue: Marked=0,0:17:58.02,0:18:01.95,*Default,,0000,0000,0000,,Você diz isso porque não\Nconhece nem Cell e nem Freeza.
+Dialogue: Marked=0,0:18:02.54,0:18:04.37,*Default,,0000,0000,0000,,Eles são muito fortes.
+Dialogue: Marked=0,0:18:12.83,0:18:14.12,*Default,,0000,0000,0000,,Que cruel...
+Dialogue: Marked=0,0:18:21.18,0:18:23.03,*Default,,0000,0000,0000,,Eu imploro!
+Dialogue: Marked=0,0:18:23.03,0:18:25.31,*Default,,0000,0000,0000,,Por favor, deixe-nos ir!
+Dialogue: Marked=0,0:18:25.82,0:18:28.76,*Default,,0000,0000,0000,,Ahn? Vocês são Gozu e Mezu, não são?
+Dialogue: Marked=0,0:18:30.88,0:18:35.05,*Default,,0000,0000,0000,,Você é aquele Son Goku\Nque caiu do Hebi no Michi?
+Dialogue: Marked=0,0:18:35.05,0:18:38.62,*Default,,0000,0000,0000,,Que bom. Não era um dos amigos de Cell.
+Dialogue: Marked=0,0:18:39.33,0:18:41.91,*Default,,0000,0000,0000,,Nós viemos acabar com Cell.
+Dialogue: Marked=0,0:18:42.89,0:18:44.16,*Default,,0000,0000,0000,,Sério?
+Dialogue: Marked=0,0:18:47.01,0:18:53.59,*Default,,0000,0000,0000,,Que tal? Agora você sabe\Nmuito bem a quem deve obedecer.
+Dialogue: Marked=0,0:19:02.88,0:19:05.39,*Default,,0000,0000,0000,,Quem é o chefe daqui?
+Dialogue: Marked=0,0:19:07.41,0:19:09.19,*Default,,0000,0000,0000,,Não estou ouvindo!
+Dialogue: Marked=0,0:19:09.19,0:19:10.56,*Default,,0000,0000,0000,,C-Cell...
+Dialogue: Marked=0,0:19:14.71,0:19:17.11,*Default,,0000,0000,0000,,É Cell-sama!
+Dialogue: Marked=0,0:19:24.72,0:19:28.58,*Default,,0000,0000,0000,,Vocês pretendem continuar\Ncom as maldades no inferno?
+Dialogue: Marked=0,0:19:30.41,0:19:31.63,*Default,,0000,0000,0000,,Son Goku?
+Dialogue: Marked=0,0:19:32.47,0:19:34.63,*Default,,0000,0000,0000,,Parece que vocês não refletiram sobre nada.
+Dialogue: Marked=0,0:19:35.21,0:19:40.88,*Default,,0000,0000,0000,,Que bom. Parece que você também morreu.\NEstou feliz em encontrar com você de novo.
+Dialogue: Marked=0,0:19:41.27,0:19:42.96,*Default,,0000,0000,0000,,Toksentai!
+Dialogue: Marked=0,0:19:42.96,0:19:43.70,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:19:47.19,0:19:48.06,*Default,,0000,0000,0000,,Paikuhan!
+Dialogue: Marked=0,0:20:11.62,0:20:13.03,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:20:13.03,0:20:15.29,*Default,,0000,0000,0000,,Quando Goku ficou assim?
+Dialogue: Marked=0,0:20:15.29,0:20:16.59,*Default,,0000,0000,0000,,Calados!
+Dialogue: Marked=0,0:20:17.44,0:20:22.59,*Default,,0000,0000,0000,,Aquele nível não é nada. Eu o matei.
+Dialogue: Marked=0,0:20:23.63,0:20:25.48,*Default,,0000,0000,0000,,Só podia ser o Cell-san.
+Dialogue: Marked=0,0:20:26.53,0:20:28.27,*Default,,0000,0000,0000,,Por favor.
+Dialogue: Marked=0,0:20:35.02,0:20:35.69,*Default,,0000,0000,0000,,O que é isso?
+Dialogue: Marked=0,0:20:36.17,0:20:36.52,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:20:52.70,0:20:53.50,*Default,,0000,0000,0000,,Impossível!
+Dialogue: Marked=0,0:20:57.69,0:20:58.73,*Default,,0000,0000,0000,,Paiku...
+Dialogue: Marked=0,0:21:00.72,0:21:02.28,P!,,0000,0000,0000,,Que velocidade...
+Dialogue: Marked=0,0:21:50.46,0:21:52.00,*Default,,0000,0000,0000,,M-Merda...
+Dialogue: Marked=0,0:21:52.00,0:21:54.47,*Default,,0000,0000,0000,,Apanhamos tanto e nem podemos morrer.
+Dialogue: Marked=0,0:21:56.85,0:21:58.77,*Default,,0000,0000,0000,,É o inferno mesmo.
+Dialogue: Marked=0,0:22:01.76,0:22:05.01,*Default,,0000,0000,0000,,Agora eles não vão mais causar o mal.
+Dialogue: Marked=0,0:22:06.34,0:22:08.70,*Default,,0000,0000,0000,,Não vão mesmo.
+Dialogue: Marked=0,0:22:09.66,0:22:16.71,P!,,0000,0000,0000,,Ele é incrível. Ter um cara desses\Nno outro mundo me faz ficar animado.
+Dialogue: Marked=0,0:22:17.44,0:22:22.58,Narrador,,0000,0000,0000,,Tinha um lutador mais forte que Goku no outro mundo.
+Dialogue: Marked=0,0:22:22.58,0:22:26.72,Narrador,,0000,0000,0000,,Goku ficou muito empolgado.

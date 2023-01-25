@@ -1,0 +1,269 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,0,1,0,0,0,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:27.90,0:00:32.23,Default,NTP,0000,0000,0000,!Effect,O Tenkaichi Budoukai finalmente está perto de acabar.
+Dialogue: Marked=0,0:00:32.23,0:00:34.43,Default,NTP,0000,0000,0000,!Effect,Contrariando as expectativas da maioria,
+Dialogue: Marked=0,0:00:34.43,0:00:37.97,Default,NTP,0000,0000,0000,!Effect,o velho Jackie Chun derrotou Kuririn,
+Dialogue: Marked=0,0:00:37.97,0:00:39.91,Default,NTP,0000,0000,0000,!Effect,e acabou seguindo para as finais.
+Dialogue: Marked=0,0:00:39.91,0:00:43.34,Default,NTP,0000,0000,0000,!Effect,E agora, quem será o outro que permanecerá?
+Dialogue: Marked=0,0:00:59.59,0:01:03.86,Default,NTP,0000,0000,0000,!Effect,Rapidamente, o segundo combate das semifinais começará.
+Dialogue: Marked=0,0:01:03.86,0:01:09.87,Default,NTP,0000,0000,0000,!Effect,O vencedor deste combate lutará com o participante Jackie Chun na final!
+Dialogue: Marked=0,0:01:09.87,0:01:11.93,Default,NTP,0000,0000,0000,!Effect,O participante Namu vencerá?
+Dialogue: Marked=0,0:01:15.21,0:01:17.97,Default,NTP,0000,0000,0000,!Effect,Ou o participante Goku vencerá?
+
+Dialogue: Marked=0,0:01:21.22,0:01:26.98,Default,NTP,0000,0000,0000,!Effect,Levante-se, Goku!\NO Temível Tenku Pekeji-ken!\NNota: Golpe Aéreo dos Braços Cruzados
+
+Dialogue: Marked=0,0:01:28.35,0:01:30.39,Default,NTP,0000,0000,0000,!Effect,Falta pouco para a final.
+Dialogue: Marked=0,0:01:30.39,0:01:35.70,Default,NTP,0000,0000,0000,!Effect,Quem será que levará os 500.000 Zeni?!
+Dialogue: Marked=0,0:01:35.70,0:01:37.66,Default,NTP,0000,0000,0000,!Effect,500.000 Zeni...
+Dialogue: Marked=0,0:01:50.04,0:01:54.04,Default,NTP,0000,0000,0000,!Effect,Onii-chan, estou com sede!
+Dialogue: Marked=0,0:01:54.71,0:01:57.32,Default,NTP,0000,0000,0000,!Effect,É impossível. Se esta seca continuar,
+Dialogue: Marked=0,0:01:57.32,0:02:00.99,Default,NTP,0000,0000,0000,!Effect,não conseguiremos cultivar nossa colheita. Estaremos acabados!
+Dialogue: Marked=0,0:02:00.99,0:02:05.75,Default,NTP,0000,0000,0000,!Effect,Namu, esta aldeia não tem mais dinheiro para comprar água.
+Dialogue: Marked=0,0:02:12.00,0:02:16.34,Default,NTP,0000,0000,0000,!Effect,Mãe... Irmão... E todo o povo da minha aldeia...
+Dialogue: Marked=0,0:02:16.34,0:02:21.34,Default,NTP,0000,0000,0000,!Effect,Eu ganharei de qualquer jeito, e comprarei água em abundância!
+Dialogue: Marked=0,0:02:21.34,0:02:24.68,Default,NTP,0000,0000,0000,!Effect,Goku! Ganhe com certeza!
+Dialogue: Marked=0,0:02:24.68,0:02:27.68,Default,NTP,0000,0000,0000,!Effect,Se você ganhar, convide-me para jantar!
+Dialogue: Marked=0,0:02:27.68,0:02:29.68,Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:02:29.68,0:02:33.78,Default,NTP,0000,0000,0000,!Effect,Por favor, comecem o sexto combate!
+Dialogue: Marked=0,0:02:47.37,0:02:50.80,Default,NTP,0000,0000,0000,!Effect,Já sei! Que tal eu tentar imitar aquela técnica...
+Dialogue: Marked=0,0:02:50.80,0:02:52.67,Default,NTP,0000,0000,0000,!Effect,que o velho Jackie usou para derrotar o Kuririn?
+Dialogue: Marked=0,0:03:13.66,0:03:17.00,Default,NTP,0000,0000,0000,!Effect,Ahn? Eu pensei que tivesse dado certo.
+Dialogue: Marked=0,0:03:17.00,0:03:24.00,Default,NTP,0000,0000,0000,!Effect,Que garoto impressionante esse Goku! Ele conseguiu facilmente imitar sua técnica!
+Dialogue: Marked=0,0:03:24.00,0:03:28.03,Default,NTP,0000,0000,0000,!Effect,M-Mesmo assim, Namu é incrível por ter conseguido ver através daquela técnica!
+Dialogue: Marked=0,0:03:51.36,0:03:53.70,Default,NTP,0000,0000,0000,!Effect,Esta luta já é minha!
+Dialogue: Marked=0,0:03:53.70,0:03:56.86,Default,NTP,0000,0000,0000,!Effect,Eu devo jogá-lo para fora da arena!
+Dialogue: Marked=0,0:04:05.98,0:04:07.47,Default,NTP,0000,0000,0000,!Effect,Legal, não é?
+Dialogue: Marked=0,0:04:09.32,0:04:10.98,Default,NTP,0000,0000,0000,!Effect,Seu rabo, hein?
+Dialogue: Marked=0,0:04:10.98,0:04:14.05,Default,NTP,0000,0000,0000,!Effect,I-Incrível! Que luta espetacular! É tanto ofensiva quanto defensiva!
+Dialogue: Marked=0,0:04:14.05,0:04:15.49,Default,NTP,0000,0000,0000,!Effect,Nenhum dos dois sequer dá um passo pra trás!
+Dialogue: Marked=0,0:04:18.32,0:04:20.92,Default,NTP,0000,0000,0000,!Effect,Como devo lutar agora?
+Dialogue: Marked=0,0:04:25.33,0:04:31.34,Default,NTP,0000,0000,0000,!Effect,Eu acabei de inventar uma nova técnica!
+Dialogue: Marked=0,0:04:31.34,0:04:34.53,Default,NTP,0000,0000,0000,!Effect,Lá vai! Preparar, apontar...
+Dialogue: Marked=0,0:04:37.34,0:04:39.33,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?
+Dialogue: Marked=0,0:04:50.69,0:04:56.29,Default,NTP,0000,0000,0000,!Effect,E-Ele está girando! Não posso nem chegar perto! Tudo que posso fazer é fugir!
+Dialogue: Marked=0,0:05:06.97,0:05:09.31,Default,NTP,0000,0000,0000,!Effect,O-Oh, não!
+Dialogue: Marked=0,0:05:09.31,0:05:14.61,Default,NTP,0000,0000,0000,!Effect,É inútil! Não posso mais fazer nada! Eu perdi!
+Dialogue: Marked=0,0:05:27.99,0:05:31.02,Default,NTP,0000,0000,0000,!Effect,E-Estou tão tonto...
+Dialogue: Marked=0,0:05:38.67,0:05:43.84,Default,NTP,0000,0000,0000,!Effect,Essa foi por pouco, por muito pouco!\NEu quase perdi!
+Dialogue: Marked=0,0:05:49.68,0:05:54.35,Default,NTP,0000,0000,0000,!Effect,Você cavou sua própria sepultura!\NPreciso aproveitar minha chance!
+Dialogue: Marked=0,0:05:54.35,0:05:56.66,Default,NTP,0000,0000,0000,!Effect,Eu posso ganhar jogando ele para fora da arena...
+Dialogue: Marked=0,0:05:56.66,0:06:00.36,Default,NTP,0000,0000,0000,!Effect,Mas ele pode me pegar com o rabo dele de novo...
+Dialogue: Marked=0,0:06:00.36,0:06:03.63,Default,NTP,0000,0000,0000,!Effect,Neste caso, há apenas um jeito...
+Dialogue: Marked=0,0:06:03.63,0:06:05.62,Default,NTP,0000,0000,0000,!Effect,Atacar pelo céu!
+Dialogue: Marked=0,0:06:10.97,0:06:15.98,Default,NTP,0000,0000,0000,!Effect,O participante Namu dá um pulo incrível!
+Dialogue: Marked=0,0:06:15.98,0:06:18.34,Default,NTP,0000,0000,0000,!Effect,Ele agora deu uma parada lá no céu!
+Dialogue: Marked=0,0:06:21.65,0:06:25.21,Default,NTP,0000,0000,0000,!Effect,Tome isso! Tenku Pekeji-ken!
+Dialogue: Marked=0,0:06:31.66,0:06:34.99,Default,NTP,0000,0000,0000,!Effect,Perdoe-me, garotinho.\NSinto muito, mas tenho que ganhar.
+Dialogue: Marked=0,0:06:34.99,0:06:38.33,Default,NTP,0000,0000,0000,!Effect,Todos em minha aldeia estão esperando meu retorno!
+Dialogue: Marked=0,0:06:38.33,0:06:41.00,Default,NTP,0000,0000,0000,!Effect,G-Goku! Abra seus olhos!
+Dialogue: Marked=0,0:06:41.00,0:06:43.30,Default,NTP,0000,0000,0000,!Effect,Ei! Vamos! Levante-se!
+Dialogue: Marked=0,0:06:46.67,0:06:50.47,Default,NTP,0000,0000,0000,!Effect,Mantra Budista: "Eu me abrigo na infinita luz e na vida eterna do grande Buda"
+Dialogue: Marked=0,0:06:46.67,0:06:50.47,Poder,NTP,0000,0000,0000,!Effect,Namu Amida Butsu
+Dialogue: Marked=0,0:07:29.32,0:07:33.65,Default,NTP,0000,0000,0000,!Effect,Por favor, inicie a contagem.
+Dialogue: Marked=0,0:07:33.65,0:07:35.32,Default,NTP,0000,0000,0000,!Effect,1... 2...
+Dialogue: Marked=0,0:07:35.32,0:07:39.66,Default,NTP,0000,0000,0000,!Effect,E-Ele tomou aquele golpe em cheio!
+Dialogue: Marked=0,0:07:39.66,0:07:42.66,Default,NTP,0000,0000,0000,!Effect,Ele não vai conseguir levantar depois disso!
+Dialogue: Marked=0,0:07:42.66,0:07:45.19,Default,NTP,0000,0000,0000,!Effect,G-G-Goku!
+Dialogue: Marked=0,0:07:48.33,0:07:52.87,Default,NTP,0000,0000,0000,!Effect,Eu creio em Buda.\NNunca tiraria uma vida.
+Dialogue: Marked=0,0:07:52.87,0:07:57.34,Default,NTP,0000,0000,0000,!Effect,Porém, qualquer um que receba esta técnica não acordará durante dez dias.
+Dialogue: Marked=0,0:07:57.34,0:07:59.01,Default,NTP,0000,0000,0000,!Effect,5...
+Dialogue: Marked=0,0:07:59.01,0:08:01.28,Default,NTP,0000,0000,0000,!Effect,Goku perdeu!
+Dialogue: Marked=0,0:08:01.28,0:08:03.95,Default,NTP,0000,0000,0000,!Effect,Não pode ser!
+Dialogue: Marked=0,0:08:03.95,0:08:07.95,Default,NTP,0000,0000,0000,!Effect,6... 7...
+Dialogue: Marked=0,0:08:07.95,0:08:11.29,Default,NTP,0000,0000,0000,!Effect,8...
+Dialogue: Marked=0,0:08:11.29,0:08:14.63,Default,NTP,0000,0000,0000,!Effect,9...
+Dialogue: Marked=0,0:08:14.63,0:08:16.15,Default,NTP,0000,0000,0000,!Effect,10... oh?
+Dialogue: Marked=0,0:08:23.64,0:08:24.97,Default,NTP,0000,0000,0000,!Effect,Ele levantou!
+Dialogue: Marked=0,0:08:24.97,0:08:26.97,Default,NTP,0000,0000,0000,!Effect,Inacreditável!
+Dialogue: Marked=0,0:08:26.97,0:08:31.31,Default,NTP,0000,0000,0000,!Effect,Q-Q-Que garoto...
+Dialogue: Marked=0,0:08:31.31,0:08:34.77,Default,NTP,0000,0000,0000,!Effect,I-Impossível! Não pode ser...
+Dialogue: Marked=0,0:08:49.66,0:08:53.00,Default,NTP,0000,0000,0000,!Effect,Incrível!\NIncrível, incrível, incrível!
+Dialogue: Marked=0,0:08:53.00,0:08:56.34,Default,NTP,0000,0000,0000,!Effect,O participante Son é absolutamente incrível!\NQue corpo incrivelmente forte!
+Dialogue: Marked=0,0:08:56.34,0:09:01.61,Default,NTP,0000,0000,0000,!Effect,o participante Namu, que aplicou a técnica, está pasmo!
+Dialogue: Marked=0,0:09:01.61,0:09:04.18,Default,NTP,0000,0000,0000,!Effect,I-Impossível!
+Dialogue: Marked=0,0:09:04.18,0:09:06.95,Default,NTP,0000,0000,0000,!Effect,Não é possível que você tenha conseguido se levantar após aquela técnica!
+Dialogue: Marked=0,0:09:06.95,0:09:10.48,Default,NTP,0000,0000,0000,!Effect,É isso!\NEu devo ter atingido o local errado!
+Dialogue: Marked=0,0:09:10.48,0:09:13.29,Default,NTP,0000,0000,0000,!Effect,É isso! Com certeza é isso!
+Dialogue: Marked=0,0:09:13.29,0:09:15.75,Default,NTP,0000,0000,0000,!Effect,Porém, só acontecerá isso desta vez!
+Dialogue: Marked=0,0:09:15.75,0:09:19.49,Default,NTP,0000,0000,0000,!Effect,Já está na hora!\NVou encerrar este combate!
+Dialogue: Marked=0,0:09:25.63,0:09:29.64,Default,NTP,0000,0000,0000,!Effect,O participante Namu pula novamente!
+Dialogue: Marked=0,0:09:29.64,0:09:34.40,Default,NTP,0000,0000,0000,!Effect,Desta vez, o salto dele é muito mais alto que o anterior!
+Dialogue: Marked=0,0:09:35.98,0:09:37.88,Default,NTP,0000,0000,0000,!Effect,Certo, também vou!
+Dialogue: Marked=0,0:09:43.32,0:09:45.65,Default,NTP,0000,0000,0000,!Effect,Certo, tome isso!
+Dialogue: Marked=0,0:09:45.65,0:09:48.64,Poder,NTP,0000,0000,0000,!Effect,Cho-tenku Pekeji-ken
+Dialogue: Marked=0,0:10:01.00,0:10:02.87,Default,NTP,0000,0000,0000,!Effect,Ops, eu fui muito longe!
+Dialogue: Marked=0,0:10:08.67,0:10:11.20,Default,NTP,0000,0000,0000,!Effect,Q-Que tipo de garoto ele é?
+Dialogue: Marked=0,0:10:16.35,0:10:18.84,Default,NTP,0000,0000,0000,!Effect,Finalmente te alcancei!
+Dialogue: Marked=0,0:10:20.35,0:10:23.52,Default,NTP,0000,0000,0000,!Effect,Por que você...
+Dialogue: Marked=0,0:10:32.03,0:10:33.70,Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:10:33.70,0:10:35.37,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?
+Dialogue: Marked=0,0:10:35.37,0:10:38.37,Default,NTP,0000,0000,0000,!Effect,A batalha está acontecendo no ar!
+Dialogue: Marked=0,0:10:38.37,0:10:40.07,Default,NTP,0000,0000,0000,!Effect,Não consigo ver muito bem...
+Dialogue: Marked=0,0:10:40.07,0:10:44.38,Default,NTP,0000,0000,0000,!Effect,Mas estou totalmente perplexo perante uma luta tão fantástica!
+Dialogue: Marked=0,0:10:44.38,0:10:47.71,Default,NTP,0000,0000,0000,!Effect,Mesmo assim, estou com uma tremenda dor no pescoço!
+Dialogue: Marked=0,0:10:47.71,0:10:50.74,Default,NTP,0000,0000,0000,!Effect,Ali estão eles! Eles estão caindo!
+Dialogue: Marked=0,0:10:52.05,0:10:54.39,Default,NTP,0000,0000,0000,!Effect,Finalmente, eles estão quase chegando!
+Dialogue: Marked=0,0:10:54.39,0:10:57.72,Default,NTP,0000,0000,0000,!Effect,Parece que o participante Son está um pouco mais a frente!
+Dialogue: Marked=0,0:10:57.72,0:11:03.00,Default,NTP,0000,0000,0000,!Effect,Eu conseguirei! Eu vencerei este combate!
+Dialogue: Marked=0,0:11:03.00,0:11:04.26,Default,NTP,0000,0000,0000,!Effect,Ganhei!
+Dialogue: Marked=0,0:11:29.02,0:11:34.03,Default,NTP,0000,0000,0000,!Effect,E-Ele venceu! O participante Son Goku venceu!
+Dialogue: Marked=0,0:11:34.03,0:11:36.30,Default,NTP,0000,0000,0000,!Effect,O participante Namu, lamentavelmente, caiu fora da arena!
+Dialogue: Marked=0,0:11:36.30,0:11:38.70,Default,NTP,0000,0000,0000,!Effect,Que luta incrível!
+Dialogue: Marked=0,0:11:38.70,0:11:42.03,Default,NTP,0000,0000,0000,!Effect,O participante Son vai para a final!
+Dialogue: Marked=0,0:11:42.03,0:11:46.37,Default,NTP,0000,0000,0000,!Effect,Ele conseguiu! Ele conseguiu!\NEle conseguiu! Ele conseguiu!
+Dialogue: Marked=0,0:11:46.37,0:11:52.38,Default,NTP,0000,0000,0000,!Effect,E-Ele é forte! Será possível eu perder pra ele?
+Dialogue: Marked=0,0:11:52.38,0:11:55.35,Default,NTP,0000,0000,0000,!Effect,O participante Son Goku, apesar de ser o mais jovem,
+Dialogue: Marked=0,0:11:55.35,0:11:58.05,Default,NTP,0000,0000,0000,!Effect,mostrou a nós uma batalha maravilhosa!
+Dialogue: Marked=0,0:11:58.05,0:11:59.38,Default,NTP,0000,0000,0000,!Effect,Agora, falta apenas a final.
+Dialogue: Marked=0,0:11:59.38,0:12:02.35,Default,NTP,0000,0000,0000,!Effect,Ele terá que lutar contra o participante Jackie Chun,
+Dialogue: Marked=0,0:12:02.35,0:12:05.99,Default,NTP,0000,0000,0000,!Effect,o qual ele sabe ser de dono de uma força impressionante!
+Dialogue: Marked=0,0:12:05.99,0:12:08.66,Default,NTP,0000,0000,0000,!Effect,Goku!
+Dialogue: Marked=0,0:12:08.66,0:12:13.00,Default,NTP,0000,0000,0000,!Effect,Ele conseguiu, hein, Goku?!
+Dialogue: Marked=0,0:12:13.00,0:12:16.34,Default,NTP,0000,0000,0000,!Effect,Sua vitória agora é apenas uma questão de tempo!
+Dialogue: Marked=0,0:12:16.34,0:12:18.34,Default,NTP,0000,0000,0000,!Effect,Isso foi muito legal!
+Dialogue: Marked=0,0:12:18.34,0:12:20.34,Default,NTP,0000,0000,0000,!Effect,Você é muito forte!
+Dialogue: Marked=0,0:12:20.34,0:12:23.88,Default,NTP,0000,0000,0000,!Effect,Incrível! Ele evoluiu muito!
+Dialogue: Marked=0,0:12:23.88,0:12:28.35,Default,NTP,0000,0000,0000,!Effect,Eu não sou mais páreo pra ele!
+Dialogue: Marked=0,0:12:28.35,0:12:31.35,Default,NTP,0000,0000,0000,!Effect,Não pensava que ele estava tão forte...
+Dialogue: Marked=0,0:12:31.35,0:12:33.09,Default,NTP,0000,0000,0000,!Effect,Se eu não o levar a sério...
+Dialogue: Marked=0,0:12:33.09,0:12:36.32,Default,NTP,0000,0000,0000,!Effect,Eu posso perder!
+Dialogue: Marked=0,0:12:39.69,0:12:42.69,Default,NTP,0000,0000,0000,!Effect,Como era de se esperar, por ter perdido, o lutador Namu parece estar muito desolado.
+Dialogue: Marked=0,0:12:42.69,0:12:46.29,Default,NTP,0000,0000,0000,!Effect,Mesmo assim, eles nos mostrou uma grande luta.
+Dialogue: Marked=0,0:13:02.31,0:13:06.59,Default,NTP,0000,0000,0000,!Effect,Garoto, eu fui completamente derrotado. Parabéns.
+Dialogue: Marked=0,0:13:06.59,0:13:07.99,Default,NTP,0000,0000,0000,!Effect,Eu espero que você seja o campeão.
+Dialogue: Marked=0,0:13:07.99,0:13:10.32,Default,NTP,0000,0000,0000,!Effect,Certo, valeu!
+Dialogue: Marked=0,0:13:10.32,0:13:13.96,Default,NTP,0000,0000,0000,!Effect,Agora...\NFinalmente, tudo que falta é a final,
+Dialogue: Marked=0,0:13:13.96,0:13:16.66,Nota,NTP,0000,0000,0000,!Effect,Tenkaichi = O mais forte do mundo
+Dialogue: Marked=0,0:13:13.96,0:13:16.66,Default,NTP,0000,0000,0000,!Effect,que determinará quem é literalmente o Tenkaichi!
+Dialogue: Marked=0,0:13:16.66,0:13:18.50,Default,NTP,0000,0000,0000,!Effect,Haverá um intervalo de dez minutos...
+Dialogue: Marked=0,0:13:18.50,0:13:22.33,Default,NTP,0000,0000,0000,!Effect,E então, começaremos a luta final.
+Dialogue: Marked=0,0:13:22.33,0:13:25.54,Default,NTP,0000,0000,0000,!Effect,O Tenkaichi deste torneio será o participante Son...
+Dialogue: Marked=0,0:13:25.54,0:13:28.67,Default,NTP,0000,0000,0000,!Effect,Ou será o participante Jackie?!
+Dialogue: Marked=0,0:13:28.67,0:13:31.68,Default,NTP,0000,0000,0000,!Effect,Tudo bem, Goku? Você não está cansado?
+Dialogue: Marked=0,0:13:31.68,0:13:35.68,Default,NTP,0000,0000,0000,!Effect,Estou ótimo! Estou com um pouquinho de fome...
+Dialogue: Marked=0,0:13:35.68,0:13:38.68,Default,NTP,0000,0000,0000,!Effect,Você ficou realmente muito forte!
+Dialogue: Marked=0,0:13:38.68,0:13:41.52,Default,NTP,0000,0000,0000,!Effect,Isso tudo por causa do Mestre Kame!
+Dialogue: Marked=0,0:13:41.52,0:13:44.02,Default,NTP,0000,0000,0000,!Effect,Nós tínhamos um duro treinamento todo dia.
+Dialogue: Marked=0,0:13:44.02,0:13:48.69,Default,NTP,0000,0000,0000,!Effect,Goku, seu oponente na final deve ser o Mestre Kame.
+Dialogue: Marked=0,0:13:48.69,0:13:50.70,Default,NTP,0000,0000,0000,!Effect,Tem certeza disso?
+Dialogue: Marked=0,0:13:50.70,0:13:54.60,Default,NTP,0000,0000,0000,!Effect,Sim, eu tenho só algumas dúvidas...
+Dialogue: Marked=0,0:14:09.31,0:14:11.65,Default,NTP,0000,0000,0000,!Effect,Você está indo pra casa?
+Dialogue: Marked=0,0:14:11.65,0:14:13.32,Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:14:13.32,0:14:16.32,Default,NTP,0000,0000,0000,!Effect,Você não vai assistir à final antes de ir?
+Dialogue: Marked=0,0:14:16.32,0:14:19.55,Default,NTP,0000,0000,0000,!Effect,Eu não posso demorar.
+Dialogue: Marked=0,0:14:22.66,0:14:27.67,Default,NTP,0000,0000,0000,!Effect,Desculpe, povo da aldeia. Não fui capaz de satisfazer suas expectativas.
+Dialogue: Marked=0,0:14:27.67,0:14:33.67,Default,NTP,0000,0000,0000,!Effect,Não fui capaz de comprar água e retornar.
+Dialogue: Marked=0,0:14:33.67,0:14:36.84,Default,NTP,0000,0000,0000,!Effect,Namu-san, leve isso com você.
+Dialogue: Marked=0,0:14:41.01,0:14:42.61,Default,NTP,0000,0000,0000,!Effect,I-Isso...
+Dialogue: Marked=0,0:14:44.68,0:14:48.02,Default,NTP,0000,0000,0000,!Effect,Isso é uma cápsula Hoi-Poi, não é?\NPra que exatamente...
+Dialogue: Marked=0,0:14:48.02,0:14:54.03,Default,NTP,0000,0000,0000,!Effect,Não é nada, na verdade.\NEla está vazia.
+Dialogue: Marked=0,0:14:54.03,0:14:56.53,Default,NTP,0000,0000,0000,!Effect,Se você encher esta cápsula com água...
+Dialogue: Marked=0,0:14:56.53,0:15:00.03,Default,NTP,0000,0000,0000,!Effect,E então, fazê-la ficar pequena novamente,\Nvocê poderá levar isso pra casa facilmente.
+Dialogue: Marked=0,0:15:00.03,0:15:03.64,Default,NTP,0000,0000,0000,!Effect,C-Como você sabia sobre a água?
+Dialogue: Marked=0,0:15:03.64,0:15:08.00,Default,NTP,0000,0000,0000,!Effect,Eu sou Muten Roshi. Eu consigo praticamente ler a mente das pessoas.
+Dialogue: Marked=0,0:15:11.64,0:15:14.65,Default,NTP,0000,0000,0000,!Effect,V-Você é Muten Roshi-sama?!
+Dialogue: Marked=0,0:15:14.65,0:15:18.32,Default,NTP,0000,0000,0000,!Effect,S-Seu tolo! Shhhh!
+Dialogue: Marked=0,0:15:18.32,0:15:20.48,Default,NTP,0000,0000,0000,!Effect,Eles não ouviram você, ouviram?
+Dialogue: Marked=0,0:15:26.33,0:15:30.66,Default,NTP,0000,0000,0000,!Effect,Por que você se disfarçou para entrar no torneio?
+Dialogue: Marked=0,0:15:30.66,0:15:32.73,Default,NTP,0000,0000,0000,!Effect,Você provavelmente já sabe...
+Dialogue: Marked=0,0:15:32.73,0:15:38.67,Default,NTP,0000,0000,0000,!Effect,Mas neste torneio estão participando dois discípulos meus: Kuririn e Goku.
+Dialogue: Marked=0,0:15:38.67,0:15:41.71,Default,NTP,0000,0000,0000,!Effect,Eles dois treinaram e superaram minhas expectativas...
+Dialogue: Marked=0,0:15:41.71,0:15:44.68,Default,NTP,0000,0000,0000,!Effect,E, rapidamente, ficaram bem poderosos.
+Dialogue: Marked=0,0:15:44.68,0:15:47.95,Default,NTP,0000,0000,0000,!Effect,Especialmente Goku.\NTalvez por que começou antes.
+Dialogue: Marked=0,0:15:47.95,0:15:49.68,Default,NTP,0000,0000,0000,!Effect,Somando isso à sua força prodígia,
+Dialogue: Marked=0,0:15:49.68,0:15:52.02,Default,NTP,0000,0000,0000,!Effect,ele trouxe à tona um poder inacreditável.
+Dialogue: Marked=0,0:15:52.02,0:15:56.69,Default,NTP,0000,0000,0000,!Effect,Você lutou com ele, então você deve ter percebido.
+Dialogue: Marked=0,0:15:56.69,0:16:02.29,Default,NTP,0000,0000,0000,!Effect,Então, permiti que ambos entrassem no Tenkaichi Budoukai para testar a força deles.
+Dialogue: Marked=0,0:16:02.29,0:16:05.63,Default,NTP,0000,0000,0000,!Effect,Aqueles dois são muito fortes!
+Dialogue: Marked=0,0:16:05.63,0:16:09.63,Default,NTP,0000,0000,0000,!Effect,Eu percebi que era possível que eles pudessem ganhar.
+Dialogue: Marked=0,0:16:09.63,0:16:13.94,Default,NTP,0000,0000,0000,!Effect,Entretanto, como você pode ver, eles ainda são moleques.
+Dialogue: Marked=0,0:16:13.94,0:16:19.31,Default,NTP,0000,0000,0000,!Effect,Se eles ganhassem aqui,\Neles ficariam muito pretensiosos!
+Dialogue: Marked=0,0:16:19.31,0:16:24.98,Default,NTP,0000,0000,0000,!Effect,E assim, eles não poderão se concentrar nos inúmeros obstáculos da vida!
+Dialogue: Marked=0,0:16:24.98,0:16:30.49,Default,NTP,0000,0000,0000,!Effect,Quero que eles se tornem cada vez melhores... Magníficos lutadores de artes marciais.
+Dialogue: Marked=0,0:16:30.49,0:16:33.66,Default,NTP,0000,0000,0000,!Effect,Por isso que eu resolvi entrar.
+Dialogue: Marked=0,0:16:33.66,0:16:37.66,Default,NTP,0000,0000,0000,!Effect,Me disfarçando assim, eu vim para ensiná-los que neste vasto mundo...
+Dialogue: Marked=0,0:16:37.66,0:16:41.33,Default,NTP,0000,0000,0000,!Effect,existem muito mais pessoas fortes, entendeu?
+Dialogue: Marked=0,0:16:41.33,0:16:45.00,Default,NTP,0000,0000,0000,!Effect,Quer dizer que este cabelo é uma peruca?
+Dialogue: Marked=0,0:16:45.00,0:16:49.24,Default,NTP,0000,0000,0000,!Effect,Sim, eu botei com cola, e isto está me dando agonia.
+Dialogue: Marked=0,0:16:49.24,0:16:52.34,Default,NTP,0000,0000,0000,!Effect,Mas isso é tão sarnento, nem sei o que fazer!
+Dialogue: Marked=0,0:16:52.34,0:16:56.35,Default,NTP,0000,0000,0000,!Effect,Estou honrado de ter conversado com o senhor.
+Dialogue: Marked=0,0:16:56.35,0:17:03.29,Default,NTP,0000,0000,0000,!Effect,Enfim, sobre esta cápsula que você foi tão gentil em me dar... Não posso aceitar.
+Dialogue: Marked=0,0:17:03.29,0:17:05.66,Default,NTP,0000,0000,0000,!Effect,É vergonhoso para eu dizer isso,
+Dialogue: Marked=0,0:17:05.66,0:17:10.30,Default,NTP,0000,0000,0000,!Effect,mas eu não tenho dinheiro suficiente para comprar a água.
+Dialogue: Marked=0,0:17:10.30,0:17:13.46,Default,NTP,0000,0000,0000,!Effect,Namu-san, venha comigo por aqui um minuto.
+Dialogue: Marked=0,0:17:17.64,0:17:20.97,Default,NTP,0000,0000,0000,!Effect,Ali. Dê uma olhada naquilo.
+Dialogue: Marked=0,0:17:20.97,0:17:24.64,Default,NTP,0000,0000,0000,!Effect,Por aqui, água é abundante, e não importa o tanto que você use, é de graça!
+Dialogue: Marked=0,0:17:24.64,0:17:28.31,Default,NTP,0000,0000,0000,!Effect,Se você quiser comprar água de alguém, irão rir da sua cara!
+Dialogue: Marked=0,0:17:28.31,0:17:31.32,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?!
+Dialogue: Marked=0,0:17:31.32,0:17:34.69,Default,NTP,0000,0000,0000,!Effect,Agora, nós estamos prestes a iniciar a final!
+Dialogue: Marked=0,0:17:34.69,0:17:40.66,Default,NTP,0000,0000,0000,!Effect,Participante Jackie Chun e Participante Son Goku: por favor, venham até aqui!
+Dialogue: Marked=0,0:17:40.66,0:17:42.66,Default,NTP,0000,0000,0000,!Effect,Bem, agora...
+Dialogue: Marked=0,0:17:42.66,0:17:46.33,Default,NTP,0000,0000,0000,!Effect,Só mais uma luta.\NAcho que terei que dar o meu melhor.
+Dialogue: Marked=0,0:17:46.33,0:17:51.34,Default,NTP,0000,0000,0000,!Effect,Muitíssimo obrigado, Muten Ro...\NQuer dizer, Jackie Chun-dono!
+Dialogue: Marked=0,0:17:51.34,0:17:53.34,Default,NTP,0000,0000,0000,!Effect,Eu nunca esquecerei sua gentileza.
+Dialogue: Marked=0,0:17:53.34,0:17:56.40,Default,NTP,0000,0000,0000,!Effect,Pode esquecer. Até mais!
+Dialogue: Marked=0,0:17:58.01,0:17:59.67,Default,NTP,0000,0000,0000,!Effect,Já sei!
+Dialogue: Marked=0,0:18:02.61,0:18:06.74,Default,NTP,0000,0000,0000,!Effect,Perdão, mas você poderia fazer algo pra mim?
+Dialogue: Marked=0,0:18:07.29,0:18:09.96,Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores!
+Dialogue: Marked=0,0:18:09.96,0:18:13.83,Default,NTP,0000,0000,0000,!Effect,O momento da decisão chegou!
+Dialogue: Marked=0,0:18:13.83,0:18:17.63,Default,NTP,0000,0000,0000,!Effect,Esta é a final do Tenkaichi Budoukai!
+Dialogue: Marked=0,0:18:17.63,0:18:24.27,Default,NTP,0000,0000,0000,!Effect,Então, o participante Son ou participante Jackie será o Tenkaichi deste torneio?
+Dialogue: Marked=0,0:18:24.27,0:18:28.00,Default,NTP,0000,0000,0000,!Effect,Finalmente, chegamos ao momento principal!
+Dialogue: Marked=0,0:18:29.98,0:18:31.64,Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:18:31.64,0:18:34.65,Default,NTP,0000,0000,0000,!Effect,Goku, boa sorte! Você vencerá com certeza!
+Dialogue: Marked=0,0:18:34.65,0:18:37.65,Default,NTP,0000,0000,0000,!Effect,Eu farei o meu melhor!
+Dialogue: Marked=0,0:18:37.65,0:18:39.99,Default,NTP,0000,0000,0000,!Effect,Você não pode perder para um de seus pupilos, né?
+Dialogue: Marked=0,0:18:39.99,0:18:44.99,Default,NTP,0000,0000,0000,!Effect,Eu já lhe disse. Eu não sou Muten Roshi!\NCansei de ouvir isso de você!
+Dialogue: Marked=0,0:18:44.99,0:18:48.99,Default,NTP,0000,0000,0000,!Effect,Você não pode mais me enganar, eu já sei.
+Dialogue: Marked=0,0:18:48.99,0:18:50.66,Default,NTP,0000,0000,0000,!Effect,Ué?
+Dialogue: Marked=0,0:18:51.66,0:18:57.33,Default,NTP,0000,0000,0000,!Effect,Olhem, olhem! Dêem uma olhada ali!\NNão é aquele o grande Muten Roshi?
+Dialogue: Marked=0,0:19:01.61,0:19:04.94,Default,NTP,0000,0000,0000,!Effect,N-Não pode ser! Você está certo!
+Dialogue: Marked=0,0:19:04.94,0:19:09.28,Default,NTP,0000,0000,0000,!Effect,E-Então, você...\NNão é o Muten Roshi-sama...
+Dialogue: Marked=0,0:19:09.28,0:19:12.62,Default,NTP,0000,0000,0000,!Effect,Viu, eu lhe disse, não disse?!
+Dialogue: Marked=0,0:19:12.62,0:19:16.08,Default,NTP,0000,0000,0000,!Effect,Então, ambos participantes!
+Dialogue: Marked=0,0:19:20.96,0:19:24.96,Default,NTP,0000,0000,0000,!Effect,Ei, aquele velho não é o Muten Roshi-sama!
+Dialogue: Marked=0,0:19:24.96,0:19:27.97,Default,NTP,0000,0000,0000,!Effect,Oh, não é mesmo.
+Dialogue: Marked=0,0:19:27.97,0:19:29.97,Default,NTP,0000,0000,0000,!Effect,Claro que não.
+Dialogue: Marked=0,0:19:29.97,0:19:34.31,Default,NTP,0000,0000,0000,!Effect,Não há razão para o Muten Roshi-sama querer entrar neste torneio.
+Dialogue: Marked=0,0:19:34.31,0:19:43.32,Default,NTP,0000,0000,0000,!Effect,Então, há outra pessoa forte no mundo além do Mestre Kame...
+Dialogue: Marked=0,0:19:43.32,0:19:44.65,Default,NTP,0000,0000,0000,!Effect,Bem, então...
+Dialogue: Marked=0,0:20:00.33,0:20:03.34,Default,NTP,0000,0000,0000,!Effect,Nossa, Son-kun, você parece estar tão animado, né?
+Dialogue: Marked=0,0:20:03.34,0:20:09.01,Default,NTP,0000,0000,0000,!Effect,Sim! Estou muito feliz em ter que lutar contra um velhinho tão forte!
+Dialogue: Marked=0,0:20:09.01,0:20:13.38,Default,NTP,0000,0000,0000,!Effect,O selvagem e ingênuo Goku, hein?\NNão posso perder!
+Dialogue: Marked=0,0:20:13.38,0:20:19.35,Default,NTP,0000,0000,0000,!Effect,Faz um bom tempo que eu não tenho que lutar com seriedade...
+Dialogue: Marked=0,0:20:19.35,0:20:26.02,Default,NTP,0000,0000,0000,!Effect,Então, a partir de agora, iniciaremos a final do Tenkaichi Budoukai!
+Dialogue: Marked=0,0:20:26.02,0:20:29.39,Default,NTP,0000,0000,0000,!Effect,Finalmente, Goku chegou à final!
+Dialogue: Marked=0,0:20:29.39,0:20:32.36,Default,NTP,0000,0000,0000,!Effect,Entretanto, o oponente que ele terá que lutar pela vitória...
+Dialogue: Marked=0,0:20:32.36,0:20:37.13,Default,NTP,0000,0000,0000,!Effect,é o seu próprio mestre, conhecido como... Mestre Kame!

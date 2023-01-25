@@ -1,0 +1,274 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:50.35,0:01:52.83,*Default,,0000,0000,0000,,Gohan, eu também vou participar!
+Dialogue: Marked=0,0:01:52.83,0:01:53.90,*Default,,0000,0000,0000,,Pai!
+Dialogue: Marked=0,0:01:54.49,0:01:56.40,*Default,,0000,0000,0000,,Quanto tempo, pessoal.
+Dialogue: Marked=0,0:01:56.99,0:01:59.41,*Default,,0000,0000,0000,,Você vem mesmo para o Tenkaichi Budoukai?
+Dialogue: Marked=0,0:02:00.18,0:02:01.25,Narrador,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:02:01.25,0:02:08.83,Narrador,,0000,0000,0000,,Goku vai voltar do outro mundo por\Num dia para participar do Tenkaichi Budoukai.
+Dialogue: Marked=0,0:02:11.33,0:02:12.79,*Default,,0000,0000,0000,,O Goku também?
+Dialogue: Marked=0,0:02:14.58,0:02:17.01,*Default,,0000,0000,0000,,Já faz muito tempo que não vejo o Goku.
+Dialogue: Marked=0,0:02:19.28,0:02:26.56,Narrador,,0000,0000,0000,,Kuririn e Nº 18 pararam de lutar e estavam vivendo uma vida tranqüila na Kame House...
+Dialogue: Marked=0,0:02:26.56,0:02:29.02,Narrador,,0000,0000,0000,,e decidiram participar do torneio.
+Dialogue: Marked=0,0:02:34.33,0:02:39.68,Narrador,,0000,0000,0000,,Piccolo e Vegeta ouviram a notícia de\NGohan e ficaram muito ansiosos para a luta...
+Dialogue: Marked=0,0:02:39.68,0:02:42.49,Narrador,,0000,0000,0000,,que não tinham há tanto tempo.
+Dialogue: Marked=0,0:02:52.54,0:02:55.61,*Default,,0000,0000,0000,,Goten, que bom!
+Dialogue: Marked=0,0:02:55.61,0:02:57.34,*Default,,0000,0000,0000,,Vai poder encontrar o seu pai!
+Dialogue: Marked=0,0:03:05.03,0:03:07.80,Narrador,,0000,0000,0000,,Falta aproximadamente 1 mês para o torneio.
+Dialogue: Marked=0,0:03:07.80,0:03:11.48,Narrador,,0000,0000,0000,,Gohan entrou no período de treinamento.
+Dialogue: Marked=0,0:03:18.44,0:03:20.24,*Default,,0000,0000,0000,,Certo, vamos começar?
+Dialogue: Marked=0,0:03:21.41,0:03:23.24,*Default,,0000,0000,0000,,Vamos!
+
+Dialogue: Marked=0,0:03:23.74,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\c&HE2EDE7\pos(675,70)\shad1\fad(400,0)\fscx100\fscy100}episódio 206
+Dialogue: Marked=0,0:03:23.74,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\c&HE2EDE7\pos(370,175)\shad1\fad(400,0)\fscx150\fscy150}Gohan também fica surpreso{\i1}!
+Dialogue: Marked=0,0:03:23.74,0:03:31.72,apresDBZ2,,0000,0000,0000,,{\c&HE2EDE7\pos(360,490)\shad1\fad(400,0)\fscx150\fscy150}O poder explosivo de Goten
+
+Dialogue: Marked=0,0:04:10.96,0:04:12.40,*Default,,0000,0000,0000,,Que Ki incrível!
+Dialogue: Marked=0,0:04:12.40,0:04:17.29,*Default,,0000,0000,0000,,Ele acha que está fraco,\Nmas está ficando cada vez mais forte.
+Dialogue: Marked=0,0:04:17.75,0:04:21.47,*Default,,0000,0000,0000,,Deve ser porque o Goku-san\Nvai participar do Tenkaichi Budoukai.
+Dialogue: Marked=0,0:04:32.13,0:04:33.64,*Default,,0000,0000,0000,,E-Ei, espera!
+Dialogue: Marked=0,0:04:37.48,0:04:38.43,*Default,,0000,0000,0000,,Ainda está cedo!
+Dialogue: Marked=0,0:04:38.43,0:04:40.53,*Default,,0000,0000,0000,,Nem me aqueci ainda!
+Dialogue: Marked=0,0:04:40.95,0:04:42.30,*Default,,0000,0000,0000,,Não precisa falar!
+Dialogue: Marked=0,0:04:48.60,0:04:51.41,*Default,,0000,0000,0000,,Não podem fazer silêncio nem de manhã?
+Dialogue: Marked=0,0:04:58.30,0:05:01.42,N!,,0000,0000,0000,,{\fad(300,300)}Gochisousama = Expressão que se diz depois de comer
+Dialogue: Marked=0,0:04:58.30,0:04:59.73,*Default,,0000,0000,0000,,Gochisousama.
+Dialogue: Marked=0,0:04:59.73,0:05:01.42,*Default,,0000,0000,0000,,Gochisousama!
+Dialogue: Marked=0,0:05:04.03,0:05:05.55,*Default,,0000,0000,0000,,Bem, Goten, vamos.
+Dialogue: Marked=0,0:05:06.29,0:05:06.80,*Default,,0000,0000,0000,,Tá!
+Dialogue: Marked=0,0:05:07.37,0:05:08.29,*Default,,0000,0000,0000,,Estou indo.
+Dialogue: Marked=0,0:05:08.29,0:05:09.14,*Default,,0000,0000,0000,,Estou indo!
+Dialogue: Marked=0,0:05:09.14,0:05:13.20,*Default,,0000,0000,0000,,Goten, não atrapalhe\No treinamento do seu irmão.
+Dialogue: Marked=0,0:05:13.20,0:05:13.77,*Default,,0000,0000,0000,,Entendeu?
+Dialogue: Marked=0,0:05:15.17,0:05:19.33,*Default,,0000,0000,0000,,Seu irmão precisa se esforçar para\Nganhar o prêmio do Tenkaichi Budoukai.
+Dialogue: Marked=0,0:05:19.33,0:05:25.53,*Default,,0000,0000,0000,,O dinheiro do meu pai já está acabando...
+Dialogue: Marked=0,0:05:25.53,0:05:27.28,*Default,,0000,0000,0000,,Eu não vou atrapalhar.
+Dialogue: Marked=0,0:05:28.44,0:05:30.13,*Default,,0000,0000,0000,,Mesmo?
+Dialogue: Marked=0,0:05:30.13,0:05:31.61,*Default,,0000,0000,0000,,Então não tem problema.
+Dialogue: Marked=0,0:05:31.61,0:05:35.27,*Default,,0000,0000,0000,,Goten, o que você está fazendo?\NSe não vier logo, vai ficar para trás.
+Dialogue: Marked=0,0:05:35.27,0:05:36.44,*Default,,0000,0000,0000,,Espera!
+Dialogue: Marked=0,0:05:37.09,0:05:38.92,*Default,,0000,0000,0000,,Tome cuidado, Goten!
+Dialogue: Marked=0,0:05:58.25,0:06:00.65,*Default,,0000,0000,0000,,Goten, onde você está?
+Dialogue: Marked=0,0:06:05.17,0:06:07.54,*Default,,0000,0000,0000,,Será que eu corri rápido demais?
+Dialogue: Marked=0,0:06:11.84,0:06:15.83,*Default,,0000,0000,0000,,Isso faz cócegas! Pare!
+Dialogue: Marked=0,0:06:19.04,0:06:24.04,*Default,,0000,0000,0000,,Nii-chan, o dinossauro é meu amigo.
+Dialogue: Marked=0,0:06:24.04,0:06:25.59,*Default,,0000,0000,0000,,Já falei para parar!
+Dialogue: Marked=0,0:06:27.10,0:06:28.82,P!,,0000,0000,0000,,Não tem jeito.
+Dialogue: Marked=0,0:06:31.11,0:06:36.61,P!,,0000,0000,0000,,Minha mãe sempre diz que\Nele é inocente como o meu pai.
+Dialogue: Marked=0,0:06:38.70,0:06:40.26,*Default,,0000,0000,0000,,Ei!
+Dialogue: Marked=0,0:06:40.26,0:06:43.04,*Default,,0000,0000,0000,,Vou começar a treinar primeiro!
+Dialogue: Marked=0,0:06:45.42,0:06:46.70,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:06:49.49,0:06:52.01,*Default,,0000,0000,0000,,O Goku vai voltar para a Terra?
+Dialogue: Marked=0,0:06:52.68,0:06:55.54,*Default,,0000,0000,0000,,Você deu permissão, Uranai Baba?
+Dialogue: Marked=0,0:06:56.00,0:07:00.79,*Default,,0000,0000,0000,,Claro.\NNão tinha nenhum motivo para negar.
+Dialogue: Marked=0,0:07:01.48,0:07:04.01,*Default,,0000,0000,0000,,Nenhum motivo?
+Dialogue: Marked=0,0:07:10.41,0:07:16.73,*Default,,0000,0000,0000,,O Goku ficou entediado por não\Nreceber o treinamento do Dai Kaio-sama.
+Dialogue: Marked=0,0:07:16.73,0:07:21.69,*Default,,0000,0000,0000,,E, então, chegou a\Nnotícia do Tenkaichi Budoukai.
+Dialogue: Marked=0,0:07:23.21,0:07:28.19,*Default,,0000,0000,0000,,Que tal treinar o Goku a partir de agora?
+Dialogue: Marked=0,0:07:28.57,0:07:35.24,*Default,,0000,0000,0000,,N-Não!\NEu tenho uma coisa para fazer.
+Dialogue: Marked=0,0:07:40.40,0:07:45.00,*Default,,0000,0000,0000,,Bem, se o Goku disse que quer\Nvoltar nesse dia, não tem problema.
+Dialogue: Marked=0,0:08:12.92,0:08:14.53,*Default,,0000,0000,0000,,Nii-chan!
+Dialogue: Marked=0,0:08:15.27,0:08:16.87,*Default,,0000,0000,0000,,Que bonito.
+Dialogue: Marked=0,0:08:17.33,0:08:18.37,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:08:19.25,0:08:21.00,*Default,,0000,0000,0000,,Olhe, é um inseto.
+Dialogue: Marked=0,0:08:36.08,0:08:40.52,*Default,,0000,0000,0000,,Nii-chan, nii-chan, achei um lagarto!
+Dialogue: Marked=0,0:08:41.02,0:08:45.52,*Default,,0000,0000,0000,,O que está fazendo, Goten?\NNão viemos para brincar!
+Dialogue: Marked=0,0:08:46.25,0:08:50.28,*Default,,0000,0000,0000,,Por que você não vai para\Nalgum lugar treinar, também?
+Dialogue: Marked=0,0:08:50.92,0:08:53.26,*Default,,0000,0000,0000,,Se continuar com isso, não vou poder treinar.
+Dialogue: Marked=0,0:08:53.26,0:08:54.54,*Default,,0000,0000,0000,,Que coisa!
+Dialogue: Marked=0,0:09:19.95,0:09:21.81,*Default,,0000,0000,0000,,Nii-chan, nii-chan!
+Dialogue: Marked=0,0:09:23.14,0:09:24.27,*Default,,0000,0000,0000,,O que foi desta vez, Goten?
+Dialogue: Marked=0,0:09:25.73,0:09:29.85,*Default,,0000,0000,0000,,Nii-chan, peguei um dinossauro gigante!
+Dialogue: Marked=0,0:09:49.28,0:09:50.65,*Default,,0000,0000,0000,,Você está bem, Goten?
+Dialogue: Marked=0,0:09:50.65,0:09:52.38,*Default,,0000,0000,0000,,Levei um susto.
+Dialogue: Marked=0,0:09:52.84,0:09:55.30,*Default,,0000,0000,0000,,O que está fazendo? É perigoso!
+Dialogue: Marked=0,0:09:56.87,0:10:00.18,*Default,,0000,0000,0000,,Não faça mais nada.\NFique quieto e sentado aí.
+Dialogue: Marked=0,0:10:01.02,0:10:03.31,*Default,,0000,0000,0000,,Tá, entendi, nii-chan.
+Dialogue: Marked=0,0:10:32.12,0:10:33.42,*Default,,0000,0000,0000,,Goten!
+Dialogue: Marked=0,0:10:33.94,0:10:36.76,*Default,,0000,0000,0000,,Quer me ajudar no treinamento?
+Dialogue: Marked=0,0:10:37.67,0:10:38.01,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:10:40.48,0:10:41.51,*Default,,0000,0000,0000,,Bem...
+Dialogue: Marked=0,0:10:42.86,0:10:45.35,*Default,,0000,0000,0000,,O que vai fazer com tantas pedras?
+Dialogue: Marked=0,0:10:46.41,0:10:49.72,*Default,,0000,0000,0000,,Vou usar para recuperar os meus reflexos.
+Dialogue: Marked=0,0:10:49.72,0:10:52.31,*Default,,0000,0000,0000,,O que são reflexos, nii-chan?
+Dialogue: Marked=0,0:10:52.31,0:10:53.23,*Default,,0000,0000,0000,,Você vai entender.
+Dialogue: Marked=0,0:10:55.27,0:11:00.43,*Default,,0000,0000,0000,,Goten, fique aqui perto desta linha e\Njogue as pedras com tudo na minha direção.
+Dialogue: Marked=0,0:11:00.43,0:11:01.32,*Default,,0000,0000,0000,,Jogue mesmo.
+Dialogue: Marked=0,0:11:01.68,0:11:03.08,*Default,,0000,0000,0000,,Tá, entendi.
+Dialogue: Marked=0,0:11:05.56,0:11:07.90,*Default,,0000,0000,0000,,Certo, estou pronto, Goten.\NJogue!
+Dialogue: Marked=0,0:11:08.89,0:11:10.71,*Default,,0000,0000,0000,,Tão perto assim?
+Dialogue: Marked=0,0:11:11.38,0:11:15.71,*Default,,0000,0000,0000,,Podia ser de mais perto, mas começa daí.
+Dialogue: Marked=0,0:11:15.99,0:11:17.47,*Default,,0000,0000,0000,,Mesmo?
+Dialogue: Marked=0,0:11:18.14,0:11:19.55,*Default,,0000,0000,0000,,Não vai se machucar?
+Dialogue: Marked=0,0:11:20.41,0:11:24.18,*Default,,0000,0000,0000,,Não tem problema.\NPode jogar com tudo!
+Dialogue: Marked=0,0:11:26.25,0:11:28.27,*Default,,0000,0000,0000,,Já vou, nii-chan.
+Dialogue: Marked=0,0:11:28.95,0:11:29.77,*Default,,0000,0000,0000,,Certo! Pode ir!
+Dialogue: Marked=0,0:11:30.77,0:11:32.02,*Default,,0000,0000,0000,,1, 2, 3 e...
+Dialogue: Marked=0,0:11:33.89,0:11:34.15,*Default,,0000,0000,0000,,Já!
+Dialogue: Marked=0,0:11:39.46,0:11:42.05,*Default,,0000,0000,0000,,É verdade! Incrível!
+Dialogue: Marked=0,0:11:42.05,0:11:43.91,*Default,,0000,0000,0000,,Só podia ser você, nii-chan.
+Dialogue: Marked=0,0:11:47.10,0:11:49.16,*Default,,0000,0000,0000,,Agora eu vou começar.
+Dialogue: Marked=0,0:11:49.46,0:11:52.42,*Default,,0000,0000,0000,,Ah, espera, espera!
+Dialogue: Marked=0,0:11:55.27,0:11:59.63,*Default,,0000,0000,0000,,Acho que é melhor jogar daqui, não é, Goten?
+Dialogue: Marked=0,0:11:59.63,0:12:01.18,*Default,,0000,0000,0000,,Tudo bem, nii-chan.
+Dialogue: Marked=0,0:12:12.11,0:12:13.77,*Default,,0000,0000,0000,,Certo, já me acostumei.
+Dialogue: Marked=0,0:12:13.77,0:12:15.68,*Default,,0000,0000,0000,,Goten, pode se aproximar mais.
+Dialogue: Marked=0,0:12:17.62,0:12:18.98,*Default,,0000,0000,0000,,Pode se aproximar muito mais.
+Dialogue: Marked=0,0:12:23.77,0:12:24.53,*Default,,0000,0000,0000,,Qual o problema, Goten?
+Dialogue: Marked=0,0:12:24.91,0:12:28.54,*Default,,0000,0000,0000,,Ei, eu posso ficar parecido com você?
+Dialogue: Marked=0,0:12:29.99,0:12:32.02,*Default,,0000,0000,0000,,Ficar parecido comigo?\NO que quer dizer?
+Dialogue: Marked=0,0:12:32.02,0:12:35.54,*Default,,0000,0000,0000,,Quero me transformar\Nnesse tal de Super Saiya-jin.
+Dialogue: Marked=0,0:12:41.73,0:12:46.05,*Default,,0000,0000,0000,,Pode se transformar, mas acho que\Nainda é impossível para você, Goten.
+Dialogue: Marked=0,0:12:46.81,0:12:50.85,*Default,,0000,0000,0000,,Precisa treinar muito para\Nse transformar em Super Saiya-jin.
+Dialogue: Marked=0,0:12:51.72,0:12:55.96,*Default,,0000,0000,0000,,Só consegui depois de\Npassar por um treinamento rigoroso...
+
+Dialogue: Marked=0,0:13:23.84,0:13:26.56,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:13:23.84,0:13:26.56,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:23.84,0:13:26.56,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:23.84,0:13:26.56,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:29.85,0:13:32.57,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(546,555)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:13:29.85,0:13:32.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:29.85,0:13:32.57,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:29.85,0:13:32.57,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:40.15,0:13:43.94,*Default,,0000,0000,0000,,Goten, desde quando você...
+Dialogue: Marked=0,0:13:46.90,0:13:47.95,*Default,,0000,0000,0000,,Esqueci.
+Dialogue: Marked=0,0:13:48.65,0:13:50.35,*Default,,0000,0000,0000,,Não acredito.
+Dialogue: Marked=0,0:13:50.35,0:13:55.96,*Default,,0000,0000,0000,,{\fscx98\fscy98}Nosso falecido pai e eu tivemos muitos problemas para nos transformarmos em Super Saiya-jin.
+Dialogue: Marked=0,0:13:59.20,0:14:02.46,*Default,,0000,0000,0000,,Ei, Goten, você quer treinar comigo?
+Dialogue: Marked=0,0:14:04.53,0:14:06.09,*Default,,0000,0000,0000,,Sabe o que é?
+Dialogue: Marked=0,0:14:06.75,0:14:11.60,*Default,,0000,0000,0000,,Sei. Enquanto você estava\Nestudando, a minha mãe me ensinou.
+Dialogue: Marked=0,0:14:12.41,0:14:13.39,*Default,,0000,0000,0000,,Minha mãe?
+Dialogue: Marked=0,0:14:18.19,0:14:22.68,P!,,0000,0000,0000,,Minha mãe mudou depois que o meu pai morreu.
+Dialogue: Marked=0,0:14:23.85,0:14:27.90,P!,,0000,0000,0000,,Esses dias ela me deixou\Nfaltar na aula e treinar...
+Dialogue: Marked=0,0:14:29.44,0:14:30.24,*Default,,0000,0000,0000,,Ei, Goten...
+Dialogue: Marked=0,0:14:32.08,0:14:36.37,*Default,,0000,0000,0000,,A mãe sabe que você pode\Nse transformar em Super Saiya-jin?
+Dialogue: Marked=0,0:14:48.26,0:14:53.10,L!,,0000,0000,0000,,O que foi, Goten? Não pode fazer melhor?\NSeu falecido pai vai rir de você!
+Dialogue: Marked=0,0:15:03.16,0:15:05.82,L!,,0000,0000,0000,,Desculpe, mãe.
+Dialogue: Marked=0,0:15:07.38,0:15:09.99,L!,,0000,0000,0000,,Go... Go... Go...
+Dialogue: Marked=0,0:15:12.74,0:15:14.13,L!,,0000,0000,0000,,Mãe...
+Dialogue: Marked=0,0:15:16.74,0:15:20.05,L!,,0000,0000,0000,,Até o Goten-chan virou um delinqüente.
+Dialogue: Marked=0,0:15:26.67,0:15:32.04,*Default,,0000,0000,0000,,Eu mostrei uma vez, mas ela ficou com raiva.\NEla disse que pareço um delinqüente.
+Dialogue: Marked=0,0:15:34.69,0:15:37.86,*Default,,0000,0000,0000,,A mãe não gosta de Super Saiya-jins.
+Dialogue: Marked=0,0:15:47.14,0:15:49.40,*Default,,0000,0000,0000,,Certo, Goten. Venha!
+Dialogue: Marked=0,0:16:14.79,0:16:16.85,*Default,,0000,0000,0000,,Não vale, nii-chan!
+Dialogue: Marked=0,0:16:18.69,0:16:21.01,*Default,,0000,0000,0000,,Voar não vale! Não vale!
+Dialogue: Marked=0,0:16:23.61,0:16:24.44,*Default,,0000,0000,0000,,Por quê?
+Dialogue: Marked=0,0:16:25.11,0:16:27.94,*Default,,0000,0000,0000,,Porque não vale! Não vale!
+Dialogue: Marked=0,0:16:29.99,0:16:31.18,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:16:31.85,0:16:36.60,*Default,,0000,0000,0000,,Você não sabe voar, mesmo conseguindo\Nse transformar em Super Saiya-jin?
+Dialogue: Marked=0,0:16:37.49,0:16:38.70,*Default,,0000,0000,0000,,Não sei voar.
+Dialogue: Marked=0,0:16:40.32,0:16:42.71,*Default,,0000,0000,0000,,Aprendeu fora de ordem.
+Dialogue: Marked=0,0:16:43.68,0:16:48.71,*Default,,0000,0000,0000,,Nii-chan, se quiser voar,\Nprecisa me ensinar, senão não vale.
+Dialogue: Marked=0,0:16:49.04,0:16:53.61,*Default,,0000,0000,0000,,Entendi, entendi!\NNão fique mais com raiva, Goten.
+Dialogue: Marked=0,0:16:53.61,0:16:55.72,*Default,,0000,0000,0000,,Vou ensiná-lo a voar.
+Dialogue: Marked=0,0:16:56.99,0:16:58.43,*Default,,0000,0000,0000,,- Sério?\N- É!
+Dialogue: Marked=0,0:17:00.24,0:17:02.43,*Default,,0000,0000,0000,,Oba! Que bom!
+Dialogue: Marked=0,0:17:13.76,0:17:15.38,*Default,,0000,0000,0000,,Aquilo...
+Dialogue: Marked=0,0:17:16.17,0:17:17.20,*Default,,0000,0000,0000,,Não pode ser...
+Dialogue: Marked=0,0:17:22.72,0:17:24.16,*Default,,0000,0000,0000,,Videl-san!
+Dialogue: Marked=0,0:17:27.73,0:17:29.04,*Default,,0000,0000,0000,,É mesmo!
+Dialogue: Marked=0,0:17:29.04,0:17:33.16,*Default,,0000,0000,0000,,Ela disse que queria aprender a voar.
+Dialogue: Marked=0,0:17:34.64,0:17:37.33,*Default,,0000,0000,0000,,Nii-chan, o que foi?
+Dialogue: Marked=0,0:17:37.33,0:17:40.18,*Default,,0000,0000,0000,,Nada.\NParece que você vai ganhar uma amiga, Goten.
+Dialogue: Marked=0,0:17:40.91,0:17:42.36,*Default,,0000,0000,0000,,Amiga?
+Dialogue: Marked=0,0:17:43.69,0:17:45.32,*Default,,0000,0000,0000,,Ei, Goten...
+Dialogue: Marked=0,0:17:45.32,0:17:49.94,*Default,,0000,0000,0000,,Uma garota da mesma\Nescola que eu vem aqui, mas...
+Dialogue: Marked=0,0:17:50.26,0:17:53.58,*Default,,0000,0000,0000,,não pode mostrar para ela quão forte você é.
+Dialogue: Marked=0,0:17:55.56,0:17:59.45,*Default,,0000,0000,0000,,Principalmente se transformar em Super Saiya-jin.
+Dialogue: Marked=0,0:18:00.12,0:18:03.45,*Default,,0000,0000,0000,,Ah, entendi.\NEla vai pensar que sou delinqüente, não é?
+Dialogue: Marked=0,0:18:05.85,0:18:07.96,*Default,,0000,0000,0000,,É, por aí.
+Dialogue: Marked=0,0:18:08.33,0:18:09.50,*Default,,0000,0000,0000,,Vamos logo!
+Dialogue: Marked=0,0:18:17.24,0:18:19.72,*Default,,0000,0000,0000,,Nii-chan, você é incrível.
+Dialogue: Marked=0,0:18:19.72,0:18:23.80,*Default,,0000,0000,0000,,Não consegui acertá-lo nenhuma vez.\NAinda falta muito para mim.
+Dialogue: Marked=0,0:18:23.80,0:18:26.55,*Default,,0000,0000,0000,,Você luta artes marciais muito bem, Goten.
+Dialogue: Marked=0,0:18:26.55,0:18:30.77,*Default,,0000,0000,0000,,Fiquei surpreso.\NNão sabia que você era tão bom.
+Dialogue: Marked=0,0:18:31.59,0:18:36.57,*Default,,0000,0000,0000,,Por que você não treina bastante\Ne participa do Tenkaichi Budoukai?
+Dialogue: Marked=0,0:18:36.57,0:18:38.35,*Default,,0000,0000,0000,,Sério?
+Dialogue: Marked=0,0:18:38.35,0:18:41.83,*Default,,0000,0000,0000,,Mas o Trunks-kun é muito mais forte que eu.
+Dialogue: Marked=0,0:18:42.16,0:18:45.83,*Default,,0000,0000,0000,,Nós brincamos de lutar.
+Dialogue: Marked=0,0:18:46.76,0:18:47.41,*Default,,0000,0000,0000,,Verdade?
+Dialogue: Marked=0,0:18:48.42,0:18:51.08,*Default,,0000,0000,0000,,Vocês brincam assim?
+Dialogue: Marked=0,0:18:52.05,0:18:53.59,*Default,,0000,0000,0000,,Sim, é divertido.
+Dialogue: Marked=0,0:18:55.57,0:18:59.71,P!,,0000,0000,0000,,Se não me cuidar, os pirralhos\Nvão acabar me alcançando.
+Dialogue: Marked=0,0:19:09.19,0:19:11.60,*Default,,0000,0000,0000,,Chega. Fale a verdade.
+Dialogue: Marked=0,0:19:11.60,0:19:15.61,*Default,,0000,0000,0000,,Você veio aqui para chamar\No Gohan-chan para um encontro, não foi?
+Dialogue: Marked=0,0:19:16.26,0:19:18.40,*Default,,0000,0000,0000,,Já falei que não é isso.
+Dialogue: Marked=0,0:19:21.70,0:19:22.25,*Default,,0000,0000,0000,,Oi!
+Dialogue: Marked=0,0:19:24.24,0:19:26.02,*Default,,0000,0000,0000,,Mãe, cheguei!
+Dialogue: Marked=0,0:19:26.02,0:19:26.66,*Default,,0000,0000,0000,,Bem-vindo!
+Dialogue: Marked=0,0:19:27.28,0:19:30.28,*Default,,0000,0000,0000,,Videl-san, você conseguiu chegar aqui.
+Dialogue: Marked=0,0:19:30.97,0:19:33.39,*Default,,0000,0000,0000,,Foi fácil olhando a lista de nomes.
+Dialogue: Marked=0,0:19:33.39,0:19:34.67,*Default,,0000,0000,0000,,Ah, sim...
+Dialogue: Marked=0,0:19:35.28,0:19:39.80,*Default,,0000,0000,0000,,Mas por que você sumiu de repente?
+Dialogue: Marked=0,0:19:40.15,0:19:42.80,*Default,,0000,0000,0000,,Você prometeu me ensinar a voar.
+Dialogue: Marked=0,0:19:43.39,0:19:46.34,*Default,,0000,0000,0000,,Claro que vou ensinar.
+Dialogue: Marked=0,0:19:46.34,0:19:47.85,*Default,,0000,0000,0000,,Gohan-chan...
+Dialogue: Marked=0,0:19:48.53,0:19:52.86,*Default,,0000,0000,0000,,É verdade que essa garota\Nvai participar do Tenkaichi Budoukai?
+Dialogue: Marked=0,0:19:53.83,0:19:55.21,*Default,,0000,0000,0000,,É verdade, mãe.
+Dialogue: Marked=0,0:19:55.21,0:19:59.86,*Default,,0000,0000,0000,,A Videl-san que me falou\Nsobre o Tenkaichi Budoukai.
+Dialogue: Marked=0,0:20:03.94,0:20:05.62,*Default,,0000,0000,0000,,Já que é assim, não tem problema.
+Dialogue: Marked=0,0:20:06.28,0:20:10.53,*Default,,0000,0000,0000,,Mas não faça nada pervertido\Ncom o Gohan-chan para agradecer.
+Dialogue: Marked=0,0:20:13.42,0:20:15.42,*Default,,0000,0000,0000,,Nunca vou fazer isso!
+Dialogue: Marked=0,0:20:21.09,0:20:26.60,*Default,,0000,0000,0000,,Você está pensando em ter sorte de lutar\Ncontra o Gohan-chan no Tenkaichi Budoukai...
+Dialogue: Marked=0,0:20:26.60,0:20:30.77,*Default,,0000,0000,0000,,e se casar com ele lá.
+Dialogue: Marked=0,0:20:30.77,0:20:32.43,*Default,,0000,0000,0000,,Não estou pensando nisso!
+Dialogue: Marked=0,0:20:32.43,0:20:36.36,*Default,,0000,0000,0000,,Por que eu iria querer me\Ncasar no Tenkaichi Budoukai?
+Dialogue: Marked=0,0:20:36.83,0:20:42.36,*Default,,0000,0000,0000,,Mas o meu pai e a minha mãe\Nse casaram no Tenkaichi Budoukai.
+Dialogue: Marked=0,0:20:47.42,0:20:52.87,*Default,,0000,0000,0000,,Ah, não, Goten-chan,\Nvocê me fez ficar com vergonha.
+Dialogue: Marked=0,0:20:54.15,0:20:55.38,*Default,,0000,0000,0000,,Que pessoa estranha.
+Dialogue: Marked=0,0:20:59.22,0:21:04.09,*Default,,0000,0000,0000,,{\fad(0,1600)}Lutei contra o Goku-san\Nno Tenkaichi Budoukai...
+Dialogue: Marked=0,0:21:07.88,0:21:10.77,*Default,,0000,0000,0000,,{\fad(0,1600)}E depois nos casamos.
+Dialogue: Marked=0,0:21:16.80,0:21:19.64,*Default,,0000,0000,0000,,Só boas lembranças.
+Dialogue: Marked=0,0:21:20.38,0:21:25.04,*Default,,0000,0000,0000,,Mas quanto ao Gohan-chan e você,\Na conversa é outra!
+Dialogue: Marked=0,0:21:25.04,0:21:27.52,*Default,,0000,0000,0000,,Já falei que isso não faz sentido!
+Dialogue: Marked=0,0:21:27.52,0:21:29.79,*Default,,0000,0000,0000,,Não fale coisas idiotas!
+Dialogue: Marked=0,0:21:30.23,0:21:31.29,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:21:42.86,0:21:46.22,Narrador,,0000,0000,0000,,Só falta um mês até o Tenkaichi Budoukai.
+Dialogue: Marked=0,0:21:46.65,0:21:49.86,Narrador,,0000,0000,0000,,Não tem problema participar\Ncomo adversário de Videl, Gohan?
+Dialogue: Marked=0,0:21:54.44,0:21:57.69,*Default,,0000,0000,0000,,Parece que não vou\Nter tempo para treinar em paz.
+Dialogue: Marked=0,0:22:00.27,0:22:02.47,P!,,0000,0000,0000,,Mas o Goten...
+Dialogue: Marked=0,0:22:05.45,0:22:09.74,Narrador,,0000,0000,0000,,Apesar de ser pequeno,\NGoten esconde um potencial incrível.
+Dialogue: Marked=0,0:22:14.23,0:22:17.06,P!,,0000,0000,0000,,Não posso relaxar.
+
+Dialogue: Marked=0,0:24:03.82,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx75\fscy55\pos(230,170)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.82,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx48\fscy48\pos(227,260)\t(9110,0)}http://torrents.ebrain.com.br

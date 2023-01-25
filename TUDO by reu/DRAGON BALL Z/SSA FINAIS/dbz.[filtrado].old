@@ -1,0 +1,70 @@
+# ··· Configuración ···
+
+cf = 1
+rs_x = 640
+rs_y = 480
+
+bOP = 1
+eOP = 2615
+bED = 32444
+eED = 34781
+
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\vaguedenoiser.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\masktools.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\removegrains.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\simpleresize.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\unfilter.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\undot.dll")
+loadplugin("C:\Arquivos de programas\AviSynth 2.5\plugins\SangNom.dll")
+import("C:\Arquivos de programas\AviSynth 2.5\plugins\limitedsharpen.avsi")
+import("C:\Arquivos de programas\AviSynth 2.5\plugins\easyLayer.avsi")
+
+
+
+# ··· Funciones de filtrado ···
+
+function antialias(clip e,int "AA"){
+
+	AA = default(AA,10)
+
+	rs_x = e.width
+	rs_y = e.height
+
+	e = e.lanczos4resize(rs_x*2,rs_y*2)
+	e = e.turnleft
+	e = e.sangnom(AA)
+	e = e.turnright
+	e = e.sangnom(AA)
+	e = e.simpleresize(rs_x,rs_y)
+	return e
+}
+
+function filt_SR2(clip e){
+	rs_x = e.width
+	rs_y = e.height
+	
+	e = e.vaguedenoiser(nsteps=8,chromaT=0,Wiener=true)
+	e = e.antialias()
+	e = e.unfilter(-10,-10)
+	e = e.limitedsharpen(ss_x=1,ss_y=1,smode=4,strength=100,soft=40)
+	e = e.fastlinedarken(thinning=0)
+	e = e.undot()
+
+	return e
+}
+
+# ··· Delimitación ···
+
+raw = directshowsource("dbz278.avs").ConvertToYV12
+
+p1 = raw.trim(eOP+1,bED-1)
+
+OP = raw.trim(bOP,eOP)
+OP1 = OP.easylayer(avisource("dbz_alpha.avi").Trim(1,2614))
+OP2 = OP1
+ED = raw.trim(bED,eED)
+
+# ··· [FINAL] ···
+
+final = OP2+p1+ED
+return final

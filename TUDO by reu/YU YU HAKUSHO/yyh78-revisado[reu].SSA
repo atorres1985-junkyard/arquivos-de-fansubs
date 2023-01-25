@@ -1,0 +1,255 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,36,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,16777215,8454143,3815994,3815994,0,0,1,0,2,2,30,30,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,16777215,8454143,3815994,3815994,0,0,1,0,2,2,30,30,25,0,0
+Style: PLACA2,FormalScrp421 BT,80,29952,8454143,3815994,3815994,0,0,1,2,2,2,30,30,25,0,0
+Style: PLACA3,FormalScrp421 BT,80,&HFF110099,8454143,3815994,-2147483640,0,0,1,5,5,2,30,30,25,0,0
+Style: PLACA4,Arial,80,8678640,8678640,3815994,-2147483640,1,0,1,2,2,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:30.39,0:01:33.13,Narrador,NTP,0000,0000,0000,!Effect,O antigo Detetive do\NReikai, Sensui Shinobu,
+Dialogue: Marked=0,0:01:33.23,0:01:36.53,Narrador,NTP,0000,0000,0000,!Effect,tendo presenciado o horrível\Nlado do coração humano,
+Dialogue: Marked=0,0:01:36.53,0:01:38.89,Narrador,NTP,0000,0000,0000,!Effect,voltou para desprezar toda\Na existência humana.
+Dialogue: Marked=0,0:01:39.20,0:01:41.60,Narrador,NTP,0000,0000,0000,!Effect,Como resultado, ele está tentando abrir\Numa passagem para o Makai,
+Dialogue: Marked=0,0:01:41.70,0:01:44.84,Narrador,NTP,0000,0000,0000,!Effect,para fazer com que todos\Nreparem seus pecados.
+Dialogue: Marked=0,0:01:48.41,0:01:49.81,Narrador,NTP,0000,0000,0000,!Effect,Portanto, enquanto Yusuke e os outros,
+Dialogue: Marked=0,0:01:50.14,0:01:53.90,Narrador,NTP,0000,0000,0000,!Effect,tendo ouvido os fatos de Koenma,\Ncomeçaram a tomar providências,
+Dialogue: Marked=0,0:01:54.42,0:01:57.82,Narrador,NTP,0000,0000,0000,!Effect,e Sensui atacou\No apartamento de Yusuke.
+Dialogue: Marked=0,0:01:58.02,0:01:59.78,*Default,NTP,0000,0000,0000,!Effect,Ei, senpai...
+Dialogue: Marked=0,0:02:00.32,0:02:03.74,*Default,NTP,0000,0000,0000,!Effect,Pelo que ouvi, você passou\Npara o outro lado, não foi?
+Dialogue: Marked=0,0:02:04.13,0:02:08.71,*Default,NTP,0000,0000,0000,!Effect,Isso é um equívoco.\NEu acordei para a realidade.
+Dialogue: Marked=0,0:02:09.53,0:02:10.21,*Default,NTP,0000,0000,0000,!Effect,Vou parar você!
+Dialogue: Marked=0,0:02:10.76,0:02:12.14,*Default,NTP,0000,0000,0000,!Effect,Não vai, não!
+Dialogue: Marked=0,0:02:12.14,0:02:18.18,Nome2,NTP,0000,0000,0000,,{\fad(1500,0)}{\fscx120\fscy120}Episódio 078
+Dialogue: Marked=0,0:02:12.14,0:02:18.18,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(404,420)}{\fscx135\fscy135}O ataque de Dark Angel
+Dialogue: Marked=0,0:02:21.61,0:02:23.74,*Default,NTP,0000,0000,0000,!Effect,Eles estão começando!
+Dialogue: Marked=0,0:02:31.02,0:02:33.49,P!,NTP,0000,0000,0000,!Effect,Não posso dizer nada apenas\Npor ouvir algumas histórias.
+Dialogue: Marked=0,0:02:33.49,0:02:36.49,P!,NTP,0000,0000,0000,!Effect,Eu vou ver com meus próprios\Nolhos o quão poderoso ele é!
+Dialogue: Marked=0,0:02:40.06,0:02:41.41,*Default,NTP,0000,0000,0000,!Effect,Está começando!
+Dialogue: Marked=0,0:02:42.03,0:02:42.87,P!,NTP,0000,0000,0000,!Effect,Ele não pode...
+Dialogue: Marked=0,0:02:45.70,0:02:46.87,L!,NTP,0000,0000,0000,!Effect,O que você está...?
+Dialogue: Marked=0,0:02:49.70,0:02:50.97,L!,NTP,0000,0000,0000,!Effect,Vamos, merda!
+Dialogue: Marked=0,0:02:53.27,0:02:57.48,L!,NTP,0000,0000,0000,!Effect,N-Não me diga que você\Nestá tentando me salvar...
+Dialogue: Marked=0,0:02:57.48,0:03:00.01,L!,NTP,0000,0000,0000,!Effect,depois de eu ter tentado te matar?
+Dialogue: Marked=0,0:03:00.18,0:03:03.01,L!,NTP,0000,0000,0000,!Effect,Eu não estou te salvando\Nporque eu quero, idiota.
+Dialogue: Marked=0,0:03:05.52,0:03:07.85,*Default,NTP,0000,0000,0000,!Effect,Ele não pode! Traga-o de volta!
+Dialogue: Marked=0,0:03:08.72,0:03:11.06,*Default,NTP,0000,0000,0000,!Effect,Ele? Você quer dizer o Kuwa-chan?
+Dialogue: Marked=0,0:03:11.29,0:03:14.02,*Default,NTP,0000,0000,0000,!Effect,Afinal, o que você está\Nquerendo dizer? Conte-nos.
+Dialogue: Marked=0,0:03:17.63,0:03:17.99,*Default,NTP,0000,0000,0000,!Effect,Aí vai!
+Dialogue: Marked=0,0:03:27.54,0:03:28.75,P!,NTP,0000,0000,0000,!Effect,Te peguei!
+Dialogue: Marked=0,0:03:47.49,0:03:48.56,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:03:58.27,0:03:59.61,*Default,NTP,0000,0000,0000,!Effect,Seu desgraçado!
+Dialogue: Marked=0,0:04:19.52,0:04:23.97,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo, Urameshi?!\NBata nesse cara com toda sua força!
+Dialogue: Marked=0,0:04:27.20,0:04:31.14,P!,NTP,0000,0000,0000,!Effect,Idiota! Eu coloquei todo\No meu poder nesse segundo soco!
+Dialogue: Marked=0,0:04:31.80,0:04:34.27,P!,NTP,0000,0000,0000,!Effect,É quase como se eu estivesse\Nlutando contra uma borracha!
+Dialogue: Marked=0,0:04:34.27,0:04:36.07,P!,NTP,0000,0000,0000,!Effect,Como se meu ataque fosse rebatido!
+Dialogue: Marked=0,0:04:37.61,0:04:41.04,*Default,NTP,0000,0000,0000,!Effect,Isso é ruim. Ele é o tipo de oponente\Nque o Yusuke não consegue enfrentar!
+Dialogue: Marked=0,0:04:42.35,0:04:44.45,*Default,NTP,0000,0000,0000,!Effect,Ele não desvia dos golpes do Yusuke,
+Dialogue: Marked=0,0:04:44.45,0:04:46.53,*Default,NTP,0000,0000,0000,!Effect,mas ele também não os\Nrecebe diretamente.
+Dialogue: Marked=0,0:04:47.38,0:04:49.08,*Default,NTP,0000,0000,0000,!Effect,Sem abrir mão de seus movimentos,
+Dialogue: Marked=0,0:04:49.25,0:04:51.95,*Default,NTP,0000,0000,0000,!Effect,ele muda a trajetória do\Nsoco do Yusuke, e então contra-ataca!
+Dialogue: Marked=0,0:04:55.69,0:04:59.00,*Default,NTP,0000,0000,0000,!Effect,Você tem razão.\NEsse é o estilo Resshu-ken.
+Dialogue: Marked=0,0:05:01.50,0:05:02.69,P!,NTP,0000,0000,0000,!Effect,Resshu-ken?
+Dialogue: Marked=0,0:05:05.22,0:05:17.11,N!,NTP,0000,0000,0000,!Effect,Técnica do Chute Estridente
+Dialogue: Marked=0,0:05:05.22,0:05:17.11,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)}{\pos(410,400)\fscx140\fscy120}Resshu-ken
+Dialogue: Marked=0,0:05:05.94,0:05:10.17,Narrador,NTP,0000,0000,0000,!Effect,{\fscx95\fscy95}O estilo Resshu-ken é uma arte marcial baseada,\Nprincipalmente, no trabalho com os pés.
+Dialogue: Marked=0,0:05:10.17,0:05:13.54,Narrador,NTP,0000,0000,0000,!Effect,A parte superior do corpo se defende\Npara poder mudar o rumo de um ataque,
+Dialogue: Marked=0,0:05:13.54,0:05:16.41,Narrador,NTP,0000,0000,0000,!Effect,enquanto um chute destrutivo\Nacaba com o oponente.
+Dialogue: Marked=0,0:05:17.61,0:05:20.52,*Default,NTP,0000,0000,0000,!Effect,Resshu-ken, a técnica que\Nnão é permitida ensinar...
+Dialogue: Marked=0,0:05:20.88,0:05:23.65,*Default,NTP,0000,0000,0000,!Effect,enquanto seus usuários não\Ndominarem todas as outras formas.
+Dialogue: Marked=0,0:05:24.66,0:05:26.60,*Default,NTP,0000,0000,0000,!Effect,Dizem ser o estilo\Nmais poderoso de todos,
+Dialogue: Marked=0,0:05:26.60,0:05:28.71,*Default,NTP,0000,0000,0000,!Effect,quando comparado com\Noutras fracas técnicas de luta.
+Dialogue: Marked=0,0:05:34.39,0:05:36.28,*Default,NTP,0000,0000,0000,!Effect,O Kuwabara não pode ficar sozinho!
+Dialogue: Marked=0,0:05:36.85,0:05:39.21,*Default,NTP,0000,0000,0000,!Effect,Ele não está sozinho. Todos os\Noutros estão lá embaixo com ele.
+Dialogue: Marked=0,0:05:39.92,0:05:42.29,*Default,NTP,0000,0000,0000,!Effect,Ele é a pessoa que o Sensui-san\Nandava procurando...
+Dialogue: Marked=0,0:05:42.29,0:05:44.17,*Default,NTP,0000,0000,0000,!Effect,Aquele com a habilidade\Nde atravessar dimensões...
+Dialogue: Marked=0,0:05:46.38,0:05:50.64,*Default,NTP,0000,0000,0000,!Effect,Acalme-se. Ele está procurando\Npelo poder do Kazuma. E depois?
+Dialogue: Marked=0,0:05:51.52,0:05:55.85,*Default,NTP,0000,0000,0000,!Effect,O objetivo de Sensui-san é capturar\No Kuwabara. Não há dúvidas disso.
+Dialogue: Marked=0,0:05:56.72,0:05:58.06,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:06:00.77,0:06:02.02,*Default,NTP,0000,0000,0000,!Effect,Eles se foram!
+Dialogue: Marked=0,0:06:02.37,0:06:03.41,*Default,NTP,0000,0000,0000,!Effect,Eles estão lá!
+Dialogue: Marked=0,0:06:03.41,0:06:04.48,*Default,NTP,0000,0000,0000,!Effect,É ele! Cuidado!
+Dialogue: Marked=0,0:06:04.91,0:06:06.11,*Default,NTP,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:06:06.11,0:06:07.78,*Default,NTP,0000,0000,0000,!Effect,Botan-chan, abaixe-se!
+Dialogue: Marked=0,0:06:09.61,0:06:11.20,*Default,NTP,0000,0000,0000,!Effect,Ele de novo?
+Dialogue: Marked=0,0:06:40.24,0:06:41.73,*Default,NTP,0000,0000,0000,!Effect,Como podem ver...
+Dialogue: Marked=0,0:06:42.26,0:06:46.18,*Default,NTP,0000,0000,0000,!Effect,Eu uso o estilo Resshu-ken.\NMas, além disso...
+Dialogue: Marked=0,0:06:48.79,0:06:51.62,*Default,NTP,0000,0000,0000,!Effect,Por mesclar meus próprios poderes\Nespirituais com as técnicas Resshu-ken,
+Dialogue: Marked=0,0:06:52.52,0:06:54.52,*Default,NTP,0000,0000,0000,!Effect,eu criei minha\Nprópria arte marcial!
+Dialogue: Marked=0,0:06:55.71,0:06:58.29,*Default,NTP,0000,0000,0000,!Effect,Eu a chamo de Reikoresshu-ken!
+Dialogue: Marked=0,0:06:58.85,0:07:01.25,*Default,NTP,0000,0000,0000,!Effect,R-Reikoresshu-ken?!
+Dialogue: Marked=0,0:07:01.64,0:07:05.21,P!,NTP,0000,0000,0000,!Effect,Sensui, você foi tão longe\Nassim nestes dez anos?
+Dialogue: Marked=0,0:07:09.17,0:07:12.04,P!,NTP,0000,0000,0000,!Effect,Nós estávamos certos de\Nque eles farão o que planejaram!
+Dialogue: Marked=0,0:07:13.06,0:07:13.89,*Default,NTP,0000,0000,0000,!Effect,Botan-chan!
+Dialogue: Marked=0,0:07:24.67,0:07:25.44,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:07:26.41,0:07:28.07,Comentario,NTP,0000,0000,0000,!Effect,Chute Destrutivo de Chamas
+Dialogue: Marked=0,0:07:26.41,0:07:28.07,Doutrina,NTP,0000,0000,0000,!Effect,Resshu Kokyu-ha
+Dialogue: Marked=0,0:07:30.16,0:07:31.07,*Default,NTP,0000,0000,0000,!Effect,Cuidado!
+Dialogue: Marked=0,0:07:34.35,0:07:36.62,N!,NTP,0000,0000,0000,!Effect,Chute Destrutivo de Chamas
+Dialogue: Marked=0,0:07:34.35,0:07:36.62,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)}{\pos(410,390)\fscx140\fscy120}Resshu Kokyu-ha
+Dialogue: Marked=0,0:07:40.80,0:07:41.98,*Default,NTP,0000,0000,0000,!Effect,Shizuru-san!
+Dialogue: Marked=0,0:07:41.98,0:07:43.04,*Default,NTP,0000,0000,0000,!Effect,Estou indo!
+Dialogue: Marked=0,0:07:43.52,0:07:48.24,*Default,NTP,0000,0000,0000,!Effect,Afinal de contas, ele é meu irmão!\NBotan-chan, cuide do Mitarai-kun!
+Dialogue: Marked=0,0:08:06.38,0:08:09.03,*Default,NTP,0000,0000,0000,!Effect,O quê?! Voou pra bem longe!
+Dialogue: Marked=0,0:08:39.02,0:08:41.23,*Default,NTP,0000,0000,0000,!Effect,É perto de onde fica o\Napartamento do Yusuke!
+Dialogue: Marked=0,0:08:42.02,0:08:45.94,*Default,NTP,0000,0000,0000,!Effect,Então ele... Então ele não\Nestava atrás de nós desde o começo?
+Dialogue: Marked=0,0:08:46.36,0:08:47.70,*Default,NTP,0000,0000,0000,!Effect,Oh, droga!
+Dialogue: Marked=0,0:08:47.70,0:08:51.40,*Default,NTP,0000,0000,0000,!Effect,Botan, Mitarai e minha irmã\Nainda estão no apartamento!
+Dialogue: Marked=0,0:08:53.70,0:08:55.07,*Default,NTP,0000,0000,0000,!Effect,Merda!
+Dialogue: Marked=0,0:08:57.94,0:08:58.74,*Default,NTP,0000,0000,0000,!Effect,Kuwabara!
+Dialogue: Marked=0,0:08:58.93,0:09:00.16,*Default,NTP,0000,0000,0000,!Effect,Em cima de você!
+Dialogue: Marked=0,0:09:01.04,0:09:01.70,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:09:10.28,0:09:13.23,*Default,NTP,0000,0000,0000,!Effect,Ba-san! Koenma!\NCuidem do Mitarai e dos outros!
+Dialogue: Marked=0,0:09:13.23,0:09:13.97,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:09:14.23,0:09:16.43,*Default,NTP,0000,0000,0000,!Effect,Eu acabarei com ele!
+Dialogue: Marked=0,0:09:22.74,0:09:24.39,*Default,NTP,0000,0000,0000,!Effect,Você irá acabar comigo?
+Dialogue: Marked=0,0:09:25.16,0:09:27.35,*Default,NTP,0000,0000,0000,!Effect,Se isso foi uma piada,\Neu não estou rindo.
+Dialogue: Marked=0,0:09:27.64,0:09:30.02,P!,NTP,0000,0000,0000,!Effect,Não!\NEu estou falando sério!
+Dialogue: Marked=0,0:09:45.10,0:09:49.29,P!,NTP,0000,0000,0000,!Effect,Uma finta? Sendo tão esperto assim,\Nele não parece estar pensando...
+Dialogue: Marked=0,0:09:56.18,0:09:59.26,P!,NTP,0000,0000,0000,!Effect,O que você acha disso?\NVocê pode manter essa velocidade?
+Dialogue: Marked=0,0:10:11.71,0:10:13.23,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:10:17.47,0:10:18.61,*Default,NTP,0000,0000,0000,!Effect,Merda...
+Dialogue: Marked=0,0:10:20.32,0:10:21.74,*Default,NTP,0000,0000,0000,!Effect,Seus movimentos são mal planejados!
+Dialogue: Marked=0,0:10:22.50,0:10:25.62,*Default,NTP,0000,0000,0000,!Effect,É melhor você reaprender\Ntudo desde o começo!
+Dialogue: Marked=0,0:10:40.74,0:10:41.70,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:10:43.67,0:10:45.01,*Default,NTP,0000,0000,0000,!Effect,Há uma fumaça crescendo!
+Dialogue: Marked=0,0:10:52.25,0:10:53.02,*Default,NTP,0000,0000,0000,!Effect,Esse é o sinal.
+Dialogue: Marked=0,0:10:53.35,0:10:56.20,*Default,NTP,0000,0000,0000,!Effect,Tudo bem, vamos indo.\NÉ guerra geral.
+Dialogue: Marked=0,0:11:04.79,0:11:08.12,P!,NTP,0000,0000,0000,!Effect,Droga... Se eu não fizer alguma\Ncoisa em relação aos pés dele...
+Dialogue: Marked=0,0:11:12.04,0:11:12.33,*Default,NTP,0000,0000,0000,!Effect,Espera aí!
+Dialogue: Marked=0,0:11:47.40,0:11:48.66,*Default,NTP,0000,0000,0000,!Effect,Shizuru-san!
+Dialogue: Marked=0,0:11:51.41,0:11:53.58,*Default,NTP,0000,0000,0000,!Effect,Shizuru-san, você se machucou?
+Dialogue: Marked=0,0:11:55.08,0:11:56.56,*Default,NTP,0000,0000,0000,!Effect,Estou bem.
+Dialogue: Marked=0,0:11:56.56,0:11:57.30,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:11:57.91,0:11:59.06,*Default,NTP,0000,0000,0000,!Effect,Me deixe, Keiko-chan.
+Dialogue: Marked=0,0:11:59.65,0:12:03.93,*Default,NTP,0000,0000,0000,!Effect,Você pode falar para o Yusuke\Ne os outros pararem aquele idiota?
+Dialogue: Marked=0,0:12:04.88,0:12:07.39,*Default,NTP,0000,0000,0000,!Effect,Aqueles caras estão atrás\Ndo poder do Kazuma!
+Dialogue: Marked=0,0:12:08.09,0:12:11.91,*Default,NTP,0000,0000,0000,!Effect,Aquele idiota está prestes a\Nser raptado e levado pra bem longe daqui.
+Dialogue: Marked=0,0:12:11.91,0:12:14.32,*Default,NTP,0000,0000,0000,!Effect,Se você não se apressar,\Neles irão pegá-lo!
+Dialogue: Marked=0,0:12:15.22,0:12:15.81,*Default,NTP,0000,0000,0000,!Effect,Entendido!
+Dialogue: Marked=0,0:12:16.24,0:12:20.22,*Default,NTP,0000,0000,0000,!Effect,Rápido, por favor!\NEu irei logo depois de você!
+Dialogue: Marked=0,0:12:20.22,0:12:20.72,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:12:28.65,0:12:30.50,*Default,NTP,0000,0000,0000,!Effect,Estou contando com você...
+Dialogue: Marked=0,0:12:47.19,0:12:48.43,*Default,NTP,0000,0000,0000,!Effect,Maldito!
+Dialogue: Marked=0,0:13:01.06,0:13:03.74,*Default,NTP,0000,0000,0000,!Effect,O que você está tentando fazer?!\NVocê não vai escapar!
+Dialogue: Marked=0,0:13:07.75,0:13:08.20,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:13:43.86,0:13:47.36,*Default,NTP,0000,0000,0000,!Effect,Urameshi! Não fique com medo desse Reikoresshu-ken!
+Dialogue: Marked=0,0:13:47.36,0:13:50.17,*Default,NTP,0000,0000,0000,!Effect,Você é o sucessor do\NReikohadou-ken, não é?!
+Dialogue: Marked=0,0:13:50.17,0:13:53.81,*Default,NTP,0000,0000,0000,!Effect,Não, o Yusuke deve ser avisado de que\Nse ele não acabar com o estilo do Sensui,
+Dialogue: Marked=0,0:13:53.81,0:13:55.54,*Default,NTP,0000,0000,0000,!Effect,não há chance alguma de ele atacar!
+Dialogue: Marked=0,0:14:14.85,0:14:17.06,*Default,NTP,0000,0000,0000,!Effect,Nós iremos lutar pra valer, não é?
+Dialogue: Marked=0,0:14:18.19,0:14:20.10,*Default,NTP,0000,0000,0000,!Effect,Tome isso! Reikodan!
+Dialogue: Marked=0,0:14:39.38,0:14:43.13,*Default,NTP,0000,0000,0000,!Effect,Espere! Você irá me enfrentar!
+Dialogue: Marked=0,0:14:44.05,0:14:47.30,*Default,NTP,0000,0000,0000,!Effect,O guerreiro do amor,\No machão Kuwabara, retornou!
+Dialogue: Marked=0,0:14:48.27,0:14:49.38,*Default,NTP,0000,0000,0000,!Effect,Aquele idiota...
+Dialogue: Marked=0,0:14:49.72,0:14:51.97,*Default,NTP,0000,0000,0000,!Effect,Aproveite essa calma enquanto pode!
+Dialogue: Marked=0,0:14:52.45,0:14:54.89,*Default,NTP,0000,0000,0000,!Effect,Estou prestes a lhe mostrar\Nminha espada aprimorada!
+Dialogue: Marked=0,0:14:55.50,0:14:56.73,P!,NTP,0000,0000,0000,!Effect,Isso é perfeito.
+Dialogue: Marked=0,0:14:56.73,0:15:00.85,P!,NTP,0000,0000,0000,!Effect,Eu vou confirmar com meus próprios olhos\Nse podemos fazer o uso de sua habilidade.
+Dialogue: Marked=0,0:15:05.06,0:15:08.36,*Default,NTP,0000,0000,0000,!Effect,Essa não é a mesma espada daquela hora!\NÉ a minha Rei-ken de sempre!
+Dialogue: Marked=0,0:15:25.30,0:15:27.09,*Default,NTP,0000,0000,0000,!Effect,O que está acontecendo?!
+Dialogue: Marked=0,0:15:27.76,0:15:29.24,P!,NTP,0000,0000,0000,!Effect,Essa não é uma Jigen-to...
+Dialogue: Marked=0,0:15:30.02,0:15:33.05,P!,NTP,0000,0000,0000,!Effect,Me parece que ele ainda não sabe\Ncomo usá-la corretamente.
+Dialogue: Marked=0,0:15:34.36,0:15:35.32,*Default,NTP,0000,0000,0000,!Effect,Quem se importa?!
+Dialogue: Marked=0,0:15:35.38,0:15:36.06,*Default,NTP,0000,0000,0000,!Effect,Kuwabara-kun!
+Dialogue: Marked=0,0:15:47.38,0:15:48.18,P!,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:15:49.79,0:15:51.03,P!,NTP,0000,0000,0000,!Effect,Também não é sua Rei-ken!
+Dialogue: Marked=0,0:15:57.39,0:15:58.66,Comentario,NTP,0000,0000,0000,!Effect,Chicote de Rosas
+Dialogue: Marked=0,0:15:57.39,0:15:58.66,Doutrina,NTP,0000,0000,0000,!Effect,{\c&H14483677&}Rose Whip
+Dialogue: Marked=0,0:15:59.85,0:16:02.00,P!,NTP,0000,0000,0000,!Effect,Nós não podemos pegar o Sensui\Ncom qualquer ação direta...
+Dialogue: Marked=0,0:16:02.53,0:16:05.79,P!,NTP,0000,0000,0000,!Effect,Mas com o meu Rose Whip,\Neu posso conter seu Resshu-ken!
+Dialogue: Marked=0,0:16:21.36,0:16:22.73,*Default,NTP,0000,0000,0000,!Effect,O que foi isso?
+Dialogue: Marked=0,0:16:22.73,0:16:23.98,*Default,NTP,0000,0000,0000,!Effect,Isso é uma luta?
+Dialogue: Marked=0,0:16:27.73,0:16:30.24,*Default,NTP,0000,0000,0000,!Effect,Você ainda consegue usar esse\Nseu chicote desse jeito?
+Dialogue: Marked=0,0:16:31.54,0:16:32.44,P!,NTP,0000,0000,0000,!Effect,Então era isso que ele planejava...
+Dialogue: Marked=0,0:16:32.44,0:16:34.74,P!,NTP,0000,0000,0000,!Effect,quando ele nos desafiou para\Numa batalha no meio da cidade?
+Dialogue: Marked=0,0:16:49.85,0:16:52.67,P!,NTP,0000,0000,0000,!Effect,Hagiri, em boa hora!
+Dialogue: Marked=0,0:16:53.99,0:16:54.84,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:17:04.44,0:17:06.52,*Default,NTP,0000,0000,0000,!Effect,Então eu devo te enfrentar?
+Dialogue: Marked=0,0:17:07.29,0:17:11.03,*Default,NTP,0000,0000,0000,!Effect,Se você não quiser que alguém se machuque,\Nterá de ficar aqui comigo um pouco mais.
+Dialogue: Marked=0,0:17:13.32,0:17:15.76,*Default,NTP,0000,0000,0000,!Effect,Ei, o que está acontecendo ali?
+Dialogue: Marked=0,0:17:21.48,0:17:25.09,P!,NTP,0000,0000,0000,!Effect,Seu objetivo é dividir nossa\Nforça de luta. Isso é ruim.
+Dialogue: Marked=0,0:17:25.09,0:17:27.16,P!,NTP,0000,0000,0000,!Effect,Com essa demora, perderei o\NYusuke e os outros de vista.
+Dialogue: Marked=0,0:17:27.16,0:17:28.21,P!,NTP,0000,0000,0000,!Effect,No entanto...
+Dialogue: Marked=0,0:17:28.21,0:17:30.51,*Default,NTP,0000,0000,0000,!Effect,Kurama-kun! É o Kuwabara-kun!
+Dialogue: Marked=0,0:17:31.45,0:17:32.01,*Default,NTP,0000,0000,0000,!Effect,Para trás!
+Dialogue: Marked=0,0:18:00.04,0:18:01.24,*Default,NTP,0000,0000,0000,!Effect,Puu-chan...
+Dialogue: Marked=0,0:18:02.05,0:18:03.56,*Default,NTP,0000,0000,0000,!Effect,Puu-chan! Puu-chan!
+Dialogue: Marked=0,0:18:05.19,0:18:06.25,*Default,NTP,0000,0000,0000,!Effect,Graças a Deus!
+Dialogue: Marked=0,0:18:07.11,0:18:08.94,*Default,NTP,0000,0000,0000,!Effect,Qual o problema, Keiko-chan?
+Dialogue: Marked=0,0:18:08.94,0:18:11.66,*Default,NTP,0000,0000,0000,!Effect,Kurama-kun!\NO Kuwabara-kun está em perigo!
+Dialogue: Marked=0,0:18:14.27,0:18:15.92,P!,NTP,0000,0000,0000,!Effect,Você não vai escapar, Sensui!
+Dialogue: Marked=0,0:18:43.79,0:18:45.96,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo num lugar como esse?!
+Dialogue: Marked=0,0:18:48.16,0:18:50.71,*Default,NTP,0000,0000,0000,!Effect,Isso é um estacionamento!\NÉ perigoso aqui!
+Dialogue: Marked=0,0:18:50.71,0:18:53.00,*Default,NTP,0000,0000,0000,!Effect,Crianças como você deveriam\Nestar brincando em outro lugar!
+Dialogue: Marked=0,0:18:54.35,0:18:57.34,*Default,NTP,0000,0000,0000,!Effect,Merda, eles não estão neste andar.\NDevem estar na cobertura, então!
+Dialogue: Marked=0,0:19:00.33,0:19:04.93,P!,NTP,0000,0000,0000,!Effect,Que sensação estranha é essa?\NIsso é um Território!
+Dialogue: Marked=0,0:19:08.04,0:19:10.44,*Default,NTP,0000,0000,0000,!Effect,Garoto, não me diga que...
+Dialogue: Marked=0,0:19:18.10,0:19:22.16,*Default,NTP,0000,0000,0000,!Effect,Eu não estou brincando com você!\NVamos acabar com isso aqui mesmo!
+Dialogue: Marked=0,0:19:26.30,0:19:27.12,*Default,NTP,0000,0000,0000,!Effect,Kuwabara!
+Dialogue: Marked=0,0:19:33.07,0:19:35.13,*Default,NTP,0000,0000,0000,!Effect,Ei, me solte!
+Dialogue: Marked=0,0:19:35.60,0:19:37.88,*Default,NTP,0000,0000,0000,!Effect,Onde está você?! Kuwabara!
+Dialogue: Marked=0,0:19:47.53,0:19:48.06,*Default,NTP,0000,0000,0000,!Effect,Aquilo é...
+Dialogue: Marked=0,0:19:50.23,0:19:51.02,*Default,NTP,0000,0000,0000,!Effect,Kuwabara-kun!
+Dialogue: Marked=0,0:19:51.02,0:19:52.19,*Default,NTP,0000,0000,0000,!Effect,Espera!
+Dialogue: Marked=0,0:19:56.15,0:19:57.00,*Default,NTP,0000,0000,0000,!Effect,Você não irá fugir!
+Dialogue: Marked=0,0:19:57.00,0:19:58.36,Doutrina2,NTP,0000,0000,0000,!Effect,{\c&H00FF9F99&}Rei-gun
+Dialogue: Marked=0,0:20:03.90,0:20:06.45,*Default,NTP,0000,0000,0000,!Effect,Merda! Eu esqueci de segurar!
+Dialogue: Marked=0,0:20:07.04,0:20:09.69,*Default,NTP,0000,0000,0000,!Effect,Yusuke!\NVocê disparou um poderoso Rei-gun!
+Dialogue: Marked=0,0:20:09.69,0:20:12.15,*Default,NTP,0000,0000,0000,!Effect,Acabará com o carro,\NKuwabara-kun e tudo mais!
+Dialogue: Marked=0,0:20:13.04,0:20:14.46,*Default,NTP,0000,0000,0000,!Effect,É tarde demais!
+Dialogue: Marked=0,0:20:19.05,0:20:22.72,*Default,NTP,0000,0000,0000,!Effect,Urameshi!\NSe eu morrer, eu irei assombrá-lo!
+Dialogue: Marked=0,0:20:26.62,0:20:28.35,Comentario,NTP,0000,0000,0000,!Effect,Chute Destrutivo de Chamas
+Dialogue: Marked=0,0:20:26.62,0:20:28.35,Doutrina,NTP,0000,0000,0000,!Effect,Resshu Kokyu-ha
+Dialogue: Marked=0,0:20:41.75,0:20:42.82,P!,NTP,0000,0000,0000,!Effect,Um empate?!
+Dialogue: Marked=0,0:20:43.12,0:20:46.72,P!,NTP,0000,0000,0000,!Effect,Meu Rei-gun e aquela bolinha?\NNão pode ser!
+Dialogue: Marked=0,0:20:46.72,0:20:50.33,P!,NTP,0000,0000,0000,!Effect,Deve ser porque eu,\Ninconscientemente, detive o poder!
+Dialogue: Marked=0,0:20:57.35,0:20:58.84,*Default,NTP,0000,0000,0000,!Effect,Está me ridicularizando, idiota?!
+Dialogue: Marked=0,0:21:01.02,0:21:01.84,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:21:03.03,0:21:04.63,*Default,NTP,0000,0000,0000,!Effect,Yusuke, o que você planeja fazer?
+Dialogue: Marked=0,0:21:04.63,0:21:07.85,*Default,NTP,0000,0000,0000,!Effect,Farei qualquer coisa que eu puder!\NEstou indo salvar o Kuwabara!
+Dialogue: Marked=0,0:21:08.11,0:21:10.60,*Default,NTP,0000,0000,0000,!Effect,Como eu posso ficar aqui parado depois\Nde eles terem brincado tanto conosco?!
+Dialogue: Marked=0,0:21:10.76,0:21:11.70,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:21:11.70,0:21:15.31,*Default,NTP,0000,0000,0000,!Effect,Eu sei! Não farei nada precipitadamente.\NCuide daqui!
+Dialogue: Marked=0,0:21:26.23,0:21:27.74,P!,NTP,0000,0000,0000,!Effect,Mas que merda...
+Dialogue: Marked=0,0:21:29.08,0:21:31.86,Narrador,NTP,0000,0000,0000,!Effect,Sensui e os outros conseguiram\Nlevar Kuwabara com eles!
+Dialogue: Marked=0,0:21:31.86,0:21:35.73,Narrador,NTP,0000,0000,0000,!Effect,Yusuke será capaz de resgatar Kuwabara?
+Dialogue: Marked=0,0:21:35.73,0:21:38.72,Narrador,NTP,0000,0000,0000,!Effect,Há mais dois dias até que\Na abertura para o Makai seja aberta.
+Dialogue: Marked=0,0:21:38.72,0:21:40.34,Narrador,NTP,0000,0000,0000,!Effect,Somente mais dois dias!
+Dialogue: Marked=0,0:21:48.74,0:21:52.13,Conversa,NTP,0000,0000,0000,!Effect,Idiota!\NComo você pôde ficar parado...
+Dialogue: Marked=0,0:21:52.13,0:21:55.18,Conversa,NTP,0000,0000,0000,!Effect,enquanto o Kuwabara era\Nlevado embora diante de seus olhos?!
+Dialogue: Marked=0,0:21:55.72,0:21:57.77,Conversa,NTP,0000,0000,0000,!Effect,Se sua habilidade é despertada,\Ne o poder de atravessar dimensões...
+Dialogue: Marked=0,0:21:57.77,0:22:02.11,Conversa,NTP,0000,0000,0000,!Effect,for usado por eles,\Nserá o fim de tudo!
+Dialogue: Marked=0,0:22:02.75,0:22:04.21,Conversa,NTP,0000,0000,0000,!Effect,Apresse-se, Yusuke!
+Dialogue: Marked=0,0:22:05.09,0:22:08.12,Conversa,NTP,0000,0000,0000,!Effect,{\fscx92\fscy92}Próximo Episódio:\N"A Frustração Insana de Yusuke! Salve Kuwabara!"
+Dialogue: Marked=0,0:22:08.59,0:22:11.79,Conversa,NTP,0000,0000,0000,!Effect,Por favor!\NVocê não pode pedalar mais rápido que isso?!

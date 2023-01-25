@@ -1,0 +1,338 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: <untitled>
+Original Script: <unknown>
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Gorilla BT,40,&H00F5F5F5,&H00FFFFFF,&H00010108,&H82010108,1,0,0,0,100,100,0,0,1,2,2,8,30,30,20,0
+Style: Radio,Gorilla BT,40,&H00F5F5F5,&H00FFFFFF,&H00010108,&H82010108,1,1,0,0,100,100,0,0,1,2,2,8,30,30,20,0
+Style: Narrador,Gorilla BT,40,&H00FFDDBB,&H00FFFFFF,&H00010108,&H82010108,1,0,0,0,100,100,0,0,1,2,2,8,30,30,20,0
+Style: P!,Gorilla BT,40,&H00D7D7FF,&H000100FF,&H00120166,&H82120166,1,0,0,0,100,100,0,0,1,2,2,8,30,30,20,0
+Style: L!,Gorilla BT,40,&H00E4FFCA,&H000100FF,&H00010108,&H82010108,1,0,0,0,100,100,0,0,1,2,2,8,30,30,20,0
+Style: Poder,TimeScrDMed,50,&H0000FFFF,&H000000FF,&H00400040,&H82400040,-1,-1,0,0,100,100,0,0,1,2,0,2,0,30,20,0
+Style: N!,MarkerFeltThin-Plain,30,&H00FFFFFF,&H00C0C0C0,&H00010108,&H82010108,-1,-1,0,0,100,100,0,0,1,3,2,8,30,30,20,0
+Style: KRK!,Cooper Black,39,&H000000FF,&H00C0C0FF,&H00F0FCFF,&H82F0FCFF,1,0,0,0,100,100,0,0,1,3,2,8,30,30,20,0
+Style: apresDB3,Tahoma,50,&H00DDE5DF,&H000000FF,&H00000000,&H82000000,-1,0,0,0,100,100,0,0,1,0,1,1,0,0,50,0
+Style: logokintoun,BranchingMouse Becker,42,&H00CFCFCF,&H003434A9,&H00C08080,&H82C08080,-1,0,0,0,100,100,0,0,1,2,0,7,0,30,0,0
+Style: kintoun,Arial Black,36,&H00B4822E,&H00B4822E,&H00000000,&H82000000,0,0,0,0,100,100,0,0,1,1,0,2,20,20,30,0
+Style: apresenta,Arial Black,29,&H001925B5,&H000E218D,&H00000000,&H82000000,0,0,0,0,100,100,0,0,1,1,0,2,20,20,30,0
+Style: kintoun 2,Arial Black,36,&H00000000,&H00000000,&H00000000,&H82000000,0,0,0,0,100,100,0,0,1,0,0,2,20,20,30,0
+Style: apresenta 2,Arial Black,29,&H00000000,&H00000000,&H00000000,&H82000000,0,0,0,0,100,100,0,0,1,0,0,2,20,20,30,0
+Style: PLACA,TimeScrDMed,36,&H001D1CAD,&H0080FFFF,&H00000000,&H82000000,1,0,0,0,100,100,0,0,0,0,0,0,-10000,-10000,25,0
+Style: PLACA1,FormalScrp421 BT,36,&H00010108,&H0080FFFF,&H003A3A3A,&H823A3A3A,1,0,0,0,100,100,0,0,1,0,0,2,-10000,-10000,25,0
+Style: PLACA2,FormalScrp421 BT,36,&H001D1CAD,&H0080FFFF,&H003A3A3A,&H823A3A3A,1,0,0,0,100,100,0,0,1,0,2,2,-10000,-10000,25,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:48.78,0:02:59.29,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: 0,0:07:50.78,0:08:00.78,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: 0,0:12:57.91,0:13:07.91,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: 0,0:20:13.78,0:20:23.78,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: 0,0:01:58.77,0:02:01.91,Narrador,,0000,0000,0000,,Durante a procura pela terceira Dragon Ball,
+Dialogue: 0,0:02:02.06,0:02:07.58,Narrador,,0000,0000,0000,,Goku, Bulma e Kuririn receberam o ataque\Ndo Capitão Blue, da organização Red Ribbon,
+Dialogue: 0,0:02:07.87,0:02:11.86,Narrador,,0000,0000,0000,,após entrarem na caverna situada no fundo do mar.
+Dialogue: 0,0:02:12.48,0:02:18.88,Narrador,,0000,0000,0000,,Enquanto isso, a Red Ribbon havia enviado uma outra tropa para a Kame House...
+Dialogue: 0,0:02:18.88,0:02:23.20,Narrador,,0000,0000,0000,,por terem confundido a ilha com uma base secreta!
+Dialogue: 0,0:02:34.61,0:02:42.54,apresDB3,,0000,0000,0000,,{\fad(380,0)}{\pos(280,60)\c&HF8FBF3&}{\fscx100\fscy100}Episódio 49
+Dialogue: 0,0:02:34.61,0:02:42.54,apresDB3,,0000,0000,0000,,{\fad(380,0)}{\pos(110,390)\c&HF8FBF3&}{\fscx132\fscy140}Lunch-san em perigo
+Dialogue: 0,0:02:56.78,0:02:59.82,Default,,0000,0000,0000,,Ei! Eles estão nos perseguindo em minissubmarinos agora!
+Dialogue: 0,0:02:59.82,0:03:02.12,Default,,0000,0000,0000,,Nós não podemos ir mais rápido?!
+Dialogue: 0,0:03:02.12,0:03:04.35,Default,,0000,0000,0000,,Nós já estamos a todo vapor!
+Dialogue: 0,0:03:05.57,0:03:07.64,Default,,0000,0000,0000,,Eles têm torpedos...
+Dialogue: 0,0:03:08.26,0:03:09.52,Default,,0000,0000,0000,,O que é um torpedo?
+Dialogue: 0,0:03:10.29,0:03:12.10,Default,,0000,0000,0000,,Ah, me dá um tempo!
+Dialogue: 0,0:03:12.10,0:03:13.65,Default,,0000,0000,0000,,São aquelas bombas que eles atiraram em nós!
+Dialogue: 0,0:03:14.15,0:03:16.07,Default,,0000,0000,0000,,Oh, então aquilo que se chama torpedo?
+Dialogue: 0,0:03:16.53,0:03:19.37,Default,,0000,0000,0000,,Você está tão estúpido, como sempre...
+Dialogue: 0,0:03:19.37,0:03:21.17,Default,,0000,0000,0000,,De qualquer jeito, apresse-se e afaste-nos deles!
+Dialogue: 0,0:03:21.17,0:03:22.07,Default,,0000,0000,0000,,Estou tentando!
+Dialogue: 0,0:03:22.61,0:03:25.01,Default,,0000,0000,0000,,Devemos lançar os torpedos?
+Dialogue: 0,0:03:25.01,0:03:26.62,Default,,0000,0000,0000,,Isso não seria uma boa idéia.
+Dialogue: 0,0:03:27.37,0:03:31.19,Default,,0000,0000,0000,,O que faríamos se tivéssemos\Natirado neles e a caverna desmoronasse?
+Dialogue: 0,0:03:31.19,0:03:32.55,Default,,0000,0000,0000,,Estaríamos em perigo!
+Dialogue: 0,0:03:33.62,0:03:35.13,Default,,0000,0000,0000,,Só continue perseguindo eles!
+Dialogue: 0,0:03:45.53,0:03:48.23,Default,,0000,0000,0000,,O Time A, do General Blue,\Nestá no momento na perseguição do garoto...
+Dialogue: 0,0:03:48.23,0:03:50.39,Default,,0000,0000,0000,,e à procura da terceira Dragon Ball.
+Dialogue: 0,0:03:51.13,0:03:56.27,Default,,0000,0000,0000,,O Time B está a caminho das duas que\Nestão na ilha das coordenadas ESA-7024.
+Dialogue: 0,0:03:57.05,0:04:01.95,Default,,0000,0000,0000,,Acredito que, em breve, eles terão aquele dispositivo localizador de Dragon Balls...
+Dialogue: 0,0:04:01.95,0:04:04.48,Default,,0000,0000,0000,,que aquele professor construiu para o garoto.
+Dialogue: 0,0:04:05.51,0:04:10.30,Default,,0000,0000,0000,,O que nossos cientistas\Nvêm fazendo esse tempo todo?!
+Dialogue: 0,0:04:10.41,0:04:14.33,Default,,0000,0000,0000,,Apesar do fato de outra\Npessoa já ter inventado...
+Dialogue: 0,0:04:14.74,0:04:17.88,Default,,0000,0000,0000,,um localizador menor e mais preciso de Dragon Balls!
+Dialogue: 0,0:04:17.88,0:04:19.47,Default,,0000,0000,0000,,É vergonhoso demais...
+Dialogue: 0,0:04:19.98,0:04:24.34,Default,,0000,0000,0000,,Eu investi tanto... e tudo o que eles puderam me fazer foi...
+Dialogue: 0,0:04:24.34,0:04:27.14,Default,,0000,0000,0000,,aquela enorme e imprecisa monstruosidade?!
+Dialogue: 0,0:04:28.35,0:04:30.02,Default,,0000,0000,0000,,Faça com que eles sejam executados.
+Dialogue: 0,0:04:31.38,0:04:33.11,Default,,0000,0000,0000,,Como desejar.
+Dialogue: 0,0:04:47.33,0:04:50.08,P!,,0000,0000,0000,,Só me meti em enrascadas desde que peguei esta pulseira miniaturizadora,
+Dialogue: 0,0:04:50.08,0:04:52.10,P!,,0000,0000,0000,,e isso não foi nem um pouco útil!
+Dialogue: 0,0:04:55.03,0:04:56.58,P!,,0000,0000,0000,,Caí dentro da privada...
+Dialogue: 0,0:04:58.30,0:05:00.55,P!,,0000,0000,0000,,Fui sugado pelo aspirador de pó...
+Dialogue: 0,0:05:02.21,0:05:07.30,P!,,0000,0000,0000,,Mas, desistir agora mancharia\No nome de Muten Roshi!
+Dialogue: 0,0:05:36.51,0:05:37.32,P!,,0000,0000,0000,,Nada bom!
+Dialogue: 0,0:05:38.80,0:05:42.13,P!,,0000,0000,0000,,Me divertindo tanto assim, vou acabar\Nfalhando como todas aquelas outras vezes!
+Dialogue: 0,0:05:44.48,0:05:47.75,Default,,0000,0000,0000,,Ei... Lunch-chan...
+Dialogue: 0,0:05:47.75,0:05:47.97,Default,,0000,0000,0000,,Sim?
+Dialogue: 0,0:05:48.38,0:05:50.85,Default,,0000,0000,0000,,Você vem trabalhando tão duro\Nque deveria descansar um pouco...
+Dialogue: 0,0:05:51.39,0:05:52.85,Default,,0000,0000,0000,,Sim, falando nisso...
+Dialogue: 0,0:05:53.62,0:05:56.56,Default,,0000,0000,0000,,Já preparei o banho.\NEntão, aproveite bem...
+Dialogue: 0,0:05:57.21,0:05:59.56,Default,,0000,0000,0000,,Ahn? Mas a comida...
+Dialogue: 0,0:06:00.33,0:06:00.95,Default,,0000,0000,0000,,A comida?
+Dialogue: 0,0:06:01.50,0:06:05.97,Default,,0000,0000,0000,,Pode deixar isso comigo.\NAdicionar temperos é minha especialidade!
+Dialogue: 0,0:06:05.97,0:06:06.94,Default,,0000,0000,0000,,M-Mas...
+Dialogue: 0,0:06:06.94,0:06:08.07,Default,,0000,0000,0000,,Vai logo!
+Dialogue: 0,0:06:16.27,0:06:19.33,Default,,0000,0000,0000,,Ei! Quem é você?!
+Dialogue: 0,0:06:23.12,0:06:24.16,Default,,0000,0000,0000,,Espera aí, seu velhote!
+Dialogue: 0,0:06:24.16,0:06:24.77,Default,,0000,0000,0000,,S-Sim?
+Dialogue: 0,0:06:26.12,0:06:29.54,Default,,0000,0000,0000,,Você tem me esperado\Ndurante algum tempo...
+Dialogue: 0,0:06:29.54,0:06:31.01,Default,,0000,0000,0000,,Então, quem diabos é você?!
+Dialogue: 0,0:06:31.54,0:06:35.86,Default,,0000,0000,0000,,Q-Quem, eu? Sou apenas um homem velho. Sim.
+Dialogue: 0,0:06:40.64,0:06:42.48,Default,,0000,0000,0000,,Ei, espere!\NOnde você pensa que está indo?!
+Dialogue: 0,0:06:44.06,0:06:46.28,Default,,0000,0000,0000,,A-Ah, só dar uma caminhada...
+Dialogue: 0,0:06:47.09,0:06:50.88,Default,,0000,0000,0000,,Uma caminhada?! Quem se importa com isso?!
+Dialogue: 0,0:06:50.88,0:06:52.91,Default,,0000,0000,0000,,Responda-me! Quem é você?!
+Dialogue: 0,0:06:53.47,0:06:55.85,Default,,0000,0000,0000,,Ahn? Quer dizer que você não se lembra?
+Dialogue: 0,0:06:56.37,0:06:57.79,Default,,0000,0000,0000,,Sou eu, daquela vez...
+Dialogue: 0,0:06:58.72,0:06:59.79,Default,,0000,0000,0000,,Daquela vez?
+Dialogue: 0,0:07:00.42,0:07:05.02,Default,,0000,0000,0000,,Bem, você disse que me daria\Nalguns bolinhos de grãos...
+Dialogue: 0,0:07:05.02,0:07:06.80,Default,,0000,0000,0000,,E nós estivemos juntos desde então!
+Dialogue: 0,0:07:07.13,0:07:11.55,Default,,0000,0000,0000,,Bolinhos de grãos?\NEu te dei bolinhos de grãos?!
+Dialogue: 0,0:07:12.17,0:07:13.89,Default,,0000,0000,0000,,I-Isso mesmo!
+Dialogue: 0,0:07:14.65,0:07:16.13,Default,,0000,0000,0000,,Eu não me lembro disso, mas...
+Dialogue: 0,0:07:16.96,0:07:19.60,Default,,0000,0000,0000,,Isso significa que você é\Num de meus amigos, certo, velho?!
+Dialogue: 0,0:07:20.14,0:07:21.89,Default,,0000,0000,0000,,C-Certamente!
+Dialogue: 0,0:07:24.41,0:07:25.12,Default,,0000,0000,0000,,Entendo...
+Dialogue: 0,0:07:26.05,0:07:29.42,Default,,0000,0000,0000,,Então, vou precisar que você faça algo\Npara compensar aqueles bolinhos de grãos...
+Dialogue: 0,0:07:29.42,0:07:29.70,Default,,0000,0000,0000,,Ahn?!
+Dialogue: 0,0:07:30.52,0:07:35.03,Default,,0000,0000,0000,,O quê?! Quer dizer que não pode nem\Nagradecer às pessoas que te deram coisas?!
+Dialogue: 0,0:07:35.03,0:07:36.70,Default,,0000,0000,0000,,C-Claro que não!
+Dialogue: 0,0:07:38.12,0:07:41.50,Default,,0000,0000,0000,,Então, acho que vou querer\Numa massagem nos ombros por enquanto...
+Dialogue: 0,0:07:41.50,0:07:42.13,Default,,0000,0000,0000,,S-Sim!
+Dialogue: 0,0:07:46.15,0:07:50.72,P!,,0000,0000,0000,,Mesmo que ela seja a violenta Lunch-san,\Ngarotas pichi-pichi têm uma pele ótima!
+Dialogue: 0,0:07:51.74,0:07:53.43,Default,,0000,0000,0000,,Certo! Acabei com as costas!
+Dialogue: 0,0:07:53.43,0:07:55.43,Default,,0000,0000,0000,,Agora, a frente...
+Dialogue: 0,0:07:59.32,0:08:00.17,P!,,0000,0000,0000,,Hora de uma boa sensação!
+Dialogue: 0,0:08:07.81,0:08:10.03,Default,,0000,0000,0000,,Idiota maldito!\NVocê quer morrer ou algo do tipo?!
+Dialogue: 0,0:08:13.16,0:08:14.92,Default,,0000,0000,0000,,Desculpa! Me perdoe!
+Dialogue: 0,0:08:19.09,0:08:21.86,Default,,0000,0000,0000,,Uma pessoa com o prestígio do Muten Roshi-sama...
+Dialogue: 0,0:08:28.87,0:08:31.26,Default,,0000,0000,0000,,Capitão! Cinco minutos até chegarmos à ilha!
+Dialogue: 0,0:08:32.25,0:08:34.97,Default,,0000,0000,0000,,Já que vamos somente contra\Num velho e uma mulher,
+Dialogue: 0,0:08:34.97,0:08:37.55,Default,,0000,0000,0000,,não temos idéia de que tipo de armas\Nsecretas ou máquinas que eles podem ter!
+Dialogue: 0,0:08:38.19,0:08:40.29,Default,,0000,0000,0000,,Não abaixem suas guardas!
+Dialogue: 0,0:08:40.29,0:08:41.56,Default,,0000,0000,0000,,Entendido!
+Dialogue: 0,0:08:48.87,0:08:51.46,Default,,0000,0000,0000,,Ei, ainda não terminou?! Acelere isso!
+Dialogue: 0,0:08:52.04,0:08:54.39,Default,,0000,0000,0000,,S-Sim! Estou indo!
+Dialogue: 0,0:08:59.38,0:09:00.91,Default,,0000,0000,0000,,Isso parece bastante bom!
+Dialogue: 0,0:09:01.65,0:09:06.21,Default,,0000,0000,0000,,Eu nunca poderia fazer nada\Nde ruim para você, Lunch-san!
+Dialogue: 0,0:09:08.83,0:09:10.99,Default,,0000,0000,0000,,Você é um cara bastante bom...
+Dialogue: 0,0:09:16.36,0:09:16.84,Default,,0000,0000,0000,,Ei...
+Dialogue: 0,0:09:17.70,0:09:18.92,Default,,0000,0000,0000,,O-O que houve?
+Dialogue: 0,0:09:19.46,0:09:20.90,Default,,0000,0000,0000,,Você experimenta.
+Dialogue: 0,0:09:21.47,0:09:22.10,Default,,0000,0000,0000,,T-Tudo bem...
+Dialogue: 0,0:09:23.95,0:09:24.64,Default,,0000,0000,0000,,Ah!
+Dialogue: 0,0:09:25.98,0:09:31.25,Default,,0000,0000,0000,,Espero que você não esteja me provocando!\NEssa comida está uma porcaria!
+Dialogue: 0,0:09:31.43,0:09:33.58,Default,,0000,0000,0000,,L-Lunch-chan, não fique tão irritada!
+Dialogue: 0,0:09:33.58,0:09:38.62,Default,,0000,0000,0000,,Cale-se! Eu deveria enfiar\Nvocê numa panela e te cozinhar!
+Dialogue: 0,0:09:38.62,0:09:40.53,Default,,0000,0000,0000,,I-Isso é coisa de maluco...
+Dialogue: 0,0:09:40.95,0:09:43.09,Default,,0000,0000,0000,,Talvez eu coma tartaruga cozida!
+Dialogue: 0,0:10:02.11,0:10:05.31,Default,,0000,0000,0000,,Ahn? O que aconteceu?!
+Dialogue: 0,0:10:07.44,0:10:10.58,Default,,0000,0000,0000,,Estamos a salvo agora, Muten Roshi-sama...
+Dialogue: 0,0:10:10.58,0:10:12.62,Default,,0000,0000,0000,,Você é bastante discreto...
+Dialogue: 0,0:10:23.52,0:10:25.98,Default,,0000,0000,0000,,Parece que algo está voando nesta direção.
+Dialogue: 0,0:10:26.55,0:10:27.96,Default,,0000,0000,0000,,Ahn?! O que poderia ser?
+Dialogue: 0,0:10:41.66,0:10:43.62,Default,,0000,0000,0000,,Não parece que eles estão preparados contra nós...
+Dialogue: 0,0:10:44.89,0:10:46.08,Default,,0000,0000,0000,,Isso pode ser uma armadilha.
+Dialogue: 0,0:10:46.08,0:10:47.83,Default,,0000,0000,0000,,- Desembarque-nos na água, cuidadosamente...
+Dialogue: 0,0:10:47.60,0:10:47.83,Default,,0000,0000,0000,,- Sim!
+Dialogue: 0,0:10:51.80,0:10:55.48,Default,,0000,0000,0000,,Parece que temos muitos visitantes, Kame.
+
+Dialogue: 0,0:11:27.85,0:11:33.32,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(676,578)}KINTOUN
+Dialogue: 0,0:11:27.85,0:11:33.32,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(680,581)}KINTOUN
+Dialogue: 0,0:11:27.85,0:11:33.32,apresenta 2,,0000,0000,0000,,{\pos(685,597)\fscx100\fscy140}irc.rizon.net
+Dialogue: 0,0:11:27.85,0:11:33.32,apresenta,,0000,0000,0000,,{\pos(689,601)\fscx100\fscy140}irc.rizon.net
+Dialogue: 0,0:11:33.35,0:11:39.33,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(610,578)}KINTOUN
+Dialogue: 0,0:11:33.35,0:11:39.33,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(614,581)}KINTOUN
+Dialogue: 0,0:11:33.35,0:11:39.33,apresenta 2,,0000,0000,0000,,{\pos(655,597)\fscx100\fscy140}kintoun.cjb.net
+Dialogue: 0,0:11:33.35,0:11:39.33,apresenta,,0000,0000,0000,,{\pos(659,601)\fscx100\fscy140}kintoun.cjb.net
+
+Dialogue: 0,0:11:40.05,0:11:41.83,Default,,0000,0000,0000,,Certo! Chequem lá dentro.
+Dialogue: 0,0:11:43.62,0:11:45.87,Default,,0000,0000,0000,,Quem são vocês?!
+Dialogue: 0,0:11:49.62,0:11:53.71,Default,,0000,0000,0000,,Então você é o professor\Nque inventou o incrível radar...
+Dialogue: 0,0:11:54.86,0:11:56.71,Default,,0000,0000,0000,,Professor?! Eu?!
+Dialogue: 0,0:11:58.39,0:12:01.09,Default,,0000,0000,0000,,Não adianta se fazer de idiota.\NNós já sabemos sobre você!
+Dialogue: 0,0:12:01.90,0:12:03.34,Default,,0000,0000,0000,,Eu não estou me fazendo de idiota...
+Dialogue: 0,0:12:03.89,0:12:08.97,Default,,0000,0000,0000,,Além disso, para visitantes, vocês certamente estão carregando coisas perigosas...
+Dialogue: 0,0:12:09.63,0:12:12.03,Default,,0000,0000,0000,,Nós somos o Exército Red Ribbon!
+Dialogue: 0,0:12:13.06,0:12:14.22,Default,,0000,0000,0000,,O Exército Red Ribbon?!
+Dialogue: 0,0:12:14.80,0:12:16.98,Default,,0000,0000,0000,,Oh, eu já ouvi sobre vocês antes...
+Dialogue: 0,0:12:19.41,0:12:21.28,Default,,0000,0000,0000,,Esta mulher era a única lá dentro, Capitão!
+Dialogue: 0,0:12:22.03,0:12:24.28,Default,,0000,0000,0000,,E não parece haver\Nqualquer armadilha armada lá!
+Dialogue: 0,0:12:26.32,0:12:29.18,Default,,0000,0000,0000,,Vocês têm uma reputação horrível!
+Dialogue: 0,0:12:29.76,0:12:33.18,Default,,0000,0000,0000,,Ouvi dizer que vocês comandam o âmbito inteiro do mal, que desprezam a justiça...
+Dialogue: 0,0:12:33.18,0:12:35.54,Default,,0000,0000,0000,,e que são o pior exército do mundo!
+Dialogue: 0,0:12:36.28,0:12:37.04,Default,,0000,0000,0000,,O quê?!
+Dialogue: 0,0:12:37.61,0:12:42.84,Default,,0000,0000,0000,,E aí? O que exatamente o\Npior exército do mundo quer comigo?
+Dialogue: 0,0:12:44.23,0:12:45.28,Default,,0000,0000,0000,,Professor...
+Dialogue: 0,0:12:45.28,0:12:47.49,Default,,0000,0000,0000,,Você parece saber falar muito,
+Dialogue: 0,0:12:47.49,0:12:50.35,Default,,0000,0000,0000,,mas é melhor para você não nos desafiar!
+Dialogue: 0,0:12:51.11,0:12:53.85,Default,,0000,0000,0000,,Eu já falei! Não sou um professor!
+Dialogue: 0,0:12:54.38,0:12:56.35,Default,,0000,0000,0000,,Ainda se fazendo de idiota?!
+Dialogue: 0,0:12:56.35,0:12:59.86,Default,,0000,0000,0000,,Nós estamos totalmente cientes de que\No que você tem aqui é uma base secreta!
+Dialogue: 0,0:13:00.40,0:13:03.10,Default,,0000,0000,0000,,E que você é o professor\Nque construiu o preciso radar...
+Dialogue: 0,0:13:03.10,0:13:05.86,Default,,0000,0000,0000,,usado para localizar as Dragon Balls!
+Dialogue: 0,0:13:06.54,0:13:08.20,Default,,0000,0000,0000,,Todo mundo sabe!
+Dialogue: 0,0:13:12.15,0:13:15.54,Default,,0000,0000,0000,,Parece que esse homem\Ncometeu algum tipo de erro...
+Dialogue: 0,0:13:15.54,0:13:16.87,Default,,0000,0000,0000,,Parece mesmo!
+Dialogue: 0,0:13:16.87,0:13:17.33,Default,,0000,0000,0000,,Calem-se!
+Dialogue: 0,0:13:19.33,0:13:21.64,Default,,0000,0000,0000,,Nós temos 3 exigências!
+Dialogue: 0,0:13:21.64,0:13:27.34,Default,,0000,0000,0000,,Primeiro, vocês nos dão as duas\NDragon Balls que o garoto deixou aqui!
+Dialogue: 0,0:13:28.10,0:13:33.24,Default,,0000,0000,0000,,Depois, você constrói para nós\Num radar igual ao que o garoto tem!
+Dialogue: 0,0:13:33.24,0:13:35.35,Default,,0000,0000,0000,,As Dragon Balls que ele deixou aqui?
+Dialogue: 0,0:13:36.12,0:13:40.65,Default,,0000,0000,0000,,Ah, lembrei, eles deixaram uma bolsa aqui...\NIsso é o que estava dentro dela?
+Dialogue: 0,0:13:41.23,0:13:43.09,Default,,0000,0000,0000,,O quê?! Dentro de uma bolsa?!
+Dialogue: 0,0:13:43.68,0:13:45.90,Default,,0000,0000,0000,,Vasculhem a casa toda!
+Dialogue: 0,0:13:46.57,0:13:50.79,Default,,0000,0000,0000,,O que você planeja fazer juntando as Dragon Balls? Jogar sinuca?
+Dialogue: 0,0:13:50.79,0:13:56.25,Default,,0000,0000,0000,,Imbecil! Não viríamos tão\Nlonge só para jogar sinuca!
+Dialogue: 0,0:14:02.43,0:14:03.88,Default,,0000,0000,0000,,Qual o problema?
+Dialogue: 0,0:14:04.49,0:14:06.77,Default,,0000,0000,0000,,- Maldito...\N- Capitão! Por favor, acalme-se!
+Dialogue: 0,0:14:07.51,0:14:11.73,Default,,0000,0000,0000,,Afinal, ele não está nos desafiando!\NEle é apenas um velho...
+Dialogue: 0,0:14:11.73,0:14:13.00,Default,,0000,0000,0000,,Você está certo...
+Dialogue: 0,0:14:13.88,0:14:15.56,Default,,0000,0000,0000,,Então, o que acontece se\Neu realmente desafiar você?
+Dialogue: 0,0:14:16.16,0:14:18.57,Default,,0000,0000,0000,,Você morre, claro!
+Dialogue: 0,0:14:21.90,0:14:23.94,Default,,0000,0000,0000,,Então, acho que talvez eu vá desafiá-lo!
+Dialogue: 0,0:14:24.56,0:14:25.78,Default,,0000,0000,0000,,O-O quê?!
+Dialogue: 0,0:14:30.22,0:14:31.16,Default,,0000,0000,0000,,Morra!
+Dialogue: 0,0:14:53.68,0:14:54.47,Default,,0000,0000,0000,,Terminou de atirar?
+Dialogue: 0,0:15:03.27,0:15:04.12,Default,,0000,0000,0000,,Isso é o bastante!
+Dialogue: 0,0:15:05.40,0:15:06.78,Default,,0000,0000,0000,,Você quer que a garota morra?
+Dialogue: 0,0:15:07.38,0:15:11.78,Default,,0000,0000,0000,,Ah, não! Isso não é bom! Nem um pouco!
+Dialogue: 0,0:15:12.42,0:15:15.27,Default,,0000,0000,0000,,Se você não a quer morta,\Nentão faça o que eu digo!
+Dialogue: 0,0:15:15.89,0:15:17.10,Default,,0000,0000,0000,,Kame Sennin-san...
+Dialogue: 0,0:15:17.30,0:15:18.29,Default,,0000,0000,0000,,Tudo bem, tudo bem, já entendi...
+Dialogue: 0,0:15:18.98,0:15:20.29,Default,,0000,0000,0000,,Eu farei como você diz...
+Dialogue: 0,0:15:21.00,0:15:24.38,Default,,0000,0000,0000,,Sem gracinhas! Eu estou te observando!
+Dialogue: 0,0:15:30.94,0:15:35.43,Default,,0000,0000,0000,,Maldita mulher!\NComo você pôde espirrar numa hora dessas?!
+Dialogue: 0,0:15:35.43,0:15:37.69,Default,,0000,0000,0000,,Por acaso você disse...
+Dialogue: 0,0:15:37.69,0:15:39.77,Default,,0000,0000,0000,,Maldita mulher?!
+Dialogue: 0,0:15:40.51,0:15:42.35,Default,,0000,0000,0000,,Seu idiota!
+Dialogue: 0,0:15:47.27,0:15:49.95,Default,,0000,0000,0000,,Apenas tente dizer isso de novo!
+Dialogue: 0,0:15:51.97,0:15:57.22,Default,,0000,0000,0000,,Idiota! Estúpido! Cretino!\NDiga algo, seu merda!
+Dialogue: 0,0:15:57.22,0:16:00.61,Default,,0000,0000,0000,,Já chega, Lunch-san! Ele já desmaiou.
+Dialogue: 0,0:16:01.30,0:16:02.77,Default,,0000,0000,0000,,Ele teve o que mereceu!
+Dialogue: 0,0:16:02.77,0:16:04.46,Default,,0000,0000,0000,,Sim, sim, você está completamente certa...
+Dialogue: 0,0:16:05.24,0:16:09.95,Default,,0000,0000,0000,,Assustadora! Talvez até mais\Ndo que o Exército Red Ribbon!
+Dialogue: 0,0:16:10.31,0:16:11.37,Default,,0000,0000,0000,,Vamos, entre...
+Dialogue: 0,0:16:13.46,0:16:14.19,Default,,0000,0000,0000,,Ei, você!
+Dialogue: 0,0:16:14.77,0:16:15.65,Default,,0000,0000,0000,,S-Sim?!
+Dialogue: 0,0:16:15.65,0:16:17.43,Default,,0000,0000,0000,,Esses homens são feiosos.\NTire-os daqui!
+Dialogue: 0,0:16:18.02,0:16:19.94,Default,,0000,0000,0000,,E-Entendido!
+Dialogue: 0,0:16:23.82,0:16:26.06,Narrador,,0000,0000,0000,,Enquanto isso, Goku e os outros\Nainda estavam sendo perseguidos...
+Dialogue: 0,0:16:26.06,0:16:29.19,Narrador,,0000,0000,0000,,pelo General Blue, do Exército Red Ribbon...
+Dialogue: 0,0:16:36.63,0:16:40.77,Default,,0000,0000,0000,,Isso mesmo! Joguem eles contra a parede!
+Dialogue: 0,0:16:59.56,0:17:02.81,Default,,0000,0000,0000,,Ahn? Estamos do lado de fora?
+Dialogue: 0,0:17:03.23,0:17:07.81,Default,,0000,0000,0000,,Não estamos do lado de fora!\NEstamos em uma caverna com ar dentro!
+Dialogue: 0,0:17:08.40,0:17:10.82,Default,,0000,0000,0000,,Eles ainda estão vindo!
+Dialogue: 0,0:17:11.51,0:17:12.71,Default,,0000,0000,0000,,Temos que sair daqui!
+Dialogue: 0,0:17:16.87,0:17:17.48,Default,,0000,0000,0000,,Eles chegaram!
+Dialogue: 0,0:17:17.48,0:17:19.58,Default,,0000,0000,0000,,Ei! Não me deixem para trás!
+Dialogue: 0,0:17:20.30,0:17:21.45,Default,,0000,0000,0000,,Que lugar é este?
+Dialogue: 0,0:17:22.05,0:17:24.87,Default,,0000,0000,0000,,Eles abandonaram o submarino e estão fugindo!
+Dialogue: 0,0:17:25.28,0:17:26.62,Default,,0000,0000,0000,,Atrás deles, de uma vez!
+Dialogue: 0,0:17:26.62,0:17:27.62,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:17:28.20,0:17:29.74,Default,,0000,0000,0000,,Sim, Time A aqui... Time A...
+Dialogue: 0,0:17:30.86,0:17:33.99,Default,,0000,0000,0000,,General, é do Time B!
+Dialogue: 0,0:17:33.99,0:17:34.30,Default,,0000,0000,0000,,Ahn?!
+Dialogue: 0,0:17:35.83,0:17:37.21,Default,,0000,0000,0000,,Aqui é o General Blue!
+Dialogue: 0,0:17:40.31,0:17:42.81,Default,,0000,0000,0000,,C-Completamente derrotados, você disse?!
+Dialogue: 0,0:17:43.49,0:17:47.13,Default,,0000,0000,0000,,Não tão rápido!\NNão deixem a frágil garota para trás!
+Dialogue: 0,0:17:48.10,0:17:51.13,Default,,0000,0000,0000,,Esperem! Por que nós temos que fugir?
+Dialogue: 0,0:17:51.74,0:17:53.33,Default,,0000,0000,0000,,Nós deveríamos simplesmente derrotá-los!
+Dialogue: 0,0:17:53.33,0:17:56.36,Default,,0000,0000,0000,,Não seja louco, Goku! Eles têm armas!
+Dialogue: 0,0:17:59.25,0:18:00.49,Default,,0000,0000,0000,,O que foi?
+Dialogue: 0,0:18:01.15,0:18:02.20,Default,,0000,0000,0000,,Eu vou derrotá-los!
+Dialogue: 0,0:18:03.77,0:18:07.21,Default,,0000,0000,0000,,Ótimo! Pra começar,\Na culpa é sua por estarmos nessa confusão.
+Dialogue: 0,0:18:08.36,0:18:11.93,Default,,0000,0000,0000,,Ei! Espere!\NNão os sigam lá dentro! Voltem!
+Dialogue: 0,0:18:14.05,0:18:18.21,Default,,0000,0000,0000,,Hein? O que está havendo?\NEles voltaram!
+Dialogue: 0,0:18:19.14,0:18:21.52,Default,,0000,0000,0000,,Talvez eu deva ir até eles e derrotá-los.
+Dialogue: 0,0:18:21.52,0:18:25.46,Default,,0000,0000,0000,,Não faça isso! Pode ser uma armadilha!
+Dialogue: 0,0:18:26.22,0:18:27.39,Default,,0000,0000,0000,,Isso mesmo, Goku!
+Dialogue: 0,0:18:28.02,0:18:31.48,Default,,0000,0000,0000,,Além disso, parece que recuar é melhor!
+Dialogue: 0,0:18:32.06,0:18:33.90,Default,,0000,0000,0000,,Como nós ficamos nesta situação?!
+Dialogue: 0,0:18:34.65,0:18:37.27,Default,,0000,0000,0000,,Pior que isso, os inimigos são\Nmuito mais fortes do que imaginávamos.
+Dialogue: 0,0:18:37.81,0:18:39.99,Default,,0000,0000,0000,,Nós não queremos ser pegos\Nem um de seus contra-ataques,
+Dialogue: 0,0:18:40.57,0:18:42.91,Default,,0000,0000,0000,,então devemos ir atrás\Ndeles com extremo cuidado.
+Dialogue: 0,0:18:43.49,0:18:46.03,Default,,0000,0000,0000,,Mas nós vamos somente contra três crianças!
+Dialogue: 0,0:18:46.03,0:18:46.82,Default,,0000,0000,0000,,Do que você está falando?!
+Dialogue: 0,0:18:47.49,0:18:51.67,Default,,0000,0000,0000,,Apenas um deles arrasou as unidades Silver e White!
+Dialogue: 0,0:18:52.44,0:18:55.09,Default,,0000,0000,0000,,Além disso, um velho e\Numa mulher do grupo deles...
+Dialogue: 0,0:18:55.09,0:18:57.38,Default,,0000,0000,0000,,tentaram vencer sozinhos o Time B inteiro!
+Dialogue: 0,0:19:01.11,0:19:03.88,Default,,0000,0000,0000,,Nós só vamos ficar bem se\Ncontinuarmos sendo cautelosos.
+Dialogue: 0,0:19:04.55,0:19:07.65,Default,,0000,0000,0000,,Eu vou pessoalmente pôr\Num fim em todos os cinco...
+Dialogue: 0,0:19:11.59,0:19:15.89,Default,,0000,0000,0000,,Nós vamos realmente pegar a Dragon\NBall se continuarmos indo adiante?
+Dialogue: 0,0:19:15.89,0:19:18.73,Default,,0000,0000,0000,,Se o Exército Red Ribbon\Nnão nos matar antes, sim...
+Dialogue: 0,0:19:18.73,0:19:19.82,Default,,0000,0000,0000,,Eles ainda não estão nos perseguindo...
+Dialogue: 0,0:19:20.52,0:19:23.31,Default,,0000,0000,0000,,Está tão escuro que é\Ndifícil de ver alguma coisa...
+Dialogue: 0,0:19:24.26,0:19:27.32,Default,,0000,0000,0000,,Sua cabeça é brilhosa.\NVocê anda na frente.
+Dialogue: 0,0:19:28.11,0:19:28.83,Default,,0000,0000,0000,,Eu achei isso ofensivo.
+Dialogue: 0,0:19:39.52,0:19:41.67,Default,,0000,0000,0000,,Ficou tudo iluminado\Nquando eu apertei isso!
+Dialogue: 0,0:19:42.34,0:19:43.72,Default,,0000,0000,0000,,Por que há luzes aqui?!
+Dialogue: 0,0:19:43.72,0:19:44.68,Default,,0000,0000,0000,,O-O que está havendo?!
+Dialogue: 0,0:19:46.00,0:19:49.08,Default,,0000,0000,0000,,Pessoas costumavam usar esta caverna...
+Dialogue: 0,0:19:49.80,0:19:51.27,Default,,0000,0000,0000,,É a única explicação que consigo pensar...
+Dialogue: 0,0:19:53.84,0:19:55.33,Default,,0000,0000,0000,,O que diabos...
+Dialogue: 0,0:19:55.33,0:19:56.90,Default,,0000,0000,0000,,Há luzes?
+Dialogue: 0,0:19:57.87,0:20:02.18,Default,,0000,0000,0000,,Julgando pelas circunstâncias,\Nesta caverna parece ser uma base secreta...
+Dialogue: 0,0:20:03.71,0:20:05.41,Default,,0000,0000,0000,,Fico imaginando o que tudo isso significa...
+Dialogue: 0,0:20:05.97,0:20:09.01,Default,,0000,0000,0000,,Mas, quem usaria um lugar como este?!
+Dialogue: 0,0:20:09.01,0:20:10.39,Default,,0000,0000,0000,,Ei! Bulma!
+Dialogue: 0,0:20:17.41,0:20:18.11,Default,,0000,0000,0000,,O que foi isso?!
+Dialogue: 0,0:20:19.19,0:20:21.09,Default,,0000,0000,0000,,Você! Vá e verifique!
+Dialogue: 0,0:20:21.09,0:20:21.89,Default,,0000,0000,0000,,S-Sim...
+Dialogue: 0,0:20:29.60,0:20:30.83,Default,,0000,0000,0000,,Goku?!
+Dialogue: 0,0:20:33.69,0:20:35.40,Default,,0000,0000,0000,,Eu assustei vocês?!
+Dialogue: 0,0:20:36.24,0:20:39.29,Default,,0000,0000,0000,,Pare de ficar brincando! Seu besta!
+Dialogue: 0,0:20:39.29,0:20:42.18,Default,,0000,0000,0000,,Goku! Onde você achou isso?
+Dialogue: 0,0:20:42.18,0:20:43.03,Default,,0000,0000,0000,,Bem aqui...
+Dialogue: 0,0:20:45.58,0:20:46.24,Default,,0000,0000,0000,,Ah, não!
+Dialogue: 0,0:20:46.79,0:20:47.58,Default,,0000,0000,0000,,I-Isso é um...
+Dialogue: 0,0:20:48.70,0:20:51.99,Default,,0000,0000,0000,,Entendo! É sobre isso que o\NMuten Roshi-sama estava falando!
+Dialogue: 0,0:20:51.99,0:20:55.08,Default,,0000,0000,0000,,O lugar onde o tesouro\Ndos piratas está escondido!
+Dialogue: 0,0:20:55.59,0:20:56.13,Default,,0000,0000,0000,,Ahn?!
+Dialogue: 0,0:21:16.10,0:21:19.52,Default,,0000,0000,0000,,É isso!\NAqui era uma base secreta de piratas!
+Dialogue: 0,0:21:20.66,0:21:21.82,Default,,0000,0000,0000,,Piratas?
+Dialogue: 0,0:21:23.42,0:21:26.03,Default,,0000,0000,0000,,Isso! Essa é uma grande descoberta!
+Dialogue: 0,0:21:26.60,0:21:29.76,Default,,0000,0000,0000,,Tem que ser!\NNinguém nunca acharia isso aqui!
+Dialogue: 0,0:21:29.76,0:21:33.75,Default,,0000,0000,0000,,General Blue! General Blue! Notícias incríveis!
+Dialogue: 0,0:21:34.18,0:21:39.38,Default,,0000,0000,0000,,O-O que você disse?!\NEsta caverna é o lugar escondido do tesouro?!
+Dialogue: 0,0:21:40.54,0:21:44.05,Default,,0000,0000,0000,,Entendido. Você pode voltar agora...
+Dialogue: 0,0:21:45.80,0:21:49.76,Default,,0000,0000,0000,,Essa é uma descoberta que\Nrivaliza até mesmo com as Dragon Balls...
+Dialogue: 0,0:21:50.67,0:21:53.07,Default,,0000,0000,0000,,O Comandante Red ficará muito satisfeito...
+Dialogue: 0,0:21:56.46,0:21:57.15,Default,,0000,0000,0000,,Viva!
+Dialogue: 0,0:21:57.78,0:21:59.31,Default,,0000,0000,0000,,Tesouro!
+Dialogue: 0,0:21:59.31,0:22:02.77,Default,,0000,0000,0000,,Viva! Viva!
+Dialogue: 0,0:22:08.30,0:22:12.89,Narrador,,0000,0000,0000,,Há realmente um tesouro\Nescondido dentro desta caverna?
+Dialogue: 0,0:22:12.89,0:22:14.61,Narrador,,0000,0000,0000,,E quanto aos piratas?
+Dialogue: 0,0:22:15.76,0:22:23.29,Narrador,,0000,0000,0000,,Os três celebram, sem saber que\Nperigosas armadilhas se encontram à frente...
+Dialogue: 0,0:22:24.14,0:22:26.49,Narrador,,0000,0000,0000,,Ou talvez, atrás...

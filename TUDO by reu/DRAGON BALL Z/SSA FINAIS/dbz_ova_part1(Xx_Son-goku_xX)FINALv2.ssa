@@ -1,0 +1,313 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: titulo,Gorilla BT,40,7353,&HFF00FFFF,&HFF000000,16777215,1,0,1,3,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: cred,Kristen ITC,30,16777215,255,4194368,-2147483640,-1,0,1,1,3,7,10,10,10,0,0
+Style: apresDBZ2,Cancun,70,5225722,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+Style: apresDBZ3,Cancun,70,2371529,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+Style: apresDBZ4,dbz,40,3239156,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+
+Dialogue: Marked=0,0:00:13.00,0:00:23.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}raw: Kaneda_JF
+Dialogue: Marked=0,0:00:24.00,0:00:34.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}tradução: Xx_Son-Goku_xX
+Dialogue: Marked=0,0:00:35.00,0:00:45.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}revisão: _Gohan_
+Dialogue: Marked=0,0:00:46.00,0:00:56.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}type: JokerZombie
+Dialogue: Marked=0,0:00:57.40,0:01:07.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}encode: Kaneda_JF
+Dialogue: Marked=0,0:01:08.50,0:01:18.00,cred,,0000,0000,0000,!Effect,{\fad(500,500)\move(1000,10,780,10,800,0)}quality check: reu
+
+Dialogue: Marked=0,0:00:12.90,0:00:14.91,Default,NTP,0000,0000,0000,!Effect,Agora é a hora de fazer a vingança.
+Dialogue: Marked=0,0:00:17.21,0:00:21.73,Default,NTP,0000,0000,0000,!Effect,Hora de me vingar dos Saiya-jins, com toda a ira construída durante todos esses anos.
+Dialogue: Marked=0,0:00:22.33,0:00:25.83,Default,NTP,0000,0000,0000,!Effect,Não os deixarei escapar de nossas armadilhas.
+Dialogue: Marked=0,0:00:26.19,0:00:30.53,Default,NTP,0000,0000,0000,!Effect,Matarei todos eles! Não deixarei sequer um Saiya-jin vivo!
+Dialogue: Marked=0,0:00:38.43,0:00:41.31,Default,NTP,0000,0000,0000,!Effect,Finalmente, nós poderemos derramar o sangue dos Saiya-jins!
+Dialogue: Marked=0,0:00:43.37,0:00:48.49,Default,NTP,0000,0000,0000,!Effect,Saiya-jins que vivem na Terra, vocês terão o que vocês merecem!
+Dialogue: Marked=0,0:00:48.49,0:00:54.74,Default,NTP,0000,0000,0000,!Effect,Pelas inúmeras ações frias que vocês fizeram no passado.
+Dialogue: Marked=0,0:00:55.06,0:00:58.37,Default,NTP,0000,0000,0000,!Effect,Este será o começo de nossa vingança!
+Dialogue: Marked=0,0:00:58.73,0:01:00.49,Default,NTP,0000,0000,0000,!Effect,Nossa fúria é tão profunda que penetra em nossos ossos!
+
+
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ3,,0000,0000,0000,,{\fad(1000,1000)\fscx73\fscy63\pos(610,145)}APRESENTA
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ2,,0000,0000,0000,,{\fad(1000,1000)\fscx110\fscy90\pos(550,90)}KINT
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ2,,0000,0000,0000,,{\fad(1000,1000)\fscx110\fscy90\pos(685,90)}UN
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ4,,0000,0000,0000,,{\fad(1000,1000)\fscx85\fscy85\pos(630,110)}O
+
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,titulo,NTP,0000,0000,0000,!Effect,{\fad(1000,1000)}{\pos(350,455)}{\fscx130\fscy105}O Plano para destruir os Saiya-jins - Parte 1
+
+
+Dialogue: Marked=0,0:01:59.39,0:02:02.45,Default,NTP,0000,0000,0000,!Effect,Goku-san! O café da manhã está pronto.
+Dialogue: Marked=0,0:02:02.77,0:02:05.12,Default,NTP,0000,0000,0000,!Effect,Gohan-chan, você ainda não está pronto?
+Dialogue: Marked=0,0:02:11.52,0:02:14.54,Default,NTP,0000,0000,0000,!Effect,Eu tenho a impressão de que este dia vai ser maravilhoso!
+Dialogue: Marked=0,0:02:14.61,0:02:18.88,Default,NTP,0000,0000,0000,!Effect,Papai! Papai!
+Dialogue: Marked=0,0:02:23.75,0:02:26.88,Default,NTP,0000,0000,0000,!Effect,Gohan-chan! A comida está pronta!
+Dialogue: Marked=0,0:02:31.68,0:02:34.84,Default,NTP,0000,0000,0000,!Effect,Papai, os bosques estão morrendo! Olha aí!
+Dialogue: Marked=0,0:02:35.59,0:02:38.75,Default,NTP,0000,0000,0000,!Effect,É mesmo? Queria saber o que está acontecendo?
+Dialogue: Marked=0,0:02:39.11,0:02:41.95,Default,NTP,0000,0000,0000,!Effect,Chi-Chi vai ficar contente de a gente arranjar lenha...
+Dialogue: Marked=0,0:02:43.77,0:02:46.15,Default,NTP,0000,0000,0000,!Effect,Son Goku, nós temos problemas!
+Dialogue: Marked=0,0:02:50.73,0:02:52.19,Default,NTP,0000,0000,0000,!Effect,Senhor Popo!
+Dialogue: Marked=0,0:02:53.16,0:02:57.12,Default,NTP,0000,0000,0000,!Effect,O novo Kami-sama me contou que um gás...
+Dialogue: Marked=0,0:02:57.44,0:03:00.74,Default,NTP,0000,0000,0000,!Effect,chamado Destron, que não pertence a este lugar, está se acumulando na Terra.
+Dialogue: Marked=0,0:03:02.93,0:03:04.42,Default,NTP,0000,0000,0000,!Effect,Gás Destron?
+Dialogue: Marked=0,0:03:04.64,0:03:07.94,Default,NTP,0000,0000,0000,!Effect,Sim. Destrói todos os tecidos celulares vivos.
+Dialogue: Marked=0,0:03:09.01,0:03:14.73,Default,NTP,0000,0000,0000,!Effect,Papai, isso poderia ser a causa da morte dos bosques.
+Dialogue: Marked=0,0:03:19.93,0:03:25.20,Default,NTP,0000,0000,0000,!Effect,O novo Kami-sama me contou que até seres vivos, como vocês,
+Dialogue: Marked=0,0:03:25.96,0:03:28.87,Default,NTP,0000,0000,0000,!Effect,morrerão dentro de setenta dias.
+Dialogue: Marked=0,0:03:30.88,0:03:32.17,Default,NTP,0000,0000,0000,!Effect,Setenta dias?
+Dialogue: Marked=0,0:03:32.67,0:03:33.54,Default,NTP,0000,0000,0000,!Effect,Quem está fazendo isso?
+Dialogue: Marked=0,0:03:33.54,0:03:38.90,Default,NTP,0000,0000,0000,!Effect,Papai, seria uma boa idéia se consultarmos a Bulma-san sobre estas coisas.
+Dialogue: Marked=0,0:03:40.97,0:03:42.15,Default,NTP,0000,0000,0000,!Effect,Você está certo.
+Dialogue: Marked=0,0:03:44.03,0:03:47.98,Default,NTP,0000,0000,0000,!Effect,Goku-san! Gohan-chan! Vocês não vão comer?
+Dialogue: Marked=0,0:04:04.73,0:04:07.61,Default,NTP,0000,0000,0000,!Effect,Gás Destron... Não está em meus dados.
+Dialogue: Marked=0,0:04:11.27,0:04:16.07,Default,NTP,0000,0000,0000,!Effect,Bulma-san, por favor, pense em um jeito para a desintoxicação deste gás.
+Dialogue: Marked=0,0:04:16.49,0:04:21.40,Default,NTP,0000,0000,0000,!Effect,Meu pai e eu procuraremos o lugar de onde está saindo esse Gás Destron.
+Dialogue: Marked=0,0:04:23.82,0:04:27.48,Default,NTP,0000,0000,0000,!Effect,Tudo bem. Ainda não quero morrer.
+Dialogue: Marked=0,0:04:28.37,0:04:29.15,Default,NTP,0000,0000,0000,!Effect,Não é, papai?
+Dialogue: Marked=0,0:04:29.54,0:04:31.93,Default,NTP,0000,0000,0000,!Effect,Sim. Vamos dar um jeito nisso.
+Dialogue: Marked=0,0:04:34.59,0:04:35.48,Default,NTP,0000,0000,0000,!Effect,Boa sorte, Bulma.
+Dialogue: Marked=0,0:04:37.76,0:04:41.03,Default,NTP,0000,0000,0000,!Effect,Ei, Popo. De onde o Gás Destron está vindo?
+Dialogue: Marked=0,0:04:46.54,0:04:50.95,Default,NTP,0000,0000,0000,!Effect,Há quatro lugares que Kami-sama pediu que lhes falassem, assim vocês podem confirmar...
+Dialogue: Marked=0,0:04:54.33,0:04:59.20,Default,NTP,0000,0000,0000,!Effect,O primeiro lugar é o Grand Apron, localizado no sudoeste da distante capital no Leste.
+Dialogue: Marked=0,0:05:02.36,0:05:07.80,Default,NTP,0000,0000,0000,!Effect,O segundo está perto da pirâmide no deserto oeste da capital do norte.
+Dialogue: Marked=0,0:05:09.26,0:05:12.32,Default,NTP,0000,0000,0000,!Effect,O terceiro está na Ilha do Vulcão Poco Poco, que tem estado...
+Dialogue: Marked=0,0:05:12.32,0:05:14.95,Default,NTP,0000,0000,0000,!Effect,em erupção por mais de 100 anos em  uma ilha isolada no Mar Meridional.
+Dialogue: Marked=0,0:05:15.34,0:05:18.15,Default,NTP,0000,0000,0000,!Effect,E o quarto está na Ilha do Gelo, no norte distante.
+Dialogue: Marked=0,0:05:21.81,0:05:24.01,Default,NTP,0000,0000,0000,!Effect,Entendeu, Son Goku?
+Dialogue: Marked=0,0:05:26.97,0:05:29.06,Default,NTP,0000,0000,0000,!Effect,Bom, nós os procuraremos em duas partes.
+Dialogue: Marked=0,0:05:29.49,0:05:29.77,Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:05:30.20,0:05:32.87,Default,NTP,0000,0000,0000,!Effect,Son, você se esqueceu de alguém?
+Dialogue: Marked=0,0:05:42.18,0:05:43.43,Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:05:44.17,0:05:45.74,Default,NTP,0000,0000,0000,!Effect,Piccolo! Como você nos encontrou?
+Dialogue: Marked=0,0:05:47.05,0:05:50.18,Default,NTP,0000,0000,0000,!Effect,Existe alguma capacidade do Kami dentro de mim.
+Dialogue: Marked=0,0:05:50.68,0:05:52.32,Default,NTP,0000,0000,0000,!Effect,Eu posso ver qualquer coisa.
+Dialogue: Marked=0,0:05:52.71,0:05:55.37,Default,NTP,0000,0000,0000,!Effect,Ótimo. Então não vou precisar explicar a história toda.
+Dialogue: Marked=0,0:05:56.01,0:05:57.76,Default,NTP,0000,0000,0000,!Effect,Iremos procurar em três partes!
+Dialogue: Marked=0,0:05:58.04,0:05:59.46,Default,NTP,0000,0000,0000,!Effect,Mas você pode ir?
+Dialogue: Marked=0,0:06:05.86,0:06:07.39,Default,NTP,0000,0000,0000,!Effect,Quem é você?
+Dialogue: Marked=0,0:06:10.45,0:06:14.04,Default,NTP,0000,0000,0000,!Effect,Desculpe-me, mas nós não temos tempo para lutar com você!
+Dialogue: Marked=0,0:06:17.40,0:06:21.04,Poder,NTP,0000,0000,0000,!Effect,KAMEHAMEHA
+Dialogue: Marked=0,0:06:22.25,0:06:22.97,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:06:30.57,0:06:32.92,Default,NTP,0000,0000,0000,!Effect,Son! Não temos tempo para lutar!
+Dialogue: Marked=0,0:06:38.36,0:06:39.32,Default,NTP,0000,0000,0000,!Effect,Mais uma vez!
+Dialogue: Marked=0,0:06:39.80,0:06:42.32,Poder,NTP,0000,0000,0000,!Effect,KAMEHAMEHA
+Dialogue: Marked=0,0:06:45.65,0:06:46.75,Default,NTP,0000,0000,0000,!Effect,Papai...
+Dialogue: Marked=0,0:06:51.20,0:06:52.23,Default,NTP,0000,0000,0000,!Effect,Mova-se, Son!
+Dialogue: Marked=0,0:06:53.10,0:06:55.75,Poder,NTP,0000,0000,0000,!Effect,MAKANKUU SAPOU
+Dialogue: Marked=0,0:06:58.20,0:07:00.43,Poder,NTP,0000,0000,0000,!Effect,MASENKO
+Dialogue: Marked=0,0:07:02.57,0:07:05.06,Default,NTP,0000,0000,0000,!Effect,Por quê? Por que não posso usar meus poderes?
+Dialogue: Marked=0,0:07:06.95,0:07:15.41,Default,NTP,0000,0000,0000,!Effect,Isso é por causa do Gás Destron! você não pode concentrar seu ki.
+Dialogue: Marked=0,0:07:16.05,0:07:21.53,Default,NTP,0000,0000,0000,!Effect,Popo! Enquanto nós estamos lutando, muitas coisas estão morrendo!
+Dialogue: Marked=0,0:07:22.98,0:07:24.09,Default,NTP,0000,0000,0000,!Effect,O quê? O que são eles?
+Dialogue: Marked=0,0:07:44.07,0:07:46.24,Default,NTP,0000,0000,0000,!Effect,Pessoal! Nós não temos muito tempo!
+Dialogue: Marked=0,0:07:50.11,0:07:50.43,Default,NTP,0000,0000,0000,!Effect,Vamos fazer isso!
+Dialogue: Marked=0,0:07:58.43,0:08:03.00,Default,NTP,0000,0000,0000,!Effect,{\pos(400,400)}Grand Apron
+Dialogue: Marked=0,0:08:25.60,0:08:28.09,Default,NTP,0000,0000,0000,!Effect,Algo está saindo daqui!
+Dialogue: Marked=0,0:09:05.67,0:09:08.30,Default,NTP,0000,0000,0000,!Effect,Então, esta é a máquina que está gerando o gás!
+Dialogue: Marked=0,0:09:08.94,0:09:10.15,Default,NTP,0000,0000,0000,!Effect,Eu vou destruir!
+Dialogue: Marked=0,0:09:10.43,0:09:12.99,Default,NTP,0000,0000,0000,!Effect,Não deixarei você fazer isso, Saiya-jin!
+Dialogue: Marked=0,0:09:21.85,0:09:22.56,Default,NTP,0000,0000,0000,!Effect,Quem é?
+Dialogue: Marked=0,0:09:24.16,0:09:25.92,Default,NTP,0000,0000,0000,!Effect,Eu sou aquele que matará você!
+Dialogue: Marked=0,0:09:28.07,0:09:30.24,Default,NTP,0000,0000,0000,!Effect,Você é quem está fazendo isso?
+Dialogue: Marked=0,0:09:33.67,0:09:38.24,Poder,NTP,0000,0000,0000,!Effect,KAMEHAMEHA
+Dialogue: Marked=0,0:09:38.98,0:09:40.97,Default,NTP,0000,0000,0000,!Effect,Droga, ainda não funciona!
+Dialogue: Marked=0,0:10:01.24,0:10:02.73,Default,NTP,0000,0000,0000,!Effect,Eu consegui derrotar.
+Dialogue: Marked=0,0:10:03.66,0:10:06.68,Default,NTP,0000,0000,0000,!Effect,Que droga era essa?
+Dialogue: Marked=0,0:10:07.82,0:10:11.05,Default,NTP,0000,0000,0000,!Effect,De qualquer forma, tenho que destruir isso agora.
+Dialogue: Marked=0,0:10:33.77,0:10:37.12,Default,NTP,0000,0000,0000,!Effect,O próximo objetivo é a Ilha do Gelo.
+Dialogue: Marked=0,0:10:47.22,0:10:51.30,Default,NTP,0000,0000,0000,!Effect,{\pos(400,400)}Deserto no Oeste
+Dialogue: Marked=0,0:11:10.40,0:11:13.53,Default,NTP,0000,0000,0000,!Effect,Como meu pai falou, meu ki está voltando!
+Dialogue: Marked=0,0:11:22.10,0:11:28.21,Poder,NTP,0000,0000,0000,!Effect,KAMEHAMEHA
+Dialogue: Marked=0,0:11:35.32,0:11:36.10,Default,NTP,0000,0000,0000,!Effect,Legal! Eu consegui!
+Dialogue: Marked=0,0:11:37.70,0:11:39.27,Default,NTP,0000,0000,0000,!Effect,Tenho que destruir a máquina.
+Dialogue: Marked=0,0:12:14.02,0:12:17.57,Default,NTP,0000,0000,0000,!Effect,{\pos(400,400)}Vulcão Poco Poco
+Dialogue: Marked=0,0:12:32.89,0:12:36.37,Default,NTP,0000,0000,0000,!Effect,Minas de terra estão espalhadas por aqui!
+Dialogue: Marked=0,0:12:36.83,0:12:39.21,Default,NTP,0000,0000,0000,!Effect,Adeus, Piccolo!
+Dialogue: Marked=0,0:12:39.53,0:12:46.11,Default,NTP,0000,0000,0000,!Effect,Vai morrer sem nem mesmo tocar no gerador!
+Dialogue: Marked=0,0:12:54.29,0:12:56.67,Default,NTP,0000,0000,0000,!Effect,Minas de terra não são problemas pra mim.
+Dialogue: Marked=0,0:13:00.44,0:13:02.75,Default,NTP,0000,0000,0000,!Effect,Você pode subir aqui?
+Dialogue: Marked=0,0:13:03.71,0:13:05.42,Default,NTP,0000,0000,0000,!Effect,Sim posso!
+Dialogue: Marked=0,0:13:42.96,0:13:43.68,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:13:51.04,0:13:54.45,Default,NTP,0000,0000,0000,!Effect,Nunca imaginei que tinha alguém mais idiota que o Satan.
+Dialogue: Marked=0,0:13:55.20,0:13:57.22,Default,NTP,0000,0000,0000,!Effect,De qualquer forma, tenho que descobrir onde os outros estão.
+Dialogue: Marked=0,0:14:11.05,0:14:13.73,Default,NTP,0000,0000,0000,!Effect,Ilha do Gelo
+Dialogue: Marked=0,0:14:17.60,0:14:21.44,Default,NTP,0000,0000,0000,!Effect,Então isso é chamado de parede de gelo permanente.
+Dialogue: Marked=0,0:14:22.93,0:14:24.21,Default,NTP,0000,0000,0000,!Effect,Mas é isso aí?
+Dialogue: Marked=0,0:14:24.64,0:14:27.91,Default,NTP,0000,0000,0000,!Effect,O que é uma parede de gelo permanente?
+Dialogue: Marked=0,0:14:28.55,0:14:33.03,Default,NTP,0000,0000,0000,!Effect,É uma parede de gelo que nunca derreterá.
+Dialogue: Marked=0,0:14:36.41,0:14:40.32,Default,NTP,0000,0000,0000,!Effect,Entendo, mas ainda temos que quebrar isso, Gohan.
+Dialogue: Marked=0,0:14:41.10,0:14:41.42,Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:14:43.98,0:14:45.40,Default,NTP,0000,0000,0000,!Effect,Pare com o esforço inútil!
+Dialogue: Marked=0,0:14:45.93,0:14:48.96,Default,NTP,0000,0000,0000,!Effect,Este lugar vai ser o túmulo de vocês!
+Dialogue: Marked=0,0:14:58.38,0:15:00.09,Default,NTP,0000,0000,0000,!Effect,Outro pequeno inseto.
+Dialogue: Marked=0,0:15:02.89,0:15:06.13,Default,NTP,0000,0000,0000,!Effect,Vá! Deixe eles congelarem no gelo!
+Dialogue: Marked=0,0:15:10.72,0:15:11.93,Default,NTP,0000,0000,0000,!Effect,Eles nunca aprenderão.
+Dialogue: Marked=0,0:15:28.00,0:15:32.01,Default,NTP,0000,0000,0000,!Effect,Son! Deixe eles conosco! Você vai na frente e cuida da parede!
+Dialogue: Marked=0,0:15:40.19,0:15:41.01,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:16:15.71,0:16:19.52,Default,NTP,0000,0000,0000,!Effect,Droga! Há muitos, não importa o quanto deles nós matamos.
+Dialogue: Marked=0,0:16:19.62,0:16:20.33,Default,NTP,0000,0000,0000,!Effect,Kakarotto.
+Dialogue: Marked=0,0:16:22.79,0:16:24.99,Default,NTP,0000,0000,0000,!Effect,Parece que você está tendo problemas.
+Dialogue: Marked=0,0:16:27.23,0:16:28.37,Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:16:28.94,0:16:30.75,Default,NTP,0000,0000,0000,!Effect,Está todo mundo bem?
+Dialogue: Marked=0,0:16:31.36,0:16:32.35,Default,NTP,0000,0000,0000,!Effect,Trunks-san!
+Dialogue: Marked=0,0:16:32.81,0:16:34.24,Default,NTP,0000,0000,0000,!Effect,Você soube disso pela Bulma?
+Dialogue: Marked=0,0:16:34.66,0:16:36.01,Default,NTP,0000,0000,0000,!Effect,Sim, Goku-san!
+Dialogue: Marked=0,0:16:36.80,0:16:39.86,Default,NTP,0000,0000,0000,!Effect,Essas coisas tentaram me atacar como um bebê...
+Dialogue: Marked=0,0:16:40.26,0:16:42.73,Default,NTP,0000,0000,0000,!Effect,e interferiram nos estudos da minha mãe.
+Dialogue: Marked=0,0:16:43.55,0:16:45.76,Default,NTP,0000,0000,0000,!Effect,Bulma e outros estão bem?
+Dialogue: Marked=0,0:16:46.29,0:16:49.17,Default,NTP,0000,0000,0000,!Effect,Sim. Meu pai e eu os salvamos e os enviamos.
+Dialogue: Marked=0,0:16:49.63,0:16:50.31,Default,NTP,0000,0000,0000,!Effect,Trunks!
+Dialogue: Marked=0,0:16:50.77,0:16:53.15,Default,NTP,0000,0000,0000,!Effect,Quanto tempo você vai ficar batendo papo?
+Dialogue: Marked=0,0:16:54.08,0:16:56.14,Default,NTP,0000,0000,0000,!Effect,Temos que cuidar deles primeiro!
+Dialogue: Marked=0,0:16:56.67,0:16:56.99,Default,NTP,0000,0000,0000,!Effect,Tudo bem!
+Dialogue: Marked=0,0:16:59.59,0:17:00.65,Default,NTP,0000,0000,0000,!Effect,Tudo bem! Vamos lá!
+Dialogue: Marked=0,0:17:41.44,0:17:43.21,Default,NTP,0000,0000,0000,!Effect,Agora nós destruímos todos eles!
+Dialogue: Marked=0,0:17:43.68,0:17:45.60,Default,NTP,0000,0000,0000,!Effect,Agora está tudo bem!
+Dialogue: Marked=0,0:17:46.84,0:17:49.08,Default,NTP,0000,0000,0000,!Effect,Talvez eu nem precisasse aparecer.
+Dialogue: Marked=0,0:17:52.14,0:17:53.31,Default,NTP,0000,0000,0000,!Effect,Goku-san!
+Dialogue: Marked=0,0:17:54.66,0:17:57.58,Default,NTP,0000,0000,0000,!Effect,Kami-sama, nós conseguimos! Destruímos todos os geradores!
+Dialogue: Marked=0,0:17:58.11,0:18:01.53,Default,NTP,0000,0000,0000,!Effect,Receio em te falar, mas o Gás Destron está aumentando mais rápido.
+Dialogue: Marked=0,0:18:02.34,0:18:03.73,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:18:05.26,0:18:08.33,Default,NTP,0000,0000,0000,!Effect,Não havia apenas quatro deles.
+Dialogue: Marked=0,0:18:08.97,0:18:12.85,Default,NTP,0000,0000,0000,!Effect,Outro gerador apareceu na Capital Ocidental.
+Dialogue: Marked=0,0:18:14.57,0:18:16.99,Default,NTP,0000,0000,0000,!Effect,Ah, não! Em que lugar da Capital Ocidental?
+Dialogue: Marked=0,0:18:17.74,0:18:18.81,Default,NTP,0000,0000,0000,!Effect,Torre Tongari.
+Dialogue: Marked=0,0:18:19.16,0:18:23.29,Default,NTP,0000,0000,0000,!Effect,Torre Tongari? O Gás Destron está mesmo aumentado como nós falamos?
+Dialogue: Marked=0,0:18:23.68,0:18:24.46,Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:18:31.68,0:18:34.46,Default,NTP,0000,0000,0000,!Effect,Torres Tongari, Capital ocidental
+Dialogue: Marked=0,0:18:42.34,0:18:42.96,Default,NTP,0000,0000,0000,!Effect,Deve ser isso.
+Dialogue: Marked=0,0:18:42.96,0:18:44.05,Default,NTP,0000,0000,0000,!Effect,Deixe comigo!
+Dialogue: Marked=0,0:18:56.03,0:18:57.31,Default,NTP,0000,0000,0000,!Effect,É o fim disso.
+Dialogue: Marked=0,0:18:57.38,0:18:58.38,Default,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:19:03.75,0:19:05.49,Default,NTP,0000,0000,0000,!Effect,É impossível! Droga!
+Dialogue: Marked=0,0:19:05.95,0:19:10.86,Default,NTP,0000,0000,0000,!Effect,Vocês não podem destruir esta máquina. Há uma barreira ao redor dela.
+Dialogue: Marked=0,0:19:14.27,0:19:16.12,Default,NTP,0000,0000,0000,!Effect,F-Freeza!
+Dialogue: Marked=0,0:19:21.67,0:19:24.30,Default,NTP,0000,0000,0000,!Effect,Estou certo de que eu o matei com minhas próprias mãos.
+Dialogue: Marked=0,0:19:26.82,0:19:28.42,Default,NTP,0000,0000,0000,!Effect,Você não morreu?!
+Dialogue: Marked=0,0:19:28.64,0:19:30.38,Default,NTP,0000,0000,0000,!Effect,Macacos ignorantes!
+Dialogue: Marked=0,0:19:30.73,0:19:33.93,Default,NTP,0000,0000,0000,!Effect,Nós eliminaremos todos vocês.
+Dialogue: Marked=0,0:19:35.89,0:19:36.60,Default,NTP,0000,0000,0000,!Effect,Nós?
+Dialogue: Marked=0,0:19:37.49,0:19:41.44,Default,NTP,0000,0000,0000,!Effect,Vocês, Saiya-jins, serão mortos por nós!
+Dialogue: Marked=0,0:19:42.36,0:19:42.97,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:19:43.32,0:19:46.98,Default,NTP,0000,0000,0000,!Effect,Freeza! É você quem está tentando espalhar o Gás Destron?
+Dialogue: Marked=0,0:19:54.20,0:19:57.26,Default,NTP,0000,0000,0000,!Effect,Hoje nós finalmente iremos eliminar todos os Saiya-jins.
+Dialogue: Marked=0,0:19:57.51,0:19:58.36,Default,NTP,0000,0000,0000,!Effect,Koola!
+Dialogue: Marked=0,0:20:00.03,0:20:00.67,Default,NTP,0000,0000,0000,!Effect,Tales!
+Dialogue: Marked=0,0:20:02.06,0:20:07.93,Default,NTP,0000,0000,0000,!Effect,Eu deixarei vocês desfrutarem o terror do inferno antes que eu os envie para lá!
+Dialogue: Marked=0,0:20:08.14,0:20:10.52,Default,NTP,0000,0000,0000,!Effect,Você é uma decepção para as pessoas de Namek!
+Dialogue: Marked=0,0:20:10.66,0:20:13.58,Default,NTP,0000,0000,0000,!Effect,Piccolo, até mesmo você, que é um Namekusei-jin.
+Dialogue: Marked=0,0:20:14.15,0:20:17.31,Default,NTP,0000,0000,0000,!Effect,Eu não aprovarei se você ficar do lado dos Saiya-jins!
+Dialogue: Marked=0,0:20:18.02,0:20:21.08,Default,NTP,0000,0000,0000,!Effect,Se você mudar a sua mente agora, deixarei você ir.
+Dialogue: Marked=0,0:20:21.51,0:20:25.88,Default,NTP,0000,0000,0000,!Effect,Temos que nos livrar dos Saiya-jins dessa vez.
+Dialogue: Marked=0,0:20:28.26,0:20:29.19,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:20:29.97,0:20:33.70,Default,NTP,0000,0000,0000,!Effect,Meu ódio contra os Saiya-jins é muito grande! Você pode entender minha ira?
+Dialogue: Marked=0,0:20:34.24,0:20:38.29,Default,NTP,0000,0000,0000,!Effect,Eu, um Saiya-jin, fui morto por um Saiya-jin.
+Dialogue: Marked=0,0:20:38.57,0:20:40.39,Default,NTP,0000,0000,0000,!Effect,O que está acontecendo aqui?
+Dialogue: Marked=0,0:20:42.98,0:20:45.05,Default,NTP,0000,0000,0000,!Effect,Esses são os caras que papai derrotou!
+Dialogue: Marked=0,0:20:54.08,0:20:55.18,Default,NTP,0000,0000,0000,!Effect,Não entendo!
+Dialogue: Marked=0,0:20:55.85,0:20:56.57,Default,NTP,0000,0000,0000,!Effect,Moleque! Não se preocupe.
+Dialogue: Marked=0,0:20:57.28,0:21:00.83,Default,NTP,0000,0000,0000,!Effect,Enviarei você para o inferno sem muita agonia.
+Dialogue: Marked=0,0:21:03.32,0:21:06.95,Default,NTP,0000,0000,0000,!Effect,Koola! Vingue-se o tanto que você quiser.
+Dialogue: Marked=0,0:21:09.65,0:21:11.32,Default,NTP,0000,0000,0000,!Effect,O que são estes caras?
+Dialogue: Marked=0,0:21:11.85,0:21:14.03,Default,NTP,0000,0000,0000,!Effect,Um macaco que não sabe nada além de lutar...
+Dialogue: Marked=0,0:21:14.74,0:21:17.51,Default,NTP,0000,0000,0000,!Effect,Quem vai acabar com você sou eu, Koola-sama!
+Dialogue: Marked=0,0:21:17.72,0:21:21.24,Default,NTP,0000,0000,0000,!Effect,Vegeta! Seus pecados nunca serão perdoados!
+Dialogue: Marked=0,0:21:21.74,0:21:22.66,Default,NTP,0000,0000,0000,!Effect,Mas que verme!
+Dialogue: Marked=0,0:21:23.52,0:21:26.43,Default,NTP,0000,0000,0000,!Effect,Inseto! Eu acabarei com você!
+Dialogue: Marked=0,0:21:32.55,0:21:39.59,Default,NTP,0000,0000,0000,!Effect,Vocês foram mortos miseravelmente! Não sabem o quanto nós estamos forte agora!
+Dialogue: Marked=0,0:21:40.09,0:21:44.53,Default,NTP,0000,0000,0000,!Effect,Seus idiotas, vocês não se comparam com a gente!
+Dialogue: Marked=0,0:21:44.96,0:21:48.47,Default,NTP,0000,0000,0000,!Effect,Ah, Vegeta...  Ultimamente, você tem falado alto demais.
+Dialogue: Marked=0,0:21:48.72,0:21:51.14,Default,NTP,0000,0000,0000,!Effect,Vocês são os únicos que são idiotas.
+Dialogue: Marked=0,0:21:52.74,0:21:57.37,Default,NTP,0000,0000,0000,!Effect,Nossa meta é acabar com todos os Saiya-jins vivos...
+Dialogue: Marked=0,0:21:57.86,0:22:01.56,Default,NTP,0000,0000,0000,!Effect,Com toda ira desses que foram mortos por vocês...
+Dialogue: Marked=0,0:22:01.95,0:22:07.21,Default,NTP,0000,0000,0000,!Effect,Vamos eliminar todos os Saiya-jins desse mundo e os mandaremos para o inferno!
+Dialogue: Marked=0,0:22:07.53,0:22:12.97,Default,NTP,0000,0000,0000,!Effect,Vocês deveriam ser gratos por não terem que morrer com o Gás Destron!
+Dialogue: Marked=0,0:22:18.84,0:22:20.12,Default,NTP,0000,0000,0000,!Effect,Você não é Koola?
+Dialogue: Marked=0,0:22:58.81,0:22:59.45,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:23:09.58,0:23:13.31,Default,NTP,0000,0000,0000,!Effect,Dê-lhes uma surra além das imaginações deles!
+Dialogue: Marked=0,0:23:17.51,0:23:20.60,Default,NTP,0000,0000,0000,!Effect,Não pode ser! O poder dele está maior do que antes!
+Dialogue: Marked=0,0:23:26.86,0:23:27.61,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:23:39.94,0:23:40.83,Default,NTP,0000,0000,0000,!Effect,Ele é um monstro?
+Dialogue: Marked=0,0:23:44.28,0:23:46.31,Default,NTP,0000,0000,0000,!Effect,É inútil bater nestas caras?
+Dialogue: Marked=0,0:23:47.62,0:23:48.83,Default,NTP,0000,0000,0000,!Effect,Tem razão.
+Dialogue: Marked=0,0:23:54.77,0:23:56.65,Default,NTP,0000,0000,0000,!Effect,Não importa o tanto que você bata neles, eles sempre se recuperam.
+Dialogue: Marked=0,0:24:01.28,0:24:03.41,Default,NTP,0000,0000,0000,!Effect,O-O que está acontecendo aqui?
+Dialogue: Marked=0,0:24:06.15,0:24:07.68,Default,NTP,0000,0000,0000,!Effect,Esses bastardos são fortes.
+Dialogue: Marked=0,0:24:09.21,0:24:10.49,Default,NTP,0000,0000,0000,!Effect,Que droga é essa?
+Dialogue: Marked=0,0:24:10.70,0:24:13.40,Default,NTP,0000,0000,0000,!Effect,Goku, eles são os Guerreiros Fantasmas.
+Dialogue: Marked=0,0:24:13.93,0:24:14.79,Default,NTP,0000,0000,0000,!Effect,Kaio-sama.
+Dialogue: Marked=0,0:24:16.49,0:24:17.99,Default,NTP,0000,0000,0000,!Effect,Quer dizer, eles não são reais.
+Dialogue: Marked=0,0:24:18.88,0:24:22.43,Default,NTP,0000,0000,0000,!Effect,Entendi! Agora sei a verdadeira identidade de vocês!
+Dialogue: Marked=0,0:24:25.38,0:24:26.06,Default,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:24:26.52,0:24:29.37,Default,NTP,0000,0000,0000,!Effect,Pessoal! Eles são guerreiros fantasmas!
+Dialogue: Marked=0,0:24:35.69,0:24:37.19,Default,NTP,0000,0000,0000,!Effect,Desapareça!
+Dialogue: Marked=0,0:24:47.25,0:24:48.85,Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:24:53.51,0:24:55.78,Default,NTP,0000,0000,0000,!Effect,Não, não faça isso!
+Dialogue: Marked=0,0:25:05.50,0:25:08.86,Default,NTP,0000,0000,0000,!Effect,Parece que vocês melhoraram suas habilidades de luta,
+Dialogue: Marked=0,0:25:08.93,0:25:12.17,Default,NTP,0000,0000,0000,!Effect,mas lembrem-se que o poder da nossa ira é muito maior!
+Dialogue: Marked=0,0:25:14.06,0:25:15.48,Default,NTP,0000,0000,0000,!Effect,Queria saber o que realmente eles estavam procurando.
+Dialogue: Marked=0,0:25:15.98,0:25:19.50,Default,NTP,0000,0000,0000,!Effect,Piccolo-san, temos que cuidar desse gerador de Gás Destron rápido.
+Dialogue: Marked=0,0:25:19.50,0:25:21.42,Default,NTP,0000,0000,0000,!Effect,Goku-san, O que faremos sobre isso?
+Dialogue: Marked=0,0:25:25.01,0:25:27.25,Default,NTP,0000,0000,0000,!Effect,Son! Como o ditado diz: "Quando há problema, é só pedir ajuda a Deus".
+Dialogue: Marked=0,0:25:28.64,0:25:30.59,Default,NTP,0000,0000,0000,!Effect,Kaio-sama, por favor, nos conte!
+Dialogue: Marked=0,0:25:31.92,0:25:34.04,Default,NTP,0000,0000,0000,!Effect,Escute bem, Son Goku.
+Dialogue: Marked=0,0:25:34.40,0:25:39.15,Default,NTP,0000,0000,0000,!Effect,Para destruir o gerador, primeiro você tem que atacar o verdadeiro ser.
+Dialogue: Marked=0,0:25:40.30,0:25:40.97,Default,NTP,0000,0000,0000,!Effect,O verdadeiro ser?
+Dialogue: Marked=0,0:25:42.22,0:25:46.41,Default,NTP,0000,0000,0000,!Effect,Encontre a verdadeira pessoa que fez Freeza atacar vocês.
+Dialogue: Marked=0,0:25:46.59,0:25:47.62,Default,NTP,0000,0000,0000,!Effect,A verdadeira pessoa?
+Dialogue: Marked=0,0:25:48.50,0:25:50.92,Default,NTP,0000,0000,0000,!Effect,O nome dele é Doutor Raichi.
+Dialogue: Marked=0,0:25:51.06,0:25:56.65,Default,NTP,0000,0000,0000,!Effect,Ele era o cientista mais avançado e esperto dos Tsufuru-jins.
+Dialogue: Marked=0,0:25:57.40,0:25:58.50,Default,NTP,0000,0000,0000,!Effect,Tsufuru-jins?
+Dialogue: Marked=0,0:25:59.50,0:26:00.00,Default,NTP,0000,0000,0000,!Effect,Tsufuru-jins?
+Dialogue: Marked=0,0:26:02.45,0:26:07.07,Default,NTP,0000,0000,0000,!Effect,Tsufuru-jins? Eles são uma raça ignorante que foi assumida por nós, Saiya-jins.
+Dialogue: Marked=0,0:26:07.93,0:26:10.31,Default,NTP,0000,0000,0000,!Effect,Kaio-sama, o que aconteceu?
+Dialogue: Marked=0,0:26:10.38,0:26:15.07,Default,NTP,0000,0000,0000,!Effect,Há muito tempo atrás, O Planeta Vegeta era chamado de Planeta Plant,
+Dialogue: Marked=0,0:26:15.29,0:26:19.84,Default,NTP,0000,0000,0000,!Effect,e era habitado por avançados cientistas Tsufuru-jins.
+Dialogue: Marked=0,0:26:20.69,0:26:24.54,Default,NTP,0000,0000,0000,!Effect,Certo dia, os Saiya-jins chegaram em uma nave espacial...
+Dialogue: Marked=0,0:26:24.86,0:26:27.37,Default,NTP,0000,0000,0000,!Effect,e pediram ajuda para os Tsufuru-jins.
+Dialogue: Marked=0,0:26:27.80,0:26:31.46,Default,NTP,0000,0000,0000,!Effect,Os Tsufuru-jins permitiram que os Saiya-jins descessem e povoassem o planeta deles...
+Dialogue: Marked=0,0:26:31.46,0:26:35.00,Default,NTP,0000,0000,0000,!Effect,E as duas raças começaram a viver juntas no mesmo planeta.
+Dialogue: Marked=0,0:26:35.91,0:26:40.67,Default,NTP,0000,0000,0000,!Effect,A raça de guerreiros Saiya-jins cresceu durante os anos, e um dia...
+Dialogue: Marked=0,0:26:40.67,0:26:46.40,Default,NTP,0000,0000,0000,!Effect,Um homem nasceu com uma inteligência tão extraordinária quanto a de um Tsufuru-jin.
+Dialogue: Marked=0,0:26:46.75,0:26:49.83,Default,NTP,0000,0000,0000,!Effect,Um homem que depois foi chamado de Rei Vegeta...
+Dialogue: Marked=0,0:26:49.93,0:26:54.18,Default,NTP,0000,0000,0000,!Effect,conduziu os Saiya-jins à revolução contra os Tsufuru-jins.
+Dialogue: Marked=0,0:26:54.78,0:26:55.68,Default,NTP,0000,0000,0000,!Effect,Desde então...
+Dialogue: Marked=0,0:26:56.08,0:27:00.10,Default,NTP,0000,0000,0000,!Effect,o planeta foi chamado de Planeta Vegeta, e os Saiya-jins se tornaram os donos.
+Dialogue: Marked=0,0:27:00.48,0:27:03.39,Default,NTP,0000,0000,0000,!Effect,Os Saiya-jins fizeram essa coisa terrível, eu não sabia.
+Dialogue: Marked=0,0:27:03.68,0:27:06.59,Default,NTP,0000,0000,0000,!Effect,Foi o destino que trouxe a raça guerreira Saiya-jin para o planeta.
+Dialogue: Marked=0,0:27:09.40,0:27:12.06,Default,NTP,0000,0000,0000,!Effect,Papai, posso entender a raiva dos Tsufuru-jins...
+Dialogue: Marked=0,0:27:12.49,0:27:15.58,Default,NTP,0000,0000,0000,!Effect,Mas isso não significa que eles podem matar todo mundo na Terra.
+Dialogue: Marked=0,0:27:17.05,0:27:20.75,Default,NTP,0000,0000,0000,!Effect,Kaio-sama? Onde está esse tal de Raichi, agora?
+Dialogue: Marked=0,0:27:21.63,0:27:24.26,Default,NTP,0000,0000,0000,!Effect,Ouvi que ele estava no Planeta Escuro, no fim do universo.
+Dialogue: Marked=0,0:27:25.33,0:27:26.68,Default,NTP,0000,0000,0000,!Effect,Planeta Escuro?
+Dialogue: Marked=0,0:27:31.48,0:27:32.62,Default,NTP,0000,0000,0000,!Effect,Tudo bem! Vamos lá!
+Dialogue: Marked=0,0:27:43.43,0:27:47.87,Default,NTP,0000,0000,0000,!Effect,Saiya-jins, os Guerreiros Fantasmas são só uma saudação! Venham aqui!
+Dialogue: Marked=0,0:27:48.58,0:27:53.67,Default,NTP,0000,0000,0000,!Effect,Venham aqui! Terei a vingança de tudo que está dentro do meu coração!
+Dialogue: Marked=0,0:27:54.56,0:28:01.70,Default,NTP,0000,0000,0000,!Effect,Não importa quantas vezes vocês derrotem os Guerreiros Fantasmas, eles sempre voltarão!

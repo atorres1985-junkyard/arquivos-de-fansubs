@@ -1,0 +1,278 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: ASSAHINA,Nightwarrior,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.33,0:01:56.24,Narrador,,0000,0000,0000,,A devastação da população terrestre e de\Nsuas cidades já tinha atingido 80% do seu total,
+Dialogue: Marked=0,0:01:56.24,0:01:58.68,Narrador,,0000,0000,0000,,causada pelo até então\Ntemível Majin Boo, entretanto...
+Dialogue: Marked=0,0:02:08.85,0:02:13.79,*Default,,0000,0000,0000,,P-Por que mata as\Npessoas e destrói as casas?
+Dialogue: Marked=0,0:02:14.60,0:02:15.70,*Default,,0000,0000,0000,,Porque é divertido!
+Dialogue: Marked=0,0:02:15.98,0:02:20.17,*Default,,0000,0000,0000,,M-Mas matar e destruir não está certo...
+Dialogue: Marked=0,0:02:21.12,0:02:25.17,*Default,,0000,0000,0000,,Ah, está tudo bem!\NEstá tudo bem, se isso lhe agrada tanto!
+Dialogue: Marked=0,0:02:25.72,0:02:28.18,*Default,,0000,0000,0000,,Você acha que é errado fazer isso?
+Dialogue: Marked=0,0:02:28.62,0:02:30.76,*Default,,0000,0000,0000,,S-Sim, acho...
+Dialogue: Marked=0,0:02:31.28,0:02:32.39,*Default,,0000,0000,0000,,Então eu paro!
+Dialogue: Marked=0,0:02:34.42,0:02:37.45,*Default,,0000,0000,0000,,N-Não matará mais ninguém?
+Dialogue: Marked=0,0:02:37.45,0:02:38.22,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:02:38.22,0:02:40.03,*Default,,0000,0000,0000,,N-Não destruirá mais lugar algum?
+Dialogue: Marked=0,0:02:40.03,0:02:40.60,*Default,,0000,0000,0000,,Isso.
+Dialogue: Marked=0,0:02:41.31,0:02:42.99,P!,,0000,0000,0000,,Consegui!
+Dialogue: Marked=0,0:02:44.31,0:02:48.67,Narrador,,0000,0000,0000,,Uma delicada mudança nos\Nsentimentos de Boo começou a fluir...
+Dialogue: Marked=0,0:02:52.99,0:02:59.21,Narrador,,0000,0000,0000,,Quando o disparo da arma de um tolo\Nfez com que esse sentimento esfriasse.
+
+Dialogue: Marked=0,0:03:09.71,0:03:17.70,apresDBZ2,,0000,0000,0000,,{\1c&HF2EDD2\3c&HFFFFFF\pos(675,70)\shad0\bord0\fad(600,0)\fscx100\fscy100}episódio 254
+Dialogue: Marked=0,0:03:09.71,0:03:17.70,apresDBZ2,,0000,0000,0000,,{\1c&HF2EDD2\3c&HFFFFFF\pos(275,180)\shad0\bord0\fad(600,0)\fscx235\fscy190}Fuja, Satan
+Dialogue: Marked=0,0:03:09.71,0:03:17.70,apresDBZ2,,0000,0000,0000,,{\1c&HF2EDD2\3c&HFFFFFF\pos(510,180)\shad0\bord0\fad(600,0)\fscx130\fscy210\fnArial\frz-10}!
+Dialogue: Marked=0,0:03:09.71,0:03:17.70,apresDBZ2,,0000,0000,0000,,{\1c&HF2EDD2\3c&HFFFFFF\pos(535,180)\shad0\bord0\fad(600,0)\fscx130\fscy210\fnArial\frz-10}!
+Dialogue: Marked=0,0:03:09.71,0:03:17.70,apresDBZ2,,0000,0000,0000,,{\1c&HF2EDD2\3c&HFFFFFF\pos(385,480)\shad0\bord0\fad(600,0)\fscx155\fscy130}O furioso Majin Boo aparece
+
+Dialogue: Marked=0,0:03:29.98,0:03:31.75,*Default,,0000,0000,0000,,Quem foi que...
+Dialogue: Marked=0,0:03:39.48,0:03:40.75,*Default,,0000,0000,0000,,Um animal exterminado!
+Dialogue: Marked=0,0:03:41.51,0:03:44.76,*Default,,0000,0000,0000,,Quem é aquele retardado?
+Dialogue: Marked=0,0:03:47.78,0:03:49.92,*Default,,0000,0000,0000,,Não havia necessidade disso...
+Dialogue: Marked=0,0:03:51.78,0:03:52.43,*Default,,0000,0000,0000,,Hã?
+Dialogue: Marked=0,0:03:53.56,0:03:55.51,*Default,,0000,0000,0000,,Chefinho?
+Dialogue: Marked=0,0:03:55.99,0:03:59.95,*Default,,0000,0000,0000,,O sujeito que está com\No Majin Boo não é o Mister Satan?
+Dialogue: Marked=0,0:04:00.88,0:04:05.19,*Default,,0000,0000,0000,,Por que o herói Mister Satan\Ne Majin Boo estariam juntos?
+Dialogue: Marked=0,0:04:06.00,0:04:07.40,*Default,,0000,0000,0000,,Isso pouco me importa.
+Dialogue: Marked=0,0:04:07.92,0:04:10.31,*Default,,0000,0000,0000,,Mandarei os dois juntos pelos ares.
+Dialogue: Marked=0,0:04:10.31,0:04:14.03,*Default,,0000,0000,0000,,Substituiremos Satan\Ne seremos os novos heróis.
+Dialogue: Marked=0,0:04:20.49,0:04:22.29,*Default,,0000,0000,0000,,Morram!
+Dialogue: Marked=0,0:04:46.12,0:04:47.10,*Default,,0000,0000,0000,,Bem-feito!
+Dialogue: Marked=0,0:04:47.10,0:04:48.57,*Default,,0000,0000,0000,,Ficaram em pedaços!
+Dialogue: Marked=0,0:04:48.57,0:04:50.32,*Default,,0000,0000,0000,,Conseguimos, não é, chefinho?
+Dialogue: Marked=0,0:04:50.91,0:04:55.32,*Default,,0000,0000,0000,,Este é o nascimento do novo herói que\Nacaba de salvar a Terra das mãos de Majin Boo!
+Dialogue: Marked=0,0:05:19.21,0:05:22.02,*Default,,0000,0000,0000,,Ei, ele continua de pé!
+Dialogue: Marked=0,0:05:22.02,0:05:23.64,*Default,,0000,0000,0000,,Não ficou em pedaços!
+Dialogue: Marked=0,0:05:48.38,0:05:49.60,*Default,,0000,0000,0000,,Moveu-se!
+Dialogue: Marked=0,0:05:49.60,0:05:51.06,*Default,,0000,0000,0000,,Ainda continua vivo!
+Dialogue: Marked=0,0:05:52.41,0:05:53.30,*Default,,0000,0000,0000,,Desgraçado!
+Dialogue: Marked=0,0:06:02.94,0:06:04.14,*Default,,0000,0000,0000,,M-Maldito!
+Dialogue: Marked=0,0:06:07.44,0:06:08.98,*Default,,0000,0000,0000,,Imperdoável!
+Dialogue: Marked=0,0:06:11.51,0:06:13.57,*Default,,0000,0000,0000,,Não o perdoarei!
+Dialogue: Marked=0,0:06:13.84,0:06:14.90,*Default,,0000,0000,0000,,O-O que disse?
+Dialogue: Marked=0,0:06:17.42,0:06:18.99,*Default,,0000,0000,0000,,Seu...
+Dialogue: Marked=0,0:06:19.05,0:06:20.66,*Default,,0000,0000,0000,,retardado!
+Dialogue: Marked=0,0:06:21.35,0:06:22.95,*Default,,0000,0000,0000,,Seu desgraçado!
+Dialogue: Marked=0,0:06:23.62,0:06:24.76,*Default,,0000,0000,0000,,Você deveria...
+Dialogue: Marked=0,0:06:24.84,0:06:25.92,*Default,,0000,0000,0000,,Você deveria...
+Dialogue: Marked=0,0:06:26.13,0:06:27.47,*Default,,0000,0000,0000,,Você deveria...
+Dialogue: Marked=0,0:06:27.75,0:06:28.75,*Default,,0000,0000,0000,,Você deveria...
+Dialogue: Marked=0,0:06:28.75,0:06:30.88,*Default,,0000,0000,0000,,Você deveria... Você deveria...
+Dialogue: Marked=0,0:06:30.88,0:06:32.84,*Default,,0000,0000,0000,,desaparecer e morrer!
+Dialogue: Marked=0,0:06:52.68,0:06:54.86,*Default,,0000,0000,0000,,Seu lixo terrestre!
+Dialogue: Marked=0,0:07:13.78,0:07:15.10,*Default,,0000,0000,0000,,Mas que droga.
+Dialogue: Marked=0,0:07:15.10,0:07:16.60,*Default,,0000,0000,0000,,Quanta crueldade.
+Dialogue: Marked=0,0:07:23.14,0:07:26.64,*Default,,0000,0000,0000,,M-Majin Boo-san!\NÉ por pouco, mas ainda está vivo!
+Dialogue: Marked=0,0:07:29.53,0:07:31.28,*Default,,0000,0000,0000,,Rápido! Rápido!
+Dialogue: Marked=0,0:07:34.77,0:07:35.89,*Default,,0000,0000,0000,,O que o senhor acha?
+Dialogue: Marked=0,0:07:35.89,0:07:37.31,*Default,,0000,0000,0000,,Seria capaz de curá-lo?
+Dialogue: Marked=0,0:07:37.31,0:07:38.69,*Default,,0000,0000,0000,,Se não está morto, poderá ser curado.
+Dialogue: Marked=0,0:07:57.49,0:07:59.55,*Default,,0000,0000,0000,,Conseguimos!
+Dialogue: Marked=0,0:07:59.55,0:08:01.88,*Default,,0000,0000,0000,,Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:08:02.33,0:08:03.33,*Default,,0000,0000,0000,,Conseguimos!
+Dialogue: Marked=0,0:08:03.33,0:08:05.04,*Default,,0000,0000,0000,,Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:08:05.04,0:08:08.35,*Default,,0000,0000,0000,,Conseguimos! Conseguimos! Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:08:08.45,0:08:11.52,*Default,,0000,0000,0000,,Conseguimos! Conseguimos! Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:08:11.92,0:08:14.52,*Default,,0000,0000,0000,,Conseguimos! Conseguimos! Conseguimos!
+Dialogue: Marked=0,0:08:22.18,0:08:24.74,*Default,,0000,0000,0000,,O que está havendo ali?
+Dialogue: Marked=0,0:08:25.66,0:08:29.29,*Default,,0000,0000,0000,,Por que Majin Boo e\Naquele charlatão estão juntos?
+Dialogue: Marked=0,0:08:32.44,0:08:33.76,*Default,,0000,0000,0000,,Pode ser que...
+Dialogue: Marked=0,0:08:33.76,0:08:35.79,*Default,,0000,0000,0000,,não precisemos lutar\Npara pôr um fim nisso.
+Dialogue: Marked=0,0:08:40.25,0:08:41.17,*Default,,0000,0000,0000,,No entanto...
+Dialogue: Marked=0,0:08:45.76,0:08:48.68,*Default,,0000,0000,0000,,Isso não muda o fato de\Naquele sujeito ser perigoso.
+Dialogue: Marked=0,0:08:53.29,0:08:54.47,*Default,,0000,0000,0000,,Muito bem!
+Dialogue: Marked=0,0:08:56.30,0:08:57.48,*Default,,0000,0000,0000,,Excelente! Excelente!
+Dialogue: Marked=0,0:09:01.76,0:09:02.82,*Default,,0000,0000,0000,,Terminei.
+Dialogue: Marked=0,0:09:05.72,0:09:08.04,*Default,,0000,0000,0000,,Ficou magnífico, hein?
+Dialogue: Marked=0,0:09:11.95,0:09:14.54,*Default,,0000,0000,0000,,Tive o cuidado de também construir o seu quarto.
+Dialogue: Marked=0,0:09:18.67,0:09:20.80,*Default,,0000,0000,0000,,Muito obrigado!
+Dialogue: Marked=0,0:09:22.05,0:09:24.16,*Default,,0000,0000,0000,,Além disso, venha aqui um pouco.
+Dialogue: Marked=0,0:09:27.35,0:09:29.32,*Default,,0000,0000,0000,,Aqui é a sua casa.
+Dialogue: Marked=0,0:09:32.16,0:09:34.85,*Default,,0000,0000,0000,,Você se deu bem, não é?
+Dialogue: Marked=0,0:09:43.67,0:09:45.40,Radio,,0000,0000,0000,,Vamos lá!
+Dialogue: Marked=0,0:09:45.40,0:09:48.58,Radio,,0000,0000,0000,,Estendam a perna e...
+Dialogue: Marked=0,0:09:48.58,0:09:50.34,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:09:50.50,0:09:52.09,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:09:52.39,0:09:54.05,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:09:54.18,0:09:57.25,Radio,,0000,0000,0000,,Um, dois!\NCerto, mais uma vez!
+Dialogue: Marked=0,0:09:57.82,0:09:59.45,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:09:59.60,0:10:01.18,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:10:01.48,0:10:03.23,Radio,,0000,0000,0000,,Um, dois!
+Dialogue: Marked=0,0:10:03.23,0:10:03.71,Radio,,0000,0000,0000,,Pronto!
+Dialogue: Marked=0,0:10:03.93,0:10:06.02,Radio,,0000,0000,0000,,Então, até semana que vem!
+Dialogue: Marked=0,0:10:07.04,0:10:10.22,P!,,0000,0000,0000,,Será que a Terra está segura\Nenquanto estamos fazendo isto?
+Dialogue: Marked=0,0:10:11.41,0:10:16.27,*Default,,0000,0000,0000,,Você acabou de pensar se a Terra está\Nsegura enquanto estamos fazendo isto, não é?
+Dialogue: Marked=0,0:10:18.83,0:10:22.55,*Default,,0000,0000,0000,,Já havia lhe dito desde o início que o processo de aumento da sua força dura vinte horas.
+Dialogue: Marked=0,0:10:22.55,0:10:24.44,*Default,,0000,0000,0000,,Fique despreocupado e continue sentado.
+Dialogue: Marked=0,0:10:24.44,0:10:27.40,*Default,,0000,0000,0000,,Não há razão para um Kaioshin mentir.
+Dialogue: Marked=0,0:10:27.40,0:10:28.79,*Default,,0000,0000,0000,,Você se esqueceu disso?
+Dialogue: Marked=0,0:10:28.79,0:10:29.47,*Default,,0000,0000,0000,,Não.
+Dialogue: Marked=0,0:10:29.47,0:10:30.78,*Default,,0000,0000,0000,,Sendo assim, está bem.
+Dialogue: Marked=0,0:10:31.20,0:10:32.03,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:10:34.76,0:10:36.45,*Default,,0000,0000,0000,,Mudando de assunto...
+Dialogue: Marked=0,0:10:37.24,0:10:39.75,*Default,,0000,0000,0000,,Essa tal de Bulma é uma mulher boa?
+Dialogue: Marked=0,0:10:40.19,0:10:43.37,*Default,,0000,0000,0000,,Seu pai me prometeu, não é?
+Dialogue: Marked=0,0:10:43.37,0:10:46.76,*Default,,0000,0000,0000,,Caso consiga extrair de você\Npoderes que ultrapassem seus limites,
+Dialogue: Marked=0,0:10:47.63,0:10:52.56,*Default,,0000,0000,0000,,essa tal de Bulma me deixará\Ntocá-la nos peitos e na bunda, correto?
+Dialogue: Marked=0,0:10:52.56,0:10:54.39,*Default,,0000,0000,0000,,Kaioshin-sama!
+Dialogue: Marked=0,0:10:54.39,0:10:57.14,*Default,,0000,0000,0000,,Não acha melhor se concentrar mais?
+Dialogue: Marked=0,0:10:57.83,0:10:59.79,*Default,,0000,0000,0000,,Não sou nenhum amador!
+Dialogue: Marked=0,0:10:59.79,0:11:02.27,*Default,,0000,0000,0000,,Caso não conseguisse me\Nconcentrar por coisas banais como essas,
+Dialogue: Marked=0,0:11:02.27,0:11:04.53,*Default,,0000,0000,0000,,não seria qualificado para ser um Kaioshin!
+Dialogue: Marked=0,0:11:09.44,0:11:11.92,*Default,,0000,0000,0000,,E então?\NO que me diz?
+Dialogue: Marked=0,0:11:11.92,0:11:13.74,*Default,,0000,0000,0000,,Ela é uma mulher belíssima!
+Dialogue: Marked=0,0:11:14.21,0:11:16.30,*Default,,0000,0000,0000,,Hã? É mesmo?
+Dialogue: Marked=0,0:11:16.30,0:11:19.46,*Default,,0000,0000,0000,,N-Nesse caso, não é bom\Nficarmos jogando conversa fora, não é?
+Dialogue: Marked=0,0:11:21.82,0:11:23.08,*Default,,0000,0000,0000,,Mulher belíssima!
+Dialogue: Marked=0,0:11:24.46,0:11:26.13,*Default,,0000,0000,0000,,Temos que terminar logo\No aumento da sua força!
+Dialogue: Marked=0,0:11:30.48,0:11:31.99,*Default,,0000,0000,0000,,Como era de se esperar do Gosenzo-sama.
+Dialogue: Marked=0,0:11:31.99,0:11:33.53,*Default,,0000,0000,0000,,Começou a se focar na concentração.
+Dialogue: Marked=0,0:11:35.00,0:11:36.58,*Default,,0000,0000,0000,,Será mesmo?
+Dialogue: Marked=0,0:11:36.58,0:11:38.80,*Default,,0000,0000,0000,,Pelas circunstâncias, tudo correrá bem.
+Dialogue: Marked=0,0:11:42.91,0:11:46.11,*Default,,0000,0000,0000,,Ei, ainda não aprontou algo delicioso?
+Dialogue: Marked=0,0:11:46.73,0:11:50.78,*Default,,0000,0000,0000,,Está quase pronto!\NAguarde mais um pouco, por favor!
+Dialogue: Marked=0,0:11:50.78,0:11:51.97,*Default,,0000,0000,0000,,Ei...
+Dialogue: Marked=0,0:11:55.33,0:11:58.65,*Default,,0000,0000,0000,,Boo tem a mesma\Ninocência de uma criança, não é?
+Dialogue: Marked=0,0:11:58.65,0:12:01.62,*Default,,0000,0000,0000,,Ele não matará mais ninguém.
+Dialogue: Marked=0,0:12:02.16,0:12:05.50,*Default,,0000,0000,0000,,Ainda bem!\NAinda bem, ainda bem!
+Dialogue: Marked=0,0:12:05.50,0:12:08.01,*Default,,0000,0000,0000,,Ei, ainda não está pronto?
+Dialogue: Marked=0,0:12:08.68,0:12:10.80,*Default,,0000,0000,0000,,Pronto, será servido!
+Dialogue: Marked=0,0:12:13.37,0:12:15.39,P!,,0000,0000,0000,,Quente!
+Dialogue: Marked=0,0:12:15.69,0:12:18.07,*Default,,0000,0000,0000,,Perdoe-me pela demora.
+Dialogue: Marked=0,0:12:18.07,0:12:20.42,*Default,,0000,0000,0000,,Está muito delicioso.
+Dialogue: Marked=0,0:12:22.38,0:12:24.25,*Default,,0000,0000,0000,,Vamos comer juntos.
+Dialogue: Marked=0,0:12:26.42,0:12:28.23,*Default,,0000,0000,0000,,S-Sim!
+
+Dialogue: Marked=0,0:12:33.77,0:12:36.51,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:33.77,0:12:36.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:33.77,0:12:36.51,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:33.77,0:12:36.51,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:39.78,0:12:42.52,comercial3,,0000,0000,0000,,{\fscx30\fscy45\pos(546,555)\t(9110,0)}torrents.ebrain.com.br
+Dialogue: Marked=0,0:12:39.78,0:12:42.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:39.78,0:12:42.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:39.78,0:12:42.52,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:43.68,0:12:46.00,*Default,,0000,0000,0000,,Por onde andaram se divertindo?!
+Dialogue: Marked=0,0:12:47.07,0:12:50.80,*Default,,0000,0000,0000,,Não estávamos nos divertindo!\NFomos atrás de Boo!
+Dialogue: Marked=0,0:12:50.80,0:12:53.80,*Default,,0000,0000,0000,,Quando a Fusion for desfeita,\Ndisse que devem retornar para cá imediatamente!
+Dialogue: Marked=0,0:12:54.53,0:12:56.18,*Default,,0000,0000,0000,,Estava nos observando, Piccolo-san?
+Dialogue: Marked=0,0:12:56.78,0:13:03.47,*Default,,0000,0000,0000,,Mesmo sem observar, todos aqui sabem\Nque após trinta minutos a Fusion é desfeita!
+Dialogue: Marked=0,0:13:03.47,0:13:06.78,*Default,,0000,0000,0000,,Estamos em uma situação em que\Nnão podemos ficar perdendo tempo!
+Dialogue: Marked=0,0:13:06.78,0:13:08.27,*Default,,0000,0000,0000,,Não ajam sem dar satisfações novamente!
+Dialogue: Marked=0,0:13:09.92,0:13:11.28,*Default,,0000,0000,0000,,Sim...
+Dialogue: Marked=0,0:13:21.45,0:13:24.01,*Default,,0000,0000,0000,,O senhor quer que eu esfregue suas costas?
+Dialogue: Marked=0,0:13:24.01,0:13:24.33,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:13:24.94,0:13:26.69,*Default,,0000,0000,0000,,Entre aqui você também.
+Dialogue: Marked=0,0:13:28.45,0:13:31.26,*Default,,0000,0000,0000,,Está dizendo que me permite entrar junto?
+Dialogue: Marked=0,0:13:32.30,0:13:34.30,*Default,,0000,0000,0000,,Não faça cerimônia, pode entrar.
+Dialogue: Marked=0,0:13:34.84,0:13:36.56,*Default,,0000,0000,0000,,Sim! Nesse caso...
+Dialogue: Marked=0,0:13:36.56,0:13:38.30,*Default,,0000,0000,0000,,Com licença!
+Dialogue: Marked=0,0:13:44.14,0:13:45.31,*Default,,0000,0000,0000,,P-Perdoe-me!
+Dialogue: Marked=0,0:13:46.12,0:13:47.77,*Default,,0000,0000,0000,,Está agradável, não é?
+Dialogue: Marked=0,0:13:49.06,0:13:51.44,*Default,,0000,0000,0000,,S-Sim, a temperatura da água está.
+Dialogue: Marked=0,0:13:55.48,0:13:57.74,*Default,,0000,0000,0000,,Divertido, divertido!
+Dialogue: Marked=0,0:14:16.92,0:14:18.45,*Default,,0000,0000,0000,,É divertido, não é?
+Dialogue: Marked=0,0:14:18.45,0:14:19.39,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:14:31.51,0:14:34.14,*Default,,0000,0000,0000,,A temperatura da água do banho estava ótima.
+Dialogue: Marked=0,0:14:57.36,0:15:03.02,L!,,0000,0000,0000,,Se me permitir, poderíamos tirar uma foto juntos?
+Dialogue: Marked=0,0:15:03.02,0:15:04.98,L!,,0000,0000,0000,,{\fad(0,1000)}Para comemorarmos!
+Dialogue: Marked=0,0:15:06.03,0:15:10.28,L!,,0000,0000,0000,,Isso mesmo!\NPor favor, deite-se um pouco mais.
+Dialogue: Marked=0,0:15:11.19,0:15:12.38,L!,,0000,0000,0000,,{\fad(0,800)}Assim?
+Dialogue: Marked=0,0:15:12.38,0:15:16.11,L!,,0000,0000,0000,,Perdoe-me, mas esta forma\Nde tirar fotos está na moda.
+Dialogue: Marked=0,0:15:22.45,0:15:25.96,P!,,0000,0000,0000,,Parece que acabei tirando\Nproveito da personalidade inocente de Boo...
+Dialogue: Marked=0,0:15:25.96,0:15:29.22,P!,,0000,0000,0000,,e não tive o menor escrúpulo nisso.
+Dialogue: Marked=0,0:15:32.04,0:15:33.38,P!,,0000,0000,0000,,Que blasfêmia!
+Dialogue: Marked=0,0:15:43.10,0:15:45.30,*Default,,0000,0000,0000,,Fiquei com fome!
+Dialogue: Marked=0,0:15:45.30,0:15:48.08,*Default,,0000,0000,0000,,Faça algo delicioso para mim!
+Dialogue: Marked=0,0:15:48.08,0:15:50.73,P!,,0000,0000,0000,,Mas ele acabou de comer...
+Dialogue: Marked=0,0:15:50.73,0:15:53.40,*Default,,0000,0000,0000,,Está bem, está bem!\NPrepararei imediatamente!
+Dialogue: Marked=0,0:15:54.38,0:15:56.65,*Default,,0000,0000,0000,,Algo delicioso, algo delicioso...
+Dialogue: Marked=0,0:15:56.65,0:15:59.14,*Default,,0000,0000,0000,,Algo delicioso, algo delicioso!
+Dialogue: Marked=0,0:15:59.14,0:16:01.28,*Default,,0000,0000,0000,,Algo delicioso, algo delicioso...
+Dialogue: Marked=0,0:16:02.12,0:16:05.43,*Default,,0000,0000,0000,,Algo delicioso, algo delicioso...
+Dialogue: Marked=0,0:16:05.43,0:16:09.09,*Default,,0000,0000,0000,,Para a sobremesa pode ser\Naqueles chocolates que você trouxe.
+Dialogue: Marked=0,0:16:09.09,0:16:10.69,*Default,,0000,0000,0000,,Porque eles são deliciosos.
+Dialogue: Marked=0,0:16:10.69,0:16:12.08,*Default,,0000,0000,0000,,Está bem!
+Dialogue: Marked=0,0:16:14.75,0:16:16.28,*Default,,0000,0000,0000,,Traidor maldito!
+Dialogue: Marked=0,0:16:16.28,0:16:19.59,*Default,,0000,0000,0000,,Fica se passando por defensor da justiça\Ne agora se tornou um subordinado de Boo.
+Dialogue: Marked=0,0:16:20.55,0:16:22.59,*Default,,0000,0000,0000,,D-Desgraçado!
+Dialogue: Marked=0,0:16:23.49,0:16:26.10,*Default,,0000,0000,0000,,Ei, ainda não está pronto?
+Dialogue: Marked=0,0:16:37.92,0:16:39.44,*Default,,0000,0000,0000,,Traidor maldito!
+Dialogue: Marked=0,0:16:41.56,0:16:42.91,*Default,,0000,0000,0000,,Morra!
+Dialogue: Marked=0,0:17:03.73,0:17:04.26,*Default,,0000,0000,0000,,Bem-feito!
+Dialogue: Marked=0,0:17:11.76,0:17:12.76,*Default,,0000,0000,0000,,Satan?!
+Dialogue: Marked=0,0:17:21.66,0:17:24.54,*Default,,0000,0000,0000,,Boo, não pense ainda que isso terminou!
+Dialogue: Marked=0,0:17:27.40,0:17:28.85,*Default,,0000,0000,0000,,Ainda está vivo...
+Dialogue: Marked=0,0:18:06.49,0:18:08.23,*Default,,0000,0000,0000,,I-Inacreditável!
+Dialogue: Marked=0,0:18:08.23,0:18:10.33,*Default,,0000,0000,0000,,Fui salvo!
+Dialogue: Marked=0,0:18:10.33,0:18:13.02,*Default,,0000,0000,0000,,Obrigado, Boo-sama!
+Dialogue: Marked=0,0:18:19.88,0:18:21.55,*Default,,0000,0000,0000,,B-Boo-sama?
+Dialogue: Marked=0,0:18:25.83,0:18:27.55,*Default,,0000,0000,0000,,Boo-sama, aconteceu algo com o senhor?
+Dialogue: Marked=0,0:18:28.61,0:18:30.56,*Default,,0000,0000,0000,,Fuja...
+Dialogue: Marked=0,0:18:30.56,0:18:32.00,*Default,,0000,0000,0000,,com o cachorro...
+Dialogue: Marked=0,0:18:32.00,0:18:34.06,*Default,,0000,0000,0000,,para longe daqui!
+Dialogue: Marked=0,0:18:34.63,0:18:36.98,*Default,,0000,0000,0000,,P-Poderão morrer!
+Dialogue: Marked=0,0:18:36.98,0:18:38.43,*Default,,0000,0000,0000,,Hã? Morrer?!
+Dialogue: Marked=0,0:18:38.43,0:18:40.06,*Default,,0000,0000,0000,,O que o senhor está\Nquerendo dizer com isso?
+Dialogue: Marked=0,0:18:42.97,0:18:45.34,*Default,,0000,0000,0000,,Seja rápido!
+Dialogue: Marked=0,0:18:45.34,0:18:46.36,*Default,,0000,0000,0000,,E-Está bem!
+Dialogue: Marked=0,0:18:50.87,0:18:55.40,*Default,,0000,0000,0000,,- Mais longe ainda!
+Dialogue: Marked=0,0:18:54.04,0:18:55.40,*Default,,0000,0000,0000,,- Sim!
+Dialogue: Marked=0,0:19:47.10,0:19:47.99,*Default,,0000,0000,0000,,O que é aquilo?
+Dialogue: Marked=0,0:20:02.28,0:20:03.36,*Default,,0000,0000,0000,,O que foi isso?
+Dialogue: Marked=0,0:20:32.62,0:20:35.14,*Default,,0000,0000,0000,,Isso não é nenhum tipo de truque.
+Dialogue: Marked=0,0:20:37.82,0:20:40.57,Narrador,,0000,0000,0000,,Reagindo à intensa ira de Majin Boo,
+Dialogue: Marked=0,0:20:40.57,0:20:45.10,Narrador,,0000,0000,0000,,a parte maligna que reside dentro dele\Nse expandiu em enorme proporção,
+Dialogue: Marked=0,0:20:45.10,0:20:48.87,Narrador,,0000,0000,0000,,{\fad(0,1000)}a ponto de expelir um outro Majin Boo.
+Dialogue: Marked=0,0:20:49.37,0:20:50.29,Narrador,,0000,0000,0000,,Em outras palavras,
+Dialogue: Marked=0,0:20:50.29,0:20:52.24,Narrador,,0000,0000,0000,,o Majin Boo em estado de pura maldade...
+Dialogue: Marked=0,0:20:52.24,0:20:56.55,Narrador,,0000,0000,0000,,e o outro Majin Boo, com personalidade inocente, separaram-se em dois.
+Dialogue: Marked=0,0:21:16.56,0:21:20.03,*Default,,0000,0000,0000,,Maldito! Maldito! Maldito!
+Dialogue: Marked=0,0:21:20.03,0:21:20.85,*Default,,0000,0000,0000,,Maldito!
+Dialogue: Marked=0,0:21:21.84,0:21:22.69,*Default,,0000,0000,0000,,Maldito!
+Dialogue: Marked=0,0:21:49.19,0:21:52.42,*Default,,0000,0000,0000,,P-Piccolo-san, o que está havendo?
+Dialogue: Marked=0,0:22:24.69,0:22:26.84,Narrador,,0000,0000,0000,,Dois Majin Boo...
+Dialogue: Marked=0,0:22:26.84,0:22:30.85,Narrador,,0000,0000,0000,,Pode ser que agora a Terra\Nnão possa mais voltar ao normal.
+
+Dialogue: Marked=0,0:00:25.48,0:00:28.37,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\bord0\shad0\fscx100\fscy100\pos(665,135)\t(9110,0)}assahina
+Dialogue: Marked=0,0:00:28.37,0:00:28.48,ASSAHINA,,0000,0000,0000,,{\1c&HFEFAF9\fad(0,150)\bord0\shad0\fscx100\fscy100\move(665,135,565,185,0,0)\t(0,150,\frz-20)}assahina
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAE7F6\bord0\fscx75\fscy55\pos(240,162)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAE7F6\bord0\fscx48\fscy48\pos(240,232)\t(9110,0)}http://torrents.ebrain.com.br

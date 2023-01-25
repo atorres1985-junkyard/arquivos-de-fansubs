@@ -1,0 +1,172 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:50.02,0:01:52.11,*Default,,0000,0000,0000,,Fuja, Nº 17!
+Dialogue: Marked=0,0:02:00.24,0:02:10.58,Narrador,,0000,0000,0000,,{\fscx92\fscy92}Piccolo enfrentou Cell, que quer absorver os andróides Nº 17 e Nº 18 e assumir sua forma perfeita.
+Dialogue: Marked=0,0:02:12.77,0:02:14.25,*Default,,0000,0000,0000,,Até mais.
+Dialogue: Marked=0,0:02:23.22,0:02:26.26,Narrador,,0000,0000,0000,,Cell era forte demais.
+Dialogue: Marked=0,0:02:35.65,0:02:36.67,*Default,,0000,0000,0000,,Espere, Gohan!
+Dialogue: Marked=0,0:02:38.16,0:02:41.29,*Default,,0000,0000,0000,,Piccolo-sama! Piccolo-sama!
+Dialogue: Marked=0,0:02:42.77,0:02:46.16,*Default,,0000,0000,0000,,Mesmo se for agora,\Nnão poderá vencê-lo! Espere!
+Dialogue: Marked=0,0:02:46.39,0:02:48.23,*Default,,0000,0000,0000,,De qualquer jeito, só nos resta esperar!
+
+Dialogue: Marked=0,0:03:06.22,0:03:14.24,apresDBZ2,,0000,0000,0000,Karaoke,{\c&HCFD2F5\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 151
+Dialogue: Marked=0,0:03:06.22,0:03:14.24,apresDBZ2,,0000,0000,0000,Karaoke,{\c&HCFD2F5\pos(415,165)\fad(500,0)\fscx145\fscy120}A única esperança que sobrou...
+Dialogue: Marked=0,0:03:06.22,0:03:14.24,apresDBZ2,,0000,0000,0000,Karaoke,{\c&HCFD2F5\pos(400,500)\fad(500,0)\fscx102\fscy150}O silencioso guerreiro N   16 se apresenta{\i1}!!
+Dialogue: Marked=0,0:03:06.22,0:03:14.24,apresDBZ2,,0000,0000,0000,Karaoke,{\c&HCFD2F5\pos(450,460)\fad(500,0)\fscx90\fscy90}o
+
+Dialogue: Marked=0,0:03:31.02,0:03:34.79,*Default,,0000,0000,0000,,Eu não agüento mais! Não quero esperar!
+Dialogue: Marked=0,0:03:37.30,0:03:39.67,*Default,,0000,0000,0000,,Pai, eu vou!
+Dialogue: Marked=0,0:03:49.71,0:03:51.14,*Default,,0000,0000,0000,,P-Por quê?
+Dialogue: Marked=0,0:03:51.74,0:03:53.06,*Default,,0000,0000,0000,,Mandei esperar!
+Dialogue: Marked=0,0:03:53.65,0:03:56.65,*Default,,0000,0000,0000,,Mas, desse jeito, todos serão vítimas do Cell!
+Dialogue: Marked=0,0:04:02.62,0:04:03.78,*Default,,0000,0000,0000,,Gohan...
+Dialogue: Marked=0,0:04:05.62,0:04:07.89,*Default,,0000,0000,0000,,É da forma que o seu pai falou.
+Dialogue: Marked=0,0:04:09.61,0:04:10.79,*Default,,0000,0000,0000,,Popo-san...
+Dialogue: Marked=0,0:04:11.53,0:04:16.38,*Default,,0000,0000,0000,,Mesmo se for agora, não poderá vencer Cell.\NSó vai ser mais uma vítima.
+Dialogue: Marked=0,0:04:17.66,0:04:18.99,*Default,,0000,0000,0000,,Mesmo assim...
+Dialogue: Marked=0,0:04:18.99,0:04:23.17,*Default,,0000,0000,0000,,Mesmo assim, é melhor que só\Nficar aqui e ver todos serem mortos!
+Dialogue: Marked=0,0:04:24.49,0:04:29.97,*Default,,0000,0000,0000,,Vocês, Saiya-jins, são a última\Nesperança do mundo para derrotar Cell.
+Dialogue: Marked=0,0:04:30.98,0:04:36.69,*Default,,0000,0000,0000,,Se você desperdiçar sua preciosa vida,\NKami-sama, não, Piccolo vai ficar com raiva.
+Dialogue: Marked=0,0:04:43.06,0:04:43.95,*Default,,0000,0000,0000,,Olhe!
+Dialogue: Marked=0,0:05:08.80,0:05:09.64,P!,,0000,0000,0000,,Vegeta...
+Dialogue: Marked=0,0:05:11.61,0:05:12.85,P!,,0000,0000,0000,,Saia logo!
+Dialogue: Marked=0,0:05:24.61,0:05:26.66,*Default,,0000,0000,0000,,Mesmo tendo se fundido com Kami...
+Dialogue: Marked=0,0:05:26.66,0:05:29.81,*Default,,0000,0000,0000,,e aumentado o seu poder, não foi páreo para mim!
+Dialogue: Marked=0,0:05:35.18,0:05:36.58,*Default,,0000,0000,0000,,Desculpe-me por fazê-lo esperar.
+Dialogue: Marked=0,0:05:44.29,0:05:46.93,*Default,,0000,0000,0000,,Você vai parar com sua resistência inútil.
+Dialogue: Marked=0,0:05:46.93,0:05:51.51,*Default,,0000,0000,0000,,Já que vai ser absorvido, não precisa ser doloroso.
+Dialogue: Marked=0,0:05:54.62,0:05:57.23,*Default,,0000,0000,0000,,Já vou pegá-la.
+Dialogue: Marked=0,0:06:26.53,0:06:28.22,*Default,,0000,0000,0000,,Venha se tiver coragem!
+Dialogue: Marked=0,0:06:31.81,0:06:33.68,*Default,,0000,0000,0000,,Resistência inútil?
+Dialogue: Marked=0,0:06:36.98,0:06:39.69,*Default,,0000,0000,0000,,Não vou ser derrotado tão facilmente!
+Dialogue: Marked=0,0:06:45.43,0:06:48.40,*Default,,0000,0000,0000,,Seu monstro maldito!
+Dialogue: Marked=0,0:07:15.94,0:07:18.02,*Default,,0000,0000,0000,,Acha que vou deixar que eu seja absorvido?
+Dialogue: Marked=0,0:07:53.13,0:07:56.23,P!,,0000,0000,0000,,Isso é ruim! A diferença entre\Nos poderes deles é muito grande!
+Dialogue: Marked=0,0:08:20.15,0:08:21.16,*Default,,0000,0000,0000,,Trunks!
+Dialogue: Marked=0,0:08:21.83,0:08:23.79,*Default,,0000,0000,0000,,Não pode tocar nisso!
+Dialogue: Marked=0,0:08:23.79,0:08:27.13,*Default,,0000,0000,0000,,Isso é uma coisa muito importante!
+Dialogue: Marked=0,0:08:36.00,0:08:37.64,*Default,,0000,0000,0000,,Não, isso é ruim.
+Dialogue: Marked=0,0:08:39.03,0:08:41.15,*Default,,0000,0000,0000,,Não pode chorar, Trunks!
+Dialogue: Marked=0,0:08:44.65,0:08:48.46,*Default,,0000,0000,0000,,Trunks, diga "Alô? Vamos conversar" aqui.
+Dialogue: Marked=0,0:08:48.46,0:08:51.15,*Default,,0000,0000,0000,,É divertido.
+Dialogue: Marked=0,0:08:56.56,0:08:59.01,*Default,,0000,0000,0000,,Quem será que vai atender?
+Dialogue: Marked=0,0:08:59.01,0:09:01.45,*Default,,0000,0000,0000,,Será que vai ser aquele velhote\Npervertido do Kame Sennin?
+Dialogue: Marked=0,0:09:02.19,0:09:05.70,*Default,,0000,0000,0000,,Ou o Kuririn cabeça-raspada?
+Dialogue: Marked=0,0:09:05.70,0:09:08.88,*Default,,0000,0000,0000,,Oi! Aqui é a Bulma! Alguém está aí?
+Dialogue: Marked=0,0:09:09.35,0:09:11.00,Radio,,0000,0000,0000,,Ah, Bulma?
+Dialogue: Marked=0,0:09:11.38,0:09:13.13,*Default,,0000,0000,0000,,Nossa, atenderam.
+Dialogue: Marked=0,0:09:17.79,0:09:20.46,*Default,,0000,0000,0000,,Bulma, consegue ver o Kuririn daí?
+Dialogue: Marked=0,0:09:20.46,0:09:22.11,Radio,,0000,0000,0000,,Ahn? Kuririn?
+Dialogue: Marked=0,0:09:30.30,0:09:31.76,*Default,,0000,0000,0000,,Não.
+Dialogue: Marked=0,0:09:31.76,0:09:35.74,Radio,,0000,0000,0000,,Sério? Kuririn está indo ao seu encontro.
+Dialogue: Marked=0,0:09:35.74,0:09:37.05,*Default,,0000,0000,0000,,Mesmo?
+Dialogue: Marked=0,0:09:37.05,0:09:39.84,*Default,,0000,0000,0000,,Desse jeito, posso entregar o controle mais rápido.
+Dialogue: Marked=0,0:09:39.84,0:09:40.91,*Default,,0000,0000,0000,,Também vai ser bom para mim!
+Dialogue: Marked=0,0:09:41.51,0:09:45.29,*Default,,0000,0000,0000,,É. De qualquer jeito,\Njá estamos com grandes problemas.
+Dialogue: Marked=0,0:09:45.29,0:09:47.98,*Default,,0000,0000,0000,,Se não pararmos logo o Nº 17 e os outros...
+Dialogue: Marked=0,0:09:47.98,0:09:50.01,*Default,,0000,0000,0000,,e forem absorvidos por Cell,
+Dialogue: Marked=0,0:09:50.01,0:09:51.51,*Default,,0000,0000,0000,,será o fim de tudo.
+Dialogue: Marked=0,0:09:52.07,0:09:53.01,*Default,,0000,0000,0000,,É mesmo.
+Dialogue: Marked=0,0:09:53.01,0:09:56.52,*Default,,0000,0000,0000,,Eu vou tomar cuidado\Npara não desencontrar do Kuririn.
+Dialogue: Marked=0,0:09:58.16,0:10:02.19,*Default,,0000,0000,0000,,Certo, Trunks, vamos com supervelocidade!
+Dialogue: Marked=0,0:11:00.91,0:11:02.16,*Default,,0000,0000,0000,,Qual o problema?
+Dialogue: Marked=0,0:11:02.16,0:11:05.24,*Default,,0000,0000,0000,,Você não disse que não\Nseria derrotado facilmente?
+Dialogue: Marked=0,0:11:09.44,0:11:13.75,*Default,,0000,0000,0000,,Por isso que eu disse para\Nvocê não resistir inutilmente.
+Dialogue: Marked=0,0:11:24.15,0:11:26.47,*Default,,0000,0000,0000,,Parece ser melhor fugir mesmo.
+Dialogue: Marked=0,0:11:27.60,0:11:30.98,*Default,,0000,0000,0000,,É, isso. Fuja sozinha.
+Dialogue: Marked=0,0:11:34.28,0:11:37.49,*Default,,0000,0000,0000,,Se você e o Nº 17 forem absorvidos,
+Dialogue: Marked=0,0:11:37.49,0:11:40.59,*Default,,0000,0000,0000,,será o fim do mundo.
+Dialogue: Marked=0,0:11:43.58,0:11:45.16,*Default,,0000,0000,0000,,O que você vai fazer?
+Dialogue: Marked=0,0:11:46.75,0:11:48.16,*Default,,0000,0000,0000,,Destruir Cell.
+Dialogue: Marked=0,0:11:52.35,0:11:54.35,*Default,,0000,0000,0000,,Chegou a hora de lutar,
+Dialogue: Marked=0,0:11:54.35,0:11:56.37,*Default,,0000,0000,0000,,mesmo antes de encontrar Son Goku.
+
+Dialogue: Marked=0,0:12:04.80,0:12:08.69,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:04.80,0:12:08.69,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:04.80,0:12:08.69,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:04.80,0:12:08.69,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:11.64,0:12:13.86,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:23.52,0:12:25.91,*Default,,0000,0000,0000,,O que você vai fazer, Nº 16?
+Dialogue: Marked=0,0:12:26.82,0:12:28.66,*Default,,0000,0000,0000,,Pare! Vai ser morto!
+Dialogue: Marked=0,0:12:32.86,0:12:34.96,*Default,,0000,0000,0000,,Vocês são pessoas boas.
+Dialogue: Marked=0,0:12:34.96,0:12:38.80,*Default,,0000,0000,0000,,Não tiraram a vida nem de\Nhumanos e nem de animais por diversão.
+Dialogue: Marked=0,0:12:44.54,0:12:46.85,*Default,,0000,0000,0000,,Foi divertido viajar com vocês.
+Dialogue: Marked=0,0:12:59.14,0:13:00.84,*Default,,0000,0000,0000,,O que ele pretende fazer?
+Dialogue: Marked=0,0:13:01.47,0:13:03.49,*Default,,0000,0000,0000,,Ele pretende lutar contra Cell?
+Dialogue: Marked=0,0:13:29.29,0:13:33.18,*Default,,0000,0000,0000,,Parece que você não\Ntem poder para levantar.
+Dialogue: Marked=0,0:13:39.85,0:13:43.19,*Default,,0000,0000,0000,,Já é hora de ser absorvido?
+Dialogue: Marked=0,0:13:48.66,0:13:52.19,*Default,,0000,0000,0000,,S-Solte-me, seu demônio maldito.
+Dialogue: Marked=0,0:13:52.19,0:13:55.96,*Default,,0000,0000,0000,,Só de olhar para essa sua cara de\Ninseto esmagado, fico com vontade de vomitar!
+Dialogue: Marked=0,0:13:56.82,0:14:00.80,*Default,,0000,0000,0000,,Blá, blá, blá, blá, blá!\NResmungue o quanto quiser!
+Dialogue: Marked=0,0:14:00.80,0:14:04.46,*Default,,0000,0000,0000,,Você está para se tornar\Num só com o "demônio maldito".
+Dialogue: Marked=0,0:14:05.35,0:14:06.41,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:14:25.65,0:14:30.99,N!,,0000,0000,0000,,{\fad(300,300)}Itadaku = Itadakimasu = Expressão usada antes das refeições
+Dialogue: Marked=0,0:14:25.65,0:14:26.92,*Default,,0000,0000,0000,,Bem, Itadaku.
+Dialogue: Marked=0,0:14:40.08,0:14:43.25,*Default,,0000,0000,0000,,Merda, seu monstro!
+Dialogue: Marked=0,0:15:31.66,0:15:35.63,*Default,,0000,0000,0000,,Apareceu mais um idiota que não dá valor à vida?
+Dialogue: Marked=0,0:15:41.51,0:15:43.86,*Default,,0000,0000,0000,,O que você está fazendo, Nº 16?
+Dialogue: Marked=0,0:15:43.86,0:15:45.90,*Default,,0000,0000,0000,,Não diga que pretende lutar?
+Dialogue: Marked=0,0:15:46.65,0:15:49.07,*Default,,0000,0000,0000,,Não tem outro jeito.
+Dialogue: Marked=0,0:15:50.51,0:15:51.82,*Default,,0000,0000,0000,,Você pretende se destruir?
+Dialogue: Marked=0,0:15:52.71,0:15:56.25,*Default,,0000,0000,0000,,Pelos cálculos, Cell\Ne eu temos a mesma força.
+Dialogue: Marked=0,0:15:56.93,0:15:57.83,P!,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:16:39.65,0:16:41.63,*Default,,0000,0000,0000,,Está lutando de igual para igual contra o Cell!
+Dialogue: Marked=0,0:18:05.94,0:18:07.71,*Default,,0000,0000,0000,,Que simples.
+Dialogue: Marked=0,0:18:08.38,0:18:10.77,*Default,,0000,0000,0000,,Bem, posso absorvê-lo?
+Dialogue: Marked=0,0:18:22.80,0:18:24.22,*Default,,0000,0000,0000,,V-Você é...
+Dialogue: Marked=0,0:18:35.37,0:18:38.24,*Default,,0000,0000,0000,,Merda, você é completamente robô?
+Dialogue: Marked=0,0:19:13.55,0:19:15.90,*Default,,0000,0000,0000,,Sua velocidade até que é boa.
+Dialogue: Marked=0,0:19:17.69,0:19:19.45,*Default,,0000,0000,0000,,Bem, que tal isso?
+Dialogue: Marked=0,0:19:47.25,0:19:51.07,*Default,,0000,0000,0000,,Minha cauda não é só para absorver.
+Dialogue: Marked=0,0:19:58.14,0:19:59.07,*Default,,0000,0000,0000,,Adeus!
+Dialogue: Marked=0,0:20:46.54,0:20:48.08,*Default,,0000,0000,0000,,Ele conseguiu!
+Dialogue: Marked=0,0:20:58.40,0:21:01.97,*Default,,0000,0000,0000,,Agora você não pode mais\Nabsorver o Nº 17 e a Nº 18.
+Dialogue: Marked=0,0:21:10.98,0:21:12.90,*Default,,0000,0000,0000,,Acabou com ele!
+Dialogue: Marked=0,0:21:20.02,0:21:21.83,*Default,,0000,0000,0000,,Que pena, não é?
+Dialogue: Marked=0,0:21:28.11,0:21:31.42,*Default,,0000,0000,0000,,Eu tenho as células de Piccolo em mim.
+Dialogue: Marked=0,0:21:58.16,0:22:01.50,*Default,,0000,0000,0000,,Se for uma coisa assim, eu posso me refazer.
+Dialogue: Marked=0,0:22:12.53,0:22:16.45,Narrador,,0000,0000,0000,,Nº 16 finalmente mostra sua força inigualável.
+Dialogue: Marked=0,0:22:16.45,0:22:20.84,Narrador,,0000,0000,0000,,Mas, o poder de Cell ainda está acima disso?
+Dialogue: Marked=0,0:22:21.18,0:22:23.45,Narrador,,0000,0000,0000,,Apressem-se, Vegeta, Trunks!
+Dialogue: Marked=0,0:22:23.76,0:22:27.14,Narrador,,0000,0000,0000,,Cell não pode assumir sua forma perfeita!

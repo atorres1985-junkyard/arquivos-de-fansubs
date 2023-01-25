@@ -1,0 +1,172 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:07.79,0:02:13.59,Narrador,,0000,0000,0000,,O gênio das lutas, Vegeta,\Nderrotou o Nº 19 com um golpe, mas...
+Dialogue: Marked=0,0:02:36.30,0:02:39.99,*Default,,0000,0000,0000,,Parece que ele está muito\Nacostumado a procurar o adversário pelo Ki.
+Dialogue: Marked=0,0:03:07.01,0:03:13.29,*Default,,0000,0000,0000,,Se eu absorver a energia deles e juntar\Ncom a minha, vou poder vencer Vegeta.
+
+Dialogue: Marked=0,0:03:18.57,0:03:26.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 131
+Dialogue: Marked=0,0:03:18.57,0:03:26.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,165)}{\fad(300,0)}{\fscx110\fscy120}A realidade é mais terrível que o futuro?!
+Dialogue: Marked=0,0:03:18.57,0:03:26.59,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(418,485)}{\fad(300,0)}{\fscx165\fscy140}A dúvida de Trunks
+
+Dialogue: Marked=0,0:05:11.14,0:05:14.48,*Default,,0000,0000,0000,!Effect,Ah... Não me assustem!
+Dialogue: Marked=0,0:05:24.86,0:05:30.03,*Default,,0000,0000,0000,!Effect,Merda...\NNão poder ver o inimigo é assustador.
+Dialogue: Marked=0,0:05:54.17,0:05:57.96,*Default,,0000,0000,0000,!Effect,Merda.\NPara onde ele realmente desapareceu?
+Dialogue: Marked=0,0:05:58.81,0:06:00.73,*Default,,0000,0000,0000,!Effect,Já que está sendo assim,
+Dialogue: Marked=0,0:06:01.42,0:06:06.07,*Default,,0000,0000,0000,!Effect,teria sido melhor se eu tivesse ido para\Ncasa e tomado leite, como o Vegeta disse.
+Dialogue: Marked=0,0:06:14.11,0:06:18.67,*Default,,0000,0000,0000,!Effect,E, então? De quem será\Nque eu absorvo energia primeiro?
+Dialogue: Marked=0,0:06:25.86,0:06:29.80,*Default,,0000,0000,0000,!Effect,Depois de Vegeta, o mais forte é Piccolo?
+Dialogue: Marked=0,0:06:37.94,0:06:40.59,*Default,,0000,0000,0000,!Effect,Com o que posso pegar\Nde Piccolo, tudo será possível.
+Dialogue: Marked=0,0:06:42.38,0:06:45.32,*Default,,0000,0000,0000,!Effect,Pode esperar por mim, Vegeta!
+Dialogue: Marked=0,0:06:57.35,0:06:58.33,*Default,,0000,0000,0000,!Effect,Merda!
+Dialogue: Marked=0,0:06:59.22,0:07:01.25,*Default,,0000,0000,0000,!Effect,Talvez ele já tenha fugido.
+Dialogue: Marked=0,0:07:16.87,0:07:21.09,*Default,,0000,0000,0000,!Effect,Não nos encontrarão.\NEu sei onde todos estão.
+Dialogue: Marked=0,0:07:24.45,0:07:27.73,*Default,,0000,0000,0000,!Effect,Agora, vou pegar sua energia!
+Dialogue: Marked=0,0:07:43.71,0:07:46.44,P!,,0000,0000,0000,!Effect,G-Gohan, venha! Agora!
+Dialogue: Marked=0,0:07:48.80,0:07:51.18,P!,,0000,0000,0000,!Effect,O-O andróide...
+Dialogue: Marked=0,0:07:52.19,0:07:52.98,P!,,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:07:54.97,0:07:55.61,*Default,,0000,0000,0000,!Effect,Onde?
+Dialogue: Marked=0,0:08:07.06,0:08:09.32,*Default,,0000,0000,0000,!Effect,Um Ki está sumindo. É por ali!
+Dialogue: Marked=0,0:08:16.29,0:08:18.84,*Default,,0000,0000,0000,!Effect,Você só tem mais um pouco de energia.
+Dialogue: Marked=0,0:08:34.53,0:08:37.51,*Default,,0000,0000,0000,!Effect,{\fad(0,1000)}Desse jeito, você vai morrer!
+Dialogue: Marked=0,0:09:02.65,0:09:04.47,*Default,,0000,0000,0000,!Effect,V-Você me salvou, Gohan.
+Dialogue: Marked=0,0:09:09.43,0:09:11.55,*Default,,0000,0000,0000,!Effect,P-Por quê?
+Dialogue: Marked=0,0:09:11.98,0:09:14.02,*Default,,0000,0000,0000,!Effect,Não tem como ele ter nos encontrado.
+Dialogue: Marked=0,0:09:34.30,0:09:36.95,*Default,,0000,0000,0000,!Effect,Kuririn-san!\NDê uma Senzu para o Piccolo-san!
+Dialogue: Marked=0,0:09:38.85,0:09:39.99,*Default,,0000,0000,0000,!Effect,Tá!
+Dialogue: Marked=0,0:09:50.66,0:09:55.13,P!,,0000,0000,0000,!Effect,Não posso ganhar do Vegeta\Ncom esta energia que tenho.
+Dialogue: Marked=0,0:09:57.05,0:09:58.89,*Default,,0000,0000,0000,!Effect,Boneco de sucata...
+Dialogue: Marked=0,0:10:03.35,0:10:07.64,P!,,0000,0000,0000,!Effect,Preciso absorver energia dos outros, também.
+Dialogue: Marked=0,0:10:12.21,0:10:12.82,*Default,,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:10:39.20,0:10:41.93,*Default,,0000,0000,0000,!Effect,Deixe-me cuidar disso, Vegeta!
+Dialogue: Marked=0,0:10:45.05,0:10:46.87,*Default,,0000,0000,0000,!Effect,Não interfira de forma alguma!
+Dialogue: Marked=0,0:10:50.29,0:10:52.36,*Default,,0000,0000,0000,!Effect,Se quiser morrer, é com você, mas...
+Dialogue: Marked=0,0:10:53.02,0:10:56.51,*Default,,0000,0000,0000,!Effect,Não vai acabar só dando mais\Nenergia desnecessariamente para ele?
+Dialogue: Marked=0,0:11:07.70,0:11:09.11,P!,,0000,0000,0000,!Effect,"Não interfira?"
+Dialogue: Marked=0,0:11:11.89,0:11:12.58,P!,,0000,0000,0000,!Effect,Perfeito.
+Dialogue: Marked=0,0:11:13.94,0:11:16.84,P!,,0000,0000,0000,!Effect,Vou absorver a energia dele de novo.
+Dialogue: Marked=0,0:11:17.97,0:11:19.26,P!,,0000,0000,0000,!Effect,Depois disso...
+Dialogue: Marked=0,0:11:20.23,0:11:21.63,P!,,0000,0000,0000,,Vegeta!
+
+Dialogue: Marked=0,0:11:53.12,0:11:57.35,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:11:53.12,0:11:57.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:53.12,0:11:57.35,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:53.12,0:11:57.35,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:00.30,0:12:02.52,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:00.30,0:12:02.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:00.30,0:12:02.52,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:00.30,0:12:02.52,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:27.22,0:12:32.17,P!,,0000,0000,0000,!Effect,Isso é impossível!\NEu devo ter abaixado minha guarda...
+Dialogue: Marked=0,0:13:08.79,0:13:11.37,*Default,,0000,0000,0000,!Effect,I-Impossível!
+Dialogue: Marked=0,0:13:12.95,0:13:15.87,*Default,,0000,0000,0000,!Effect,Era para eu poder derrotá-lo!
+Dialogue: Marked=0,0:13:15.87,0:13:19.76,*Default,,0000,0000,0000,!Effect,Ainda mais que eu absorvi a\Nenergia dele e juntei com a minha.
+Dialogue: Marked=0,0:13:22.81,0:13:27.29,*Default,,0000,0000,0000,!Effect,Eu deveria ter ficado pelo\Nmenos com um poder igual ao dele.
+Dialogue: Marked=0,0:13:52.78,0:13:55.69,*Default,,0000,0000,0000,!Effect,E-Eu sabia! Cheguei tarde?
+Dialogue: Marked=0,0:13:56.56,0:14:00.46,*Default,,0000,0000,0000,!Effect,Nem o Goku-san e os outros\Ne nem os andróides estão aqui!
+Dialogue: Marked=0,0:14:01.50,0:14:04.60,*Default,,0000,0000,0000,!Effect,A ilha está toda destruída...\NO que será que aconteceu?
+Dialogue: Marked=0,0:14:07.82,0:14:11.21,*Default,,0000,0000,0000,!Effect,Queria voltar mais um pouco no tempo,
+Dialogue: Marked=0,0:14:11.21,0:14:13.31,*Default,,0000,0000,0000,!Effect,mas a energia nem dá direito\Npara voltar para o meu tempo.
+Dialogue: Marked=0,0:14:13.95,0:14:18.51,*Default,,0000,0000,0000,!Effect,Além disso, a máquina ainda não está\Nperfeita. Posso acabar errando o tempo de novo.
+Dialogue: Marked=0,0:14:24.74,0:14:28.20,*Default,,0000,0000,0000,!Effect,É um Ki! Sinto um Ki lutando!
+Dialogue: Marked=0,0:14:28.57,0:14:31.28,*Default,,0000,0000,0000,!Effect,É isso!\NEstão lutando em um lugar diferente!
+Dialogue: Marked=0,0:14:47.03,0:14:49.34,*Default,,0000,0000,0000,!Effect,Piccolo-san! Incrível!
+Dialogue: Marked=0,0:14:49.75,0:14:53.87,*Default,,0000,0000,0000,!Effect,Q-Que força!\NQue tipo de treinamento o Piccolo fez?
+Dialogue: Marked=0,0:14:54.65,0:14:57.10,*Default,,0000,0000,0000,!Effect,Ele nem é Super Saiya-jin!
+Dialogue: Marked=0,0:15:07.93,0:15:10.12,*Default,,0000,0000,0000,!Effect,Desgraçado...
+Dialogue: Marked=0,0:15:31.91,0:15:37.17,*Default,,0000,0000,0000,!Effect,Agüente, Goku! Melhore logo\Ne vamos derrotar aqueles caras!
+Dialogue: Marked=0,0:15:46.09,0:15:49.73,*Default,,0000,0000,0000,!Effect,Tenho certeza!\NEles estão onde teve aquela explosão.
+Dialogue: Marked=0,0:15:49.73,0:15:54.24,*Default,,0000,0000,0000,!Effect,Não precisamos ir até lá, não é?\NVamos para casa.
+Dialogue: Marked=0,0:15:54.95,0:15:59.12,*Default,,0000,0000,0000,!Effect,É melhor deixar com o Goku e os outros.\NE ainda tem este pirralho.
+Dialogue: Marked=0,0:16:09.90,0:16:12.93,*Default,,0000,0000,0000,!Effect,Você viu aquilo agora?\NÉ aquele garoto do futuro!
+Dialogue: Marked=0,0:16:14.17,0:16:18.65,*Default,,0000,0000,0000,!Effect,Ei, olhe só!\NVocê aumentou sua voz e o acordou!
+Dialogue: Marked=0,0:16:18.65,0:16:22.86,*Default,,0000,0000,0000,!Effect,Aquele garoto está indo lutar!\NSabia que esta era a direção certa.
+Dialogue: Marked=0,0:16:22.86,0:16:25.44,*Default,,0000,0000,0000,!Effect,Certo, vamos!
+Dialogue: Marked=0,0:16:30.88,0:16:31.65,*Default,,0000,0000,0000,!Effect,É lá!
+Dialogue: Marked=0,0:16:49.37,0:16:49.84,*Default,,0000,0000,0000,!Effect,Atrás de você!
+Dialogue: Marked=0,0:17:08.06,0:17:09.36,*Default,,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:17:29.89,0:17:31.46,*Default,,0000,0000,0000,!Effect,Lembre-se disso!
+Dialogue: Marked=0,0:17:32.08,0:17:36.05,*Default,,0000,0000,0000,!Effect,Quando lutamos, podemos ampliar\Nnossa energia, que é como vocês chamam,
+Dialogue: Marked=0,0:17:36.05,0:17:38.93,*Default,,0000,0000,0000,!Effect,e liberá-la de uma vez e fazer uma explosão.
+Dialogue: Marked=0,0:17:44.39,0:17:50.06,*Default,,0000,0000,0000,!Effect,Por isso que a energia que você\Nabsorveu antes de mim não fez diferença.
+Dialogue: Marked=0,0:17:55.86,0:18:01.99,*Default,,0000,0000,0000,!Effect,Vencemos! Parece que o que aquela\Npessoa que veio do futuro disse estava errado!
+Dialogue: Marked=0,0:18:21.83,0:18:25.09,*Default,,0000,0000,0000,!Effect,Que tipo de andróide é este?
+Dialogue: Marked=0,0:18:25.76,0:18:28.75,*Default,,0000,0000,0000,!Effect,Com quem será que eles estão lutando?
+Dialogue: Marked=0,0:18:45.49,0:18:47.83,*Default,,0000,0000,0000,!Effect,Impossível. O que está acontecendo?
+Dialogue: Marked=0,0:18:50.54,0:18:52.79,*Default,,0000,0000,0000,!Effect,Ainda estão lutando!
+Dialogue: Marked=0,0:18:56.46,0:19:00.33,P!,,0000,0000,0000,!Effect,Aquele... era um andróide\Ndiferente dos que conheço.
+Dialogue: Marked=0,0:19:02.06,0:19:06.78,P!,,0000,0000,0000,!Effect,O que isso quer dizer? Eram 3 andróides?
+Dialogue: Marked=0,0:19:23.01,0:19:28.66,*Default,,0000,0000,0000,!Effect,Malditos...\NAté Piccolo aumentou tanto sua força...
+Dialogue: Marked=0,0:19:29.47,0:19:35.67,*Default,,0000,0000,0000,!Effect,De acordo com a história original, era para\Nvocês, andróides, terem matado todos nós.
+Dialogue: Marked=0,0:19:36.69,0:19:40.25,*Default,,0000,0000,0000,!Effect,Parece que o futuro vai mudar, não é?
+Dialogue: Marked=0,0:19:40.25,0:19:44.49,*Default,,0000,0000,0000,!Effect,Isso quer dizer que vocês não\Nsão tão fortes quanto eram para ser?
+Dialogue: Marked=0,0:19:44.49,0:19:45.43,*Default,,0000,0000,0000,!Effect,Ou...
+Dialogue: Marked=0,0:19:47.55,0:19:50.71,*Default,,0000,0000,0000,!Effect,Ficamos muito fortes para vocês?
+Dialogue: Marked=0,0:19:55.14,0:19:58.38,*Default,,0000,0000,0000,!Effect,Conseguimos!\NVamos vencer desta vez, mesmo sem o Goku!
+Dialogue: Marked=0,0:19:58.38,0:19:59.32,*Default,,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:20:00.26,0:20:04.32,*Default,,0000,0000,0000,!Effect,Não gosto do Vegeta e do Piccolo e nem\Nde terem aumentado tanto os poderes, mas...
+Dialogue: Marked=0,0:20:04.32,0:20:06.49,*Default,,0000,0000,0000,!Effect,Fico tranqüilo por enquanto.
+Dialogue: Marked=0,0:20:07.37,0:20:13.00,*Default,,0000,0000,0000,!Effect,Piccolo! Acabe com ele de uma vez!\NOu você quer que eu faça isso?
+Dialogue: Marked=0,0:20:14.66,0:20:20.78,*Default,,0000,0000,0000,!Effect,Obrigado, mas eu sou a parte má de Kami.
+Dialogue: Marked=0,0:20:20.78,0:20:22.51,*Default,,0000,0000,0000,!Effect,Não sou tão mole como o Goku!
+Dialogue: Marked=0,0:20:28.03,0:20:28.70,*Default,,0000,0000,0000,!Effect,Quem é?
+Dialogue: Marked=0,0:20:30.07,0:20:31.27,*Default,,0000,0000,0000,!Effect,A-Aquele é...
+Dialogue: Marked=0,0:20:37.26,0:20:38.15,*Default,,0000,0000,0000,!Effect,Trunks?
+Dialogue: Marked=0,0:20:38.81,0:20:39.62,P!,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:20:41.05,0:20:42.15,P!,,0000,0000,0000,!Effect,Trunks?
+Dialogue: Marked=0,0:20:44.65,0:20:45.91,P!,,0000,0000,0000,!Effect,Disse Trunks?
+Dialogue: Marked=0,0:20:47.89,0:20:51.29,P!,,0000,0000,0000,!Effect,É o mesmo nome do meu filho!\NMesmo nome!
+Dialogue: Marked=0,0:20:52.64,0:20:54.28,P!,,0000,0000,0000,!Effect,Veio do futuro.
+Dialogue: Marked=0,0:20:56.51,0:20:57.81,P!,,0000,0000,0000,!Effect,Entendi.
+Dialogue: Marked=0,0:21:05.54,0:21:08.01,P!,,0000,0000,0000,!Effect,E-Ele também é diferente!
+Dialogue: Marked=0,0:21:10.01,0:21:13.75,P!,,0000,0000,0000,!Effect,C-Chegou mais um cara novo?
+Dialogue: Marked=0,0:21:13.75,0:21:16.21,P!,,0000,0000,0000,,Quem é esse?
+Dialogue: Marked=0,0:21:16.21,0:21:18.48,P!,,0000,0000,0000,!Effect,N-Não tenho informações sobre ele.
+Dialogue: Marked=0,0:21:22.41,0:21:27.71,P!,,0000,0000,0000,!Effect,De qualquer jeito, foi um terrível\Nerro de cálculo da minha parte.
+Dialogue: Marked=0,0:21:28.45,0:21:30.24,P!,,0000,0000,0000,!Effect,Só me resta voltar...
+Dialogue: Marked=0,0:21:31.18,0:21:33.16,P!,,0000,0000,0000,!Effect,Para o laboratório.
+Dialogue: Marked=0,0:21:37.65,0:21:43.34,*Default,,0000,0000,0000,!Effect,Q-Quem é aquele?\NEra com ele que vocês estavam lutando, não é?
+Dialogue: Marked=0,0:21:44.16,0:21:45.05,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:21:47.30,0:21:50.97,*Default,,0000,0000,0000,!Effect,Quem é? Não é um dos\Nandróides que você falou?
+Dialogue: Marked=0,0:21:53.78,0:21:55.07,*Default,,0000,0000,0000,!Effect,O que isso quer dizer?
+Dialogue: Marked=0,0:21:56.59,0:21:59.02,*Default,,0000,0000,0000,!Effect,N-Não é ele?
+Dialogue: Marked=0,0:22:00.79,0:22:04.11,*Default,,0000,0000,0000,!Effect,O-O quê? Não é ele?
+Dialogue: Marked=0,0:22:05.89,0:22:06.76,*Default,,0000,0000,0000,!Effect,Não pode ser!
+Dialogue: Marked=0,0:22:08.55,0:22:11.60,Narrador,,0000,0000,0000,!Effect,Palavras inesperadas de Trunks...
+Dialogue: Marked=0,0:22:11.60,0:22:18.67,Narrador,,0000,0000,0000,!Effect,Isso quer dizer que há outros\Nandróides além do Nº 19 e do Nº 20?
+Dialogue: Marked=0,0:22:21.26,0:22:27.16,Narrador,,0000,0000,0000,!Effect,Além disso, quem é o Nº 20,\Ncontra quem estão lutando agora?

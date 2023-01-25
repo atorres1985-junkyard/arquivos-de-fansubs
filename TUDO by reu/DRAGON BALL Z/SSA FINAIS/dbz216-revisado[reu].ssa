@@ -1,0 +1,211 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,3180271,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:26.48,0:02:36.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.86,0:01:57.27,Narrador,,0000,0000,0000,,As lutas da divisão dos adultos do\NTenkaichi Budoukai já começaram.
+Dialogue: Marked=0,0:01:57.80,0:02:01.36,Narrador,,0000,0000,0000,,Primeiro, Kuririn mostrou uma força sem igual.
+Dialogue: Marked=0,0:02:18.36,0:02:19.79,Narrador,,0000,0000,0000,,Mas...
+Dialogue: Marked=0,0:02:23.78,0:02:27.80,P!,,0000,0000,0000,,Q-Quem será que ele é?
+Dialogue: Marked=0,0:02:30.06,0:02:32.30,*Default,,0000,0000,0000,,Você já vai saber.
+Dialogue: Marked=0,0:02:34.38,0:02:36.73,*Default,,0000,0000,0000,,{\fad(0,2000)\t(0,2000,\fscx130\fscy130)}Você já vai saber.
+Dialogue: Marked=0,0:02:43.76,0:02:45.28,*Default,,0000,0000,0000,,D-Desculpe.
+Dialogue: Marked=0,0:02:50.40,0:02:51.28,*Default,,0000,0000,0000,,Eu desisto.
+Dialogue: Marked=0,0:02:52.93,0:02:53.78,*Default,,0000,0000,0000,,Desiste?
+Dialogue: Marked=0,0:02:54.28,0:02:58.08,Narrador,,0000,0000,0000,,Piccolo desistiu sem lutar.
+Dialogue: Marked=0,0:02:59.52,0:03:03.84,Narrador,,0000,0000,0000,,Será que o misterioso Shin é tão forte assim?
+Dialogue: Marked=0,0:03:06.54,0:03:16.05,Narrador,,0000,0000,0000,,E a luta de Videl, que deve ter problemas\Ncontra Spopovitch, está para começar.
+
+Dialogue: Marked=0,0:03:35.75,0:03:43.73,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(675,70)\shad1\fad(400,0)\fscx100\fscy100}episódio 216
+Dialogue: Marked=0,0:03:35.75,0:03:43.73,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(390,190)\shad1\fad(400,0)\fscx180\fscy150}Invencível e estranho{\i1}!?
+Dialogue: Marked=0,0:03:35.75,0:03:43.73,apresDBZ2,,0000,0000,0000,,{\c&HE8FBF1\pos(390,495)\shad1\fad(400,0)\fscx167\fscy120}O mistério de Spopovitch
+
+Dialogue: Marked=0,0:03:44.23,0:03:49.56,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:03:50.05,0:03:55.60,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:03:55.60,0:03:58.83,*Default,,0000,0000,0000,,Videl! Videl!
+Dialogue: Marked=0,0:04:10.76,0:04:15.79,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:16.49,0:04:21.14,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:22.23,0:04:26.77,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:27.74,0:04:29.88,P!,,0000,0000,0000,,Que nojento.
+Dialogue: Marked=0,0:04:29.88,0:04:35.15,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:35.84,0:04:41.13,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:42.85,0:04:45.60,*Default,,0000,0000,0000,,Ele está concentrado mesmo.
+Dialogue: Marked=0,0:04:45.60,0:04:51.40,*Default,,0000,0000,0000,,Videl! Videl! Videl!
+Dialogue: Marked=0,0:04:51.40,0:04:59.12,*Default,,0000,0000,0000,,Videl! Videl! Videl! Videl!
+Dialogue: Marked=0,0:05:26.54,0:05:28.75,*Default,,0000,0000,0000,,Videl! Esforce-se!
+Dialogue: Marked=0,0:05:28.75,0:05:32.57,*Default,,0000,0000,0000,,Que nada.\NA Videl vai ganhar fácil daquele cara.
+Dialogue: Marked=0,0:05:33.05,0:05:36.41,*Default,,0000,0000,0000,,Lute! Lute! Bela Videl!
+Dialogue: Marked=0,0:05:37.10,0:05:41.15,*Default,,0000,0000,0000,,Nossa, a namorada do Gohan é bem popular.
+Dialogue: Marked=0,0:05:41.15,0:05:42.20,*Default,,0000,0000,0000,,Parece que sim.
+Dialogue: Marked=0,0:05:43.38,0:05:48.58,*Default,,0000,0000,0000,,Ela é namorada do Gohan?\NPuxa, o Gohan já sabe sobre mulheres.
+Dialogue: Marked=0,0:05:48.58,0:05:53.28,*Default,,0000,0000,0000,,É, não é?\NEla é de uma família muito rica!
+Dialogue: Marked=0,0:05:53.28,0:05:55.22,*Default,,0000,0000,0000,,O Gohan é demais para a mãe dele!
+Dialogue: Marked=0,0:05:55.86,0:05:59.47,*Default,,0000,0000,0000,,Mas ela é filha única do Mister Satan.
+Dialogue: Marked=0,0:06:01.24,0:06:05.77,*Default,,0000,0000,0000,,Isso não importa, não é?\NÉ problema entre eles dois.
+Dialogue: Marked=0,0:06:24.37,0:06:28.71,*Default,,0000,0000,0000,,E, agora, a luta entre a participante\NVidel e o participante Spopovitch!
+Dialogue: Marked=0,0:06:28.71,0:06:29.58,*Default,,0000,0000,0000,,Comecem, por favor!
+Dialogue: Marked=0,0:06:54.23,0:06:55.40,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:06:56.93,0:07:01.24,*Default,,0000,0000,0000,,Pode ser que eu esteja errado, mas você...
+Dialogue: Marked=0,0:07:02.08,0:07:03.24,*Default,,0000,0000,0000,,Sim?
+Dialogue: Marked=0,0:07:04.30,0:07:08.00,*Default,,0000,0000,0000,,É o Dai Kaio-sama?
+Dialogue: Marked=0,0:07:08.66,0:07:11.21,*Default,,0000,0000,0000,,Não, não sou.
+Dialogue: Marked=0,0:07:13.13,0:07:15.09,*Default,,0000,0000,0000,,Ele não é o Dai Kaio.
+Dialogue: Marked=0,0:07:18.53,0:07:19.84,*Default,,0000,0000,0000,,É o Kaioshin-sama.
+Dialogue: Marked=0,0:07:22.53,0:07:24.06,*Default,,0000,0000,0000,,Kaioshin?
+Dialogue: Marked=0,0:07:33.64,0:07:38.53,*Default,,0000,0000,0000,,Nossa! Já começou com uma\Nchuva de ataques da participante Videl!
+Dialogue: Marked=0,0:07:39.29,0:07:43.16,*Default,,0000,0000,0000,,Impressionante!\NEla não dá chance para contra-ataques!
+Dialogue: Marked=0,0:07:49.95,0:07:51.96,*Default,,0000,0000,0000,,Não fale sobre isso por enquanto.
+Dialogue: Marked=0,0:07:54.38,0:07:58.21,*Default,,0000,0000,0000,,Não quero que ninguém saiba ainda.
+Dialogue: Marked=0,0:08:04.47,0:08:06.53,*Default,,0000,0000,0000,,K-Kaioshin-sama...
+Dialogue: Marked=0,0:08:08.54,0:08:12.81,*Default,,0000,0000,0000,,O Dai Kaio-sama está\Nacima dos quatro Kaio-sama.
+Dialogue: Marked=0,0:08:14.90,0:08:20.67,*Default,,0000,0000,0000,,Já tinha ouvido rumores\Nsobre deuses acima dele, mas...
+Dialogue: Marked=0,0:08:28.22,0:08:31.16,*Default,,0000,0000,0000,,Por isso as nossas dimensões são tão diferentes.
+Dialogue: Marked=0,0:08:33.80,0:08:35.08,*Default,,0000,0000,0000,,O que foi, Piccolo?
+Dialogue: Marked=0,0:08:36.03,0:08:38.00,*Default,,0000,0000,0000,,Ele falou alguma coisa que não devia?
+Dialogue: Marked=0,0:08:39.64,0:08:43.07,*Default,,0000,0000,0000,,Se for isso, quer que\Neu vá reclamar com ele?
+Dialogue: Marked=0,0:08:43.07,0:08:46.39,*Default,,0000,0000,0000,,Afinal, você já foi o Kami da Terra, Piccolo.
+Dialogue: Marked=0,0:08:47.89,0:08:51.85,*Default,,0000,0000,0000,,Pare! Não diga nada!\NPor favor! Não diga nada! Entendeu?
+Dialogue: Marked=0,0:08:56.94,0:09:01.65,*Default,,0000,0000,0000,,Aquele jovem é o Kaioshin-sama?
+Dialogue: Marked=0,0:09:02.39,0:09:05.60,*Default,,0000,0000,0000,,Nem eu nunca o encontrei.
+Dialogue: Marked=0,0:09:05.60,0:09:08.17,*Default,,0000,0000,0000,,Por que alguém como ele está na Terra?
+Dialogue: Marked=0,0:09:13.72,0:09:15.10,*Default,,0000,0000,0000,,Nossa!
+Dialogue: Marked=0,0:09:15.78,0:09:20.25,*Default,,0000,0000,0000,,O participante Spopovitch já caiu.\NVou começar a contagem.
+Dialogue: Marked=0,0:09:26.38,0:09:29.01,*Default,,0000,0000,0000,,O participante Spopovitch se levantou.
+Dialogue: Marked=0,0:09:29.39,0:09:31.52,*Default,,0000,0000,0000,,Parece que ele ainda\Nestá com muita disposição.
+Dialogue: Marked=0,0:09:48.56,0:09:52.07,*Default,,0000,0000,0000,,O Spopovitch ficou muito mais forte, não é?
+Dialogue: Marked=0,0:09:52.07,0:09:55.04,*Default,,0000,0000,0000,,Parece que não foi\Nsó a aparência que mudou.
+Dialogue: Marked=0,0:09:55.53,0:09:56.48,*Default,,0000,0000,0000,,É.
+Dialogue: Marked=0,0:10:00.37,0:10:03.32,*Default,,0000,0000,0000,,Eu não reconheci quando o vi.
+Dialogue: Marked=0,0:10:26.89,0:10:29.50,*Default,,0000,0000,0000,,Os ataques da participante\NVidel são impressionantes!
+Dialogue: Marked=0,0:10:30.74,0:10:33.64,*Default,,0000,0000,0000,,Mas o participante\NSpopovitch está agüentando bem!
+Dialogue: Marked=0,0:10:55.19,0:10:59.69,*Default,,0000,0000,0000,,O participante Spopovitch caiu!\NAh, não! Ele está se levantando!
+Dialogue: Marked=0,0:11:01.61,0:11:03.54,*Default,,0000,0000,0000,,Levantou!
+Dialogue: Marked=0,0:11:19.72,0:11:21.92,*Default,,0000,0000,0000,,Como ela está indo?
+Dialogue: Marked=0,0:11:22.59,0:11:24.27,*Default,,0000,0000,0000,,Ela é boa.
+Dialogue: Marked=0,0:11:24.27,0:11:27.13,*Default,,0000,0000,0000,,Sim, as habilidades dela são muito melhores.
+Dialogue: Marked=0,0:11:27.13,0:11:28.92,*Default,,0000,0000,0000,,Está conseguindo usar as\Ntécnicas uma atrás da outra.
+Dialogue: Marked=0,0:11:30.27,0:11:32.26,*Default,,0000,0000,0000,,Que nível baixo de luta.
+Dialogue: Marked=0,0:11:39.21,0:11:41.27,*Default,,0000,0000,0000,,Ela conseguiu de novo!
+Dialogue: Marked=0,0:11:43.84,0:11:46.47,*Default,,0000,0000,0000,,É o esperado de um\Ngênio das artes marciais.
+Dialogue: Marked=0,0:11:48.44,0:11:52.28,*Default,,0000,0000,0000,,O gigante participante\NSpopovitch não consegue atacar.
+Dialogue: Marked=0,0:11:55.70,0:11:57.23,*Default,,0000,0000,0000,,Legal!
+Dialogue: Marked=0,0:11:57.23,0:11:58.54,*Default,,0000,0000,0000,,Boa, Videl!
+Dialogue: Marked=0,0:11:59.13,0:12:01.79,*Default,,0000,0000,0000,,Ela até que é boa, não é?
+Dialogue: Marked=0,0:12:02.14,0:12:06.21,*Default,,0000,0000,0000,,É perfeita para ser namorada do Gohan-kun.
+Dialogue: Marked=0,0:12:06.21,0:12:09.30,*Default,,0000,0000,0000,,Não é? Também acho!
+Dialogue: Marked=0,0:12:09.64,0:12:13.12,*Default,,0000,0000,0000,,Preciso fazer os dois se\Ncasarem de qualquer jeito!
+Dialogue: Marked=0,0:12:14.40,0:12:18.60,*Default,,0000,0000,0000,,Só pode ser mentira.\NEla é mesmo filha do Mister Satan?
+Dialogue: Marked=0,0:12:19.20,0:12:21.23,*Default,,0000,0000,0000,,Ela é boa, não é?
+Dialogue: Marked=0,0:12:29.23,0:12:30.74,*Default,,0000,0000,0000,,Mentira!
+Dialogue: Marked=0,0:12:34.01,0:12:38.74,*Default,,0000,0000,0000,,Nossa! O participante Spopovitch\Nse levantou tranqüilamente de novo!
+Dialogue: Marked=0,0:12:39.06,0:12:41.40,*Default,,0000,0000,0000,,Que resistência!
+
+Dialogue: Marked=0,0:13:07.81,0:13:10.55,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(575,60)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:13:07.81,0:13:10.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(530,10)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:07.81,0:13:10.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(652,10)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:07.81,0:13:10.55,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(602,27)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:13.81,0:13:16.55,comercial3,,0000,0000,0000,,{\fscx30\fscy45\pos(546,555)\t(9110,0)}torrents.ebrain.com.br
+Dialogue: Marked=0,0:13:13.81,0:13:16.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(500,505)\t(9110,0)}KINT
+Dialogue: Marked=0,0:13:13.81,0:13:16.55,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(622,505)\t(9110,0)}UN
+Dialogue: Marked=0,0:13:13.81,0:13:16.55,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(572,522)\t(9110,0)}O
+
+Dialogue: Marked=0,0:13:21.57,0:13:25.54,*Default,,0000,0000,0000,,Tivemos uma virada inesperada!
+Dialogue: Marked=0,0:13:26.00,0:13:28.21,*Default,,0000,0000,0000,,O participante\NSpopovitch não sofreu dano algum...
+Dialogue: Marked=0,0:13:28.21,0:13:31.73,*Default,,0000,0000,0000,,com os incríveis ataques\Nda participante Videl!
+Dialogue: Marked=0,0:14:04.46,0:14:06.25,*Default,,0000,0000,0000,,Que persistente.
+Dialogue: Marked=0,0:14:23.43,0:14:24.81,*Default,,0000,0000,0000,,Isso! Acabou!
+Dialogue: Marked=0,0:14:36.02,0:14:38.16,*Default,,0000,0000,0000,,Terminou!
+Dialogue: Marked=0,0:14:45.03,0:14:47.71,*Default,,0000,0000,0000,,Uma seqüência de incríveis\Nataques da participante Videl!
+Dialogue: Marked=0,0:14:47.71,0:14:52.29,*Default,,0000,0000,0000,,Nem mesmo o participante\NSpopovitch vai conseguir, conse...
+Dialogue: Marked=0,0:15:11.72,0:15:13.40,*Default,,0000,0000,0000,,E-Ele se levantou.
+Dialogue: Marked=0,0:15:14.64,0:15:15.36,*Default,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:15:16.32,0:15:18.71,*Default,,0000,0000,0000,,É melhor ela desistir da luta.
+Dialogue: Marked=0,0:15:18.71,0:15:19.95,*Default,,0000,0000,0000,,Ele é estranho.
+Dialogue: Marked=0,0:15:21.28,0:15:25.33,*Default,,0000,0000,0000,,Desistir?\NA Videl está ganhando.
+Dialogue: Marked=0,0:15:25.53,0:15:27.41,*Default,,0000,0000,0000,,Isso mesmo!
+Dialogue: Marked=0,0:15:45.67,0:15:46.91,*Default,,0000,0000,0000,,Videl!
+Dialogue: Marked=0,0:15:47.57,0:15:51.14,*Default,,0000,0000,0000,,Fique tranqüila.\NA Videl só está brincando um pouco.
+Dialogue: Marked=0,0:15:51.84,0:15:57.03,*Default,,0000,0000,0000,,Agüente firme!\NAssim não vou deixá-la ser a noiva do Gohan!
+Dialogue: Marked=0,0:15:57.51,0:16:00.90,*Default,,0000,0000,0000,,Parece que a Chi-Chi-san\Nvai ser uma sogra chata.
+Dialogue: Marked=0,0:16:01.56,0:16:02.41,*Default,,0000,0000,0000,,É...
+Dialogue: Marked=0,0:16:20.33,0:16:22.12,*Default,,0000,0000,0000,,Ela vai cair!
+Dialogue: Marked=0,0:16:23.43,0:16:24.55,*Default,,0000,0000,0000,,Não!
+Dialogue: Marked=0,0:16:43.59,0:16:45.37,*Default,,0000,0000,0000,,Ela parou.
+Dialogue: Marked=0,0:16:50.65,0:16:54.67,*Default,,0000,0000,0000,,O que é isso?\NA participante Videl está voando!
+Dialogue: Marked=0,0:16:54.94,0:16:56.60,*Default,,0000,0000,0000,,Ela não caiu!
+Dialogue: Marked=0,0:17:06.52,0:17:07.98,*Default,,0000,0000,0000,,O que foi?
+Dialogue: Marked=0,0:17:07.98,0:17:09.14,*Default,,0000,0000,0000,,O que está acontecendo?
+Dialogue: Marked=0,0:17:09.88,0:17:14.14,*Default,,0000,0000,0000,,Boa, boa!\NEu ensinei o Bukujutsu para ela.
+Dialogue: Marked=0,0:17:15.55,0:17:18.82,*Default,,0000,0000,0000,,Seria melhor se ela tivesse caído.
+Dialogue: Marked=0,0:17:19.93,0:17:22.50,*Default,,0000,0000,0000,,Esse Spopovitch é estranho mesmo.
+Dialogue: Marked=0,0:17:23.49,0:17:29.33,*Default,,0000,0000,0000,,O dano sofrido não o\Nincomoda e não sinto vida nele.
+Dialogue: Marked=0,0:17:30.93,0:17:33.89,*Default,,0000,0000,0000,,Não sente vida?\NO que quer dizer?
+Dialogue: Marked=0,0:17:34.71,0:17:36.86,*Default,,0000,0000,0000,,Bem, não sei explicar.
+Dialogue: Marked=0,0:17:40.75,0:17:44.09,*Default,,0000,0000,0000,,O quê? Parece que a Videl\Nvai perder para o Spopovitch?
+Dialogue: Marked=0,0:17:44.85,0:17:46.30,*Default,,0000,0000,0000,,É.
+Dialogue: Marked=0,0:17:48.92,0:17:50.82,*Default,,0000,0000,0000,,Deve ser algum erro.
+Dialogue: Marked=0,0:17:50.82,0:17:56.75,*Default,,0000,0000,0000,,Eu derrotei o Spopovitch na\Nprimeira rodada no torneio anterior.
+Dialogue: Marked=0,0:17:56.75,0:18:00.69,*Default,,0000,0000,0000,,A Videl é muito mais forte.
+Dialogue: Marked=0,0:18:01.40,0:18:05.32,*Default,,0000,0000,0000,,Mas parece que ele ficou muito\Nmais forte do que no torneio anterior.
+Dialogue: Marked=0,0:18:07.53,0:18:09.99,*Default,,0000,0000,0000,,Ela está fingindo. Fingindo.
+Dialogue: Marked=0,0:18:09.99,0:18:15.21,*Default,,0000,0000,0000,,Essa Videl... Aprendeu comigo e,\Nagora, quer fazer pose no torneio, não é?
+Dialogue: Marked=0,0:18:17.45,0:18:18.54,*Default,,0000,0000,0000,,Será que é isso?
+Dialogue: Marked=0,0:18:19.44,0:18:20.67,*Default,,0000,0000,0000,,Lógico que é!
+Dialogue: Marked=0,0:18:55.98,0:18:59.59,*Default,,0000,0000,0000,,O pescoço do participante Spopovitch quebrou!
+Dialogue: Marked=0,0:19:07.02,0:19:08.51,*Default,,0000,0000,0000,,Ela o matou.
+Dialogue: Marked=0,0:19:15.72,0:19:17.18,*Default,,0000,0000,0000,,Ela o matou!
+Dialogue: Marked=0,0:19:34.02,0:19:35.08,*Default,,0000,0000,0000,,Você não pode ver isso.
+Dialogue: Marked=0,0:19:41.75,0:19:45.84,*Default,,0000,0000,0000,,Senhoras e senhores, aconteceu uma tragédia.
+Dialogue: Marked=0,0:19:46.64,0:19:48.43,*Default,,0000,0000,0000,,De acordo com as regras do torneio,
+Dialogue: Marked=0,0:19:48.43,0:19:53.43,*Default,,0000,0000,0000,,como a participante Videl matou\No seu adversário, ela será des...
+Dialogue: Marked=0,0:20:37.10,0:20:44.15,*Default,,0000,0000,0000,,O-O que foi isso?\NO pescoço voltou ao normal? O que isso...
+Dialogue: Marked=0,0:20:51.70,0:20:53.91,*Default,,0000,0000,0000,,Quem é ele?
+Dialogue: Marked=0,0:21:24.15,0:21:27.65,*Default,,0000,0000,0000,,É como o Goku falou.\NÉ melhor ela desistir.
+Dialogue: Marked=0,0:21:27.65,0:21:29.73,*Default,,0000,0000,0000,,Aquele maldito não é mesmo normal.
+Dialogue: Marked=0,0:21:36.76,0:21:40.16,*Default,,0000,0000,0000,,Nossa!\NA participante Videl voou de novo!
+Dialogue: Marked=0,0:21:46.44,0:21:48.03,*Default,,0000,0000,0000,,É! Isso é bom!
+Dialogue: Marked=0,0:21:48.03,0:21:50.92,*Default,,0000,0000,0000,,Fuja para o alto e\Nespere até recuperar a força!
+Dialogue: Marked=0,0:22:03.81,0:22:04.73,*Default,,0000,0000,0000,,Ele voou!
+Dialogue: Marked=0,0:22:07.55,0:22:08.73,*Default,,0000,0000,0000,,Não pode ser!
+Dialogue: Marked=0,0:22:09.61,0:22:13.04,Narrador,,0000,0000,0000,,Spopovitch também pode voar?
+Dialogue: Marked=0,0:22:13.04,0:22:16.87,Narrador,,0000,0000,0000,,Qual é o segredo da força desse homem?
+Dialogue: Marked=0,0:22:16.87,0:22:20.87,Narrador,,0000,0000,0000,,E como a encurralada Videl vai lutar?
+
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx75\fscy55\pos(250,174)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.80,0:24:10.21,Poder,,0000,0000,0000,,{\1c&HFAECEC\bord0\fscx48\fscy48\pos(250,244)\t(9110,0)}http://torrents.ebrain.com.br

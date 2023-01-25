@@ -1,0 +1,229 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Wav: 0, 134477,C:\Documents and Settings\Lucas\Desktop\dbgt18.wav
+LastWav: 1
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: P2!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,6,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: LP!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,-30000,-30000,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: titulo,Gorilla BT,40,7353,&HFF00FFFF,&HFF000000,16777215,1,0,1,3,2,2,30,30,20,0,0
+Style: apresDBZ2,Arial,50,2723501,255,4194368,-2147483640,-1,1,1,2,0,6,0,0,15,0,0
+Style: apresDBZ3,Incised901 NdIt BT,50,11711175,255,4194368,-2147483640,0,1,1,3,0,6,0,0,15,0,0
+Style: apresDBZ4,Incised901 Ct BT,50,11711175,255,4194368,-2147483640,0,0,1,3,0,6,0,0,15,0,0
+Style: apresDBZ5,Broadway,60,1387156,255,4194368,1387156,0,1,1,25,0,6,0,0,15,0,0
+Style: apresDBGT,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: PLACA,Baar Sophia,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+Style: PLACA1,Wonton,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,-30000,-30000,-30000,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:09.56,0:13:19.56,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:50.48,0:21:00.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:50.34,0:01:54.39,Narrador,,0000,0000,0000,,Yi Xing Long, que absorveu a\Nenergia negativa de todas as sete Dragon Balls...
+Dialogue: Marked=0,0:01:54.62,0:01:58.35,Narrador,,0000,0000,0000,,para dentro de seu próprio corpo,
+Dialogue: Marked=0,0:01:58.54,0:02:03.07,Narrador,,0000,0000,0000,,assumiu sua mais forte e poderosa forma!
+Dialogue: Marked=0,0:02:07.82,0:02:12.12,*Default,,0000,0000,0000,,O-O papai pretende converter\Nsua vida em energia e explodir!
+Dialogue: Marked=0,0:02:14.40,0:02:18.26,Narrador,,0000,0000,0000,,Vegeta, que apareceu e salvou Goku,
+Dialogue: Marked=0,0:02:18.26,0:02:22.25,Narrador,,0000,0000,0000,,transformou-se para alcançar\Na forma de Super Saiya-jin 4!
+Dialogue: Marked=0,0:02:31.34,0:02:36.56,Narrador,,0000,0000,0000,,Mas a estratégia de Vegeta ainda não estava completa.
+Dialogue: Marked=0,0:02:39.91,0:02:41.98,*Default,,0000,0000,0000,,Vamos fazer a Fusion, Kakarotto!
+Dialogue: Marked=0,0:02:43.87,0:02:48.15,*Default,,0000,0000,0000,,Eu disse que vou fazer a Fusion com você!\NAnde logo e se prepare!
+
+Dialogue: Marked=0,0:02:52.67,0:03:00.64,apresDBGT,,0000,0000,0000,,{\1c&HF1DAF3\pos(300,75)\bord0\shad0\fad(500,0)\fscx100\fscy100}Episódio 60
+Dialogue: Marked=0,0:02:52.67,0:03:00.64,apresDBGT,,0000,0000,0000,,{\1c&HF1DAF3\pos(205,205)\bord0\shad0\fad(500,0)\fscx145\fscy140}Fusion
+Dialogue: Marked=0,0:02:52.67,0:03:00.64,apresDBGT,,0000,0000,0000,,{\1c&HF1DAF3\pos(425,215)\bord0\shad0\fad(500,0)\fscx200\fscy250\i1}!!
+Dialogue: Marked=0,0:02:52.67,0:03:00.64,apresDBGT,,0000,0000,0000,,{\1c&HF1DAF3\pos(87,520)\bord0\shad0\fad(500,0)\fscx115\fscy115}O definitivo Super Gogeta
+
+Dialogue: Marked=0,0:03:21.18,0:03:22.62,*Default,,0000,0000,0000,,Ele falou de Fusion?
+Dialogue: Marked=0,0:03:22.62,0:03:26.15,*Default,,0000,0000,0000,,Incrível!\NO papai e o Vegeta-san vão fazer a Fusion!
+Dialogue: Marked=0,0:03:28.88,0:03:29.65,*Default,,0000,0000,0000,,Fusion!
+Dialogue: Marked=0,0:03:32.02,0:03:32.94,*Default,,0000,0000,0000,,Papai...
+Dialogue: Marked=0,0:03:34.94,0:03:38.16,*Default,,0000,0000,0000,,Ei, Trunks-kun, o que é Fusion?
+Dialogue: Marked=0,0:03:45.70,0:03:49.89,*Default,,0000,0000,0000,,Fusion?\NÉ verdade, ainda podemos fazer isso.
+Dialogue: Marked=0,0:03:55.72,0:03:58.46,*Default,,0000,0000,0000,,Não fiquem tão confiantes!
+Dialogue: Marked=0,0:03:58.46,0:04:01.58,*Default,,0000,0000,0000,,Não vou deixar vocês fazerem mais nada!
+Dialogue: Marked=0,0:04:09.87,0:04:12.95,*Default,,0000,0000,0000,,Andem logo!\NPapai, mostre-nos a Fusion!
+Dialogue: Marked=0,0:04:16.07,0:04:18.42,*Default,,0000,0000,0000,,Vou quebrar o pescoço dele!
+Dialogue: Marked=0,0:04:23.88,0:04:27.17,*Default,,0000,0000,0000,,Espere aí!\NO que você está fazendo com o Trunks?!
+Dialogue: Marked=0,0:04:33.68,0:04:34.30,*Default,,0000,0000,0000,,Mamãe!
+Dialogue: Marked=0,0:04:38.06,0:04:40.92,*Default,,0000,0000,0000,,Veja bem!\NVocê não pode atacar assim do nada!
+Dialogue: Marked=0,0:04:40.92,0:04:43.94,*Default,,0000,0000,0000,,Não dá para falar "Vou atirar!" ou\N"Vou acabar com você!", ou algo assim?
+Dialogue: Marked=0,0:04:53.85,0:04:55.36,*Default,,0000,0000,0000,,Espere!
+Dialogue: Marked=0,0:04:56.11,0:04:57.03,*Default,,0000,0000,0000,,Goten, vamos!
+Dialogue: Marked=0,0:04:57.86,0:04:59.51,*Default,,0000,0000,0000,,Não podemos permitir que ele interfira!
+Dialogue: Marked=0,0:04:59.51,0:05:02.09,*Default,,0000,0000,0000,,Temos que ganhar tempo para\No papai e o Vegeta fazerem a Fusion!
+Dialogue: Marked=0,0:05:02.09,0:05:03.36,*Default,,0000,0000,0000,,Pode deixar, Nii-chan!
+Dialogue: Marked=0,0:05:05.57,0:05:10.05,*Default,,0000,0000,0000,,Que história é essa de Fusion?!
+Dialogue: Marked=0,0:05:15.36,0:05:17.62,*Default,,0000,0000,0000,,Nii-chan! Droga!
+Dialogue: Marked=0,0:05:24.19,0:05:25.48,*Default,,0000,0000,0000,,Seus insetos inúteis!
+Dialogue: Marked=0,0:05:39.61,0:05:41.74,*Default,,0000,0000,0000,,O que você está fazendo, Kakarotto?!
+Dialogue: Marked=0,0:05:41.74,0:05:43.55,*Default,,0000,0000,0000,,Vamos fazer a Fusion ou não?
+Dialogue: Marked=0,0:05:43.55,0:05:44.08,*Default,,0000,0000,0000,,Decida-se logo!
+Dialogue: Marked=0,0:05:48.36,0:05:49.38,*Default,,0000,0000,0000,,Qual a graça?
+Dialogue: Marked=0,0:05:50.97,0:05:52.92,*Default,,0000,0000,0000,,Não tem graça nenhuma.
+Dialogue: Marked=0,0:05:52.92,0:05:58.17,*Default,,0000,0000,0000,,Só estou feliz de ouvir de você\Nmesmo que quer realizar a Fusion.
+Dialogue: Marked=0,0:05:59.70,0:06:00.64,*Default,,0000,0000,0000,,Isso é ridículo!
+Dialogue: Marked=0,0:06:04.47,0:06:06.48,*Default,,0000,0000,0000,,É fantástico, Vegeta!
+Dialogue: Marked=0,0:06:11.35,0:06:13.03,*Default,,0000,0000,0000,,Nada disso!
+Dialogue: Marked=0,0:06:14.22,0:06:16.59,*Default,,0000,0000,0000,,Não vou deixar você interferir!
+Dialogue: Marked=0,0:06:26.07,0:06:27.41,*Default,,0000,0000,0000,,Saia do caminho, pirralho!
+Dialogue: Marked=0,0:06:32.00,0:06:33.50,Poder,,0000,0000,0000,,{\fad(0,0)\bord3\1c&H1955C4\3c&H000000\fscx120\fscy120\move(100,590,340,590,1000,0)}FU
+Dialogue: Marked=0,0:06:32.00,0:06:33.50,Poder,,0000,0000,0000,,{\fad(200,0)\bord3\1c&H272C10\3c&H7D98CE\fscx120\fscy120\move(600,590,445,590,1000,0)}SION!
+Dialogue: Marked=0,0:06:34.93,0:06:35.84,Poder,,0000,0000,0000,,{\fad(200,0)\bord3\1c&H1955C4\3c&H272C10\fscx90\fscy90\t(0,900,\fscx120\fscy120)\t(700,900,\1a&hff&\3a&hff&\4a&hff&)}HA!
+Dialogue: Marked=0,0:07:51.08,0:07:52.42,*Default,,0000,0000,0000,,Q-Quem é você?!
+Dialogue: Marked=0,0:07:53.90,0:07:58.76,*Default,,0000,0000,0000,,Quem? Eu?\NNão sou nem Son Goku, nem Vegeta.
+Dialogue: Marked=0,0:07:58.76,0:08:01.76,*Default,,0000,0000,0000,,Eu sou aquele que vai te derrotar!
+Dialogue: Marked=0,0:08:08.95,0:08:14.64,*Default,,0000,0000,0000,,Só pode ser brincadeira!\NO vovô e o pai do Trunks se juntaram!
+Dialogue: Marked=0,0:08:14.64,0:08:17.61,*Default,,0000,0000,0000,,Não se juntaram, eles se fundiram.
+Dialogue: Marked=0,0:08:18.38,0:08:20.73,*Default,,0000,0000,0000,,Bem, não importa, de qualquer forma!
+Dialogue: Marked=0,0:08:20.73,0:08:23.41,*Default,,0000,0000,0000,,Entendeu agora, Pan-chan?\NIsso é a Fusion!
+Dialogue: Marked=0,0:08:24.38,0:08:25.82,*Default,,0000,0000,0000,,Incrível!
+Dialogue: Marked=0,0:08:26.58,0:08:28.01,*Default,,0000,0000,0000,,É realmente incrível...
+Dialogue: Marked=0,0:08:29.69,0:08:32.04,*Default,,0000,0000,0000,,Eles são realmente incríveis...
+Dialogue: Marked=0,0:08:33.79,0:08:34.67,*Default,,0000,0000,0000,,Oob-kun...
+Dialogue: Marked=0,0:08:37.40,0:08:41.67,*Default,,0000,0000,0000,,Alguém quer fazer a Fusion comigo?
+Dialogue: Marked=0,0:08:47.40,0:08:50.97,*Default,,0000,0000,0000,,Por favor!\NEu quero ficar mais forte!
+Dialogue: Marked=0,0:08:52.82,0:08:55.85,*Default,,0000,0000,0000,,Por favor, Gohan-san? Trunks-san?
+Dialogue: Marked=0,0:08:59.25,0:09:02.90,*Default,,0000,0000,0000,,Oob-kun, antes disso,\Ntemos que curar o seu braço.
+Dialogue: Marked=0,0:09:33.15,0:09:37.75,*Default,,0000,0000,0000,,Para levar três socos meus e sair apenas com\Num nariz sangrando, é realmente algo especial.
+Dialogue: Marked=0,0:09:38.72,0:09:42.03,*Default,,0000,0000,0000,,Três socos?\NDo que está falando?!
+Dialogue: Marked=0,0:09:43.34,0:09:48.37,*Default,,0000,0000,0000,,Vou fazer devagar desta vez,\Npara que você possa ver.
+Dialogue: Marked=0,0:09:49.34,0:09:50.95,*Default,,0000,0000,0000,,Chega!
+Dialogue: Marked=0,0:10:02.80,0:10:06.02,*Default,,0000,0000,0000,,Nada mal, hein?\NEle é incrivelmente forte!
+Dialogue: Marked=0,0:10:06.02,0:10:07.30,*Default,,0000,0000,0000,,Claro que sim!
+Dialogue: Marked=0,0:10:07.30,0:10:10.54,*Default,,0000,0000,0000,,Afinal, ele é a junção do Son-kun e do Vegeta!
+Dialogue: Marked=0,0:10:10.54,0:10:11.47,*Default,,0000,0000,0000,,Vovô!
+Dialogue: Marked=0,0:10:12.20,0:10:15.73,*Default,,0000,0000,0000,,Pega ele! Pega ele!\NMostra pra ele! Vai! Vai!
+Dialogue: Marked=0,0:10:16.31,0:10:19.06,P!,,0000,0000,0000,,I-Impossível...\NNão posso acreditar...
+Dialogue: Marked=0,0:10:19.06,0:10:21.44,P!,,0000,0000,0000,,Comigo não... Comigo não...
+Dialogue: Marked=0,0:10:24.51,0:10:26.65,*Default,,0000,0000,0000,,Comigo não!
+Dialogue: Marked=0,0:10:33.25,0:10:34.04,*Default,,0000,0000,0000,,O-O quê?!
+Dialogue: Marked=0,0:10:41.63,0:10:43.59,*Default,,0000,0000,0000,,O que está fazendo, idiota?
+Dialogue: Marked=0,0:10:48.51,0:10:52.33,*Default,,0000,0000,0000,,Pare de implorar, estúpido!
+Dialogue: Marked=0,0:10:52.33,0:10:54.35,*Default,,0000,0000,0000,,Estúpido?
+Dialogue: Marked=0,0:10:57.00,0:10:58.93,*Default,,0000,0000,0000,,Você me chamou de estúpido?!
+Dialogue: Marked=0,0:10:58.93,0:11:01.36,*Default,,0000,0000,0000,,Não fique confiante só porque\Nganhou um pouco mais de poder!
+Dialogue: Marked=0,0:11:02.21,0:11:05.35,*Default,,0000,0000,0000,,Nem mesmo você é capaz de desviar disto!
+Dialogue: Marked=0,0:11:07.16,0:11:08.84,*Default,,0000,0000,0000,,Morra! Morra! Morra! Morra!
+Dialogue: Marked=0,0:11:12.29,0:11:13.28,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:11:13.28,0:11:14.37,*Default,,0000,0000,0000,,Vovô!
+
+Dialogue: Marked=0,0:11:20.74,0:11:26.40,apresDBZ2,,0000,0000,0000,,{\fad(300,0)\bord2\shad0\fscx55\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:11:20.74,0:11:26.40,apresDBZ4,,0000,0000,0000,,{\fad(300,0)\bord2\shad0\fscx95\fscy35\pos(180,530)}irc.rizon.net
+
+Dialogue: Marked=0,0:11:31.60,0:11:34.41,apresDBZ2,,0000,0000,0000,,{\fad(0,0)\bord2\shad0\fscx58\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:11:31.60,0:11:34.41,apresDBZ4,,0000,0000,0000,,{\fad(0,0)\bord2\shad0\fscx57\fscy30\pos(180,533)}animecentral.com.br
+
+Dialogue: Marked=0,0:11:36.20,0:11:37.08,*Default,,0000,0000,0000,,Morra! Morra!
+Dialogue: Marked=0,0:11:50.45,0:11:51.23,*Default,,0000,0000,0000,,O que acha disso?
+Dialogue: Marked=0,0:11:51.23,0:11:52.39,*Default,,0000,0000,0000,,Não importa o quão forte você seja,
+Dialogue: Marked=0,0:11:52.39,0:11:54.93,*Default,,0000,0000,0000,,não tem como ter recebido\Naquilo diretamente e saído ileso!
+Dialogue: Marked=0,0:12:07.26,0:12:08.71,*Default,,0000,0000,0000,,Você não é tão forte como diz!
+Dialogue: Marked=0,0:12:13.71,0:12:14.64,*Default,,0000,0000,0000,,Eu senti isso!
+Dialogue: Marked=0,0:12:16.33,0:12:20.35,*Default,,0000,0000,0000,,Sim, eu senti, eu senti.\NE foi muito bom!
+Dialogue: Marked=0,0:12:21.79,0:12:23.15,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:12:23.83,0:12:29.40,*Default,,0000,0000,0000,,Na próxima, você pode acertar aqui?\NMeu ombros estão tão rígidos!
+Dialogue: Marked=0,0:12:34.63,0:12:36.33,*Default,,0000,0000,0000,,Não brinque comigo!
+Dialogue: Marked=0,0:13:03.92,0:13:08.23,*Default,,0000,0000,0000,,Certo, já é hora de eu mostrar meu golpe final!
+Dialogue: Marked=0,0:13:34.08,0:13:38.42,*Default,,0000,0000,0000,,Duvido que vai sobrar algo de você depois que...
+Dialogue: Marked=0,0:13:38.42,0:13:40.64,*Default,,0000,0000,0000,,receber cinco Kamehameha simultâneos!
+Dialogue: Marked=0,0:13:59.12,0:14:00.37,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:14:07.10,0:14:08.96,*Default,,0000,0000,0000,,Ah, minha barriga está doendo!
+Dialogue: Marked=0,0:14:12.09,0:14:13.88,*Default,,0000,0000,0000,,Maldito!
+Dialogue: Marked=0,0:14:15.37,0:14:18.97,*Default,,0000,0000,0000,,Está zombando de mim?!
+Dialogue: Marked=0,0:14:21.86,0:14:24.70,*Default,,0000,0000,0000,,Estou completamente desapontado com você.
+Dialogue: Marked=0,0:14:24.70,0:14:26.81,*Default,,0000,0000,0000,,Achei que poderia se sair um pouco melhor que isso.
+Dialogue: Marked=0,0:14:27.48,0:14:28.68,*Default,,0000,0000,0000,,O quê?
+Dialogue: Marked=0,0:14:29.41,0:14:31.82,*Default,,0000,0000,0000,,Só preciso de um dedo contra você!
+Dialogue: Marked=0,0:14:33.31,0:14:34.44,*Default,,0000,0000,0000,,Eu...
+Dialogue: Marked=0,0:14:35.86,0:14:37.95,*Default,,0000,0000,0000,,Eu não vou perder, não importa o que aconteça!
+Dialogue: Marked=0,0:14:38.87,0:14:44.83,*Default,,0000,0000,0000,,Jyaaku Ryuu, me dêem seu poder!
+Dialogue: Marked=0,0:15:36.45,0:15:41.86,*Default,,0000,0000,0000,,Essa bola de poder é feita de energia negativa\Nextremamente condensada das Dragon Balls,
+Dialogue: Marked=0,0:15:41.86,0:15:43.97,*Default,,0000,0000,0000,,além do ódio dos Jyaaku Ryuu!
+Dialogue: Marked=0,0:15:46.08,0:15:48.98,*Default,,0000,0000,0000,,Vão todos para o inferno!
+Dialogue: Marked=0,0:15:56.80,0:15:58.19,*Default,,0000,0000,0000,,Tire todos daqui!
+Dialogue: Marked=0,0:16:15.58,0:16:17.11,P!,,0000,0000,0000,,Não há o que fazer.
+Dialogue: Marked=0,0:16:17.11,0:16:18.80,P!,,0000,0000,0000,,Independente de onde formos,
+Dialogue: Marked=0,0:16:18.80,0:16:22.10,P!,,0000,0000,0000,,quando a bola de poder com toda aquela incrível energia condensada acertar alguma coisa,
+Dialogue: Marked=0,0:16:22.10,0:16:24.76,P!,,0000,0000,0000,,a Terra será... destruída!
+Dialogue: Marked=0,0:17:40.76,0:17:44.17,*Default,,0000,0000,0000,,Gosenzo-sama! Gosenzo-sama!
+Dialogue: Marked=0,0:17:44.17,0:17:47.94,*Default,,0000,0000,0000,,Já ouvi! Acabou o jantar?
+Dialogue: Marked=0,0:17:49.25,0:17:51.70,*Default,,0000,0000,0000,,Ainda não! Não abra a tampa.
+Dialogue: Marked=0,0:17:51.70,0:17:52.98,*Default,,0000,0000,0000,,E não foi por isso que eu o chamei!
+Dialogue: Marked=0,0:17:54.12,0:17:55.38,*Default,,0000,0000,0000,,Por favor, olhe aquilo.
+Dialogue: Marked=0,0:17:56.75,0:17:59.82,*Default,,0000,0000,0000,,A sombra maléfica que\Nenvolvia a Terra desapareceu!
+Dialogue: Marked=0,0:18:18.74,0:18:22.81,*Default,,0000,0000,0000,,Parece que até mesmo os céus te abandonaram.
+Dialogue: Marked=0,0:18:26.32,0:18:27.15,*Default,,0000,0000,0000,,C-Como?
+Dialogue: Marked=0,0:18:28.71,0:18:32.68,*Default,,0000,0000,0000,,Acha que tudo que fiz\Nfoi chutar a sua bola de poder?
+Dialogue: Marked=0,0:18:41.21,0:18:42.86,*Default,,0000,0000,0000,,No momento que eu a chutei,
+Dialogue: Marked=0,0:18:42.86,0:18:48.99,*Default,,0000,0000,0000,,eu usei a energia do meu corpo\Npara converter a energia negativa em positiva.
+Dialogue: Marked=0,0:18:57.25,0:18:59.44,*Default,,0000,0000,0000,,V-Você fez o quê?
+Dialogue: Marked=0,0:18:59.44,0:19:02.89,*Default,,0000,0000,0000,,Quer dizer que aquela\Nbola de poder com a energia positiva...
+Dialogue: Marked=0,0:19:02.89,0:19:08.21,*Default,,0000,0000,0000,,colidiu com a energia negativa\Nque envolvia a Terra e a destruiu?!
+Dialogue: Marked=0,0:19:08.21,0:19:11.93,*Default,,0000,0000,0000,,Isso! Quando mais e menos são somados,\No resultado é nulo!
+Dialogue: Marked=0,0:19:12.61,0:19:15.43,*Default,,0000,0000,0000,,M-Maldição!
+Dialogue: Marked=0,0:19:15.43,0:19:17.48,*Default,,0000,0000,0000,,Vamos acabar com isso, Yi Xing Long!
+Dialogue: Marked=0,0:19:18.26,0:19:20.19,*Default,,0000,0000,0000,,Vou enviar você para o Outro Mundo com isto!
+Dialogue: Marked=0,0:19:20.55,0:19:23.06,Poder,,0000,0000,0000,,{\fad(200,500)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,2270,\fscx120\fscy120)}Big Bang Kamehameha!
+Dialogue: Marked=0,0:19:49.68,0:19:50.93,*Default,,0000,0000,0000,,Conseguimos!
+Dialogue: Marked=0,0:19:53.05,0:19:54.26,*Default,,0000,0000,0000,,Acabou!
+Dialogue: Marked=0,0:20:01.33,0:20:02.35,*Default,,0000,0000,0000,,Só pode ser brincadeira, certo?
+Dialogue: Marked=0,0:20:17.66,0:20:20.71,*Default,,0000,0000,0000,,Eu ainda não estou acabado!
+Dialogue: Marked=0,0:20:21.48,0:20:23.69,*Default,,0000,0000,0000,,Você é insistente, hein?
+Dialogue: Marked=0,0:20:23.69,0:20:26.44,*Default,,0000,0000,0000,,Mas, não importa o seu esforço,\Nnão vai fazer diferença!
+Dialogue: Marked=0,0:20:26.44,0:20:29.67,*Default,,0000,0000,0000,,Com esse próximo ataque,\Nvocê vai ser aniquilado com certeza!
+Dialogue: Marked=0,0:20:30.77,0:20:32.53,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,2070,\fscx120\fscy120)}Big Bang...
+Dialogue: Marked=0,0:20:35.74,0:20:36.14,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,570,\fscx120\fscy120)}KA
+Dialogue: Marked=0,0:20:36.14,0:20:36.39,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,570,\fscx120\fscy120)}ME
+Dialogue: Marked=0,0:20:36.59,0:20:37.08,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,570,\fscx120\fscy120)}HA
+Dialogue: Marked=0,0:20:37.08,0:20:37.72,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF1EBFD\3c&H7C462D\fscx90\fscy90\t(0,570,\fscx120\fscy120)}ME
+Dialogue: Marked=0,0:20:40.96,0:20:46.43,*Default,,0000,0000,0000,,Ahn? Como assim?\NNão se passaram nem dez minutos!
+Dialogue: Marked=0,0:20:46.43,0:20:48.04,*Default,,0000,0000,0000,,O que significa isso?!
+Dialogue: Marked=0,0:20:48.04,0:20:50.61,*Default,,0000,0000,0000,,A Fusion deveria durar trinta minutos, não?
+Dialogue: Marked=0,0:20:54.16,0:20:58.23,*Default,,0000,0000,0000,,Já sei! Pode ser que,\Nquando dois Super Saiya-jin 4 fazem a Fusion,
+Dialogue: Marked=0,0:20:58.23,0:21:01.54,*Default,,0000,0000,0000,,quanto mais poder usado,\Nmais curta a Fusion se torna!
+Dialogue: Marked=0,0:21:02.79,0:21:05.88,*Default,,0000,0000,0000,,Não deveríamos ter ficado brincando.\NMelhor seria ter acabado com ele logo, hein?
+Dialogue: Marked=0,0:21:05.88,0:21:07.23,*Default,,0000,0000,0000,,Seu desgraçado!
+Dialogue: Marked=0,0:21:09.67,0:21:14.38,*Default,,0000,0000,0000,,N-Não fique nervoso!\NMetade da culpa é sua!
+Dialogue: Marked=0,0:21:14.38,0:21:17.05,*Default,,0000,0000,0000,,Droga! Só faltava um golpe!
+Dialogue: Marked=0,0:21:19.21,0:21:24.06,Narrador,,0000,0000,0000,,Faltando apenas mais um passo,\Na Fusion de Goku e Vegeta se desfez!
+Dialogue: Marked=0,0:21:26.49,0:21:31.51,*Default,,0000,0000,0000,,Eu sei como vocês se sentem!\NEstavam muito perto de ganhar, não é?
+Dialogue: Marked=0,0:21:31.51,0:21:33.65,*Default,,0000,0000,0000,,A sorte simplesmente não está do lado de vocês!
+Dialogue: Marked=0,0:21:34.60,0:21:37.65,*Default,,0000,0000,0000,,Sabe como nos sentimos?\NVocê não está em condições de falar!
+Dialogue: Marked=0,0:21:37.65,0:21:40.12,*Default,,0000,0000,0000,,É você que está esgotado!
+Dialogue: Marked=0,0:21:40.12,0:21:42.91,*Default,,0000,0000,0000,,E posso acabar com você sozinho agora!
+Dialogue: Marked=0,0:21:44.59,0:21:46.48,*Default,,0000,0000,0000,,Eu não teria tanta certeza disso.
+Dialogue: Marked=0,0:21:47.28,0:21:49.67,*Default,,0000,0000,0000,,Venham, Dragon Balls!
+Dialogue: Marked=0,0:22:12.33,0:22:17.79,Narrador,,0000,0000,0000,,Mais uma vez, Yi Xing Long tenta\Nabsorver o poder das Dragon Balls!
+Dialogue: Marked=0,0:22:17.79,0:22:18.61,Narrador,,0000,0000,0000,,Porém...
+Dialogue: Marked=0,0:22:19.57,0:22:20.33,*Default,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:22:22.08,0:22:25.68,*Default,,0000,0000,0000,,Esta esfera, a Si Xing Qiu,\Nera uma lembrança do meu avô!
+Dialogue: Marked=0,0:22:25.68,0:22:27.98,*Default,,0000,0000,0000,,Não vou deixar você ficar com ela!
+
+Dialogue: Marked=0,0:24:03.73,0:24:08.16,Poder,,0000,0000,0000,,{\fad(0,0)\1c&HEEE9FE\bord0\fscx80\fscy65\pos(567,290)\t(9110,0)}KINTOUN FANSUB
+Dialogue: Marked=0,0:24:03.73,0:24:08.16,Poder,,0000,0000,0000,,{\fad(0,0)\1c&HEEE9FE\bord0\fscx55\fscy54\pos(567,365)\t(9110,0)}www.animecentral.com.br

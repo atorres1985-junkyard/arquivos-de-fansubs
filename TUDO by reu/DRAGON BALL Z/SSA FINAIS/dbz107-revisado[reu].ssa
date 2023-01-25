@@ -1,0 +1,258 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:51.34,0:01:53.20,*Default,,0000,0000,0000,,Droga!
+Dialogue: Marked=0,0:02:05.29,0:02:07.80,Narrador,,0000,0000,0000,,O planeta Namek desapareceu.
+Dialogue: Marked=0,0:02:10.47,0:02:15.76,*Default,,0000,0000,0000,,Dizem que, com as Dragon Balls de Namek, pode-se ressuscitar várias vezes!
+Dialogue: Marked=0,0:02:15.76,0:02:18.55,*Default,,0000,0000,0000,,Isso quer dizer que o Son-kun\Ne o Kuririn poderão ressuscitar!
+Dialogue: Marked=0,0:02:23.78,0:02:27.50,*Default,,0000,0000,0000,,São vocês que não sabem de nada.
+Dialogue: Marked=0,0:02:29.04,0:02:33.04,*Default,,0000,0000,0000,,Goku e Kuririn ressuscitariam em Namek...
+Dialogue: Marked=0,0:02:33.04,0:02:38.16,*Default,,0000,0000,0000,,Mas, Namek não existe mais.\NHá somente um vazio no espaço.
+Dialogue: Marked=0,0:02:38.16,0:02:42.49,*Default,,0000,0000,0000,,No momento em que eles ressuscitarem,\Na morte estará esperando por eles.
+
+Dialogue: Marked=0,0:02:50.58,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,70)}{\fad(300,0)}{\fscx100\fscy100}Episódio 107
+Dialogue: Marked=0,0:02:50.58,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,170)}{\fad(300,0)}{\fscx185\fscy150}Son Goku sobreviveu
+Dialogue: Marked=0,0:02:50.58,0:02:58.56,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(405,490)}{\fad(300,0)}{\fscx100\fscy120}A ressurreição de todos os Guerreiros Z!!
+
+Dialogue: Marked=0,0:03:06.58,0:03:10.81,*Default,NTP,0000,0000,0000,!Effect,P-Por que o meu pai e o Kuririn-san\Nnão podem ser ressuscitados?
+Dialogue: Marked=0,0:03:12.11,0:03:15.75,*Default,NTP,0000,0000,0000,!Effect,Parece que só é possível se,\Nassim como o Chaos-kun,
+Dialogue: Marked=0,0:03:15.75,0:03:18.86,*Default,,0000,0000,0000,,o corpo for restaurado e\Nestiver no templo de Kami-sama.
+Dialogue: Marked=0,0:03:19.54,0:03:23.34,*Default,NTP,0000,0000,0000,!Effect,Senão, parece que você é\Nressuscitado no lugar onde morreu.
+Dialogue: Marked=0,0:03:23.34,0:03:27.37,*Default,NTP,0000,0000,0000,!Effect,Mas, o Son-kun e o Kuririn\Nmorreram em Namek, mas...
+Dialogue: Marked=0,0:03:27.37,0:03:32.37,*Default,NTP,0000,0000,0000,!Effect,Namek não existe mais, certo?\NSó tem o vazio do espaço.
+Dialogue: Marked=0,0:03:32.85,0:03:37.88,*Default,NTP,0000,0000,0000,!Effect,Além disso, Kaio-sama parece não\Nter jurisdição na área de Namek.
+Dialogue: Marked=0,0:03:38.94,0:03:40.26,*Default,NTP,0000,0000,0000,!Effect,Não pode ser...
+Dialogue: Marked=0,0:03:46.78,0:03:48.93,*Default,NTP,0000,0000,0000,!Effect,Que tal usar um pouco suas cabeças?
+Dialogue: Marked=0,0:03:51.19,0:03:53.37,*Default,NTP,0000,0000,0000,!Effect,Eu não sei nada sobre almas,
+Dialogue: Marked=0,0:03:53.37,0:03:57.97,*Default,,0000,0000,0000,,mas vocês podem ressuscitá-los depois\Nde trazê-los para a Terra, certo? Provavelmente.
+Dialogue: Marked=0,0:03:58.64,0:04:02.99,*Default,NTP,0000,0000,0000,!Effect,É isso! Isso mesmo que ele falou!\NVocê falou umas coisas boas, não foi?
+Dialogue: Marked=0,0:04:09.23,0:04:10.73,*Default,NTP,0000,0000,0000,!Effect,Muito obrigado!
+Dialogue: Marked=0,0:04:16.50,0:04:17.90,*Default,NTP,0000,0000,0000,!Effect,Não se empolgue!
+Dialogue: Marked=0,0:04:21.23,0:04:26.14,P!,NTP,0000,0000,0000,!Effect,Tudo o que eu quero é ver a força de Super Saiya-jin do Kakarotto por mim mesmo.
+Dialogue: Marked=0,0:04:26.14,0:04:29.77,P!,,0000,0000,0000,,E, então, algum dia, eu irei\Nderrotá-lo! Com certeza!
+Dialogue: Marked=0,0:04:30.30,0:04:33.19,*Default,NTP,0000,0000,0000,!Effect,Com licença, senhora da Terra.
+Dialogue: Marked=0,0:04:33.70,0:04:37.46,*Default,NTP,0000,0000,0000,!Effect,Assim que as Dragon Balls estiverem utilizáveis,
+Dialogue: Marked=0,0:04:37.46,0:04:41.46,*Default,NTP,0000,0000,0000,!Effect,pretendemos localizar um planeta útil e nos mudar.
+Dialogue: Marked=0,0:04:41.46,0:04:46.78,*Default,NTP,0000,0000,0000,!Effect,Você poderia nos dizer um bom\Nlugar em que possamos ficar até lá?
+Dialogue: Marked=0,0:04:46.78,0:04:51.06,*Default,NTP,0000,0000,0000,!Effect,É, né...\NNesse caso, vocês podem viver na minha casa!
+Dialogue: Marked=0,0:04:51.06,0:04:53.12,*Default,NTP,0000,0000,0000,!Effect,Tem certeza de que não tem problema?
+Dialogue: Marked=0,0:04:53.12,0:04:55.15,*Default,NTP,0000,0000,0000,!Effect,É muito grande! Não se preocupe!
+Dialogue: Marked=0,0:04:55.15,0:04:59.59,*Default,,0000,0000,0000,,Além disso, nós gostaríamos de incomodá-los\Npara usar as Dragon Balls mais um pouco.
+Dialogue: Marked=0,0:05:01.27,0:05:03.12,*Default,NTP,0000,0000,0000,!Effect,Deixe!
+Dialogue: Marked=0,0:05:03.84,0:05:05.15,*Default,NTP,0000,0000,0000,!Effect,Hein, Dende-kun?
+Dialogue: Marked=0,0:05:05.15,0:05:06.65,*Default,,0000,0000,0000,,S-Sim...
+Dialogue: Marked=0,0:05:06.65,0:05:11.35,*Default,NTP,0000,0000,0000,!Effect,Com tantos de vocês aqui, se forem descobertos por alguém, vão ter grandes problemas!
+Dialogue: Marked=0,0:05:12.06,0:05:15.73,*Default,NTP,0000,0000,0000,!Effect,É mesmo.\NNós aceitamos sua ajuda.
+Dialogue: Marked=0,0:05:16.57,0:05:18.86,*Default,NTP,0000,0000,0000,!Effect,Ahn... Vegeta-kun, não é?
+Dialogue: Marked=0,0:05:20.48,0:05:22.11,*Default,NTP,0000,0000,0000,!Effect,Vegeta-kun?!
+Dialogue: Marked=0,0:05:22.55,0:05:25.61,*Default,NTP,0000,0000,0000,!Effect,Por que você não vem também?\NAfinal, você não tem dinheiro, tem?
+Dialogue: Marked=0,0:05:27.18,0:05:32.87,*Default,NTP,0000,0000,0000,!Effect,Vou dar muita comida! Você deve ser\Ncomo o Son-kun e comer bastante, aposto!
+Dialogue: Marked=0,0:05:33.50,0:05:38.42,*Default,NTP,0000,0000,0000,!Effect,Mas, não importa o quão atraente\Nvocê pense que sou, não pode fazer nada ruim!
+Dialogue: Marked=0,0:05:39.02,0:05:43.42,*Default,NTP,0000,0000,0000,!Effect,Q-Que mulher vulgar!\NFalar isso com uma voz tão alta!
+Dialogue: Marked=0,0:05:44.18,0:05:46.89,*Default,NTP,0000,0000,0000,!Effect,Então, pessoal, esperem um momento.
+Dialogue: Marked=0,0:05:46.89,0:05:50.26,*Default,,0000,0000,0000,,Vou procurar um telefone e\Npedir para o meu pai vir nos buscar.
+Dialogue: Marked=0,0:05:50.26,0:05:56.70,*Default,NTP,0000,0000,0000,!Effect,Ei, Bulma-san...\NPosso ficar na sua casa também, Bulma-san?
+Dialogue: Marked=0,0:05:56.70,0:05:59.22,*Default,NTP,0000,0000,0000,!Effect,Gohan-kun, você tem uma casa, não tem?
+Dialogue: Marked=0,0:05:59.22,0:06:02.96,*Default,,0000,0000,0000,,Você deve ir para casa!\NSua mãe deve estar preocupada!
+Dialogue: Marked=0,0:06:04.22,0:06:05.78,*Default,NTP,0000,0000,0000,!Effect,Mas é que...
+Dialogue: Marked=0,0:06:06.45,0:06:11.78,*Default,,0000,0000,0000,,Eu esqueci de fazer meu dever de casa\Ne minha mãe vai ficar nervosa comigo...
+Dialogue: Marked=0,0:06:25.65,0:06:29.13,Radio,NTP,0000,0000,0000,!Effect,Desta vez, os reparos da nave\Nestão prontos com certeza.
+Dialogue: Marked=0,0:06:29.98,0:06:35.14,Radio,NTP,0000,0000,0000,!Effect,Vão chegar em Namek em\Ncinco dias. Estão prontos?
+Dialogue: Marked=0,0:06:39.75,0:06:43.58,*Default,NTP,0000,0000,0000,!Effect,Gohan, espere! Sua mãe está indo salvá-lo!
+Dialogue: Marked=0,0:06:43.58,0:06:45.82,Radio,NTP,0000,0000,0000,!Effect,Vamos à contagem regressiva.
+Dialogue: Marked=0,0:06:45.82,0:06:50.32,Radio,NTP,0000,0000,0000,!Effect,4... 3... 2... 1...
+Dialogue: Marked=0,0:06:52.18,0:06:53.36,Radio,NTP,0000,0000,0000,!Effect,Ah, é mesmo.
+Dialogue: Marked=0,0:06:53.36,0:06:58.66,Radio,,0000,0000,0000,,Há pouco eu recebi uma ligação da Bulma. Ela disse que todo mundo já voltou para a Terra.
+Dialogue: Marked=0,0:07:00.31,0:07:03.34,Radio,NTP,0000,0000,0000,!Effect,Vocês querem ir mesmo assim?
+Dialogue: Marked=0,0:07:12.83,0:07:15.36,*Default,NTP,0000,0000,0000,!Effect,Você não pode fazer isso ir mais rápido?
+Dialogue: Marked=0,0:07:15.36,0:07:17.52,*Default,,0000,0000,0000,,J-Já está rápido...
+Dialogue: Marked=0,0:07:18.64,0:07:24.06,*Default,NTP,0000,0000,0000,!Effect,Ele chegou! Chegou! Aqui, aqui, aqui, aqui!
+Dialogue: Marked=0,0:07:34.35,0:07:35.74,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:07:37.93,0:07:39.75,*Default,NTP,0000,0000,0000,!Effect,Onde ele está?! Gohan-chan?!
+Dialogue: Marked=0,0:07:42.94,0:07:43.50,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:07:47.79,0:07:49.59,*Default,NTP,0000,0000,0000,!Effect,Mãe, voltei...
+Dialogue: Marked=0,0:07:50.07,0:07:57.01,Narrador,NTP,0000,0000,0000,!Effect,E então, os Namekusei-jins foram levados para a Capsule Corporation, que é do pai da Bulma.
+Dialogue: Marked=0,0:07:57.68,0:08:01.23,*Default,NTP,0000,0000,0000,!Effect,Aqui é a minha casa. O que vocês acham?\NÉ um lugar bonito, não é?
+Dialogue: Marked=0,0:08:03.31,0:08:07.94,*Default,NTP,0000,0000,0000,!Effect,Nossa, nossa! Que bom você ter vindo!\NEste cavalheiro é seu namorado, Bulma?
+Dialogue: Marked=0,0:08:07.94,0:08:10.65,*Default,,0000,0000,0000,,Que homem bonito e tão na moda!
+Dialogue: Marked=0,0:08:11.22,0:08:13.15,*Default,NTP,0000,0000,0000,!Effect,N-Na moda?
+Dialogue: Marked=0,0:08:15.14,0:08:16.00,*Default,NTP,0000,0000,0000,!Effect,Aquilo é...
+Dialogue: Marked=0,0:08:20.14,0:08:24.94,*Default,NTP,0000,0000,0000,!Effect,Essa é a nave que eu consertei.\NJá foi a quarta vez, está perfeita.
+Dialogue: Marked=0,0:08:24.94,0:08:27.54,*Default,NTP,0000,0000,0000,!Effect,Mas eu ainda não decidi onde\Ncolocar as caixas de som.
+Dialogue: Marked=0,0:08:33.17,0:08:36.27,*Default,NTP,0000,0000,0000,!Effect,Entendi. É a nave em que Kakarotto veio.
+Dialogue: Marked=0,0:08:37.99,0:08:43.73,Radio,NTP,0000,0000,0000,!Effect,Vegeta-san! Eu preparei algo gelado.\NVenha beber com todo mundo!
+Dialogue: Marked=0,0:08:44.95,0:08:49.43,Narrador,NTP,0000,0000,0000,!Effect,Depois de tudo, os Namekusei-jins\Nmorariam na casa de Bulma...
+Dialogue: Marked=0,0:08:49.43,0:08:52.08,Narrador,,0000,0000,0000,,até as Dragon Balls ficarem utilizáveis de novo.
+Dialogue: Marked=0,0:09:03.35,0:09:07.35,Narrador,NTP,0000,0000,0000,!Effect,Então, em um piscar de olhos, 130 dias se passaram.
+Dialogue: Marked=0,0:09:22.78,0:09:28.23,*Default,NTP,0000,0000,0000,!Effect,Ahn? As Dragon Balls de Namek podem\Nser usadas de novo em 130 dias?
+Dialogue: Marked=0,0:09:28.23,0:09:32.15,*Default,NTP,0000,0000,0000,!Effect,Isso. Em Namek, um ano tem 130 dias.
+Dialogue: Marked=0,0:09:33.05,0:09:36.66,*Default,NTP,0000,0000,0000,!Effect,Comparando com a Terra, é um terço! Não é legal?
+Dialogue: Marked=0,0:09:36.66,0:09:39.16,*Default,,0000,0000,0000,,Vamos fazer nossos desejos ao\NSuper Shen-Long-san agora mesmo!
+Dialogue: Marked=0,0:09:39.77,0:09:43.69,*Default,NTP,0000,0000,0000,!Effect,E-Esperem um pouco!\NGohan e sua mãe ainda não estão aqui...
+Dialogue: Marked=0,0:09:43.69,0:09:46.17,*Default,NTP,0000,0000,0000,!Effect,Ei, esperem um pouco!
+Dialogue: Marked=0,0:09:46.72,0:09:47.92,*Default,NTP,0000,0000,0000,!Effect,Ei, Gohan!
+Dialogue: Marked=0,0:09:48.66,0:09:51.90,*Default,NTP,0000,0000,0000,!Effect,Desculpem! Minhas aulas\Nparticulares foram até mais tarde!
+Dialogue: Marked=0,0:09:51.90,0:09:54.92,*Default,NTP,0000,0000,0000,!Effect,Você está tendo aulas\Nparticulares de novo? Que chato!
+Dialogue: Marked=0,0:09:55.53,0:10:01.43,*Default,NTP,0000,0000,0000,!Effect,Eu quero que o meu Gohan-chan\Nestude muito e vire um grande sábio!
+Dialogue: Marked=0,0:10:02.54,0:10:05.05,*Default,NTP,0000,0000,0000,!Effect,Bem, nós estamos para começar!
+Dialogue: Marked=0,0:10:05.05,0:10:06.77,*Default,NTP,0000,0000,0000,!Effect,Então, Dende-kun, por favor.
+Dialogue: Marked=0,0:10:07.14,0:10:07.87,*Default,,0000,0000,0000,,Tá!
+Dialogue: Marked=0,0:10:10.64,0:10:14.46,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+
+Dialogue: Marked=0,0:10:57.07,0:11:01.29,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:10:57.07,0:11:01.29,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:10:57.07,0:11:01.29,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:10:57.07,0:11:01.29,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:04.24,0:11:06.46,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:04.24,0:11:06.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:04.24,0:11:06.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:04.24,0:11:06.46,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:19.67,0:11:21.30,*Default,NTP,0000,0000,0000,!Effect,Esse é o verdadeiro Shen-Long?
+Dialogue: Marked=0,0:11:21.77,0:11:24.18,*Default,NTP,0000,0000,0000,!Effect,Nossa, é incrível!
+Dialogue: Marked=0,0:11:24.18,0:11:25.97,*Default,,0000,0000,0000,,É mesmo!
+Dialogue: Marked=0,0:11:26.94,0:11:28.61,*Default,NTP,0000,0000,0000,!Effect,Ficou escuro de repente!
+Dialogue: Marked=0,0:11:28.61,0:11:30.03,*Default,,0000,0000,0000,,O que está acontecendo?
+Dialogue: Marked=0,0:11:34.38,0:11:35.40,*Default,NTP,0000,0000,0000,!Effect,O que é aquilo?!
+Dialogue: Marked=0,0:11:41.71,0:11:43.20,*Default,NTP,0000,0000,0000,!Effect,É um monstro!
+Dialogue: Marked=0,0:11:43.62,0:11:47.92,*Default,NTP,0000,0000,0000,!Effect,Espere, espere! Está vindo da\NCapsule Corporation do Brief-sama!
+Dialogue: Marked=0,0:11:47.92,0:11:50.31,*Default,,0000,0000,0000,,Deve ser alguma invenção nova!
+Dialogue: Marked=0,0:11:50.31,0:11:52.08,*Default,NTP,0000,0000,0000,!Effect,Ah, será?
+Dialogue: Marked=0,0:12:02.96,0:12:06.55,*Default,NTP,0000,0000,0000,!Effect,Todos vocês, isso é um\Nexperimento da Capsule Corporation!
+Dialogue: Marked=0,0:12:08.21,0:12:10.23,*Default,NTP,0000,0000,0000,!Effect,Por favor, não se preocupem!
+Dialogue: Marked=0,0:12:14.77,0:12:18.57,*Default,NTP,0000,0000,0000,!Effect,- Que surpresa!\N- Que bom.
+Dialogue: Marked=0,0:12:20.56,0:12:29.49,*Default,NTP,0000,0000,0000,!Effect,Concedo três desejos àquele\Nque reuniu as sete Dragon Balls.
+Dialogue: Marked=0,0:12:29.99,0:12:34.01,*Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores da Terra, não há\Nproblema pra gente se vocês usarem dessa vez.
+Dialogue: Marked=0,0:12:34.01,0:12:37.50,*Default,,0000,0000,0000,,Podem realizar seus próprios desejos!
+Dialogue: Marked=0,0:12:37.92,0:12:40.51,*Default,NTP,0000,0000,0000,!Effect,Muito obrigado, Grande Patriarca!
+Dialogue: Marked=0,0:12:41.52,0:12:43.13,*Default,NTP,0000,0000,0000,!Effect,Nesse caso, vou fazer os pedidos.
+Dialogue: Marked=0,0:12:43.13,0:12:48.47,*Default,,0000,0000,0000,,Primeiro, por favor, traga as almas de Son Goku e Kuririn, que morreram em Namek, para cá!
+Dialogue: Marked=0,0:12:49.10,0:12:53.43,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+Dialogue: Marked=0,0:12:54.01,0:12:57.01,*Default,NTP,0000,0000,0000,!Effect,Entendi. Vou tentar.
+Dialogue: Marked=0,0:13:04.53,0:13:08.49,*Default,NTP,0000,0000,0000,!Effect,Trouxe a alma de alguém com\No nome de Kuririn para cá.
+Dialogue: Marked=0,0:13:10.55,0:13:15.12,*Default,NTP,0000,0000,0000,!Effect,Mas não posso trazer a alma\Ndo homem chamado Son Goku.
+Dialogue: Marked=0,0:13:16.66,0:13:18.92,*Default,NTP,0000,0000,0000,!Effect,N-Não pode ser! Por que não?!
+Dialogue: Marked=0,0:13:19.54,0:13:25.43,*Default,NTP,0000,0000,0000,!Effect,Como Son Goku está vivo,\Nnão posso trazer só seu espírito.
+Dialogue: Marked=0,0:13:29.75,0:13:31.01,*Default,NTP,0000,0000,0000,!Effect,Vivo?
+Dialogue: Marked=0,0:13:31.96,0:13:33.98,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:13:34.51,0:13:36.98,*Default,NTP,0000,0000,0000,!Effect,Não pode ser... Como ele...
+Dialogue: Marked=0,0:13:39.66,0:13:41.22,*Default,NTP,0000,0000,0000,!Effect,Que bom!
+Dialogue: Marked=0,0:13:43.30,0:13:47.22,*Default,NTP,0000,0000,0000,!Effect,Se ele está vivo, por que será que não voltou?
+Dialogue: Marked=0,0:13:48.02,0:13:51.03,*Default,NTP,0000,0000,0000,!Effect,A nave dele provavelmente deve\Nestar quebrada ou alguma coisa assim.
+Dialogue: Marked=0,0:13:51.59,0:13:55.91,*Default,NTP,0000,0000,0000,!Effect,Bem, sendo assim, vocês podem\Npedir para o Shen-Long trazê-lo para cá!
+Dialogue: Marked=0,0:13:57.70,0:14:02.21,*Default,NTP,0000,0000,0000,!Effect,Acho que sim, né?\NCerto, agora o segundo desejo!
+Dialogue: Marked=0,0:14:03.35,0:14:06.32,*Default,NTP,0000,0000,0000,!Effect,Por favor, traga o Kuririn de volta à vida!
+Dialogue: Marked=0,0:14:06.32,0:14:07.72,*Default,,0000,0000,0000,,Vai! Vai! Vai!
+Dialogue: Marked=0,0:14:08.26,0:14:12.69,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+Dialogue: Marked=0,0:14:27.49,0:14:28.26,*Default,NTP,0000,0000,0000,!Effect,Ahn?
+Dialogue: Marked=0,0:14:29.75,0:14:31.27,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:14:32.32,0:14:35.12,*Default,NTP,0000,0000,0000,!Effect,É isso! Eu ressuscitei!
+Dialogue: Marked=0,0:14:35.26,0:14:36.56,*Default,NTP,0000,0000,0000,!Effect,Legal!
+Dialogue: Marked=0,0:14:38.39,0:14:44.30,*Default,NTP,0000,0000,0000,!Effect,Eu refiz seu corpo que estava\Naos pedaços como um favor.
+Dialogue: Marked=0,0:14:44.93,0:14:48.30,*Default,NTP,0000,0000,0000,!Effect,Você pode ter uma cara\Nassustadora, mas trabalha bem!
+Dialogue: Marked=0,0:14:50.61,0:14:52.85,*Default,NTP,0000,0000,0000,!Effect,E, agora, o último...
+Dialogue: Marked=0,0:14:53.67,0:14:56.35,*Default,NTP,0000,0000,0000,!Effect,Traga Son-kun para cá!
+Dialogue: Marked=0,0:14:56.80,0:14:58.81,*Default,,0000,0000,0000,,Legal!
+Dialogue: Marked=0,0:14:59.19,0:15:03.62,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+Dialogue: Marked=0,0:15:18.56,0:15:19.87,*Default,NTP,0000,0000,0000,!Effect,Goku-san!
+Dialogue: Marked=0,0:15:21.29,0:15:23.30,*Default,NTP,0000,0000,0000,!Effect,Não adianta.
+Dialogue: Marked=0,0:15:24.34,0:15:25.59,*Default,,0000,0000,0000,,Foi recusado.
+Dialogue: Marked=0,0:15:30.16,0:15:36.27,*Default,NTP,0000,0000,0000,!Effect,Este homem chamado Son disse\Nque vai voltar em breve por conta própria.
+Dialogue: Marked=0,0:15:37.05,0:15:39.57,*Default,NTP,0000,0000,0000,!Effect,R-Recusou? Por quê?
+Dialogue: Marked=0,0:15:39.57,0:15:43.33,*Default,NTP,0000,0000,0000,!Effect,Eu sei! Ele está com medo da esposa dele!
+Dialogue: Marked=0,0:15:43.33,0:15:48.07,*Default,,0000,0000,0000,,Então a mais forte do universo é a\Nesposa do Super Saiya-jin Son Goku?!
+Dialogue: Marked=0,0:15:50.31,0:15:53.70,*Default,NTP,0000,0000,0000,!Effect,P-Piada! Foi uma piada!
+Dialogue: Marked=0,0:15:54.40,0:15:57.58,*Default,NTP,0000,0000,0000,!Effect,M-Meu pai não vai voltar?
+Dialogue: Marked=0,0:15:57.58,0:16:00.71,*Default,NTP,0000,0000,0000,!Effect,Ele disse que vai voltar sozinho em breve.
+Dialogue: Marked=0,0:16:01.15,0:16:03.33,*Default,,0000,0000,0000,,Com certeza ele vai voltar.
+Dialogue: Marked=0,0:16:03.90,0:16:10.19,P!,NTP,0000,0000,0000,!Effect,Entendi! Ele foi para outro planeta,\Npretendendo treinar e ficar ainda mais forte!
+Dialogue: Marked=0,0:16:10.85,0:16:13.34,P!,NTP,0000,0000,0000,!Effect,Eu não posso ficar em um\Nlugar desses pegando leve!
+Dialogue: Marked=0,0:16:34.77,0:16:36.66,*Default,NTP,0000,0000,0000,!Effect,Nossa, nossa, nossa, nossa, nossa, nossa!
+Dialogue: Marked=0,0:16:38.17,0:16:39.71,*Default,NTP,0000,0000,0000,!Effect,Não se preocupem!
+Dialogue: Marked=0,0:16:40.16,0:16:45.50,*Default,NTP,0000,0000,0000,!Effect,Vamos continuar. Ao invés de Son, peça para ressuscitar um dos que estão com Kaio.
+Dialogue: Marked=0,0:16:45.99,0:16:46.95,*Default,NTP,0000,0000,0000,!Effect,Tá.
+Dialogue: Marked=0,0:16:48.25,0:16:50.01,*Default,NTP,0000,0000,0000,!Effect,Quem eu devo pedir primeiro?
+Dialogue: Marked=0,0:16:52.23,0:16:55.80,*Default,NTP,0000,0000,0000,!Effect,Eles estão dizendo que querem ressuscitar um de vocês.
+Dialogue: Marked=0,0:16:56.79,0:16:57.26,*Default,NTP,0000,0000,0000,!Effect,O que vamos fazer?
+Dialogue: Marked=0,0:16:58.13,0:17:00.68,*Default,NTP,0000,0000,0000,!Effect,Eu quero continuar treinando\Naqui mais um pouco.
+Dialogue: Marked=0,0:17:01.87,0:17:04.52,*Default,NTP,0000,0000,0000,!Effect,E-Eu quero ficar com o Ten-san.
+Dialogue: Marked=0,0:17:05.10,0:17:07.65,*Default,NTP,0000,0000,0000,!Effect,Então, Yamcha, você pode ir.
+Dialogue: Marked=0,0:17:11.14,0:17:13.03,*Default,NTP,0000,0000,0000,!Effect,Eu primeiro? Desculpem.
+Dialogue: Marked=0,0:17:13.37,0:17:15.03,*Default,NTP,0000,0000,0000,!Effect,Certo, então...
+Dialogue: Marked=0,0:17:16.02,0:17:22.22,Radio2,,0000,0000,0000,,Bulma! Bulma! Bulma, sou eu. Você sabe quem?
+Dialogue: Marked=0,0:17:23.01,0:17:24.47,*Default,NTP,0000,0000,0000,!Effect,Kaio-sama?
+Dialogue: Marked=0,0:17:24.47,0:17:30.31,Radio2,NTP,0000,0000,0000,!Effect,Tenshinhan e Chaos vão ficar aqui\Nmais um pouco. Ressuscite Yamcha, por favor.
+Dialogue: Marked=0,0:17:30.95,0:17:33.29,*Default,NTP,0000,0000,0000,!Effect,Yamcha, não é? Tá!
+Dialogue: Marked=0,0:17:33.29,0:17:38.01,*Default,NTP,0000,0000,0000,!Effect,Agora, o terceiro desejo, por favor!\NRessuscite o Yamcha!
+Dialogue: Marked=0,0:17:38.46,0:17:41.52,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+Dialogue: Marked=0,0:17:41.79,0:17:43.90,*Default,NTP,0000,0000,0000,!Effect,Muito bem, entendido!
+Dialogue: Marked=0,0:17:51.50,0:17:55.06,*Default,NTP,0000,0000,0000,!Effect,Ressuscitei o homem chamado Yamcha.
+Dialogue: Marked=0,0:17:55.98,0:18:00.24,*Default,NTP,0000,0000,0000,!Effect,O-Onde? Onde? Onde?!
+Dialogue: Marked=0,0:18:01.52,0:18:05.66,*Default,NTP,0000,0000,0000,!Effect,Realizei todos os seus desejos. Adeus.
+Dialogue: Marked=0,0:18:06.22,0:18:07.68,*Default,NTP,0000,0000,0000,!Effect,E-Espere um pouco!
+Dialogue: Marked=0,0:18:29.97,0:18:33.92,*Default,NTP,0000,0000,0000,!Effect,Ele se foi! Onde está o Yamcha?!
+Dialogue: Marked=0,0:18:33.92,0:18:35.51,*Default,NTP,0000,0000,0000,!Effect,A-Aqui!
+Dialogue: Marked=0,0:18:44.87,0:18:47.11,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama!
+Dialogue: Marked=0,0:18:47.11,0:18:50.08,*Default,NTP,0000,0000,0000,!Effect,- Yamcha-sama! Yamcha-sama!
+Dialogue: Marked=0,0:18:48.72,0:18:50.08,*Default,,0000,0000,0000,,- Pual!
+Dialogue: Marked=0,0:18:50.08,0:18:51.41,*Default,NTP,0000,0000,0000,!Effect,Yamcha!
+Dialogue: Marked=0,0:18:55.67,0:18:59.59,*Default,NTP,0000,0000,0000,!Effect,Já que iam me ressuscitar de qualquer jeito, queria que tivessem escolhido um lugar melhor.
+Dialogue: Marked=0,0:19:08.88,0:19:12.85,Narrador,NTP,0000,0000,0000,!Effect,E, novamente, outros 130 dias se passaram.
+Dialogue: Marked=0,0:19:16.50,0:19:19.28,Narrador,NTP,0000,0000,0000,!Effect,Com o primeiro desejo, Chaos...
+Dialogue: Marked=0,0:19:24.57,0:19:28.40,Narrador,NTP,0000,0000,0000,!Effect,E com o segundo desejo, Tenshinhan, foram ressuscitados.
+Dialogue: Marked=0,0:19:35.59,0:19:36.46,*Default,NTP,0000,0000,0000,!Effect,Ten-san...
+Dialogue: Marked=0,0:19:41.60,0:19:44.77,*Default,NTP,0000,0000,0000,!Effect,- Ten-san! Ten-san!
+Dialogue: Marked=0,0:19:43.57,0:19:44.77,*Default,NTP,0000,0000,0000,!Effect,- Chaos!
+Dialogue: Marked=0,0:19:52.30,0:19:53.46,Narrador,NTP,0000,0000,0000,!Effect,E...
+Dialogue: Marked=0,0:19:55.45,0:19:59.25,*Default,NTP,0000,0000,0000,!Effect,Ah, Dende, já é hora de irmos.
+Dialogue: Marked=0,0:20:00.14,0:20:00.82,*Default,,0000,0000,0000,,Certo.
+Dialogue: Marked=0,0:20:01.22,0:20:04.48,*Default,NTP,0000,0000,0000,!Effect,Pessoal, muito obrigado!
+Dialogue: Marked=0,0:20:09.12,0:20:11.50,*Default,NTP,0000,0000,0000,!Effect,C-Cuidem-se.
+Dialogue: Marked=0,0:20:11.89,0:20:16.13,*Default,NTP,0000,0000,0000,!Effect,Gohan-san, adeus. Foi muito divertido!
+Dialogue: Marked=0,0:20:24.00,0:20:25.05,*Default,NTP,0000,0000,0000,!Effect,Dende...
+Dialogue: Marked=0,0:20:28.65,0:20:29.67,*Default,NTP,0000,0000,0000,!Effect,Dende...
+Dialogue: Marked=0,0:20:31.61,0:20:33.81,N!,,0000,0000,0000,,{\fad(100,100)}Idioma de Namek
+Dialogue: Marked=0,0:20:34.40,0:20:37.65,*Default,NTP,0000,0000,0000,!Effect,Vou realizar esse desejo!
+Dialogue: Marked=0,0:20:57.94,0:20:59.42,*Default,NTP,0000,0000,0000,!Effect,Adeus.
+Dialogue: Marked=0,0:21:00.67,0:21:02.13,*Default,,0000,0000,0000,,Adeus.
+Dialogue: Marked=0,0:21:05.54,0:21:07.45,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,1000)}Adeus!
+Dialogue: Marked=0,0:21:18.75,0:21:19.95,*Default,NTP,0000,0000,0000,!Effect,Adeus!
+Dialogue: Marked=0,0:21:30.56,0:21:36.99,Narrador,NTP,0000,0000,0000,!Effect,Com o terceiro desejo,\Nos Namekusei-jins foram para outro planeta.
+Dialogue: Marked=0,0:21:56.09,0:21:57.77,*Default,NTP,0000,0000,0000,!Effect,Vejamos...
+Dialogue: Marked=0,0:22:21.68,0:22:26.26,Narrador,NTP,0000,0000,0000,!Effect,Depois disso, a Terra ficou\Nem paz por pouco tempo.
+Dialogue: Marked=0,0:22:27.09,0:22:27.99,Narrador,NTP,0000,0000,0000,!Effect,Mas...

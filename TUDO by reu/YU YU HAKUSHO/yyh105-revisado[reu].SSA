@@ -1,0 +1,383 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: Radio2,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,2,30,30,20,0,0
+Style: Radio3,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,1,1,2,1,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: LP!,Souvenir Lt BT,40,16777215,12632256,16711680,10485760,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,Arial Black,36,16777215,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,&H0000FFFF,8454143,3815994,&HFF110066,1,0,1,3,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,&HFF110066,8454143,3815994,&HFF110066,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA3,Arial,40,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:29.53,0:01:31.69,Narrador,NTP,0000,0000,0000,!Effect,Faz 100 dias desde que as nações se dissolveram.
+Dialogue: Marked=0,0:01:31.69,0:01:37.98,Narrador,NTP,0000,0000,0000,!Effect,{\fscx98\fscy98}Seguindo a proposta de Yusuke, está para começar a grande batalha pela coroa do Makai.
+Dialogue: Marked=0,0:01:37.98,0:01:41.21,Narrador,NTP,0000,0000,0000,!Effect,Há 6272 participantes no torneio.
+Dialogue: Marked=0,0:01:41.21,0:01:45.25,Narrador,NTP,0000,0000,0000,!Effect,Em um piscar de olhos, parecia que\Nmilhões de expectadores haviam se reunido.
+Dialogue: Marked=0,0:01:45.25,0:01:48.71,Narrador,NTP,0000,0000,0000,!Effect,Todos pensavam que o\Nganhador seria Yomi ou Mukuro.
+Dialogue: Marked=0,0:01:48.71,0:01:51.98,Narrador,NTP,0000,0000,0000,!Effect,{\fscx98\fscy98}Mesmo que assim eles acreditassem, uma excitação peculiar e um pouco de expectativa...
+Dialogue: Marked=0,0:01:51.98,0:01:54.03,Narrador,NTP,0000,0000,0000,!Effect,tomaram conta de todo o Makai.
+
+Dialogue: Marked=0,0:01:54.11,0:02:00.00,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 105
+Dialogue: Marked=0,0:01:54.11,0:02:00.00,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(295,410)}{\fscx83\fscy130}Grande batalha no Makai .
+Dialogue: Marked=0,0:01:54.11,0:02:00.00,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(500,485)}{\fscx90\fscy130}O início das preliminares!
+
+Dialogue: Marked=0,0:02:00.59,0:02:03.76,Radio,NTP,0000,0000,0000,!Effect,O sorteio para as preliminares começará em vinte minutos.
+Dialogue: Marked=0,0:02:03.76,0:02:07.93,Radio,NTP,0000,0000,0000,!Effect,Participantes do torneio, por favor,\Nreúnam-se imediatamente na arena.
+Dialogue: Marked=0,0:02:07.93,0:02:09.44,Radio,NTP,0000,0000,0000,!Effect,Repetindo.
+Dialogue: Marked=0,0:02:09.44,0:02:12.94,Radio,NTP,0000,0000,0000,!Effect,O sorteio para as preliminares\Ncomeçará em vinte minutos.
+Dialogue: Marked=0,0:02:12.94,0:02:16.80,Radio,NTP,0000,0000,0000,!Effect,Participantes do torneio, por favor,\Nreúnam-se imediatamente na arena.
+Dialogue: Marked=0,0:02:15.75,0:02:16.80,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:02:17.08,0:02:19.62,*Default,NTP,0000,0000,0000,!Effect,Aquele é Yusuke Urameshi,
+Dialogue: Marked=0,0:02:19.62,0:02:22.80,*Default,NTP,0000,0000,0000,!Effect,o homem que fez com que Yomi e\NMukuro dissolvessem suas nações.
+Dialogue: Marked=0,0:02:23.28,0:02:25.76,*Default,NTP,0000,0000,0000,!Effect,Não sinto nenhuma grande força vinda dele.
+Dialogue: Marked=0,0:02:25.76,0:02:29.31,*Default,NTP,0000,0000,0000,!Effect,Por que Yomi e Mukuro cairiam na lábia dele?
+Dialogue: Marked=0,0:02:29.49,0:02:32.81,*Default,NTP,0000,0000,0000,!Effect,Bem, aqui não importa o processo.\NO que importa é o resultado.
+Dialogue: Marked=0,0:02:33.32,0:02:38.82,*Default,NTP,0000,0000,0000,!Effect,Se Yomi e Mukuro se eliminarem no começo das preliminares, todos vamos ter chance.
+Dialogue: Marked=0,0:02:39.23,0:02:42.32,*Default,NTP,0000,0000,0000,!Effect,Quando isso acontecer, serei o rei do Makai.
+Dialogue: Marked=0,0:02:42.90,0:02:45.20,*Default,NTP,0000,0000,0000,!Effect,Eu que serei o rei do Makai!
+Dialogue: Marked=0,0:02:45.57,0:02:47.08,*Default,NTP,0000,0000,0000,!Effect,Não, serei eu!
+Dialogue: Marked=0,0:02:47.36,0:02:49.62,*Default,NTP,0000,0000,0000,!Effect,Eu!
+Dialogue: Marked=0,0:02:52.32,0:02:53.59,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:02:54.69,0:02:57.63,*Default,NTP,0000,0000,0000,!Effect,Nunca pensei que haveriam tantos idiotas juntos aqui.
+Dialogue: Marked=0,0:02:58.25,0:03:00.34,*Default,NTP,0000,0000,0000,!Effect,Ei, Urameshi!
+Dialogue: Marked=0,0:03:00.72,0:03:02.26,*Default,NTP,0000,0000,0000,!Effect,Finalmente te encontramos!
+Dialogue: Marked=0,0:03:02.92,0:03:03.64,*Default,NTP,0000,0000,0000,!Effect,Ei!
+Dialogue: Marked=0,0:03:07.99,0:03:10.26,*Default,NTP,0000,0000,0000,!Effect,Finalmente esse dia chegou, hein?
+Dialogue: Marked=0,0:03:10.26,0:03:10.77,*Default,NTP,0000,0000,0000,!Effect,É.
+Dialogue: Marked=0,0:03:11.11,0:03:15.11,*Default,NTP,0000,0000,0000,!Effect,Você viu?\NA maioria será eliminada nas preliminares!
+Dialogue: Marked=0,0:03:15.11,0:03:16.28,*Default,NTP,0000,0000,0000,!Effect,É? Sério?
+Dialogue: Marked=0,0:03:16.60,0:03:20.28,*Default,NTP,0000,0000,0000,!Effect,Você é um dos supervisores\Ndo torneio e não sabe de nada?
+Dialogue: Marked=0,0:03:20.94,0:03:23.60,*Default,NTP,0000,0000,0000,!Effect,Eles disseram que os 6272\Nparticipantes serão separados...
+Dialogue: Marked=0,0:03:23.60,0:03:27.43,*Default,NTP,0000,0000,0000,!Effect,em blocos de 49 para\Nque as preliminares ocorram.
+Dialogue: Marked=0,0:03:27.43,0:03:30.66,*Default,NTP,0000,0000,0000,!Effect,Só uma pessoa por bloco será\Ncapaz de entrar na competição principal.
+Dialogue: Marked=0,0:03:31.11,0:03:34.20,*Default,NTP,0000,0000,0000,!Effect,O que significa que o número\Nde pessoas na competição será...
+Dialogue: Marked=0,0:03:37.22,0:03:39.56,*Default,NTP,0000,0000,0000,!Effect,Em torno de 87?
+Dialogue: Marked=0,0:03:39.56,0:03:41.17,*Default,NTP,0000,0000,0000,!Effect,128.
+Dialogue: Marked=0,0:03:41.89,0:03:42.93,*Default,NTP,0000,0000,0000,!Effect,Ah, sim.
+Dialogue: Marked=0,0:03:43.43,0:03:46.93,*Default,NTP,0000,0000,0000,!Effect,Não vá perder antes de\Nchegar em mim, hein, Urameshi!
+Dialogue: Marked=0,0:03:47.23,0:03:52.44,*Default,NTP,0000,0000,0000,!Effect,Ele tem razão! Nós passamos por um inferno de treinamento só para lutar contra você!
+Dialogue: Marked=0,0:03:52.75,0:03:54.94,*Default,NTP,0000,0000,0000,!Effect,Vou te derrotar desta vez, com certeza!
+Dialogue: Marked=0,0:03:55.39,0:03:59.39,*Default,NTP,0000,0000,0000,!Effect,Ora, ora, não fiquem tão preocupados.\NVitória às vezes tem a ver com sorte.
+Dialogue: Marked=0,0:03:59.39,0:04:00.57,*Default,NTP,0000,0000,0000,!Effect,Vamos relaxar.
+Dialogue: Marked=0,0:04:09.75,0:04:12.63,*Default,NTP,0000,0000,0000,!Effect,Há um grande entusiasmo aqui, hein, Koenma-sama?
+Dialogue: Marked=0,0:04:12.63,0:04:17.98,*Default,NTP,0000,0000,0000,!Effect,É. Esse torneio vai decidir quem\Nmandará no Makai, afinal de contas.
+Dialogue: Marked=0,0:04:17.98,0:04:20.90,*Default,NTP,0000,0000,0000,!Effect,{\fscx95\fscy95}É certo que até aqueles seres desconhecidos que vivem escondidos nas profundezas do Makai...
+Dialogue: Marked=0,0:04:20.90,0:04:25.22,*Default,NTP,0000,0000,0000,!Effect,estão participando para escreverem\Nsuas próprias lendas de conquista.
+Dialogue: Marked=0,0:04:26.12,0:04:28.54,*Default,NTP,0000,0000,0000,!Effect,Mas, onde está o Yusuke?
+Dialogue: Marked=0,0:04:28.54,0:04:29.69,*Default,NTP,0000,0000,0000,!Effect,Vamos ver...
+Dialogue: Marked=0,0:04:34.92,0:04:36.05,*Default,NTP,0000,0000,0000,!Effect,Mukuro!
+Dialogue: Marked=0,0:04:43.56,0:04:44.70,*Default,NTP,0000,0000,0000,!Effect,Yomi!
+Dialogue: Marked=0,0:04:57.58,0:04:58.38,*Default,NTP,0000,0000,0000,!Effect,Ali!
+Dialogue: Marked=0,0:05:01.10,0:05:02.65,*Default,NTP,0000,0000,0000,!Effect,Faz muito tempo.
+Dialogue: Marked=0,0:05:02.65,0:05:03.63,*Default,NTP,0000,0000,0000,!Effect,É.
+Dialogue: Marked=0,0:05:04.04,0:05:07.64,*Default,NTP,0000,0000,0000,!Effect,Parece que você deu uma boa\Nmelhorada desde a última vez que nos vimos.
+Dialogue: Marked=0,0:05:08.66,0:05:11.35,*Default,NTP,0000,0000,0000,!Effect,Mas, vou levar isso a sério, também.
+Dialogue: Marked=0,0:05:22.59,0:05:24.99,*Default,NTP,0000,0000,0000,!Effect,Quer dizer que Mukuro é uma mulher?!
+Dialogue: Marked=0,0:05:24.99,0:05:25.82,*Default,NTP,0000,0000,0000,!Effect,S-Sim...
+Dialogue: Marked=0,0:05:29.30,0:05:32.08,*Default,NTP,0000,0000,0000,!Effect,Não há treinamento melhor que combate.
+Dialogue: Marked=0,0:05:32.08,0:05:35.79,*Default,NTP,0000,0000,0000,!Effect,Antes de lutar de verdade, aumente seu\Npoder até que fique parecido com o meu.
+Dialogue: Marked=0,0:05:38.63,0:05:41.46,*Default,NTP,0000,0000,0000,!Effect,Por fim, não perca para aquele homem ali.
+Dialogue: Marked=0,0:05:43.86,0:05:46.27,*Default,NTP,0000,0000,0000,!Effect,Papai, aquela pessoa era Mukuro?
+Dialogue: Marked=0,0:05:46.27,0:05:47.30,*Default,NTP,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:05:47.82,0:05:52.31,*Default,NTP,0000,0000,0000,!Effect,Ah, esperava alguém mais forte.
+Dialogue: Marked=0,0:05:53.33,0:05:57.70,*Default,NTP,0000,0000,0000,!Effect,Esse é seu filho?\NEi, você aí, vai entrar também?
+Dialogue: Marked=0,0:05:57.70,0:05:59.65,*Default,NTP,0000,0000,0000,!Effect,Não sou "você aí". Sou o Shura.
+Dialogue: Marked=0,0:06:00.08,0:06:04.40,*Default,NTP,0000,0000,0000,!Effect,Shura? Grande nome.\NSó tenha certeza de fazer jus a ele.
+Dialogue: Marked=0,0:06:06.82,0:06:08.78,*Default,NTP,0000,0000,0000,!Effect,Papai, esse cara não é grande coisa.
+Dialogue: Marked=0,0:06:09.65,0:06:12.24,*Default,NTP,0000,0000,0000,!Effect,Ele é tão forte quanto eu agora.
+Dialogue: Marked=0,0:06:12.24,0:06:13.54,*Default,NTP,0000,0000,0000,!Effect,Seu pirralho!
+Dialogue: Marked=0,0:06:15.64,0:06:19.54,*Default,NTP,0000,0000,0000,!Effect,Então, como eu prometi,\Nnós seremos oponentes aqui, papai.
+Dialogue: Marked=0,0:06:19.95,0:06:21.75,*Default,NTP,0000,0000,0000,!Effect,Hein? Ah, certo.
+Dialogue: Marked=0,0:06:22.25,0:06:24.96,*Default,NTP,0000,0000,0000,!Effect,Se nos enfrentarmos, lute\Ncontra mim com tudo o que tiver.
+Dialogue: Marked=0,0:06:24.96,0:06:27.48,*Default,NTP,0000,0000,0000,!Effect,Certo, entendi. Eu prometo.
+Dialogue: Marked=0,0:06:29.57,0:06:32.77,*Default,NTP,0000,0000,0000,!Effect,Se você se segurar contra mim, nunca\Nmais falo com você enquanto estiver vivo!
+Dialogue: Marked=0,0:06:33.71,0:06:35.97,*Default,NTP,0000,0000,0000,!Effect,Que moleque ousado...
+Dialogue: Marked=0,0:06:35.97,0:06:37.43,*Default,NTP,0000,0000,0000,!Effect,Talvez seja.
+Dialogue: Marked=0,0:06:37.98,0:06:41.65,*Default,NTP,0000,0000,0000,!Effect,Mas, quando sinto dificuldade todos\Nos dias ao lutar contra meu filho,
+Dialogue: Marked=0,0:06:41.65,0:06:43.69,*Default,NTP,0000,0000,0000,!Effect,só posso rir de mim mesmo.
+Dialogue: Marked=0,0:06:44.33,0:06:46.99,*Default,NTP,0000,0000,0000,!Effect,Quero dizer: como alguém com\Numa capacidade tão limitada quanto eu...
+Dialogue: Marked=0,0:06:46.99,0:06:49.70,*Default,NTP,0000,0000,0000,!Effect,pode pensar em unificar o Makai?
+Dialogue: Marked=0,0:06:50.14,0:06:52.08,*Default,NTP,0000,0000,0000,!Effect,Naquele dia, quando houve\Naquele grande youki...
+Dialogue: Marked=0,0:06:52.87,0:06:54.93,*Default,NTP,0000,0000,0000,!Effect,Eu abri meus olhos.
+Dialogue: Marked=0,0:06:55.55,0:06:57.94,*Default,NTP,0000,0000,0000,!Effect,Não me importo se você acredita ou não,
+Dialogue: Marked=0,0:06:57.94,0:07:02.21,*Default,NTP,0000,0000,0000,!Effect,mas vou lutar com todo meu poder\Nneste torneio e sem desejar nada.
+Dialogue: Marked=0,0:07:04.16,0:07:05.38,*Default,NTP,0000,0000,0000,!Effect,Desejo-lhe uma boa luta.
+Dialogue: Marked=0,0:07:09.67,0:07:12.00,*Default,NTP,0000,0000,0000,!Effect,Do que será que eles estavam falando?
+Dialogue: Marked=0,0:07:12.00,0:07:13.72,*Default,NTP,0000,0000,0000,!Effect,Não podemos ouvi-los daqui, não é?
+Dialogue: Marked=0,0:07:14.18,0:07:17.00,Radio3,,0000,0000,0000,,Ei, Kurama! E aí?
+Dialogue: Marked=0,0:07:17.00,0:07:18.60,Radio3,,0000,0000,0000,,Hiei, quanto tempo, não?
+Dialogue: Marked=0,0:07:14.79,0:07:17.20,*Default,NTP,0000,0000,0000,!Effect,Quer saber de uma coisa?\NNão tenho a menor idéia...
+Dialogue: Marked=0,0:07:17.20,0:07:23.25,*Default,NTP,0000,0000,0000,!Effect,do que se passava pela cabeça do\NYusuke quando ele inventou este torneio.
+Dialogue: Marked=0,0:07:23.25,0:07:24.28,*Default,NTP,0000,0000,0000,!Effect,Poderia ser...
+Dialogue: Marked=0,0:07:25.84,0:07:27.69,*Default,NTP,0000,0000,0000,!Effect,É do Yusuke que estamos\Nfalando, então, tenho certeza...
+Dialogue: Marked=0,0:07:28.91,0:07:30.95,*Default,NTP,0000,0000,0000,!Effect,de que ele não deve\Nter pensado em nada.
+Dialogue: Marked=0,0:07:33.94,0:07:36.19,*Default,NTP,0000,0000,0000,!Effect,Deve ser isso mesmo.
+Dialogue: Marked=0,0:07:38.06,0:07:40.87,*Default,NTP,0000,0000,0000,!Effect,Kurama, essa vai ser a primeira vez\Nque vamos lutar um contra o outro,
+Dialogue: Marked=0,0:07:40.87,0:07:42.93,*Default,NTP,0000,0000,0000,!Effect,e, Hiei, faz um bom tempo\Ndesde a nossa luta, hein?
+Dialogue: Marked=0,0:07:44.00,0:07:47.57,*Default,NTP,0000,0000,0000,!Effect,Reze para não cair comigo nas preliminares.
+Dialogue: Marked=0,0:07:47.57,0:07:51.63,*Default,NTP,0000,0000,0000,!Effect,Não seria legal se um dos chefes\Ndo torneio fosse eliminado nas preliminares.
+Dialogue: Marked=0,0:07:52.42,0:07:56.06,*Default,NTP,0000,0000,0000,!Effect,Você continua o mesmo desgraçado\Nde sempre, não é? Já comeu?!
+Dialogue: Marked=0,0:07:56.06,0:07:59.02,*Default,NTP,0000,0000,0000,!Effect,O que isso tem a ver agora?
+Dialogue: Marked=0,0:07:59.02,0:08:03.24,*Default,NTP,0000,0000,0000,!Effect,Ai, ai, Yusuke, você quer dizer que\Nnão pode lutar de barriga vazia, certo?
+Dialogue: Marked=0,0:08:03.24,0:08:04.15,*Default,NTP,0000,0000,0000,!Effect,É!
+Dialogue: Marked=0,0:08:05.70,0:08:08.93,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,300)}Muito bem.\NEntão vamos começar o sorteio...
+Dialogue: Marked=0,0:08:08.93,0:08:11.74,*Default,NTP,0000,0000,0000,!Effect,{\fad(300,300)}para as preliminares do\NTorneio de Unificação do Makai!
+Dialogue: Marked=0,0:08:17.24,0:08:23.87,*Default,NTP,0000,0000,0000,!Effect,Nossa narradora será a famosa\Nmestre-de-cerimônias do Torneio das Trevas!
+Dialogue: Marked=0,0:08:34.19,0:08:37.68,*Default,NTP,0000,0000,0000,!Effect,Senhoras e senhores, sinto\Nmuito por fazê-los esperar tanto!
+Dialogue: Marked=0,0:08:37.68,0:08:39.68,*Default,NTP,0000,0000,0000,!Effect,A melhor usuária de microfones do Makai,
+Dialogue: Marked=0,0:08:39.68,0:08:44.60,*Default,NTP,0000,0000,0000,!Effect,Koto, com sua entusiástica performance, voltou!
+Dialogue: Marked=0,0:08:45.54,0:08:48.52,*Default,NTP,0000,0000,0000,!Effect,A narração do Torneio de Unificação do Makai...
+Dialogue: Marked=0,0:08:49.81,0:08:52.61,*Default,NTP,0000,0000,0000,!Effect,será feita por Koto!
+Dialogue: Marked=0,0:08:52.99,0:08:55.57,*Default,NTP,0000,0000,0000,!Effect,Isso aí, Koto!
+Dialogue: Marked=0,0:08:55.95,0:08:59.19,*Default,NTP,0000,0000,0000,!Effect,Meu coração se enche de honra e ansiedade...
+Dialogue: Marked=0,0:08:59.19,0:09:02.50,*Default,NTP,0000,0000,0000,!Effect,por ter sido escolhida\Npara esta importante tarefa.
+Dialogue: Marked=0,0:09:02.59,0:09:05.22,*Default,NTP,0000,0000,0000,!Effect,Vou dar o melhor de mim!
+Dialogue: Marked=0,0:09:05.22,0:09:07.79,*Default,NTP,0000,0000,0000,!Effect,E o comentarista vai ser... Ahn?
+Dialogue: Marked=0,0:09:08.94,0:09:10.10,*Default,NTP,0000,0000,0000,!Effect,Bem, obrigado...
+Dialogue: Marked=0,0:09:10.10,0:09:11.26,*Default,NTP,0000,0000,0000,!Effect,Você...
+Dialogue: Marked=0,0:09:11.73,0:09:13.56,*Default,NTP,0000,0000,0000,!Effect,Jorge Watanabe-san!
+Dialogue: Marked=0,0:09:13.56,0:09:17.41,*Default,NTP,0000,0000,0000,!Effect,Jorge Saotome. Odeio quando isso acontece.
+Dialogue: Marked=0,0:09:17.41,0:09:21.29,*Default,NTP,0000,0000,0000,!Effect,Mas, mesmo assim, meu\Nsangue ferve por eventos desse...
+Dialogue: Marked=0,0:09:24.44,0:09:27.02,*Default,NTP,0000,0000,0000,!Effect,Jorge!
+Dialogue: Marked=0,0:09:27.40,0:09:28.98,P!,NTP,0000,0000,0000,!Effect,Que medo...
+Dialogue: Marked=0,0:09:29.51,0:09:33.84,*Default,NTP,0000,0000,0000,!Effect,E o comentarista será o ex-conselheiro\Ntático de Gandara, Yoda-san!
+Dialogue: Marked=0,0:09:33.84,0:09:34.70,*Default,NTP,0000,0000,0000,!Effect,É um prazer.
+Dialogue: Marked=0,0:09:35.51,0:09:37.72,*Default,NTP,0000,0000,0000,!Effect,Que agitação toda é essa?!
+Dialogue: Marked=0,0:09:37.72,0:09:41.44,*Default,NTP,0000,0000,0000,!Effect,Se descobrirem que somos do\NReikai, vai acontecer uma desgraça!
+Dialogue: Marked=0,0:09:41.44,0:09:43.16,*Default,NTP,0000,0000,0000,!Effect,Jorge se desculpa.
+Dialogue: Marked=0,0:09:43.36,0:09:47.36,*Default,NTP,0000,0000,0000,!Effect,O sorteio das preliminares era para\Nser feito usando o tesouro nacional...
+Dialogue: Marked=0,0:09:47.36,0:09:49.89,*Default,NTP,0000,0000,0000,!Effect,que Yusuke deu a Yomi,
+Dialogue: Marked=0,0:09:49.89,0:09:53.37,*Default,NTP,0000,0000,0000,!Effect,mas, como há muitos\Nparticipantes no torneio,
+Dialogue: Marked=0,0:09:53.37,0:09:56.18,*Default,NTP,0000,0000,0000,!Effect,o sorteio será realizado usando cartas.
+Dialogue: Marked=0,0:09:59.38,0:10:01.56,*Default,NTP,0000,0000,0000,!Effect,É Mukuro, uma das favoritas a ser campeã!
+Dialogue: Marked=0,0:10:02.56,0:10:04.02,*Default,NTP,0000,0000,0000,!Effect,Ela está no bloco 74!
+Dialogue: Marked=0,0:10:06.26,0:10:07.89,*Default,NTP,0000,0000,0000,!Effect,Outro dos possíveis vencedores:
+Dialogue: Marked=0,0:10:07.89,0:10:10.61,*Default,NTP,0000,0000,0000,!Effect,Yomi no bloco 34!
+Dialogue: Marked=0,0:10:12.96,0:10:15.44,*Default,NTP,0000,0000,0000,!Effect,O cabeça deste torneio,
+Dialogue: Marked=0,0:10:15.75,0:10:18.36,*Default,NTP,0000,0000,0000,!Effect,Urameshi, está no bloco 106!
+Dialogue: Marked=0,0:10:19.39,0:10:21.28,*Default,NTP,0000,0000,0000,!Effect,Hiei no bloco 5!
+Dialogue: Marked=0,0:10:21.63,0:10:24.90,*Default,NTP,0000,0000,0000,!Effect,Sorte que caímos todos separados. Assim não vamos ter que lutar uns contra os outros.
+Dialogue: Marked=0,0:10:24.90,0:10:26.62,*Default,NTP,0000,0000,0000,!Effect,Não é verdade.
+Dialogue: Marked=0,0:10:27.27,0:10:30.73,*Default,NTP,0000,0000,0000,!Effect,Aqueles quatro caíram\Ntodos no mesmo bloco!
+Dialogue: Marked=0,0:10:36.17,0:10:37.17,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:10:37.84,0:10:43.10,*Default,NTP,0000,0000,0000,!Effect,O que é isso? Yomi e seu filho,\NShura, caíram no mesmo bloco!
+Dialogue: Marked=0,0:10:43.74,0:10:46.05,*Default,NTP,0000,0000,0000,!Effect,Isso parece ser um\Npresságio do que está por vir!
+Dialogue: Marked=0,0:10:46.73,0:10:49.06,*Default,NTP,0000,0000,0000,!Effect,Isso é vantajoso para nós.
+Dialogue: Marked=0,0:10:55.70,0:10:58.45,*Default,NTP,0000,0000,0000,!Effect,Não fale mais esse tipo de bobagem.
+Dialogue: Marked=0,0:11:02.47,0:11:06.12,*Default,NTP,0000,0000,0000,!Effect,O sorteio acabou!
+Dialogue: Marked=0,0:11:07.08,0:11:11.98,*Default,NTP,0000,0000,0000,!Effect,Vamos ver aqui...\NRecebemos uma nova informação.
+Dialogue: Marked=0,0:11:11.98,0:11:16.03,*Default,NTP,0000,0000,0000,!Effect,Já houve a desistência\Nde alguns participantes.
+Dialogue: Marked=0,0:11:16.03,0:11:18.22,*Default,NTP,0000,0000,0000,!Effect,Qual seria o significado disso?
+Dialogue: Marked=0,0:11:18.22,0:11:19.22,*Default,NTP,0000,0000,0000,!Effect,De fato...
+Dialogue: Marked=0,0:11:19.88,0:11:22.04,*Default,NTP,0000,0000,0000,!Effect,Primeiro, você tem aqueles que\Ncaíram junto com Mukuro ou Yomi-san,
+Dialogue: Marked=0,0:11:22.04,0:11:26.43,*Default,NTP,0000,0000,0000,!Effect,digo, Yomi no mesmo bloco, e, então, já desistiram.
+Dialogue: Marked=0,0:11:26.96,0:11:29.37,*Default,NTP,0000,0000,0000,!Effect,Depois disso, os que estavam\Naqui só pela publicidade...
+Dialogue: Marked=0,0:11:29.37,0:11:32.56,*Default,NTP,0000,0000,0000,!Effect,e os que só vieram para passear\Nprovavelmente também foram embora.
+Dialogue: Marked=0,0:11:32.56,0:11:34.77,*Default,NTP,0000,0000,0000,!Effect,Ah, entendo. Muito obrigada.
+Dialogue: Marked=0,0:11:35.34,0:11:39.39,*Default,NTP,0000,0000,0000,!Effect,Então vamos começar as preliminares!
+
+Dialogue: Marked=0,0:11:59.85,0:12:05.46,Narrador,NTP,0000,0000,0000,!Effect,{\fscx87\fscy87}O torneio de unificação do Makai será realizado em imensas plantas conhecidas como árvores Okunenju.
+Dialogue: Marked=0,0:12:05.46,0:12:08.45,Narrador,NTP,0000,0000,0000,!Effect,Primeiro, nas preliminares, cada\Nbloco competirá no topo de uma árvore.
+Dialogue: Marked=0,0:12:08.45,0:12:12.50,Narrador,NTP,0000,0000,0000,!Effect,Os 49 participantes do bloco lutarão entre si...
+Dialogue: Marked=0,0:12:12.50,0:12:14.65,Narrador,NTP,0000,0000,0000,!Effect,até que só um sobre.
+Dialogue: Marked=0,0:12:21.33,0:12:22.99,*Default,NTP,0000,0000,0000,!Effect,E aí? Você desiste?
+Dialogue: Marked=0,0:12:24.01,0:12:24.70,*Default,NTP,0000,0000,0000,!Effect,Quem, eu?
+Dialogue: Marked=0,0:12:25.60,0:12:27.16,*Default,NTP,0000,0000,0000,!Effect,É assim?!
+Dialogue: Marked=0,0:12:31.91,0:12:34.07,*Default,NTP,0000,0000,0000,!Effect,Quem quer ir de novo?!
+Dialogue: Marked=0,0:12:34.07,0:12:37.09,*Default,NTP,0000,0000,0000,!Effect,P-Pare! Eu desisto!
+Dialogue: Marked=0,0:12:37.56,0:12:42.62,*Default,NTP,0000,0000,0000,!Effect,Certo...\NNeste caso, eu te perdôo!
+Dialogue: Marked=0,0:12:42.62,0:12:43.99,*Default,NTP,0000,0000,0000,!Effect,Isso foi cruel...
+Dialogue: Marked=0,0:12:48.91,0:12:50.43,*Default,NTP,0000,0000,0000,!Effect,Certo, próximo!
+Dialogue: Marked=0,0:12:48.43,0:12:50.43,PLACA,NTP,0000,0000,0000,!Effect,{\1c&HD1C59A&\move(265,190,285,195)\fscx300\fscy150\t(0,2000,\fscx270\fscy100}BLOCO 97
+Dialogue: Marked=0,0:12:50.91,0:12:56.05,*Default,NTP,0000,0000,0000,!Effect,No bloco 97, Chu está\Nderrotando seus oponentes um a um.
+Dialogue: Marked=0,0:12:56.05,0:12:56.40,*Default,NTP,0000,0000,0000,!Effect,Hein?
+Dialogue: Marked=0,0:12:56.40,0:12:59.27,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,700)\1c&HD1C59A&\move(300,455,290,465)\fscx275\fscy150\t(0,2870,\fscx290\fscy160}BLOCO 31
+Dialogue: Marked=0,0:12:57.01,0:13:00.92,*Default,NTP,0000,0000,0000,!Effect,O bloco 31 está envolto em\Num tipo de campo periférico.
+Dialogue: Marked=0,0:13:00.92,0:13:03.78,*Default,NTP,0000,0000,0000,!Effect,Qual será a situação lá dentro?
+Dialogue: Marked=0,0:13:06.29,0:13:10.42,*Default,NTP,0000,0000,0000,!Effect,Incrível!\NTodas as 48 pessoas foram congeladas!
+Dialogue: Marked=0,0:13:10.42,0:13:11.70,*Default,NTP,0000,0000,0000,!Effect,Como todos os lutadores\Nestão sem condições de lutar,
+Dialogue: Marked=0,0:13:12.08,0:13:15.67,*Default,NTP,0000,0000,0000,!Effect,o representante do bloco 31\Nserá o manipulador de gelo, Toya!
+Dialogue: Marked=0,0:13:11.75,0:13:15.63,PLACA,NTP,0000,0000,0000,!Effect,{\fad(700,0)\1c&HD1C59A&\pos(295,465)\fscx290\fscy150}BLOCO 31
+Dialogue: Marked=0,0:13:11.75,0:13:15.63,PLACA,NTP,0000,0000,0000,!Effect,{\fad(700,0)\1c&HD1C59A&\pos(630,465)\fscx200\fscy150}TOYA
+Dialogue: Marked=0,0:13:16.36,0:13:19.85,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Super Ioiôs das Trevas
+Dialogue: Marked=0,0:13:16.36,0:13:19.85,Doutrina,NTP,0000,0000,0000,!Effect,Super Devil Yo-Yos!
+Dialogue: Marked=0,0:13:25.51,0:13:28.01,*Default,NTP,0000,0000,0000,!Effect,O representante do bloco 8 será Rinku!
+Dialogue: Marked=0,0:13:26.59,0:13:29.44,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)\1c&HD8BAB2&\pos(335,470)\fscx280\fscy150}BLOCO 8
+Dialogue: Marked=0,0:13:26.59,0:13:29.44,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)\1c&HB5ACA1&\pos(645,470)\fscx180\fscy150}RINKU
+Dialogue: Marked=0,0:13:34.00,0:13:36.77,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Punho Furacão de Shura
+Dialogue: Marked=0,0:13:34.00,0:13:36.77,Doutrina,NTP,0000,0000,0000,!Effect,Shura Rengeki Senpu-ken!
+Dialogue: Marked=0,0:13:43.18,0:13:46.91,*Default,NTP,0000,0000,0000,!Effect,O representante do bloco 46\Nserá o domador de vento, Jin!
+Dialogue: Marked=0,0:13:45.99,0:13:50.34,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)\1c&HD7D7CC&\pos(320,460)\fscx290\fscy150}BLOCO 46
+Dialogue: Marked=0,0:13:45.99,0:13:50.34,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)\1c&HD7D7CC&\pos(657,460)\fscx160\fscy150}JIN
+Dialogue: Marked=0,0:13:48.76,0:13:50.37,*Default,NTP,0000,0000,0000,!Effect,Gostaram?!
+Dialogue: Marked=0,0:13:52.59,0:13:56.29,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Ciclone Arco-Íris Extra Brilhante
+Dialogue: Marked=0,0:13:52.59,0:13:56.29,Doutrina,NTP,0000,0000,0000,!Effect,Rainbow Cyclone Extra Flash!
+Dialogue: Marked=0,0:14:01.01,0:14:04.76,*Default,NTP,0000,0000,0000,!Effect,No bloco 54, o lutador\Ndemoníaco Suzuki venceu!
+Dialogue: Marked=0,0:14:00.79,0:14:04.73,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB7CAB6&\pos(290,465)\fscx296\fscy150}BLOCO 54
+Dialogue: Marked=0,0:14:00.79,0:14:04.73,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB7CAB6&\pos(637,465)\fscx150\fscy150}SUZUKI
+Dialogue: Marked=0,0:14:05.89,0:14:08.64,*Default,NTP,0000,0000,0000,!Effect,Os representantes estão sendo\Ndeterminados bloco a bloco!
+Dialogue: Marked=0,0:14:09.65,0:14:10.60,*Default,NTP,0000,0000,0000,!Effect,No bloco 90...
+Dialogue: Marked=0,0:14:10.81,0:14:12.56,*Default,NTP,0000,0000,0000,!Effect,será Hokushin!
+Dialogue: Marked=0,0:14:12.70,0:14:14.52,*Default,NTP,0000,0000,0000,!Effect,No 23 será Kirin!
+Dialogue: Marked=0,0:14:15.14,0:14:18.26,*Default,NTP,0000,0000,0000,!Effect,No bloco 13 será o\Nfisioterapeuta do Makai, Shigure!
+Dialogue: Marked=0,0:14:18.26,0:14:20.40,*Default,NTP,0000,0000,0000,!Effect,Eles estão na competição principal!
+Dialogue: Marked=0,0:14:21.13,0:14:24.40,*Default,NTP,0000,0000,0000,!Effect,No bloco 74, todos,\Nexceto Mukuro, desistiram.
+Dialogue: Marked=0,0:14:24.40,0:14:28.33,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HDDD4B4&\pos(570,175)\fscx230\fscy150}BLOCO 74
+Dialogue: Marked=0,0:14:24.44,0:14:28.36,*Default,NTP,0000,0000,0000,!Effect,Sendo assim, Mukuro automaticamente\Npassa à competição principal.
+Dialogue: Marked=0,0:14:28.68,0:14:30.32,*Default,NTP,0000,0000,0000,!Effect,Qual será o próximo bloco?
+Dialogue: Marked=0,0:14:30.32,0:14:32.54,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HCCC4B4&\pos(240,195)\fscx225\fscy150}BLOCO 97
+Dialogue: Marked=0,0:14:32.58,0:14:34.25,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB4BFCC&\pos(240,195)\fscx225\fscy150}BLOCO 97
+Dialogue: Marked=0,0:14:30.57,0:14:32.58,*Default,NTP,0000,0000,0000,!Effect,Vamos, desistam!
+Dialogue: Marked=0,0:14:34.55,0:14:39.04,*Default,NTP,0000,0000,0000,!Effect,Não parece que o bloco 97 será decidido logo.
+Dialogue: Marked=0,0:14:39.04,0:14:40.65,*Default,NTP,0000,0000,0000,!Effect,No bloco 5, Hiei.
+Dialogue: Marked=0,0:14:40.65,0:14:44.56,*Default,NTP,0000,0000,0000,!Effect,No bloco 64, Kurama\Npassa à competição principal.
+Dialogue: Marked=0,0:14:44.56,0:14:47.44,*Default,NTP,0000,0000,0000,!Effect,Todos parecem estar\Nganhando facilmente, hein?
+Dialogue: Marked=0,0:14:47.44,0:14:49.53,*Default,NTP,0000,0000,0000,!Effect,Shishiwakamaru está tendo uma luta difícil.
+Dialogue: Marked=0,0:14:49.53,0:14:50.14,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:14:53.98,0:14:55.87,*Default,NTP,0000,0000,0000,!Effect,Que corpo duro ele tem!
+Dialogue: Marked=0,0:14:55.87,0:14:59.06,*Default,NTP,0000,0000,0000,!Effect,Minha Shin Makokumeizan-ken não está fazendo efeito algum!
+Dialogue: Marked=0,0:15:01.46,0:15:01.90,*Default,NTP,0000,0000,0000,!Effect,Nesse caso...
+Dialogue: Marked=0,0:15:22.27,0:15:24.34,*Default,NTP,0000,0000,0000,!Effect,Shishiwaka!
+Dialogue: Marked=0,0:15:25.15,0:15:26.55,*Default,NTP,0000,0000,0000,!Effect,Não dá.
+Dialogue: Marked=0,0:15:27.02,0:15:29.89,*Default,NTP,0000,0000,0000,!Effect,Os fracos seguem os fortes ou morrem.
+Dialogue: Marked=0,0:15:30.63,0:15:32.76,*Default,NTP,0000,0000,0000,!Effect,Essa é a lei única do Makai.
+Dialogue: Marked=0,0:15:33.05,0:15:36.51,*Default,NTP,0000,0000,0000,!Effect,Parece que temos a decisão no bloco 33.
+Dialogue: Marked=0,0:15:40.32,0:15:44.48,*Default,NTP,0000,0000,0000,!Effect,Minha barriga dói! Pare!\NO que você está fazendo?!
+Dialogue: Marked=0,0:15:47.89,0:15:54.04,*Default,NTP,0000,0000,0000,!Effect,No bloco 33, parece que Shishiwakamaru\Nficou pequeno e deu um ataque surpresa!
+Dialogue: Marked=0,0:15:50.24,0:15:52.37,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HDFCCC4&\pos(240,470)\fscx225\fscy150}BLOCO 33
+Dialogue: Marked=0,0:15:52.41,0:15:55.04,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HFFFFEC&\pos(240,470)\fscx225\fscy150}BLOCO 33
+Dialogue: Marked=0,0:15:52.24,0:15:55.04,PLACA,NTP,0000,0000,0000,!Effect,{\fad(500,0)\1c&HFFFFEC&\pos(585,470)\fscx90\fscy150}SHISHIWAKAMARU
+Dialogue: Marked=0,0:15:55.20,0:15:59.13,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HCED5CC&\pos(590,470)\fscx225\fscy150}BLOCO 97
+Dialogue: Marked=0,0:15:56.06,0:15:58.41,*Default,NTP,0000,0000,0000,!Effect,Vamos, vamos, vamos! Desiste?!
+Dialogue: Marked=0,0:16:04.90,0:16:07.97,*Default,NTP,0000,0000,0000,!Effect,Parece que temos outro bloco que foi decidido.
+Dialogue: Marked=0,0:16:07.97,0:16:10.91,*Default,NTP,0000,0000,0000,!Effect,O representante do bloco 59 será Enki!
+Dialogue: Marked=0,0:16:09.13,0:16:12.52,PLACA,NTP,0000,0000,0000,!Effect,{\fad(700,0)\1c&HCDC2C9&\pos(295,470)\fscx295\fscy150}BLOCO 59
+Dialogue: Marked=0,0:16:09.13,0:16:12.52,PLACA,NTP,0000,0000,0000,!Effect,{\fad(700,0)\1c&HCDC2C9&\pos(635,470)\fscx210\fscy150}ENKI
+Dialogue: Marked=0,0:16:22.18,0:16:28.02,*Default,NTP,0000,0000,0000,!Effect,Oh, corpo perigoso!\NKoko será a representante do bloco 77!
+Dialogue: Marked=0,0:16:22.77,0:16:25.28,PLACA,NTP,0000,0000,0000,!Effect,{\fad(800,0)\1c&HDBE8BC&\pos(295,465)\fscx295\fscy150}BLOCO 77
+Dialogue: Marked=0,0:16:22.77,0:16:25.28,PLACA,NTP,0000,0000,0000,!Effect,{\fad(800,0)\1c&HDBE8BC&\pos(640,465)\fscx190\fscy150}KOKO
+Dialogue: Marked=0,0:16:28.02,0:16:30.99,Narrador,NTP,0000,0000,0000,!Effect,Os antigos amigos de Raizen ganharam\Nsuas vagas na competição principal...
+
+Dialogue: Marked=0,0:16:29.28,0:16:30.95,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HC1B8AD&\pos(400,460)\fscx240\fscy150}BLOCO 11
+Dialogue: Marked=0,0:16:29.28,0:16:30.95,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HC1B8AD&\pos(675,460)\fscx75\fscy150}TETSUYAMA
+
+Dialogue: Marked=0,0:16:31.03,0:16:32.79,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HCBC5B9&\pos(250,185)\fscx240\fscy150}BLOCO 29
+Dialogue: Marked=0,0:16:31.03,0:16:32.79,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HCBC5B9&\pos(537,185)\fscx120\fscy150}SAIZOU
+
+Dialogue: Marked=0,0:16:32.82,0:16:34.54,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB09F97&\pos(390,460)\fscx245\fscy150}BLOCO 85
+Dialogue: Marked=0,0:16:32.82,0:16:34.54,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB09F97&\pos(670,460)\fscx80\fscy150}SOUKETSU
+
+Dialogue: Marked=0,0:16:34.57,0:16:36.00,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB7ACAD&\pos(330,460)\fscx245\fscy150}BLOCO 26
+Dialogue: Marked=0,0:16:34.57,0:16:36.00,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HB7ACAD&\pos(615,460)\fscx110\fscy150}DENHOU
+
+Dialogue: Marked=0,0:16:36.03,0:16:36.71,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HAB9B91&\pos(240,460)\fscx245\fscy150}BLOCO 64
+Dialogue: Marked=0,0:16:36.03,0:16:36.71,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HAB9B91&\pos(510,460)\fscx80\fscy150}SHUU
+
+Dialogue: Marked=0,0:16:31.11,0:16:32.78,Narrador,NTP,0000,0000,0000,!Effect,mantendo suas verdadeiras\Nhabilidades em segredo.
+Dialogue: Marked=0,0:16:33.26,0:16:35.99,Narrador,NTP,0000,0000,0000,!Effect,Claro que há aqueles que saibam\Nde suas verdadeiras habilidades...
+Dialogue: Marked=0,0:16:37.53,0:16:38.70,P!,NTP,0000,0000,0000,!Effect,Esses caras...
+Dialogue: Marked=0,0:16:39.18,0:16:40.41,P!,NTP,0000,0000,0000,!Effect,São capazes!
+Dialogue: Marked=0,0:16:47.70,0:16:50.34,*Default,NTP,0000,0000,0000,!Effect,Já devo ter acabado com todo mundo...
+Dialogue: Marked=0,0:17:05.39,0:17:07.86,*Default,NTP,0000,0000,0000,!Effect,Parece que você é a última.
+Dialogue: Marked=0,0:17:18.82,0:17:22.20,P!,NTP,0000,0000,0000,!Effect,Ela é muito forte!
+Dialogue: Marked=0,0:17:24.40,0:17:25.68,P!,NTP,0000,0000,0000,!Effect,Você vem?
+Dialogue: Marked=0,0:17:44.77,0:17:45.93,P!,NTP,0000,0000,0000,!Effect,Ela sumiu!
+Dialogue: Marked=0,0:17:54.13,0:17:56.95,P!,NTP,0000,0000,0000,!Effect,Seu youki está em outro nível...
+Dialogue: Marked=0,0:18:00.42,0:18:01.49,*Default,NTP,0000,0000,0000,!Effect,Devemos continuar?
+Dialogue: Marked=0,0:18:02.22,0:18:04.96,*Default,NTP,0000,0000,0000,!Effect,Não, eu desisto!
+
+Dialogue: Marked=0,0:18:04.96,0:18:12.43,PLACA,NTP,0000,0000,0000,!Effect,{\fad(0,0)\1c&HF0CD8F&\pos(270,195)\fscx280\fscy150}BLOCO 97
+
+Dialogue: Marked=0,0:18:05.39,0:18:10.98,*Default,NTP,0000,0000,0000,!Effect,Finalmente temos uma decisão no bloco 97!\NHã? Eles estão dizendo alguma coisa!
+Dialogue: Marked=0,0:18:10.98,0:18:12.46,*Default,NTP,0000,0000,0000,!Effect,Câmera-san, por favor, vá lá!
+Dialogue: Marked=0,0:18:12.88,0:18:15.42,*Default,NTP,0000,0000,0000,!Effect,Qual seu nome?
+Dialogue: Marked=0,0:18:16.93,0:18:18.01,*Default,NTP,0000,0000,0000,!Effect,Natsume.
+Dialogue: Marked=0,0:18:18.45,0:18:19.60,*Default,NTP,0000,0000,0000,!Effect,Natsume?
+Dialogue: Marked=0,0:18:23.87,0:18:25.73,*Default,NTP,0000,0000,0000,!Effect,Quando posso te ver de novo?
+Dialogue: Marked=0,0:18:30.23,0:18:32.45,*Default,NTP,0000,0000,0000,!Effect,Eu não devia ter batido tão forte.
+Dialogue: Marked=0,0:18:32.45,0:18:34.86,*Default,NTP,0000,0000,0000,!Effect,Não, não, eu estou bem!
+Dialogue: Marked=0,0:18:35.36,0:18:39.09,*Default,NTP,0000,0000,0000,!Effect,Perdão, mas não me\Ninteresso por homens fracos.
+Dialogue: Marked=0,0:18:39.09,0:18:44.33,*Default,NTP,0000,0000,0000,!Effect,Dois anos! Não, me dê só um ano!\NVou ficar mais forte...
+Dialogue: Marked=0,0:18:44.61,0:18:47.79,*Default,NTP,0000,0000,0000,!Effect,Então, você seria minha mulher?
+Dialogue: Marked=0,0:18:48.03,0:18:54.00,*Default,NTP,0000,0000,0000,!Effect,Ele está dando em cima dela?! Desgraçado!\NSe você é um homem, morra lutando!
+Dialogue: Marked=0,0:18:54.08,0:18:56.47,*Default,NTP,0000,0000,0000,!Effect,Ei, ei, não seja tão emotivo!
+Dialogue: Marked=0,0:18:56.72,0:18:59.50,*Default,NTP,0000,0000,0000,!Effect,Perdi todo o respeito por aquele idiota!
+Dialogue: Marked=0,0:18:59.50,0:19:01.47,*Default,NTP,0000,0000,0000,!Effect,Ele é a desgraça para o resto de nós!
+Dialogue: Marked=0,0:19:02.10,0:19:04.43,*Default,NTP,0000,0000,0000,!Effect,Vocês também acham isso, certo, Jin? Suzuki?
+Dialogue: Marked=0,0:19:04.88,0:19:06.64,*Default,NTP,0000,0000,0000,!Effect,Dessa vez, ganharemos\Ndo Urameshi com certeza!
+Dialogue: Marked=0,0:19:06.64,0:19:09.43,*Default,NTP,0000,0000,0000,!Effect,Não foi esse o motivo pelo qual treinamos?
+Dialogue: Marked=0,0:19:09.43,0:19:11.15,*Default,NTP,0000,0000,0000,!Effect,Ah! Aí está você!
+Dialogue: Marked=0,0:19:11.54,0:19:14.61,*Default,NTP,0000,0000,0000,!Effect,Você é Rinku, certo?\NO cara que ganhou no bloco 8?
+Dialogue: Marked=0,0:19:14.89,0:19:18.44,*Default,NTP,0000,0000,0000,!Effect,Foi incrível!\NVocê derrotou 16 de uma só vez!
+Dialogue: Marked=0,0:19:18.44,0:19:22.17,*Default,NTP,0000,0000,0000,!Effect,Sou Sasuga.\NLutei no bloco 9, bem ao lado do seu.
+Dialogue: Marked=0,0:19:22.17,0:19:22.82,*Default,NTP,0000,0000,0000,!Effect,Prazer em conhecê-lo!
+Dialogue: Marked=0,0:19:23.90,0:19:28.24,*Default,NTP,0000,0000,0000,!Effect,Entrei com meus amigos, mas fui\Na única que conseguiu continuar.
+Dialogue: Marked=0,0:19:28.24,0:19:31.11,*Default,NTP,0000,0000,0000,!Effect,Acho que vou pegar você na competição principal.
+Dialogue: Marked=0,0:19:31.11,0:19:33.79,*Default,NTP,0000,0000,0000,!Effect,Se isso acontecer, vamos fazer o melhor possível!
+Dialogue: Marked=0,0:19:34.38,0:19:36.42,*Default,NTP,0000,0000,0000,!Effect,Ah, vê se pega leve comigo, tá?
+Dialogue: Marked=0,0:19:37.85,0:19:38.73,*Default,NTP,0000,0000,0000,!Effect,Rinku?
+Dialogue: Marked=0,0:19:39.41,0:19:40.30,*Default,NTP,0000,0000,0000,!Effect,Qual é o problema?
+Dialogue: Marked=0,0:19:41.24,0:19:43.26,*Default,NTP,0000,0000,0000,!Effect,Sasuga-chan...
+Dialogue: Marked=0,0:19:45.35,0:19:47.47,*Default,NTP,0000,0000,0000,!Effect,Vamos lutar como eu disse!
+Dialogue: Marked=0,0:19:48.38,0:19:51.44,*Default,NTP,0000,0000,0000,!Effect,Agora começamos a preliminar do bloco 106.
+Dialogue: Marked=0,0:19:51.99,0:19:55.80,*Default,NTP,0000,0000,0000,!Effect,Uma vez que você seja jogado pra fora,\Nseja morto ou desista, você está eliminado.
+Dialogue: Marked=0,0:19:55.80,0:19:58.36,*Default,NTP,0000,0000,0000,!Effect,Não me sinto tenso assim há um bom tempo!
+Dialogue: Marked=0,0:19:58.87,0:20:02.21,*Default,NTP,0000,0000,0000,!Effect,A primeira coisa que vamos\Nfazer é derrotar aquele cara!
+Dialogue: Marked=0,0:20:02.21,0:20:04.32,*Default,NTP,0000,0000,0000,!Effect,Quando eu disser "vamos", todos atacam ele!
+Dialogue: Marked=0,0:20:04.72,0:20:06.58,*Default,NTP,0000,0000,0000,!Effect,Muito bem, então comecem!
+Dialogue: Marked=0,0:20:13.89,0:20:16.67,*Default,NTP,0000,0000,0000,!Effect,Certo. Então acho que\Ndeveria começar a me esquentar!
+Dialogue: Marked=0,0:20:17.13,0:20:19.13,*Default,NTP,0000,0000,0000,!Effect,Certo, vamos!
+Dialogue: Marked=0,0:20:51.55,0:20:53.33,*Default,NTP,0000,0000,0000,!Effect,Hum, estou em boa forma!
+Dialogue: Marked=0,0:20:53.64,0:20:55.05,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:20:55.05,0:20:58.17,*Default,NTP,0000,0000,0000,!Effect,O Yusuke ficou bem mais forte.
+Dialogue: Marked=0,0:21:00.91,0:21:04.84,*Default,NTP,0000,0000,0000,!Effect,Ei! Eu atirei todo mundo para fora!
+Dialogue: Marked=0,0:21:05.79,0:21:07.39,*Default,NTP,0000,0000,0000,!Effect,O que acontece neste caso?
+Dialogue: Marked=0,0:21:08.40,0:21:11.60,*Default,NTP,0000,0000,0000,!Effect,C-Certo!\NEles estão eliminados por estarem fora!
+
+Dialogue: Marked=0,0:21:11.64,0:21:16.49,PLACA,NTP,0000,0000,0000,!Effect,{\fad(600,600)\1c&HADC1CD&\pos(260,460)\fscx215\fscy150}BLOCO 106
+Dialogue: Marked=0,0:21:11.64,0:21:16.49,PLACA,NTP,0000,0000,0000,!Effect,{\fad(600,600)\1c&HADC1CD&\pos(590,460)\fscx150\fscy150}URAMESHI
+
+Dialogue: Marked=0,0:21:12.19,0:21:14.86,*Default,NTP,0000,0000,0000,!Effect,No bloco 106, Urameshi é o vencedor...
+Dialogue: Marked=0,0:21:14.86,0:21:16.52,*Default,NTP,0000,0000,0000,!Effect,e vai para a competição principal!
+Dialogue: Marked=0,0:21:19.50,0:21:22.28,*Default,NTP,0000,0000,0000,!Effect,Cada bloco das preliminares corre bem.
+Dialogue: Marked=0,0:21:24.75,0:21:28.82,Narrador,NTP,0000,0000,0000,!Effect,De qualquer modo, há um bloco\Nem que a decisão não foi atingida.
+Dialogue: Marked=0,0:21:28.82,0:21:32.50,Narrador,NTP,0000,0000,0000,!Effect,O bloco 34, em que estão Shura e Yomi.
+Dialogue: Marked=0,0:21:33.21,0:21:38.25,Narrador,NTP,0000,0000,0000,!Effect,Então, uma batalha entre\Npai e filho vai começar!
+
+Dialogue: Marked=0,0:21:47.19,0:21:51.39,Conversa,NTP,0000,0000,0000,!Effect,Agora mesmo! Aqui, nas preliminares, teremos uma grande batalha entre dois superpoderes!
+Dialogue: Marked=0,0:21:51.39,0:21:56.02,Conversa,NTP,0000,0000,0000,!Effect,Yomi contra Shura!\NEnquanto seu filho o ataca furiosamente,
+Dialogue: Marked=0,0:21:56.09,0:21:58.40,Conversa,NTP,0000,0000,0000,!Effect,o pai mantém seu silêncio mortal!
+Dialogue: Marked=0,0:21:58.47,0:22:01.61,Conversa,NTP,0000,0000,0000,!Effect,De fato é um teatro de amor\Ne tristeza entre pai e filho!
+Dialogue: Marked=0,0:22:02.06,0:22:05.71,Conversa,NTP,0000,0000,0000,!Effect,Não dá tempo nem de piscar!
+Dialogue: Marked=0,0:22:05.71,0:22:08.57,Conversa,NTP,0000,0000,0000,!Effect,Próximo Episódio:\N"Batalha entre Pai e Filho! Yomi e Shura."
+Dialogue: Marked=0,0:22:08.91,0:22:11.37,Conversa,NTP,0000,0000,0000,!Effect,E eu, Koto, vou narrar!

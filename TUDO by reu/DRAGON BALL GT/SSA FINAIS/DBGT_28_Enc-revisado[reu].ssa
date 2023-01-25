@@ -1,0 +1,293 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Wav: 0, 134477,C:\Documents and Settings\Lucas\Desktop\dbgt18.wav
+LastWav: 1
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: titulo,Gorilla BT,40,7353,&HFF00FFFF,&HFF000000,16777215,1,0,1,3,2,2,30,30,20,0,0
+Style: apresDBZ2,Arial,50,2723501,255,4194368,-2147483640,-1,1,1,2,0,6,0,0,15,0,0
+Style: apresDBZ3,Incised901 NdIt BT,50,11711175,255,4194368,-2147483640,0,1,1,3,0,6,0,0,15,0,0
+Style: apresDBZ4,Incised901 Ct BT,50,11711175,255,4194368,-2147483640,0,0,1,3,0,6,0,0,15,0,0
+Style: apresDBZ5,Broadway,60,1387156,255,4194368,1387156,0,1,1,25,0,6,0,0,15,0,0
+Style: apresDBGT,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.10,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:55.56,0:13:05.57,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:24.51,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:50.86,0:01:53.69,Narrador,,0000,0000,0000,,A verdadeira identidade de\NBaby era a de um Tsufuru-jin,
+Dialogue: Marked=0,0:01:53.69,0:01:56.07,Narrador,,0000,0000,0000,,que os Saiya-jins haviam conquistado antes.
+Dialogue: Marked=0,0:02:06.87,0:02:08.09,Narrador,,0000,0000,0000,,Como Goten e Gohan,
+Dialogue: Marked=0,0:02:08.09,0:02:14.27,Narrador,,0000,0000,0000,,Vegeta também teve seu corpo\Npossuído por Baby, o Tsufuru-jin.
+Dialogue: Marked=0,0:02:15.55,0:02:17.94,Narrador,,0000,0000,0000,,Depois de reunir as sete Dragon Balls,
+Dialogue: Marked=0,0:02:17.94,0:02:21.18,Narrador,,0000,0000,0000,,Goku e os outros voltam triunfantes à Terra.
+Dialogue: Marked=0,0:02:21.18,0:02:24.10,Narrador,,0000,0000,0000,,Entretanto, a Terra não era mais a Terra!
+
+Dialogue: Marked=0,0:02:26.89,0:02:34.87,apresDBGT,,0000,0000,0000,Karaoke,{\pos(280,85)}{\fad(500,0)}{\fscx100\fscy100}Episódio 28
+Dialogue: Marked=0,0:02:26.89,0:02:34.87,apresDBGT,,0000,0000,0000,Karaoke,{\pos(95,185)}{\fad(500,0)}{\fscx135\fscy120}Goku volta...
+Dialogue: Marked=0,0:02:26.89,0:02:34.87,apresDBGT,,0000,0000,0000,Karaoke,{\pos(95,500)}{\fad(500,0)}{\fscx105\fscy110}e a Terra inteira é inimiga{\i1}!?
+
+Dialogue: Marked=0,0:02:40.07,0:02:40.83,*Default,,0000,0000,0000,,É a Terra!
+Dialogue: Marked=0,0:02:44.69,0:02:49.12,*Default,,0000,0000,0000,,Conseguimos! Temos que andar rápido e\Ncontar para todo mundo o meu grande empenho!
+Dialogue: Marked=0,0:02:51.06,0:02:55.10,*Default,,0000,0000,0000,,Fui eu quem pegou de volta\Nas Dragon Balls das mãos do Rild!
+Dialogue: Marked=0,0:02:55.10,0:02:57.37,*Default,,0000,0000,0000,,Também fui eu que me\Ndediquei a resgatar o Trunks...
+Dialogue: Marked=0,0:02:57.37,0:03:00.38,*Default,,0000,0000,0000,,quando ele tinha sido transformado em metal!
+Dialogue: Marked=0,0:03:00.38,0:03:01.66,*Default,,0000,0000,0000,,Aquilo foi tudo planejado.
+Dialogue: Marked=0,0:03:06.10,0:03:08.41,*Default,,0000,0000,0000,,De qualquer forma, tudo dependeu de mim!
+Dialogue: Marked=0,0:03:08.41,0:03:11.81,*Default,,0000,0000,0000,,Certo, certo! Vamos fingir que\Nesquecemos das vezes em que ficou chorando.
+Dialogue: Marked=0,0:03:13.62,0:03:16.70,*Default,,0000,0000,0000,,Certo, Trunks. Primeiro vamos até o Tenkai!
+Dialogue: Marked=0,0:03:17.42,0:03:18.38,*Default,,0000,0000,0000,,Sim, Goku-san!
+Dialogue: Marked=0,0:03:34.01,0:03:35.90,*Default,,0000,0000,0000,,Oi, Dende! Popo!
+Dialogue: Marked=0,0:03:37.35,0:03:38.05,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:03:45.35,0:03:48.71,*Default,,0000,0000,0000,,Já faz muito tempo, hein, Dende?\NVocê está bem?
+Dialogue: Marked=0,0:03:48.71,0:03:50.95,*Default,,0000,0000,0000,,Kami-sama! Saia, saia!
+Dialogue: Marked=0,0:03:52.85,0:03:55.57,*Default,,0000,0000,0000,,Agora a Terra vai ficar bem.
+Dialogue: Marked=0,0:03:55.57,0:03:59.20,*Default,,0000,0000,0000,,Afinal, graças à minha grande,\Ngrande, grande, grande dedicação,
+Dialogue: Marked=0,0:03:59.20,0:04:03.71,*Default,,0000,0000,0000,,as Dragon Balls que nem você, Kami-sama,\Npodia reunir estão bem aqui, está vendo?
+Dialogue: Marked=0,0:04:05.54,0:04:07.50,*Default,,0000,0000,0000,,Você fez bem, hein, Goku-san?
+Dialogue: Marked=0,0:04:11.12,0:04:15.98,*Default,,0000,0000,0000,,Espere um pouco! Eu sou a grandiosa aqui! Eu!
+Dialogue: Marked=0,0:04:15.98,0:04:17.52,*Default,,0000,0000,0000,,Certo! Pan-san, você também!
+Dialogue: Marked=0,0:04:17.52,0:04:19.37,*Default,,0000,0000,0000,,Não, nada de "também", certo? Nada de "também"!
+Dialogue: Marked=0,0:04:19.37,0:04:20.97,*Default,,0000,0000,0000,,T-Tudo bem, Pan-san.
+Dialogue: Marked=0,0:04:24.67,0:04:30.19,*Default,,0000,0000,0000,,Goku-san, vamos selar agora\Nas Dragon Balls no seu devido lugar!
+Dialogue: Marked=0,0:04:30.19,0:04:33.74,*Default,,0000,0000,0000,,Sim, por favor. Agora podemos\Nficar tranqüilos em relação à Terra.
+Dialogue: Marked=0,0:04:33.74,0:04:36.78,*Default,,0000,0000,0000,,E-Espere um pouco! Se você fizer isso, vovô,
+Dialogue: Marked=0,0:04:36.78,0:04:38.49,*Default,,0000,0000,0000,,você não vai poder voltar\Nseu corpo ao normal, vai?
+Dialogue: Marked=0,0:04:39.28,0:04:42.80,*Default,,0000,0000,0000,,Vovô, você ficou pequeno\Npor causa destas Dragon Balls,
+Dialogue: Marked=0,0:04:42.80,0:04:45.52,*Default,,0000,0000,0000,,então você não pode voltar ao normal,\Na não ser que seja com as Dragon Balls!
+Dialogue: Marked=0,0:04:45.52,0:04:46.40,*Default,,0000,0000,0000,,Vai ficar bem com isso?
+Dialogue: Marked=0,0:04:49.55,0:04:51.96,*Default,,0000,0000,0000,,Mas, se usarmos elas novamente,
+Dialogue: Marked=0,0:04:52.81,0:04:56.30,*Default,,0000,0000,0000,,as Dragon Balls se espalhariam\Npelo universo mais uma vez.
+Dialogue: Marked=0,0:04:57.39,0:04:59.81,*Default,,0000,0000,0000,,Se isso acontecer, então,\Ndentro de outro ano, a Terra...
+Dialogue: Marked=0,0:05:00.53,0:05:04.80,*Default,,0000,0000,0000,,O quê? Então, você acha que vai\Nficar tudo bem se o vovô continuar assim?
+Dialogue: Marked=0,0:05:04.80,0:05:08.02,*Default,,0000,0000,0000,,Não para mim!\NComo o meu avô pode ser menor do que eu?!
+Dialogue: Marked=0,0:05:09.47,0:05:10.83,*Default,,0000,0000,0000,,Não é bem assim...
+Dialogue: Marked=0,0:05:10.83,0:05:13.34,*Default,,0000,0000,0000,,Então é como?!
+Dialogue: Marked=0,0:05:13.34,0:05:15.99,*Default,,0000,0000,0000,,Ah, eu sei! Quando isso acontecer,
+Dialogue: Marked=0,0:05:15.99,0:05:20.08,*Default,,0000,0000,0000,,nós podemos trabalhar duro e\Nreuni-las novamente, certo, Trunks?
+Dialogue: Marked=0,0:05:21.53,0:05:23.05,*Default,,0000,0000,0000,,Não conte comigo!
+Dialogue: Marked=0,0:05:23.99,0:05:26.02,*Default,,0000,0000,0000,,O quê? Como você é medroso!
+Dialogue: Marked=0,0:05:26.82,0:05:32.33,*Default,,0000,0000,0000,,Pan, eu estou bem desse jeito.\NA Terra é mais importante do que eu.
+Dialogue: Marked=0,0:05:32.33,0:05:35.35,*Default,,0000,0000,0000,,O que a vovó vai fazer\Nquando contar isso a ela?!
+Dialogue: Marked=0,0:05:35.35,0:05:37.84,*Default,,0000,0000,0000,,Ela vai ficar muito, muito brava!
+Dialogue: Marked=0,0:05:38.45,0:05:41.45,*Default,,0000,0000,0000,,Eu vou conversar com a\NChi-Chi sobre isso, não se preocupe!
+Dialogue: Marked=0,0:05:42.27,0:05:45.06,*Default,,0000,0000,0000,,Não se importe comigo, Pan.\NAnde logo e entregue as Dragon Balls.
+Dialogue: Marked=0,0:05:46.82,0:05:52.07,*Default,,0000,0000,0000,,Vovô...\NA vovó nunca mais vai cozinhar para nós.
+Dialogue: Marked=0,0:06:05.76,0:06:09.79,*Default,,0000,0000,0000,,Goku-san, nós vamos voltar\Npara a Capsule Corporation agora!
+Dialogue: Marked=0,0:06:10.46,0:06:13.55,*Default,,0000,0000,0000,,Certo! Diga à Bulma e ao\NVegeta que eu mandei um "oi"!
+Dialogue: Marked=0,0:06:13.55,0:06:16.80,*Default,,0000,0000,0000,,E, então, Gill? Você vem para a minha casa?
+Dialogue: Marked=0,0:06:17.90,0:06:22.30,*Default,,0000,0000,0000,,O que foi? Quer dizer que ainda\Ntem algo contra mim?! Pois bem!
+Dialogue: Marked=0,0:06:29.61,0:06:32.78,*Default,,0000,0000,0000,,A verdade é que você se\Nesforçou mais do que qualquer um, certo?
+Dialogue: Marked=0,0:06:33.78,0:06:35.69,*Default,,0000,0000,0000,,Pronto, vai ganhar o meu primeiro beijo!
+Dialogue: Marked=0,0:06:39.35,0:06:41.98,*Default,,0000,0000,0000,,Até mais, contamos com você, Dende!
+Dialogue: Marked=0,0:06:41.98,0:06:44.24,*Default,,0000,0000,0000,,Gill, venha nos visitar, certo?
+Dialogue: Marked=0,0:06:56.79,0:07:01.38,P!,,0000,0000,0000,,As Dragon Balls, hein?\NBaby-sama vai ficar encantado!
+Dialogue: Marked=0,0:07:03.17,0:07:09.29,*Default,,0000,0000,0000,,- Satan! Venha para fora!\N- Saia, Satan!
+Dialogue: Marked=0,0:07:09.29,0:07:13.45,*Default,,0000,0000,0000,,- Apareça!\N- Venha para fora!
+Dialogue: Marked=0,0:07:17.65,0:07:19.12,*Default,,0000,0000,0000,,Ele está aqui!
+Dialogue: Marked=0,0:07:19.12,0:07:20.36,*Default,,0000,0000,0000,,Mesmo, Boo-san?
+Dialogue: Marked=0,0:07:20.90,0:07:21.55,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:07:21.55,0:07:22.99,*Default,,0000,0000,0000,,Tem certeza de que é o Goku e os outros?
+Dialogue: Marked=0,0:07:23.64,0:07:24.88,*Default,,0000,0000,0000,,Eles voltaram!
+Dialogue: Marked=0,0:07:24.88,0:07:25.92,*Default,,0000,0000,0000,,Pan-chan também?
+Dialogue: Marked=0,0:07:25.92,0:07:26.37,*Default,,0000,0000,0000,,Sim!
+Dialogue: Marked=0,0:07:29.01,0:07:32.06,*Default,,0000,0000,0000,,Honestamente, eu tenho\Nesperado por este momento!
+Dialogue: Marked=0,0:07:32.06,0:07:35.25,*Default,,0000,0000,0000,,Já faz dois meses desde\Nque a Terra ficou estranha,
+Dialogue: Marked=0,0:07:35.25,0:07:37.36,*Default,,0000,0000,0000,,e eu fiquei escondido dentro do seu corpo, Mister Boo,
+Dialogue: Marked=0,0:07:37.36,0:07:40.80,*Default,,0000,0000,0000,,trabalhando no meu plano\Nextraordinário ultra-superincrível!
+Dialogue: Marked=0,0:07:41.47,0:07:43.13,*Default,,0000,0000,0000,,Pensei que estivesse apenas fugindo.
+Dialogue: Marked=0,0:07:43.79,0:07:45.81,*Default,,0000,0000,0000,,Do que está falando, Boo-san?!
+Dialogue: Marked=0,0:07:45.81,0:07:48.18,*Default,,0000,0000,0000,,Agora é o momento de\Ncolocar o plano em prática!
+Dialogue: Marked=0,0:07:48.73,0:07:51.51,*Default,,0000,0000,0000,,Boo-san, chame o Son Goku para mim!
+Dialogue: Marked=0,0:07:51.51,0:07:54.57,*Default,,0000,0000,0000,,Eu não posso fazer isso.\NGoku e os outros não estão em casa.
+Dialogue: Marked=0,0:07:56.17,0:07:59.94,*Default,,0000,0000,0000,,É-É mesmo? Nesse caso, acho\Nque vou ter que repensar o plano!
+Dialogue: Marked=0,0:08:01.97,0:08:03.07,*Default,,0000,0000,0000,,Vamos nos encontrar com eles!
+Dialogue: Marked=0,0:08:06.41,0:08:07.31,*Default,,0000,0000,0000,,Lá vai!
+Dialogue: Marked=0,0:08:25.07,0:08:27.03,*Default,,0000,0000,0000,,Tem certeza de que está tudo bem?
+Dialogue: Marked=0,0:08:27.03,0:08:28.26,*Default,,0000,0000,0000,,Como assim?
+Dialogue: Marked=0,0:08:28.61,0:08:31.99,*Default,,0000,0000,0000,,Por um motivo, Boo-san.\NVocê não me disse mais cedo...
+Dialogue: Marked=0,0:08:31.99,0:08:35.66,*Default,,0000,0000,0000,,que tinha esse cara estranho\Nbotando ovos nas pessoas?
+Dialogue: Marked=0,0:08:37.11,0:08:40.54,*Default,,0000,0000,0000,,Ah, aquilo? Está falando\Ndaquele Tsufuru-jin chamado Baby,
+Dialogue: Marked=0,0:08:40.54,0:08:44.15,*Default,,0000,0000,0000,,ou quem quer que tenha sido,\Nque entrou em mim e deixou uma coisa?
+Dialogue: Marked=0,0:08:44.58,0:08:46.06,*Default,,0000,0000,0000,,I-Isso mesmo!
+Dialogue: Marked=0,0:08:46.06,0:08:48.17,*Default,,0000,0000,0000,,Se é disso que está falando,\Nestá bem do seu lado, Satan-san.
+Dialogue: Marked=0,0:08:58.80,0:09:03.25,*Default,,0000,0000,0000,,Não era gostoso, então\Neu só embrulhei e deixei aí.
+Dialogue: Marked=0,0:09:03.25,0:09:05.26,*Default,,0000,0000,0000,,Está tudo bem. Nunca irá chocar.
+Dialogue: Marked=0,0:09:11.62,0:09:13.54,*Default,,0000,0000,0000,,Esse é o meu Majin Boo-san!
+Dialogue: Marked=0,0:09:20.08,0:09:23.89,*Default,,0000,0000,0000,,A propósito, esse Baby está aí entre os outros?
+Dialogue: Marked=0,0:09:28.57,0:09:31.83,*Default,,0000,0000,0000,,Está tudo bem. Ele não está aqui!
+Dialogue: Marked=0,0:09:31.83,0:09:33.42,*Default,,0000,0000,0000,,Todos esses caras são fortes?
+Dialogue: Marked=0,0:09:33.42,0:09:35.07,*Default,,0000,0000,0000,,São tão fortes quanto pessoas comuns.
+Dialogue: Marked=0,0:09:37.17,0:09:39.92,*Default,,0000,0000,0000,,É-É mesmo? Se é assim, eu, Satan...
+Dialogue: Marked=0,0:09:40.74,0:09:43.13,*Default,,0000,0000,0000,,Boo-san, tire-me daqui!
+Dialogue: Marked=0,0:09:49.21,0:09:54.82,*Default,,0000,0000,0000,,Senhoras e senhores, sempre disposto\Na derrotar o mal, sou eu, Mister Satan!
+Dialogue: Marked=0,0:09:54.82,0:09:58.24,*Default,,0000,0000,0000,,Eu não quero causar problemas\Na vocês, senhoras e senhores!
+Dialogue: Marked=0,0:09:58.24,0:09:59.23,*Default,,0000,0000,0000,,É por isso que...
+Dialogue: Marked=0,0:10:08.39,0:10:09.58,*Default,,0000,0000,0000,,Acabei com esses!
+Dialogue: Marked=0,0:10:11.47,0:10:15.79,*Default,,0000,0000,0000,,Não se preocupem. Vou fazer com que\Ntirem um cochilo enquanto cuido da ação!
+Dialogue: Marked=0,0:10:19.60,0:10:23.71,*Default,,0000,0000,0000,,B-B-Boo-san! As pessoas aqui\Nnão são humanos comuns, são?
+Dialogue: Marked=0,0:10:24.54,0:10:26.05,*Default,,0000,0000,0000,,Eu não sei.
+Dialogue: Marked=0,0:10:27.36,0:10:28.62,*Default,,0000,0000,0000,,N-Não pode ser...
+Dialogue: Marked=0,0:10:31.20,0:10:33.86,*Default,,0000,0000,0000,,Boo-san, ajude-me, por favor!
+Dialogue: Marked=0,0:10:33.86,0:10:35.36,*Default,,0000,0000,0000,,Estou a salvo...
+Dialogue: Marked=0,0:10:39.05,0:10:41.34,*Default,,0000,0000,0000,,Chi-Chi! Acabamos de voltar!
+Dialogue: Marked=0,0:10:41.34,0:10:46.23,*Default,,0000,0000,0000,,Chegamos! Mamãe, sabe de uma\Ncoisa? Eu me esforcei pra caramba!
+Dialogue: Marked=0,0:10:46.23,0:10:48.95,*Default,,0000,0000,0000,,Fui eu que recuperei todas as Dragon Balls!
+Dialogue: Marked=0,0:10:54.25,0:10:56.73,*Default,,0000,0000,0000,,Mamãe! Eu cheguei!
+Dialogue: Marked=0,0:10:56.73,0:10:59.45,*Default,,0000,0000,0000,,Eu estou com tanta fome, tanta fome!
+Dialogue: Marked=0,0:10:59.45,0:11:01.46,*Default,,0000,0000,0000,,Chi-Chi, ande logo e faça algo para eu comer.
+Dialogue: Marked=0,0:11:03.25,0:11:08.63,*Default,,0000,0000,0000,,Sabe, mamãe, o vovô selou\Nas Dragon Balls no Tenkai!
+Dialogue: Marked=0,0:11:13.21,0:11:16.75,*Default,,0000,0000,0000,,Ai, ai! O que você está fazendo, Chi-Chi?
+Dialogue: Marked=0,0:11:16.75,0:11:20.86,*Default,,0000,0000,0000,,Já sei! Está brava porque eu não\Ntrouxe as Dragon Balls comigo, certo?
+Dialogue: Marked=0,0:11:20.86,0:11:21.75,*Default,,0000,0000,0000,,Certo, Chi-Chi?
+Dialogue: Marked=0,0:11:30.80,0:11:36.25,*Default,,0000,0000,0000,,Diga, mamãe, está assim tão\Nbrava só porque eu fui para o espaço?
+Dialogue: Marked=0,0:11:37.13,0:11:38.95,*Default,,0000,0000,0000,,Olhe, eu não vou mais fazer isso.
+Dialogue: Marked=0,0:11:43.23,0:11:46.05,*Default,,0000,0000,0000,,Por que nenhuma de vocês fala com a gente?
+Dialogue: Marked=0,0:11:50.65,0:11:53.34,*Default,,0000,0000,0000,,Ninguém veio nos cumprimentar, hein?
+Dialogue: Marked=0,0:11:54.53,0:11:56.82,*Default,,0000,0000,0000,,Mesmo que seja comum\No papai não ter aparecido,
+Dialogue: Marked=0,0:11:56.82,0:12:00.89,*Default,,0000,0000,0000,,seria legal se a Bra estivesse\Nesperando por nós. Certo, Gill?
+Dialogue: Marked=0,0:12:02.70,0:12:04.19,*Default,,0000,0000,0000,,Perigo! Perigo! Perigo!
+
+Dialogue: Marked=0,0:12:07.06,0:12:11.69,apresDBZ2,,0000,0000,0000,,{\fad(300,0)\fscx55\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:12:07.06,0:12:11.69,apresDBZ4,,0000,0000,0000,,{\fad(300,0)\fscx70\fscy35\pos(180,530)}irc.rizon.net
+Dialogue: Marked=0,0:12:16.90,0:12:18.70,apresDBZ2,,0000,0000,0000,,{\fscx58\fscy65\pos(180,500)}KINTOUN FANSUB
+Dialogue: Marked=0,0:12:16.90,0:12:18.70,apresDBZ4,,0000,0000,0000,,{\fscx60\fscy30\pos(180,533)}kintoun.cjb.net
+
+Dialogue: Marked=0,0:12:20.87,0:12:22.80,*Default,,0000,0000,0000,,Perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:12:22.80,0:12:24.47,*Default,,0000,0000,0000,,O que foi, Gill?
+Dialogue: Marked=0,0:12:24.47,0:12:26.37,*Default,,0000,0000,0000,,O que é tão perigoso?
+Dialogue: Marked=0,0:12:26.37,0:12:28.03,*Default,,0000,0000,0000,,Ah, já sei!
+Dialogue: Marked=0,0:12:28.03,0:12:29.96,*Default,,0000,0000,0000,,É a primeira vez que vê o meu pai, não é, Gill?
+Dialogue: Marked=0,0:12:30.61,0:12:32.51,*Default,,0000,0000,0000,,Perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:12:33.37,0:12:36.67,*Default,,0000,0000,0000,,Isso mesmo, Gill. O papai é bem assustador.
+Dialogue: Marked=0,0:12:36.67,0:12:38.30,*Default,,0000,0000,0000,,Ele poderia ser a coisa\Nmais assustadora do universo!
+Dialogue: Marked=0,0:12:40.48,0:12:43.97,*Default,,0000,0000,0000,,Mas, a mamãe é ainda mais perigosa.\NMantenha isso em segredo.
+Dialogue: Marked=0,0:12:43.97,0:12:45.04,*Default,,0000,0000,0000,,Você está atrasado!
+Dialogue: Marked=0,0:12:49.69,0:12:50.27,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:12:54.09,0:12:59.04,*Default,,0000,0000,0000,,B-Bem, demorou mais do que\Neu esperava, mas as Dragon Balls...
+Dialogue: Marked=0,0:12:59.04,0:13:00.64,*Default,,0000,0000,0000,,Estão seladas no Tenkai, certo?
+Dialogue: Marked=0,0:13:01.43,0:13:05.15,*Default,,0000,0000,0000,,Sim, isso mesmo.\NEu deveria imaginar que você já sabe.
+Dialogue: Marked=0,0:13:06.44,0:13:08.81,*Default,,0000,0000,0000,,Tudo bem. Venha para dentro.
+Dialogue: Marked=0,0:13:21.45,0:13:22.78,*Default,,0000,0000,0000,,Bem-vindo de volta, Trunks.
+Dialogue: Marked=0,0:13:23.71,0:13:24.39,*Default,,0000,0000,0000,,Mamãe!
+Dialogue: Marked=0,0:13:26.74,0:13:29.27,*Default,,0000,0000,0000,,Trunks, você é um garoto malvado, hein?
+Dialogue: Marked=0,0:13:33.37,0:13:35.86,*Default,,0000,0000,0000,,Seu pai vai ter que te punir com firmeza.
+Dialogue: Marked=0,0:13:36.87,0:13:40.65,*Default,,0000,0000,0000,,Eu desisto. Eu acabei de chegar e já...
+Dialogue: Marked=0,0:13:42.83,0:13:43.45,*Default,,0000,0000,0000,,Tudo bem...
+Dialogue: Marked=0,0:13:45.57,0:13:47.21,*Default,,0000,0000,0000,,Além disso, já faz um bom tempo.
+Dialogue: Marked=0,0:13:49.20,0:13:50.92,*Default,,0000,0000,0000,,É, isso é verdade, né, papai?
+Dialogue: Marked=0,0:13:51.75,0:13:54.57,*Default,,0000,0000,0000,,É... Desde o Planeta Pital!
+Dialogue: Marked=0,0:13:57.98,0:13:59.03,*Default,,0000,0000,0000,,Saiya-jin!
+Dialogue: Marked=0,0:14:01.06,0:14:03.10,*Default,,0000,0000,0000,,V-Você não é meu pai!
+Dialogue: Marked=0,0:14:05.82,0:14:07.43,*Default,,0000,0000,0000,,Deixe-me agradecê-lo pela ocasião...
+Dialogue: Marked=0,0:14:14.77,0:14:20.28,*Default,,0000,0000,0000,,Você é T2006. Isso foi algo\Ninsolente de se fazer, seu erro de fábrica!
+Dialogue: Marked=0,0:14:22.65,0:14:24.89,*Default,,0000,0000,0000,,Saia daqui, Gill! É o Baby!
+Dialogue: Marked=0,0:14:26.06,0:14:30.01,*Default,,0000,0000,0000,,Graças à sua traição,\Nmeus planos foram arruinados!
+Dialogue: Marked=0,0:14:30.01,0:14:35.51,*Default,,0000,0000,0000,,Mas, como conseqüência, eu acabei\Nme encontrando com os outros Saiya-jins.
+Dialogue: Marked=0,0:14:45.94,0:14:46.54,*Default,,0000,0000,0000,,Gill!
+Dialogue: Marked=0,0:14:47.47,0:14:48.69,*Default,,0000,0000,0000,,Gill!
+Dialogue: Marked=0,0:14:50.96,0:14:57.78,*Default,,0000,0000,0000,,E, agora, Trunks...\NHoje é seu novo nascimento. Como meu servo...
+Dialogue: Marked=0,0:14:59.35,0:15:00.73,*Default,,0000,0000,0000,,Quer que eu seja seu servo?!
+Dialogue: Marked=0,0:15:02.81,0:15:08.00,*Default,,0000,0000,0000,,Já se esqueceu de que\Nfui capaz de entrar no seu corpo?
+Dialogue: Marked=0,0:15:08.66,0:15:09.26,*Default,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:15:19.23,0:15:27.74,*Default,,0000,0000,0000,,Sim, parece ter se lembrado.\NNaquela época, eu deixei um ovo no seu cérebro!
+Dialogue: Marked=0,0:15:43.46,0:15:47.02,*Default,,0000,0000,0000,,Ei, Chi-Chi, ainda está nervosa?
+Dialogue: Marked=0,0:15:47.02,0:15:52.37,*Default,,0000,0000,0000,,Vamos comer logo. Se eu tiver\Nque esperar mais um pouco, vou morrer!
+Dialogue: Marked=0,0:15:53.41,0:15:56.05,*Default,,0000,0000,0000,,Depois de ter todo o\Ntrabalho de reunir as Dragon Balls,
+Dialogue: Marked=0,0:15:56.05,0:15:59.42,*Default,,0000,0000,0000,,até parece que acabamos errando\Nem alguma coisa, né? Que coisa...
+Dialogue: Marked=0,0:16:00.16,0:16:02.50,*Default,,0000,0000,0000,,Ei, Chi-Chi...
+Dialogue: Marked=0,0:16:03.84,0:16:07.14,*Default,,0000,0000,0000,,Cale a boca! Não vou servir\Ncomida alguma para um Saiya-jin!
+Dialogue: Marked=0,0:16:07.91,0:16:09.87,*Default,,0000,0000,0000,,Do que você está falando, Chi-Chi?
+Dialogue: Marked=0,0:16:09.87,0:16:12.70,*Default,,0000,0000,0000,,Você já tem comida suficiente\Npara quatro pessoas aqui, não tem?
+Dialogue: Marked=0,0:16:12.70,0:16:14.24,*Default,,0000,0000,0000,,Isso é para nós.
+Dialogue: Marked=0,0:16:18.08,0:16:20.32,*Default,,0000,0000,0000,,Goten! Você voltou?
+Dialogue: Marked=0,0:16:22.10,0:16:25.41,*Default,,0000,0000,0000,,Eu fiquei pouco tempo sem te ver\Ne você já fica robusto desse jeito!
+Dialogue: Marked=0,0:16:27.22,0:16:29.12,*Default,,0000,0000,0000,,Você é um Saiya-jin desprezível!
+Dialogue: Marked=0,0:16:29.57,0:16:30.12,*Default,,0000,0000,0000,,Goten...
+Dialogue: Marked=0,0:16:31.22,0:16:32.46,*Default,,0000,0000,0000,,Não é mesmo, nii-san?
+Dialogue: Marked=0,0:16:33.29,0:16:36.01,*Default,,0000,0000,0000,,Sim, você tem razão, Goten.
+Dialogue: Marked=0,0:16:39.45,0:16:40.39,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:16:43.79,0:16:45.13,*Default,,0000,0000,0000,,Vovô, o que é isso?
+Dialogue: Marked=0,0:16:46.03,0:16:48.64,*Default,,0000,0000,0000,,Eu não sei, mas não é normal...
+Dialogue: Marked=0,0:16:54.27,0:16:57.69,*Default,,0000,0000,0000,,Nii-san, vamos começar agora.
+Dialogue: Marked=0,0:16:57.69,0:17:02.94,*Default,,0000,0000,0000,,Sim, você tem razão. Vamos nos\Ndivertir um pouco antes que o mestre chegue.
+Dialogue: Marked=0,0:17:04.08,0:17:04.81,*Default,,0000,0000,0000,,O mestre?
+Dialogue: Marked=0,0:17:10.02,0:17:14.31,*Default,,0000,0000,0000,,Papai! Goten-oji-san!\NDo que vocês estão falando?!
+Dialogue: Marked=0,0:17:14.31,0:17:16.07,*Default,,0000,0000,0000,,Ei, mamãe! Vovó!
+Dialogue: Marked=0,0:17:16.89,0:17:17.95,*Default,,0000,0000,0000,,Mate o Goku-san!
+Dialogue: Marked=0,0:17:31.04,0:17:32.97,*Default,,0000,0000,0000,,O que há com vocês, Gohan e Goten?!
+Dialogue: Marked=0,0:17:33.54,0:17:35.13,*Default,,0000,0000,0000,,Estão tentando destruir a Terra?!
+Dialogue: Marked=0,0:17:35.99,0:17:37.38,*Default,,0000,0000,0000,,Terra?
+Dialogue: Marked=0,0:17:37.38,0:17:39.22,*Default,,0000,0000,0000,,O quê? Este planeta?
+Dialogue: Marked=0,0:17:41.47,0:17:44.10,*Default,,0000,0000,0000,,Vamos despedaçá-lo junto\Ncom você e todos os outros, papai.
+Dialogue: Marked=0,0:17:45.14,0:17:47.44,*Default,,0000,0000,0000,,Vocês estão com febre ou alguma coisa do tipo?!
+Dialogue: Marked=0,0:18:08.97,0:18:13.31,*Default,,0000,0000,0000,,O que é isso? E logo quando\Neu trabalhei duro para salvar a Terra!
+Dialogue: Marked=0,0:18:14.75,0:18:15.80,*Default,,0000,0000,0000,,Salvar a Terra?
+Dialogue: Marked=0,0:18:16.83,0:18:19.89,*Default,,0000,0000,0000,,Você fez isso?\NQuando não pode sequer me derrotar?
+Dialogue: Marked=0,0:18:21.95,0:18:23.10,*Default,,0000,0000,0000,,Goten-oji-san!
+Dialogue: Marked=0,0:18:24.94,0:18:27.27,*Default,,0000,0000,0000,,Eu vou acabar com você, Pan.
+Dialogue: Marked=0,0:18:28.61,0:18:29.15,*Default,,0000,0000,0000,,Papai!
+Dialogue: Marked=0,0:18:46.38,0:18:48.96,*Default,,0000,0000,0000,,D-Droga...
+Dialogue: Marked=0,0:18:49.97,0:18:52.37,*Default,,0000,0000,0000,,P-Pan, você está bem?
+Dialogue: Marked=0,0:18:55.72,0:19:04.45,*Default,,0000,0000,0000,,Vovô, eu fiz algo de errado?\NEu sou uma menina tão ruim assim?
+Dialogue: Marked=0,0:19:05.34,0:19:08.88,*Default,,0000,0000,0000,,Não, isso não é verdade, Pan!\NVocê é uma boa menina!
+Dialogue: Marked=0,0:19:08.88,0:19:11.44,*Default,,0000,0000,0000,,Há alguma coisa estranha\Ncom o Gohan e com o Goten!
+Dialogue: Marked=0,0:19:12.74,0:19:13.98,*Default,,0000,0000,0000,,Pan! Fique comigo!
+Dialogue: Marked=0,0:19:15.41,0:19:15.95,*Default,,0000,0000,0000,,Pan!
+Dialogue: Marked=0,0:19:18.56,0:19:20.57,*Default,,0000,0000,0000,,Vocês vão pagar!
+Dialogue: Marked=0,0:19:24.30,0:19:27.04,*Default,,0000,0000,0000,,Você é mesmo o Gohan?
+Dialogue: Marked=0,0:19:31.29,0:19:35.00,*Default,,0000,0000,0000,,Bom, de qualquer ponto\Nde vista, sou eu, Son Gohan!
+Dialogue: Marked=0,0:19:38.41,0:19:40.26,*Default,,0000,0000,0000,,E eu sou Son Goten!
+Dialogue: Marked=0,0:19:47.65,0:19:53.31,*Default,,0000,0000,0000,,Goten, eu não me lembro de te treinar para\Nser o tipo de covarde que ataca pelas costas!
+Dialogue: Marked=0,0:19:54.38,0:19:59.90,*Default,,0000,0000,0000,,Ah! Então, quer dizer que você nunca faz atos dessa natureza, seu macaco bárbaro Saiya-jin?!
+Dialogue: Marked=0,0:20:01.04,0:20:03.78,*Default,,0000,0000,0000,,Eu não sou um Saiya-jin! Eu sou da Terra!
+Dialogue: Marked=0,0:20:05.87,0:20:06.99,*Default,,0000,0000,0000,,Não seja ridículo!
+Dialogue: Marked=0,0:20:11.90,0:20:14.96,*Default,,0000,0000,0000,,E, no momento, vocês\Nnão são humanos ou Saiya-jins!
+Dialogue: Marked=0,0:20:15.94,0:20:17.60,*Default,,0000,0000,0000,,Não passam de caras maus!
+Dialogue: Marked=0,0:20:50.48,0:20:54.98,*Default,,0000,0000,0000,,Parece que vocês não vão entender,\Na não ser que se machuquem um pouco mais...
+Dialogue: Marked=0,0:20:55.99,0:20:57.25,Poder,,0000,0000,0000,,KA
+Dialogue: Marked=0,0:20:57.25,0:20:58.51,Poder,,0000,0000,0000,,ME
+Dialogue: Marked=0,0:20:58.51,0:20:59.81,Poder,,0000,0000,0000,,HA
+Dialogue: Marked=0,0:20:59.81,0:21:01.92,Poder,,0000,0000,0000,,ME
+Dialogue: Marked=0,0:21:00.71,0:21:02.93,*Default,,0000,0000,0000,,{\pos(400,50)}Ei!
+Dialogue: Marked=0,0:21:03.52,0:21:04.93,*Default,,0000,0000,0000,,Ei!
+Dialogue: Marked=0,0:21:05.52,0:21:07.64,*Default,,0000,0000,0000,,Pare! Goku-san!
+Dialogue: Marked=0,0:21:08.33,0:21:09.56,*Default,,0000,0000,0000,,Satan...
+Dialogue: Marked=0,0:21:09.94,0:21:11.43,*Default,,0000,0000,0000,,Goku-san!
+Dialogue: Marked=0,0:21:11.43,0:21:17.31,*Default,,0000,0000,0000,,Gohan e Goten estão sendo\Ncontrolados por um Tsufuru-jin chamado Baby!
+Dialogue: Marked=0,0:21:19.06,0:21:20.19,P!,,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:21:22.40,0:21:25.82,*Default,,0000,0000,0000,,Cada humano no planeta\Ntambém está sendo controlado!
+Dialogue: Marked=0,0:21:26.87,0:21:29.33,P!,,0000,0000,0000,,Baby?! Ele fez isso?!
+Dialogue: Marked=0,0:21:43.20,0:21:45.72,*Default,,0000,0000,0000,,Você ainda não entendeu, papai?
+Dialogue: Marked=0,0:21:46.76,0:21:50.22,*Default,,0000,0000,0000,,Nós renascemos graças ao nosso mestre!
+Dialogue: Marked=0,0:21:51.20,0:21:53.48,*Default,,0000,0000,0000,,Na forma de Tsufuru-jins, quero dizer...
+Dialogue: Marked=0,0:22:07.99,0:22:10.62,*Default,,0000,0000,0000,,Vegeta! Até mesmo você...
+Dialogue: Marked=0,0:22:11.82,0:22:14.03,*Default,,0000,0000,0000,,E daí?
+Dialogue: Marked=0,0:22:14.03,0:22:17.79,Narrador,,0000,0000,0000,,Goku e os outros\Nfinalmente voltaram para a Terra.
+Dialogue: Marked=0,0:22:17.79,0:22:23.37,Narrador,,0000,0000,0000,,Entretanto, a Terra, assim como\No Tenkai, já caiu nas mãos de Baby.
+Dialogue: Marked=0,0:22:23.37,0:22:28.48,Narrador,,0000,0000,0000,,A batalha final entre Saiya-jins\Ne Tsufuru-jins está começando!

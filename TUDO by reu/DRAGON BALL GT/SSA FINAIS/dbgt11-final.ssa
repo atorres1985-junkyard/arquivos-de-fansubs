@@ -1,0 +1,271 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:55.56,0:13:05.56,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:05.44,0:02:09.44,Narrador,NTP,0000,0000,0000,!Effect,Nem os mumas, os animais\Ncarnívoros do Planeta Bihá,
+Dialogue: Marked=0,0:02:09.44,0:02:12.55,Narrador,NTP,0000,0000,0000,!Effect,nem os Irmãos Parapara,\Nque estavam atrás da Su Xing Qiu,
+Dialogue: Marked=0,0:02:12.55,0:02:15.21,Narrador,NTP,0000,0000,0000,!Effect,puderam com Goku e seus amigos.
+Dialogue: Marked=0,0:02:24.92,0:02:26.32,*Default,NTP,0000,0000,0000,!Effect,O que será isso?
+Dialogue: Marked=0,0:02:28.30,0:02:30.60,*Default,NTP,0000,0000,0000,!Effect,Gill, sabe o que está escrito aqui?
+Dialogue: Marked=0,0:02:30.65,0:02:32.96,*Default,NTP,0000,0000,0000,!Effect,"Destino: Planeta Lood."
+Dialogue: Marked=0,0:02:35.34,0:02:38.24,Narrador,NTP,0000,0000,0000,!Effect,Porém, sem ter tempo nem para respirar,
+Dialogue: Marked=0,0:02:38.33,0:02:44.54,Narrador,NTP,0000,0000,0000,!Effect,Pan e Gill partiram para o\Nespaço na nave dos Irmãos Bonpara!
+
+Dialogue: Marked=0,0:03:33.01,0:03:37.84,*Default,NTP,0000,0000,0000,!Effect,Saída da atmosfera completa!\NSaída da atmosfera completa!
+Dialogue: Marked=0,0:03:38.06,0:03:41.11,*Default,NTP,0000,0000,0000,!Effect,Ativando controle de gravidade.
+Dialogue: Marked=0,0:03:51.29,0:03:54.05,*Default,NTP,0000,0000,0000,!Effect,O que você fez, seu robô estúpido?!
+Dialogue: Marked=0,0:03:55.13,0:03:56.52,*Default,NTP,0000,0000,0000,!Effect,Faça-me o favor!
+Dialogue: Marked=0,0:03:58.63,0:04:00.86,*Default,NTP,0000,0000,0000,!Effect,Oh, não!\NAgora não é hora para isso!
+Dialogue: Marked=0,0:04:00.86,0:04:04.11,*Default,NTP,0000,0000,0000,!Effect,Temos que voltar para\Nonde o vovô está! Gill!
+Dialogue: Marked=0,0:04:05.83,0:04:11.54,*Default,NTP,0000,0000,0000,!Effect,Podemos não ser amigos,\Nmas temos de cooperar! Entendeu?!
+Dialogue: Marked=0,0:04:12.31,0:04:14.29,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo! Pan, perigo!
+Dialogue: Marked=0,0:04:14.61,0:04:16.63,*Default,NTP,0000,0000,0000,!Effect,Quem você está chamando\Nde perigosa, hein?! Quem?!
+Dialogue: Marked=0,0:04:16.98,0:04:19.38,*Default,NTP,0000,0000,0000,!Effect,- Olhe, não importa o quanto eu odeie isso!\N- Pan, perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:04:19.38,0:04:22.12,*Default,NTP,0000,0000,0000,!Effect,- Só sobrou você e eu!\N- Pan, perigo! Pan, perigo!
+Dialogue: Marked=0,0:04:22.12,0:04:23.63,*Default,NTP,0000,0000,0000,!Effect,- Então, temos de trabalhar juntos, certo?\N- Perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:04:23.96,0:04:27.01,*Default,NTP,0000,0000,0000,!Effect,Pan, perigo! Pan, perigo! Socorro! Socorro!
+Dialogue: Marked=0,0:04:27.80,0:04:32.43,*Default,NTP,0000,0000,0000,!Effect,Quieto!\NPor que tive que ficar logo com você?!
+Dialogue: Marked=0,0:04:36.81,0:04:38.43,*Default,NTP,0000,0000,0000,!Effect,Vejamos, agora...
+Dialogue: Marked=0,0:04:44.15,0:04:48.64,*Default,NTP,0000,0000,0000,!Effect,Não entendi! O que eu faço?
+Dialogue: Marked=0,0:04:48.64,0:04:52.18,*Default,NTP,0000,0000,0000,!Effect,Nem sei como pilotar uma nave...
+Dialogue: Marked=0,0:04:52.94,0:04:53.50,*Default,NTP,0000,0000,0000,!Effect,Gill!
+Dialogue: Marked=0,0:04:59.95,0:05:03.68,*Default,NTP,0000,0000,0000,!Effect,Ei, Gill, você também é uma máquina!
+Dialogue: Marked=0,0:05:03.68,0:05:07.34,*Default,NTP,0000,0000,0000,!Effect,Então, você deve saber por instinto\No que cada botão faz, não é?
+Dialogue: Marked=0,0:05:08.96,0:05:10.31,*Default,NTP,0000,0000,0000,!Effect,Desconhecido! Desconhecido!
+Dialogue: Marked=0,0:05:10.47,0:05:14.95,*Default,NTP,0000,0000,0000,!Effect,Então, não posso voltar! Se continuar\Nassim, você também não voltará!
+Dialogue: Marked=0,0:05:14.95,0:05:18.12,*Default,NTP,0000,0000,0000,!Effect,A não ser que você queira\Nser desmontado, descubra!
+Dialogue: Marked=0,0:05:22.17,0:05:26.74,*Default,NTP,0000,0000,0000,!Effect,Como é, você já sabia?\NDeveria ter falado antes!
+Dialogue: Marked=0,0:05:27.15,0:05:28.92,*Default,NTP,0000,0000,0000,!Effect,Ótimo, lá vai!
+Dialogue: Marked=0,0:05:33.83,0:05:37.13,*Default,NTP,0000,0000,0000,!Effect,Ei!\NAqui é um depósito de lixo!
+Dialogue: Marked=0,0:05:48.11,0:05:51.72,*Default,NTP,0000,0000,0000,!Effect,Ei, Pan acima e à esquerda!
+Dialogue: Marked=0,0:05:51.72,0:05:53.85,*Default,NTP,0000,0000,0000,!Effect,C-Como ela...
+Dialogue: Marked=0,0:05:54.11,0:05:57.73,*Default,NTP,0000,0000,0000,!Effect,Ei, rapazes, para onde aquela nave foi?!
+Dialogue: Marked=0,0:05:58.29,0:05:59.94,*Default,NTP,0000,0000,0000,!Effect,N-Não sei, para.
+Dialogue: Marked=0,0:06:00.45,0:06:01.11,*Default,NTP,0000,0000,0000,!Effect,Mentira!
+Dialogue: Marked=0,0:06:03.46,0:06:07.18,*Default,NTP,0000,0000,0000,!Effect,Beleza!\NRapazes, vamos fazer como de costume, para!
+Dialogue: Marked=0,0:06:07.18,0:06:07.95,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:06:08.50,0:06:12.52,*Default,NTP,0000,0000,0000,!Effect,Pronto, um, dois!\NUm, dois, três, quatro!
+Dialogue: Marked=0,0:06:12.52,0:06:16.29,*Default,NTP,0000,0000,0000,!Effect,Não tentem nos enganar!\NPara onde a Pan-chan foi?!
+Dialogue: Marked=0,0:06:16.80,0:06:19.47,*Default,NTP,0000,0000,0000,!Effect,Um, dois! Um, dois! Não sabemos, para!
+Dialogue: Marked=0,0:06:19.47,0:06:22.48,*Default,NTP,0000,0000,0000,!Effect,Um, dois! Um, dois! Não sabemos, para!
+Dialogue: Marked=0,0:06:22.48,0:06:24.75,*Default,NTP,0000,0000,0000,!Effect,Um, dois! Um, dois! É, é!
+Dialogue: Marked=0,0:06:24.75,0:06:27.27,*Default,NTP,0000,0000,0000,!Effect,Não sei nada sobre o piloto automático...
+Dialogue: Marked=0,0:06:27.27,0:06:30.48,*Default,NTP,0000,0000,0000,!Effect,levando-os de volta para o Planeta Lood, para!
+Dialogue: Marked=0,0:06:30.48,0:06:31.97,*Default,NTP,0000,0000,0000,!Effect,- I-Idiota!\N- I-Idiota!
+Dialogue: Marked=0,0:06:57.81,0:06:59.41,*Default,NTP,0000,0000,0000,!Effect,P-Pronto, preparar...
+Dialogue: Marked=0,0:07:15.13,0:07:17.55,*Default,NTP,0000,0000,0000,!Effect,E para que tudo isso?
+Dialogue: Marked=0,0:07:20.80,0:07:24.77,*Default,NTP,0000,0000,0000,!Effect,Nossa! De novo, não!\NVocê é terrível!
+Dialogue: Marked=0,0:07:30.14,0:07:31.49,*Default,NTP,0000,0000,0000,!Effect,Onde estamos, Gill?
+Dialogue: Marked=0,0:07:31.81,0:07:33.97,*Default,NTP,0000,0000,0000,!Effect,Desconhecido, desconhecido!\NCompletamente desconhecido!
+Dialogue: Marked=0,0:07:35.82,0:07:38.58,*Default,NTP,0000,0000,0000,!Effect,Fui idiota de perguntar, hein?
+Dialogue: Marked=0,0:07:47.38,0:07:49.76,*Default,NTP,0000,0000,0000,!Effect,Tem um monte de naves iguais.
+Dialogue: Marked=0,0:07:50.47,0:07:53.80,*Default,NTP,0000,0000,0000,!Effect,É isso! Este é o planeta de\Nonde vieram aqueles três!
+Dialogue: Marked=0,0:07:55.77,0:07:58.10,*Default,NTP,0000,0000,0000,!Effect,O que foi, Gill? Não me assuste assim.
+Dialogue: Marked=0,0:07:58.33,0:08:01.10,*Default,NTP,0000,0000,0000,!Effect,Descoberta! Descoberta!\NDragon Ball descoberta!
+Dialogue: Marked=0,0:08:01.44,0:08:02.64,*Default,NTP,0000,0000,0000,!Effect,O que você disse?
+Dialogue: Marked=0,0:08:05.11,0:08:08.41,*Default,NTP,0000,0000,0000,!Effect,É mesmo!\NTem um sinal vindo de lá!
+Dialogue: Marked=0,0:08:08.41,0:08:11.70,*Default,NTP,0000,0000,0000,!Effect,Mas, por que uma Dragon Ball estaria aqui?
+Dialogue: Marked=0,0:08:14.68,0:08:18.33,*Default,NTP,0000,0000,0000,!Effect,É a Liu Xing Qiu! É a Liu\NXing Qiu que eles roubaram!
+Dialogue: Marked=0,0:08:18.79,0:08:23.47,*Default,NTP,0000,0000,0000,!Effect,É isso! Eles trouxeram a\NLiu Xing Qiu para este planeta!
+Dialogue: Marked=0,0:08:23.47,0:08:25.85,*Default,NTP,0000,0000,0000,!Effect,Por isso que não achamos nada na nave,
+Dialogue: Marked=0,0:08:25.85,0:08:27.47,*Default,NTP,0000,0000,0000,!Effect,mesmo procurando tanto.
+Dialogue: Marked=0,0:08:27.47,0:08:33.50,*Default,NTP,0000,0000,0000,!Effect,Vejamos... De acordo com o radar,\Na Liu Xing Qiu está à nossa frente...
+Dialogue: Marked=0,0:08:52.43,0:08:54.07,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:08:57.10,0:08:59.16,*Default,NTP,0000,0000,0000,!Effect,Será que é um templo ou algo assim?
+Dialogue: Marked=0,0:08:59.43,0:09:00.77,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo!
+Dialogue: Marked=0,0:09:00.77,0:09:03.25,*Default,NTP,0000,0000,0000,!Effect,Você só sabe dizer isso, é?
+Dialogue: Marked=0,0:09:03.77,0:09:07.77,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo! Perigo! Perigo!\NPerigo! Perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:09:07.77,0:09:09.60,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo!
+Dialogue: Marked=0,0:09:13.11,0:09:14.09,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo!
+Dialogue: Marked=0,0:09:18.22,0:09:21.71,*Default,NTP,0000,0000,0000,!Effect,Nossa, que design cafona...
+Dialogue: Marked=0,0:09:29.46,0:09:30.90,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo?!
+Dialogue: Marked=0,0:09:31.13,0:09:33.74,*Default,NTP,0000,0000,0000,!Effect,Anda, vamos pegar a\NLiu Xing Qiu de volta!
+Dialogue: Marked=0,0:09:36.10,0:09:40.34,*Default,NTP,0000,0000,0000,!Effect,Você não deixará uma dama indefesa sozinha, né?!
+Dialogue: Marked=0,0:09:40.34,0:09:41.43,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo!
+Dialogue: Marked=0,0:09:41.43,0:09:44.71,*Default,NTP,0000,0000,0000,!Effect,Como você sabe?!\NNem fomos lá ainda!
+Dialogue: Marked=0,0:09:44.71,0:09:46.77,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo!\NPerigo! Perigo! Perigo!
+Dialogue: Marked=0,0:09:46.77,0:09:49.26,*Default,NTP,0000,0000,0000,!Effect,- Então, cadê o perigo?!
+Dialogue: Marked=0,0:09:48.71,0:09:50.83,*Default,NTP,0000,0000,0000,!Effect,{\move(400,540,400,580,1600,800)}- Perigoso! Perigoso! Perigoso!
+Dialogue: Marked=0,0:09:51.71,0:09:56.09,*Default,NTP,0000,0000,0000,!Effect,Que seja! Faça como quiser!\NPegarei a Liu Xing Qiu sozinha!
+Dialogue: Marked=0,0:09:59.72,0:10:02.72,*Default,NTP,0000,0000,0000,!Effect,Perigo! Perigo! Perigo! Perigo!
+Dialogue: Marked=0,0:10:16.40,0:10:18.27,*Default,NTP,0000,0000,0000,!Effect,Que vozes são essas?
+Dialogue: Marked=0,0:10:19.74,0:10:23.33,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka Lood-sama-sama...
+Dialogue: Marked=0,0:10:23.74,0:10:25.78,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:25.78,0:10:28.05,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:28.05,0:10:29.83,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:29.83,0:10:32.08,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:32.08,0:10:34.02,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:34.02,0:10:35.42,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:35.42,0:10:37.25,*Default,NTP,0000,0000,0000,!Effect,- Está trancado...
+Dialogue: Marked=0,0:10:36.09,0:10:38.18,*Default,NTP,0000,0000,0000,!Effect,{\move(400,540,400,580,1600,1200)}- Enyaka yakayaka...
+Dialogue: Marked=0,0:10:38.16,0:10:40.13,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:40.13,0:10:42.19,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:42.19,0:10:44.43,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:44.43,0:10:46.29,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:46.29,0:10:48.67,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:48.67,0:10:50.38,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:50.38,0:10:51.77,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:10:52.04,0:10:55.78,*Default,NTP,0000,0000,0000,!Effect,O que é isso? É muito chato!
+Dialogue: Marked=0,0:10:56.74,0:10:58.63,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:10:58.63,0:11:00.75,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:00.75,0:11:02.75,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:02.75,0:11:05.08,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:05.08,0:11:06.92,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:06.92,0:11:08.80,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:09.14,0:11:11.14,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:11.16,0:11:13.56,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:13.56,0:11:15.36,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:15.36,0:11:17.67,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:17.76,0:11:19.57,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:19.57,0:11:21.90,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:21.90,0:11:23.67,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:23.67,0:11:25.68,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:25.94,0:11:27.84,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:27.84,0:11:29.88,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:31.16,0:11:33.69,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo, rezem! Rezem, estou mandando!
+Dialogue: Marked=0,0:11:33.75,0:11:40.28,*Default,NTP,0000,0000,0000,!Effect,A reencarnação de Lood-sama está próxima!\NSuas orações dão forças para Lood-sama!
+Dialogue: Marked=0,0:11:40.79,0:11:42.69,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:42.69,0:11:44.68,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:44.68,0:11:46.73,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:46.73,0:11:48.73,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:48.73,0:11:50.60,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:50.60,0:11:52.42,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:11:53.56,0:11:55.31,*Default,NTP,0000,0000,0000,!Effect,O-O que é isso?
+Dialogue: Marked=0,0:11:56.90,0:11:58.63,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:11:58.74,0:12:00.59,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:12:01.77,0:12:03.20,*Default,NTP,0000,0000,0000,!Effect,É a Liu Xing Qiu!
+Dialogue: Marked=0,0:12:05.08,0:12:06.47,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:12:06.85,0:12:08.14,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:12:08.96,0:12:11.05,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:12:11.05,0:12:13.29,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:12:13.29,0:12:15.15,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:12:15.15,0:12:17.29,*Default,NTP,0000,0000,0000,!Effect,Lood-sama-sama...
+Dialogue: Marked=0,0:12:17.29,0:12:18.94,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka...
+Dialogue: Marked=0,0:13:07.02,0:13:11.08,*Default,NTP,0000,0000,0000,!Effect,Planeta Lood, é?\NParece um planeta assombrado, não é?
+Dialogue: Marked=0,0:13:15.77,0:13:17.38,*Default,NTP,0000,0000,0000,!Effect,Vamos lá, rapazes!
+Dialogue: Marked=0,0:13:20.42,0:13:22.92,*Default,NTP,0000,0000,0000,!Effect,Ei, parem de me arrumar problemas!
+Dialogue: Marked=0,0:13:22.92,0:13:24.09,*Default,NTP,0000,0000,0000,!Effect,Desçam!
+Dialogue: Marked=0,0:13:35.43,0:13:36.76,*Default,NTP,0000,0000,0000,!Effect,Ótimo, ótimo!
+Dialogue: Marked=0,0:13:40.44,0:13:42.11,*Default,NTP,0000,0000,0000,!Effect,Não, não, não!
+Dialogue: Marked=0,0:13:42.11,0:13:43.08,*Default,NTP,0000,0000,0000,!Effect,Certo, certo!
+Dialogue: Marked=0,0:13:43.08,0:13:46.44,*Default,NTP,0000,0000,0000,!Effect,Se Mutchi-Motchi-sama nos achar aqui...
+Dialogue: Marked=0,0:13:46.44,0:13:49.74,*Default,NTP,0000,0000,0000,!Effect,Nem quero pensar no que acontecerá!
+Dialogue: Marked=0,0:14:06.40,0:14:10.70,*Default,NTP,0000,0000,0000,!Effect,Gill! Que bom!\NVocê está bem, hein?
+Dialogue: Marked=0,0:14:12.80,0:14:14.89,*Default,NTP,0000,0000,0000,!Effect,Pan-chan! Cadê a Pan-chan?!
+Dialogue: Marked=0,0:14:15.07,0:14:17.69,*Default,NTP,0000,0000,0000,!Effect,Pan, perigo! Pan, perigo! Perigo!
+Dialogue: Marked=0,0:14:26.42,0:14:27.56,*Default,NTP,0000,0000,0000,!Effect,O que está acontecendo?!
+Dialogue: Marked=0,0:14:27.56,0:14:29.57,*Default,NTP,0000,0000,0000,!Effect,Ei, você aí!
+Dialogue: Marked=0,0:14:33.85,0:14:35.75,*Default,NTP,0000,0000,0000,!Effect,Você é o chefe, certo?
+Dialogue: Marked=0,0:14:40.19,0:14:42.88,*Default,NTP,0000,0000,0000,!Effect,Sua mãe não te ensinou...
+Dialogue: Marked=0,0:14:42.88,0:14:45.51,*Default,NTP,0000,0000,0000,!Effect,que roubar as coisas dos outros é feio?!
+Dialogue: Marked=0,0:14:46.05,0:14:47.22,*Default,NTP,0000,0000,0000,!Effect,Mas, o quê...
+Dialogue: Marked=0,0:14:47.38,0:14:50.05,*Default,NTP,0000,0000,0000,!Effect,Essa Liu Xing Qiu aí é nossa, e...
+Dialogue: Marked=0,0:14:50.05,0:14:52.32,*Default,NTP,0000,0000,0000,!Effect,trabalhamos duro para\Nganhá-la do povo do Monte Calvo!
+Dialogue: Marked=0,0:14:52.32,0:14:54.06,*Default,NTP,0000,0000,0000,!Effect,Como é que você pôde roubá-la de nós?!
+Dialogue: Marked=0,0:14:54.66,0:14:58.56,*Default,NTP,0000,0000,0000,!Effect,Como um adulto responsável, não tem vergonha do que fez?
+Dialogue: Marked=0,0:14:58.56,0:15:00.73,*Default,NTP,0000,0000,0000,!Effect,Então, é você quem...
+Dialogue: Marked=0,0:15:02.00,0:15:07.46,*Default,NTP,0000,0000,0000,!Effect,Neste caso, por que não me entrega a outra Dragon Ball que você tem?
+Dialogue: Marked=0,0:15:08.41,0:15:09.61,*Default,NTP,0000,0000,0000,!Effect,Como é que é?
+Dialogue: Marked=0,0:15:10.01,0:15:14.12,*Default,NTP,0000,0000,0000,!Effect,A Dragon Ball de quatro estrelas.
+Dialogue: Marked=0,0:15:15.52,0:15:16.95,*Default,NTP,0000,0000,0000,!Effect,Quem é você?!
+Dialogue: Marked=0,0:15:17.68,0:15:22.32,*Default,NTP,0000,0000,0000,!Effect,Me chamo Mutchi-Motchi,\No Sacerdote! Olhe lá!
+Dialogue: Marked=0,0:15:22.32,0:15:25.19,*Default,NTP,0000,0000,0000,!Effect,Este é o nosso deus da destruição, Lood-sama!
+Dialogue: Marked=0,0:15:25.19,0:15:28.26,*Default,NTP,0000,0000,0000,!Effect,A reencarnação de Lood-sama é o nosso objetivo!
+Dialogue: Marked=0,0:15:28.26,0:15:30.76,*Default,NTP,0000,0000,0000,!Effect,Traremos Lood-sama de volta,
+Dialogue: Marked=0,0:15:30.76,0:15:33.90,*Default,NTP,0000,0000,0000,!Effect,e ele destruirá este universo caótico!
+Dialogue: Marked=0,0:15:33.90,0:15:39.27,*Default,NTP,0000,0000,0000,!Effect,Nós, os discípulos de Lood-sama,\Ncriaremos uma nova ordem!
+Dialogue: Marked=0,0:15:43.79,0:15:46.54,*Default,NTP,0000,0000,0000,!Effect,Agora, seja boazinha e entregue a outra Dragon Ball...
+Dialogue: Marked=0,0:15:48.73,0:15:51.91,*Default,NTP,0000,0000,0000,!Effect,Ei, isso é tudo bobagem!
+Dialogue: Marked=0,0:15:52.46,0:15:57.83,*Default,NTP,0000,0000,0000,!Effect,Seja como for, a Liu Xing Qiu nos\Npertence eu pegarei de volta, certo? Até!
+Dialogue: Marked=0,0:15:57.99,0:16:00.78,*Default,NTP,0000,0000,0000,!Effect,E-Ei, você! Espere!
+Dialogue: Marked=0,0:16:03.84,0:16:04.88,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:16:18.01,0:16:21.48,*Default,NTP,0000,0000,0000,!Effect,Nisso é que dá não\Nlevar os outros à sério!
+Dialogue: Marked=0,0:16:21.48,0:16:24.21,P!,NTP,0000,0000,0000,!Effect,O que é isso?\NNão consigo mexer meus braços e pernas!
+Dialogue: Marked=0,0:16:24.21,0:16:27.67,P!,NTP,0000,0000,0000,!Effect,Não consigo me mexer!\NO que aconteceu?
+Dialogue: Marked=0,0:16:31.89,0:16:36.12,*Default,NTP,0000,0000,0000,!Effect,Parece que ela não estava com a Dragon Ball...
+Dialogue: Marked=0,0:16:43.70,0:16:46.46,*Default,NTP,0000,0000,0000,!Effect,Pronto, você se tornará\Nparte de Lood-sama!
+Dialogue: Marked=0,0:16:47.70,0:16:51.37,*Default,NTP,0000,0000,0000,!Effect,Enyaka yakayaka Lood... O quê?!
+Dialogue: Marked=0,0:17:01.65,0:17:06.69,*Default,NTP,0000,0000,0000,!Effect,Hein? Que estranho...\NO ki da Pan desapareceu de repente.
+Dialogue: Marked=0,0:17:06.88,0:17:09.19,*Default,NTP,0000,0000,0000,!Effect,Pan-chan! Pan-chan!
+Dialogue: Marked=0,0:17:09.76,0:17:11.66,*Default,NTP,0000,0000,0000,!Effect,Quem são vocês?!
+Dialogue: Marked=0,0:17:11.66,0:17:14.82,*Default,NTP,0000,0000,0000,!Effect,Mutchi-Motchi-sama!
+Dialogue: Marked=0,0:17:17.67,0:17:19.87,*Default,NTP,0000,0000,0000,!Effect,O que vocês estão fazendo?!
+Dialogue: Marked=0,0:17:20.21,0:17:22.00,*Default,NTP,0000,0000,0000,!Effect,Er, bem, sabe...
+Dialogue: Marked=0,0:17:22.00,0:17:24.00,*Default,NTP,0000,0000,0000,!Effect,Hmm, a Dragon Ball...
+Dialogue: Marked=0,0:17:24.16,0:17:25.87,*Default,NTP,0000,0000,0000,!Effect,Trouxemos para você! Sim!
+Dialogue: Marked=0,0:17:25.94,0:17:28.50,*Default,NTP,0000,0000,0000,!Effect,Sim, sim, muito bem.
+Dialogue: Marked=0,0:17:28.50,0:17:30.67,*Default,NTP,0000,0000,0000,!Effect,Era isso o que vocês esperavam ouvir?!
+Dialogue: Marked=0,0:17:40.66,0:17:41.69,*Default,NTP,0000,0000,0000,!Effect,Como é?!
+Dialogue: Marked=0,0:17:58.26,0:18:01.74,*Default,NTP,0000,0000,0000,!Effect,Eles eram seus amigos!\NO que você fez foi horrível!
+Dialogue: Marked=0,0:18:02.03,0:18:07.25,*Default,NTP,0000,0000,0000,!Effect,Horrível? Eles eram discípulos do Lood-sama,\Nnosso deus da destruição.
+Dialogue: Marked=0,0:18:07.25,0:18:10.95,*Default,NTP,0000,0000,0000,!Effect,Fazer parte de Lood-sama\Né o maior prazer que um...
+Dialogue: Marked=0,0:18:10.95,0:18:13.26,*Default,NTP,0000,0000,0000,!Effect,discípulo pode ter!
+Dialogue: Marked=0,0:18:14.01,0:18:15.01,*Default,NTP,0000,0000,0000,!Effect,Lood?
+Dialogue: Marked=0,0:18:15.50,0:18:18.23,*Default,NTP,0000,0000,0000,!Effect,E, por ter nos poupado o\Ntrabalho de ir atrás de vocês,
+Dialogue: Marked=0,0:18:18.23,0:18:21.44,*Default,NTP,0000,0000,0000,!Effect,Bonpara e os outros já\Nserviram o seu propósito...
+Dialogue: Marked=0,0:18:21.44,0:18:25.43,*Default,NTP,0000,0000,0000,!Effect,Agora, que tal nos entregar a Dragon Ball?
+Dialogue: Marked=0,0:18:25.71,0:18:29.27,*Default,NTP,0000,0000,0000,!Effect,Não seja ridículo!\NNos devolva a Liu Xing Qiu que você roubou!
+Dialogue: Marked=0,0:18:31.34,0:18:35.03,*Default,NTP,0000,0000,0000,!Effect,Lood-sama está bravo!\NEntreguem agora!
+Dialogue: Marked=0,0:18:35.34,0:18:37.07,*Default,NTP,0000,0000,0000,!Effect,- Me recuso!\N- Eu também!
+Dialogue: Marked=0,0:18:37.16,0:18:38.86,*Default,NTP,0000,0000,0000,!Effect,Oh, isso está certo?
+Dialogue: Marked=0,0:18:46.54,0:18:50.63,*Default,NTP,0000,0000,0000,!Effect,Então, pegarei ela depois\Nde me livrar de vocês!
+Dialogue: Marked=0,0:18:50.63,0:18:51.71,*Default,NTP,0000,0000,0000,!Effect,Como é?!
+Dialogue: Marked=0,0:18:58.97,0:19:00.18,*Default,NTP,0000,0000,0000,!Effect,Isso foi sujeira!
+Dialogue: Marked=0,0:19:01.26,0:19:04.18,*Default,NTP,0000,0000,0000,!Effect,Quem mandou cair num truque tão manjado?!
+Dialogue: Marked=0,0:19:08.59,0:19:11.86,*Default,NTP,0000,0000,0000,!Effect,Você não é tão ruim, hein?\NBem, que tal isso?!
+Dialogue: Marked=0,0:19:18.65,0:19:20.11,*Default,NTP,0000,0000,0000,!Effect,Goku-san!
+Dialogue: Marked=0,0:19:20.11,0:19:23.95,*Default,NTP,0000,0000,0000,!Effect,Uh, ai!\NCara, você é bem sorrateiro, hein?!
+Dialogue: Marked=0,0:19:25.48,0:19:29.26,*Default,NTP,0000,0000,0000,!Effect,Farei de tudo para ganhar!\NÉ o ensinamento do Lood-sama!
+Dialogue: Marked=0,0:19:29.26,0:19:32.96,*Default,NTP,0000,0000,0000,!Effect,Agora, para terminar!\NVamos! Apareça aqui!
+Dialogue: Marked=0,0:19:56.96,0:20:01.86,*Default,NTP,0000,0000,0000,!Effect,Que tal?\NÉ o meu precioso Leion!
+Dialogue: Marked=0,0:20:28.44,0:20:31.88,P!,NTP,0000,0000,0000,!Effect,Trunks! Vovô!\NEstou aqui! Socorro!
+Dialogue: Marked=0,0:20:33.33,0:20:34.86,P!,NTP,0000,0000,0000,!Effect,Gill, aqui! Aqui!
+Dialogue: Marked=0,0:20:34.95,0:20:37.15,P!,NTP,0000,0000,0000,!Effect,Não consigo me mexer!
+Dialogue: Marked=0,0:20:37.44,0:20:40.50,P!,NTP,0000,0000,0000,!Effect,Oh, me lembrarei disso, robô inútil!
+Dialogue: Marked=0,0:20:40.50,0:20:43.98,P!,NTP,0000,0000,0000,!Effect,Quando eu puder me mexer novamente,\Nvocê não escapará de mim por nada!
+Dialogue: Marked=0,0:20:47.11,0:20:49.48,P!,NTP,0000,0000,0000,!Effect,Isso mesmo, sou eu! A Pan!
+Dialogue: Marked=0,0:20:50.84,0:20:54.37,*Default,NTP,0000,0000,0000,!Effect,Lendo sinais vitais!\NLendo sinais vitais! Pan!
+Dialogue: Marked=0,0:20:54.95,0:20:57.14,P!,NTP,0000,0000,0000,!Effect,Isso mesmo, Gill, sou eu!
+Dialogue: Marked=0,0:20:59.24,0:21:00.55,P!,NTP,0000,0000,0000,!Effect,Quem é esse?
+Dialogue: Marked=0,0:21:06.24,0:21:08.16,*Default,NTP,0000,0000,0000,!Effect,Não é possível!
+Dialogue: Marked=0,0:21:23.48,0:21:25.97,*Default,NTP,0000,0000,0000,!Effect,Você está bem, Trunks?
+Dialogue: Marked=0,0:21:25.97,0:21:29.32,*Default,NTP,0000,0000,0000,!Effect,Sim!\NDesculpe por ter baixado a guarda...
+Dialogue: Marked=0,0:21:29.98,0:21:30.70,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:21:32.20,0:21:34.72,*Default,NTP,0000,0000,0000,!Effect,Parece que vocês têm alguma habilidade.
+Dialogue: Marked=0,0:21:34.72,0:21:38.24,*Default,NTP,0000,0000,0000,!Effect,Mas, não se orgulhem só porque derrotaram o Motchi!
+Dialogue: Marked=0,0:21:38.24,0:21:40.71,*Default,NTP,0000,0000,0000,!Effect,Ele não passava de um servo!
+Dialogue: Marked=0,0:21:40.94,0:21:43.05,*Default,NTP,0000,0000,0000,!Effect,O-O chicote está se mexendo sozinho!
+Dialogue: Marked=0,0:21:44.53,0:21:49.33,*Default,NTP,0000,0000,0000,!Effect,Muito bem, deixe-me mostrar a minha verdadeira forma...
+Dialogue: Marked=0,0:21:59.64,0:22:00.89,*Default,NTP,0000,0000,0000,!Effect,Ele tem um ki incrível!
+Dialogue: Marked=0,0:22:00.89,0:22:03.07,*Default,NTP,0000,0000,0000,!Effect,O que é você?! Quem é você?!
+Dialogue: Marked=0,0:22:05.02,0:22:10.24,*Default,NTP,0000,0000,0000,!Effect,Eu sou Mutchi, o sacerdote do Lood-sama!
+Dialogue: Marked=0,0:22:10.24,0:22:15.04,Narrador,NTP,0000,0000,0000,!Effect,O misterioso sacerdote de Lood,\NMutchi, encara Goku e Trunks.
+Dialogue: Marked=0,0:22:15.57,0:22:20.41,Narrador,NTP,0000,0000,0000,!Effect,Que tipo de habilidades ele terá?
+Dialogue: Marked=0,0:22:21.04,0:22:25.34,Narrador,NTP,0000,0000,0000,!Effect,E qual será o destino de Pan,\Nque foi transformada em uma boneca?

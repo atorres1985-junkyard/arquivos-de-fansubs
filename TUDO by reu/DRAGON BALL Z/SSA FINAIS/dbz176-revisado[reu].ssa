@@ -1,0 +1,265 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,6,30,30,20,0,0
+Style: Radio3,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,6,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,Screwball,80,65535,255,4194368,4194368,-1,0,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: PLACA,Comic Sans,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:30.48,0:02:40.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:52.00,0:01:56.55,Narrador,,0000,0000,0000,,O infernal torneio "Cell Games" chegou.
+Dialogue: Marked=0,0:02:06.64,0:02:10.59,*Default,,0000,0000,0000,,Vamos fazer caretas para ele.
+Dialogue: Marked=0,0:02:12.62,0:02:15.13,*Default,,0000,0000,0000,,Então, vou mostrar a ele.
+Dialogue: Marked=0,0:02:50.14,0:02:52.33,*Default,,0000,0000,0000,,Obrigado por virem.
+Dialogue: Marked=0,0:02:58.21,0:02:59.68,*Default,,0000,0000,0000,,Que tal?
+Dialogue: Marked=0,0:03:07.99,0:03:09.43,*Default,,0000,0000,0000,,Chegou a hora.
+
+Dialogue: Marked=0,0:03:14.90,0:03:22.92,apresDBZ2,,0000,0000,0000,,{\c&HE7E7E7\pos(675,70)\fad(500,0)\fscx100\fscy100}episódio 176
+Dialogue: Marked=0,0:03:14.90,0:03:22.92,apresDBZ2,,0000,0000,0000,,{\c&HE7E7E7\pos(255,185)\fad(500,0)\fscx110\fscy110}Esperem um pouco{\i1}!!
+Dialogue: Marked=0,0:03:14.90,0:03:22.92,apresDBZ2,,0000,0000,0000,,{\c&HE7E7E7\pos(415,485)\fad(500,0)\fscx117\fscy150}O grande ataque do exército de Satan
+
+Dialogue: Marked=0,0:03:40.39,0:03:42.72,*Default,,0000,0000,0000,,Não importa quem vem primeiro.
+Dialogue: Marked=0,0:03:45.00,0:03:48.47,*Default,,0000,0000,0000,,Claro.\NEstá decidido que eu começo.
+Dialogue: Marked=0,0:03:49.11,0:03:50.61,*Default,,0000,0000,0000,,Deixa, Goku.
+Dialogue: Marked=0,0:03:50.61,0:03:53.21,*Default,,0000,0000,0000,,Por mais que fale, ele não vai entender.
+Dialogue: Marked=0,0:03:53.21,0:03:54.81,*Default,,0000,0000,0000,,Mas, não posso deixá-lo lutar...
+Dialogue: Marked=0,0:03:54.81,0:03:56.45,*Default,,0000,0000,0000,,Você vai ser morto!
+Dialogue: Marked=0,0:03:56.45,0:03:58.32,*Default,,0000,0000,0000,,Desculpe por dizer, mas deveria parar agora.
+Dialogue: Marked=0,0:04:05.34,0:04:06.90,*Default,,0000,0000,0000,,Ei, câmera!
+Dialogue: Marked=0,0:04:06.90,0:04:09.10,*Default,,0000,0000,0000,,Dê uma filmada naquele idiota.
+Dialogue: Marked=0,0:04:09.10,0:04:09.66,*Default,,0000,0000,0000,,Sim.
+Dialogue: Marked=0,0:04:13.19,0:04:17.95,*Default,,0000,0000,0000,,Estou ouvindo gritos da audiência em todo país.
+Dialogue: Marked=0,0:04:17.95,0:04:23.43,*Default,,0000,0000,0000,,Sabem o que este homem\Ndisse para o Mister Satan?
+Dialogue: Marked=0,0:04:24.04,0:04:27.30,*Default,,0000,0000,0000,,Ele estava falando besteiras\Ndo tipo "Você vai ser morto".
+Dialogue: Marked=0,0:04:27.30,0:04:30.38,*Default,,0000,0000,0000,,"Desculpe por dizer, mas deveria parar agora."
+Dialogue: Marked=0,0:04:30.38,0:04:32.18,*Default,,0000,0000,0000,,Ele falou isso!
+Dialogue: Marked=0,0:04:38.93,0:04:42.20,Radio,,0000,0000,0000,,Esses idiotas são um estorvo.
+Dialogue: Marked=0,0:04:43.37,0:04:48.08,Radio,,0000,0000,0000,,{\fad(300,0)}Já falei para eles, mas ainda\Nnão sabem quem Mister Satan é.
+Dialogue: Marked=0,0:04:49.02,0:04:52.85,*Default,,0000,0000,0000,,Que pessoal mais estranho.
+Dialogue: Marked=0,0:04:52.85,0:04:54.17,*Default,,0000,0000,0000,,Ele se parece...
+Dialogue: Marked=0,0:04:55.83,0:04:58.79,*Default,,0000,0000,0000,,Aquele homem se parece...
+Dialogue: Marked=0,0:05:00.15,0:05:08.47,*Default,,0000,0000,0000,,Com aquela criança que\Nnos salvou de Piccolo Daimao.
+Dialogue: Marked=0,0:05:15.51,0:05:19.24,*Default,,0000,0000,0000,,Mas, as cores dos olhos\Ne do cabelo são diferentes.
+Dialogue: Marked=0,0:05:20.95,0:05:22.66,*Default,,0000,0000,0000,,Não deve ser ele.
+Dialogue: Marked=0,0:05:24.73,0:05:35.50,*Default,,0000,0000,0000,,Mas, o que me preocupa é que aquele\Nse parece exatamente com Piccolo Daimao.
+Dialogue: Marked=0,0:05:36.14,0:05:39.24,*Default,,0000,0000,0000,,Está tudo bem.\NDeixe aquele idiota fazer o que quiser.
+Dialogue: Marked=0,0:05:40.03,0:05:43.12,*Default,,0000,0000,0000,,Mesmo se for morto, podemos\Nressuscitá-lo com as Dragon Balls.
+Dialogue: Marked=0,0:05:44.46,0:05:46.51,*Default,,0000,0000,0000,,Ora, ora, não tem jeito.
+Dialogue: Marked=0,0:05:48.20,0:05:53.22,*Default,,0000,0000,0000,,Ah, parece que finalmente\Nentenderam! Mas, isso é lógico!
+Dialogue: Marked=0,0:05:53.22,0:05:57.27,*Default,,0000,0000,0000,,Será que ele percebeu que\Nacabou de salvar sua vida?
+Dialogue: Marked=0,0:05:57.51,0:05:59.66,*Default,,0000,0000,0000,,Finalmente entenderam?
+Dialogue: Marked=0,0:05:59.66,0:06:03.36,*Default,,0000,0000,0000,,Depois de ser atrapalhado\Npor essas pessoas estranhas,
+Dialogue: Marked=0,0:06:03.36,0:06:05.86,*Default,,0000,0000,0000,,Mister Satan se apronta\Npara começar a luta!
+Dialogue: Marked=0,0:06:07.58,0:06:09.63,Radio,,0000,0000,0000,,Por favor, espere, sensei.
+Dialogue: Marked=0,0:06:24.38,0:06:25.76,*Default,,0000,0000,0000,,O que é aquilo?
+Dialogue: Marked=0,0:06:41.61,0:06:45.07,*Default,,0000,0000,0000,,Pessoas misteriosas\Napareceram na frente de Mister Satan!
+Dialogue: Marked=0,0:06:45.07,0:06:46.94,*Default,,0000,0000,0000,,Quem serão eles?
+Dialogue: Marked=0,0:06:48.15,0:06:50.28,*Default,,0000,0000,0000,,Mais pessoas estranhas chegaram...
+Dialogue: Marked=0,0:06:51.04,0:06:54.58,*Default,,0000,0000,0000,,Nós somos pupilos de Mister Satan.
+Dialogue: Marked=0,0:07:00.16,0:07:01.82,*Default,,0000,0000,0000,,Eu sou o mais belo do mundo:
+Dialogue: Marked=0,0:07:01.82,0:07:03.32,*Default,,0000,0000,0000,,o lindo Caroni.
+Dialogue: Marked=0,0:07:09.97,0:07:13.99,*Default,,0000,0000,0000,,Eu sou o mais forte do mundo, Piroshiki.
+Dialogue: Marked=0,0:07:19.14,0:07:23.48,*Default,,0000,0000,0000,,P-Parece que são conhecidos de Mister Satan...
+Dialogue: Marked=0,0:07:24.27,0:07:25.87,*Default,,0000,0000,0000,,Deixe-me apresentá-los.
+Dialogue: Marked=0,0:07:26.80,0:07:30.51,*Default,,0000,0000,0000,,Eles são os pupilos Nº 1 e Nº 2 de Mister Satan.
+Dialogue: Marked=0,0:07:30.51,0:07:37.54,*Default,,0000,0000,0000,,São os mais rápidos e mais fortes\Ne são os 2º e 3º mais fortes do mundo.
+Dialogue: Marked=0,0:07:37.98,0:07:41.04,*Default,,0000,0000,0000,,Nossa, isso é incrível.
+Dialogue: Marked=0,0:07:41.42,0:07:44.99,*Default,,0000,0000,0000,,Eu sou a bela administradora, Pizza.
+Dialogue: Marked=0,0:07:46.65,0:07:51.44,*Default,,0000,0000,0000,,Sensei, não precisa sujar\Nsuas mãos contra alguém assim.
+Dialogue: Marked=0,0:07:51.44,0:07:54.80,*Default,,0000,0000,0000,,Vamos cuidar dele.
+Dialogue: Marked=0,0:07:55.27,0:07:57.14,*Default,,0000,0000,0000,,Hmm, certo.
+Dialogue: Marked=0,0:07:58.19,0:08:02.81,*Default,,0000,0000,0000,,Seria muito difícil que eu\Ncuidasse de alguém como ele.
+Dialogue: Marked=0,0:08:03.16,0:08:04.54,*Default,,0000,0000,0000,,Vou deixar para vocês.
+Dialogue: Marked=0,0:08:07.12,0:08:12.45,*Default,,0000,0000,0000,,Oh! Senhores e senhoras, ouviram isso?
+Dialogue: Marked=0,0:08:13.13,0:08:18.32,*Default,,0000,0000,0000,,Ao invés de Mister Satan,\Ndois pupilos dele cuidarão de Cell!
+Dialogue: Marked=0,0:08:18.32,0:08:20.08,*Default,,0000,0000,0000,,São os nossos salvadores!
+Dialogue: Marked=0,0:08:21.17,0:08:23.74,*Default,,0000,0000,0000,,São substitutos muito confiáveis.
+Dialogue: Marked=0,0:08:23.74,0:08:26.98,*Default,,0000,0000,0000,,Está se tornando um evento muito interessante!
+Dialogue: Marked=0,0:08:33.19,0:08:35.27,*Default,,0000,0000,0000,,Caroni e Piroshiki?
+Dialogue: Marked=0,0:08:35.27,0:08:37.47,*Default,,0000,0000,0000,,Já os vi em revistas.
+Dialogue: Marked=0,0:08:37.47,0:08:39.18,*Default,,0000,0000,0000,,São os melhores pupilos de Satan...
+Dialogue: Marked=0,0:08:39.18,0:08:42.75,*Default,,0000,0000,0000,,e já ganharam vários torneios de artes marciais.
+Dialogue: Marked=0,0:08:42.75,0:08:44.81,*Default,,0000,0000,0000,,Que incrível.
+Dialogue: Marked=0,0:08:46.26,0:08:47.81,P!,,0000,0000,0000,,Idiotas.
+Dialogue: Marked=0,0:08:48.23,0:08:51.32,*Default,,0000,0000,0000,,O número de idiotas aumentou.
+Dialogue: Marked=0,0:08:51.97,0:08:54.44,*Default,,0000,0000,0000,,Bem, a abertura dos Cell Games!
+Dialogue: Marked=0,0:08:54.44,0:08:59.28,*Default,,0000,0000,0000,,O primeiro é o pupilo do\NMister Satan, o participante Caroni.
+Dialogue: Marked=0,0:09:00.20,0:09:04.29,*Default,,0000,0000,0000,,Eu, Caroni, serei o seu adversário.
+Dialogue: Marked=0,0:09:04.29,0:09:05.22,*Default,,0000,0000,0000,,Tudo bem?
+Dialogue: Marked=0,0:09:06.01,0:09:07.54,P!,,0000,0000,0000,,Hm, doces.
+Dialogue: Marked=0,0:09:30.15,0:09:33.69,*Default,,0000,0000,0000,,Quando você morrer,\Nessas flores serão enterradas junto.
+Dialogue: Marked=0,0:09:34.89,0:09:39.49,*Default,,0000,0000,0000,,- Uau!\N- Lindo!
+Dialogue: Marked=0,0:09:39.84,0:09:42.98,*Default,,0000,0000,0000,,Impressionante! Que elegância!
+Dialogue: Marked=0,0:09:42.98,0:09:45.00,*Default,,0000,0000,0000,,Que técnica brilhante!
+Dialogue: Marked=0,0:09:45.82,0:09:47.70,*Default,,0000,0000,0000,,Vou explicar.
+Dialogue: Marked=0,0:09:47.70,0:09:50.18,*Default,,0000,0000,0000,,Ele é um mestre dos ataques aéreos...
+Dialogue: Marked=0,0:09:50.18,0:09:53.51,*Default,,0000,0000,0000,,e pode pegar as coisas no alto com facilidade.
+Dialogue: Marked=0,0:09:53.94,0:09:55.71,*Default,,0000,0000,0000,,Isso é incrível!
+Dialogue: Marked=0,0:09:55.71,0:09:57.55,*Default,,0000,0000,0000,,Só podia ser pupilo de Satan!
+Dialogue: Marked=0,0:09:57.55,0:09:59.51,*Default,,0000,0000,0000,,Ele é completamente diferente!
+Dialogue: Marked=0,0:10:00.62,0:10:02.98,*Default,,0000,0000,0000,,Qual o problema desse cara?
+Dialogue: Marked=0,0:10:04.70,0:10:09.02,P!,,0000,0000,0000,,Com o truque de agora,\Nas minhas fãs aumentaram 10 vezes mais.
+Dialogue: Marked=0,0:10:13.15,0:10:18.32,*Default,,0000,0000,0000,,Bem, os Cell Games, nos quais está em\Njogo o destino da Terra, acabaram de começar!
+Dialogue: Marked=0,0:10:19.35,0:10:20.47,*Default,,0000,0000,0000,,As regras são simples:
+Dialogue: Marked=0,0:10:20.47,0:10:25.24,*Default,,0000,0000,0000,,quem cair do ringue, desistir ou morrer, perde.
+Dialogue: Marked=0,0:10:27.10,0:10:28.17,*Default,,0000,0000,0000,,Está com medo?
+Dialogue: Marked=0,0:10:28.88,0:10:32.04,*Default,,0000,0000,0000,,Ei, a dor vai ser rápida.
+Dialogue: Marked=0,0:10:32.87,0:10:39.14,Poder,,0000,0000,0000,,{\fad(200,0)\bord2\1c&HF2A7E7\3c&H2615AA\fscx80\fscy80\t(0,6270,\fscx110\fscy110)\t(5500,6270,\1a&hff&\3a&hff&\4a&hff&)}Beautiful Rose Flying Attack!
+Dialogue: Marked=0,0:10:39.54,0:10:42.34,*Default,,0000,0000,0000,,Nossa! Que pulo alto!
+Dialogue: Marked=0,0:10:42.34,0:10:45.13,*Default,,0000,0000,0000,,Essa é a melhor técnica secreta de Caroni.
+Dialogue: Marked=0,0:10:45.13,0:10:47.06,*Default,,0000,0000,0000,,O fim da luta está próximo.
+Dialogue: Marked=0,0:10:52.46,0:10:53.82,*Default,,0000,0000,0000,,Vou acabar com ele logo.
+Dialogue: Marked=0,0:11:02.33,0:11:04.28,*Default,,0000,0000,0000,,Incrível, ele ainda está pulando.
+Dialogue: Marked=0,0:11:04.62,0:11:06.97,*Default,,0000,0000,0000,,{\fad(0,600)}Espere!
+Dialogue: Marked=0,0:11:15.10,0:11:17.26,*Default,,0000,0000,0000,,A-Ainda está pulando?
+Dialogue: Marked=0,0:11:18.31,0:11:20.27,*Default,,0000,0000,0000,,Deve estar se sentindo muito bem.
+Dialogue: Marked=0,0:11:22.49,0:11:23.76,*Default,,0000,0000,0000,,Que som é esse?
+Dialogue: Marked=0,0:11:37.56,0:11:41.09,*Default,,0000,0000,0000,,O que foi aquilo?
+Dialogue: Marked=0,0:11:41.86,0:11:44.22,*Default,,0000,0000,0000,,Ele deve ter pulado alto demais.
+Dialogue: Marked=0,0:11:48.23,0:11:53.39,*Default,,0000,0000,0000,,Ele tem talento, mas tem o\Nhábito de se empolgar demais.
+Dialogue: Marked=0,0:11:54.42,0:11:57.34,*Default,,0000,0000,0000,,É por isso que ele não pode me superar.
+Dialogue: Marked=0,0:11:57.86,0:11:59.79,*Default,,0000,0000,0000,,Sim, isso mesmo.
+Dialogue: Marked=0,0:11:59.79,0:12:01.09,*Default,,0000,0000,0000,,Entendo.
+
+Dialogue: Marked=0,0:12:16.48,0:12:20.70,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:16.48,0:12:20.70,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:16.48,0:12:20.70,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:16.48,0:12:20.70,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:23.82,0:12:26.04,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:23.82,0:12:26.04,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:23.82,0:12:26.04,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:23.82,0:12:26.04,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:26.29,0:12:27.15,Radio3,,0000,0000,0000,,- O que aconteceu?
+Dialogue: Marked=0,0:12:26.75,0:12:29.31,Radio3,,0000,0000,0000,,- Meu Caroni-sama!
+Dialogue: Marked=0,0:12:27.67,0:12:29.31,Radio3,,0000,0000,0000,,- Idiota!
+Dialogue: Marked=0,0:12:28.63,0:12:32.14,Radio,,0000,0000,0000,,O participante Caroni caiu da plataforma e perdeu a partida.
+Dialogue: Marked=0,0:12:32.14,0:12:33.59,Radio,,0000,0000,0000,,Um gênio perdeu.
+Dialogue: Marked=0,0:12:33.59,0:12:35.27,Radio,,0000,0000,0000,,Que pena.
+Dialogue: Marked=0,0:12:43.66,0:12:46.22,*Default,,0000,0000,0000,,Eu vou derrotar Cell!
+Dialogue: Marked=0,0:12:51.29,0:12:52.65,*Default,,0000,0000,0000,,Deixe-me apresentá-lo.
+Dialogue: Marked=0,0:12:53.57,0:12:56.41,*Default,,0000,0000,0000,,A força física dele por ser\Ncomparada com a de 20 de elefantes.
+Dialogue: Marked=0,0:12:56.41,0:12:58.44,*Default,,0000,0000,0000,,Ele pode derrotar um touro com um só ataque!
+Dialogue: Marked=0,0:12:59.02,0:13:01.15,*Default,,0000,0000,0000,,I-Isso é impressionante.
+Dialogue: Marked=0,0:13:11.04,0:13:15.17,*Default,,0000,0000,0000,,Q-Que poder terrível!
+Dialogue: Marked=0,0:13:21.61,0:13:26.50,*Default,,0000,0000,0000,,Q-Que força sobre-humana! Cell não tem chance!
+Dialogue: Marked=0,0:13:26.50,0:13:28.01,*Default,,0000,0000,0000,,A diferença é muito grande!
+Dialogue: Marked=0,0:13:28.73,0:13:32.81,*Default,,0000,0000,0000,,Piroshiki não vai ser\Ntão descuidado como Caroni.
+Dialogue: Marked=0,0:13:32.81,0:13:34.52,*Default,,0000,0000,0000,,Cell está perdido.
+Dialogue: Marked=0,0:14:05.11,0:14:08.86,*Default,,0000,0000,0000,,Opa!\NO participante Piroshiki parte para o ataque!
+Dialogue: Marked=0,0:14:08.86,0:14:12.22,*Default,,0000,0000,0000,,Aquele é o Megaton Bull Crusher de Piroshiki!
+Dialogue: Marked=0,0:14:12.69,0:14:15.52,*Default,,0000,0000,0000,,Agora que ele está assim, nada pode pará-lo!
+Dialogue: Marked=0,0:14:35.20,0:14:36.63,*Default,,0000,0000,0000,,O que será que aconteceu?
+Dialogue: Marked=0,0:14:36.63,0:14:39.54,*Default,,0000,0000,0000,,O participante Piroshiki parou!
+Dialogue: Marked=0,0:14:55.51,0:14:56.43,*Default,,0000,0000,0000,,D-Desisto!
+Dialogue: Marked=0,0:15:08.20,0:15:12.12,*Default,,0000,0000,0000,,O que será que aconteceu, Mister Satan?
+Dialogue: Marked=0,0:15:14.72,0:15:15.62,*Default,,0000,0000,0000,,Foi um truque.
+Dialogue: Marked=0,0:15:17.48,0:15:23.97,*Default,,0000,0000,0000,,Como ele está com medo de mim,\Npreparou armadilhas no ringue.
+Dialogue: Marked=0,0:15:23.97,0:15:25.00,*Default,,0000,0000,0000,,Que covarde.
+Dialogue: Marked=0,0:15:25.73,0:15:30.84,*Default,,0000,0000,0000,,Ele deve ter colocado um pouco de pimenta,\Nque Piroshiki tanto odeia, em volta do corpo.
+Dialogue: Marked=0,0:15:31.07,0:15:35.10,*Default,,0000,0000,0000,,Ele deve ter pesquisado e se aproveitado, mas...
+Dialogue: Marked=0,0:15:37.12,0:15:40.27,*Default,,0000,0000,0000,,Eu vou acabar com os truques dele!
+Dialogue: Marked=0,0:15:40.58,0:15:42.33,*Default,,0000,0000,0000,,Entendi.
+Dialogue: Marked=0,0:15:42.33,0:15:45.02,*Default,,0000,0000,0000,,Mas, não sabemos quando ele foi acertado.
+Dialogue: Marked=0,0:15:45.88,0:15:49.86,*Default,,0000,0000,0000,,Que truques sujos ele está\Nusando em uma luta um-contra-um?
+Dialogue: Marked=0,0:15:50.16,0:15:52.64,*Default,,0000,0000,0000,,Não é isso.
+Dialogue: Marked=0,0:15:52.64,0:15:56.11,*Default,,0000,0000,0000,,Os dois foram foram mandados\Npara longe pelo Ki de Cell.
+Dialogue: Marked=0,0:15:56.11,0:15:57.74,*Default,,0000,0000,0000,,Pare com isso e perceba logo.
+Dialogue: Marked=0,0:15:58.19,0:16:04.75,*Default,,0000,0000,0000,,Bem, como seus pupilos foram derrotados,\NMister Satan está subindo novamente no ringue!
+Dialogue: Marked=0,0:16:05.74,0:16:12.72,*Default,,0000,0000,0000,,Ele tirou a capa... e o seu cinturão de campeão!
+Dialogue: Marked=0,0:16:13.84,0:16:18.92,Radio,,0000,0000,0000,,Bem, chegou a hora do\Nnosso herói, Mister Satan.
+Dialogue: Marked=0,0:16:21.76,0:16:24.96,*Default,,0000,0000,0000,,É uma luta que vai decidir o destino da Terra.
+Dialogue: Marked=0,0:16:24.96,0:16:30.82,*Default,,0000,0000,0000,,Mas, o campeão mundial, Mister Satan,\Ndisse que estava esperando ansiosamente.
+Dialogue: Marked=0,0:16:30.82,0:16:33.24,*Default,,0000,0000,0000,,Ele fez um comentário incrível!
+Dialogue: Marked=0,0:16:37.05,0:16:41.89,*Default,,0000,0000,0000,,O quê?\NMister Satan está tirando alguma coisa.
+Dialogue: Marked=0,0:16:41.89,0:16:44.79,*Default,,0000,0000,0000,,É uma cápsula! Ele tirou uma cápsula...
+Dialogue: Marked=0,0:16:49.50,0:16:54.41,*Default,,0000,0000,0000,,Nossa, é uma mala grande!\NSaiu uma mala imensa de dentro da cápsula!
+Dialogue: Marked=0,0:16:54.41,0:16:56.57,*Default,,0000,0000,0000,,Dentro dessa mala...
+Dialogue: Marked=0,0:17:00.27,0:17:01.35,*Default,,0000,0000,0000,,São telhas!
+Dialogue: Marked=0,0:17:01.76,0:17:03.60,*Default,,0000,0000,0000,,Várias telhas!
+Dialogue: Marked=0,0:17:04.38,0:17:07.86,*Default,,0000,0000,0000,,Mister Satan está empilhando as telhas.
+Dialogue: Marked=0,0:17:10.50,0:17:12.36,*Default,,0000,0000,0000,,Ei, ei, será que...
+Dialogue: Marked=0,0:17:12.97,0:17:17.38,*Default,,0000,0000,0000,,São... 15! São 15!
+Dialogue: Marked=0,0:17:21.61,0:17:25.12,*Default,,0000,0000,0000,,Ele empilhou as 15 telhas bem alto!
+Dialogue: Marked=0,0:17:31.86,0:17:34.46,*Default,,0000,0000,0000,,E está se concentrando...
+Dialogue: Marked=0,0:17:36.98,0:17:40.35,*Default,,0000,0000,0000,,Mister Satan está acumulando sua força!
+Dialogue: Marked=0,0:17:42.14,0:17:44.37,*Default,,0000,0000,0000,,Vamos fazer silêncio.
+Dialogue: Marked=0,0:18:09.02,0:18:12.50,*Default,,0000,0000,0000,,Ah, nossa, sobrou uma!
+Dialogue: Marked=0,0:18:13.79,0:18:14.97,*Default,,0000,0000,0000,,Mas, é incrível!
+Dialogue: Marked=0,0:18:14.97,0:18:16.49,*Default,,0000,0000,0000,,Uma força terrível!
+Dialogue: Marked=0,0:18:16.49,0:18:20.69,*Default,,0000,0000,0000,,14! 14 telhas foram feitas em pedaços!
+Dialogue: Marked=0,0:18:48.84,0:18:50.75,P!,,0000,0000,0000,,Ele é um idiota mesmo.
+Dialogue: Marked=0,0:18:51.32,0:18:55.26,*Default,,0000,0000,0000,,Cell, olhe para estas telhas em pedaços!
+Dialogue: Marked=0,0:18:57.85,0:18:59.79,*Default,,0000,0000,0000,,Você vai estar assim em...
+Dialogue: Marked=0,0:19:00.89,0:19:02.26,*Default,,0000,0000,0000,,1 minuto.
+Dialogue: Marked=0,0:19:08.27,0:19:13.24,*Default,,0000,0000,0000,,Satan! Satan! Satan!
+Dialogue: Marked=0,0:19:16.36,0:19:17.67,*Default,,0000,0000,0000,,Que emocionante!
+Dialogue: Marked=0,0:19:18.50,0:19:20.57,*Default,,0000,0000,0000,,Só podia ser o Satan!
+Dialogue: Marked=0,0:19:20.57,0:19:23.24,*Default,,0000,0000,0000,,Fiquei muito empolgado!
+Dialogue: Marked=0,0:19:23.95,0:19:25.20,P!,,0000,0000,0000,,Fui bem.
+Dialogue: Marked=0,0:19:25.20,0:19:27.49,P!,,0000,0000,0000,,Fui muito bem.
+Dialogue: Marked=0,0:19:27.49,0:19:31.05,P!,,0000,0000,0000,,Ainda bem que deixei gravando em vídeo...
+Dialogue: Marked=0,0:19:32.60,0:19:34.33,*Default,,0000,0000,0000,,Ele está apavorado.
+Dialogue: Marked=0,0:19:34.33,0:19:36.00,*Default,,0000,0000,0000,,Cell estava muito arrogante,
+Dialogue: Marked=0,0:19:36.00,0:19:41.13,*Default,,0000,0000,0000,,mas depois de ver a terrível força\Nde Mister Satan, ele ficou apavorado!
+Dialogue: Marked=0,0:19:42.22,0:19:45.66,*Default,,0000,0000,0000,,Mas, já está muito tarde para se desculpar!
+Dialogue: Marked=0,0:19:45.66,0:19:48.52,*Default,,0000,0000,0000,,Não podemos perdoar Cell pelo\Nque fez com as pessoas do mundo!
+Dialogue: Marked=0,0:19:50.83,0:19:52.69,*Default,,0000,0000,0000,,Certo, venha!
+Dialogue: Marked=0,0:19:52.69,0:19:56.99,*Default,,0000,0000,0000,,Mister Satan está pronto para a luta!
+Dialogue: Marked=0,0:19:57.89,0:20:02.74,*Default,,0000,0000,0000,,Campeão de Artes Marciais, Mister Satan, contra Cell.
+Dialogue: Marked=0,0:20:02.74,0:20:09.87,N!,,0000,0000,0000,,{\fad(300,300)}Seigi no Tekken  = Punho da Justiça
+Dialogue: Marked=0,0:20:02.74,0:20:08.04,*Default,,0000,0000,0000,,Ele vai usar o Seigi no Tekken\Npara acabar com Cell!
+Dialogue: Marked=0,0:20:08.24,0:20:13.83,*Default,,0000,0000,0000,,Satan, Satan, Satan...
+Dialogue: Marked=0,0:20:14.16,0:20:18.67,*Default,,0000,0000,0000,,Bem, Mister Satan, se der,\Nqueremos que derrote e mate Cell!
+Dialogue: Marked=0,0:20:28.31,0:20:31.29,*Default,,0000,0000,0000,,Ah! Ele acertou!
+Dialogue: Marked=0,0:20:31.29,0:20:36.16,*Default,,0000,0000,0000,,O participante Satan usou\No Dynamite Kick para atacar Cell!
+Dialogue: Marked=0,0:20:36.16,0:20:38.70,*Default,,0000,0000,0000,,A luta já foi decidida!
+Dialogue: Marked=0,0:20:44.43,0:20:47.60,*Default,,0000,0000,0000,,O participante Satan continua a atacar!
+Dialogue: Marked=0,0:20:52.37,0:20:53.89,*Default,,0000,0000,0000,,Cell não pode fazer nada!
+Dialogue: Marked=0,0:20:53.89,0:20:55.26,*Default,,0000,0000,0000,,Cell não pode nem se mexer!
+Dialogue: Marked=0,0:20:55.26,0:20:57.82,*Default,,0000,0000,0000,,Ele é forte, muito forte!
+Dialogue: Marked=0,0:20:57.82,0:21:00.47,*Default,,0000,0000,0000,,Só podia ser o campeão, Satan!
+Dialogue: Marked=0,0:21:06.08,0:21:07.86,*Default,,0000,0000,0000,,- O golpe final!
+Dialogue: Marked=0,0:21:06.93,0:21:07.86,*Default,,0000,0000,0000,,- Cale a boca!
+Dialogue: Marked=0,0:21:20.27,0:21:24.91,*Default,,0000,0000,0000,,Para falar a verdade,\Neu estava torcendo pelo Cell.
+Dialogue: Marked=0,0:21:30.98,0:21:32.77,*Default,,0000,0000,0000,,Ainda está vivo?
+Dialogue: Marked=0,0:21:32.77,0:21:36.46,*Default,,0000,0000,0000,,Nem mesmo Cell quis\Nmatar um homem como ele.
+Dialogue: Marked=0,0:21:48.05,0:21:49.98,*Default,,0000,0000,0000,,Ele acabou caindo fora do ringue.
+Dialogue: Marked=0,0:21:51.46,0:21:55.40,*Default,,0000,0000,0000,,O participante Satan perdeu.
+Dialogue: Marked=0,0:21:59.60,0:22:02.40,*Default,,0000,0000,0000,,Bem, vamos começar logo os Cell Games!
+Dialogue: Marked=0,0:22:02.98,0:22:04.51,*Default,,0000,0000,0000,,Quem vai ser o primeiro?
+Dialogue: Marked=0,0:22:05.46,0:22:08.41,*Default,,0000,0000,0000,,Sabia, você vai ser o primeiro, Son Goku?
+Dialogue: Marked=0,0:22:18.02,0:22:19.24,*Default,,0000,0000,0000,,É, isso mesmo.
+Dialogue: Marked=0,0:22:21.03,0:22:24.34,Narrador,,0000,0000,0000,,Goku e Cell finalmente estão frente a frente.
+Dialogue: Marked=0,0:22:25.02,0:22:30.18,Narrador,,0000,0000,0000,,A batalha final dos\NCell Games está para começar.

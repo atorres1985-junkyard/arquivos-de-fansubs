@@ -1,0 +1,216 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:01:53.45,0:01:58.99,Narrador,,0000,0000,0000,,A luta contra Garlick Jr parecia ter\Nsido um sonho completamente esquecido...
+Dialogue: Marked=0,0:01:58.99,0:02:03.03,Narrador,,0000,0000,0000,,e a Terra mais uma vez\Nvoltou aos seus dias de paz.
+
+Dialogue: Marked=0,0:02:07.50,0:02:15.52,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 117
+Dialogue: Marked=0,0:02:07.50,0:02:15.52,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(390,185)}{\fad(300,0)}{\fscx140\fscy100}Você é meu homem... Kuririn
+Dialogue: Marked=0,0:02:07.50,0:02:15.52,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,510)}{\fad(300,0)}{\fscx140\fscy150}A 101{\fnArial}ª{\fnBoomerang} proposta de casamento
+
+Dialogue: Marked=0,0:02:16.65,0:02:19.31,*Default,,0000,0000,0000,!Effect,Kurin-chan, rápido!
+Dialogue: Marked=0,0:02:19.31,0:02:22.03,*Default,,0000,0000,0000,!Effect,Tá, tá, tá, tá!
+Dialogue: Marked=0,0:02:25.67,0:02:29.81,*Default,,0000,0000,0000,!Effect,Que droga! Por que fazer compras\Ncom mulheres é tão difícil assim?
+Dialogue: Marked=0,0:02:48.06,0:02:49.50,*Default,,0000,0000,0000,,Droga...
+Dialogue: Marked=0,0:02:49.50,0:02:53.43,*Default,,0000,0000,0000,!Effect,O que você está fazendo, Kurin-chan?
+Dialogue: Marked=0,0:03:02.47,0:03:04.00,*Default,,0000,0000,0000,!Effect,Desculpe, Maron-chan!
+Dialogue: Marked=0,0:03:18.69,0:03:21.91,*Default,,0000,0000,0000,!Effect,Que chato! Já vou atender!
+Dialogue: Marked=0,0:03:22.27,0:03:23.92,*Default,,0000,0000,0000,!Effect,Alô, pois não?
+Dialogue: Marked=0,0:03:25.01,0:03:25.49,*Default,,0000,0000,0000,!Effect,Ahn?
+Dialogue: Marked=0,0:03:25.90,0:03:27.81,*Default,,0000,0000,0000,!Effect,Ah, Bulma?
+Dialogue: Marked=0,0:03:27.81,0:03:29.72,*Default,,0000,0000,0000,!Effect,É uma emergência!
+Dialogue: Marked=0,0:03:29.72,0:03:31.13,*Default,,0000,0000,0000,!Effect,Venha para a Kame House rápido!
+Dialogue: Marked=0,0:03:38.24,0:03:42.34,*Default,,0000,0000,0000,!Effect,Certo, agora vamos ver\Nvocê acertar um Home Run!
+Dialogue: Marked=0,0:03:44.25,0:03:46.24,*Default,,0000,0000,0000,!Effect,Yamcha-san, telefone!
+Dialogue: Marked=0,0:03:47.03,0:03:48.64,*Default,,0000,0000,0000,!Effect,Telefone? Para mim?
+Dialogue: Marked=0,0:03:52.17,0:03:53.89,*Default,,0000,0000,0000,!Effect,Alô?
+Dialogue: Marked=0,0:03:53.89,0:03:56.22,*Default,,0000,0000,0000,!Effect,M-Muten Roshi-sama!
+Dialogue: Marked=0,0:04:16.26,0:04:19.71,P!,,0000,0000,0000,!Effect,O que será que a Maron-chan pensa de mim?
+Dialogue: Marked=0,0:04:23.95,0:04:31.23,P!,,0000,0000,0000,!Effect,Talvez ela estivesse mais feliz se ficasse\Ncom um homem rico como aquele de antes.
+Dialogue: Marked=0,0:04:32.85,0:04:34.65,*Default,,0000,0000,0000,!Effect,Que vestido lindo!
+Dialogue: Marked=0,0:04:37.78,0:04:42.15,*Default,,0000,0000,0000,!Effect,Kurin-chan, eu quero experimentar esse vestido!
+Dialogue: Marked=0,0:05:03.36,0:05:07.06,P!,,0000,0000,0000,!Effect,Maron-chan, você estava pensando nisso...
+Dialogue: Marked=0,0:05:13.01,0:05:15.30,*Default,,0000,0000,0000,!Effect,Parabéns, Kuririn!
+Dialogue: Marked=0,0:05:16.88,0:05:18.69,*Default,,0000,0000,0000,!Effect,Que bom, não é, Kuririn?
+Dialogue: Marked=0,0:05:26.38,0:05:31.92,*Default,,0000,0000,0000,!Effect,Aquele carro é lindo! Quero andar nele!
+Dialogue: Marked=0,0:05:31.92,0:05:33.20,*Default,,0000,0000,0000,!Effect,Qual?
+Dialogue: Marked=0,0:05:33.20,0:05:37.58,*Default,,0000,0000,0000,!Effect,- Aquela casa é bonitinha, quero morar nela!
+Dialogue: Marked=0,0:05:36.51,0:05:37.58,*Default,,0000,0000,0000,!Effect,- Onde? Onde? Onde?
+Dialogue: Marked=0,0:05:41.31,0:05:43.59,*Default,,0000,0000,0000,!Effect,Entendi, Maron-chan!
+Dialogue: Marked=0,0:05:44.56,0:05:47.59,P!,,0000,0000,0000,!Effect,Preciso agir como homem!\NVou começar a pensar sério!
+Dialogue: Marked=0,0:05:48.51,0:05:50.26,*Default,,0000,0000,0000,!Effect,O que você disse?
+Dialogue: Marked=0,0:05:50.64,0:05:53.29,*Default,,0000,0000,0000,!Effect,Você não precisa ficar tão nervosa!
+Dialogue: Marked=0,0:05:53.29,0:05:56.54,*Default,,0000,0000,0000,!Effect,Como posso não ficar nervosa com isso, hein?
+Dialogue: Marked=0,0:05:58.18,0:06:00.42,*Default,,0000,0000,0000,!Effect,Que droga, isso não é brincadeira!
+Dialogue: Marked=0,0:06:00.42,0:06:04.38,*Default,,0000,0000,0000,!Effect,O Gohan-chan parou de estudar e veio aqui!
+Dialogue: Marked=0,0:06:04.38,0:06:06.38,*Default,,0000,0000,0000,!Effect,Por que fez isso?
+Dialogue: Marked=0,0:06:06.38,0:06:15.05,N!,,0000,0000,0000,,{\fad(300,300)}Umigame = Tartaruga-marinha
+Dialogue: Marked=0,0:06:06.38,0:06:10.47,*Default,,0000,0000,0000,!Effect,Como que o aniversário da\NUmigame pode ser uma emergência?
+Dialogue: Marked=0,0:06:10.47,0:06:15.05,*Default,,0000,0000,0000,!Effect,Bem, como é o aniversário de 1000 anos,\Nnão podemos deixar para lá!
+Dialogue: Marked=0,0:06:15.05,0:06:18.58,*Default,,0000,0000,0000,!Effect,E eu tinha esquecido até esta manhã...
+Dialogue: Marked=0,0:06:18.58,0:06:20.29,*Default,,0000,0000,0000,!Effect,Fazer os preparativos foi muito difícil!
+Dialogue: Marked=0,0:06:26.11,0:06:27.34,*Default,,0000,0000,0000,!Effect,Ah, todos...
+Dialogue: Marked=0,0:06:28.00,0:06:32.42,*Default,,0000,0000,0000,!Effect,Vocês se reuniram aqui\Nespecialmente por minha causa.
+Dialogue: Marked=0,0:06:33.91,0:06:38.93,*Default,,0000,0000,0000,!Effect,Tenho muita sorte por ter amigos tão bons.
+Dialogue: Marked=0,0:06:50.24,0:06:52.00,*Default,,0000,0000,0000,!Effect,Brinde!
+Dialogue: Marked=0,0:06:58.26,0:07:00.04,*Default,,0000,0000,0000,!Effect,Está um pouco quente, não?
+Dialogue: Marked=0,0:07:00.35,0:07:02.26,*Default,,0000,0000,0000,!Effect,Muito obrigado!
+Dialogue: Marked=0,0:07:03.34,0:07:08.51,*Default,,0000,0000,0000,!Effect,Umigame-san, parabéns\Npelo aniversário de 1000 anos!
+Dialogue: Marked=0,0:07:10.83,0:07:11.76,*Default,,0000,0000,0000,!Effect,Parabéns!
+Dialogue: Marked=0,0:07:13.06,0:07:14.10,*Default,,0000,0000,0000,!Effect,Parabéns!
+Dialogue: Marked=0,0:07:14.65,0:07:16.01,*Default,,0000,0000,0000,!Effect,Parabéns!
+Dialogue: Marked=0,0:07:17.92,0:07:19.61,*Default,,0000,0000,0000,!Effect,Parabéns!
+Dialogue: Marked=0,0:07:23.62,0:07:25.53,*Default,,0000,0000,0000,!Effect,Ah, Kuririn!
+Dialogue: Marked=0,0:07:25.53,0:07:29.61,*Default,,0000,0000,0000,!Effect,Oi, gente! Oi, Yamcha!
+Dialogue: Marked=0,0:07:29.61,0:07:31.02,*Default,,0000,0000,0000,!Effect,O-Oi!
+Dialogue: Marked=0,0:07:32.97,0:07:33.82,*Default,,0000,0000,0000,!Effect,Esse cara...
+Dialogue: Marked=0,0:07:34.38,0:07:38.01,*Default,,0000,0000,0000,!Effect,Por que vocês estão aqui?
+Dialogue: Marked=0,0:07:38.01,0:07:39.33,*Default,,0000,0000,0000,!Effect,Ah, que bolo grande!
+Dialogue: Marked=0,0:07:41.57,0:07:48.30,*Default,,0000,0000,0000,!Effect,Ah, não! Ainda é muito cedo para fazer\Num bolo para a gente! Mas como vocês sabiam?
+Dialogue: Marked=0,0:07:53.11,0:07:56.01,*Default,,0000,0000,0000,!Effect,Será que vocês... vão se casar?
+Dialogue: Marked=0,0:07:56.70,0:08:02.60,*Default,,0000,0000,0000,!Effect,Não, ainda não formalizamos,\Nmas a Maron-chan fala tanto sobre isso...
+Dialogue: Marked=0,0:08:06.01,0:08:07.52,*Default,,0000,0000,0000,!Effect,Você conseguiu, Kuririn!
+Dialogue: Marked=0,0:08:08.04,0:08:10.11,*Default,,0000,0000,0000,!Effect,Que bom!
+Dialogue: Marked=0,0:08:10.11,0:08:13.53,*Default,,0000,0000,0000,!Effect,Hm, você fez bem.
+Dialogue: Marked=0,0:08:14.22,0:08:16.78,*Default,,0000,0000,0000,!Effect,Espero que vire uma boa noiva, assim como eu!
+Dialogue: Marked=0,0:08:17.39,0:08:21.87,*Default,,0000,0000,0000,!Effect,Você não pode, Kuririn!\NComo seu mestre, ainda não dei permissão!
+Dialogue: Marked=0,0:08:22.64,0:08:24.84,*Default,,0000,0000,0000,!Effect,N-Não pode ser!
+Dialogue: Marked=0,0:08:25.64,0:08:28.88,*Default,,0000,0000,0000,!Effect,Não tem jeito.\NSe você quiser minha permissão...
+Dialogue: Marked=0,0:08:29.44,0:08:32.88,*Default,,0000,0000,0000,!Effect,Primeiro eu preciso fazer\Npafu-pafu na Maron-chan uma vez!
+Dialogue: Marked=0,0:08:40.43,0:08:43.14,*Default,,0000,0000,0000,!Effect,Kame-chan, que bonitinho!
+Dialogue: Marked=0,0:09:00.58,0:09:04.68,*Default,,0000,0000,0000,!Effect,Maron-chan, será que vou poder fazê-la feliz?
+Dialogue: Marked=0,0:09:04.68,0:09:10.53,N!,,0000,0000,0000,,{\fad(300,300)}Mermaid no Namida = Lágrima da Sereia
+Dialogue: Marked=0,0:09:04.68,0:09:08.81,*Default,,0000,0000,0000,!Effect,Então por que você não dá uma\NMermaid no Namida para ela de presente?
+Dialogue: Marked=0,0:09:10.53,0:09:16.94,*Default,,0000,0000,0000,!Effect,Eu não consegui dormir, desculpe.\NNão pretendia ouvir.
+Dialogue: Marked=0,0:09:16.94,0:09:22.18,*Default,,0000,0000,0000,!Effect,Sem problemas.\NO que é essa Mermaid no Namida?
+Dialogue: Marked=0,0:09:23.28,0:09:30.15,*Default,,0000,0000,0000,!Effect,{\fad(0,800)}É uma pérola lendária que dizem\Nestar no fundo do mar aqui perto.
+Dialogue: Marked=0,0:09:32.16,0:09:40.20,*Default,,0000,0000,0000,!Effect,{\fscx97\fscy97}Há uma lenda que diz que, se você receber essa pérola do seu namorado, vai ser feliz com certeza.
+Dialogue: Marked=0,0:09:40.72,0:09:43.18,*Default,,0000,0000,0000,!Effect,Com certeza vai ser feliz?
+Dialogue: Marked=0,0:09:51.77,0:09:53.21,*Default,,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:09:54.65,0:09:59.22,*Default,,0000,0000,0000,!Effect,Eu vou encontrar essa Mermaid no Namida\Ne dar de presente para a Maron-chan!
+Dialogue: Marked=0,0:10:00.19,0:10:04.94,*Default,,0000,0000,0000,!Effect,Se eu fizer isso, vou poder\Nfazer a proposta apropriadamente!
+Dialogue: Marked=0,0:10:33.98,0:10:40.80,L!,,0000,0000,0000,!Effect,{\fscx97\fscy97}Há uma lenda que diz que, se você receber essa pérola do seu namorado, vai ser feliz com certeza.
+Dialogue: Marked=0,0:10:41.99,0:10:47.31,P!,,0000,0000,0000,!Effect,Maron-chan, com certeza vou dar\Na Mermaid no Namida para você! E então...
+
+Dialogue: Marked=0,0:10:54.07,0:10:58.29,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:10:54.07,0:10:58.29,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:10:54.07,0:10:58.29,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:10:54.07,0:10:58.29,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:01.24,0:11:03.46,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:11:01.24,0:11:03.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:11:01.24,0:11:03.46,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:11:01.24,0:11:03.46,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:11:10.03,0:11:15.54,*Default,,0000,0000,0000,!Effect,Ah, como esperado de uma jovem garota pichi-pichi!
+Dialogue: Marked=0,0:11:15.54,0:11:20.51,*Default,,0000,0000,0000,!Effect,Muten Roshi-sama, como sempre,\Nelas são suas favoritas, não é?
+Dialogue: Marked=0,0:11:21.10,0:11:24.35,*Default,,0000,0000,0000,!Effect,Ei! Não aprenda nada ruim!
+Dialogue: Marked=0,0:11:27.68,0:11:32.35,*Default,,0000,0000,0000,!Effect,Ei, por que Kurin-chan não está?\NEstou entediada!
+Dialogue: Marked=0,0:11:35.79,0:11:39.58,*Default,,0000,0000,0000,!Effect,Ei, Yamcha, me leva para\Na cidade para fazer compras?
+Dialogue: Marked=0,0:11:39.58,0:11:40.93,*Default,,0000,0000,0000,!Effect,Bem, é que...
+Dialogue: Marked=0,0:11:42.46,0:11:46.50,*Default,,0000,0000,0000,!Effect,Você não está levando a sério com o Kuririn?
+Dialogue: Marked=0,0:11:47.45,0:11:50.29,*Default,,0000,0000,0000,!Effect,Maron não sabe!
+Dialogue: Marked=0,0:11:50.78,0:11:54.37,*Default,,0000,0000,0000,!Effect,Não sabe? Que coisa!
+Dialogue: Marked=0,0:11:54.37,0:11:55.29,*Default,,0000,0000,0000,!Effect,Isso mesmo!
+Dialogue: Marked=0,0:11:56.05,0:12:01.81,*Default,,0000,0000,0000,!Effect,Se você se casar, vai precisar cuidar\Nda casa e dos filhos, assim como eu faço!
+Dialogue: Marked=0,0:12:01.81,0:12:04.80,*Default,,0000,0000,0000,!Effect,Você não pode se casar se não tiver certeza!
+Dialogue: Marked=0,0:12:05.28,0:12:12.14,N!,,0000,0000,0000,,{\fad(300,300)}Obasan tachi = Tias
+Dialogue: Marked=0,0:12:05.28,0:12:08.73,*Default,,0000,0000,0000,!Effect,Nossa! Vocês são obasan tachi!
+Dialogue: Marked=0,0:12:09.67,0:12:10.14,*Default,,0000,0000,0000,!Effect,Oba...
+Dialogue: Marked=0,0:12:10.40,0:12:12.14,*Default,,0000,0000,0000,!Effect,San tachi?
+Dialogue: Marked=0,0:12:14.32,0:12:18.03,*Default,,0000,0000,0000,!Effect,Ela pode ser, mas eu não!
+Dialogue: Marked=0,0:12:19.45,0:12:20.81,*Default,,0000,0000,0000,!Effect,O que você disse?
+Dialogue: Marked=0,0:12:20.81,0:12:22.15,*Default,,0000,0000,0000,!Effect,Eu sou mais nova que você!
+Dialogue: Marked=0,0:12:22.62,0:12:25.45,*Default,,0000,0000,0000,!Effect,Não sou eu que estou\Nacabada por cuidar da casa!
+Dialogue: Marked=0,0:12:25.45,0:12:28.15,*Default,,0000,0000,0000,!Effect,Eu não estou acabada por cuidar da casa!
+Dialogue: Marked=0,0:12:28.15,0:12:29.97,*Default,,0000,0000,0000,!Effect,Eu sou uma esposa bonita, bonita!
+Dialogue: Marked=0,0:12:35.20,0:12:36.30,*Default,,0000,0000,0000,!Effect,Que medo!
+Dialogue: Marked=0,0:12:36.91,0:12:43.55,*Default,,0000,0000,0000,!Effect,Posso fazer o que quiser! Maron vai\Nem uma praia aqui perto e depois volta!
+Dialogue: Marked=0,0:12:48.54,0:12:52.23,*Default,,0000,0000,0000,!Effect,Kuririn-san, nós devemos procurar\Nno fundo do oceano por aqui, não é?
+Dialogue: Marked=0,0:12:52.23,0:12:55.31,*Default,,0000,0000,0000,!Effect,É. Desculpe o incômodo, mas obrigado por ajudar.
+Dialogue: Marked=0,0:14:42.24,0:14:45.38,*Default,,0000,0000,0000,!Effect,Qual o problema com os peixes?
+Dialogue: Marked=0,0:14:58.55,0:15:00.56,*Default,,0000,0000,0000,!Effect,É a Mermaid no Namida!
+Dialogue: Marked=0,0:15:19.66,0:15:20.96,*Default,,0000,0000,0000,!Effect,Finalmente encontrei!
+Dialogue: Marked=0,0:15:27.86,0:15:29.26,*Default,,0000,0000,0000,!Effect,Kuririn-san, cuidado!
+Dialogue: Marked=0,0:16:10.35,0:16:11.39,*Default,,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:16:19.97,0:16:21.40,*Default,,0000,0000,0000,!Effect,A Mermaid no Namida!
+Dialogue: Marked=0,0:16:26.86,0:16:28.15,*Default,,0000,0000,0000,!Effect,Kuririn-san, cuidado!
+Dialogue: Marked=0,0:17:20.67,0:17:25.54,*Default,,0000,0000,0000,!Effect,Entendi.\NEsta pérola é o tesouro dos peixes!
+Dialogue: Marked=0,0:17:26.31,0:17:27.61,*Default,,0000,0000,0000,!Effect,Tesouro?
+Dialogue: Marked=0,0:17:27.61,0:17:28.32,*Default,,0000,0000,0000,!Effect,Sim.
+Dialogue: Marked=0,0:17:41.39,0:17:43.61,*Default,,0000,0000,0000,!Effect,Estão protegendo com tudo o que podem!
+Dialogue: Marked=0,0:17:52.95,0:17:59.24,*Default,,0000,0000,0000,!Effect,Kuririn-san, não pode dar outra\Ncoisa de presente para a Maron-san?
+Dialogue: Marked=0,0:18:01.61,0:18:05.46,*Default,,0000,0000,0000,!Effect,Precisamos levar aquela pérola?
+Dialogue: Marked=0,0:18:19.58,0:18:22.97,*Default,,0000,0000,0000,!Effect,Desculpe, Maron-chan! Eu...
+Dialogue: Marked=0,0:18:29.77,0:18:31.77,*Default,,0000,0000,0000,!Effect,Gohan, vamos voltar!
+Dialogue: Marked=0,0:18:32.75,0:18:33.98,*Default,,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:19:04.94,0:19:06.05,*Default,,0000,0000,0000,!Effect,Maron-chan...
+Dialogue: Marked=0,0:19:08.19,0:19:09.31,*Default,,0000,0000,0000,!Effect,Kurin-chan!
+Dialogue: Marked=0,0:19:17.12,0:19:22.73,*Default,,0000,0000,0000,!Effect,Qual o problema, Kurin-chan?\NNão gosto de pessoas chatas!
+Dialogue: Marked=0,0:19:22.73,0:19:23.83,*Default,,0000,0000,0000,!Effect,S-Sim...
+Dialogue: Marked=0,0:19:25.79,0:19:28.43,*Default,,0000,0000,0000,!Effect,Ei, Maron-chan...
+Dialogue: Marked=0,0:19:30.24,0:19:31.33,*Default,,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:19:33.51,0:19:39.84,*Default,,0000,0000,0000,!Effect,Para ser honesto, eu não tenho confiança\Nde que posso fazê-la feliz! Por isso...
+Dialogue: Marked=0,0:19:45.19,0:19:46.01,*Default,,0000,0000,0000,!Effect,Adeus!
+Dialogue: Marked=0,0:19:50.11,0:19:51.35,*Default,,0000,0000,0000,!Effect,Kurin-chan...
+Dialogue: Marked=0,0:19:54.78,0:20:00.36,*Default,,0000,0000,0000,!Effect,Ei, espere um pouco! Por quê?\NVocê não gosta mais de mim?
+Dialogue: Marked=0,0:20:01.62,0:20:03.03,*Default,,0000,0000,0000,!Effect,Não é isso...
+Dialogue: Marked=0,0:20:03.03,0:20:04.41,*Default,,0000,0000,0000,!Effect,Então por quê?
+Dialogue: Marked=0,0:20:13.23,0:20:18.05,*Default,,0000,0000,0000,!Effect,Sabe, por você, Kurin-chan,\Neu até ficaria noiva...
+Dialogue: Marked=0,0:20:18.59,0:20:22.35,*Default,,0000,0000,0000,!Effect,Maron-chan, por causa disso que não posso...\NAhn?
+Dialogue: Marked=0,0:20:23.43,0:20:24.22,*Default,,0000,0000,0000,!Effect,Noiva?
+Dialogue: Marked=0,0:20:37.57,0:20:38.94,*Default,,0000,0000,0000,!Effect,M-Maron-chan!
+Dialogue: Marked=0,0:20:42.90,0:20:43.94,*Default,,0000,0000,0000,!Effect,Maron-chan!
+Dialogue: Marked=0,0:20:49.31,0:20:50.75,*Default,,0000,0000,0000,!Effect,Maron-chan!
+Dialogue: Marked=0,0:20:58.65,0:20:59.49,*Default,,0000,0000,0000,!Effect,Bom!
+Dialogue: Marked=0,0:21:02.97,0:21:06.65,*Default,,0000,0000,0000,!Effect,Ei, querida, não quer andar comigo?
+Dialogue: Marked=0,0:21:06.65,0:21:07.65,*Default,,0000,0000,0000,!Effect,Até aonde?
+Dialogue: Marked=0,0:21:07.65,0:21:08.91,*Default,,0000,0000,0000,!Effect,Nishi no Miyako.
+Dialogue: Marked=0,0:21:08.91,0:21:11.43,*Default,,0000,0000,0000,!Effect,Que sorte, que sorte! Eu vou, eu vou!
+Dialogue: Marked=0,0:21:33.37,0:21:34.66,*Default,,0000,0000,0000,!Effect,Voltei!
+Dialogue: Marked=0,0:21:36.39,0:21:37.96,*Default,,0000,0000,0000,!Effect,Ahn? E a Maron-chan?
+Dialogue: Marked=0,0:21:38.08,0:21:41.19,*Default,,0000,0000,0000,!Effect,Ah, bem, Maron não é o\Ntipo de mulher que eu ficaria,
+Dialogue: Marked=0,0:21:41.19,0:21:43.45,*Default,,0000,0000,0000,!Effect,então, "bang", terminei com ela!
+Dialogue: Marked=0,0:21:47.27,0:21:48.64,*Default,,0000,0000,0000,!Effect,O que você fez?
+Dialogue: Marked=0,0:21:48.98,0:21:50.14,*Default,,0000,0000,0000,!Effect,Que desperdício!
+Dialogue: Marked=0,0:21:50.39,0:21:54.66,*Default,,0000,0000,0000,!Effect,Você tem certeza?\NNão foi ela que terminou com você?
+Dialogue: Marked=0,0:21:54.66,0:21:55.64,*Default,,0000,0000,0000,!Effect,Oolong!
+Dialogue: Marked=0,0:21:55.99,0:21:58.74,*Default,,0000,0000,0000,!Effect,Que bom, Kuririn! Seu conceito subiu!
+Dialogue: Marked=0,0:21:59.43,0:22:04.24,*Default,,0000,0000,0000,!Effect,Isso mesmo! Agora eu posso falar,\Nmas eu era contra desde o começo!
+Dialogue: Marked=0,0:22:04.74,0:22:10.87,*Default,,0000,0000,0000,!Effect,Eu também. Faltava alguma coisa\Nnaquela garota. Ela não era nada discreta!
+Dialogue: Marked=0,0:22:11.19,0:22:13.45,*Default,,0000,0000,0000,!Effect,Não é?
+Dialogue: Marked=0,0:22:19.83,0:22:21.08,*Default,,0000,0000,0000,!Effect,Kuririn-san...

@@ -1,0 +1,298 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,0,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,0,1,0,0,0,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:50.48,0:13:00.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:00:04.83,0:00:07.02,*Default,NTP,0000,0000,0000,!Effect,Espere aí! Estou indo até você!
+Dialogue: Marked=0,0:00:12.41,0:00:13.58,*Default,NTP,0000,0000,0000,!Effect,Uma cópia!
+Dialogue: Marked=0,0:00:13.78,0:00:16.42,*Default,NTP,0000,0000,0000,!Effect,Uma esfera de vidro?
+Dialogue: Marked=0,0:00:16.82,0:00:18.74,*Default,NTP,0000,0000,0000,!Effect,Digam! Onde está a verdadeira?! *** Pode ser "diga" apenas também... verificar com o vídeo
+Dialogue: Marked=0,0:00:21.09,0:00:21.98,*Default,NTP,0000,0000,0000,!Effect,Peguem-na!
+Dialogue: Marked=0,0:00:23.99,0:00:25.34,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:00:31.12,0:00:36.44,Narrador,NTP,0000,0000,0000,!Effect,Um pássaro leva consigo a verdadeira\NDragon Ball enquanto voa alto no céu.
+Dialogue: Marked=0,0:00:37.17,0:00:43.30,Narrador,NTP,0000,0000,0000,!Effect,Será que Goku conseguirá\Nobter a verdadeira Dragon Ball?
+Dialogue: Marked=0,0:00:43.78,0:00:47.28,Narrador,NTP,0000,0000,0000,!Effect,E o que há por trás desse misterioso exército?
+
+Dialogue: Marked=0,0:00:50.55,0:00:56.12,*Default,NTP,0000,0000,0000,!Effect,"Yikes! Um falso Goku aparece!"
+
+Dialogue: Marked=0,0:01:02.50,0:01:06.51,*Default,NTP,0000,0000,0000,!Effect,A Dragon Ball que o Coronel Silver\Nestá atrás se move para o noroeste.
+Dialogue: Marked=0,0:01:06.91,0:01:09.52,*Default,NTP,0000,0000,0000,!Effect,Contate o Silver imediatamente.
+Dialogue: Marked=0,0:01:11.24,0:01:13.37,*Default,NTP,0000,0000,0000,!Effect,Nosso exército, o Red Ribbon,\Npelo menos determinou...
+Dialogue: Marked=0,0:01:13.44,0:01:16.51,*Default,NTP,0000,0000,0000,!Effect,a localização de todas\Nas sete Dragon Balls.
+Dialogue: Marked=0,0:01:16.51,0:01:19.61,*Default,NTP,0000,0000,0000,!Effect,É apenas uma questão de tempo\Npara que nós comandemos o mundo...
+Dialogue: Marked=0,0:01:23.38,0:01:24.87,*Default,NTP,0000,0000,0000,!Effect,Tolo...
+Dialogue: Marked=0,0:01:32.70,0:01:33.84,*Default,NTP,0000,0000,0000,!Effect,Aqui é o Silver.
+Dialogue: Marked=0,0:01:34.20,0:01:39.43,*Default,NTP,0000,0000,0000,!Effect,Coronel Silver, a Dragon Ball está se movendo\Na noroeste! Vá atrás dela agora mesmo!
+Dialogue: Marked=0,0:01:40.53,0:01:41.91,*Default,NTP,0000,0000,0000,!Effect,Sim, sem atraso. (Sim, agora mesmo!)
+Dialogue: Marked=0,0:01:43.44,0:01:44.69,*Default,NTP,0000,0000,0000,!Effect,- Vamos embora!\N- Sim!
+Dialogue: Marked=0,0:01:54.21,0:01:58.33,*Default,NTP,0000,0000,0000,!Effect,Isso é estranho... Eles estão com a esfera do vovô...
+Dialogue: Marked=0,0:01:58.50,0:02:01.27,*Default,,0000,0000,0000,,Mas o radar diz que ela está se afastando deles.
+Dialogue: Marked=0,0:02:01.32,0:02:02.72,*Default,NTP,0000,0000,0000,!Effect,Será que isso tá quebrado?
+Dialogue: Marked=0,0:02:02.97,0:02:07.15,*Default,NTP,0000,0000,0000,!Effect,Que seja!\NEu apenas farei eles devolverem ela!
+Dialogue: Marked=0,0:02:15.02,0:02:18.00,*Default,NTP,0000,0000,0000,!Effect,Pagando todo aquele dinheiro\Npor uma esfera de vidro...
+Dialogue: Marked=0,0:02:18.09,0:02:21.78,*Default,NTP,0000,0000,0000,!Effect,Cale-se!\NDinheiro não é problema!
+Dialogue: Marked=0,0:02:23.34,0:02:27.95,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama! O radar mostra que a Dragon\NBall está se movendo no sentido oposto!
+Dialogue: Marked=0,0:02:27.95,0:02:29.81,*Default,NTP,0000,0000,0000,!Effect,O quê?! Apresse-se e...
+Dialogue: Marked=0,0:02:30.96,0:02:31.97,*Default,NTP,0000,0000,0000,!Effect,O que é aquilo?!
+Dialogue: Marked=0,0:02:36.08,0:02:38.40,*Default,NTP,0000,0000,0000,!Effect,É ele!
+Dialogue: Marked=0,0:02:42.36,0:02:43.72,*Default,NTP,0000,0000,0000,!Effect,O que você quer?!
+Dialogue: Marked=0,0:02:51.77,0:02:54.57,*Default,NTP,0000,0000,0000,!Effect,Salve-me!
+Dialogue: Marked=0,0:02:59.66,0:03:02.38,*Default,NTP,0000,0000,0000,!Effect,Devolva-me o vovô!\NEntão eu salvarei vocês!
+Dialogue: Marked=0,0:03:02.53,0:03:05.79,*Default,NTP,0000,0000,0000,!Effect,O-O quê? Seu avô?\NNão tenho idéia do que você está falando!
+Dialogue: Marked=0,0:03:06.02,0:03:08.76,*Default,NTP,0000,0000,0000,!Effect,Estou falando da Dragon Ball\Nque você tem! Devolva-me!
+Dialogue: Marked=0,0:03:08.87,0:03:11.80,*Default,NTP,0000,0000,0000,!Effect,Aquela Dragon Ball?\NÉ uma cóp...
+Dialogue: Marked=0,0:03:17.09,0:03:18.60,*Default,NTP,0000,0000,0000,!Effect,N-Não, eu devolverei!\NEu devolverei!
+Dialogue: Marked=0,0:03:18.69,0:03:20.17,*Default,NTP,0000,0000,0000,!Effect,Eu te devolverei qualquer coisa!
+Dialogue: Marked=0,0:03:20.23,0:03:22.64,*Default,NTP,0000,0000,0000,!Effect,Apenas me salve!
+Dialogue: Marked=0,0:03:28.24,0:03:31.33,*Default,NTP,0000,0000,0000,!Effect,Eu te salvei!\NEntão, me devolva o vovô!
+Dialogue: Marked=0,0:03:37.18,0:03:39.92,*Default,NTP,0000,0000,0000,!Effect,Colocando como estava antes?
+Dialogue: Marked=0,0:03:40.02,0:03:41.55,*Default,NTP,0000,0000,0000,!Effect,Isso é tudo que podemos fazer.
+Dialogue: Marked=0,0:03:43.36,0:03:44.75,*Default,NTP,0000,0000,0000,!Effect,Por que toda essa demora?
+Dialogue: Marked=0,0:03:44.96,0:03:48.29,*Default,NTP,0000,0000,0000,!Effect,Ah, bem, eles estão procurando\Npor ela no armário em que coloquei.
+Dialogue: Marked=0,0:03:48.29,0:03:50.63,*Default,NTP,0000,0000,0000,!Effect,Mas parece que eles não estão achando...
+Dialogue: Marked=0,0:03:50.82,0:03:53.31,*Default,NTP,0000,0000,0000,!Effect,Bem, que tal uma xícara de chá?
+Dialogue: Marked=0,0:03:54.22,0:03:55.17,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!
+Dialogue: Marked=0,0:03:55.36,0:03:56.47,*Default,NTP,0000,0000,0000,!Effect,Nós acabamos!
+Dialogue: Marked=0,0:03:57.09,0:03:58.82,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:03:59.54,0:04:01.67,*Default,NTP,0000,0000,0000,!Effect,Oh! Você colocou ela de vol...
+Dialogue: Marked=0,0:04:02.31,0:04:04.54,*Default,NTP,0000,0000,0000,!Effect,Quer dizer, você achou?
+Dialogue: Marked=0,0:04:08.29,0:04:09.60,*Default,NTP,0000,0000,0000,!Effect,Vovô!
+Dialogue: Marked=0,0:04:10.09,0:04:11.00,*Default,NTP,0000,0000,0000,!Effect,Não!
+Dialogue: Marked=0,0:04:11.85,0:04:15.64,*Default,NTP,0000,0000,0000,!Effect,Não segure com tanta força!\NSegure ela gentilmente. Gentilmente...
+Dialogue: Marked=0,0:04:15.79,0:04:16.78,*Default,NTP,0000,0000,0000,!Effect,Gentilmente?
+Dialogue: Marked=0,0:04:17.16,0:04:19.27,*Default,NTP,0000,0000,0000,!Effect,Sim, gentilmente...
+Dialogue: Marked=0,0:04:20.16,0:04:21.32,*Default,NTP,0000,0000,0000,!Effect,Gentilmente?
+Dialogue: Marked=0,0:04:23.00,0:04:25.01,*Default,NTP,0000,0000,0000,!Effect,Ahn? Estalos...
+Dialogue: Marked=0,0:04:25.44,0:04:31.41,*Default,NTP,0000,0000,0000,!Effect,Bem, você pegou o que queria.\NAgora, vá embora logo! Estou ocupado!
+Dialogue: Marked=0,0:04:35.66,0:04:37.68,*Default,NTP,0000,0000,0000,!Effect,Nós gastamos o nosso tempo\Nem algo tão insignificante!
+Dialogue: Marked=0,0:04:37.68,0:04:39.44,*Default,NTP,0000,0000,0000,!Effect,Vão atrás da verdadeira agora mesmo!
+Dialogue: Marked=0,0:04:39.77,0:04:40.52,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:04:41.21,0:04:42.87,*Default,NTP,0000,0000,0000,!Effect,Tem algo errado por aqui...
+Dialogue: Marked=0,0:04:57.73,0:04:58.91,*Default,NTP,0000,0000,0000,!Effect,Vovô!
+Dialogue: Marked=0,0:05:22.59,0:05:25.19,*Default,NTP,0000,0000,0000,!Effect,Ahn?\NO que está acontecendo?
+Dialogue: Marked=0,0:05:26.73,0:05:31.20,*Default,NTP,0000,0000,0000,!Effect,Era aqui que ficava o\NMonte Frypan há um ano atrás.
+Dialogue: Marked=0,0:05:31.43,0:05:34.79,*Default,NTP,0000,0000,0000,!Effect,Gyumao, que era conhecido como\No Imperador dos Demônios,
+Dialogue: Marked=0,0:05:34.82,0:05:39.89,*Default,NTP,0000,0000,0000,!Effect,mudou os seus modos, e agora,\Nvive em paz com os aldeões.
+Dialogue: Marked=0,0:05:46.02,0:05:48.90,*Default,NTP,0000,0000,0000,!Effect,Onde está o meu Goku?
+Dialogue: Marked=0,0:05:49.29,0:05:55.30,*Default,NTP,0000,0000,0000,!Effect,Veja, eu quero tanto ver ele que o meu\Ncoraçãozinho está batendo tão forte assim...
+Dialogue: Marked=0,0:05:58.69,0:05:59.48,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi...
+Dialogue: Marked=0,0:06:00.66,0:06:01.70,*Default,NTP,0000,0000,0000,!Effect,Papai?
+Dialogue: Marked=0,0:06:02.74,0:06:05.65,*Default,NTP,0000,0000,0000,!Effect,Você quer ver tanto assim o Goku?
+Dialogue: Marked=0,0:06:05.88,0:06:08.33,*Default,NTP,0000,0000,0000,!Effect,Oh, Deus... Eu...
+Dialogue: Marked=0,0:06:08.62,0:06:13.16,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe! Eu pedirei para a\Nvelha senhora revelar onde está o Goku.
+Dialogue: Marked=0,0:06:15.12,0:06:16.33,*Default,NTP,0000,0000,0000,!Effect,Sério?
+Dialogue: Marked=0,0:06:18.42,0:06:22.45,*Default,NTP,0000,0000,0000,!Effect,Hondara hodaroka...
+Dialogue: Marked=0,0:06:22.45,0:06:26.97,*Default,NTP,0000,0000,0000,!Effect,Hondara hodaroka...
+Dialogue: Marked=0,0:06:26.97,0:06:30.76,*Default,NTP,0000,0000,0000,!Effect,Deus de Frypan...\NRevele a localização do Goku!
+Dialogue: Marked=0,0:06:30.82,0:06:34.16,*Default,,0000,0000,0000,,Hondara hodaroka! Ahn?
+Dialogue: Marked=0,0:06:41.07,0:06:42.37,*Default,NTP,0000,0000,0000,!Effect,Qual o problema, velha senhora?
+Dialogue: Marked=0,0:06:42.37,0:06:44.08,*Default,NTP,0000,0000,0000,!Effect,Aproximando, ele está...
+Dialogue: Marked=0,0:06:44.28,0:06:46.21,*Default,NTP,0000,0000,0000,!Effect,O-O Goku está vindo?
+Dialogue: Marked=0,0:06:46.21,0:06:48.39,*Default,NTP,0000,0000,0000,!Effect,Um pouco mais adiante...
+Dialogue: Marked=0,0:06:49.58,0:06:50.51,*Default,NTP,0000,0000,0000,!Effect,Formiga?
+Dialogue: Marked=0,0:06:50.51,0:06:54.51,*Default,NTP,0000,0000,0000,!Effect,Entendi! Fique feliz, Chi-Chi!\NGoku está vindo para cá!
+Dialogue: Marked=0,0:06:54.63,0:06:59.30,*Default,NTP,0000,0000,0000,!Effect,Hã?! Goku está vindo\Npara me fazer dele?!
+Dialogue: Marked=0,0:06:59.49,0:07:05.01,*Default,NTP,0000,0000,0000,!Effect,Hã? Fazer você dele?\NVocê não é muito jovem para isso?!
+Dialogue: Marked=0,0:07:05.26,0:07:08.49,*Default,NTP,0000,0000,0000,!Effect,Não, a idade não\Nimporta diante do amor!
+Dialogue: Marked=0,0:07:08.64,0:07:10.76,*Default,NTP,0000,0000,0000,!Effect,E-Então, nesse caso, devemos\Nnos preparar para as núpcias!
+Dialogue: Marked=0,0:07:10.76,0:07:12.46,*Default,NTP,0000,0000,0000,!Effect,Papai, o que é núpcias?
+Dialogue: Marked=0,0:07:13.73,0:07:18.14,*Default,NTP,0000,0000,0000,!Effect,É um casamento!\NVocê vai ser a noiva do Goku!
+Dialogue: Marked=0,0:07:18.54,0:07:22.64,*Default,NTP,0000,0000,0000,!Effect,Eh? E-Eu?\NOh, Deus... Que vergonha...
+Dialogue: Marked=0,0:07:25.00,0:07:28.10,*Default,NTP,0000,0000,0000,!Effect,Aldeões!\NÉ um casamento!
+Dialogue: Marked=0,0:07:28.16,0:07:30.38,*Default,NTP,0000,0000,0000,!Effect,Um casamento!
+Dialogue: Marked=0,0:07:35.92,0:07:38.84,*Default,NTP,0000,0000,0000,!Effect,A Dragon Ball está,\Nnesse momento, no setor P3,
+Dialogue: Marked=0,0:07:38.84,0:07:41.22,*Default,NTP,0000,0000,0000,!Effect,movendo-se para norte-noroeste\Na 80 quilômetros por hora!
+Dialogue: Marked=0,0:07:41.56,0:07:46.09,*Default,NTP,0000,0000,0000,!Effect,Estranho...\NNenhuma nave foi detectada.
+Dialogue: Marked=0,0:07:47.30,0:07:49.32,*Default,NTP,0000,0000,0000,!Effect,Coronel Silver, eu achei.
+Dialogue: Marked=0,0:07:49.74,0:07:51.44,*Default,NTP,0000,0000,0000,!Effect,Está fora dos limites territoriais.\N(It's off the port bow.)****** não soube essa nem a pau u.u *** Verificar (sugestão: birdaum)
+Dialogue: Marked=0,0:07:59.71,0:08:02.29,*Default,NTP,0000,0000,0000,!Effect,É isso! Quem esperaria que\Num pássaro estivesse carregando ela...
+Dialogue: Marked=0,0:08:12.57,0:08:14.85,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:08:17.57,0:08:21.06,*Default,NTP,0000,0000,0000,!Effect,Isso fará um grande\Nyakitori para o casamento! ******** verificar o q é yakitori
+Dialogue: Marked=0,0:08:24.64,0:08:27.40,*Default,NTP,0000,0000,0000,!Effect,Coronel, aquele é o Gyumao!
+Dialogue: Marked=0,0:08:28.21,0:08:31.93,*Default,NTP,0000,0000,0000,!Effect,Entendi...\NEntão, esse é o território do Gyumao?
+Dialogue: Marked=0,0:08:35.48,0:08:38.14,*Default,NTP,0000,0000,0000,!Effect,Coronel! Há algo estranho\Nvoando naquela direção.
+Dialogue: Marked=0,0:08:41.79,0:08:44.64,*Default,NTP,0000,0000,0000,!Effect,Não! Vamos nos esconder\Naté o momento certo!
+Dialogue: Marked=0,0:09:01.78,0:09:04.28,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!\NAs coisas tomaram um péssimo rumo!
+Dialogue: Marked=0,0:09:04.52,0:09:07.68,*Default,NTP,0000,0000,0000,!Effect,Nós não podemos usar métodos\Ncomuns contra o Gyumao.
+Dialogue: Marked=0,0:09:07.76,0:09:12.39,*Default,NTP,0000,0000,0000,!Effect,Tolos! Eu sou Pilaf-sama!\NEu controlarei todo o mundo!
+Dialogue: Marked=0,0:09:12.88,0:09:17.71,*Default,NTP,0000,0000,0000,!Effect,Eu vou te mostrar! Eu arrancarei a Dragon\NBall do Gyumao ou de qualquer outra pessoa!
+Dialogue: Marked=0,0:09:18.02,0:09:19.80,*Default,NTP,0000,0000,0000,!Effect,Mas, Pilaf-sama!
+Dialogue: Marked=0,0:09:20.42,0:09:22.83,*Default,NTP,0000,0000,0000,!Effect,Gyumao é o terrível homem que...
+Dialogue: Marked=0,0:09:22.83,0:09:25.88,*Default,NTP,0000,0000,0000,!Effect,era conhecido como o Imperador dos Deuses Diabólicos...
+Dialogue: Marked=0,0:09:25.88,0:09:28.00,*Default,,0000,0000,0000,,e dos Demônios do Monte Frypan há tempos atrás!
+Dialogue: Marked=0,0:09:30.30,0:09:31.85,*Default,NTP,0000,0000,0000,!Effect,O Imperador dos Demônios?
+Dialogue: Marked=0,0:09:32.38,0:09:34.60,*Default,NTP,0000,0000,0000,!Effect,Você não sabia?
+Dialogue: Marked=0,0:09:36.14,0:09:38.71,*Default,NTP,0000,0000,0000,!Effect,C-Claro que sabia...
+Dialogue: Marked=0,0:09:39.15,0:09:42.37,*Default,NTP,0000,0000,0000,!Effect,V-Você não sabe como será\Na luta se não lutar...
+Dialogue: Marked=0,0:10:03.30,0:10:09.89,*Default,NTP,0000,0000,0000,!Effect,Bem-vindo de volta, Gyumao-sama.\NParabéns pelo casamento da Chi-Chi-sama.
+Dialogue: Marked=0,0:10:09.89,0:10:13.81,*Default,NTP,0000,0000,0000,!Effect,Todos nós, aldeões, pretendemos\Ncelebrar de forma magnífica.
+Dialogue: Marked=0,0:10:13.95,0:10:16.12,*Default,NTP,0000,0000,0000,!Effect,Não, todos vocês são muito legais.
+Dialogue: Marked=0,0:10:16.12,0:10:19.69,*Default,NTP,0000,0000,0000,!Effect,Com os aldeões celebrando,\Na Chi-Chi ficará muito feliz, também.
+Dialogue: Marked=0,0:10:23.52,0:10:25.21,*Default,NTP,0000,0000,0000,!Effect,Gyumao-sama, aquilo é...
+Dialogue: Marked=0,0:10:25.73,0:10:26.75,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:10:31.80,0:10:34.32,*Default,NTP,0000,0000,0000,!Effect,Oh, s-será que é um...
+Dialogue: Marked=0,0:10:34.53,0:10:36.64,*Default,NTP,0000,0000,0000,!Effect,Certo! Comecem o ataque!
+Dialogue: Marked=0,0:10:36.64,0:10:38.86,*Default,NTP,0000,0000,0000,!Effect,Por favor, espere um pouco, Pilaf-sama!
+Dialogue: Marked=0,0:10:39.77,0:10:41.67,*Default,NTP,0000,0000,0000,!Effect,Ahn? Por quê?
+Dialogue: Marked=0,0:10:41.99,0:10:43.23,*Default,NTP,0000,0000,0000,!Effect,Ahn...
+Dialogue: Marked=0,0:10:47.61,0:10:50.35,*Default,NTP,0000,0000,0000,!Effect,"Bem-vindo, Mago Gosora-sama"?
+Dialogue: Marked=0,0:10:50.35,0:10:53.75,*Default,NTP,0000,0000,0000,!Effect,Isso não se lê "Son Goku"?
+Dialogue: Marked=0,0:10:55.76,0:11:00.38,*Default,NTP,0000,0000,0000,!Effect,O Son Goku não é o baixinho da nuvem?
+Dialogue: Marked=0,0:11:01.09,0:11:02.50,*Default,NTP,0000,0000,0000,!Effect,Aquele baixinho...
+Dialogue: Marked=0,0:11:02.76,0:11:07.23,*Default,NTP,0000,0000,0000,!Effect,Mas por que eles estão nos olhando e\Ndando as boas-vindas para aquele baixinho?
+Dialogue: Marked=0,0:11:07.23,0:11:09.22,*Default,NTP,0000,0000,0000,!Effect,Parece que eles confundiram.
+Dialogue: Marked=0,0:11:14.51,0:11:17.36,*Default,NTP,0000,0000,0000,!Effect,Ei! Chi-Chi!
+Dialogue: Marked=0,0:11:18.21,0:11:21.21,*Default,NTP,0000,0000,0000,!Effect,Para onde você foi?!\NGoku está aqui!
+Dialogue: Marked=0,0:11:22.55,0:11:24.80,*Default,NTP,0000,0000,0000,!Effect,Ei, velha senhora, você viu a Chi-Chi?
+Dialogue: Marked=0,0:11:25.12,0:11:27.85,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi-sama? Ela foi a caminho da colina,\Nque fica atrás de casa, há algum tempo atrás.g
+Dialogue: Marked=0,0:11:27.85,0:11:29.47,*Default,NTP,0000,0000,0000,!Effect,Ela disse que ia colher algumas flores.
+Dialogue: Marked=0,0:11:29.72,0:11:31.92,*Default,NTP,0000,0000,0000,!Effect,O quê? Colher flores?!
+Dialogue: Marked=0,0:11:32.05,0:11:35.61,*Default,NTP,0000,0000,0000,!Effect,Entendo. Chi-Chi se tornou\Nigual às outras mulheres.
+Dialogue: Marked=0,0:11:40.10,0:11:42.13,*Default,NTP,0000,0000,0000,!Effect,Tudo pronto, Pilaf-sama.
+Dialogue: Marked=0,0:11:42.13,0:11:44.62,*Default,NTP,0000,0000,0000,!Effect,Certo! Shuu, vista isso.
+Dialogue: Marked=0,0:11:48.71,0:11:50.92,*Default,NTP,0000,0000,0000,!Effect,Fica bem em você...
+Dialogue: Marked=0,0:11:51.08,0:11:54.81,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!\NEles descobrirão na hora!
+Dialogue: Marked=0,0:11:55.15,0:11:57.48,*Default,NTP,0000,0000,0000,!Effect,Cale-se! Sem queixas!
+Dialogue: Marked=0,0:11:57.84,0:12:00.39,*Default,NTP,0000,0000,0000,!Effect,Nós temos 50% de chances de\Nvencer a luta contra o Gyumao.
+Dialogue: Marked=0,0:12:00.39,0:12:04.64,*Default,NTP,0000,0000,0000,!Effect,Mas é mais fácil enganá-lo\Ne arrancar a Dragon Ball dele.
+Dialogue: Marked=0,0:12:04.76,0:12:12.47,N!,NTP,0000,0000,0000,!Effect,Neste caso, ele fala 'watashi', que significa 'eu', mas Goku costuma usar 'ora', que também significa 'eu'.
+Dialogue: Marked=0,0:12:04.76,0:12:07.09,*Default,NTP,0000,0000,0000,!Effect,Mas eu não sou um bom Goku
+Dialogue: Marked=0,0:12:07.09,0:12:11.10,*Default,NTP,0000,0000,0000,!Effect,Não use "watashi"!\NAquele baixinho usa "ora"!
+Dialogue: Marked=0,0:12:11.10,0:12:12.47,*Default,NTP,0000,0000,0000,!Effect,Certo..."Ora"...
+Dialogue: Marked=0,0:12:12.73,0:12:15.15,*Default,NTP,0000,0000,0000,!Effect,E é perfeito que você\Ntambém tenha um rabo.
+Dialogue: Marked=0,0:12:15.28,0:12:17.89,*Default,NTP,0000,0000,0000,!Effect,Você pode fazer isso se realmente\Nestiver disposto. Entendido?
+Dialogue: Marked=0,0:12:18.04,0:12:19.20,*Default,NTP,0000,0000,0000,!Effect,S-Sim...
+Dialogue: Marked=0,0:12:23.68,0:12:25.57,*Default,NTP,0000,0000,0000,!Effect,Oh, eles estão pousando!
+Dialogue: Marked=0,0:12:38.82,0:12:41.63,*Default,NTP,0000,0000,0000,!Effect,Ei, Goku!\NObrigado por vir!
+Dialogue: Marked=0,0:12:41.83,0:12:43.69,*Default,NTP,0000,0000,0000,!Effect,Todos nós estamos\Nprontos para o casamento!
+Dialogue: Marked=0,0:12:43.93,0:12:46.66,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi está ausente agora,\Nmas logo ela estará de volta.
+Dialogue: Marked=0,0:12:46.80,0:12:49.60,*Default,NTP,0000,0000,0000,!Effect,Pessoal, parabenizem-no!
+Dialogue: Marked=0,0:12:50.55,0:12:52.24,*Default,NTP,0000,0000,0000,!Effect,C-Casamento?
+Dialogue: Marked=0,0:12:53.61,0:12:56.75,*Default,NTP,0000,0000,0000,!Effect,Você cresceu bastante\Nem tão pouco tempo!
+Dialogue: Marked=0,0:13:01.75,0:13:03.77,*Default,NTP,0000,0000,0000,!Effect,E quem temos aqui?!
+Dialogue: Marked=0,0:13:07.75,0:13:10.02,*Default,NTP,0000,0000,0000,!Effect,Nós somos seus amigos!
+Dialogue: Marked=0,0:13:13.89,0:13:16.11,*Default,NTP,0000,0000,0000,!Effect,Para onde eles devem ter ido?
+Dialogue: Marked=0,0:13:16.80,0:13:18.50,*Default,NTP,0000,0000,0000,!Effect,Cara, estou faminto.
+Dialogue: Marked=0,0:13:45.69,0:13:47.92,*Default,NTP,0000,0000,0000,!Effect,Ei, você não é a Chi-Chi?!
+Dialogue: Marked=0,0:13:55.63,0:13:59.94,*Default,NTP,0000,0000,0000,!Effect,Oh, Deus! Então você veio\Naté aqui apenas por mim, Goku?
+Dialogue: Marked=0,0:13:59.94,0:14:01.31,*Default,NTP,0000,0000,0000,!Effect,O que você estava fazendo?
+Dialogue: Marked=0,0:14:01.44,0:14:04.60,*Default,NTP,0000,0000,0000,!Effect,Eu estava colhendo flores\Npara dar para você! Tome!
+Dialogue: Marked=0,0:14:06.60,0:14:09.67,*Default,NTP,0000,0000,0000,!Effect,Quando nos casarmos,\Neu serei a sua amada esposa!
+Dialogue: Marked=0,0:14:09.95,0:14:11.82,*Default,NTP,0000,0000,0000,!Effect,Casar? O que é isso?
+Dialogue: Marked=0,0:14:12.49,0:14:17.04,*Default,NTP,0000,0000,0000,!Effect,Fazendo-se de inocente\Nde novo? Bem, agora...
+Dialogue: Marked=0,0:14:19.98,0:14:25.37,*Default,NTP,0000,0000,0000,!Effect,Ai, ai! Você é bem forte em comparação\Na essa aparência de garota delicada!
+Dialogue: Marked=0,0:14:25.37,0:14:28.05,*Default,NTP,0000,0000,0000,!Effect,Oh, Deus...\NQue vergonha...
+Dialogue: Marked=0,0:14:28.67,0:14:32.07,*Default,NTP,0000,0000,0000,!Effect,Oh, bem...\NQuer comer isso?
+Dialogue: Marked=0,0:14:32.67,0:14:34.78,*Default,NTP,0000,0000,0000,!Effect,- Ahn? Para mim?\N- Sim!
+Dialogue: Marked=0,0:14:57.03,0:15:01.75,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama... Não posso me casar\Ncom alguém que nunca vi antes.
+Dialogue: Marked=0,0:15:02.20,0:15:04.98,*Default,NTP,0000,0000,0000,!Effect,Seu tolo!\NQuem disse algo sobre casar?!
+Dialogue: Marked=0,0:15:05.07,0:15:07.62,*Default,NTP,0000,0000,0000,!Effect,Mas isso não é um casamento?
+Dialogue: Marked=0,0:15:07.64,0:15:10.73,*Default,NTP,0000,0000,0000,!Effect,Apenas fique fingindo até\Nconseguirmos roubar a Dragon Ball.
+Dialogue: Marked=0,0:15:10.92,0:15:13.38,*Default,NTP,0000,0000,0000,!Effect,Quando acharmos,\Nnós iremos sair daqui.
+Dialogue: Marked=0,0:15:13.38,0:15:14.55,*Default,NTP,0000,0000,0000,!Effect,S-Sim.
+Dialogue: Marked=0,0:15:15.88,0:15:19.45,*Default,NTP,0000,0000,0000,!Effect,Desculpe-me, Goku.\NA Chi-Chi ainda não voltou...
+Dialogue: Marked=0,0:15:19.45,0:15:22.84,*Default,NTP,0000,0000,0000,!Effect,Não, não, tudo bem.\NEstou acostumado a esperar.
+Dialogue: Marked=0,0:15:23.07,0:15:27.41,*Default,NTP,0000,0000,0000,!Effect,Seu idiota! Diga algo sobre querer\Ncomer porque você está com fome!
+Dialogue: Marked=0,0:15:27.48,0:15:29.93,*Default,NTP,0000,0000,0000,!Effect,Se não falar, talvez\Nnós não possamos escapar!
+Dialogue: Marked=0,0:15:29.93,0:15:30.91,*Default,NTP,0000,0000,0000,!Effect,C-Certo!
+Dialogue: Marked=0,0:15:31.53,0:15:33.62,*Default,NTP,0000,0000,0000,!Effect,Ah!\NEstou com tanta fome!
+Dialogue: Marked=0,0:15:33.68,0:15:35.41,*Default,NTP,0000,0000,0000,!Effect,Eu queria comer\Nalguma coisa imediatamente!
+Dialogue: Marked=0,0:15:37.94,0:15:40.54,*Default,NTP,0000,0000,0000,!Effect,Oh, certo. Desculpa.
+Dialogue: Marked=0,0:15:40.54,0:15:43.22,*Default,NTP,0000,0000,0000,!Effect,Certo! Iniciaremos o casamento\Nassim que a Chi-Chi voltar.
+Dialogue: Marked=0,0:15:43.28,0:15:45.27,*Default,NTP,0000,0000,0000,!Effect,Acho que começaremos com o banquete antes.
+Dialogue: Marked=0,0:15:45.58,0:15:48.28,*Default,NTP,0000,0000,0000,!Effect,Ei!\NTragam a comida!
+Dialogue: Marked=0,0:15:57.52,0:15:59.43,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama, isso é...
+Dialogue: Marked=0,0:15:59.43,0:16:02.12,*Default,NTP,0000,0000,0000,!Effect,Então, a Dragon Ball está ali dentro...
+Dialogue: Marked=0,0:16:07.53,0:16:08.78,*Default,NTP,0000,0000,0000,!Effect,H-Hã?
+Dialogue: Marked=0,0:16:08.78,0:16:10.58,*Default,NTP,0000,0000,0000,!Effect,Vamos primeiro fazer um brinde!
+Dialogue: Marked=0,0:16:11.37,0:16:13.19,*Default,NTP,0000,0000,0000,!Effect,A Chi-Chi ainda não voltou...
+Dialogue: Marked=0,0:16:13.26,0:16:17.86,*Default,NTP,0000,0000,0000,!Effect,Mas eu gostaria de brindar\Npor ter ganhado um bom genro.
+Dialogue: Marked=0,0:16:17.98,0:16:23.87,N!,NTP,0000,0000,0000,!Effect,Kanpai = Saúde
+Dialogue: Marked=0,0:16:17.98,0:16:19.79,*Default,NTP,0000,0000,0000,!Effect,Certo, kanpai!
+Dialogue: Marked=0,0:16:19.98,0:16:23.87,*Default,NTP,0000,0000,0000,!Effect,- Kanpai!\N- Garotinho! Parabéns!
+Dialogue: Marked=0,0:16:27.02,0:16:29.42,*Default,NTP,0000,0000,0000,!Effect,Ahn? Goku, não fique\Nencabulado, por favor.
+Dialogue: Marked=0,0:16:29.55,0:16:33.34,*Default,NTP,0000,0000,0000,!Effect,Você ganhou novos amigos!\NIncluindo os aldeões!
+Dialogue: Marked=0,0:16:33.67,0:16:34.84,*Default,NTP,0000,0000,0000,!Effect,Certo, então...
+Dialogue: Marked=0,0:16:35.06,0:16:37.40,*Default,NTP,0000,0000,0000,!Effect,Ei! Deixem eles te darem um\Npouco disso ao invés disso.
+Dialogue: Marked=0,0:16:37.40,0:16:39.80,*Default,NTP,0000,0000,0000,!Effect,Mas eu não consigo comer tanto assim.
+Dialogue: Marked=0,0:16:40.07,0:16:43.60,*Default,NTP,0000,0000,0000,!Effect,Apenas deixem que eles troquem!
+Dialogue: Marked=0,0:16:43.60,0:16:47.11,*Default,NTP,0000,0000,0000,!Effect,O que você está sussurrando?\NConte-me também!
+Dialogue: Marked=0,0:16:47.11,0:16:49.67,*Default,NTP,0000,0000,0000,!Effect,N-Não, o Goku-san estava apenas dizendo...
+Dialogue: Marked=0,0:16:49.76,0:16:51.66,*Default,,0000,0000,0000,,o quanto ele gostaria de comer um pouco daquilo...
+Dialogue: Marked=0,0:16:51.66,0:16:53.65,*Default,NTP,0000,0000,0000,!Effect,no lugar desse pequeno pássaro.
+Dialogue: Marked=0,0:16:53.65,0:16:56.20,*Default,NTP,0000,0000,0000,!Effect,Oh, nesse caso...
+Dialogue: Marked=0,0:16:56.88,0:16:58.72,*Default,NTP,0000,0000,0000,!Effect,Eu abrirei uma exceção para você.
+Dialogue: Marked=0,0:16:59.04,0:17:00.60,*Default,NTP,0000,0000,0000,!Effect,Nós somos como pai e\Nfilho a partir de agora.
+Dialogue: Marked=0,0:17:00.70,0:17:03.48,*Default,NTP,0000,0000,0000,!Effect,Então, se há algo que\Nvocê queira, é só dizer.
+Dialogue: Marked=0,0:17:03.59,0:17:06.74,*Default,NTP,0000,0000,0000,!Effect,Goku, você está\Nextremamente tímido, também!
+Dialogue: Marked=0,0:17:13.93,0:17:15.46,*Default,NTP,0000,0000,0000,!Effect,Ah!\NUm porco voador!
+Dialogue: Marked=0,0:17:23.24,0:17:25.45,*Default,NTP,0000,0000,0000,!Effect,Não há nenhum porco voando...
+Dialogue: Marked=0,0:17:38.99,0:17:42.63,*Default,NTP,0000,0000,0000,!Effect,Eu não sei quem são eles,\Nmas eles com certeza têm coragem!
+Dialogue: Marked=0,0:17:42.63,0:17:45.03,*Default,NTP,0000,0000,0000,!Effect,Como eles ousam acabar\Ncom uma ocasião festiva!
+Dialogue: Marked=0,0:17:45.03,0:17:46.33,*Default,NTP,0000,0000,0000,!Effect,Agora eles vão ver!
+Dialogue: Marked=0,0:17:46.33,0:17:48.90,*Default,NTP,0000,0000,0000,!Effect,De onde eles são?!
+Dialogue: Marked=0,0:17:49.45,0:17:51.67,*Default,NTP,0000,0000,0000,!Effect,Pilaf-sama!\NVamos fugir enquanto podemos!
+Dialogue: Marked=0,0:17:52.03,0:17:53.27,*Default,NTP,0000,0000,0000,!Effect,Do que você está falando?!
+Dialogue: Marked=0,0:17:53.31,0:17:56.15,*Default,NTP,0000,0000,0000,!Effect,Essa é a melhor chance\Nde pegar a Dragon Ball!
+Dialogue: Marked=0,0:17:56.58,0:17:59.28,*Default,NTP,0000,0000,0000,!Effect,Shuu! Acorde!
+Dialogue: Marked=0,0:17:59.28,0:18:02.84,*Default,NTP,0000,0000,0000,!Effect,Estou faminto. Estou faminto.
+Dialogue: Marked=0,0:18:25.93,0:18:27.76,*Default,NTP,0000,0000,0000,!Effect,Q-Que monstro!
+Dialogue: Marked=0,0:18:28.01,0:18:30.08,*Default,NTP,0000,0000,0000,!Effect,Coronel...\NCom essa velocidade...
+Dialogue: Marked=0,0:18:30.33,0:18:31.41,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe.
+Dialogue: Marked=0,0:18:34.12,0:18:35.80,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:18:42.06,0:18:44.57,*Default,NTP,0000,0000,0000,!Effect,Ahn?\NNão consigo enxergar!
+Dialogue: Marked=0,0:18:44.80,0:18:45.71,*Default,NTP,0000,0000,0000,!Effect,Agora!
+Dialogue: Marked=0,0:18:54.37,0:18:56.95,*Default,NTP,0000,0000,0000,!Effect,Agora vocês viram a força\Ndo nosso exército Red Ribbon?
+Dialogue: Marked=0,0:18:57.08,0:19:00.90,*Default,NTP,0000,0000,0000,!Effect,Certo! Todas as unidades, ataquem a vila!\NProcurem pela Dragon Ball!
+Dialogue: Marked=0,0:19:07.46,0:19:09.84,*Default,NTP,0000,0000,0000,!Effect,Eu consegui! Achei!
+Dialogue: Marked=0,0:19:18.46,0:19:22.29,*Default,NTP,0000,0000,0000,!Effect,Conseguimos! Pilaf-sama! Rápido! Rápido!
+Dialogue: Marked=0,0:19:24.18,0:19:25.13,*Default,NTP,0000,0000,0000,!Effect,Não os deixem fugir!
+Dialogue: Marked=0,0:19:26.13,0:19:30.38,*Default,NTP,0000,0000,0000,!Effect,S-S-Salvem-me!
+Dialogue: Marked=0,0:19:43.15,0:19:51.54,N!,NTP,0000,0000,0000,!Effect,Oi! = Ei! ~ Hai! = Sim!
+Dialogue: Marked=0,0:19:43.15,0:19:49.22,*Default,NTP,0000,0000,0000,!Effect,Então, quando você me chamar por "Oi!",\Neu responderei com um "Hai!"...
+Dialogue: Marked=0,0:19:49.62,0:19:51.54,*Default,NTP,0000,0000,0000,!Effect,Oh, Deus, que vergonhoso!
+Dialogue: Marked=0,0:19:52.32,0:19:54.13,*Default,NTP,0000,0000,0000,!Effect,Hã? Eu cochilei?
+Dialogue: Marked=0,0:19:54.19,0:19:57.36,*Default,NTP,0000,0000,0000,!Effect,Você estava fingindo\Nouvir enquanto dormia!
+Dialogue: Marked=0,0:20:00.67,0:20:02.29,*Default,NTP,0000,0000,0000,!Effect,Ai!\NVocê me machucou!
+Dialogue: Marked=0,0:20:02.43,0:20:04.02,*Default,NTP,0000,0000,0000,!Effect,Ahn?\NO que é aquilo?
+Dialogue: Marked=0,0:20:09.81,0:20:12.51,*Default,NTP,0000,0000,0000,!Effect,Ah...\NAquela é a minha vila!
+Dialogue: Marked=0,0:20:13.35,0:20:14.66,*Default,NTP,0000,0000,0000,!Effect,A-Aquela é...
+Dialogue: Marked=0,0:20:16.85,0:20:20.21,*Default,NTP,0000,0000,0000,!Effect,Ei, Kinto Un!
+Dialogue: Marked=0,0:20:23.28,0:20:25.57,*Default,NTP,0000,0000,0000,!Effect,Certo, suba rápido!
+Dialogue: Marked=0,0:20:26.16,0:20:26.94,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:20:28.19,0:20:33.53,Narrador,NTP,0000,0000,0000,!Effect,Goku não tem consciência de que Pilaf\Nroubou a Dragon Ball e está fugindo.
+Dialogue: Marked=0,0:20:33.70,0:20:37.88,Narrador,NTP,0000,0000,0000,!Effect,Nem sabe sobre o misterioso exército\Nque também está atrás dela: Red Ribbon.
+Dialogue: Marked=0,0:20:38.00,0:20:41.76,Narrador,NTP,0000,0000,0000,!Effect,Será que Goku conseguirá alcançá-los?

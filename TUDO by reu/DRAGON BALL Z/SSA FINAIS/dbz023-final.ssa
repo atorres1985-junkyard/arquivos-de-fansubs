@@ -1,0 +1,224 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: Nota,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:02.08,0:00:06.64,Narrador,NTP,0000,0000,0000,!Effect,O poder dos Saiya-jins realmente é assustador.
+Dialogue: Marked=0,0:00:16.59,0:00:20.60,Narrador,NTP,0000,0000,0000,!Effect,Mas a tão esperada volta de Son Goku ainda vai levar...
+Dialogue: Marked=0,0:00:20.60,0:00:23.82,Narrador,NTP,0000,0000,0000,!Effect,mais um dia devido à sua viagem de volta pelo Caminho da Serpente.
+Dialogue: Marked=0,0:00:25.50,0:00:32.30,Narrador,NTP,0000,0000,0000,!Effect,Piccolo, Gohan e Kuririn foram\Nos primeiros a encontrar com os Saiya-jins.
+Dialogue: Marked=0,0:00:37.14,0:00:45.81,Narrador,NTP,0000,0000,0000,!Effect,Porém, ao invés de lutar, os Saiya-jins semearam\Nseis guerreiros estranhos chamados Saibaimans.
+Dialogue: Marked=0,0:00:49.72,0:00:51.35,*Default,NTP,0000,0000,0000,!Effect,Aqueles três são os inimigos.
+Dialogue: Marked=0,0:00:51.96,0:00:54.12,*Default,NTP,0000,0000,0000,!Effect,Vão pegá-los, Saibaimans.
+Dialogue: Marked=0,0:00:22.35,0:00:25.60,*Default,NTP,0000,0000,0000,!Effect,Gohan!\NNão tire os olhos deles.
+Dialogue: Marked=0,0:00:26.59,0:00:27.31,*Default,NTP,0000,0000,0000,!Effect,S-Sim.
+Dialogue: Marked=0,0:00:27.92,0:00:29.42,*Default,NTP,0000,0000,0000,!Effect,Não precisa ter medo.
+Dialogue: Marked=0,0:00:29.42,0:00:30.23,*Default,NTP,0000,0000,0000,!Effect,Certo.
+Dialogue: Marked=0,0:01:11.50,0:01:13.33,*Default,NTP,0000,0000,0000,!Effect,Gohan, não fique assustado.
+Dialogue: Marked=0,0:01:13.33,0:01:13.96,*Default,NTP,0000,0000,0000,!Effect,T-Tá!
+Dialogue: Marked=0,0:01:26.78,0:01:29.11,*Default,NTP,0000,0000,0000,!Effect,Nós vamos atacar agora?
+Dialogue: Marked=0,0:01:29.11,0:01:29.91,*Default,NTP,0000,0000,0000,!Effect,Kuririn!
+Dialogue: Marked=0,0:01:37.06,0:01:38.69,*Default,NTP,0000,0000,0000,!Effect,Tenshinhan!
+Dialogue: Marked=0,0:01:38.69,0:01:40.47,*Default,NTP,0000,0000,0000,!Effect,Você também veio, Chaos?
+Dialogue: Marked=0,0:01:44.20,0:01:46.83,*Default,NTP,0000,0000,0000,!Effect,Eu pensei que fossem apenas dois Saiya-jins.
+Dialogue: Marked=0,0:01:48.23,0:01:49.63,*Default,NTP,0000,0000,0000,!Effect,Essa é uma longa história.
+Dialogue: Marked=0,0:01:50.54,0:01:51.15,*Default,NTP,0000,0000,0000,!Effect,Agora tem mais guerreiros.
+Dialogue: Marked=0,0:01:51.70,0:01:54.19,*Default,NTP,0000,0000,0000,!Effect,Não importa quantos são.
+Dialogue: Marked=0,0:01:55.34,0:01:57.78,*Default,NTP,0000,0000,0000,!Effect,Ele é o filho de Goku?
+Dialogue: Marked=0,0:01:58.44,0:02:01.58,*Default,NTP,0000,0000,0000,!Effect,Sim.\NParece que Piccolo o treinou muito bem.
+Dialogue: Marked=0,0:02:04.68,0:02:06.29,*Default,NTP,0000,0000,0000,!Effect,Eu gosto da expressão no rosto dele.
+Dialogue: Marked=0,0:02:07.99,0:02:09.50,*Default,NTP,0000,0000,0000,!Effect,Insetos.
+Dialogue: Marked=0,0:02:09.89,0:02:12.98,*Default,NTP,0000,0000,0000,!Effect,Saibaimans!\NFaçam com que eles sofram!
+Dialogue: Marked=0,0:02:24.40,0:02:25.53,*Default,NTP,0000,0000,0000,!Effect,Esperem aí!
+Dialogue: Marked=0,0:02:32.81,0:02:35.03,*Default,NTP,0000,0000,0000,!Effect,Kuririn, desculpe pelo atraso.
+Dialogue: Marked=0,0:02:35.95,0:02:37.22,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san!
+Dialogue: Marked=0,0:02:40.69,0:02:42.78,*Default,NTP,0000,0000,0000,!Effect,Com exceção de Goku, estamos todos aqui?
+Dialogue: Marked=0,0:02:44.89,0:02:49.79,*Default,NTP,0000,0000,0000,!Effect,1... 2... 3... 4... 5... 6... Hum?
+Dialogue: Marked=0,0:02:50.16,0:02:54.17,*Default,NTP,0000,0000,0000,!Effect,Interessante.\NExatamente o mesmo número de Saibaimans.
+Dialogue: Marked=0,0:02:55.33,0:02:56.55,*Default,NTP,0000,0000,0000,!Effect,Você tem razão.
+Dialogue: Marked=0,0:02:57.64,0:02:58.77,*Default,NTP,0000,0000,0000,!Effect,E então?
+Dialogue: Marked=0,0:02:58.77,0:03:02.55,*Default,NTP,0000,0000,0000,!Effect,Querem tentar lutar um contra um?
+Dialogue: Marked=0,0:03:04.01,0:03:04.87,*Default,NTP,0000,0000,0000,!Effect,Um jogo.
+Dialogue: Marked=0,0:03:07.05,0:03:08.75,*Default,NTP,0000,0000,0000,!Effect,Um jogo?\NIsso é inútil!
+Dialogue: Marked=0,0:03:08.75,0:03:12.35,*Default,NTP,0000,0000,0000,!Effect,Esqueçam esses jogos sem sentido e\Nvamos resolver isso imediatamente!
+Dialogue: Marked=0,0:03:13.02,0:03:15.32,*Default,NTP,0000,0000,0000,!Effect,Por que não?
+Dialogue: Marked=0,0:03:15.32,0:03:16.94,*Default,NTP,0000,0000,0000,!Effect,Isso seria bem melhor para nós.
+Dialogue: Marked=0,0:03:17.46,0:03:19.70,*Default,NTP,0000,0000,0000,!Effect,Além disso, o Goku ainda não chegou.
+Dialogue: Marked=0,0:03:20.93,0:03:22.16,*Default,NTP,0000,0000,0000,!Effect,Assim será melhor.
+Dialogue: Marked=0,0:03:22.86,0:03:24.90,*Default,NTP,0000,0000,0000,!Effect,Eu irei primeiro.
+Dialogue: Marked=0,0:03:24.90,0:03:26.16,*Default,NTP,0000,0000,0000,!Effect,Venham!
+Dialogue: Marked=0,0:03:29.63,0:03:34.49,*Default,NTP,0000,0000,0000,!Effect,Eles vão se borrar todo quando\Ndescobrirem como os Saibaimans são fortes!
+Dialogue: Marked=0,0:03:40.45,0:03:43.68,*Default,NTP,0000,0000,0000,!Effect,E então, qual de vocês vai lutar?
+Dialogue: Marked=0,0:03:44.55,0:03:45.74,*Default,NTP,0000,0000,0000,!Effect,Você vai primeiro.
+Dialogue: Marked=0,0:03:45.74,0:03:48.43,*Default,NTP,0000,0000,0000,!Effect,Bata o mais forte que puder.\NEntendeu?
+Dialogue: Marked=0,0:03:54.99,0:03:57.05,*Default,NTP,0000,0000,0000,!Effect,T-Ten-san! Boa sorte!
+Dialogue: Marked=0,0:04:09.04,0:04:12.00,*Default,NTP,0000,0000,0000,!Effect,Transmitiremos imagens ao vivo do que\Nestá acontecendo neste momento!
+Dialogue: Marked=0,0:04:19.69,0:04:23.88,*Default,NTP,0000,0000,0000,!Effect,Aqueles são os Saiya-jins!\NSaiya-jins!
+Dialogue: Marked=0,0:04:25.86,0:04:27.64,*Default,NTP,0000,0000,0000,!Effect,Essas "pestes" voadoras barulhentas.
+Dialogue: Marked=0,0:04:44.61,0:04:46.48,*Default,NTP,0000,0000,0000,!Effect,Agora, Saibaiman!
+Dialogue: Marked=0,0:04:46.48,0:04:48.54,*Default,NTP,0000,0000,0000,!Effect,Não se contenha e o esmague.
+Dialogue: Marked=0,0:04:56.52,0:05:00.83,*Default,NTP,0000,0000,0000,!Effect,Ouvimos dizer que os Saiya-jins\Npossuem um poder incrível.
+Dialogue: Marked=0,0:05:00.83,0:05:01.84,*Default,NTP,0000,0000,0000,!Effect,Será mesmo?
+Dialogue: Marked=0,0:05:04.33,0:05:05.56,*Default,NTP,0000,0000,0000,!Effect,Idiota!
+Dialogue: Marked=0,0:05:05.56,0:05:07.22,*Default,NTP,0000,0000,0000,!Effect,É claro!
+Dialogue: Marked=0,0:05:09.97,0:05:15.63,*Default,NTP,0000,0000,0000,!Effect,Como lhes disse, meus subordinados\Nestão lutando por todos vocês!
+Dialogue: Marked=0,0:05:17.04,0:05:18.41,*Default,NTP,0000,0000,0000,!Effect,Subordinados?
+Dialogue: Marked=0,0:05:18.41,0:05:20.55,*Default,NTP,0000,0000,0000,!Effect,Não se espantem.
+Dialogue: Marked=0,0:05:20.55,0:05:23.68,*Default,NTP,0000,0000,0000,!Effect,Dentre eles, está o vencedor do\NTenkaichi Budoukai, Son Goku,
+Dialogue: Marked=0,0:05:23.68,0:05:26.32,*Default,NTP,0000,0000,0000,!Effect,Tenshinhan, e também um cara chamado Piccolo.
+Dialogue: Marked=0,0:05:26.45,0:05:27.70,*Default,NTP,0000,0000,0000,!Effect,Isso é incrível!
+Dialogue: Marked=0,0:05:28.02,0:05:31.46,*Default,NTP,0000,0000,0000,!Effect,Por isso, ficaremos bem!
+Dialogue: Marked=0,0:05:31.46,0:05:33.22,P!,NTP,0000,0000,0000,!Effect,Provavelmente...
+Dialogue: Marked=0,0:05:33.22,0:05:36.66,P!,NTP,0000,0000,0000,!Effect,Esta pode ser a minha última refeição...
+Dialogue: Marked=0,0:05:37.56,0:05:39.36,P!,NTP,0000,0000,0000,!Effect,Mas eu não posso dizer isso.
+Dialogue: Marked=0,0:05:41.40,0:05:46.59,*Default,NTP,0000,0000,0000,!Effect,Muten Roshi-sama!\NÉ verdade que o Goku voltou à vida?
+Dialogue: Marked=0,0:05:47.77,0:05:50.11,Nota,NTP,0000,0000,0000,!Effect,Rei Boi
+Dialogue: Marked=0,0:05:47.77,0:05:48.67,*Default,NTP,0000,0000,0000,!Effect,Gyumao!
+Dialogue: Marked=0,0:05:50.11,0:05:52.93,*Default,NTP,0000,0000,0000,!Effect,Ele dever ter ido pra onde estão Piccolo e os outros.
+Dialogue: Marked=0,0:05:53.14,0:05:54.63,*Default,NTP,0000,0000,0000,!Effect,Então...
+Dialogue: Marked=0,0:05:55.95,0:05:58.10,*Default,NTP,0000,0000,0000,!Effect,Onde está o meu Gohan?
+Dialogue: Marked=0,0:06:01.52,0:06:03.12,*Default,NTP,0000,0000,0000,!Effect,Muten Roshi-sama!
+Dialogue: Marked=0,0:06:03.12,0:06:04.32,*Default,NTP,0000,0000,0000,!Effect,Cadê o meu Gohan?
+Dialogue: Marked=0,0:06:06.29,0:06:09.03,*Default,NTP,0000,0000,0000,!Effect,Ele ainda está com Piccolo.
+Dialogue: Marked=0,0:06:12.26,0:06:13.04,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi!
+Dialogue: Marked=0,0:06:59.91,0:07:01.50,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:07:07.72,0:07:09.72,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:07:13.16,0:07:14.79,*Default,NTP,0000,0000,0000,!Effect,Ele conseguiu!
+Dialogue: Marked=0,0:07:14.79,0:07:16.47,*Default,NTP,0000,0000,0000,!Effect,Eu sabia que Tenshinhan conseguiria!
+Dialogue: Marked=0,0:07:18.26,0:07:18.94,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:07:25.60,0:07:27.29,*Default,NTP,0000,0000,0000,!Effect,Isso é impossível!
+Dialogue: Marked=0,0:07:29.94,0:07:32.91,*Default,NTP,0000,0000,0000,!Effect,Os Saibaimans têm um\Npoder de luta de 1200!
+Dialogue: Marked=0,0:07:33.65,0:07:36.45,*Default,NTP,0000,0000,0000,!Effect,O bastante para se comparar\Nao poder de Raditz.
+Dialogue: Marked=0,0:07:36.91,0:07:40.46,*Default,NTP,0000,0000,0000,!Effect,Significa que o poder dele é bem maior.
+Dialogue: Marked=0,0:07:40.69,0:07:41.77,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:07:43.72,0:07:45.51,*Default,NTP,0000,0000,0000,!Effect,É uma matemática simples.
+Dialogue: Marked=0,0:07:45.51,0:07:46.46,*Default,NTP,0000,0000,0000,!Effect,Os dados são...
+Dialogue: Marked=0,0:07:48.09,0:07:52.47,*Default,NTP,0000,0000,0000,!Effect,Nappa, parece que eles irão\Nnos entreter um pouco.
+Dialogue: Marked=0,0:07:57.67,0:08:00.48,*Default,NTP,0000,0000,0000,!Effect,Ten-san!\NEle está levantando!
+Dialogue: Marked=0,0:08:19.89,0:08:22.54,*Default,NTP,0000,0000,0000,!Effect,Vegeta! Eu não acredito!
+Dialogue: Marked=0,0:08:30.17,0:08:34.14,P!,NTP,0000,0000,0000,!Effect,O que é essa ansiedade estranha que estou\Nsentindo? Tenho um mau pressentimento.
+Dialogue: Marked=0,0:08:34.14,0:08:38.31,P!,NTP,0000,0000,0000,!Effect,Piccolo, espere, pois vou voltar de\Nalguma maneira! Conto com você!
+Dialogue: Marked=0,0:09:04.50,0:09:05.54,*Default,NTP,0000,0000,0000,!Effect,Por quê?
+Dialogue: Marked=0,0:09:06.07,0:09:08.67,*Default,NTP,0000,0000,0000,!Effect,É uma perda de tempo continuar com isso.
+Dialogue: Marked=0,0:09:08.67,0:09:10.38,*Default,NTP,0000,0000,0000,!Effect,Ele não pode vencer.
+Dialogue: Marked=0,0:09:10.64,0:09:13.63,*Default,NTP,0000,0000,0000,!Effect,Aquele Saibaiman perdeu dele rapidamente.
+Dialogue: Marked=0,0:09:15.41,0:09:18.38,*Default,NTP,0000,0000,0000,!Effect,E eu disse para não agarrá-lo.
+Dialogue: Marked=0,0:09:19.35,0:09:21.39,*Default,NTP,0000,0000,0000,!Effect,Ele é incrível!
+Dialogue: Marked=0,0:09:22.02,0:09:25.46,P!,NTP,0000,0000,0000,!Effect,Só levou um segundo pra ele aniquilar aquele monstro.
+Dialogue: Marked=0,0:09:25.46,0:09:26.87,P!,NTP,0000,0000,0000,!Effect,Que poder incrível.
+Dialogue: Marked=0,0:09:34.01,0:09:35.28,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:09:35.28,0:09:37.24,*Default,NTP,0000,0000,0000,!Effect,Estas lentes especializadas\Ndeveriam dar conta do trabalho.
+Dialogue: Marked=0,0:09:38.12,0:09:43.62,*Default,NTP,0000,0000,0000,!Effect,A luta está tão intensa por lá que\Nnós não podemos nos aproximar.
+Dialogue: Marked=0,0:09:46.09,0:09:50.53,*Default,NTP,0000,0000,0000,!Effect,É como se o fim do mundo estivesse se\Naproximando. É o que parece pela situação.
+Dialogue: Marked=0,0:10:12.52,0:10:14.78,*Default,NTP,0000,0000,0000,!Effect,E então, quem é o próximo?
+Dialogue: Marked=0,0:10:17.62,0:10:18.72,*Default,NTP,0000,0000,0000,!Effect,Você!
+Dialogue: Marked=0,0:10:18.72,0:10:21.05,*Default,NTP,0000,0000,0000,!Effect,É melhor você ir com tudo desde o começo desta vez!
+Dialogue: Marked=0,0:10:23.53,0:10:26.70,*Default,NTP,0000,0000,0000,!Effect,Tudo bem! Eu lutarei!
+Dialogue: Marked=0,0:10:26.70,0:10:27.60,*Default,NTP,0000,0000,0000,!Effect,Espere, Kuririn.
+Dialogue: Marked=0,0:10:28.20,0:10:28.71,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san?
+Dialogue: Marked=0,0:10:29.17,0:10:30.39,*Default,NTP,0000,0000,0000,!Effect,Deixe-me ir.
+Dialogue: Marked=0,0:10:31.70,0:10:34.88,*Default,NTP,0000,0000,0000,!Effect,Eu quero mostrar pra eles\Nque a brincadeira acabou!
+Dialogue: Marked=0,0:10:35.57,0:10:36.71,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san!
+Dialogue: Marked=0,0:10:36.71,0:10:37.88,*Default,NTP,0000,0000,0000,!Effect,Eu também posso fazer isso!
+Dialogue: Marked=0,0:10:37.88,0:10:40.89,*Default,NTP,0000,0000,0000,!Effect,Você já foi revivido uma vez pelas Dragon Balls.
+Dialogue: Marked=0,0:10:41.61,0:10:44.77,*Default,NTP,0000,0000,0000,!Effect,Se o pior acontecer, não poderemos trazê-lo de volta.
+Dialogue: Marked=0,0:10:45.35,0:10:47.45,*Default,NTP,0000,0000,0000,!Effect,Deixa isso comigo.
+Dialogue: Marked=0,0:10:47.45,0:10:49.77,*Default,NTP,0000,0000,0000,!Effect,Eu enfrentarei os cinco ao mesmo tempo!
+Dialogue: Marked=0,0:10:50.52,0:10:52.01,*Default,NTP,0000,0000,0000,!Effect,Ya-Yamcha-san...
+Dialogue: Marked=0,0:10:54.33,0:10:56.79,*Default,NTP,0000,0000,0000,!Effect,Isto é o que eles chamam de amizade nobre?
+Dialogue: Marked=0,0:10:56.79,0:10:58.06,*Default,NTP,0000,0000,0000,!Effect,Certo, lute com ele!
+Dialogue: Marked=0,0:10:59.70,0:11:01.13,*Default,NTP,0000,0000,0000,!Effect,Venham!
+Dialogue: Marked=0,0:11:01.13,0:11:02.78,*Default,NTP,0000,0000,0000,!Effect,Nós somos mais fortes do que vocês pensam.
+Dialogue: Marked=0,0:11:03.30,0:11:05.27,*Default,NTP,0000,0000,0000,!Effect,Ele está ficando convencido!
+Dialogue: Marked=0,0:11:05.94,0:11:10.20,*Default,NTP,0000,0000,0000,!Effect,Mostre pra eles o quanto pode ser\Nterrível o poder de um Saibaiman.
+Dialogue: Marked=0,0:11:15.18,0:11:16.85,Radio,NTP,0000,0000,0000,!Effect,Aqueles são os Saiya-jins!
+Dialogue: Marked=0,0:11:16.85,0:11:20.22,Radio,NTP,0000,0000,0000,!Effect,Aqueles que nos mergulharam\Nnas profundezas do terror!
+Dialogue: Marked=0,0:11:25.39,0:11:26.72,Radio,NTP,0000,0000,0000,!Effect,Aquele rosto!
+Dialogue: Marked=0,0:11:27.69,0:11:29.94,Radio,NTP,0000,0000,0000,!Effect,Me lembra alguém do Tenkaichi Budoukai.
+Dialogue: Marked=0,0:11:30.26,0:11:31.19,*Default,NTP,0000,0000,0000,!Effect,Yamcha!
+Dialogue: Marked=0,0:11:31.83,0:11:35.00,*Default,NTP,0000,0000,0000,!Effect,A expressão do olhar do Yamcha-sama se tornou mais forte, não acha?
+Dialogue: Marked=0,0:11:35.00,0:11:36.60,*Default,NTP,0000,0000,0000,!Effect,Não só a sua expressão.
+Dialogue: Marked=0,0:11:36.60,0:11:38.33,*Default,NTP,0000,0000,0000,!Effect,As habilidades dele também aumentaram bastante.
+Dialogue: Marked=0,0:11:40.94,0:11:42.78,*Default,NTP,0000,0000,0000,!Effect,Bulma? Está se apaixonando de novo por ele?
+Dialogue: Marked=0,0:11:43.27,0:11:44.74,*Default,NTP,0000,0000,0000,!Effect,É claro que não!
+Dialogue: Marked=0,0:11:45.44,0:11:49.33,*Default,NTP,0000,0000,0000,!Effect,Se eles derrotarem o Saiya-jins,\Npor que vocês dois não se casam?
+Dialogue: Marked=0,0:11:49.81,0:11:52.62,*Default,NTP,0000,0000,0000,!Effect,Casar?!
+Dialogue: Marked=0,0:11:54.62,0:11:56.88,Radio,NTP,0000,0000,0000,!Effect,E este rosto! É Piccolo Daimao!
+Dialogue: Marked=0,0:12:03.96,0:12:05.76,*Default,NTP,0000,0000,0000,!Effect,É o Gohan!
+Dialogue: Marked=0,0:12:07.40,0:12:08.57,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan!
+Dialogue: Marked=0,0:12:15.77,0:12:18.32,*Default,NTP,0000,0000,0000,!Effect,Ele também ficou mais forte.
+Dialogue: Marked=0,0:12:18.78,0:12:19.71,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan...
+Dialogue: Marked=0,0:12:20.71,0:12:23.06,*Default,NTP,0000,0000,0000,!Effect,Olhe só para você...
+Dialogue: Marked=0,0:12:29.49,0:12:31.66,*Default,NTP,0000,0000,0000,!Effect,Isso parece repugnante.
+Dialogue: Marked=0,0:12:31.66,0:12:33.77,*Default,NTP,0000,0000,0000,!Effect,Gohan-chan no mesmo lugar que monstros como aqueles?
+Dialogue: Marked=0,0:12:35.69,0:12:36.79,*Default,NTP,0000,0000,0000,!Effect,Chi-Chi!
+Dialogue: Marked=0,0:12:39.86,0:12:41.83,*Default,NTP,0000,0000,0000,!Effect,O que Goku está fazendo?
+Dialogue: Marked=0,0:12:57.82,0:12:59.19,*Default,NTP,0000,0000,0000,!Effect,Eles desapareceram!
+Dialogue: Marked=0,0:12:59.85,0:13:02.69,*Default,NTP,0000,0000,0000,!Effect,Idiota! Eles só estão se movendo em alta velocidade.
+Dialogue: Marked=0,0:13:02.69,0:13:04.66,*Default,NTP,0000,0000,0000,!Effect,Tente sentir o movimentos do Ki deles.
+Dialogue: Marked=0,0:13:04.66,0:13:06.20,*Default,NTP,0000,0000,0000,!Effect,O movimento do Ki deles?
+Dialogue: Marked=0,0:13:06.96,0:13:08.79,*Default,NTP,0000,0000,0000,!Effect,Todos os outros estão conseguindo vê-los.
+Dialogue: Marked=0,0:13:10.23,0:13:12.16,*Default,NTP,0000,0000,0000,!Effect,Todos vocês podem vê-los?
+Dialogue: Marked=0,0:13:13.33,0:13:14.46,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:13:15.33,0:13:17.29,*Default,NTP,0000,0000,0000,!Effect,Use o seu corpo inteiro como olhos para ver.
+Dialogue: Marked=0,0:13:18.70,0:13:20.14,P!,NTP,0000,0000,0000,!Effect,O meu corpo inteiro?
+Dialogue: Marked=0,0:14:05.58,0:14:06.55,*Default,NTP,0000,0000,0000,!Effect,Consegue vê-los agora?
+Dialogue: Marked=0,0:14:14.36,0:14:15.23,*Default,NTP,0000,0000,0000,!Effect,Consigo!
+Dialogue: Marked=0,0:14:49.93,0:14:50.68,*Default,NTP,0000,0000,0000,!Effect,Ele conseguiu!
+Dialogue: Marked=0,0:14:52.13,0:14:53.18,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:14:53.60,0:15:00.19,*Default,NTP,0000,0000,0000,!Effect,Yamcha! Ele conseguiu!
+Dialogue: Marked=0,0:15:10.58,0:15:11.61,*Default,NTP,0000,0000,0000,!Effect,De novo, não...
+Dialogue: Marked=0,0:15:21.06,0:15:26.13,*Default,NTP,0000,0000,0000,!Effect,Eu acho que esses monstros não são tão fortes quanto você pensava.
+Dialogue: Marked=0,0:15:26.36,0:15:27.93,*Default,NTP,0000,0000,0000,!Effect,O que você disse?
+Dialogue: Marked=0,0:15:27.93,0:15:29.30,*Default,NTP,0000,0000,0000,!Effect,Não se aborreça, Nappa.
+Dialogue: Marked=0,0:15:30.67,0:15:34.18,*Default,NTP,0000,0000,0000,!Effect,Eu também darei um jeito nos outros quatro que restam.
+Dialogue: Marked=0,0:15:37.54,0:15:40.81,*Default,NTP,0000,0000,0000,!Effect,Parece que desta vez vocês\Nsubestimaram os Saibaimans.
+Dialogue: Marked=0,0:15:40.81,0:15:41.40,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:15:48.42,0:15:49.15,*Default,NTP,0000,0000,0000,!Effect,Oh, não!
+Dialogue: Marked=0,0:16:09.77,0:16:10.55,*Default,NTP,0000,0000,0000,!Effect,Isso não é bom!
+Dialogue: Marked=0,0:16:20.08,0:16:20.93,*Default,NTP,0000,0000,0000,!Effect,Yamcha!
+Dialogue: Marked=0,0:16:27.42,0:16:30.03,*Default,NTP,0000,0000,0000,!Effect,Boa.\NEssa foi boa.
+Dialogue: Marked=0,0:16:30.59,0:16:33.74,*Default,NTP,0000,0000,0000,!Effect,Eu não acredito!\NEle explodiu!
+Dialogue: Marked=0,0:16:38.17,0:16:39.43,*Default,NTP,0000,0000,0000,!Effect,Que horrível...
+Dialogue: Marked=0,0:16:56.72,0:16:57.58,*Default,NTP,0000,0000,0000,!Effect,Ele está morto.
+Dialogue: Marked=0,0:17:06.20,0:17:10.10,*Default,NTP,0000,0000,0000,!Effect,O que aconteceu com o Yamcha, Oolong?
+Dialogue: Marked=0,0:17:10.10,0:17:13.15,*Default,NTP,0000,0000,0000,!Effect,Eu não sei.\NNão consigo ouvir as vozes deles.
+Dialogue: Marked=0,0:17:20.64,0:17:22.49,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama!
+Dialogue: Marked=0,0:17:22.49,0:17:23.55,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama!
+Dialogue: Marked=0,0:17:23.55,0:17:33.35,*Default,NTP,0000,0000,0000,!Effect,Yamcha-sama!
+Dialogue: Marked=0,0:17:43.87,0:17:44.83,*Default,NTP,0000,0000,0000,!Effect,Bulma...
+Dialogue: Marked=0,0:17:55.98,0:17:57.17,*Default,NTP,0000,0000,0000,!Effect,Não!
+Dialogue: Marked=0,0:18:10.33,0:18:13.01,*Default,NTP,0000,0000,0000,!Effect,Eu acho que Yamcha-san sabia\Nque isso poderia acontecer.
+Dialogue: Marked=0,0:18:13.63,0:18:16.03,*Default,NTP,0000,0000,0000,!Effect,Por isso, ele foi no meu lugar.
+Dialogue: Marked=0,0:18:16.83,0:18:22.12,*Default,NTP,0000,0000,0000,!Effect,Maldição!
+Dialogue: Marked=0,0:18:22.12,0:18:27.02,*Default,NTP,0000,0000,0000,!Effect,Como é que eu vou contar\Nisso pro Pual e pra Bulma?
+Dialogue: Marked=0,0:18:27.31,0:18:29.38,*Default,NTP,0000,0000,0000,!Effect,Que Saibaiman imprestável!
+Dialogue: Marked=0,0:18:29.38,0:18:31.35,*Default,NTP,0000,0000,0000,!Effect,Ele tinha que se auto-destruir?
+Dialogue: Marked=0,0:18:31.35,0:18:33.86,*Default,NTP,0000,0000,0000,!Effect,Contra um lixo desses?
+Dialogue: Marked=0,0:18:34.82,0:18:39.87,*Default,NTP,0000,0000,0000,!Effect,Ei! Vocês vão limpar essa bagunça, não é?\NJoguem fora esse lixo...
+Dialogue: Marked=0,0:18:43.16,0:18:44.37,*Default,NTP,0000,0000,0000,!Effect,Seu imundo...
+Dialogue: Marked=0,0:18:45.33,0:18:47.26,*Default,NTP,0000,0000,0000,!Effect,Todo mundo!\NPra trás!
+Dialogue: Marked=0,0:18:50.20,0:18:54.54,*Default,NTP,0000,0000,0000,!Effect,Yamcha-san, eu juro que\Nvou vingar a sua morte!
+Dialogue: Marked=0,0:18:57.57,0:19:00.20,*Default,NTP,0000,0000,0000,!Effect,Eu vou te mostrar os\Nresultados do meu treinamento!
+Dialogue: Marked=0,0:19:16.66,0:19:22.52,Narrador,NTP,0000,0000,0000,!Effect,A morte de Yamcha fez explodir a raiva de Kuririn.
+Dialogue: Marked=0,0:19:23.43,0:19:27.43,Narrador,NTP,0000,0000,0000,!Effect,Mas os resultados do treinamento de Kuririn serão suficientes?

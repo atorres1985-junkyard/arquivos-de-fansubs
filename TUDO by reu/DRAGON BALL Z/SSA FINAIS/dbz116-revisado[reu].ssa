@@ -1,0 +1,165 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Radio2,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,Boomerang,60,13619151,255,4194368,0,-1,0,0,0,2,2,0,30,30,0,0
+Style: apresDBZ3,Tahoma,60,13486762,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: apresDBZ4,Tahoma,60,16777215,255,4194368,0,-1,0,1,0,2,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:20.48,0:02:30.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:13:40.61,0:13:50.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:08.75,0:02:15.67,Narrador,,0000,0000,0000,,Kami-sama e Mister Popo conseguiram\Nsuperar a interferência das almas dos deuses...
+Dialogue: Marked=0,0:02:15.67,0:02:22.24,Narrador,,0000,0000,0000,,e finalmente colocaram a Choushinsui\Nno buraco das correntes de ar. Mas...
+Dialogue: Marked=0,0:02:24.30,0:02:26.31,*Default,,0000,0000,0000,,Malditos...
+Dialogue: Marked=0,0:02:28.25,0:02:33.31,*Default,,0000,0000,0000,,Como ousam atrapalhar o meu\Nsonho de um mundo ideal?
+Dialogue: Marked=0,0:02:50.62,0:02:56.21,*Default,,0000,0000,0000,,Sugue! Engula o Tenkai\Ne tudo nele, Dead Zone!
+
+Dialogue: Marked=0,0:03:10.56,0:03:18.58,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(675,70)}{\fad(300,0)}{\fscx100\fscy100}episódio 116
+Dialogue: Marked=0,0:03:10.56,0:03:18.58,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,175)}{\fad(300,0)}{\fscx130\fscy100}Breve chance de vitória de Gohan{\i1}!!
+Dialogue: Marked=0,0:03:10.56,0:03:18.58,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(410,505)}{\fad(300,0)}{\fscx207\fscy150}Atire no Makyousei...
+
+Dialogue: Marked=0,0:03:24.69,0:03:28.66,*Default,NTP,0000,0000,0000,!Effect,Morram! A Dead Zone será o túmulo de vocês!
+Dialogue: Marked=0,0:03:43.75,0:03:44.97,*Default,NTP,0000,0000,0000,!Effect,G-Gohan!
+Dialogue: Marked=0,0:03:47.41,0:03:48.39,*Default,NTP,0000,0000,0000,!Effect,Kami...
+Dialogue: Marked=0,0:04:08.54,0:04:10.37,*Default,NTP,0000,0000,0000,!Effect,Kami-sama...
+Dialogue: Marked=0,0:04:20.85,0:04:26.76,*Default,NTP,0000,0000,0000,!Effect,Merda! Se nós não o vencermos,\Ndispersar a Choushinsui não vai adiantar!
+Dialogue: Marked=0,0:04:33.39,0:04:34.39,*Default,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:05:07.09,0:05:08.55,*Default,NTP,0000,0000,0000,!Effect,Kami-sama!
+Dialogue: Marked=0,0:05:30.65,0:05:32.37,*Default,NTP,0000,0000,0000,!Effect,Qual o problema dessa vez?
+Dialogue: Marked=0,0:05:33.19,0:05:38.13,*Default,NTP,0000,0000,0000,!Effect,Não sei!\NProvavelmente é por causa do Garlick Jr.
+Dialogue: Marked=0,0:05:44.04,0:05:50.93,*Default,NTP,0000,0000,0000,!Effect,Dead Zone? Maldito... Está usando de novo essa técnica contra Piccolo e os outros?
+Dialogue: Marked=0,0:06:20.37,0:06:24.62,*Default,NTP,0000,0000,0000,!Effect,Depois que acabar com vocês,\Nvou reviver os Mazoku...
+Dialogue: Marked=0,0:06:24.62,0:06:26.17,*Default,NTP,0000,0000,0000,!Effect,e controlarei o mundo!
+Dialogue: Marked=0,0:06:27.52,0:06:33.05,*Default,NTP,0000,0000,0000,!Effect,Tendo o Makyousei,\No meu poder não tem limites!
+Dialogue: Marked=0,0:06:33.05,0:06:38.56,*Default,NTP,0000,0000,0000,!Effect,Vou continuar espalhando o terror e a desesperança com os efeitos do Makyousei!
+Dialogue: Marked=0,0:06:46.19,0:06:50.28,*Default,NTP,0000,0000,0000,!Effect,Não adianta! Mesmo sendo o Gohan,\Nnão tem como atirar agora!
+Dialogue: Marked=0,0:06:52.83,0:06:55.54,*Default,NTP,0000,0000,0000,!Effect,Gohan! O Makyousei!
+Dialogue: Marked=0,0:07:07.52,0:07:11.43,*Default,NTP,0000,0000,0000,!Effect,Você precisa destruir o Makyousei,\Na fonte do poder dele!
+Dialogue: Marked=0,0:07:12.25,0:07:15.37,*Default,NTP,0000,0000,0000,!Effect,Ele não consegue fazer uma coisa dessas!
+Dialogue: Marked=0,0:07:15.37,0:07:18.81,*Default,NTP,0000,0000,0000,!Effect,O Gohan está fazendo tudo o\Nque pode para fazer aquele escudo!
+Dialogue: Marked=0,0:07:19.52,0:07:21.81,*Default,NTP,0000,0000,0000,!Effect,Não tem outro jeito!
+Dialogue: Marked=0,0:07:26.77,0:07:30.24,*Default,NTP,0000,0000,0000,!Effect,Não pode ser! Ele precisa tirar o escudo?
+Dialogue: Marked=0,0:07:31.04,0:07:34.53,*Default,NTP,0000,0000,0000,!Effect,Faça isso, Gohan!\NDeste jeito, ninguém vai sobreviver!
+Dialogue: Marked=0,0:07:39.03,0:07:42.12,*Default,NTP,0000,0000,0000,!Effect,Até quando você acha que vai conseguir resistir?
+Dialogue: Marked=0,0:09:03.43,0:09:08.30,*Default,NTP,0000,0000,0000,!Effect,Arrependam-se das suas idiotices no inferno!
+Dialogue: Marked=0,0:09:18.90,0:09:21.46,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo, Gohan?
+Dialogue: Marked=0,0:09:22.94,0:09:25.85,*Default,NTP,0000,0000,0000,!Effect,Destrua o Makyousei rápido!
+Dialogue: Marked=0,0:09:26.53,0:09:30.27,*Default,NTP,0000,0000,0000,!Effect,Mas, se eu tirar o escudo...
+Dialogue: Marked=0,0:09:30.27,0:09:33.86,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san, você e Kuririn-san\Nserão sugados para a Dead Zone!
+Dialogue: Marked=0,0:09:34.30,0:09:36.09,*Default,NTP,0000,0000,0000,!Effect,Atire, Gohan!
+Dialogue: Marked=0,0:09:42.11,0:09:43.87,*Default,NTP,0000,0000,0000,!Effect,Gohan! Tire o escudo!
+Dialogue: Marked=0,0:09:44.45,0:09:45.54,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:09:45.98,0:09:53.96,*Default,NTP,0000,0000,0000,!Effect,{\fscx97\fscy97}Não se importe com a gente! Você é o único que pode parar as más intenções de Garlick Jr, Gohan!
+Dialogue: Marked=0,0:09:55.42,0:10:01.10,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,300)}Eu... Eu não posso fazer uma coisa dessas!
+Dialogue: Marked=0,0:10:47.76,0:10:49.19,*Default,NTP,0000,0000,0000,!Effect,Kami-sama!
+Dialogue: Marked=0,0:11:12.40,0:11:14.51,*Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:11:14.51,0:11:19.72,*Default,NTP,0000,0000,0000,!Effect,Os Kami-sama de antes perdoaram o Kami-sama?
+Dialogue: Marked=0,0:11:34.06,0:11:36.63,*Default,NTP,0000,0000,0000,!Effect,Malditos que não sabem de nada!
+Dialogue: Marked=0,0:11:37.35,0:11:38.78,*Default,NTP,0000,0000,0000,!Effect,Ainda não me entenderam?
+
+Dialogue: Marked=0,0:12:09.14,0:12:13.36,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:09.14,0:12:13.36,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:09.14,0:12:13.36,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:09.14,0:12:13.36,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:16.31,0:12:18.53,comercial3,,0000,0000,0000,,{\fscx47\fscy45\pos(556,340)\t(9110,0)}kintoun.cjb.net
+Dialogue: Marked=0,0:12:16.31,0:12:18.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:16.31,0:12:18.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:16.31,0:12:18.53,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:43.76,0:12:44.89,*Default,NTP,0000,0000,0000,!Effect,O que é aquilo?
+Dialogue: Marked=0,0:12:50.78,0:12:52.06,*Default,NTP,0000,0000,0000,!Effect,Onde estamos?
+Dialogue: Marked=0,0:12:54.45,0:12:54.77,*Default,NTP,0000,0000,0000,!Effect,Kami!
+Dialogue: Marked=0,0:12:56.27,0:12:57.86,*Default,NTP,0000,0000,0000,!Effect,Kami-sama!
+Dialogue: Marked=0,0:13:03.33,0:13:04.11,*Default,NTP,0000,0000,0000,!Effect,Meu poder...
+Dialogue: Marked=0,0:13:05.10,0:13:07.53,*Default,NTP,0000,0000,0000,!Effect,Meu poder voltou ao normal!
+Dialogue: Marked=0,0:13:08.13,0:13:09.74,*Default,NTP,0000,0000,0000,!Effect,Malditos!
+Dialogue: Marked=0,0:13:12.89,0:13:19.29,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,1000)}Idiota! Só voltou para morrer!
+Dialogue: Marked=0,0:13:39.90,0:13:40.69,*Default,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:13:44.25,0:13:45.36,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:13:47.83,0:13:49.87,*Default,NTP,0000,0000,0000,!Effect,Então escolheu a morte?
+Dialogue: Marked=0,0:14:10.24,0:14:13.72,P!,NTP,0000,0000,0000,!Effect,Fique vivo mais um pouco, Kami!
+Dialogue: Marked=0,0:14:15.12,0:14:16.14,*Default,NTP,0000,0000,0000,!Effect,Piccolo!
+Dialogue: Marked=0,0:14:23.22,0:14:26.11,*Default,NTP,0000,0000,0000,!Effect,O que ele pretende fazer?
+Dialogue: Marked=0,0:14:33.78,0:14:40.02,*Default,NTP,0000,0000,0000,!Effect,Tudo bem, então! Se o que quer é apressar\Nsua morte, é por sua conta! Caia no inferno!
+Dialogue: Marked=0,0:14:54.70,0:14:57.68,*Default,NTP,0000,0000,0000,!Effect,É agora, Gohan! Atire!
+Dialogue: Marked=0,0:14:58.65,0:14:59.14,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:14:59.98,0:15:04.61,*Default,NTP,0000,0000,0000,!Effect,Atire, Gohan! Agora, enquanto o\NPiccolo tomou a atenção dele! Rápido!
+Dialogue: Marked=0,0:15:06.39,0:15:07.61,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:15:09.53,0:15:11.66,*Default,NTP,0000,0000,0000,!Effect,Conto com você, Gohan!
+Dialogue: Marked=0,0:15:19.47,0:15:21.33,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:15:30.02,0:15:32.34,*Default,NTP,0000,0000,0000,!Effect,Caia! Caia!
+Dialogue: Marked=0,0:15:45.95,0:15:47.32,*Default,NTP,0000,0000,0000,!Effect,Uma coisa dessas?
+Dialogue: Marked=0,0:15:48.79,0:15:50.00,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:15:51.01,0:15:52.82,*Default,NTP,0000,0000,0000,!Effect,Você acha que é esperto?
+Dialogue: Marked=0,0:16:02.10,0:16:03.83,P!,NTP,0000,0000,0000,!Effect,Insetos chatos!
+Dialogue: Marked=0,0:16:12.66,0:16:14.09,*Default,NTP,0000,0000,0000,!Effect,Agora, Gohan!
+Dialogue: Marked=0,0:16:14.47,0:16:15.72,*Default,NTP,0000,0000,0000,!Effect,Atire!
+Dialogue: Marked=0,0:16:16.69,0:16:17.51,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:16:42.40,0:16:43.60,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:17:25.84,0:17:29.79,P!,NTP,0000,0000,0000,!Effect,Vou encontrá-lo onde\Nquer que esteja, Kakarotto!
+Dialogue: Marked=0,0:17:30.50,0:17:34.47,P!,NTP,0000,0000,0000,!Effect,Vou mostrar quem é o\NSaiya-jin número 1 do universo!
+Dialogue: Marked=0,0:18:01.67,0:18:05.79,*Default,NTP,0000,0000,0000,!Effect,Ei, eu fiz algo inapropriado?
+Dialogue: Marked=0,0:18:13.98,0:18:17.87,*Default,NTP,0000,0000,0000,!Effect,Droga! Para onde o Gohan-chan foi?
+Dialogue: Marked=0,0:18:17.87,0:18:21.07,*Default,NTP,0000,0000,0000,!Effect,Ele me deixou em um lugar desses...
+Dialogue: Marked=0,0:18:25.73,0:18:26.19,*Default,NTP,0000,0000,0000,!Effect,Vocês!
+Dialogue: Marked=0,0:18:28.69,0:18:34.81,*Default,NTP,0000,0000,0000,!Effect,Parem de desperdiçar o tempo com\Nesses brinquedos inúteis e estudem!
+Dialogue: Marked=0,0:18:34.81,0:18:36.36,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:18:56.48,0:18:57.75,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:19:00.15,0:19:01.37,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:19:03.39,0:19:07.35,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san! Kuririn-san!
+Dialogue: Marked=0,0:19:18.25,0:19:20.32,*Default,NTP,0000,0000,0000,!Effect,Kami-sama! Mister Popo!
+Dialogue: Marked=0,0:19:25.68,0:19:28.51,*Default,NTP,0000,0000,0000,!Effect,Que bom! Sobreviveram!
+Dialogue: Marked=0,0:19:29.55,0:19:32.40,*Default,NTP,0000,0000,0000,!Effect,Sim, de algum jeito.
+Dialogue: Marked=0,0:19:32.40,0:19:34.59,*Default,NTP,0000,0000,0000,!Effect,Ei, Gohan!
+Dialogue: Marked=0,0:19:36.49,0:19:38.48,*Default,NTP,0000,0000,0000,!Effect,Pode sair daí?
+Dialogue: Marked=0,0:19:48.13,0:19:49.35,*Default,NTP,0000,0000,0000,!Effect,Oi, pessoal!
+Dialogue: Marked=0,0:19:51.75,0:19:52.73,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:19:56.94,0:19:58.99,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san!
+Dialogue: Marked=0,0:19:59.37,0:20:02.55,*Default,NTP,0000,0000,0000,!Effect,Kuririn-san, que bom!
+Dialogue: Marked=0,0:20:03.91,0:20:07.38,*Default,NTP,0000,0000,0000,!Effect,Mas essa foi realmente por pouco!
+Dialogue: Marked=0,0:20:08.18,0:20:10.96,*Default,NTP,0000,0000,0000,!Effect,Porque destruiu o Makyousei!
+Dialogue: Marked=0,0:20:24.49,0:20:25.55,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:20:26.71,0:20:30.35,*Default,NTP,0000,0000,0000,!Effect,Se o corpo do maldito do Garlick\Nnão tivesse ficado pequeno,
+Dialogue: Marked=0,0:20:31.38,0:20:33.85,*Default,NTP,0000,0000,0000,!Effect,nós é que teríamos sido\Nsugados para a Dead Zone!
+Dialogue: Marked=0,0:20:34.67,0:20:41.59,*Default,NTP,0000,0000,0000,!Effect,Entendi. Quando Garlick Jr\Nperdeu o poder que o sustentava,
+Dialogue: Marked=0,0:20:41.59,0:20:44.70,*Default,NTP,0000,0000,0000,!Effect,ele não agüentou mais o esforço.
+Dialogue: Marked=0,0:20:45.47,0:20:51.17,*Default,NTP,0000,0000,0000,!Effect,Com o Makyousei destruído,\Nele não tem mais como reviver!
+Dialogue: Marked=0,0:20:54.63,0:20:56.96,*Default,NTP,0000,0000,0000,!Effect,Ele era um idiota mesmo!
+Dialogue: Marked=0,0:20:58.57,0:21:04.22,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san, vencemos\Nmesmo sem o meu pai, não é?
+Dialogue: Marked=0,0:21:05.70,0:21:10.22,*Default,NTP,0000,0000,0000,!Effect,Contra um oponente como Garlick Jr,\Nnão precisamos do poder dele!
+Dialogue: Marked=0,0:21:12.16,0:21:13.29,*Default,NTP,0000,0000,0000,!Effect,Mas...
+Dialogue: Marked=0,0:21:14.41,0:21:18.02,*Default,NTP,0000,0000,0000,!Effect,Normalmente você seria\Ncapaz de vencê-lo sozinho!
+Dialogue: Marked=0,0:21:20.17,0:21:21.51,*Default,NTP,0000,0000,0000,!Effect,Desculpe-me!
+Dialogue: Marked=0,0:21:23.74,0:21:26.99,*Default,NTP,0000,0000,0000,!Effect,Eu vou treinar ainda mais!
+Dialogue: Marked=0,0:21:41.76,0:21:42.66,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:21:44.13,0:21:46.79,*Default,NTP,0000,0000,0000,!Effect,Bom trabalho, Gohan!
+Dialogue: Marked=0,0:22:16.47,0:22:20.67,Narrador,NTP,0000,0000,0000,!Effect,Os planos de Garlick Jr foram destruídos.
+Dialogue: Marked=0,0:22:21.21,0:22:27.52,Narrador,NTP,0000,0000,0000,!Effect,Com isso, todos pensavam que\No mundo continuaria em paz, mas...

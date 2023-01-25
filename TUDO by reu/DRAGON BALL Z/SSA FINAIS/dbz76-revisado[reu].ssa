@@ -1,0 +1,276 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:40.48,0:02:50.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(2100,2400,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:10.33,0:02:13.49,Narrador,,0000,0000,0000,,Enfim, o Super Shen-Long aparece.
+Dialogue: Marked=0,0:02:13.49,0:02:19.97,Narrador,,0000,0000,0000,,Mas, o enfurecido Freeza já está por perto.
+Dialogue: Marked=0,0:02:20.30,0:02:23.38,Narrador,,0000,0000,0000,,Apressem-se! Kuririn! Gohan!
+
+Dialogue: Marked=0,0:02:26.51,0:02:34.53,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 76
+Dialogue: Marked=0,0:02:26.51,0:02:34.53,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(365,200)}{\fad(300,0)}{\fscx140\fscy120}Kami-sama volta à vida!
+Dialogue: Marked=0,0:02:26.51,0:02:34.53,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,480)}{\fad(300,0)}{\fscx100\fscy120}Piccolo de volta com o Super Shen-Long
+
+Dialogue: Marked=0,0:02:48.39,0:02:52.88,*Default,NTP,0000,0000,0000,!Effect,E-Ele é gigantesco!\NE sua forma é diferente do da Terra, também!
+Dialogue: Marked=0,0:02:54.49,0:02:57.13,*Default,NTP,0000,0000,0000,!Effect,E-Este é Shen... Long?
+Dialogue: Marked=0,0:02:57.49,0:03:03.47,*Default,NTP,0000,0000,0000,!Effect,Aqueles que reuniram as Dragon Balls,\Npeçam agora os seus desejos.
+Dialogue: Marked=0,0:03:04.14,0:03:08.98,*Default,NTP,0000,0000,0000,!Effect,Eu concederei três desejos, contanto\Nque estejam dentro de minhas habilidades.
+Dialogue: Marked=0,0:03:10.61,0:03:14.49,*Default,NTP,0000,0000,0000,!Effect,I-Incrível!\NEle realmente concede três desejos!
+Dialogue: Marked=0,0:03:14.49,0:03:17.71,*Default,NTP,0000,0000,0000,!Effect,Deveríamos esperar isso mesmo do\NShen-Long original! Ele é muito generoso!
+Dialogue: Marked=0,0:03:17.71,0:03:20.18,*Default,NTP,0000,0000,0000,!Effect,O que devemos fazer?\NNós temos três desejos!
+Dialogue: Marked=0,0:03:20.18,0:03:22.49,*Default,NTP,0000,0000,0000,!Effect,Seus desejos, rápido!\NNão se esqueçam de Freeza e Vegeta!
+Dialogue: Marked=0,0:03:22.99,0:03:25.58,*Default,NTP,0000,0000,0000,!Effect,Ah, sim! Primeiro...
+Dialogue: Marked=0,0:03:27.15,0:03:32.30,*Default,NTP,0000,0000,0000,!Effect,Peça a ele para ressuscitar todos\Nque foram mortos pelos Saiya-jins na Terra.
+Dialogue: Marked=0,0:03:33.17,0:03:34.54,*Default,NTP,0000,0000,0000,!Effect,Tudo bem, entendi!
+Dialogue: Marked=0,0:03:50.06,0:03:52.69,*Default,NTP,0000,0000,0000,!Effect,Esse desejo não pode ser realizado.
+Dialogue: Marked=0,0:03:53.75,0:03:58.78,*Default,NTP,0000,0000,0000,!Effect,Só posso ressuscitar apenas um indivíduo por vez.
+Dialogue: Marked=0,0:03:59.13,0:04:00.78,*Default,NTP,0000,0000,0000,!Effect,N-Não pode ser!
+Dialogue: Marked=0,0:04:06.72,0:04:11.29,*Default,NTP,0000,0000,0000,!Effect,Aparentemente, ele só pode\Nressuscitar uma pessoa por vez.
+Dialogue: Marked=0,0:04:11.84,0:04:13.58,*Default,NTP,0000,0000,0000,!Effect,Só uma por vez?!
+Dialogue: Marked=0,0:04:14.35,0:04:20.75,*Default,NTP,0000,0000,0000,!Effect,Se eles só têm três desejos...\NE somos eu, Yamcha, Chaos e Piccolo...
+Dialogue: Marked=0,0:04:20.75,0:04:23.45,*Default,NTP,0000,0000,0000,!Effect,Tudo bem!\NEu vou ser ressuscitado primeiro!
+Dialogue: Marked=0,0:04:23.45,0:04:24.43,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:04:24.71,0:04:27.35,*Default,NTP,0000,0000,0000,!Effect,Bem, Kaio-sama, eu vou primeiro!
+Dialogue: Marked=0,0:04:27.79,0:04:31.23,*Default,NTP,0000,0000,0000,!Effect,Espere!\NNão seja egoísta, eu vou primeiro!
+Dialogue: Marked=0,0:04:31.27,0:04:37.03,*Default,NTP,0000,0000,0000,!Effect,O que está dizendo? Fui o primeiro a morrer!\NEntão, eu vou ser ressuscitado primeiro!
+Dialogue: Marked=0,0:04:37.03,0:04:38.47,*Default,NTP,0000,0000,0000,!Effect,Isso é ridículo!
+Dialogue: Marked=0,0:04:38.47,0:04:40.75,*Default,NTP,0000,0000,0000,!Effect,Pessoal! Vamos tirar no palito!
+Dialogue: Marked=0,0:04:40.75,0:04:43.91,*Default,NTP,0000,0000,0000,!Effect,De jeito nenhum!\NVocê vai usar sua telecinese para roubar!
+Dialogue: Marked=0,0:04:43.91,0:04:45.95,*Default,NTP,0000,0000,0000,!Effect,Que horrível! Eu não faria isso!
+Dialogue: Marked=0,0:04:49.44,0:04:50.42,*Default,NTP,0000,0000,0000,!Effect,Deixe-me...
+Dialogue: Marked=0,0:04:50.42,0:04:50.79,*Default,,0000,0000,0000,,Ahn?
+Dialogue: Marked=0,0:04:51.64,0:04:54.46,*Default,NTP,0000,0000,0000,!Effect,Deixe-me falar com Gohan!
+Dialogue: Marked=0,0:04:55.25,0:04:55.72,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:04:55.75,0:04:56.75,*Default,NTP,0000,0000,0000,!Effect,Por favor!
+Dialogue: Marked=0,0:04:57.37,0:04:58.90,*Default,NTP,0000,0000,0000,!Effect,Por que a demora?
+Dialogue: Marked=0,0:04:58.90,0:05:05.55,*Default,,0000,0000,0000,,Peçam os desejos. Concederei três, contanto\Nque estejam dentro de minhas habilidades.
+Dialogue: Marked=0,0:05:06.19,0:05:08.82,*Default,NTP,0000,0000,0000,!Effect,D-Dentro das habilidades, ele diz...
+Dialogue: Marked=0,0:05:08.82,0:05:12.06,*Default,NTP,0000,0000,0000,!Effect,Rápido! Se formos descobertos\Npor Freeza ou Vegeta, será o fim!
+Dialogue: Marked=0,0:05:12.82,0:05:16.69,*Default,NTP,0000,0000,0000,!Effect,O que vamos fazer?\NSó uma pessoa pode voltar por cada desejo!
+Dialogue: Marked=0,0:05:17.49,0:05:20.52,*Default,NTP,0000,0000,0000,!Effect,Esse é um problema.\NQuem devemos escolher?
+Dialogue: Marked=0,0:05:21.01,0:05:24.78,*Default,NTP,0000,0000,0000,!Effect,Droga! Para o Shen-Long original,\Nele não é tão generoso assim!
+Dialogue: Marked=0,0:05:31.25,0:05:36.42,*Default,NTP,0000,0000,0000,!Effect,Você disse que quer falar com o filho\Nde Goku? O que você planeja fazer, Piccolo?
+Dialogue: Marked=0,0:05:37.10,0:05:40.07,*Default,NTP,0000,0000,0000,!Effect,Seu desgraçado!\NO que você pensa que está fazendo?
+Dialogue: Marked=0,0:05:40.07,0:05:43.09,*Default,NTP,0000,0000,0000,!Effect,Não está pensando em\Nressuscitar só você, não é?!
+Dialogue: Marked=0,0:05:43.38,0:05:45.45,*Default,NTP,0000,0000,0000,!Effect,O quê?! É isso mesmo?
+Dialogue: Marked=0,0:05:45.45,0:05:46.76,*Default,NTP,0000,0000,0000,!Effect,Piccolo, isso não é justo!
+Dialogue: Marked=0,0:05:48.39,0:05:50.97,*Default,NTP,0000,0000,0000,!Effect,Você não é o único que treinou aqui!
+Dialogue: Marked=0,0:05:50.97,0:05:54.07,*Default,,0000,0000,0000,,Nós também aumentamos\Nmuito o nosso nível. Além disso...
+Dialogue: Marked=0,0:05:54.07,0:05:55.73,*Default,NTP,0000,0000,0000,!Effect,Ande logo e me deixe falar, por favor!
+Dialogue: Marked=0,0:06:00.60,0:06:05.39,*Default,NTP,0000,0000,0000,!Effect,Tudo bem, já entendi.\NColoque sua mão no meu ombro e fale.
+Dialogue: Marked=0,0:06:08.69,0:06:11.53,*Default,NTP,0000,0000,0000,!Effect,Gohan! Pode me ouvir?\NSou eu! Piccolo!
+Dialogue: Marked=0,0:06:12.53,0:06:13.58,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:06:14.72,0:06:16.08,*Default,NTP,0000,0000,0000,!Effect,Gohan!
+Dialogue: Marked=0,0:06:19.84,0:06:22.77,*Default,NTP,0000,0000,0000,!Effect,Responda, Gohan!\NSou eu! Piccolo!
+Dialogue: Marked=0,0:06:23.52,0:06:24.59,*Default,NTP,0000,0000,0000,!Effect,Piccolo! Não pode ser!
+Dialogue: Marked=0,0:06:25.78,0:06:27.09,*Default,NTP,0000,0000,0000,!Effect,Onde você está, Piccolo-san?
+Dialogue: Marked=0,0:06:28.95,0:06:32.64,*Default,NTP,0000,0000,0000,!Effect,Estou usando o Kaio para falar\Ndiretamente nos seus corações.
+Dialogue: Marked=0,0:06:33.28,0:06:38.35,*Default,NTP,0000,0000,0000,!Effect,Você não pode desonrar o meu nome.\NÉ para me chamar de Kaio-sama! Kaio-sama!
+Dialogue: Marked=0,0:06:38.95,0:06:40.65,*Default,NTP,0000,0000,0000,!Effect,D-Dentro dos nossos corações?
+Dialogue: Marked=0,0:06:43.36,0:06:45.42,*Default,NTP,0000,0000,0000,!Effect,Sabemos que vocês só têm três desejos,
+Dialogue: Marked=0,0:06:45.42,0:06:49.62,*Default,,0000,0000,0000,,e que só uma pessoa pode\Nser ressuscitada por desejo.
+Dialogue: Marked=0,0:06:50.29,0:06:51.66,*Default,NTP,0000,0000,0000,!Effect,Escute bem!
+Dialogue: Marked=0,0:06:52.16,0:06:54.91,*Default,NTP,0000,0000,0000,!Effect,Com o primeiro desejo, ressuscite-me!
+Dialogue: Marked=0,0:06:55.54,0:06:57.91,*Default,NTP,0000,0000,0000,!Effect,- E-Espere!\N- Não deixaremos você fazer isso, Piccolo!
+Dialogue: Marked=0,0:06:58.42,0:06:59.00,*Default,NTP,0000,0000,0000,!Effect,Calem a boca!
+Dialogue: Marked=0,0:07:01.87,0:07:05.09,*Default,NTP,0000,0000,0000,!Effect,Não se esqueçam...\NSe eu voltar à vida, Kami também voltará.
+Dialogue: Marked=0,0:07:06.63,0:07:09.78,*Default,NTP,0000,0000,0000,!Effect,Quando isso acontecer, as\NDragon Balls da Terra também voltam,
+Dialogue: Marked=0,0:07:09.78,0:07:12.05,*Default,,0000,0000,0000,,e o restante vai poder voltar à vida.
+Dialogue: Marked=0,0:07:13.14,0:07:15.59,*Default,NTP,0000,0000,0000,!Effect,É isso! Podemos fazer assim!
+Dialogue: Marked=0,0:07:15.59,0:07:17.52,*Default,NTP,0000,0000,0000,!Effect,E-Entendido, Piccolo-san!
+Dialogue: Marked=0,0:07:18.35,0:07:20.35,*Default,NTP,0000,0000,0000,!Effect,Entendi.\NEra isso que você queria.
+Dialogue: Marked=0,0:07:20.75,0:07:23.02,*Default,NTP,0000,0000,0000,!Effect,- Boa idéia!\N- Piccolo, é genial!
+Dialogue: Marked=0,0:07:23.55,0:07:26.11,*Default,NTP,0000,0000,0000,!Effect,Agora, eu digo o segundo desejo...
+Dialogue: Marked=0,0:07:28.30,0:07:34.04,*Default,NTP,0000,0000,0000,!Effect,Assim que eu for ressuscitado, leve-me\Npara o planeta Namek, onde vocês estão!
+Dialogue: Marked=0,0:07:34.04,0:07:37.14,*Default,NTP,0000,0000,0000,!Effect,Eu... Eu quero lutar!
+Dialogue: Marked=0,0:07:37.14,0:07:43.63,*Default,NTP,0000,0000,0000,!Effect,Quero lutar contra o infeliz do Freeza,\Nque matou meu povo, no lugar onde eu nasci!
+Dialogue: Marked=0,0:07:44.05,0:07:46.13,*Default,NTP,0000,0000,0000,!Effect,O que você está dizendo, Piccolo?!
+Dialogue: Marked=0,0:07:49.33,0:07:53.39,*Default,NTP,0000,0000,0000,!Effect,Eu ganhei um poder incrível desde que\Nfiquei aqui! Vou derrotá-lo com certeza!
+Dialogue: Marked=0,0:07:54.35,0:07:57.15,*Default,NTP,0000,0000,0000,!Effect,Mande-me para o planeta\Nque vocês estão! Entendeu?
+Dialogue: Marked=0,0:07:57.15,0:07:59.39,*Default,NTP,0000,0000,0000,!Effect,E-Entendido, Piccolo-san!
+Dialogue: Marked=0,0:07:59.80,0:08:03.20,*Default,NTP,0000,0000,0000,!Effect,Conto com você.\NFaça o que quiser com o terceiro desejo.
+Dialogue: Marked=0,0:08:03.20,0:08:06.88,*Default,NTP,0000,0000,0000,!Effect,Certo! Eu vou ficar muito\Nfeliz quando o senhor chegar aqui!
+Dialogue: Marked=0,0:08:09.74,0:08:10.90,*Default,NTP,0000,0000,0000,!Effect,Ei, Piccolo!
+Dialogue: Marked=0,0:08:11.73,0:08:14.41,*Default,NTP,0000,0000,0000,!Effect,Esqueceu da promessa que fez para mim?
+Dialogue: Marked=0,0:08:14.81,0:08:17.55,*Default,NTP,0000,0000,0000,!Effect,Que você nunca lutaria contra Freeza?
+Dialogue: Marked=0,0:08:17.55,0:08:20.20,*Default,NTP,0000,0000,0000,!Effect,Devo ter esquecido.\NNão lembro de fazer uma promessa dessas.
+Dialogue: Marked=0,0:08:20.87,0:08:21.66,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:08:22.42,0:08:25.17,*Default,NTP,0000,0000,0000,!Effect,Infelizmente, minha memória não é tão boa.
+Dialogue: Marked=0,0:08:26.45,0:08:29.19,*Default,NTP,0000,0000,0000,!Effect,- S-Seu desgraçado!\N- Espere!
+Dialogue: Marked=0,0:08:29.19,0:08:31.25,*Default,NTP,0000,0000,0000,!Effect,- Kaio-sama!\N- Acalme-se!
+Dialogue: Marked=0,0:08:31.25,0:08:34.77,*Default,NTP,0000,0000,0000,!Effect,Me soltem!\NComo ousa fazer isso comigo!
+Dialogue: Marked=0,0:08:34.77,0:08:38.93,P!,NTP,0000,0000,0000,!Effect,Não sei que tipo de vagabundo você é, mas eu, Piccolo-sama, ganharei de você com certeza!
+Dialogue: Marked=0,0:08:40.62,0:08:46.77,*Default,NTP,0000,0000,0000,!Effect,Você não faz idéia de como Freeza é terrível! Me solte! Não posso falar com ele assim!
+Dialogue: Marked=0,0:08:47.38,0:08:48.36,*Default,NTP,0000,0000,0000,!Effect,Certo!
+Dialogue: Marked=0,0:08:49.10,0:08:52.25,*Default,NTP,0000,0000,0000,!Effect,Antes de fazermos qualquer outra coisa,\Nvamos realizar aqueles dois desejos!
+Dialogue: Marked=0,0:08:52.25,0:08:53.58,*Default,NTP,0000,0000,0000,!Effect,- Certo!\N- Dende!
+Dialogue: Marked=0,0:08:53.58,0:08:54.63,*Default,NTP,0000,0000,0000,!Effect,S-Sim?
+Dialogue: Marked=0,0:08:54.63,0:08:59.15,*Default,,0000,0000,0000,,Peça que Piccolo, o Namekusei-jin\Nque estava na Terra, seja ressuscitado!
+Dialogue: Marked=0,0:08:59.57,0:09:02.42,*Default,NTP,0000,0000,0000,!Effect,Piccolo-san? Entendi!
+Dialogue: Marked=0,0:09:07.20,0:09:09.51,P!,NTP,0000,0000,0000,!Effect,A qualquer segundo, o Piccolo-san vai...
+Dialogue: Marked=0,0:09:24.71,0:09:26.31,*Default,NTP,0000,0000,0000,!Effect,O que é isso?\NAlguma coisa está vindo para cá!
+Dialogue: Marked=0,0:09:28.08,0:09:30.11,*Default,NTP,0000,0000,0000,!Effect,É um poder de luta incrível!
+Dialogue: Marked=0,0:09:31.84,0:09:33.32,*Default,NTP,0000,0000,0000,!Effect,F-Freeza!
+Dialogue: Marked=0,0:09:41.81,0:09:44.58,P!,NTP,0000,0000,0000,!Effect,Ainda vai levar muito tempo para\No Kakarotto se recuperar totalmente.
+Dialogue: Marked=0,0:09:45.30,0:09:48.00,P!,NTP,0000,0000,0000,!Effect,Ainda não é uma hora\Nmuito boa para Freeza aparecer.
+Dialogue: Marked=0,0:09:51.50,0:09:53.96,*Default,NTP,0000,0000,0000,!Effect,Droga!\NTenho um pressentimento ruim sobre isso!
+Dialogue: Marked=0,0:09:57.33,0:09:58.22,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:09:59.27,0:10:02.06,*Default,NTP,0000,0000,0000,!Effect,O que está acontecendo aqui? É noite!
+Dialogue: Marked=0,0:10:02.99,0:10:04.09,*Default,NTP,0000,0000,0000,!Effect,Por quê?
+Dialogue: Marked=0,0:10:05.02,0:10:09.06,*Default,NTP,0000,0000,0000,!Effect,Não é para ter noite neste planeta!\NEntão, por que o céu está tão escuro?
+Dialogue: Marked=0,0:10:10.17,0:10:10.94,*Default,NTP,0000,0000,0000,!Effect,Só pode ser...
+Dialogue: Marked=0,0:10:12.14,0:10:12.82,*Default,NTP,0000,0000,0000,!Effect,Não pode ser...
+Dialogue: Marked=0,0:10:14.13,0:10:16.36,P!,NTP,0000,0000,0000,!Effect,Não pode ser... Não pode ser!
+Dialogue: Marked=0,0:10:18.72,0:10:19.83,P!,NTP,0000,0000,0000,!Effect,Não pode ser!
+Dialogue: Marked=0,0:10:38.02,0:10:42.39,*Default,NTP,0000,0000,0000,!Effect,Entendido.\NEu vou realizar o primeiro desejo.
+Dialogue: Marked=0,0:10:47.61,0:10:49.14,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:10:49.78,0:10:51.52,*Default,NTP,0000,0000,0000,!Effect,As Dragon Balls não estão aqui!
+Dialogue: Marked=0,0:10:52.64,0:10:56.32,*Default,NTP,0000,0000,0000,!Effect,Droga!\NO filho de Kakarotto também não está!
+Dialogue: Marked=0,0:10:57.39,0:11:00.66,*Default,NTP,0000,0000,0000,!Effect,Maldito! Aquele pirralho desgraçado!
+Dialogue: Marked=0,0:11:02.56,0:11:04.66,*Default,NTP,0000,0000,0000,!Effect,O que é aquele monstro?
+Dialogue: Marked=0,0:11:06.63,0:11:11.33,*Default,NTP,0000,0000,0000,!Effect,Aquele monstro é o dragão que\Ndisseram que aparecia das Dragon Balls?
+Dialogue: Marked=0,0:11:12.43,0:11:17.67,*Default,NTP,0000,0000,0000,!Effect,Droga, aqueles moleques\Ninfelizes me passaram a perna!
+Dialogue: Marked=0,0:11:19.20,0:11:20.72,*Default,NTP,0000,0000,0000,!Effect,Vocês vão pagar por isso!
+Dialogue: Marked=0,0:11:23.77,0:11:28.47,P!,NTP,0000,0000,0000,!Effect,{\fad(0,400)}Isso é ruim! Freeza está quase aqui!
+Dialogue: Marked=0,0:11:30.88,0:11:32.73,P!,NTP,0000,0000,0000,!Effect,Estou vendo quatro sinais de vida.
+Dialogue: Marked=0,0:11:32.73,0:11:34.85,*Default,NTP,0000,0000,0000,!Effect,Finalmente encontrei vocês!
+Dialogue: Marked=0,0:11:34.85,0:11:37.69,*Default,NTP,0000,0000,0000,!Effect,Esperem pelo que está por vir,\Nsuas formas de vida inferior!
+Dialogue: Marked=0,0:11:44.23,0:11:45.12,*Default,NTP,0000,0000,0000,!Effect,Desapareceu!
+Dialogue: Marked=0,0:11:46.86,0:11:47.62,*Default,NTP,0000,0000,0000,!Effect,Certo.
+Dialogue: Marked=0,0:11:48.50,0:11:52.75,*Default,NTP,0000,0000,0000,!Effect,Estou vivo de novo!\NAgora, o próximo desejo!
+Dialogue: Marked=0,0:11:53.23,0:11:55.42,*Default,NTP,0000,0000,0000,!Effect,- Conto com você, Gohan!\N- Maldito!
+Dialogue: Marked=0,0:11:55.84,0:11:59.84,*Default,NTP,0000,0000,0000,!Effect,Eu não vou ser responsável por isso!\NEstá fora do meu alcance agora!
+
+Dialogue: Marked=0,0:12:05.14,0:12:09.36,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:12:05.14,0:12:09.36,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:05.14,0:12:09.36,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:05.14,0:12:09.36,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:12.31,0:12:14.53,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:12:12.31,0:12:14.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:12:12.31,0:12:14.53,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:12:12.31,0:12:14.53,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:12:24.94,0:12:27.45,*Default,NTP,0000,0000,0000,!Effect,Espere! Espere! Espere!
+Dialogue: Marked=0,0:12:40.42,0:12:41.51,*Default,NTP,0000,0000,0000,!Effect,Kami-sama!
+Dialogue: Marked=0,0:12:43.33,0:12:46.76,*Default,NTP,0000,0000,0000,!Effect,Piccolo, seu canalha.\NVocê teve uma boa idéia.
+Dialogue: Marked=0,0:12:47.82,0:12:50.81,*Default,NTP,0000,0000,0000,!Effect,Popo, você tomou conta\Ndo lugar na minha falta.
+Dialogue: Marked=0,0:12:51.59,0:12:55.81,*Default,NTP,0000,0000,0000,!Effect,Ótimo!\NKami-sama está de volta! Que bom!
+Dialogue: Marked=0,0:12:58.42,0:13:01.44,*Default,NTP,0000,0000,0000,!Effect,Eu concedi o primeiro desejo.
+Dialogue: Marked=0,0:13:02.56,0:13:05.20,*Default,NTP,0000,0000,0000,!Effect,Agora, peçam o segundo!
+Dialogue: Marked=0,0:13:06.19,0:13:10.13,*Default,NTP,0000,0000,0000,!Effect,O segundo desejo é para que o Piccolo-san,\Nque acabou de ser ressuscitado,
+Dialogue: Marked=0,0:13:10.13,0:13:12.12,*Default,,0000,0000,0000,,seja transportado para o planeta Namek!
+Dialogue: Marked=0,0:13:12.69,0:13:13.66,*Default,NTP,0000,0000,0000,!Effect,C-Certo!
+Dialogue: Marked=0,0:13:20.71,0:13:23.13,*Default,NTP,0000,0000,0000,!Effect,Dende, seja rápido!\NVegeta nos descobriu!
+Dialogue: Marked=0,0:13:25.55,0:13:26.39,*Default,NTP,0000,0000,0000,!Effect,C-Certo!
+Dialogue: Marked=0,0:13:37.39,0:13:43.57,*Default,NTP,0000,0000,0000,!Effect,Isso é fácil.\NEu vou conceder o segundo desejo.
+Dialogue: Marked=0,0:13:51.45,0:13:53.58,*Default,NTP,0000,0000,0000,!Effect,Que idiota!
+Dialogue: Marked=0,0:13:54.43,0:14:00.54,*Default,NTP,0000,0000,0000,!Effect,Eu realizei o segundo desejo.\NAgora, podem pedir o último.
+Dialogue: Marked=0,0:14:01.33,0:14:04.80,*Default,NTP,0000,0000,0000,!Effect,Ele disse que realizou?\NMas o Piccolo não está aqui ainda...
+Dialogue: Marked=0,0:14:04.80,0:14:08.05,*Default,NTP,0000,0000,0000,!Effect,Onde você está, Piccolo-san?
+Dialogue: Marked=0,0:14:08.94,0:14:13.06,*Default,NTP,0000,0000,0000,!Effect,Você só disse que era para trazer para cá,\Nentão ele pode estar em qualquer lugar.
+Dialogue: Marked=0,0:14:14.86,0:14:16.77,*Default,NTP,0000,0000,0000,!Effect,Você queria que trouxesse aqui?
+Dialogue: Marked=0,0:14:17.14,0:14:19.09,*Default,NTP,0000,0000,0000,!Effect,Ah, não!
+Dialogue: Marked=0,0:14:19.09,0:14:22.32,*Default,NTP,0000,0000,0000,!Effect,O que vamos fazer? Nós podemos\Nusar o terceiro desejo para trazê-lo!
+Dialogue: Marked=0,0:14:39.04,0:14:40.29,*Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:14:40.73,0:14:43.80,*Default,NTP,0000,0000,0000,!Effect,Eu sabia!\NEu sabia que era alguma coisa assim!
+Dialogue: Marked=0,0:14:48.18,0:14:53.18,*Default,NTP,0000,0000,0000,!Effect,Como ousam... Como ousam enganar\Na mim, Vegeta-sama, seus desgraçados?
+Dialogue: Marked=0,0:14:53.96,0:14:55.68,*Default,NTP,0000,0000,0000,!Effect,Vocês vão pagar por isso!
+Dialogue: Marked=0,0:14:58.19,0:14:59.68,*Default,NTP,0000,0000,0000,!Effect,Seus idiotas!
+Dialogue: Marked=0,0:14:59.68,0:15:03.65,*Default,,0000,0000,0000,,Vocês pegaram a única chance que\Ntínhamos para derrotar Freeza e jogaram fora!
+Dialogue: Marked=0,0:15:04.23,0:15:10.91,*Default,NTP,0000,0000,0000,!Effect,O único jeito era se eu ficasse imortal!\NSeus pirralhos fedidos e imundos!
+Dialogue: Marked=0,0:15:16.80,0:15:23.82,*Default,NTP,0000,0000,0000,!Effect,E-Espere! Nós só pedimos dois desejos!\NAinda tem um que pode ser realizado!
+Dialogue: Marked=0,0:15:23.82,0:15:25.07,*Default,NTP,0000,0000,0000,!Effect,Idiota! Cale a boca!
+Dialogue: Marked=0,0:15:28.51,0:15:30.38,*Default,NTP,0000,0000,0000,!Effect,Fico aliviado em ouvir isso.
+Dialogue: Marked=0,0:15:38.81,0:15:40.39,P!,NTP,0000,0000,0000,!Effect,O que é aquela coluna de luz?
+Dialogue: Marked=0,0:15:41.49,0:15:43.18,P!,NTP,0000,0000,0000,!Effect,É lá que os sinais de vida estão...
+Dialogue: Marked=0,0:15:44.50,0:15:47.38,P!,NTP,0000,0000,0000,!Effect,Eles não poderiam estar usando as\NDragon Balls para realizar seus desejos!
+Dialogue: Marked=0,0:15:52.78,0:15:55.95,*Default,NTP,0000,0000,0000,!Effect,Qual será o terceiro desejo?
+Dialogue: Marked=0,0:15:55.95,0:15:59.96,*Default,NTP,0000,0000,0000,!Effect,Agora, faça-me imortal!\NAnde logo e faça agora!
+Dialogue: Marked=0,0:16:02.29,0:16:04.25,*Default,NTP,0000,0000,0000,!Effect,Seu pirralho!
+Dialogue: Marked=0,0:16:05.53,0:16:08.21,*Default,NTP,0000,0000,0000,!Effect,Você não sabe o que "Faça agora" significa?!
+Dialogue: Marked=0,0:16:08.69,0:16:09.30,*Default,NTP,0000,0000,0000,!Effect,Dende!
+Dialogue: Marked=0,0:16:10.83,0:16:14.56,*Default,NTP,0000,0000,0000,!Effect,Você precisa fazer isso agora!\NFreeza está quase aqui!
+Dialogue: Marked=0,0:16:16.73,0:16:19.79,*Default,NTP,0000,0000,0000,!Effect,Se esse desejo for realizado...
+Dialogue: Marked=0,0:16:19.79,0:16:22.45,*Default,NTP,0000,0000,0000,!Effect,Mas, não há outra escolha!
+Dialogue: Marked=0,0:16:22.45,0:16:25.40,*Default,,0000,0000,0000,,Ainda falta um tempo para o\Nmeu pai se recuperar dos ferimentos.
+Dialogue: Marked=0,0:16:41.42,0:16:42.97,*Default,NTP,0000,0000,0000,!Effect,Então aqui é minha terra natal?
+Dialogue: Marked=0,0:16:44.60,0:16:45.84,*Default,NTP,0000,0000,0000,!Effect,Planeta Namek.
+Dialogue: Marked=0,0:16:50.19,0:16:54.01,*Default,NTP,0000,0000,0000,!Effect,Não há dúvidas, eu sinto uma estranha nostalgia.
+Dialogue: Marked=0,0:16:54.01,0:16:57.85,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,400)}O sangue Namekusei-jin que\Ncorre em mim deve ser o responsável.
+Dialogue: Marked=0,0:17:01.65,0:17:05.73,*Default,NTP,0000,0000,0000,!Effect,Droga, agora não é hora para sentimentalismo.\NÉ melhor eu achar Gohan e os outros.
+Dialogue: Marked=0,0:17:14.47,0:17:17.95,*Default,NTP,0000,0000,0000,!Effect,Droga, onde eles estão?\NNão estão por aqui...
+Dialogue: Marked=0,0:17:21.76,0:17:22.66,*Default,NTP,0000,0000,0000,!Effect,O-O que é aquilo?!
+Dialogue: Marked=0,0:17:24.11,0:17:26.67,*Default,NTP,0000,0000,0000,!Effect,Eu posso sentir um Ki incrível bem longe.
+Dialogue: Marked=0,0:17:27.44,0:17:30.17,*Default,NTP,0000,0000,0000,!Effect,Poderia ser o monstro do Freeza?
+Dialogue: Marked=0,0:17:32.82,0:17:35.68,*Default,NTP,0000,0000,0000,!Effect,Há outros Ki lá perto. Gohan e os outros...
+Dialogue: Marked=0,0:17:39.09,0:17:41.43,*Default,NTP,0000,0000,0000,!Effect,Tudo bem. Espere aí, Gohan!
+Dialogue: Marked=0,0:17:50.86,0:17:56.94,*Default,NTP,0000,0000,0000,!Effect,Eu ainda espero o último desejo.\NVamos, peçam agora.
+Dialogue: Marked=0,0:17:56.94,0:18:01.95,*Default,NTP,0000,0000,0000,!Effect,O que você está esperando?!\NPeça agora! Faça-me imortal!
+Dialogue: Marked=0,0:18:02.74,0:18:04.89,*Default,NTP,0000,0000,0000,!Effect,Você quer ser morto por Freeza?
+Dialogue: Marked=0,0:18:12.53,0:18:16.19,*Default,NTP,0000,0000,0000,!Effect,K-Kuririn-san, Freeza está quase aqui!
+Dialogue: Marked=0,0:18:16.19,0:18:18.39,*Default,NTP,0000,0000,0000,!Effect,Nossa situação é desesperadora.
+Dialogue: Marked=0,0:18:18.83,0:18:21.43,*Default,NTP,0000,0000,0000,!Effect,Dende! Faça o pedido dele!
+Dialogue: Marked=0,0:18:24.34,0:18:26.65,*Default,NTP,0000,0000,0000,!Effect,Vegeta pode ser incrivelmente mau...
+Dialogue: Marked=0,0:18:26.65,0:18:30.58,*Default,,0000,0000,0000,,Mas, pelo menos, é melhor que Freeza!\NEu odeio ter que fazer isso...
+Dialogue: Marked=0,0:18:30.58,0:18:33.65,*Default,NTP,0000,0000,0000,!Effect,Mas, agora, não há outro\Njeito para nos tirar disso!
+Dialogue: Marked=0,0:18:37.45,0:18:39.28,*Default,NTP,0000,0000,0000,!Effect,E-Entendido...
+Dialogue: Marked=0,0:18:39.61,0:18:43.25,*Default,NTP,0000,0000,0000,!Effect,Certo, assim é melhor.
+Dialogue: Marked=0,0:18:44.29,0:18:45.79,*Default,NTP,0000,0000,0000,!Effect,Então, faça agora!
+Dialogue: Marked=0,0:18:47.18,0:18:48.16,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:18:49.81,0:18:51.04,*Default,NTP,0000,0000,0000,!Effect,- Pare de enrolar!\N- Sim!
+Dialogue: Marked=0,0:18:51.98,0:18:55.84,P!,NTP,0000,0000,0000,!Effect,Isso é bom!\NVai dar um jeito para o Freeza não me matar.
+Dialogue: Marked=0,0:18:56.87,0:18:58.95,P!,NTP,0000,0000,0000,!Effect,Só tenho que manter o ritmo.
+Dialogue: Marked=0,0:18:58.95,0:19:01.83,P!,,0000,0000,0000,,E, mesmo se eu não puder agora,\Neventualmente eu vou derrotá-lo!
+Dialogue: Marked=0,0:19:10.22,0:19:15.73,P!,NTP,0000,0000,0000,!Effect,Muito em breve, vai chegar a hora em\Nque eu, Vegeta-sama, vou controlar o universo!
+Dialogue: Marked=0,0:19:33.12,0:19:34.00,*Default,NTP,0000,0000,0000,!Effect,O-O quê?
+Dialogue: Marked=0,0:20:27.18,0:20:31.89,*Default,NTP,0000,0000,0000,!Effect,O-O que aconteceu? Por que o dragão\Ndesapareceu e o céu ficou claro de novo?
+Dialogue: Marked=0,0:20:32.73,0:20:35.90,*Default,NTP,0000,0000,0000,!Effect,Por que as Dragon Balls viraram pedras?
+Dialogue: Marked=0,0:20:37.49,0:20:39.53,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca...
+Dialogue: Marked=0,0:20:40.40,0:20:41.03,*Default,NTP,0000,0000,0000,!Effect,Dende...
+Dialogue: Marked=0,0:20:41.62,0:20:43.53,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca...
+Dialogue: Marked=0,0:20:45.23,0:20:46.53,*Default,NTP,0000,0000,0000,!Effect,Faleceu.
+Dialogue: Marked=0,0:21:01.49,0:21:02.83,*Default,NTP,0000,0000,0000,!Effect,V-Você tem certeza?
+Dialogue: Marked=0,0:21:03.54,0:21:08.57,*Default,NTP,0000,0000,0000,!Effect,A vida do Grande Patriarca, que criou\Nessas Dragon Balls, chegou ao fim.
+Dialogue: Marked=0,0:21:08.57,0:21:11.06,*Default,NTP,0000,0000,0000,!Effect,O-O que você quer dizer, seu maldito pirralho?!
+Dialogue: Marked=0,0:21:11.47,0:21:15.35,*Default,NTP,0000,0000,0000,!Effect,E-E a minha...\NO que eu vou fazer sobre a minha imortalidade?!
+Dialogue: Marked=0,0:21:16.74,0:21:18.02,*Default,NTP,0000,0000,0000,!Effect,Nesse caso...
+Dialogue: Marked=0,0:21:19.34,0:21:21.85,*Default,NTP,0000,0000,0000,!Effect,Seus podres malditos!
+Dialogue: Marked=0,0:21:21.85,0:21:26.70,*Default,NTP,0000,0000,0000,!Effect,Se vocês não tivessem me\Ntraído, nada disso teria acontecido!
+Dialogue: Marked=0,0:21:28.05,0:21:32.27,*Default,NTP,0000,0000,0000,!Effect,Vocês vão pagar!\NSeus idiotas infelizes e imundos!
+Dialogue: Marked=0,0:21:49.51,0:21:50.58,*Default,NTP,0000,0000,0000,!Effect,Freeza!
+Dialogue: Marked=0,0:21:54.79,0:21:57.10,*Default,NTP,0000,0000,0000,!Effect,Vocês realmente fizeram, não foi, cavalheiros?
+Dialogue: Marked=0,0:21:58.17,0:22:03.11,*Default,NTP,0000,0000,0000,!Effect,Vocês fizeram um trabalho incrível\Ndestruindo meus sonhos de juventude eterna.
+Dialogue: Marked=0,0:22:06.49,0:22:12.87,*Default,NTP,0000,0000,0000,!Effect,Eu acho que vocês certamente\Nestão preparados para pagar o preço.
+Dialogue: Marked=0,0:22:14.24,0:22:20.07,Narrador,NTP,0000,0000,0000,!Effect,É a pior situação possível...\NFreeza finalmente chegou!
+Dialogue: Marked=0,0:22:20.07,0:22:22.40,Narrador,NTP,0000,0000,0000,!Effect,Freeza está queimando de raiva.
+Dialogue: Marked=0,0:22:22.40,0:22:28.16,Narrador,,0000,0000,0000,,Nessa grande crise, o que vai acontecer\Ncom Piccolo? O que vai acontecer com Goku?

@@ -1,0 +1,252 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: Radio,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: RadioP!,Souvenir Lt BT,40,16777215,12632256,16711680,-10485760,-1,1,1,2,2,6,30,30,20,0,0
+Style: L!,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,2,2,2,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: P2!,Arial,40,-2147483640,&HFF00FFFF,&HFF000000,0,0,0,1,0,1,6,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,42,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: Doutrina2,TimeScrDBol,42,255,16711680,16744576,-2147483640,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Tahoma,29,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,32,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,300,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,50,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,13882733,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,12179886,8454143,3815994,&HFF110066,1,0,0,0,0,2,30,30,25,0,0
+Style: PLACA2,FormalScrp421 BT,80,10485760,8454143,3815994,3815994,0,0,1,2,2,2,30,30,25,0,0
+Style: PLACA3,Arial,80,6504055,8454143,3815994,0,1,0,0,0,1,2,-10000,-10000,0,0,0
+Style: PLACA3a,Arial,80,6504055,8454143,3815994,0,1,0,0,5.5,1,2,-10000,-10000,0,0,0
+Style: PLACA4,Arial,80,-2147483640,8678640,3815994,0,1,0,1,1,5,2,30,30,25,0,0
+Style: PLACA4a,Arial,80,-2147483640,8678640,3815994,0,1,0,0,0,0.5,2,30,30,25,0,0
+Style: PLACA4b,Arial,80,7684699,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4c,Arial,80,10058555,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4d,Arial,80,1781837,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4e,Arial,80,6371887,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4f,Arial,80,7102249,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4g,Arial,80,7164719,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4h,Arial,80,4664894,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA4i,Arial,80,6184236,8678640,3815994,0,1,0,1,0,0.5,2,30,30,25,0,0
+Style: PLACA5,Souvenir Lt BT,80,11454906,8678640,3815994,-2147483640,1,0,1,0,0,0,-10000,-10000,25,0,0
+Style: PLACA6,Arial,80,-2147483640,8678640,3815994,0,0,0,1,1,5,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:31.06,0:01:34.93,Narrador,NTP,0000,0000,0000,!Effect,O túnel que leva ao Makai\Nlogo estará completo.
+Dialogue: Marked=0,0:01:34.93,0:01:38.53,Narrador,NTP,0000,0000,0000,!Effect,Logo após Kuwabara, que foi\Ncapturado por Sensui, ser resgatado,
+Dialogue: Marked=0,0:01:39.07,0:01:42.09,Narrador,NTP,0000,0000,0000,!Effect,Kurama e os outros foram\Npresos em um subespaço por um Uraotoko,
+Dialogue: Marked=0,0:01:42.09,0:01:44.86,Narrador,NTP,0000,0000,0000,!Effect,um youkai que Itsuki controla.
+Dialogue: Marked=0,0:01:45.41,0:01:49.10,Narrador,NTP,0000,0000,0000,!Effect,A luta entre Yusuke e\NSensui finalmente começou!
+Dialogue: Marked=0,0:01:51.33,0:01:54.11,*Default,NTP,0000,0000,0000,!Effect,Primeira razão pela qual\Nvocê não pode vencer:
+Dialogue: Marked=0,0:01:54.89,0:01:57.46,*Default,NTP,0000,0000,0000,!Effect,Eu posso antecipar seus ataques.
+Dialogue: Marked=0,0:01:57.46,0:01:59.11,*Default,NTP,0000,0000,0000,!Effect,Ou seja, existe uma diferença\Nentre nossas ocupações.
+Dialogue: Marked=0,0:01:59.31,0:02:01.20,*Default,NTP,0000,0000,0000,!Effect,Quando se trata do número\Nde lutas em que você esteve,
+Dialogue: Marked=0,0:02:01.47,0:02:03.79,*Default,NTP,0000,0000,0000,!Effect,você não pode me vencer!
+
+Dialogue: Marked=0,0:02:27.52,0:02:33.61,Nome2,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\fscx120\fscy120}Episódio 086
+Dialogue: Marked=0,0:02:27.52,0:02:33.61,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(285,430)}{\fscx80\fscy100}A dura batalha de Yusuke!
+Dialogue: Marked=0,0:02:27.52,0:02:33.61,Nome,NTP,0000,0000,0000,!Effect,{\fad(1500,0)}{\pos(495,510)}{\fscx105\fscy100}Uma diferença decisiva
+
+Dialogue: Marked=0,0:02:38.96,0:02:41.33,*Default,NTP,0000,0000,0000,!Effect,Vamos lá!\NSaia já daí, seu desgraçado!
+Dialogue: Marked=0,0:02:42.10,0:02:44.90,*Default,NTP,0000,0000,0000,!Effect,Não vai dizer que você\Nafundou e se afogou, certo?
+Dialogue: Marked=0,0:02:49.31,0:02:51.12,*Default,NTP,0000,0000,0000,!Effect,Ai, ai...
+Dialogue: Marked=0,0:02:51.73,0:02:54.11,*Default,NTP,0000,0000,0000,!Effect,Minhas roupas se rasgaram todas...
+Dialogue: Marked=0,0:02:56.90,0:02:57.88,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:03:09.80,0:03:13.55,*Default,NTP,0000,0000,0000,!Effect,I-Incrível!\NEle é coberto por cicatrizes!
+Dialogue: Marked=0,0:03:13.55,0:03:15.86,*Default,NTP,0000,0000,0000,!Effect,Ele não disse que esteve em todas\Nessas batalhas apenas por diversão?!
+Dialogue: Marked=0,0:03:18.32,0:03:20.85,*Default,NTP,0000,0000,0000,!Effect,Kuwabara-kun, esse não é o caso.
+Dialogue: Marked=0,0:03:22.94,0:03:26.37,*Default,NTP,0000,0000,0000,!Effect,Essas são cicatrizes feitas\Ndurante meu treinamento.
+Dialogue: Marked=0,0:03:27.39,0:03:30.62,*Default,NTP,0000,0000,0000,!Effect,Eu não tenho sequer uma cicatriz que\Ntenha sido feita por um oponente.
+Dialogue: Marked=0,0:03:33.42,0:03:35.21,P!,NTP,0000,0000,0000,!Effect,Ele tem uma boa estrutura...
+Dialogue: Marked=0,0:03:35.21,0:03:38.38,P!,NTP,0000,0000,0000,!Effect,Parecia que eu estava batendo num\Npneu grosso enquanto eu espancava ele.
+Dialogue: Marked=0,0:04:17.13,0:04:19.80,*Default,NTP,0000,0000,0000,!Effect,Você quer dizer que ele pode controlar\Ntoda essa quantidade de Ki de longe?
+Dialogue: Marked=0,0:04:20.61,0:04:22.30,*Default,NTP,0000,0000,0000,!Effect,Isso vai ser um problema.
+Dialogue: Marked=0,0:04:52.10,0:04:53.16,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:04:58.54,0:05:02.15,*Default,NTP,0000,0000,0000,!Effect,Olhe só quantas!\NSe você juntar todas essas bolas,
+Dialogue: Marked=0,0:05:02.15,0:05:04.68,*Default,NTP,0000,0000,0000,!Effect,elas seriam quase do mesmo\Ntamanho de um Rei-gun do Urameshi!
+Dialogue: Marked=0,0:05:05.34,0:05:07.79,*Default,NTP,0000,0000,0000,!Effect,Não, provavelmente seria maior.
+Dialogue: Marked=0,0:05:11.90,0:05:14.35,*Default,NTP,0000,0000,0000,!Effect,Que tal eu acabar com\Nvocê de uma vez só?
+Dialogue: Marked=0,0:05:17.12,0:05:18.12,*Default,NTP,0000,0000,0000,!Effect,Aí vai!
+Dialogue: Marked=0,0:05:19.98,0:05:23.11,Doutrina,NTP,0000,0000,0000,!Effect,Resshu Shien-dan
+Dialogue: Marked=0,0:05:25.24,0:05:28.37,PLACA,NTP,0000,0000,0000,!Effect,{\fscx100\fscy100}{\pos(400,430)}RESSHU SHIEN-DAN
+Dialogue: Marked=0,0:05:25.24,0:05:28.37,Comentario,NTP,0000,0000,0000,!Effect,Múltiplo Chute Explosivo das Chamas Violetas
+Dialogue: Marked=0,0:05:36.41,0:05:37.62,P!,NTP,0000,0000,0000,!Effect,São muitas delas!
+Dialogue: Marked=0,0:06:33.54,0:06:35.14,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:06:57.54,0:06:59.39,*Default,NTP,0000,0000,0000,!Effect,Claro que é calmo, né?
+Dialogue: Marked=0,0:06:59.39,0:07:01.86,*Default,NTP,0000,0000,0000,!Effect,Eu gostaria de saber se existe mesmo\Num buraco que leva ao Makai...
+Dialogue: Marked=0,0:07:01.86,0:07:03.90,*Default,NTP,0000,0000,0000,!Effect,sendo aberto dentro dessa caverna.
+Dialogue: Marked=0,0:07:03.90,0:07:07.17,*Default,NTP,0000,0000,0000,!Effect,De fato.\NNão parece que é verdade.
+Dialogue: Marked=0,0:07:07.77,0:07:11.04,*Default,NTP,0000,0000,0000,!Effect,Você não acha que o Urameshi-san\Njá derrotou o Sensui, certo?
+Dialogue: Marked=0,0:07:11.04,0:07:14.81,*Default,NTP,0000,0000,0000,!Effect,Sim, talvez ele tenha fechado\No buraco que vai ao Makai.
+Dialogue: Marked=0,0:07:16.11,0:07:19.59,*Default,NTP,0000,0000,0000,!Effect,Não, o buraco para o Makai\Nestá crescendo com certeza.
+Dialogue: Marked=0,0:07:20.20,0:07:22.39,*Default,NTP,0000,0000,0000,!Effect,Mais rápido do que nunca, agora...
+Dialogue: Marked=0,0:07:23.02,0:07:25.45,*Default,NTP,0000,0000,0000,!Effect,C-Como você pode dizer isso?
+Dialogue: Marked=0,0:07:25.45,0:07:26.79,*Default,NTP,0000,0000,0000,!Effect,É o cheiro.
+Dialogue: Marked=0,0:07:26.79,0:07:27.32,*Default,NTP,0000,0000,0000,!Effect,O cheiro?
+Dialogue: Marked=0,0:07:28.12,0:07:28.69,*Default,NTP,0000,0000,0000,!Effect,Sim...
+Dialogue: Marked=0,0:07:29.64,0:07:32.41,*Default,NTP,0000,0000,0000,!Effect,Há um cheiro sinistro\Ncrescendo aos poucos,
+Dialogue: Marked=0,0:07:32.41,0:07:34.45,*Default,NTP,0000,0000,0000,!Effect,vindo das profundezas dessa caverna.
+Dialogue: Marked=0,0:07:37.14,0:07:38.06,*Default,NTP,0000,0000,0000,!Effect,Consegue sentir?
+Dialogue: Marked=0,0:07:38.06,0:07:39.33,*Default,NTP,0000,0000,0000,!Effect,Não, nada.
+Dialogue: Marked=0,0:07:42.18,0:07:43.64,*Default,NTP,0000,0000,0000,!Effect,Mestra Genkai...
+Dialogue: Marked=0,0:07:43.64,0:07:47.57,*Default,NTP,0000,0000,0000,!Effect,Quanto tempo resta até que o buraco\Npara o Makai esteja completo?
+Dialogue: Marked=0,0:07:48.58,0:07:50.90,*Default,NTP,0000,0000,0000,!Effect,Acho que menos de dez minutos...
+Dialogue: Marked=0,0:07:52.57,0:07:55.08,*Default,NTP,0000,0000,0000,!Effect,Queria saber se o Koenma-sama\Nvai chegar a tempo...
+Dialogue: Marked=0,0:08:12.76,0:08:15.51,*Default,NTP,0000,0000,0000,!Effect,As ervas Akaru foram espalhadas\Ngraças a uma explosão.
+Dialogue: Marked=0,0:08:16.08,0:08:17.99,*Default,NTP,0000,0000,0000,!Effect,Deve ter acontecido\Numa grande luta aqui.
+Dialogue: Marked=0,0:08:23.97,0:08:27.54,P!,NTP,0000,0000,0000,!Effect,Sem qualquer pista, vou ter de\Nseguir meus instintos a partir de agora.
+Dialogue: Marked=0,0:08:38.41,0:08:39.64,P!,NTP,0000,0000,0000,!Effect,O caminho do meio?
+Dialogue: Marked=0,0:08:43.48,0:08:44.90,P!,NTP,0000,0000,0000,!Effect,Agüente, Yusuke!
+Dialogue: Marked=0,0:08:53.04,0:08:56.37,*Default,NTP,0000,0000,0000,!Effect,Não me diga que ele já perdeu! Ei!
+Dialogue: Marked=0,0:08:58.58,0:08:59.74,*Default,NTP,0000,0000,0000,!Effect,Urameshi-san...
+Dialogue: Marked=0,0:08:59.74,0:09:04.06,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe. É preciso mais\Ndo que isso para acabar com o Yusuke.
+Dialogue: Marked=0,0:09:04.06,0:09:04.87,*Default,NTP,0000,0000,0000,!Effect,Verdade?
+Dialogue: Marked=0,0:09:06.66,0:09:10.13,P!,NTP,0000,0000,0000,!Effect,Mas, se ele tomar esse tipo\Nde ataque mais algumas vezes...
+Dialogue: Marked=0,0:09:20.19,0:09:21.14,*Default,NTP,0000,0000,0000,!Effect,Eu não perdi ainda!
+Dialogue: Marked=0,0:09:22.96,0:09:26.65,*Default,NTP,0000,0000,0000,!Effect,Você é mesmo durão.\NMas, ainda não pode me vencer...
+Dialogue: Marked=0,0:09:27.31,0:09:29.66,*Default,NTP,0000,0000,0000,!Effect,Segunda razão pela qual você não pode vencer:
+Dialogue: Marked=0,0:09:30.39,0:09:33.36,*Default,NTP,0000,0000,0000,!Effect,Você é muito fraco contra ataques\Nvindos de múltiplos ângulos.
+Dialogue: Marked=0,0:09:33.96,0:09:35.07,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:09:35.58,0:09:39.03,*Default,NTP,0000,0000,0000,!Effect,Você já se acostumou\Na lutas "um contra um".
+Dialogue: Marked=0,0:09:39.38,0:09:44.25,*Default,NTP,0000,0000,0000,!Effect,Por outro lado, eu sempre lutei sozinho\Ncontra um grande número de oponentes.
+Dialogue: Marked=0,0:09:49.39,0:09:53.38,*Default,NTP,0000,0000,0000,!Effect,Essa técnica, Resshu Shien-dan,\Neu aprendi como resultado disso.
+Dialogue: Marked=0,0:09:53.38,0:09:56.22,*Default,NTP,0000,0000,0000,!Effect,Ela é uma técnica da qual você\Nnão pode se desviar sozinho.
+Dialogue: Marked=0,0:09:59.02,0:10:04.25,*Default,NTP,0000,0000,0000,!Effect,Impossível! Merda, depois de\Nsoltar tanto Reiki agora pouco,
+Dialogue: Marked=0,0:10:04.25,0:10:06.14,*Default,NTP,0000,0000,0000,!Effect,ele ainda pode liberar a\Nmesma quantidade de poder?
+Dialogue: Marked=0,0:10:08.08,0:10:09.86,*Default,NTP,0000,0000,0000,!Effect,Isso é ruim!\NIsso é muito ruim!
+Dialogue: Marked=0,0:10:11.60,0:10:14.03,*Default,NTP,0000,0000,0000,!Effect,Quem poderia imaginar que existe\Ntanta diferença entre seus poderes?!
+Dialogue: Marked=0,0:10:14.57,0:10:19.66,*Default,NTP,0000,0000,0000,!Effect,E agora, a terceira razão, e a mais importante,\Npela qual você não pode me vencer:
+Dialogue: Marked=0,0:10:20.76,0:10:22.85,*Default,NTP,0000,0000,0000,!Effect,A diferença no volume total\Nde nosso Reiki, ou seja...
+Dialogue: Marked=0,0:10:22.85,0:10:24.62,*Default,NTP,0000,0000,0000,!Effect,Nosso poder espiritual total.
+Dialogue: Marked=0,0:10:25.10,0:10:27.62,*Default,NTP,0000,0000,0000,!Effect,Se classificarmos seu\Npoder espiritual em 10,
+Dialogue: Marked=0,0:10:28.54,0:10:29.79,*Default,NTP,0000,0000,0000,!Effect,o meu seria 100!
+Dialogue: Marked=0,0:10:30.44,0:10:33.30,*Default,NTP,0000,0000,0000,!Effect,Ele está dizendo que seu poder espiritual\Né dez vezes maior que o do Urameshi?!
+Dialogue: Marked=0,0:10:33.77,0:10:36.60,*Default,NTP,0000,0000,0000,!Effect,Não pode ser!\NHá tanta diferença entre eles?!
+Dialogue: Marked=0,0:10:37.46,0:10:38.51,*Default,NTP,0000,0000,0000,!Effect,E-Ele não pode vencer!
+Dialogue: Marked=0,0:10:44.05,0:10:47.61,Doutrina,NTP,0000,0000,0000,!Effect,Resshu Shien-dan
+Dialogue: Marked=0,0:11:16.71,0:11:22.05,*Default,NTP,0000,0000,0000,!Effect,Esse foi o segundo disparo.\NVocê não pode desviar desse ataque.
+Dialogue: Marked=0,0:11:31.18,0:11:34.48,*Default,NTP,0000,0000,0000,!Effect,Levante!\NLevante-se logo, Urameshi!
+Dialogue: Marked=0,0:11:37.05,0:11:40.15,*Default,NTP,0000,0000,0000,!Effect,Tá bom!\NChega de reclamações da escória!
+Dialogue: Marked=0,0:11:40.67,0:11:43.45,*Default,NTP,0000,0000,0000,!Effect,Haha pra você!\NEstou bem!
+Dialogue: Marked=0,0:11:44.75,0:11:48.44,*Default,NTP,0000,0000,0000,!Effect,Não me interessa se você tem dez\Nvezes mais poder espiritual que eu!
+Dialogue: Marked=0,0:11:48.44,0:11:50.54,*Default,NTP,0000,0000,0000,!Effect,Esse seu ataque é como\Num passeio no parque para mim!
+Dialogue: Marked=0,0:11:51.54,0:11:55.00,*Default,NTP,0000,0000,0000,!Effect,Muito bem! Então, eu irei acertá-lo\Ncom ele o quanto você quiser!
+Dialogue: Marked=0,0:11:57.12,0:11:59.01,Doutrina,NTP,0000,0000,0000,!Effect,Resshu Shien-dan
+Dialogue: Marked=0,0:12:17.14,0:12:17.61,P!,NTP,0000,0000,0000,!Effect,Seu desgraçado!
+Dialogue: Marked=0,0:12:35.76,0:12:37.13,*Default,NTP,0000,0000,0000,!Effect,Isso não doeu!
+Dialogue: Marked=0,0:12:38.86,0:12:41.55,*Default,NTP,0000,0000,0000,!Effect,Se eu não posso me desviar,\Nentão eu vou suportá-lo!
+Dialogue: Marked=0,0:12:43.44,0:12:45.84,*Default,NTP,0000,0000,0000,!Effect,A melhor defesa é o ataque!
+Dialogue: Marked=0,0:12:48.05,0:12:50.52,*Default,NTP,0000,0000,0000,!Effect,Então, ele decidiu que a\Nforça dessas bolas é pequena,
+Dialogue: Marked=0,0:12:50.89,0:12:52.39,*Default,NTP,0000,0000,0000,!Effect,e está completamente na ofensiva?
+Dialogue: Marked=0,0:12:52.98,0:12:55.23,*Default,NTP,0000,0000,0000,!Effect,Essa é uma rápida troca de estratégia,\Ntípica do Yusuke.
+Dialogue: Marked=0,0:12:55.52,0:12:58.15,*Default,NTP,0000,0000,0000,!Effect,Certo!\NVai, vai, Urameshi!
+Dialogue: Marked=0,0:13:06.25,0:13:09.47,*Default,NTP,0000,0000,0000,!Effect,Qual o problema?! Você não ia me\Nacertar o quanto eu quisesse?
+Dialogue: Marked=0,0:13:13.67,0:13:18.46,*Default,NTP,0000,0000,0000,!Effect,Eu já esqueci do que você disse sobre eu ser\Nfraco contra ataques de múltiplos ângulos!
+Dialogue: Marked=0,0:13:19.90,0:13:22.67,*Default,NTP,0000,0000,0000,!Effect,Agora, você disse que podia\Nprever meus ataques, certo?
+Dialogue: Marked=0,0:13:25.88,0:13:27.89,*Default,NTP,0000,0000,0000,!Effect,E agora?!
+Dialogue: Marked=0,0:13:34.13,0:13:37.86,*Default,NTP,0000,0000,0000,!Effect,E isso? Pode prever que ação eu\Nirei tomar agora?
+Dialogue: Marked=0,0:13:38.17,0:13:42.43,*Default,NTP,0000,0000,0000,!Effect,Por acaso você é idiota?!\NPor que você está nadando aí?!
+Dialogue: Marked=0,0:13:42.43,0:13:44.32,*Default,NTP,0000,0000,0000,!Effect,Não é preciso que ele confirme.\NEle é um idiota.
+Dialogue: Marked=0,0:13:50.77,0:13:54.20,*Default,NTP,0000,0000,0000,!Effect,Ah, esse mergulho foi revigorante!
+Dialogue: Marked=0,0:13:54.49,0:13:56.71,*Default,NTP,0000,0000,0000,!Effect,Certo!\NContinuando com minha estratégia!
+Dialogue: Marked=0,0:14:00.11,0:14:02.25,*Default,NTP,0000,0000,0000,!Effect,Sua posição de combate fechado de novo?
+Dialogue: Marked=0,0:14:05.45,0:14:08.09,*Default,NTP,0000,0000,0000,!Effect,Toda aquela adivinhação de antes\Nera só pra você conseguir tempo...
+Dialogue: Marked=0,0:14:08.09,0:14:10.14,*Default,NTP,0000,0000,0000,!Effect,para recuperar sua força, certo?
+Dialogue: Marked=0,0:14:10.46,0:14:12.18,*Default,NTP,0000,0000,0000,!Effect,Tome isso!
+Dialogue: Marked=0,0:14:27.63,0:14:30.35,*Default,NTP,0000,0000,0000,!Effect,Ele rasgou sua camiseta molhada...
+Dialogue: Marked=0,0:14:30.92,0:14:33.62,*Default,NTP,0000,0000,0000,!Effect,Dessa maneira, ele pode impedir que\NSensui use a sua técnica Resshu-ken!
+Dialogue: Marked=0,0:14:34.16,0:14:36.21,*Default,NTP,0000,0000,0000,!Effect,Então, foi por isso que\Nvocê mergulhou na água?!
+Dialogue: Marked=0,0:14:36.55,0:14:39.92,*Default,NTP,0000,0000,0000,!Effect,Finalmente, peguei você!\NAgora, você não pode fugir!
+Dialogue: Marked=0,0:14:49.97,0:14:51.80,*Default,NTP,0000,0000,0000,!Effect,Preparar, apontar...
+Dialogue: Marked=0,0:15:01.80,0:15:05.78,*Default,NTP,0000,0000,0000,!Effect,Essa é uma grande virada no jogo!\NPega ele! Pega ele de uma vez por todas!
+Dialogue: Marked=0,0:15:14.95,0:15:16.04,*Default,NTP,0000,0000,0000,!Effect,Mais uma vez!
+Dialogue: Marked=0,0:15:46.78,0:15:48.28,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:15:59.91,0:16:00.99,*Default,NTP,0000,0000,0000,!Effect,O que é aquilo?
+Dialogue: Marked=0,0:16:00.99,0:16:03.63,*Default,NTP,0000,0000,0000,!Effect,Quem poderia imaginar que ele\Ntivesse algo do tipo no seu braço?
+Dialogue: Marked=0,0:16:05.38,0:16:08.09,Comentario,NTP,0000,0000,0000,!Effect,{\fad(300,0)}Arma de Ki
+Dialogue: Marked=0,0:16:05.38,0:16:08.09,PLACA1,NTP,0000,0000,0000,!Effect,{\fad(300,0)\fscx100\fscy100}{\pos(400,405)}KIKOJU
+Dialogue: Marked=0,0:16:08.29,0:16:11.55,*Default,NTP,0000,0000,0000,!Effect,É como se ele tivesse transformado\Num pouco do seu Reiki numa bala.
+Dialogue: Marked=0,0:16:25.22,0:16:27.94,*Default,NTP,0000,0000,0000,!Effect,Seu pirralho!
+Dialogue: Marked=0,0:16:29.39,0:16:32.06,*Default,NTP,0000,0000,0000,!Effect,Não fique tão convencido!
+Dialogue: Marked=0,0:16:32.06,0:16:34.36,*Default,NTP,0000,0000,0000,!Effect,Seu monte de merda!
+Dialogue: Marked=0,0:16:34.40,0:16:35.57,*Default,NTP,0000,0000,0000,!Effect,Merda?!
+Dialogue: Marked=0,0:16:35.73,0:16:37.74,*Default,NTP,0000,0000,0000,!Effect,Seu aspecto mudou!\NSeu olhar também!
+Dialogue: Marked=0,0:16:37.74,0:16:39.74,*Default,NTP,0000,0000,0000,!Effect,O maldito mudou bruscamente!
+Dialogue: Marked=0,0:16:39.74,0:16:40.84,*Default,NTP,0000,0000,0000,!Effect,Não, ele não mudou.
+Dialogue: Marked=0,0:16:42.54,0:16:48.50,*Default,NTP,0000,0000,0000,!Effect,Ele foi trocado. A pessoa que usa a\NKikoju dentro de seu braço é o Kazuya.
+Dialogue: Marked=0,0:16:48.75,0:16:51.26,*Default,NTP,0000,0000,0000,!Effect,Kazuya?!\NDo que é que você está falando?!
+Dialogue: Marked=0,0:16:51.67,0:16:54.72,*Default,NTP,0000,0000,0000,!Effect,Você sabe que o nome desse\Ncara é Sensui Shinobu!
+Dialogue: Marked=0,0:16:54.72,0:16:57.22,*Default,NTP,0000,0000,0000,!Effect,Quem é esse Kazuya?\NAlgum parente seu?
+Dialogue: Marked=0,0:16:59.09,0:17:00.59,*Default,NTP,0000,0000,0000,!Effect,Personalidades múltiplas?!
+Dialogue: Marked=0,0:17:00.59,0:17:03.37,*Default,NTP,0000,0000,0000,!Effect,P-Per-Personalidades múlti... o quê?
+Dialogue: Marked=0,0:17:03.37,0:17:04.65,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo.
+Dialogue: Marked=0,0:17:07.26,0:17:11.14,*Default,NTP,0000,0000,0000,!Effect,O Sensui possui sete personalidades\Ndiferentes vivendo dentro dele,
+Dialogue: Marked=0,0:17:11.14,0:17:13.61,*Default,NTP,0000,0000,0000,!Effect,incluindo sua primária, Shinobu.
+Dialogue: Marked=0,0:17:14.11,0:17:17.57,*Default,NTP,0000,0000,0000,!Effect,- O quê?!\N- Sete? Eu nunca soube disso!
+Dialogue: Marked=0,0:17:18.59,0:17:21.15,*Default,NTP,0000,0000,0000,!Effect,Há sete personalidades miseráveis que...
+Dialogue: Marked=0,0:17:21.15,0:17:25.54,*Default,NTP,0000,0000,0000,!Effect,{\fad(0,300)}o Sensui mesmo criou durante\Nsuas incontáveis lutas.
+Dialogue: Marked=0,0:17:57.75,0:18:01.35,*Default,NTP,0000,0000,0000,!Effect,Aquele que ele estava sendo\Naté agora era Minoru, o argumentador.
+Dialogue: Marked=0,0:18:02.42,0:18:05.60,*Default,NTP,0000,0000,0000,!Effect,Aparentemente, ele ficou tão impressionado\Npelo contra-ataque inesperado do Urameshi...
+Dialogue: Marked=0,0:18:05.60,0:18:07.46,*Default,NTP,0000,0000,0000,!Effect,que ele mudou para o Kazuya.
+Dialogue: Marked=0,0:18:07.84,0:18:10.19,*Default,NTP,0000,0000,0000,!Effect,Você está preparado pra isso?!
+Dialogue: Marked=0,0:18:16.34,0:18:17.97,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:18:18.75,0:18:21.93,*Default,NTP,0000,0000,0000,!Effect,Kazuya é especialista em matar,\Nmesmo dentre os sete.
+Dialogue: Marked=0,0:18:22.44,0:18:26.56,*Default,NTP,0000,0000,0000,!Effect,Com sua insanidade homicida,\Nele mataria com prazer até bebês.
+Dialogue: Marked=0,0:18:44.54,0:18:48.94,*Default,NTP,0000,0000,0000,!Effect,Isso te surpreende?\NÉ isso o que eu tenho na manga!
+Dialogue: Marked=0,0:18:49.95,0:18:51.54,*Default,NTP,0000,0000,0000,!Effect,Agüente firme, Urameshi!
+Dialogue: Marked=0,0:18:53.75,0:18:56.45,*Default,NTP,0000,0000,0000,!Effect,Eu continuarei falando\Nde onde o Minoru parou.
+Dialogue: Marked=0,0:18:57.23,0:19:00.43,*Default,NTP,0000,0000,0000,!Effect,Quarta razão pela qual\Nvocê não pode vencer:
+Dialogue: Marked=0,0:19:01.08,0:19:02.96,*Default,NTP,0000,0000,0000,!Effect,Essa é crucial!
+Dialogue: Marked=0,0:19:05.42,0:19:08.48,*Default,NTP,0000,0000,0000,!Effect,Porque eu, Kazuya, apareci!
+Dialogue: Marked=0,0:19:15.33,0:19:19.66,*Default,NTP,0000,0000,0000,!Effect,Mas que merda! Por que eu\Nnão posso atravessar isso?!
+Dialogue: Marked=0,0:19:19.66,0:19:20.00,*Default,NTP,0000,0000,0000,!Effect,Saia!
+Dialogue: Marked=0,0:19:28.11,0:19:29.54,*Default,NTP,0000,0000,0000,!Effect,Que tolice.
+Dialogue: Marked=0,0:19:30.23,0:19:34.50,*Default,NTP,0000,0000,0000,!Effect,Vocês deveriam saber que não podem fugir\Ndo subespaço de um youkai Uraotoko...
+Dialogue: Marked=0,0:19:34.50,0:19:35.75,*Default,NTP,0000,0000,0000,!Effect,usando esse tipo de coisa.
+Dialogue: Marked=0,0:19:37.38,0:19:39.17,*Default,NTP,0000,0000,0000,!Effect,Merda!
+Dialogue: Marked=0,0:19:43.39,0:19:46.60,*Default,NTP,0000,0000,0000,!Effect,Então é isso o que ele\Ndisse sobre incapacitar?
+Dialogue: Marked=0,0:19:50.31,0:19:55.82,*Default,NTP,0000,0000,0000,!Effect,E-Eu não gosto desse seu olhar!\NEu vou te incapacitar agora!
+Dialogue: Marked=0,0:20:08.41,0:20:13.13,*Default,NTP,0000,0000,0000,!Effect,Merda!\NNão há nada que possamos fazer?!
+Dialogue: Marked=0,0:20:20.42,0:20:24.15,*Default,NTP,0000,0000,0000,!Effect,Você tem uma ótima voz\Nde dor, não é mesmo?
+Dialogue: Marked=0,0:20:25.00,0:20:26.76,*Default,NTP,0000,0000,0000,!Effect,Está começando a me excitar!
+Dialogue: Marked=0,0:20:33.24,0:20:36.65,*Default,NTP,0000,0000,0000,!Effect,Isso é bom, não acha? Você tem\Nmesmo uma bela voz de dor.
+Dialogue: Marked=0,0:20:43.05,0:20:45.12,*Default,NTP,0000,0000,0000,!Effect,Mas, é aqui que acabamos.
+Dialogue: Marked=0,0:20:47.92,0:20:49.41,*Default,NTP,0000,0000,0000,!Effect,Adeus!
+Dialogue: Marked=0,0:20:51.84,0:20:52.83,*Default,NTP,0000,0000,0000,!Effect,Yusuke!
+Dialogue: Marked=0,0:20:53.06,0:20:54.21,*Default,NTP,0000,0000,0000,!Effect,Urameshi-san!
+Dialogue: Marked=0,0:20:55.39,0:20:57.38,*Default,NTP,0000,0000,0000,!Effect,Urameshi!
+Dialogue: Marked=0,0:21:00.40,0:21:01.17,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:21:06.74,0:21:07.72,*Default,NTP,0000,0000,0000,!Effect,Shinobu...
+Dialogue: Marked=0,0:21:08.51,0:21:09.31,*Default,NTP,0000,0000,0000,!Effect,Pare!
+Dialogue: Marked=0,0:21:12.41,0:21:13.94,*Default,NTP,0000,0000,0000,!Effect,Koenma?
+Dialogue: Marked=0,0:21:15.75,0:21:17.56,*Default,NTP,0000,0000,0000,!Effect,K-Koenma...
+Dialogue: Marked=0,0:21:18.19,0:21:19.55,Narrador,NTP,0000,0000,0000,!Effect,No último momento,
+Dialogue: Marked=0,0:21:19.55,0:21:22.89,Narrador,NTP,0000,0000,0000,!Effect,Koenma apareceu para interromper\Na situação desesperadora de Yusuke.
+Dialogue: Marked=0,0:21:23.85,0:21:28.03,Narrador,NTP,0000,0000,0000,!Effect,No entanto, há alguma maneira de parar\Nessa forma aterrorizante de Sensui?
+Dialogue: Marked=0,0:21:29.32,0:21:33.43,Narrador,NTP,0000,0000,0000,!Effect,A passagem negra para o Makai\Nestá prestes a ser aberta.
+Dialogue: Marked=0,0:21:34.51,0:21:38.83,Narrador,NTP,0000,0000,0000,!Effect,Uma Era de terror e\Nconfusão está chegando!
+Dialogue: Marked=0,0:21:47.45,0:21:48.64,Conversa,NTP,0000,0000,0000,!Effect,O que você irá fazer, Koenma?
+Dialogue: Marked=0,0:21:48.94,0:21:52.18,Conversa,NTP,0000,0000,0000,!Effect,Esse Sensui é uma pessoa completamente\Ndiferente daquele que você conhece!
+Dialogue: Marked=0,0:21:52.58,0:21:54.64,Conversa,NTP,0000,0000,0000,!Effect,É uma personalidade totalmente\Ndiferente que ele criou!
+Dialogue: Marked=0,0:21:55.42,0:21:57.81,Conversa,NTP,0000,0000,0000,!Effect,Esse não é o tipo de situação...
+Dialogue: Marked=0,0:21:57.81,0:22:00.12,Conversa,NTP,0000,0000,0000,!Effect,de que você pode se\Nlibertar e resolver tudo!
+Dialogue: Marked=0,0:22:00.12,0:22:04.90,Conversa,NTP,0000,0000,0000,!Effect,Merda, não há nada que\Npossamos fazer para pará-lo?!
+Dialogue: Marked=0,0:22:05.61,0:22:09.56,Conversa,NTP,0000,0000,0000,!Effect,Próximo Episódio:\N"Koenma, Poder máximo com Mafukan"
+Dialogue: Marked=0,0:22:09.56,0:22:11.43,Conversa,NTP,0000,0000,0000,!Effect,O outro mundo não está assistindo à toa!

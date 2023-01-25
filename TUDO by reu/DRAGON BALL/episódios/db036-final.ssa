@@ -1,0 +1,200 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,20,0,0
+Style: apresDB3,Tahoma,50,14542303,255,4194368,0,-1,0,1,0,1,1,0,0,50,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,0,1,2,0,5,0,30,0,0,0
+Style: kintoun,Arial Black,36,11829806,11829806,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: apresenta,Arial Black,29,1648053,926093,0,0,0,0,1,1,0,2,20,20,30,0,0
+Style: kintoun 2,Arial Black,36,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: apresenta 2,Arial Black,29,0,0,0,0,0,0,1,0,0,2,20,20,30,0,0
+Style: PLACA,TimeScrDMed,36,1907885,8454143,3815994,0,1,0,0,0,0,0,-10000,-10000,25,0,0
+Style: PLACA1,FormalScrp421 BT,36,-2147483640,8454143,3815994,3815994,1,0,1,0,0,2,-10000,-10000,25,0,0
+Style: PLACA2,FormalScrp421 BT,36,1907885,8454143,3815994,3815994,1,0,1,0,2,2,-10000,-10000,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:50.48,0:13:00.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:02:11.20,0:02:15.11,Narrador,NTP,0000,0000,0000,!Effect,Na perseguição pela Dragon Ball de duas estrelas,
+Dialogue: Marked=0,0:02:15.11,0:02:17.59,Narrador,NTP,0000,0000,0000,!Effect,Goku chegou a um vilarejo no norte.
+Dialogue: Marked=0,0:02:18.12,0:02:23.31,Narrador,NTP,0000,0000,0000,!Effect,De qualquer maneira, a perversa mão\Nda Red Ribbon chega facilmente até ali.
+Dialogue: Marked=0,0:02:23.99,0:02:25.49,*Default,NTP,0000,0000,0000,!Effect,Eu não me importo se você matá-lo!
+Dialogue: Marked=0,0:02:25.49,0:02:28.81,*Default,NTP,0000,0000,0000,!Effect,Apenas pegue sua Dragon\NBall e seu radar! Entendeu?!
+Dialogue: Marked=0,0:02:45.64,0:02:49.76,Narrador,NTP,0000,0000,0000,!Effect,Goku, que foi resgatado por uma\Ngarota antes de congelar até a morte,
+Dialogue: Marked=0,0:02:49.76,0:02:52.08,Narrador,NTP,0000,0000,0000,!Effect,vai resgatar o chefe do vilarejo,
+Dialogue: Marked=0,0:02:52.08,0:02:55.89,Narrador,NTP,0000,0000,0000,!Effect,que foi capturado pelo exército\NRed Ribbon, para retribuir o favor.
+Dialogue: Marked=0,0:02:59.72,0:03:01.80,*Default,NTP,0000,0000,0000,!Effect,Mamãe! Ele está acordado!
+Dialogue: Marked=0,0:03:03.19,0:03:04.58,*Default,NTP,0000,0000,0000,!Effect,Eu não estou com tanto frio!
+Dialogue: Marked=0,0:03:04.58,0:03:08.25,*Default,NTP,0000,0000,0000,!Effect,Por favor, vá por mim.\NNão seja descuidado.
+Dialogue: Marked=0,0:03:09.28,0:03:11.81,*Default,NTP,0000,0000,0000,!Effect,Não se preocupe! Deixa comigo!
+Dialogue: Marked=0,0:03:18.13,0:03:21.06,*Default,NTP,0000,0000,0000,!Effect,Ele realmente é entranho, não é, mamãe?
+Dialogue: Marked=0,0:03:22.18,0:03:24.08,*Default,NTP,0000,0000,0000,!Effect,Mas eu não quero que ele morra...
+Dialogue: Marked=0,0:03:24.08,0:03:25.99,*Default,NTP,0000,0000,0000,!Effect,Ele é um bom garoto.
+Dialogue: Marked=0,0:03:30.90,0:03:35.97,Narrador,NTP,0000,0000,0000,!Effect,O local em que o General White\Nestá esperando é a Muscle Tower.
+Dialogue: Marked=0,0:03:44.80,0:03:46.99,*Default,NTP,0000,0000,0000,!Effect,Cresça, Nyoibou!
+Dialogue: Marked=0,0:04:00.12,0:04:03.41,*Default,NTP,0000,0000,0000,!Effect,Será que ele consegue chegar ao topo desta torre?
+
+Dialogue: Marked=0,0:04:08.62,0:04:16.39,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(300,0)}{\pos(280,60)}{\fscx100\fscy100}Episódio 36
+Dialogue: Marked=0,0:04:08.62,0:04:16.39,apresDB3,NTP,0000,0000,0000,!Effect,{\fad(300,0)}{\pos(100,400)}{\fscx110\fscy100}O terror da Muscle Tower
+
+Dialogue: Marked=0,0:04:27.27,0:04:29.43,*Default,NTP,0000,0000,0000,!Effect,Entre ou você vai pegar um resfriado.
+Dialogue: Marked=0,0:04:30.25,0:04:32.60,*Default,NTP,0000,0000,0000,!Effect,Será que o Goku está bem?
+Dialogue: Marked=0,0:04:54.38,0:04:57.20,*Default,NTP,0000,0000,0000,!Effect,Eu me pergunto onde o Chefe do Vilarejo está sendo aprisionado...
+Dialogue: Marked=0,0:04:57.50,0:04:59.04,Radio,NTP,0000,0000,0000,!Effect,Pode me ouvir, pirralho?
+Dialogue: Marked=0,0:05:00.25,0:05:02.71,Radio,NTP,0000,0000,0000,!Effect,Bem-vindo à Muscle Tower!
+Dialogue: Marked=0,0:05:07.52,0:05:09.26,*Default,NTP,0000,0000,0000,!Effect,De onde você está falando?!
+Dialogue: Marked=0,0:05:09.78,0:05:13.27,*Default,NTP,0000,0000,0000,!Effect,A propósito, garoto, o que\Nvocê veio fazer nesta torre?
+Dialogue: Marked=0,0:05:14.77,0:05:16.52,*Default,NTP,0000,0000,0000,!Effect,Vim salvar o Chefe do Vilarejo!
+Dialogue: Marked=0,0:05:17.37,0:05:18.48,*Default,NTP,0000,0000,0000,!Effect,Chefe do Vilarejo?
+Dialogue: Marked=0,0:05:18.48,0:05:22.53,*Default,NTP,0000,0000,0000,!Effect,Entendi! Então, alguém do\Nvilarejo pediu para você vir aqui.
+Dialogue: Marked=0,0:05:23.07,0:05:27.61,Radio,NTP,0000,0000,0000,!Effect,Tudo bem! Entre por essa porta e venha até aqui usando as escadas!
+Dialogue: Marked=0,0:05:27.61,0:05:30.29,Radio,NTP,0000,0000,0000,!Effect,O Chefe do Vilarejo está no último andar!
+Dialogue: Marked=0,0:05:32.08,0:05:35.46,*Default,NTP,0000,0000,0000,!Effect,Então, você acha que pode chegar até aqui?
+Dialogue: Marked=0,0:05:37.69,0:05:39.79,*Default,NTP,0000,0000,0000,!Effect,Tudo bem! Eu vou te mostrar!
+Dialogue: Marked=0,0:05:45.90,0:05:46.58,*Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:05:48.84,0:05:50.68,*Default,NTP,0000,0000,0000,!Effect,Não era o que eu estava esperando...
+Dialogue: Marked=0,0:05:50.68,0:05:52.14,*Default,NTP,0000,0000,0000,!Effect,É apenas um moleque.
+Dialogue: Marked=0,0:05:53.50,0:05:54.47,*Default,NTP,0000,0000,0000,!Effect,Como você ousa nos assustar!
+Dialogue: Marked=0,0:05:56.11,0:05:58.48,*Default,NTP,0000,0000,0000,!Effect,Ei, garoto, você foi muito\Nbem para conseguir entrar!
+Dialogue: Marked=0,0:05:59.65,0:06:03.19,*Default,NTP,0000,0000,0000,!Effect,General White!\NO senhor se importa se nós o matarmos?
+Dialogue: Marked=0,0:06:03.19,0:06:05.20,Radio,NTP,0000,0000,0000,!Effect,Façam como quiser!
+Dialogue: Marked=0,0:06:08.41,0:06:08.66,*Default,NTP,0000,0000,0000,!Effect,Quem é?
+Dialogue: Marked=0,0:06:09.53,0:06:11.35,*Default,NTP,0000,0000,0000,!Effect,É o Primeiro Sargento Murasaki.
+Dialogue: Marked=0,0:06:11.35,0:06:11.66,*Default,NTP,0000,0000,0000,!Effect,Entre!
+Dialogue: Marked=0,0:06:18.89,0:06:19.88,*Default,NTP,0000,0000,0000,!Effect,Veja isso.
+Dialogue: Marked=0,0:06:21.77,0:06:23.05,Radio,NTP,0000,0000,0000,!Effect,Não mate ele imediatamente.
+Dialogue: Marked=0,0:06:23.05,0:06:25.09,Radio,NTP,0000,0000,0000,!Effect,Vamos nos divertir um pouco, também!
+Dialogue: Marked=0,0:06:26.56,0:06:32.12,*Default,NTP,0000,0000,0000,!Effect,Derrotar esse garoto vai ser tão\Nfácil como tomar doce de criança.
+Dialogue: Marked=0,0:06:32.12,0:06:33.85,*Default,NTP,0000,0000,0000,!Effect,Mas, eu deixarei você se divertir um pouco.
+Dialogue: Marked=0,0:06:50.43,0:06:51.16,*Default,NTP,0000,0000,0000,!Effect,Ei, você!
+Dialogue: Marked=0,0:06:53.62,0:06:55.28,*Default,NTP,0000,0000,0000,!Effect,Seu moleque!
+Dialogue: Marked=0,0:06:55.28,0:06:56.87,*Default,NTP,0000,0000,0000,!Effect,Eu vou te matar!
+Dialogue: Marked=0,0:07:00.04,0:07:01.71,*Default,NTP,0000,0000,0000,!Effect,Atacar!
+Dialogue: Marked=0,0:07:22.94,0:07:24.11,*Default,NTP,0000,0000,0000,!Effect,Desgraçado!
+Dialogue: Marked=0,0:07:25.67,0:07:27.57,*Default,NTP,0000,0000,0000,!Effect,O quê?! Eu não atingi você?!
+Dialogue: Marked=0,0:07:27.93,0:07:30.15,*Default,NTP,0000,0000,0000,!Effect,Ahn?! P-Para onde ele foi?!
+Dialogue: Marked=0,0:07:30.97,0:07:32.10,*Default,NTP,0000,0000,0000,!Effect,Atrás de você!
+Dialogue: Marked=0,0:07:46.88,0:07:49.84,*Default,NTP,0000,0000,0000,!Effect,Estas roupas estão esquentando demais...
+Dialogue: Marked=0,0:07:50.69,0:07:51.34,*Default,NTP,0000,0000,0000,!Effect,Certo.
+Dialogue: Marked=0,0:07:52.20,0:07:53.34,*Default,NTP,0000,0000,0000,!Effect,Eu vou tirá-las.
+Dialogue: Marked=0,0:07:54.90,0:07:56.19,*Default,NTP,0000,0000,0000,!Effect,Técnica de criar clones.
+Dialogue: Marked=0,0:07:57.15,0:08:00.24,*Default,NTP,0000,0000,0000,!Effect,Julgando por esse movimento, esse garoto não é normal.
+Dialogue: Marked=0,0:08:00.24,0:08:03.94,*Default,NTP,0000,0000,0000,!Effect,Parece que o boato sobre ele ter derrotado o Silver é verdadeiro.
+Dialogue: Marked=0,0:08:04.30,0:08:05.33,*Default,NTP,0000,0000,0000,!Effect,O Silver?
+Dialogue: Marked=0,0:08:06.57,0:08:09.02,*Default,NTP,0000,0000,0000,!Effect,Você acha que ele pode chegar até aqui?
+Dialogue: Marked=0,0:08:09.02,0:08:11.28,*Default,NTP,0000,0000,0000,!Effect,Isso está fora de cogitação.
+Dialogue: Marked=0,0:08:12.25,0:08:16.24,*Default,NTP,0000,0000,0000,!Effect,Daqueles que conseguiram chegar até o 3º andar,\Nnenhum conseguiu derrotar o Sargento Metallic.
+Dialogue: Marked=0,0:08:16.24,0:08:18.69,*Default,NTP,0000,0000,0000,!Effect,E, se por algum motivo, ele derrotá-lo,
+Dialogue: Marked=0,0:08:18.69,0:08:20.39,*Default,NTP,0000,0000,0000,!Effect,eu o estarei esperando no 4º andar!
+Dialogue: Marked=0,0:08:21.85,0:08:27.15,*Default,NTP,0000,0000,0000,!Effect,Isso é ruim. Eu estava esperando que pudesse dar ao meu pelotão um bom aquecimento.
+Dialogue: Marked=0,0:08:28.72,0:08:32.61,Radio,NTP,0000,0000,0000,!Effect,Sargento Metallic, o garoto está\Nsubindo enquanto nós conversamos.
+Dialogue: Marked=0,0:08:32.61,0:08:34.27,Radio,NTP,0000,0000,0000,!Effect,Pegue leve com ele, certo?
+Dialogue: Marked=0,0:08:37.05,0:08:38.68,*Default,NTP,0000,0000,0000,!Effect,Pronto! Agora eu me sinto melhor!
+Dialogue: Marked=0,0:08:38.82,0:08:40.22,*Default,NTP,0000,0000,0000,!Effect,Aqui vou eu!
+Dialogue: Marked=0,0:08:47.02,0:08:48.61,*Default,NTP,0000,0000,0000,!Effect,Bem-vindo!
+Dialogue: Marked=0,0:09:03.05,0:09:04.46,*Default,NTP,0000,0000,0000,!Effect,Você é enorme!
+Dialogue: Marked=0,0:09:04.46,0:09:09.21,*Default,NTP,0000,0000,0000,!Effect,Você não pode continuar\Nsubindo se não me derrotar.
+Dialogue: Marked=0,0:09:09.88,0:09:11.22,*Default,NTP,0000,0000,0000,!Effect,Você vai lutar contra mim?
+Dialogue: Marked=0,0:09:14.87,0:09:17.83,*Default,NTP,0000,0000,0000,!Effect,Em quanto tempo você acha que o Metallic cuidará dele?
+Dialogue: Marked=0,0:09:17.83,0:09:21.77,*Default,NTP,0000,0000,0000,!Effect,Hmm. Um minuto é mais do que o suficiente.
+Dialogue: Marked=0,0:09:26.30,0:09:27.27,*Default,NTP,0000,0000,0000,!Effect,Morra!
+Dialogue: Marked=0,0:09:35.72,0:09:37.95,*Default,NTP,0000,0000,0000,!Effect,Para onde ele foi? Ele sumiu.
+Dialogue: Marked=0,0:10:06.99,0:10:10.06,*Default,NTP,0000,0000,0000,!Effect,Chefe do Vilarejo!\NEstou indo te salvar! Espere um pouco!
+Dialogue: Marked=0,0:10:11.99,0:10:13.61,*Default,NTP,0000,0000,0000,!Effect,Lute!
+Dialogue: Marked=0,0:10:18.68,0:10:20.74,*Default,NTP,0000,0000,0000,!Effect,Eu acabarei com você!
+Dialogue: Marked=0,0:10:39.89,0:10:41.43,*Default,NTP,0000,0000,0000,!Effect,Certo, está tudo acabado agora!
+Dialogue: Marked=0,0:10:55.62,0:10:56.15,*Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:10:56.69,0:10:57.49,*Default,NTP,0000,0000,0000,!Effect,Não é possível!
+Dialogue: Marked=0,0:11:08.59,0:11:11.21,*Default,NTP,0000,0000,0000,!Effect,Certo! Desta vez, eu vou com tudo!
+
+Dialogue: Marked=0,0:11:55.42,0:11:58.51,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(676,578)}KINTOUN
+Dialogue: Marked=0,0:11:55.42,0:11:58.51,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(680,581)}KINTOUN
+Dialogue: Marked=0,0:11:55.42,0:11:58.51,apresenta 2,,0000,0000,0000,,{\pos(685,597)\fscx100\fscy140}irc.rizon.net
+Dialogue: Marked=0,0:11:55.42,0:11:58.51,apresenta,,0000,0000,0000,,{\pos(689,601)\fscx100\fscy140}irc.rizon.net
+
+Dialogue: Marked=0,0:12:00.59,0:12:03.02,kintoun 2,,0000,0000,0000,,{\fscx100\fscy140\pos(610,578)}KINTOUN
+Dialogue: Marked=0,0:12:00.59,0:12:03.02,kintoun,,0000,0000,0000,,{\fscx100\fscy140\pos(614,581)}KINTOUN
+Dialogue: Marked=0,0:12:00.59,0:12:03.02,apresenta 2,,0000,0000,0000,,{\pos(655,597)\fscx100\fscy140}kintoun.animirc.net
+Dialogue: Marked=0,0:12:00.59,0:12:03.02,apresenta,,0000,0000,0000,,{\pos(659,601)\fscx100\fscy140}kintoun.animirc.net
+
+Dialogue: Marked=0,0:12:31.19,0:12:35.96,*Default,NTP,0000,0000,0000,!Effect,I-Incrível! Ele leva a maior parte dos\Nmeus ataques mas não hesita nem um pouco!
+Dialogue: Marked=0,0:13:06.10,0:13:07.78,*Default,NTP,0000,0000,0000,!Effect,Parece que a luta foi decidida!
+Dialogue: Marked=0,0:13:08.09,0:13:13.04,*Default,NTP,0000,0000,0000,!Effect,Quase 2 minutos. Parece que o Sargento\NMetallic teve um pouco de problema.
+Dialogue: Marked=0,0:13:19.93,0:13:22.26,*Default,NTP,0000,0000,0000,!Effect,Fim da linha!
+Dialogue: Marked=0,0:13:40.01,0:13:44.07,*Default,NTP,0000,0000,0000,!Effect,Ai, ai, ai! Que rosto duro!
+Dialogue: Marked=0,0:13:46.77,0:13:48.87,*Default,NTP,0000,0000,0000,!Effect,Aquele pirralho é tão forte assim?
+Dialogue: Marked=0,0:13:50.57,0:13:54.87,*Default,NTP,0000,0000,0000,!Effect,Mas, agora parece que ele\Ndeixou o Sargento Metallic mais furioso...
+Dialogue: Marked=0,0:14:04.56,0:14:05.51,*Default,NTP,0000,0000,0000,!Effect,De novo?!
+Dialogue: Marked=0,0:14:09.33,0:14:10.51,*Default,NTP,0000,0000,0000,!Effect,Eu vou te matar!
+Dialogue: Marked=0,0:14:11.46,0:14:14.52,*Default,NTP,0000,0000,0000,!Effect,Você deveria ter entrado no Tenkaichi Budoukai!
+Dialogue: Marked=0,0:15:01.99,0:15:03.40,*Default,NTP,0000,0000,0000,!Effect,Agora eu te peguei, pirralho!
+Dialogue: Marked=0,0:15:09.49,0:15:11.24,*Default,NTP,0000,0000,0000,!Effect,Ele o fez em pedacinhos!
+Dialogue: Marked=0,0:15:11.84,0:15:17.53,*Default,NTP,0000,0000,0000,!Effect,Mas, que força incrível!\NEu tenho sorte de não ter que lutar contra ele.
+Dialogue: Marked=0,0:15:18.76,0:15:22.25,*Default,NTP,0000,0000,0000,!Effect,Essa foi a primeira vez que\Nele teve de lutar pra valer!
+Dialogue: Marked=0,0:15:24.10,0:15:25.47,*Default,NTP,0000,0000,0000,!Effect,Essa foi por pouco!
+Dialogue: Marked=0,0:15:25.47,0:15:28.74,*Default,NTP,0000,0000,0000,!Effect,Paz! Paz!
+Dialogue: Marked=0,0:15:29.76,0:15:31.26,*Default,NTP,0000,0000,0000,!Effect,Paz!
+Dialogue: Marked=0,0:15:31.75,0:15:33.77,*Default,NTP,0000,0000,0000,!Effect,Que movimento foi aquele?
+Dialogue: Marked=0,0:15:34.82,0:15:36.64,*Default,NTP,0000,0000,0000,!Effect,Eu nunca vi nada como aquilo...
+Dialogue: Marked=0,0:15:38.62,0:15:41.39,*Default,NTP,0000,0000,0000,!Effect,Atirando da sua boca\Nalgo parecido com o Kamehameha...
+Dialogue: Marked=0,0:15:42.05,0:15:45.86,*Default,NTP,0000,0000,0000,!Effect,Certo! Se ele vai usar um Kamehameha,\Nentão eu também usarei!
+Dialogue: Marked=0,0:15:53.29,0:15:55.45,*Default,NTP,0000,0000,0000,!Effect,Estou vivo!
+Dialogue: Marked=0,0:15:56.22,0:15:57.20,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:15:57.20,0:15:58.79,*Default,NTP,0000,0000,0000,!Effect,Impossível! Ele se esquivou?!
+Dialogue: Marked=0,0:16:01.96,0:16:06.00,*Default,NTP,0000,0000,0000,!Effect,É hora do troco!\NSinta um pouco do meu Kamehameha!
+Dialogue: Marked=0,0:16:06.00,0:16:09.05,Poder,NTP,0000,0000,0000,!Effect,KAME
+Dialogue: Marked=0,0:16:09.52,0:16:10.55,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:16:12.86,0:16:13.68,Poder,NTP,0000,0000,0000,!Effect,ME
+Dialogue: Marked=0,0:16:15.80,0:16:17.01,Poder,NTP,0000,0000,0000,!Effect,HA!
+Dialogue: Marked=0,0:16:34.53,0:16:38.41,*Default,NTP,0000,0000,0000,!Effect,O rosto dele sumiu!\NEu fiz algo de ruim?
+Dialogue: Marked=0,0:16:42.42,0:16:43.94,*Default,NTP,0000,0000,0000,!Effect,Q-Que técnica foi aquela?
+Dialogue: Marked=0,0:16:49.87,0:16:51.42,N!,NTP,0000,0000,0000,!Effect,{\fad(300,300)}Mantra Budista
+Dialogue: Marked=0,0:16:49.87,0:16:51.42,*Default,NTP,0000,0000,0000,!Effect,Nanmandabu Nanmandabu...
+Dialogue: Marked=0,0:16:55.73,0:16:57.85,*Default,NTP,0000,0000,0000,!Effect,E-Eu podia jurar que a mão dele se moveu...
+Dialogue: Marked=0,0:17:20.71,0:17:21.75,*Default,NTP,0000,0000,0000,!Effect,Agora está decidido.
+Dialogue: Marked=0,0:17:21.75,0:17:22.58,*Default,NTP,0000,0000,0000,!Effect,No entanto, ele...
+Dialogue: Marked=0,0:17:34.69,0:17:36.05,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:17:36.45,0:17:38.64,*Default,NTP,0000,0000,0000,!Effect,Eu vou te matar!
+Dialogue: Marked=0,0:17:44.42,0:17:46.14,*Default,NTP,0000,0000,0000,!Effect,O-O que está acontecendo com essa coisa?!
+Dialogue: Marked=0,0:17:48.20,0:17:53.15,*Default,NTP,0000,0000,0000,!Effect,O Sargento Metallic é um robô!\NCerto, mate-o! Elimine-o!
+Dialogue: Marked=0,0:18:13.39,0:18:14.26,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:19:50.18,0:19:50.77,*Default,NTP,0000,0000,0000,!Effect,Ai!
+Dialogue: Marked=0,0:19:51.98,0:19:53.27,*Default,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:19:56.28,0:19:59.32,*Default,NTP,0000,0000,0000,!Effect,Agora eu vou bater em\Nvocê o mais forte que puder!
+Dialogue: Marked=0,0:20:19.34,0:20:23.05,*Default,NTP,0000,0000,0000,!Effect,Tudo bem!\NVou te mostrar minha força reserva!
+Dialogue: Marked=0,0:20:27.34,0:20:29.47,Poder,NTP,0000,0000,0000,!Effect,KAME
+Dialogue: Marked=0,0:20:31.31,0:20:32.48,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:20:34.28,0:20:35.53,Poder,NTP,0000,0000,0000,!Effect,ME...
+Dialogue: Marked=0,0:20:57.50,0:20:59.23,*Default,NTP,0000,0000,0000,!Effect,Ahn?\NEle parou de se mover...
+Dialogue: Marked=0,0:21:04.19,0:21:06.59,*Default,NTP,0000,0000,0000,!Effect,O que diabos está acontecendo?!
+Dialogue: Marked=0,0:21:06.59,0:21:09.26,*Default,NTP,0000,0000,0000,!Effect,Parece que sua bateria acabou.
+Dialogue: Marked=0,0:21:10.13,0:21:11.43,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:21:12.02,0:21:15.44,*Default,NTP,0000,0000,0000,!Effect,Nós não a trocamos\Ndesde a primavera passada...
+Dialogue: Marked=0,0:21:16.56,0:21:19.43,*Default,NTP,0000,0000,0000,!Effect,Existem pessoas estranhas e\Nincríveis neste mundo, com certeza!
+Dialogue: Marked=0,0:21:25.93,0:21:28.24,*Default,NTP,0000,0000,0000,!Effect,Esse garoto não é uma criança normal.
+Dialogue: Marked=0,0:21:29.18,0:21:32.29,*Default,NTP,0000,0000,0000,!Effect,O que você está fazendo?! Apresse-se e defenda o 4º andar imediatamente!
+Dialogue: Marked=0,0:21:32.42,0:21:33.32,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:21:42.17,0:21:45.93,Narrador,NTP,0000,0000,0000,!Effect,Parece que Goku conseguiu\Npassar pelos 2º e 3º andares.
+Dialogue: Marked=0,0:21:47.34,0:21:48.78,Narrador,NTP,0000,0000,0000,!Effect,De qualquer maneira...
+Dialogue: Marked=0,0:21:48.78,0:21:52.43,Narrador,NTP,0000,0000,0000,!Effect,O 4º andar parece ser muito mais difícil!

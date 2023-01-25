@@ -1,0 +1,183 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:03:00.48,0:03:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:00:02.81,0:00:06.43,Narrador,NTP,0000,0000,0000,!Effect,A nave de Goku se apressa em direção a Namek.
+Dialogue: Marked=0,0:00:10.72,0:00:14.80,Narrador,NTP,0000,0000,0000,!Effect,Piccolo, Tenshinhan e os outros\Ncomeçam o treinamento com Kaio-sama.
+Dialogue: Marked=0,0:00:27.47,0:00:31.67,Narrador,NTP,0000,0000,0000,!Effect,Kuririn e Dende correm para\Nver o Grande Patriarca.
+Dialogue: Marked=0,0:00:32.64,0:00:35.61,Narrador,NTP,0000,0000,0000,!Effect,Enquanto isso, Vegeta é consumido por...
+Dialogue: Marked=0,0:00:35.61,0:00:40.44,Narrador,NTP,0000,0000,0000,!Effect,sua cruel ambição, e tem uma batalha fatal contra o malvado Zarbon.
+Dialogue: Marked=0,0:00:41.35,0:00:43.62,*Default,NTP,0000,0000,0000,!Effect,Eu não posso acreditar que você não agüenta nem isso.
+Dialogue: Marked=0,0:00:44.10,0:00:46.63,*Default,NTP,0000,0000,0000,!Effect,Estou surpreso.\NVocê realmente melhorou bastante.
+Dialogue: Marked=0,0:00:47.66,0:00:51.63,*Default,NTP,0000,0000,0000,!Effect,Mas, por disso, você despertou minha\Nforça interior que estava adormecida há anos.
+
+Dialogue: Marked=0,0:00:57.18,0:01:05.10,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,80)}{\fad(300,0)}{\fscx100\fscy100}Episódio 53
+Dialogue: Marked=0,0:00:57.18,0:01:05.10,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(290,200)}{\fad(300,0)}{\fscx110\fscy120}Realmente assustador!
+Dialogue: Marked=0,0:00:57.18,0:01:05.10,apresDBZ2,,0000,0000,0000,Karaoke,{\pos(400,460)}{\fad(300,0)}{\fscx75\fscy105}A demoníaca transformação do demoníaco guerreiro Zarbon
+
+Dialogue: Marked=0,0:01:28.53,0:01:35.84,*Default,NTP,0000,0000,0000,!Effect,O quê? Eu despertei uma força interior\Nque estava adormecida em você?
+Dialogue: Marked=0,0:01:39.69,0:01:41.01,*Default,NTP,0000,0000,0000,!Effect,Isso mesmo.
+Dialogue: Marked=0,0:01:45.85,0:01:48.44,*Default,NTP,0000,0000,0000,!Effect,Que brincadeira engraçada!
+Dialogue: Marked=0,0:01:48.92,0:01:52.09,*Default,NTP,0000,0000,0000,!Effect,Já que você vai morrer de qualquer jeito,
+Dialogue: Marked=0,0:01:52.09,0:01:53.94,*Default,NTP,0000,0000,0000,!Effect,vou te contar por que eu deixei tal\Nforça adormecida ao invés de usá-la.
+Dialogue: Marked=0,0:01:56.96,0:02:04.08,*Default,NTP,0000,0000,0000,!Effect,Para despertá-la, eu preciso me transformar.\NMas, o ser em que eu me transformo é feio.
+Dialogue: Marked=0,0:02:04.65,0:02:11.84,*Default,NTP,0000,0000,0000,!Effect,Eu prefiro beleza, então eu não a uso.\NMas, para não morrer, escolho me transformar.
+Dialogue: Marked=0,0:02:12.36,0:02:13.97,*Default,NTP,0000,0000,0000,!Effect,Transformar?
+Dialogue: Marked=0,0:02:13.97,0:02:15.90,*Default,NTP,0000,0000,0000,!Effect,Assim como nós, Saiya-jins?
+Dialogue: Marked=0,0:02:17.57,0:02:21.72,*Default,NTP,0000,0000,0000,!Effect,Homens desesperados dizem coisas\Nestúpidas quando estão com dor...
+Dialogue: Marked=0,0:02:23.21,0:02:26.46,*Default,NTP,0000,0000,0000,!Effect,Nós não ficamos inutilmente\Ngigantescos como os Saiya-jins.
+Dialogue: Marked=0,0:02:26.46,0:02:28.54,*Default,NTP,0000,0000,0000,!Effect,Somente nosso poder é intensificado.
+Dialogue: Marked=0,0:02:31.86,0:02:33.27,*Default,NTP,0000,0000,0000,!Effect,É incrível!
+Dialogue: Marked=0,0:02:43.77,0:02:45.16,*Default,NTP,0000,0000,0000,!Effect,Mostre para mim!
+Dialogue: Marked=0,0:02:47.07,0:02:48.64,*Default,NTP,0000,0000,0000,!Effect,Você não precisa me dizer.
+Dialogue: Marked=0,0:02:49.54,0:02:53.38,*Default,NTP,0000,0000,0000,!Effect,Eu vou mostrar agora mesmo.
+Dialogue: Marked=0,0:02:59.17,0:03:00.43,*Default,NTP,0000,0000,0000,!Effect,O-O quê?!
+Dialogue: Marked=0,0:03:05.20,0:03:07.61,*Default,NTP,0000,0000,0000,!Effect,Minha forma não é a única\Ncoisa que se transformou!
+Dialogue: Marked=0,0:03:07.61,0:03:11.02,*Default,NTP,0000,0000,0000,!Effect,Não fique paralisado com o meu poder!
+Dialogue: Marked=0,0:03:33.39,0:03:36.93,*Default,NTP,0000,0000,0000,!Effect,Dende, já estamos perto\Nda casa do Grande Patriarca?
+Dialogue: Marked=0,0:03:36.93,0:03:38.17,*Default,NTP,0000,0000,0000,!Effect,Só mais um pouco.
+Dialogue: Marked=0,0:03:38.53,0:03:41.99,*Default,NTP,0000,0000,0000,!Effect,Nós temos de fazer alguma coisa\Nenquanto o Vegeta ainda está lutando!
+Dialogue: Marked=0,0:03:46.32,0:03:55.44,*Default,NTP,0000,0000,0000,!Effect,Parece que já passou um tempo desde que\Nsaímos, mas não parece que o sol vai ser pôr.
+Dialogue: Marked=0,0:03:55.44,0:03:56.27,*Default,NTP,0000,0000,0000,!Effect,Por quê?
+Dialogue: Marked=0,0:03:56.71,0:03:57.73,*Default,NTP,0000,0000,0000,!Effect,Nunca se põe.
+Dialogue: Marked=0,0:03:59.94,0:04:03.95,*Default,NTP,0000,0000,0000,!Effect,Nós temos três sóis que\Naparecem um depois do outro.
+Dialogue: Marked=0,0:04:12.16,0:04:16.00,*Default,NTP,0000,0000,0000,!Effect,Então, este planeta não tem noite?
+Dialogue: Marked=0,0:04:16.00,0:04:17.13,*Default,NTP,0000,0000,0000,!Effect,Não, nós não temos.
+Dialogue: Marked=0,0:04:20.24,0:04:21.80,*Default,NTP,0000,0000,0000,!Effect,Eu acho que isso não importa.
+Dialogue: Marked=0,0:04:36.91,0:04:37.81,P!,NTP,0000,0000,0000,!Effect,Droga!
+Dialogue: Marked=0,0:06:07.70,0:06:09.13,*Default,NTP,0000,0000,0000,!Effect,Cheguei ao meu limite.
+Dialogue: Marked=0,0:06:09.13,0:06:10.74,*Default,NTP,0000,0000,0000,!Effect,Preciso descansar um pouco.
+Dialogue: Marked=0,0:06:17.92,0:06:24.39,*Default,NTP,0000,0000,0000,!Effect,Mas eu superei a gravidade aumentada\Nem 50 vezes mais rápido que o esperado.
+Dialogue: Marked=0,0:06:27.23,0:06:32.30,*Default,NTP,0000,0000,0000,!Effect,Parece que minha luta com\NVegeta não foi um desperdício total.
+Dialogue: Marked=0,0:06:38.57,0:06:43.82,*Default,NTP,0000,0000,0000,!Effect,Como será que Tenshinhan e os outros\Nestão treinando com Kaio-sama agora?
+Dialogue: Marked=0,0:06:59.39,0:07:01.18,L!,NTP,0000,0000,0000,!Effect,Ouça, Goku.
+Dialogue: Marked=0,0:07:01.18,0:07:03.09,L!,NTP,0000,0000,0000,!Effect,Esta é uma ordem de Kaio.
+Dialogue: Marked=0,0:07:03.77,0:07:06.27,L!,NTP,0000,0000,0000,!Effect,Não chegue perto dele.
+Dialogue: Marked=0,0:07:06.27,0:07:09.10,L!,NTP,0000,0000,0000,!Effect,Eu não estou dizendo\Nisso apenas para o seu bem.
+Dialogue: Marked=0,0:07:09.10,0:07:13.64,L!,NTP,0000,0000,0000,!Effect,Eu estou dizendo para o bem de Namek,\Nda Terra e de todos os outros planetas.
+Dialogue: Marked=0,0:07:14.35,0:07:18.74,L!,NTP,0000,0000,0000,!Effect,Se você atacá-lo com poder inadequado e o enfurecer,
+Dialogue: Marked=0,0:07:18.74,0:07:21.06,L!,NTP,0000,0000,0000,!Effect,desastres inacreditáveis cairão sobre todos!
+Dialogue: Marked=0,0:07:21.20,0:07:25.02,L!,NTP,0000,0000,0000,!Effect,Ele é o único de que você não deve se aproximar.
+Dialogue: Marked=0,0:07:31.02,0:07:33.36,*Default,NTP,0000,0000,0000,!Effect,Eu não posso descansar!
+Dialogue: Marked=0,0:07:33.36,0:07:34.78,*Default,NTP,0000,0000,0000,!Effect,Tudo bem!
+Dialogue: Marked=0,0:08:04.76,0:08:06.77,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:08:25.78,0:08:27.00,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:08:56.48,0:08:58.24,*Default,NTP,0000,0000,0000,!Effect,Espere, espere!
+Dialogue: Marked=0,0:08:58.35,0:08:59.66,*Default,NTP,0000,0000,0000,!Effect,Espere!
+Dialogue: Marked=0,0:09:09.02,0:09:11.76,*Default,NTP,0000,0000,0000,!Effect,Boa pegada!
+Dialogue: Marked=0,0:09:11.76,0:09:14.58,*Default,NTP,0000,0000,0000,!Effect,Essa foi boa!
+Dialogue: Marked=0,0:09:28.78,0:09:30.64,*Default,NTP,0000,0000,0000,!Effect,Droga, eu não posso perder!
+
+Dialogue: Marked=0,0:09:48.04,0:09:52.25,comercial3,,0000,0000,0000,,{\fscx55\fscy45\pos(195,340)\t(9110,0)}irc.rizon.net
+Dialogue: Marked=0,0:09:48.04,0:09:52.25,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(150,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:09:48.04,0:09:52.25,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(272,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:09:48.04,0:09:52.25,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(222,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:09:55.21,0:09:57.43,comercial3,,0000,0000,0000,,{\fscx36\fscy45\pos(555,340)\t(9110,0)}kintoun.animirc.net
+Dialogue: Marked=0,0:09:55.21,0:09:57.43,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(510,290)\t(9110,0)}KINT
+Dialogue: Marked=0,0:09:55.21,0:09:57.43,comercial2,,0000,0000,0000,,{\fscx100\fscy80\pos(632,290)\t(9110,0)}UN
+Dialogue: Marked=0,0:09:55.21,0:09:57.43,comercial4,,0000,0000,0000,,{\fscx75\fscy75\pos(582,307)\t(9110,0)}O
+
+Dialogue: Marked=0,0:10:25.37,0:10:28.62,*Default,NTP,0000,0000,0000,!Effect,Você não pode me derrotar,\Nnão importa o quão forte tenha ficado!
+Dialogue: Marked=0,0:10:46.03,0:10:47.01,*Default,NTP,0000,0000,0000,!Effect,Incrível!
+Dialogue: Marked=0,0:10:47.01,0:10:50.16,*Default,NTP,0000,0000,0000,!Effect,Mesmo dessa distância,\Neu posso sentir a luta deles!
+Dialogue: Marked=0,0:11:13.49,0:11:17.13,*Default,NTP,0000,0000,0000,!Effect,Meu poder não pode nem ser comparado\Ncom o que era antes de me transformar!
+Dialogue: Marked=0,0:11:30.90,0:11:32.08,P!,NTP,0000,0000,0000,!Effect,Como isso é possível?
+Dialogue: Marked=0,0:11:32.08,0:11:35.03,P!,NTP,0000,0000,0000,!Effect,Era para eu estar com mais\Npoder por causa da Terra!
+Dialogue: Marked=0,0:12:00.03,0:12:03.03,*Default,NTP,0000,0000,0000,!Effect,Eu vou lhe dar uma morte dolorosa!
+Dialogue: Marked=0,0:12:19.85,0:12:22.53,*Default,NTP,0000,0000,0000,!Effect,Esse é o fim de Vegeta.
+Dialogue: Marked=0,0:12:37.70,0:12:39.83,*Default,NTP,0000,0000,0000,!Effect,Eu não o vejo lá embaixo.
+Dialogue: Marked=0,0:12:39.83,0:12:44.09,*Default,NTP,0000,0000,0000,!Effect,Ele provavelmente não\Npôde se mover e se afogou.
+Dialogue: Marked=0,0:13:00.59,0:13:02.06,*Default,NTP,0000,0000,0000,!Effect,Ele me deu trabalho mesmo.
+Dialogue: Marked=0,0:13:02.06,0:13:04.94,*Default,NTP,0000,0000,0000,!Effect,Ele até fez eu me transformar, o que eu odeio fazer.
+Dialogue: Marked=0,0:13:04.94,0:13:08.78,*Default,NTP,0000,0000,0000,!Effect,Melhor reportar ao Freeza-sama.
+Dialogue: Marked=0,0:13:35.51,0:13:37.92,*Default,NTP,0000,0000,0000,!Effect,Por que eu vim para este planeta, mesmo?!
+Dialogue: Marked=0,0:13:37.92,0:13:39.78,*Default,NTP,0000,0000,0000,!Effect,Nós não podemos nem pegar as Dragon Balls!
+Dialogue: Marked=0,0:13:39.78,0:13:41.69,*Default,NTP,0000,0000,0000,!Effect,E nossa nave espacial foi destruída!
+Dialogue: Marked=0,0:13:45.69,0:13:47.74,*Default,NTP,0000,0000,0000,!Effect,Como você pode estar tão calmo?
+Dialogue: Marked=0,0:13:48.28,0:13:49.78,*Default,NTP,0000,0000,0000,!Effect,Espere só mais um pouco.
+Dialogue: Marked=0,0:13:49.78,0:13:52.96,*Default,NTP,0000,0000,0000,!Effect,Quando papai chegar aqui, ele vai fazer alguma coisa.
+Dialogue: Marked=0,0:13:52.96,0:13:54.75,*Default,NTP,0000,0000,0000,!Effect,Quem dera se o Son-kun viesse logo pra cá...
+Dialogue: Marked=0,0:13:55.54,0:14:00.50,*Default,NTP,0000,0000,0000,!Effect,Se eu ficar aqui mais tempo, vou ficar maluca!
+Dialogue: Marked=0,0:14:03.11,0:14:06.84,*Default,NTP,0000,0000,0000,!Effect,Será que o Kuririn-san já\Nencontrou o Grande Patriarca?
+Dialogue: Marked=0,0:14:16.32,0:14:17.66,*Default,NTP,0000,0000,0000,!Effect,O ki deles diminuiu.
+Dialogue: Marked=0,0:14:19.34,0:14:20.74,*Default,NTP,0000,0000,0000,!Effect,A batalha deve ter terminado.
+Dialogue: Marked=0,0:14:24.21,0:14:25.90,*Default,NTP,0000,0000,0000,!Effect,Quem venceu?
+Dialogue: Marked=0,0:14:27.99,0:14:28.91,*Default,NTP,0000,0000,0000,!Effect,Eu não sei.
+Dialogue: Marked=0,0:14:29.60,0:14:31.80,*Default,NTP,0000,0000,0000,!Effect,A mesma coisa vai acontecer,\Nnão importa quem venceu.
+Dialogue: Marked=0,0:14:31.80,0:14:32.91,*Default,NTP,0000,0000,0000,!Effect,Vamos nos apressar.
+Dialogue: Marked=0,0:15:12.37,0:15:15.18,*Default,NTP,0000,0000,0000,!Effect,Por onde? Ainda reto?
+Dialogue: Marked=0,0:15:16.05,0:15:17.91,*Default,NTP,0000,0000,0000,!Effect,Mais um pouco para a esquerda!
+Dialogue: Marked=0,0:15:32.30,0:15:33.16,*Default,NTP,0000,0000,0000,!Effect,É ali!
+Dialogue: Marked=0,0:15:33.16,0:15:36.17,*Default,NTP,0000,0000,0000,!Effect,Aquela construção no alto! Pode ver?
+Dialogue: Marked=0,0:15:36.17,0:15:37.10,*Default,NTP,0000,0000,0000,!Effect,Então é ali?
+Dialogue: Marked=0,0:15:50.48,0:15:51.98,*Default,NTP,0000,0000,0000,!Effect,Foi um longo vôo.
+Dialogue: Marked=0,0:15:59.36,0:16:02.00,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca mora naquela casa.
+Dialogue: Marked=0,0:16:03.16,0:16:05.03,*Default,NTP,0000,0000,0000,!Effect,Estou surpreso que ainda esteja aqui.
+Dialogue: Marked=0,0:16:05.03,0:16:07.22,*Default,NTP,0000,0000,0000,!Effect,É tão evidente.
+Dialogue: Marked=0,0:16:07.22,0:16:11.26,*Default,NTP,0000,0000,0000,!Effect,É só uma questão de tempo antes dos caras maus encontrarem.
+Dialogue: Marked=0,0:16:32.43,0:16:35.32,*Default,NTP,0000,0000,0000,!Effect,Eles não chegaram aqui ainda, não é?
+Dialogue: Marked=0,0:16:38.03,0:16:39.33,*Default,NTP,0000,0000,0000,!Effect,Eles não podem...
+Dialogue: Marked=0,0:16:59.99,0:17:01.14,*Default,NTP,0000,0000,0000,!Effect,Nail-san!
+Dialogue: Marked=0,0:17:01.14,0:17:03.31,*Default,NTP,0000,0000,0000,!Effect,Estou tão feliz que esteja bem!
+Dialogue: Marked=0,0:17:03.49,0:17:06.15,P!,NTP,0000,0000,0000,!Effect,Ele é idêntico ao Piccolo!
+Dialogue: Marked=0,0:17:08.21,0:17:10.73,*Default,NTP,0000,0000,0000,!Effect,Estou feliz que tenha\Nconseguido chegar aqui, Dende.
+Dialogue: Marked=0,0:17:10.73,0:17:15.16,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca sabe\Nbasicamente o que está acontecendo.
+Dialogue: Marked=0,0:17:16.17,0:17:19.16,*Default,NTP,0000,0000,0000,!Effect,Então, o Grande Patriarca sabe?
+Dialogue: Marked=0,0:17:19.63,0:17:22.16,*Default,NTP,0000,0000,0000,!Effect,Bom, vai economizar o tempo de explicar.
+Dialogue: Marked=0,0:17:22.67,0:17:24.21,*Default,NTP,0000,0000,0000,!Effect,Venham, vocês dois.
+Dialogue: Marked=0,0:17:24.21,0:17:26.16,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca os verá.
+Dialogue: Marked=0,0:17:27.68,0:17:35.80,*Default,NTP,0000,0000,0000,!Effect,Se ele sabe a maior parte, então por que não saiu deste lugar perigoso?
+Dialogue: Marked=0,0:17:37.16,0:17:40.56,*Default,NTP,0000,0000,0000,!Effect,O Grande Patriarca é muito velho.
+Dialogue: Marked=0,0:17:40.56,0:17:43.77,*Default,NTP,0000,0000,0000,!Effect,Ele sabe que está morrendo.
+Dialogue: Marked=0,0:17:43.77,0:17:48.31,*Default,NTP,0000,0000,0000,!Effect,Ele não tinha escolha, a não ser ficar aqui, protegido por mim.
+Dialogue: Marked=0,0:17:49.44,0:17:54.11,*Default,NTP,0000,0000,0000,!Effect,Eu sabia que a morte dele estava próxima, mas não tanto assim.
+Dialogue: Marked=0,0:17:54.11,0:17:55.54,*Default,NTP,0000,0000,0000,!Effect,Venham.
+Dialogue: Marked=0,0:17:58.01,0:18:03.95,P!,NTP,0000,0000,0000,!Effect,Ele é bom. Eu sinto muito mais poder\Nnele do que nos outros Namekusei-jins.
+Dialogue: Marked=0,0:18:07.69,0:18:08.61,*Default,NTP,0000,0000,0000,!Effect,Subam.
+Dialogue: Marked=0,0:18:12.42,0:18:12.97,*Default,NTP,0000,0000,0000,!Effect,Sim!
+Dialogue: Marked=0,0:18:25.22,0:18:28.48,*Default,NTP,0000,0000,0000,!Effect,Grande Patriarca, Dende e um convidado.
+Dialogue: Marked=0,0:18:29.58,0:18:31.48,P!,NTP,0000,0000,0000,!Effect,E-Ele é imenso!
+Dialogue: Marked=0,0:18:31.98,0:18:36.75,*Default,NTP,0000,0000,0000,!Effect,Bem-vindo, garoto.\NVocê é da Terra, não é?
+Dialogue: Marked=0,0:18:36.75,0:18:42.07,*Default,NTP,0000,0000,0000,!Effect,Estou grato por salvar minha criança, o Dende.
+Dialogue: Marked=0,0:18:42.07,0:18:43.16,*Default,NTP,0000,0000,0000,!Effect,Obrigado.
+Dialogue: Marked=0,0:18:43.52,0:18:47.37,*Default,NTP,0000,0000,0000,!Effect,N-Não...\NEu não fiz muita coisa.
+Dialogue: Marked=0,0:19:34.95,0:19:36.62,*Default,NTP,0000,0000,0000,!Effect,Droga, Zarbon!
+Dialogue: Marked=0,0:19:36.62,0:19:40.01,*Default,NTP,0000,0000,0000,!Effect,E-Ele ainda não me conhece!
+Dialogue: Marked=0,0:19:40.01,0:19:43.48,*Default,NTP,0000,0000,0000,!Effect,Eu vou ficar ainda mais forte!
+Dialogue: Marked=0,0:19:43.48,0:19:46.43,*Default,NTP,0000,0000,0000,!Effect,Então, vou derrotar Zarbon e Freeza!
+Dialogue: Marked=0,0:19:47.23,0:19:51.52,*Default,NTP,0000,0000,0000,!Effect,E-Eu não vou deixar mais\Nninguém pegar as Dragon Balls!
+Dialogue: Marked=0,0:19:56.43,0:19:58.73,Narrador,NTP,0000,0000,0000,!Effect,Vegeta ainda está vivo.
+Dialogue: Marked=0,0:20:00.43,0:20:05.90,Narrador,NTP,0000,0000,0000,!Effect,Mas, Zarbon e Freeza têm um\Nassustador poder escondido.
+Dialogue: Marked=0,0:20:07.37,0:20:14.04,Narrador,NTP,0000,0000,0000,!Effect,O Grande Patriarca conseguirá ajudar Kuririn?
+Dialogue: Marked=0,0:20:14.35,0:20:21.84,Narrador,NTP,0000,0000,0000,!Effect,A batalha do bem contra o mal\Ncontinua em torno das Dragon Balls.

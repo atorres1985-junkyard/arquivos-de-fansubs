@@ -1,0 +1,308 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,2,30,30,20,0,0
+Style: DefaultUP,Souvenir Lt BT,40,16777215,12632256,16711680,-2147483640,-1,1,1,3,2,6,30,30,20,0,0
+Style: P!,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,10485760,-1,0,1,2,1,2,30,30,20,0,0
+Style: karaoke,Monotype Corsiva,48,255,16711680,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Conversa,Souvenir Lt BT,40,&HFFEEEEFF,&HFF00FFFF,&HFF000000,&HFF110066,-1,1,1,3,2,2,30,30,20,0,0
+Style: Narrador,Souvenir Lt BT,40,16777215,16711680,16744576,4194368,-1,-1,1,3,2,2,30,30,20,0,0
+Style: Doutrina,TimeScrDBol,39,255,16711680,16744576,12632256,-1,-1,1,3,2,2,30,30,30,0,0
+Style: N!,Souvenir Lt BT,32,16777215,12632256,16711680,-2147483640,-1,-1,1,3,2,6,30,30,10,0,0
+Style: Comentario,FormalScrp421 BT,36,16711680,65280,16744576,12632256,-1,-1,1,3,2,6,30,30,30,0,0
+Style: Nome,John Handy LET,80,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,350,0,0
+Style: Nome2,John Handy LET,70,16777215,12632256,16711680,-2147483640,-1,0,1,1,3,6,20,20,60,0,0
+Style: PROPA,John Handy LET,80,16777215,65535,65535,0,1,0,1,3,3,5,10,20,200,0,0
+Style: PLACA,FormalScrp421 BT,36,55255,8454143,3815994,3815994,0,0,1,2,2,2,30,30,25,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:01:30.03,0:01:33.90,Narrador,NTP,0000,0000,0000,,Na Mansão Yojigen, Yusuke e\Nos outros foram desafiados...
+Dialogue: Marked=0,0:01:33.90,0:01:36.70,Narrador,NTP,0000,0000,0000,,para uma estranha batalha\Npor Kaito, Kido e Yanagisawa.
+Dialogue: Marked=0,0:01:36.70,0:01:39.51,Narrador,NTP,0000,0000,0000,,Esses três jovens,\Ncada um com uma habilidade estranha,
+Dialogue: Marked=0,0:01:39.71,0:01:44.18,Narrador,NTP,0000,0000,0000,,foram trazidos, por incrível que pareça,\Ndiretamente das sombras pela Mestra Genkai!
+Dialogue: Marked=0,0:01:45.28,0:01:49.10,Narrador,NTP,0000,0000,0000,,O que Genkai contou em seguida\Ndeixou todos surpresos...
+Dialogue: Marked=0,0:01:50.04,0:01:53.11,*Default,NTP,0000,0000,0000,,É o efeito de um buraco\Npara o Makai.
+Dialogue: Marked=0,0:01:53.18,0:01:59.08,Nome2,NTP,0000,0000,0000,,{\fad(1500,0)}Episódio 071
+Dialogue: Marked=0,0:01:53.18,0:01:59.08,Nome,NTP,0000,0000,0000,,{\fad(1500,0)}{\pos(300,420)}O medo que se aproxima!
+Dialogue: Marked=0,0:01:53.18,0:01:59.08,Nome,NTP,0000,0000,0000,,{\fad(1500,0)}{\pos(510,490)}O portão para o Makai.
+Dialogue: Marked=0,0:02:03.46,0:02:06.79,*Default,NTP,0000,0000,0000,,Um buraco... para o Makai?
+Dialogue: Marked=0,0:02:06.79,0:02:12.63,*Default,NTP,0000,0000,0000,,Um túnel interespacial,\Nque liga o Ningenkai ao Makai.
+Dialogue: Marked=0,0:02:13.80,0:02:16.44,*Default,NTP,0000,0000,0000,,Mesmo assim, é difícil de acreditar.
+Dialogue: Marked=0,0:02:16.44,0:02:24.64,N!,NTP,0000,0000,0000,,Ningenkai: Mundo dos Humanos\NMakai: Mundo dos Demônios
+Dialogue: Marked=0,0:02:16.44,0:02:21.14,*Default,NTP,0000,0000,0000,,O poder existe para abrir um buraco através\ndo grande espaço entre o Ningenkai...
+Dialogue: Marked=0,0:02:21.14,0:02:24.64,*Default,NTP,0000,0000,0000,,e o Makai, que estão em dimensões\Ncompletamente diferentes?
+Dialogue: Marked=0,0:02:26.48,0:02:28.18,*Default,NTP,0000,0000,0000,,Se uma coisa dessa fosse possível,
+Dialogue: Marked=0,0:02:28.18,0:02:31.42,*Default,NTP,0000,0000,0000,,eu teria voltado para o \NMakai há muito tempo.
+Dialogue: Marked=0,0:02:31.42,0:02:34.42,*Default,NTP,0000,0000,0000,,Só vendo pra crer.
+Dialogue: Marked=0,0:02:34.42,0:02:36.28,*Default,NTP,0000,0000,0000,,E então, vamos dar\numa olhada?
+Dialogue: Marked=0,0:02:38.76,0:02:40.32,*Default,NTP,0000,0000,0000,,Onde é?
+Dialogue: Marked=0,0:02:41.43,0:02:42.78,*Default,NTP,0000,0000,0000,,Numa cidade chamada Mushiyori.
+Dialogue: Marked=0,0:02:44.10,0:02:47.04,*Default,NTP,0000,0000,0000,,Mushiyori? Isso está bem\nna nossa cara!
+Dialogue: Marked=0,0:02:47.04,0:02:50.79,PLACA,NTP,0000,0000,0000,,{\frz0}{\pos(400,420)}{\fscx175\fscy100}Mushiyori
+Dialogue: Marked=0,0:03:27.14,0:03:29.75,*Default,NTP,0000,0000,0000,,Não pode ser...\NNão isso...
+Dialogue: Marked=0,0:03:37.08,0:03:38.95,*Default,NTP,0000,0000,0000,,Impossível! Não pode ser!
+Dialogue: Marked=0,0:03:38.95,0:03:42.42,*Default,NTP,0000,0000,0000,,Não tem a mínima chance de\nexistir realmente...
+Dialogue: Marked=0,0:03:42.42,0:03:46.76,*Default,NTP,0000,0000,0000,,um buraco conectando o\NNingenkai ao Makai!
+Dialogue: Marked=0,0:03:46.76,0:03:49.46,*Default,NTP,0000,0000,0000,,Não significa nada além de que\naquelas terras estão temporariamente...
+Dialogue: Marked=0,0:03:49.46,0:03:51.43,*Default,NTP,0000,0000,0000,,sob controle de algum demônio!
+Dialogue: Marked=0,0:03:51.43,0:03:54.10,*Default,NTP,0000,0000,0000,,Koenma-sama, odeio ver o senhor assim.
+Dialogue: Marked=0,0:03:54.43,0:03:55.92,*Default,NTP,0000,0000,0000,,Cale a boca, Jorge!
+Dialogue: Marked=0,0:03:57.10,0:04:02.03,*Default,NTP,0000,0000,0000,,Não, o Japão não atingirá o ápice de sua\NEra das trevas por muitas centenas de anos.
+Dialogue: Marked=0,0:04:02.44,0:04:06.75,*Default,NTP,0000,0000,0000,,E mais, não consigo imaginar que\num buraco desse tamanho tenha aparecido naturalmente.
+Dialogue: Marked=0,0:04:06.75,0:04:10.12,*Default,NTP,0000,0000,0000,,Isso é, com certeza, obra de algum outro poder.
+Dialogue: Marked=0,0:04:10.12,0:04:13.18,*Default,NTP,0000,0000,0000,,Mas então, quem está fazendo isso?!
+Dialogue: Marked=0,0:04:18.13,0:04:19.96,*Default,NTP,0000,0000,0000,,É Koenma-sama.
+Dialogue: Marked=0,0:04:22.80,0:04:26.13,*Default,NTP,0000,0000,0000,,Botan, Yusuke está aí?\NÉ uma emergência!
+Dialogue: Marked=0,0:04:26.13,0:04:29.74,*Default,NTP,0000,0000,0000,,Estamos todos aqui.\NÉ sobre o túnel, não é?
+Dialogue: Marked=0,0:04:29.74,0:04:32.27,*Default,NTP,0000,0000,0000,,Oh, é você, Genkai!\NIsso mesmo!
+Dialogue: Marked=0,0:04:32.74,0:04:37.41,*Default,NTP,0000,0000,0000,,Os efeitos já começaram a\Naparecer aqui no Ningenkai.
+Dialogue: Marked=0,0:04:37.41,0:04:40.41,*Default,NTP,0000,0000,0000,,No último mês, apareceram mais ou menos...
+Dialogue: Marked=0,0:04:40.41,0:04:44.42,*Default,NTP,0000,0000,0000,,trinta pessoas que, de repente,\Ndesenvolveram habilidades estranhas,
+Dialogue: Marked=0,0:04:44.42,0:04:48.42,*Default,NTP,0000,0000,0000,,e vieram a mim pedindo ajuda.
+Dialogue: Marked=0,0:04:48.42,0:04:50.82,*Default,NTP,0000,0000,0000,,Isso também se aplica a esses caras aqui.
+Dialogue: Marked=0,0:04:50.82,0:04:54.09,*Default,NTP,0000,0000,0000,,E todos que tiveram essas habilidades únicas...
+Dialogue: Marked=0,0:04:54.09,0:04:56.86,*Default,NTP,0000,0000,0000,,desenvolvidas estiveram em Mushiyori.
+Dialogue: Marked=0,0:04:58.50,0:05:04.13,*Default,NTP,0000,0000,0000,,Tivemos sorte dos efeitos não terem\Nse espalhado muito além de Mushiyori.
+Dialogue: Marked=0,0:05:05.11,0:05:08.44,*Default,NTP,0000,0000,0000,,Aposto que eles já\Nchegaram na segunda fase.
+Dialogue: Marked=0,0:05:08.44,0:05:11.78,*Default,NTP,0000,0000,0000,,Segunda fase?\NO que quer dizer?
+Dialogue: Marked=0,0:05:11.78,0:05:14.88,*Default,NTP,0000,0000,0000,,Não sei o quanto devo te dizer...
+Dialogue: Marked=0,0:05:14.88,0:05:17.85,*Default,NTP,0000,0000,0000,,Além disso,\Nalgumas das mais secretas informações...
+Dialogue: Marked=0,0:05:17.85,0:05:21.12,*Default,NTP,0000,0000,0000,,do Makai estão envolvidas com isso tudo...
+Dialogue: Marked=0,0:05:21.12,0:05:24.28,*Default,NTP,0000,0000,0000,,Não fique tão convecido!\NFale logo!
+Dialogue: Marked=0,0:05:26.13,0:05:28.96,*Default,NTP,0000,0000,0000,,Certo, então.\NVou contar.
+Dialogue: Marked=0,0:05:30.06,0:05:32.77,*Default,NTP,0000,0000,0000,,Existem quatro fases\Nque devem ser completadas...
+Dialogue: Marked=0,0:05:32.77,0:05:35.74,*Default,NTP,0000,0000,0000,,antes de se abrir completamente\Num túnel como esse.
+Dialogue: Marked=0,0:05:35.74,0:05:40.41,*Default,NTP,0000,0000,0000,,Em primeiro lugar, o\NNingenkai fica estagnado,
+Dialogue: Marked=0,0:05:40.41,0:05:44.41,*Default,NTP,0000,0000,0000,,e pequenas formas de vida\Ndo Makai aparecem.
+Dialogue: Marked=0,0:05:44.41,0:05:47.55,*Default,NTP,0000,0000,0000,,Na segunda fase,\Naqueles com poderes...
+Dialogue: Marked=0,0:05:47.68,0:05:50.55,*Default,NTP,0000,0000,0000,,especiais começam a\Naparecer entre os humanos.
+Dialogue: Marked=0,0:05:56.42,0:05:59.96,*Default,NTP,0000,0000,0000,,E depois, na terceira fase,\Nyoukais de classe D e mais baixa...
+Dialogue: Marked=0,0:05:59.96,0:06:03.19,*Default,NTP,0000,0000,0000,,começam andar pelo Ningenkai.
+Dialogue: Marked=0,0:06:03.76,0:06:07.50,*Default,NTP,0000,0000,0000,,Violentos, com pouca inteligência...
+Dialogue: Marked=0,0:06:10.10,0:06:12.58,*Default,NTP,0000,0000,0000,,Então, a quarta fase...
+Dialogue: Marked=0,0:06:13.77,0:06:19.78,*Default,NTP,0000,0000,0000,,Quando o diâmetro do buraco alcança\Ndois quilômetros, a fase final começa.
+Dialogue: Marked=0,0:06:19.78,0:06:21.45,*Default,NTP,0000,0000,0000,,A fase final?
+Dialogue: Marked=0,0:06:21.45,0:06:23.28,*Default,NTP,0000,0000,0000,,Que diabos acontece nessa fase?
+Dialogue: Marked=0,0:06:24.45,0:06:31.39,*Default,NTP,0000,0000,0000,,Torna-se possível para youkais\Nde classe C e B chegarem ao Ningenkai!
+Dialogue: Marked=0,0:06:31.39,0:06:33.06,*Default,NTP,0000,0000,0000,,E isso significa...?
+Dialogue: Marked=0,0:06:33.06,0:06:38.06,N!,NTP,0000,0000,0000,,Reikai: Mundo Espiritual
+Dialogue: Marked=0,0:06:33.06,0:06:36.76,*Default,NTP,0000,0000,0000,,No Reikai,\Nos youkais são divididos em classes,
+Dialogue: Marked=0,0:06:36.76,0:06:38.06,*Default,NTP,0000,0000,0000,,de acordo com a força\Ne os poderes especiais.
+Dialogue: Marked=0,0:06:39.40,0:06:42.40,*Default,NTP,0000,0000,0000,,Você não se enganaria se\Npensasse que youkais de classe B...
+Dialogue: Marked=0,0:06:42.40,0:06:45.32,*Default,NTP,0000,0000,0000,,são do mesmo tipo que aquele Toguro.
+Dialogue: Marked=0,0:06:45.74,0:06:48.77,*Default,NTP,0000,0000,0000,,Toguro era da classe B?!
+Dialogue: Marked=0,0:06:56.75,0:07:00.42,*Default,NTP,0000,0000,0000,,Aquele cara assustador era apenas classe B?!
+Dialogue: Marked=0,0:07:00.42,0:07:04.13,*Default,NTP,0000,0000,0000,,O Makai é infinitamente profundo e vasto.
+Dialogue: Marked=0,0:07:04.42,0:07:10.76,*Default,NTP,0000,0000,0000,,O Reikai controla apenas\Numa fração do Makai.
+Dialogue: Marked=0,0:07:10.76,0:07:12.77,*Default,NTP,0000,0000,0000,,Nunca ouvi falar nisso antes...
+Dialogue: Marked=0,0:07:12.77,0:07:15.80,*Default,NTP,0000,0000,0000,,Você pode imaginar o Makai como um...
+Dialogue: Marked=0,0:07:15.80,0:07:18.44,*Default,NTP,0000,0000,0000,,edifício subterrâneo incrivelmente vasto.
+Dialogue: Marked=0,0:07:18.44,0:07:24.69,*Default,NTP,0000,0000,0000,,Tudo que nós controlamos equivale\Na apenas a metade do primeiro andar.
+Dialogue: Marked=0,0:07:24.36,0:07:25.58,PLACA,NTP,0000,0000,0000,,{\pos(565,100)}{\fscx175\fscy100}Apenas aqui
+Dialogue: Marked=0,0:07:26.45,0:07:28.72,*Default,NTP,0000,0000,0000,,Só isso?!
+Dialogue: Marked=0,0:07:28.72,0:07:32.72,*Default,NTP,0000,0000,0000,,Daí pra frente,\Né muito perigoso entrarmos.
+Dialogue: Marked=0,0:07:32.72,0:07:36.91,*Default,NTP,0000,0000,0000,,É tudo que podemos fazer para\Nexpandir um pouco nosso domínio.
+Dialogue: Marked=0,0:07:37.39,0:07:41.39,*Default,NTP,0000,0000,0000,,E lá no fundo do Makai,\Nestão os youkais classe A,
+Dialogue: Marked=0,0:07:41.39,0:07:45.39,*Default,NTP,0000,0000,0000,,bem como os classe Super-A,\Nchamados youkais classe S.
+Dialogue: Marked=0,0:07:46.07,0:07:50.44,*Default,NTP,0000,0000,0000,,Os youkais classe S estão além\Ndo controle, até mesmo, do Reikai.
+Dialogue: Marked=0,0:07:54.41,0:07:58.18,*Default,NTP,0000,0000,0000,,Koenma, você está dizendo\Nque o Reikai não fez...
+Dialogue: Marked=0,0:07:58.18,0:08:02.75,*Default,NTP,0000,0000,0000,,nada até agora para se\Npreparar para uma situação dessas?
+Dialogue: Marked=0,0:08:02.75,0:08:03.31,*Default,NTP,0000,0000,0000,,Não...
+Dialogue: Marked=0,0:08:04.42,0:08:07.72,*Default,NTP,0000,0000,0000,,O espaço que forma uma ligação\Nentre o Makai e...
+Dialogue: Marked=0,0:08:07.72,0:08:11.76,*Default,NTP,0000,0000,0000,,o Ningenkai está selado\Ncom um poderoso campo periférico.
+Dialogue: Marked=0,0:08:11.76,0:08:16.76,*Default,NTP,0000,0000,0000,,Bem, nesse caso,\Npodemos relaxar! Eu acho...
+Dialogue: Marked=0,0:08:16.76,0:08:19.70,*Default,NTP,0000,0000,0000,,Mas então, como os youkais\Nainda podem transitar?
+Dialogue: Marked=0,0:08:20.10,0:08:22.84,*Default,NTP,0000,0000,0000,,O campo periférico está aqui para manter...
+Dialogue: Marked=0,0:08:22.84,0:08:26.11,*Default,NTP,0000,0000,0000,,youkais de classe A e de classe S presos.
+Dialogue: Marked=0,0:08:26.11,0:08:28.41,*Default,NTP,0000,0000,0000,,Devido ao seu enorme tamanho.
+Dialogue: Marked=0,0:08:28.41,0:08:32.71,*Default,NTP,0000,0000,0000,,Youkais de classe B e menores\Npodem passar pelas "falhas".
+Dialogue: Marked=0,0:08:32.71,0:08:35.72,*Default,NTP,0000,0000,0000,,Falhas no campo periférico?
+Dialogue: Marked=0,0:08:35.72,0:08:41.81,*Default,NTP,0000,0000,0000,,Entretanto, não podemos permitir\Nque nenhum youkai de classe A ou S passe!
+Dialogue: Marked=0,0:08:42.72,0:08:45.73,*Default,NTP,0000,0000,0000,,E-Eles são tão terríveis assim?!
+Dialogue: Marked=0,0:08:45.73,0:08:47.76,*Default,NTP,0000,0000,0000,,É preferível todos os youkais de classe B juntos...
+Dialogue: Marked=0,0:08:47.76,0:08:49.83,*Default,NTP,0000,0000,0000,,a um youkai de classe A ou mais alta?
+Dialogue: Marked=0,0:08:49.83,0:08:51.26,*Default,NTP,0000,0000,0000,,Eles são tão maus assim?
+Dialogue: Marked=0,0:08:53.40,0:08:57.14,*Default,NTP,0000,0000,0000,,Supondo que um dos youkais classe S\Nfosse aceito no Ningenkai...
+Dialogue: Marked=0,0:08:57.14,0:08:59.13,*Default,NTP,0000,0000,0000,,Naquele momento...
+Dialogue: Marked=0,0:09:25.43,0:09:30.04,*Default,NTP,0000,0000,0000,,Que negócio é esse de classe A e classe S?
+Dialogue: Marked=0,0:09:30.04,0:09:33.77,*Default,NTP,0000,0000,0000,,Meu poder espiritual ainda não voltou,\Nentão não vejo o que está passando na tela,
+Dialogue: Marked=0,0:09:33.77,0:09:37.38,*Default,NTP,0000,0000,0000,,nem ouço a voz do Koenma, nem nada!
+Dialogue: Marked=0,0:09:37.38,0:09:39.71,*Default,NTP,0000,0000,0000,,Explique-me o que está havendo!
+Dialogue: Marked=0,0:09:43.72,0:09:47.68,*Default,NTP,0000,0000,0000,,O que está acontecendo aqui exatamente?
+Dialogue: Marked=0,0:10:29.36,0:10:33.86,P!,NTP,0000,0000,0000,,Como está indo o túnel?\NTudo indo bem?
+Dialogue: Marked=0,0:10:36.37,0:10:40.53,P!,NTP,0000,0000,0000,,É mesmo?\NIsso é ótimo.
+Dialogue: Marked=0,0:10:42.38,0:10:45.22,P!,NTP,0000,0000,0000,,Entretanto, vamos ter algumas interferências.
+Dialogue: Marked=0,0:10:46.71,0:10:50.38,P!,NTP,0000,0000,0000,,Ainda existem aqueles miseráveis, entende...
+Dialogue: Marked=0,0:10:50.38,0:10:52.05,P!,NTP,0000,0000,0000,,Eu tenho um pedido a fazer...
+Dialogue: Marked=0,0:10:52.05,0:10:55.44,P!,NTP,0000,0000,0000,,Vingue-se deles por mim, por favor!
+Dialogue: Marked=0,0:10:56.39,0:10:57.90,P!,NTP,0000,0000,0000,,Sensui-san...
+Dialogue: Marked=0,0:10:59.06,0:11:02.37,P!,NTP,0000,0000,0000,,Conhecendo você, sei que pode fazê-lo.
+Dialogue: Marked=0,0:11:03.73,0:11:07.07,*Default,NTP,0000,0000,0000,,Não recebo ordens de você.
+Dialogue: Marked=0,0:11:07.07,0:11:13.41,*Default,NTP,0000,0000,0000,,Entretanto, não vou permitir que\nninguém interfira em algo tão prazeroso...
+Dialogue: Marked=0,0:11:13.41,0:11:16.27,P!,NTP,0000,0000,0000,,Vou deixar nas suas mãos.
+Dialogue: Marked=0,0:11:21.41,0:11:25.75,P!,NTP,0000,0000,0000,,Humanos, que destruíram tudo.
+Dialogue: Marked=0,0:11:25.75,0:11:28.02,P!,NTP,0000,0000,0000,,Consumiram tudo para satisfazer suas lamentações.
+Dialogue: Marked=0,0:11:28.02,0:11:30.76,P!,NTP,0000,0000,0000,,Ganância ilimitada,\Ne ainda não é suficiente...
+Dialogue: Marked=0,0:11:30.76,0:11:34.35,P!,NTP,0000,0000,0000,,O momento de serem julgados chegou!
+Dialogue: Marked=0,0:11:47.44,0:11:49.28,*Default,NTP,0000,0000,0000,,O quê?!
+Dialogue: Marked=0,0:11:49.28,0:11:52.01,*Default,NTP,0000,0000,0000,,Você está dizendo que hordas de youkais\Nda mesma classe que Toguro vão passar...
+Dialogue: Marked=0,0:11:52.01,0:11:56.11,*Default,NTP,0000,0000,0000,,por aquele buraco que\Nconecta o Ningenkai ao Makai?!
+Dialogue: Marked=0,0:11:56.78,0:11:59.21,*Default,NTP,0000,0000,0000,,E que aqueles caras\nsão da classe B,
+Dialogue: Marked=0,0:11:59.72,0:12:04.82,*Default,NTP,0000,0000,0000,,sendo que existem youkais de classe A\Ne classe S, mais fortes ainda?!
+Dialogue: Marked=0,0:12:05.79,0:12:10.46,*Default,NTP,0000,0000,0000,,Youkais tão assustadores e fortes\Nque nem o Reikai pode controlá-los?!
+Dialogue: Marked=0,0:12:10.46,0:12:11.98,*Default,NTP,0000,0000,0000,,O que devemos fazer?!
+Dialogue: Marked=0,0:12:12.27,0:12:14.80,*Default,NTP,0000,0000,0000,,Não há mais nada\Nque possamos fazer, não é?!
+Dialogue: Marked=0,0:12:14.80,0:12:16.15,*Default,NTP,0000,0000,0000,,Acalme-se!
+Dialogue: Marked=0,0:12:17.14,0:12:22.14,*Default,NTP,0000,0000,0000,,Vamos falar sobre os detalhes\Nassim que eu fizer a alma de Kaito retornar.
+Dialogue: Marked=0,0:12:22.14,0:12:25.94,*Default,NTP,0000,0000,0000,,Oh, é mesmo!\NEu me esqueci completamente daquele cara.
+Dialogue: Marked=0,0:12:48.43,0:12:53.11,*Default,NTP,0000,0000,0000,,Parece que as coisas progrediram\ncomo Genkai-san planejou.
+Dialogue: Marked=0,0:12:53.11,0:12:55.44,*Default,NTP,0000,0000,0000,,Ficamos sabendo da\nsituação geral.
+Dialogue: Marked=0,0:12:55.44,0:12:59.45,*Default,NTP,0000,0000,0000,,Sua explicação inicial deu um certo impacto.
+Dialogue: Marked=0,0:12:59.45,0:13:03.92,*Default,NTP,0000,0000,0000,,Você sabe, para ser honesto,\Neu fui atrás de você, como eu disse.
+Dialogue: Marked=0,0:13:03.92,0:13:06.79,*Default,NTP,0000,0000,0000,,Eu queria ganhar de você\Nao menos uma vez em alguma coisa.
+Dialogue: Marked=0,0:13:06.79,0:13:09.46,*Default,NTP,0000,0000,0000,,Porém, você me venceu completamente.
+Dialogue: Marked=0,0:13:09.46,0:13:12.79,*Default,NTP,0000,0000,0000,,É, mas se você não pudesse\Nrecuperar sua alma sozinho,
+Dialogue: Marked=0,0:13:12.79,0:13:16.80,*Default,NTP,0000,0000,0000,,o que teria acontecido com você\Nse Ba-san não estivesse aqui?
+Dialogue: Marked=0,0:13:16.80,0:13:20.13,*Default,NTP,0000,0000,0000,,Ele já era, claro.
+Dialogue: Marked=0,0:13:20.13,0:13:23.50,*Default,NTP,0000,0000,0000,,É por isso que ele veio até mim.
+Dialogue: Marked=0,0:13:23.50,0:13:27.81,*Default,NTP,0000,0000,0000,,Ele disse que não conseguia fazer\Numa alma retornar, e pediu minha ajuda.
+Dialogue: Marked=0,0:13:27.81,0:13:31.74,*Default,NTP,0000,0000,0000,,Quando você apenas está com sua alma\Né o momento em que você fica mais indefeso.
+Dialogue: Marked=0,0:13:31.74,0:13:34.06,*Default,NTP,0000,0000,0000,,Se eu te deixasse sozinho por um dia,\Nvocê partiria para o outro mundo.
+Dialogue: Marked=0,0:13:36.08,0:13:39.42,*Default,NTP,0000,0000,0000,,Conhecendo você, vejo que tentou por si próprio, hein?
+Dialogue: Marked=0,0:13:39.42,0:13:45.19,*Default,NTP,0000,0000,0000,,Sim. Apesar de tudo, eu tinha que saber o que\Naconteceria se eu falasse a palavra proibida.
+Dialogue: Marked=0,0:13:45.76,0:13:53.10,*Default,NTP,0000,0000,0000,,Vamos nos apresentar mais uma vez. Kaito\NYu. Minha habilidade é com as palavras.
+Dialogue: Marked=0,0:13:53.10,0:13:57.44,*Default,NTP,0000,0000,0000,,Kido Asato.\NMinha habilidade é com as sombras.
+Dialogue: Marked=0,0:13:57.44,0:14:01.13,*Default,NTP,0000,0000,0000,,Yanagisawa Mitsunari.\NMinha habilidade é copiar.
+Dialogue: Marked=0,0:14:02.44,0:14:05.31,*Default,NTP,0000,0000,0000,,Todos esses caras são habitantes de Mushiyori.
+Dialogue: Marked=0,0:14:05.31,0:14:10.78,*Default,NTP,0000,0000,0000,,Eles disseram que tomaram conhecimento\nde suas habilidades há um mês atrás.
+Dialogue: Marked=0,0:14:10.78,0:14:14.12,*Default,NTP,0000,0000,0000,,Não é muito depois do\Nfim do Torneio, certo?
+Dialogue: Marked=0,0:14:14.12,0:14:17.29,*Default,NTP,0000,0000,0000,,E supondo que aquela\Nera a segunda fase do túnel,
+Dialogue: Marked=0,0:14:17.29,0:14:22.23,*Default,NTP,0000,0000,0000,,então ele começou a ser aberto\Nimediatamente após o Torneio.
+Dialogue: Marked=0,0:14:25.80,0:14:29.07,*Default,NTP,0000,0000,0000,,É Koenma-sama outra vez...
+Dialogue: Marked=0,0:14:29.07,0:14:32.74,*Default,NTP,0000,0000,0000,,O buraco ligando ao Makai\Nestá se abrindo numa velocidade incrível!
+Dialogue: Marked=0,0:14:32.74,0:14:34.12,*Default,NTP,0000,0000,0000,,Se continuar nesse ritmo,
+Dialogue: Marked=0,0:14:34.44,0:14:38.08,*Default,NTP,0000,0000,0000,,ele vai alcançar a fase final\Nem três semanas, no máximo!
+Dialogue: Marked=0,0:14:38.08,0:14:39.64,*Default,NTP,0000,0000,0000,,Três semanas?!
+Dialogue: Marked=0,0:14:40.41,0:14:43.68,P!,NTP,0000,0000,0000,,Em três semanas, todos,\Naté os youkais de classe B,
+Dialogue: Marked=0,0:14:43.68,0:14:49.22,P!,NTP,0000,0000,0000,,que é a classe de Toguro, serão\Ncapazes de transitar pelo Ningenkai!
+Dialogue: Marked=0,0:14:50.42,0:14:55.09,*Default,NTP,0000,0000,0000,,Tem algum jeito de impedir isso?!\NAlgum jeito de fechar o buraco?!
+Dialogue: Marked=0,0:14:55.09,0:14:59.77,*Default,NTP,0000,0000,0000,,A única forma...\Né derrotando o conjurador do buraco.
+Dialogue: Marked=0,0:14:59.77,0:15:01.43,*Default,NTP,0000,0000,0000,,Essa é a cidade Mushiyori.
+Dialogue: Marked=0,0:15:03.44,0:15:07.34,*Default,NTP,0000,0000,0000,,A distorção espacial está\Nem 1,3 quilômetros atualmente.
+Dialogue: Marked=0,0:15:08.11,0:15:09.98,*Default,NTP,0000,0000,0000,,Deveria ser dois quilômetros.
+Dialogue: Marked=0,0:15:09.98,0:15:15.11,*Default,NTP,0000,0000,0000,,Uma vez alcançado esse tamanho,\Nele não pode mais ser fechado.
+Dialogue: Marked=0,0:15:15.11,0:15:18.02,*Default,NTP,0000,0000,0000,,Deve haver um conjurador no centro do buraco,
+Dialogue: Marked=0,0:15:18.02,0:15:20.83,*Default,NTP,0000,0000,0000,,onde o espaço começa a se distorcer!
+Dialogue: Marked=0,0:15:21.79,0:15:23.62,*Default,NTP,0000,0000,0000,,O centro do buraco, hein?
+Dialogue: Marked=0,0:15:23.62,0:15:25.79,*Default,NTP,0000,0000,0000,,Assim que soubermos a localização, ele é todo nosso!
+Dialogue: Marked=0,0:15:25.79,0:15:29.06,*Default,NTP,0000,0000,0000,,Vamos imediatamente acabar com\Nos caras que estão abrindo esse buraco!
+Dialogue: Marked=0,0:15:29.06,0:15:30.73,*Default,NTP,0000,0000,0000,,Só um minuto, Yusuke!
+Dialogue: Marked=0,0:15:30.73,0:15:34.60,*Default,NTP,0000,0000,0000,,Vocês aí, vão na frente! Vocês devem\Nser familiarizados com a área, certo?
+Dialogue: Marked=0,0:15:38.74,0:15:41.41,*Default,NTP,0000,0000,0000,,Ei!\NPor que você fez aquilo, sua velha?!
+Dialogue: Marked=0,0:15:41.41,0:15:45.41,*Default,NTP,0000,0000,0000,,Essa sua cabeça nem imagina o\Nsignificado do verbo "reconsiderar"?!
+Dialogue: Marked=0,0:15:45.41,0:15:48.75,*Default,NTP,0000,0000,0000,,Você devia mandar\Nseu cérebro para o conserto!
+Dialogue: Marked=0,0:15:48.75,0:15:52.09,*Default,NTP,0000,0000,0000,,Vocês estão pensando em ir atrás do\Ninimigo sem saber quais habilidades eles têm,
+Dialogue: Marked=0,0:15:52.09,0:15:55.76,*Default,NTP,0000,0000,0000,,cometendo os mesmos erros que cometeram aqui?
+Dialogue: Marked=0,0:15:55.76,0:16:00.25,*Default,NTP,0000,0000,0000,,Por que você acha que passamos\Npor uma situação dessas, idiota?!
+Dialogue: Marked=0,0:16:00.43,0:16:04.10,*Default,NTP,0000,0000,0000,,Mas se ficarmos parados,\Naquele buraco vai ficar mais largo!
+Dialogue: Marked=0,0:16:04.10,0:16:06.10,*Default,NTP,0000,0000,0000,,É, Urameshi tem razão!
+Dialogue: Marked=0,0:16:06.10,0:16:09.10,*Default,NTP,0000,0000,0000,,Ainda temos três semanas.
+Dialogue: Marked=0,0:16:09.10,0:16:11.40,*Default,NTP,0000,0000,0000,,Quantos são os inimigos?
+Dialogue: Marked=0,0:16:11.40,0:16:15.78,*Default,NTP,0000,0000,0000,,Quem é o chefe?\NQuais são suas habilidades?
+Dialogue: Marked=0,0:16:15.78,0:16:20.78,*Default,NTP,0000,0000,0000,,Temos que saber essas respostas antes de qualquer coisa.
+Dialogue: Marked=0,0:16:20.78,0:16:25.79,*Default,NTP,0000,0000,0000,,Koenma, eu tenho algo para te perguntar também.
+Dialogue: Marked=0,0:16:25.79,0:16:28.12,*Default,NTP,0000,0000,0000,,Em qual classe eu estou agora?
+Dialogue: Marked=0,0:16:28.12,0:16:29.39,*Default,NTP,0000,0000,0000,,Hiei!
+Dialogue: Marked=0,0:16:29.39,0:16:34.95,*Default,NTP,0000,0000,0000,,Me responda!\NEm que classe estou para o Reikai?
+Dialogue: Marked=0,0:16:37.40,0:16:42.89,*Default,NTP,0000,0000,0000,,Atualmente, você está\Nna média dos youkais da classe B.
+Dialogue: Marked=0,0:16:43.74,0:16:49.54,N!,NTP,0000,0000,0000,,Ototo: Mais novo
+Dialogue: Marked=0,0:16:43.74,0:16:47.54,*Default,NTP,0000,0000,0000,,O Ototo Toguro era um dos\Nmais fortes youkais da classe B.
+Dialogue: Marked=0,0:16:49.41,0:16:51.41,*Default,NTP,0000,0000,0000,,Você me subestima!
+Dialogue: Marked=0,0:16:51.41,0:16:55.35,*Default,NTP,0000,0000,0000,,Eu deveria te dizer que\Nquando você lutou contra Yusuke,
+Dialogue: Marked=0,0:16:55.35,0:16:58.75,*Default,NTP,0000,0000,0000,,você era um mero youkai classe D.
+Dialogue: Marked=0,0:16:58.75,0:17:01.59,*Default,NTP,0000,0000,0000,,E apenas no meio ano que se passou,
+Dialogue: Marked=0,0:17:01.59,0:17:04.98,*Default,NTP,0000,0000,0000,,sua percepção de luta não perde\Nem nada para a de uma raposa.
+Dialogue: Marked=0,0:17:05.43,0:17:08.62,*Default,NTP,0000,0000,0000,,Putz.\NEssa é sua idéia de elogio?
+Dialogue: Marked=0,0:17:09.76,0:17:11.10,*Default,NTP,0000,0000,0000,,Hiei!
+Dialogue: Marked=0,0:17:11.10,0:17:15.44,*Default,NTP,0000,0000,0000,,O que acontece no Ningenkai não diz respeito a mim.
+Dialogue: Marked=0,0:17:15.44,0:17:17.77,*Default,NTP,0000,0000,0000,,Espere um pouco, Hiei!
+Dialogue: Marked=0,0:17:17.77,0:17:20.21,*Default,NTP,0000,0000,0000,,Você pode fazer o que\Nquiser daqui pra frente.
+Dialogue: Marked=0,0:17:20.21,0:17:22.88,*Default,NTP,0000,0000,0000,,Não tenho nenhuma intenção\Nde interferir em seus planos.
+Dialogue: Marked=0,0:17:22.88,0:17:25.78,*Default,NTP,0000,0000,0000,,Nem pretendo te ajudar.
+Dialogue: Marked=0,0:17:25.78,0:17:29.72,*Default,NTP,0000,0000,0000,,Maldito!\NVocê está falando sério?
+Dialogue: Marked=0,0:17:29.72,0:17:32.97,*Default,NTP,0000,0000,0000,,Sim.\NVou voltar para o Makai.
+Dialogue: Marked=0,0:17:34.72,0:17:39.13,*Default,NTP,0000,0000,0000,,Droga! Bem, isso não é nada\Ndiferente do que eu pensava sobre ele!
+Dialogue: Marked=0,0:17:39.13,0:17:42.73,*Default,NTP,0000,0000,0000,,Ele sempre foi esse tipo de cara.
+Dialogue: Marked=0,0:17:42.73,0:17:47.73,*Default,NTP,0000,0000,0000,,Ele vai aparecer assim que nós\Nnão pudermos fazer mais nada sozinhos.
+Dialogue: Marked=0,0:17:47.73,0:17:50.17,*Default,NTP,0000,0000,0000,,Ele está apenas indeciso no que fazer.
+Dialogue: Marked=0,0:17:50.17,0:17:52.41,*Default,NTP,0000,0000,0000,,Então a aproximação do Makai...
+Dialogue: Marked=0,0:17:52.41,0:17:55.81,*Default,NTP,0000,0000,0000,,não está causando efeitos somente nos humanos.
+Dialogue: Marked=0,0:17:56.41,0:17:59.32,*Default,NTP,0000,0000,0000,,Talvez devêssemos ter colocado ele\Njunto com os melhores youkais de classe B...
+Dialogue: Marked=0,0:17:59.75,0:18:02.58,*Default,NTP,0000,0000,0000,,Que nada, talvez ele devesse\Nficar numa posição ainda maior...
+Dialogue: Marked=0,0:18:03.08,0:18:06.14,P!,NTP,0000,0000,0000,,Você não está classificando enguias aqui, sabia?
+Dialogue: Marked=0,0:18:06.75,0:18:09.09,*Default,NTP,0000,0000,0000,,Então, o que vamos fazer agora?
+Dialogue: Marked=0,0:18:09.09,0:18:15.76,*Default,NTP,0000,0000,0000,,Não vamos fazer nada até o dia amanhecer.\NPrecisamos da ajuda desses caras também.
+Dialogue: Marked=0,0:18:15.76,0:18:16.59,*Default,NTP,0000,0000,0000,,Vocês vão fazer isso por nós?
+Dialogue: Marked=0,0:18:17.10,0:18:18.33,*Default,NTP,0000,0000,0000,,Claro que vamos.
+Dialogue: Marked=0,0:18:18.33,0:18:20.70,*Default,NTP,0000,0000,0000,,Você acha que vamos ficar sentados...
+Dialogue: Marked=0,0:18:20.70,0:18:22.77,*Default,NTP,0000,0000,0000,,esperando acontecer o pior com nossa cidade?
+Dialogue: Marked=0,0:18:22.77,0:18:25.20,*Default,NTP,0000,0000,0000,,Agora que nós temos essas habilidades,
+Dialogue: Marked=0,0:18:25.20,0:18:29.10,*Default,NTP,0000,0000,0000,,que podem ser usadas tanto pelo Makai\Nquanto para defender o Ningenkai,
+Dialogue: Marked=0,0:18:29.41,0:18:31.04,*Default,NTP,0000,0000,0000,,qual você acha que vamos escolher?
+Dialogue: Marked=0,0:18:31.04,0:18:35.38,*Default,NTP,0000,0000,0000,,Podendo escolher, preferimos defender o Ningenkai.
+Dialogue: Marked=0,0:18:35.38,0:18:40.39,*Default,NTP,0000,0000,0000,,Muito bem!\NPor enquanto, durmam bem.
+Dialogue: Marked=0,0:18:40.39,0:18:42.22,*Default,NTP,0000,0000,0000,,Amanhã de manhã,\Nvamos nos dividir em dois times...
+Dialogue: Marked=0,0:18:42.22,0:18:44.72,*Default,NTP,0000,0000,0000,,e dar uma sondada nas condições da cidade.
+Dialogue: Marked=0,0:18:44.72,0:18:49.40,*Default,NTP,0000,0000,0000,,Seja qual for a situação, evitem\Ncometer ações impensadas por conta própria.
+Dialogue: Marked=0,0:18:49.40,0:18:51.56,*Default,NTP,0000,0000,0000,,Você quer dizer para nós\Ntodos passarmos a noite aqui?!
+Dialogue: Marked=0,0:18:51.56,0:18:53.77,*Default,NTP,0000,0000,0000,,Mas sou tão delicado!
+Dialogue: Marked=0,0:18:53.77,0:18:56.07,*Default,NTP,0000,0000,0000,,Não consigo dormir sem meu travesseiro...
+Dialogue: Marked=0,0:18:56.07,0:18:58.74,*Default,NTP,0000,0000,0000,,Que tal nós dois dormirmos juntinhos, Botan-chan?
+Dialogue: Marked=0,0:18:58.74,0:19:02.54,*Default,NTP,0000,0000,0000,,Seu idiota!
+Dialogue: Marked=0,0:19:12.42,0:19:14.08,*Default,NTP,0000,0000,0000,,Itsuki...
+Dialogue: Marked=0,0:19:19.76,0:19:21.45,*Default,NTP,0000,0000,0000,,É você, Sensui?
+Dialogue: Marked=0,0:19:23.43,0:19:26.10,*Default,NTP,0000,0000,0000,,Existe um obstáculo.
+Dialogue: Marked=0,0:19:26.10,0:19:27.77,*Default,NTP,0000,0000,0000,,Um obstáculo?
+Dialogue: Marked=0,0:19:27.77,0:19:29.37,*Default,NTP,0000,0000,0000,,Dentro do espaço\Nque funciona como a divisa...
+Dialogue: Marked=0,0:19:29.37,0:19:31.04,*Default,NTP,0000,0000,0000,,entre o Makai e o Ningenkai,
+Dialogue: Marked=0,0:19:31.04,0:19:34.37,*Default,NTP,0000,0000,0000,,existe um poderoso campo periférico.
+Dialogue: Marked=0,0:19:34.37,0:19:39.38,*Default,NTP,0000,0000,0000,,Com a minha habilidade, sou capaz\Nde abrir portais para outras dimensões.
+Dialogue: Marked=0,0:19:39.38,0:19:42.72,*Default,NTP,0000,0000,0000,,Porém, não posso quebrar um campo periférico.
+Dialogue: Marked=0,0:19:42.72,0:19:48.55,*Default,NTP,0000,0000,0000,,Vamos precisar de alguém que\Npossa anular o campo periférico nesse espaço.
+Dialogue: Marked=0,0:19:50.39,0:19:54.56,*Default,NTP,0000,0000,0000,,Alguém com a habilidade de\Natravessar dimensões, hein? Muito bem.
+Dialogue: Marked=0,0:19:54.56,0:19:57.06,*Default,NTP,0000,0000,0000,,Vou encontrar alguém assim.
+Dialogue: Marked=0,0:19:57.06,0:20:01.47,*Default,NTP,0000,0000,0000,,Enquanto eu estiver fora cuidando\Ndaqueles que interferem em nossos planos...
+Dialogue: Marked=0,0:20:13.41,0:20:14.84,*Default,NTP,0000,0000,0000,,Puu-chan!
+Dialogue: Marked=0,0:20:19.42,0:20:21.35,*Default,NTP,0000,0000,0000,,Qual o problema, Puu-chan?
+Dialogue: Marked=0,0:20:47.71,0:20:49.95,*Default,NTP,0000,0000,0000,,Aquele não era Puu-chan?
+Dialogue: Marked=0,0:20:51.38,0:20:53.37,*Default,NTP,0000,0000,0000,,Keiko-chan!
+Dialogue: Marked=0,0:20:54.05,0:20:59.39,*Default,NTP,0000,0000,0000,,Shizuru-san! Ouvi dizer que\NYusuke não voltou para casa ontem,
+Dialogue: Marked=0,0:20:59.39,0:21:01.39,*Default,NTP,0000,0000,0000,,e Puu estava pressentindo algo terrível!
+Dialogue: Marked=0,0:21:01.39,0:21:04.96,*Default,NTP,0000,0000,0000,,Kazuma também não voltou para casa.
+Dialogue: Marked=0,0:21:06.73,0:21:08.67,*Default,NTP,0000,0000,0000,,Será que devemos procurar por eles, Keiko-chan?
+Dialogue: Marked=0,0:21:08.67,0:21:13.41,*Default,NTP,0000,0000,0000,,É provável que ele saiba onde\NYusuke-kun e os outros estão.
+Dialogue: Marked=0,0:21:13.41,0:21:14.13,*Default,NTP,0000,0000,0000,,É!
+Dialogue: Marked=0,0:21:18.74,0:21:20.41,*Default,NTP,0000,0000,0000,,Qual o problema, Shizuru-san?
+Dialogue: Marked=0,0:21:20.41,0:21:21.81,*Default,NTP,0000,0000,0000,,Tenho um mau pressentimento sobre isso.
+Dialogue: Marked=0,0:21:21.81,0:21:26.37,*Default,NTP,0000,0000,0000,,Acho que tem algo terrível nos esperando.
+Dialogue: Marked=0,0:21:28.09,0:21:29.33,P!,NTP,0000,0000,0000,,Yusuke...
+Dialogue: Marked=0,0:21:47.18,0:21:49.78,Conversa,NTP,0000,0000,0000,!Effect,Graças aos efeitos da\Nabertura do buraco para o Makai,
+Dialogue: Marked=0,0:21:49.78,0:21:53.75,Conversa,NTP,0000,0000,0000,!Effect,existem pessoas surgindo\Nem todas as partes com habilidades especiais.
+Dialogue: Marked=0,0:21:53.75,0:21:59.86,Conversa,NTP,0000,0000,0000,!Effect,Droga! Desse jeito, não tem como\Ndistinguir aliados e inimigos!
+Dialogue: Marked=0,0:21:59.86,0:22:02.56,Conversa,NTP,0000,0000,0000,!Effect,De qualquer forma,\Ntemos que fechar aquele buraco rapidamente,
+Dialogue: Marked=0,0:22:02.56,0:22:04.50,Conversa,NTP,0000,0000,0000,!Effect,ou só vai sobrar monstros por aí!
+Dialogue: Marked=0,0:22:05.30,0:22:09.32,Conversa,NTP,0000,0000,0000,!Effect,Próximo episódio:\N"Enviados do Makai! Sete Inimigos!"
+Dialogue: Marked=0,0:22:09.64,0:22:11.43,Conversa,NTP,0000,0000,0000,!Effect,Não conheci o outro mundo por querer!

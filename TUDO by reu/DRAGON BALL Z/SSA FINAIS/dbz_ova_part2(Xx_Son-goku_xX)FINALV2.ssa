@@ -1,0 +1,216 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+Title: <untitled>
+Original Script: <unknown>
+ScriptType: v4.00
+Collisions: Normal
+PlayResY: 600
+PlayDepth: 0
+Timer: 100,0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Radio,Gorilla BT,40,16119285,16777215,16777215,-2147483640,1,1,1,2,2,2,30,30,20,0,0
+Style: Narrador,Gorilla BT,40,16768443,16777215,16777215,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: P!,Gorilla BT,40,14145535,&HFF00FFFF,&HFF000000,&HFF110066,1,0,1,2,2,2,30,30,20,0,0
+Style: L!,Gorilla BT,40,15007690,&HFF00FFFF,&HFF000000,-2147483640,1,0,1,2,2,2,30,30,20,0,0
+Style: Poder,TimeScrDMed,50,65535,255,4194368,4194368,-1,-1,1,2,0,2,0,30,20,0,0
+Style: N!,MarkerFeltThin-Plain,30,16777215,12632256,16711680,-2147483640,-1,0,1,3,2,6,30,30,20,0,0
+Style: logokintoun,BranchingMouse Becker,42,13619151,3421353,4194368,12615808,-1,-1,1,2,0,5,0,30,0,0,0
+Style: apresDBZ2,BranchingMouse Becker,60,13619151,255,4194368,0,-1,0,1,2,0,2,0,30,30,0,0
+Style: comercial2,Cancun,70,2930687,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: comercial3,Cancun,70,600570,255,4194368,-2147483640,-1,0,1,2,0,6,0,0,15,0,0
+Style: comercial4,dbz,38,20466,255,4194368,-2147483640,-1,0,1,3,0,6,0,0,15,0,0
+Style: titulo,Gorilla BT,40,7353,&HFF00FFFF,&HFF000000,16777215,1,0,1,3,2,2,30,30,20,0,0
+Style: apresDBZ2,Cancun,70,5225722,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+Style: apresDBZ3,Cancun,70,2371529,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+Style: apresDBZ4,dbz,40,3239156,255,4194368,-2147483640,-1,0,1,5,0,6,0,0,15,0,0
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:00.48,0:02:10.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:07:52.48,0:08:02.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:12:59.61,0:13:09.61,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:20:15.48,0:20:25.48,logokintoun,,0000,0000,0000,Karaoke,{\org(320,15)}{\t(9500,10000,\frx720\fscy105\be1\fscx40\fscy40\1a&hff&\3a&hff&\4a&hff&}{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(0,300,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}#K{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(300,600,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}i{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(600,900,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}n{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(900,1200,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}t{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1200,1500,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}o{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1500,1800,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}u{\1a&HFF&\2a&HFF&\3a&HFF&\4a&HFF&\t(1800,2100,\1a&H62&\2a&H62&\3a&H62&\4a&H62&}N
+Dialogue: Marked=0,0:00:32.20,0:00:35.91,Narrador,NTP,0000,0000,0000,!Effect,A quantidade do terrível gás, chamado Gás Destron,
+Dialogue: Marked=0,0:00:35.94,0:00:38.24,Narrador,NTP,0000,0000,0000,!Effect,que está destruindo todos o seres vivos, está aumentando na Terra.
+Dialogue: Marked=0,0:00:38.32,0:00:43.05,Narrador,NTP,0000,0000,0000,!Effect,No esforço para eliminar o Gás Destron, Dende pediu...
+Dialogue: Marked=0,0:00:43.95,0:00:47.90,Narrador,NTP,0000,0000,0000,!Effect,para Goku destruir os geradores do gás.
+Dialogue: Marked=0,0:01:10.92,0:01:20.38,Narrador,NTP,0000,0000,0000,!Effect,Goku e os outros conseguiram destruir todos os geradores, com exceção do último.
+Dialogue: Marked=0,0:01:40.22,0:01:43.76,Narrador,NTP,0000,0000,0000,!Effect,Então, o Kaio-sama, da Galáxia do Norte,
+Dialogue: Marked=0,0:01:44.30,0:01:48.43,Narrador,NTP,0000,0000,0000,!Effect,informou a Goku que tudo isso estava sendo causado por...
+Dialogue: Marked=0,0:01:48.75,0:01:58.35,Narrador,NTP,0000,0000,0000,!Effect,um cientista Tsufuru-jin, que teve seu planeta tomado pelos Saiya-jins.
+Dialogue: Marked=0,0:01:58.92,0:02:08.38,Narrador,NTP,0000,0000,0000,!Effect,Dr. Raichi estava tentando destruir a Terra para se vingar dos Saiya-jins.
+Dialogue: Marked=0,0:02:09.27,0:02:12.99,Narrador,NTP,0000,0000,0000,!Effect,Descobrindo que a causa do mal está no espaço,
+Dialogue: Marked=0,0:02:13.10,0:02:17.52,Narrador,NTP,0000,0000,0000,!Effect,Goku e os outros obtiveram uma jóia chamada...
+Dialogue: Marked=0,0:02:17.52,0:02:23.27,Narrador,NTP,0000,0000,0000,!Effect,Gekinmun e, na Ilha Bunbuku, construíram uma nave espacial.
+Dialogue: Marked=0,0:02:24.02,0:02:29.59,Narrador,NTP,0000,0000,0000,!Effect,Logo depois, eles foram para O Planeta Escuro, para derrotar Dr. Raichi.
+
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ3,,0000,0000,0000,,{\fad(1000,1000)\fscx73\fscy63\pos(610,145)}APRESENTA ******** ARRUMAR OS TIMINGS/FAD DISSO AQUI
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ2,,0000,0000,0000,,{\fad(1000,1000)\fscx110\fscy90\pos(550,90)}KINT
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ2,,0000,0000,0000,,{\fad(1000,1000)\fscx110\fscy90\pos(685,90)}UN
+Dialogue: Marked=0,0:01:20.40,0:01:28.35,apresDBZ4,,0000,0000,0000,,{\fad(1000,1000)\fscx85\fscy85\pos(630,110)}O
+
+Dialogue: Marked=0,0:02:31.02,0:02:37.59,titulo,NTP,0000,0000,0000,!Effect,{\fad(1000,1000)}{\pos(350,455)}{\fscx130\fscy105}O Plano para Destruir os Saiya-jins - Parte 2 ******** ARRUMAR OS TIMINGS/FAD/POS DISSO AQUI
+
+Dialogue: Marked=0,0:03:10.32,0:03:13.15,Default,NTP,0000,0000,0000,!Effect,Aquilo parace o Planeta Escuro!
+Dialogue: Marked=0,0:03:20.34,0:03:21.23,Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:03:22.40,0:03:27.92,Default,NTP,0000,0000,0000,!Effect,Planeta Escuro?
+Dialogue: Marked=0,0:03:44.27,0:03:45.84,Default,NTP,0000,0000,0000,!Effect,O-O que está acontecendo?
+Dialogue: Marked=0,0:03:54.43,0:03:59.91,Default,NTP,0000,0000,0000,!Effect,{\fad(600,600)\pos(400,480)}Anel do Break-Evil
+Dialogue: Marked=0,0:04:06.96,0:04:11.99,Default,NTP,0000,0000,0000,!Effect,{\fad(600,600)\pos(400,480)}Pérola do Break-Evil
+Dialogue: Marked=0,0:04:14.03,0:04:17.26,Default,NTP,0000,0000,0000,!Effect,Goku e os outros conseguiram sobreviver à tempestade espacial...
+Dialogue: Marked=0,0:04:17.26,0:04:20.26,Default,NTP,0000,0000,0000,!Effect,E, ao chegar no Planeta Escuro com ajuda do Kaio-sama,
+Dialogue: Marked=0,0:04:23.49,0:04:27.26,Default,NTP,0000,0000,0000,!Effect,eles chegaram no Planeta Escuro.
+Dialogue: Marked=0,0:04:27.72,0:04:33.22,Default,NTP,0000,0000,0000,!Effect,Lá, foram informados que o Dr.Raichi estava no controle central do Castelo do Mal.
+Dialogue: Marked=0,0:04:33.22,0:04:36.31,Default,NTP,0000,0000,0000,!Effect,Em seguida, continuaram sua procura.
+Dialogue: Marked=0,0:04:37.96,0:04:42.44,Default,NTP,0000,0000,0000,!Effect,Eu não deixarei vocês irem aonde Raichi-sama está! Aqui será o túmulo de vocês!
+Dialogue: Marked=0,0:05:14.80,0:05:19.45,Default,NTP,0000,0000,0000,!Effect,Não temos muito tempo agora. Temos que achar o Dr. Raichi rápido.
+Dialogue: Marked=0,0:05:19.95,0:05:20.63,Default,NTP,0000,0000,0000,!Effect,Kakarotto...
+Dialogue: Marked=0,0:05:22.83,0:05:28.24,Default,NTP,0000,0000,0000,!Effect,Vou deixar você tomar conta desse verme. Mas, lembre-se! Eu que vou matar o Dr. Raichi!
+Dialogue: Marked=0,0:05:53.87,0:05:55.61,Default,NTP,0000,0000,0000,!Effect,Son-kun, por favor, rápido!
+Dialogue: Marked=0,0:06:11.68,0:06:13.43,Default,NTP,0000,0000,0000,!Effect,Nossa! Que lugar grande!
+Dialogue: Marked=0,0:06:18.58,0:06:19.29,Default,NTP,0000,0000,0000,!Effect,O que é isso?
+Dialogue: Marked=0,0:06:53.96,0:06:56.98,Default,NTP,0000,0000,0000,!Effect,Dr. Raichi! Você tem que estar aqui!
+Dialogue: Marked=0,0:06:57.69,0:06:58.26,Default,NTP,0000,0000,0000,!Effect,Apareça!
+Dialogue: Marked=0,0:07:04.95,0:07:07.44,Default,NTP,0000,0000,0000,!Effect,Saiya-jins, bem-vindos.
+Dialogue: Marked=0,0:07:09.60,0:07:12.48,Default,NTP,0000,0000,0000,!Effect,Nunca pensei que vocês chegariam tão longe. Darei meus parabéns por isso.
+Dialogue: Marked=0,0:07:13.66,0:07:15.57,Default,NTP,0000,0000,0000,!Effect,Sim, sou o Dr. Raichi.
+Dialogue: Marked=0,0:07:16.18,0:07:21.91,Default,NTP,0000,0000,0000,!Effect,Conforme  eu tinha planejado, os últimos Saiya-jins vivos estão todos aqui.
+Dialogue: Marked=0,0:07:22.40,0:07:28.24,Default,NTP,0000,0000,0000,!Effect,Isso deve ser pelo fato de que os Saiya-jins não compreenderem nada além de lutar.
+Dialogue: Marked=0,0:07:29.31,0:07:29.84,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:07:31.40,0:07:33.21,Default,NTP,0000,0000,0000,!Effect,Você deve ser o Príncipe Vegeta.
+Dialogue: Marked=0,0:07:33.78,0:07:38.16,Default,NTP,0000,0000,0000,!Effect,Você logo sentirá a minha raiva pelo seu pai, Rei Vegeta.
+Dialogue: Marked=0,0:07:38.65,0:07:42.67,Default,NTP,0000,0000,0000,!Effect,Me vingarei com todo o meu ódio.
+Dialogue: Marked=0,0:07:44.52,0:07:46.23,Default,NTP,0000,0000,0000,!Effect,Então vamos ver se você consegue!
+Dialogue: Marked=0,0:07:57.46,0:07:58.53,Default,NTP,0000,0000,0000,!Effect,Agora é a hora da vingança.
+Dialogue: Marked=0,0:07:58.60,0:08:01.59,Default,NTP,0000,0000,0000,!Effect,Nós esperamos este momento por muito tempo...
+Dialogue: Marked=0,0:08:03.19,0:08:09.02,Default,NTP,0000,0000,0000,!Effect,Vamos levar a honra dos Tsufuru-jins, que acabarão com os Saiya-jins!
+Dialogue: Marked=0,0:08:11.61,0:08:14.69,Default,NTP,0000,0000,0000,!Effect,Nós, Tsufuru-jins, tentamos ajudar os Saiya-jins.
+Dialogue: Marked=0,0:08:14.76,0:08:17.41,Default,NTP,0000,0000,0000,!Effect,E tudo o que eles nos deram de volta foi morte e destruição.
+Dialogue: Marked=0,0:08:19.65,0:08:25.27,Default,NTP,0000,0000,0000,!Effect,Nunca perdoarei os Saiya-jins por tudo que fizeram conosco, até mesmo se Deus os perdoar.
+Dialogue: Marked=0,0:08:26.87,0:08:28.23,Default,NTP,0000,0000,0000,!Effect,O que você está falando?
+Dialogue: Marked=0,0:08:28.56,0:08:31.67,Default,NTP,0000,0000,0000,!Effect,Você tratou nossos antepassados Saiya-jins como escravos!
+Dialogue: Marked=0,0:08:32.88,0:08:36.11,Default,NTP,0000,0000,0000,!Effect,Vocês, Tsufuru-jins, são uma raça que não se pode perdoar!
+Dialogue: Marked=0,0:08:37.18,0:08:40.73,Default,NTP,0000,0000,0000,!Effect,Como diz o ditado:\N"Ladrões têm suas próprias razões."
+Dialogue: Marked=0,0:08:51.01,0:08:53.05,Default,NTP,0000,0000,0000,!Effect,Subjugado na briga com os Saiya-jins...
+Dialogue: Marked=0,0:08:53.34,0:08:56.27,Default,NTP,0000,0000,0000,!Effect,Os Tsufuru-jins estavam no perigo da exterminação total.
+Dialogue: Marked=0,0:08:56.97,0:09:00.52,Default,NTP,0000,0000,0000,!Effect,No meio do caos, eu, como o melhor cientista entre o Tsufuru-jins,
+Dialogue: Marked=0,0:09:00.52,0:09:03.25,Default,NTP,0000,0000,0000,!Effect,construí uma máquina que poderia ampliar a energia de ódio: Hatchhyack.
+Dialogue: Marked=0,0:09:03.40,0:09:05.88,Default,NTP,0000,0000,0000,!Effect,Hatchhyack, a última criação, estava completa.
+Dialogue: Marked=0,0:09:06.30,0:09:10.98,Default,NTP,0000,0000,0000,!Effect,Com ela, pude juntar e ampliar a energia do ódio dentro dos Tsufuru-jins.
+Dialogue: Marked=0,0:09:10.98,0:09:14.30,Default,NTP,0000,0000,0000,!Effect,Isso se transformou em uma criatura viva com...
+Dialogue: Marked=0,0:09:14.30,0:09:17.59,Default,NTP,0000,0000,0000,!Effect,vontade própria e que pode criar muitos Guerreiros Fantasmas.
+Dialogue: Marked=0,0:09:17.69,0:09:21.69,Default,NTP,0000,0000,0000,!Effect,Seria a última máquina que poderia destruir os Saiya-jins...
+Dialogue: Marked=0,0:09:22.62,0:09:29.94,Default,NTP,0000,0000,0000,!Effect,Mas precisei de tempo para a Hatchhyack colecionar a energia de ódio.
+Dialogue: Marked=0,0:09:30.55,0:09:34.21,Default,NTP,0000,0000,0000,!Effect,Os Saiya-jins finalmente avançaram lentamente me procurando.
+Dialogue: Marked=0,0:09:34.67,0:09:40.32,Default,NTP,0000,0000,0000,!Effect,Tentei correr em uma nave espacial com a Hatchhyack...
+Dialogue: Marked=0,0:09:40.93,0:09:42.96,Default,NTP,0000,0000,0000,!Effect,Mas, antes do lançamento, eu estava...
+Dialogue: Marked=0,0:09:44.31,0:09:50.07,Default,NTP,0000,0000,0000,!Effect,Mesmo agora, é uma vergonha quando penso nisso. Fui morto por um Saiya-jin!
+Dialogue: Marked=0,0:09:53.87,0:10:00.54,Default,NTP,0000,0000,0000,!Effect,A nave espacial foi lançada do Planeta Vegeta,
+Dialogue: Marked=0,0:10:00.65,0:10:03.78,Default,NTP,0000,0000,0000,!Effect,com meu ódio intenso pelos Saiya-jins.
+Dialogue: Marked=0,0:10:04.49,0:10:06.61,Default,NTP,0000,0000,0000,!Effect,A nave aterrissou no cemitério do espaço.
+Dialogue: Marked=0,0:10:07.88,0:10:12.89,Default,NTP,0000,0000,0000,!Effect,Hatchhyack continuou se desenvolvendo em uma criatura viva.
+Dialogue: Marked=0,0:10:20.22,0:10:23.46,Default,NTP,0000,0000,0000,!Effect,Freeza e os outros, que atacaram vocês,
+Dialogue: Marked=0,0:10:23.82,0:10:28.18,Default,NTP,0000,0000,0000,!Effect,eram todos Guerreiros Fantasmas criados pela Hatchhyack.
+Dialogue: Marked=0,0:10:28.72,0:10:32.63,Default,NTP,0000,0000,0000,!Effect,Quer dizer que você também é um Guerreiro Fantasma.
+Dialogue: Marked=0,0:10:32.91,0:10:38.56,Default,NTP,0000,0000,0000,!Effect,Sim. Sou o último Guerreiro Fantasma que a Hatchhyack criou.
+Dialogue: Marked=0,0:10:41.80,0:10:45.85,Default,NTP,0000,0000,0000,!Effect,Finalmente é hora de ver meu sonho se tornar realidade, destruir todos Saiya-jins!
+Dialogue: Marked=0,0:10:46.96,0:10:49.23,Default,NTP,0000,0000,0000,!Effect,Eu finalmente ganhei!
+Dialogue: Marked=0,0:11:08.04,0:11:11.91,Default,NTP,0000,0000,0000,!Effect,Vocês não poderão quebrar essa barreira com seus poderes.
+Dialogue: Marked=0,0:11:12.45,0:11:15.04,Default,NTP,0000,0000,0000,!Effect,Farei de vocês fantasmas iguais a nós!
+Dialogue: Marked=0,0:11:23.36,0:11:25.50,Default,NTP,0000,0000,0000,!Effect,É verdade que os Saiya-jins fizeram muitas coisas ruins...
+Dialogue: Marked=0,0:11:26.49,0:11:29.09,Default,NTP,0000,0000,0000,!Effect,Mas seu ódio pelos Saiya-jins é irracional.
+Dialogue: Marked=0,0:11:31.29,0:11:34.64,Default,NTP,0000,0000,0000,!Effect,Você não pode matar todo mundo na Terra com esse tal de Gás Destron!
+Dialogue: Marked=0,0:11:35.67,0:11:37.23,Default,NTP,0000,0000,0000,!Effect,A Terra não tem nada a ver com isso!
+Dialogue: Marked=0,0:11:38.97,0:11:42.96,Default,NTP,0000,0000,0000,!Effect,Cala a boca! Não fale como se você entendesse alguma coisa, Saiya-jin!
+Dialogue: Marked=0,0:11:43.63,0:11:46.16,Default,NTP,0000,0000,0000,!Effect,Não sou um Saiya-jin! Sou um terráqueo!
+Dialogue: Marked=0,0:11:47.36,0:11:50.23,Default,NTP,0000,0000,0000,!Effect,Eu poderia me preocupar menos com os terráqueos,
+Dialogue: Marked=0,0:11:50.23,0:11:53.23,Default,NTP,0000,0000,0000,!Effect,desde que eu possa acabar com os Saiya-jins!
+Dialogue: Marked=0,0:11:53.76,0:11:55.01,Default,NTP,0000,0000,0000,!Effect,O que você falou?
+Dialogue: Marked=0,0:11:55.01,0:11:59.52,Default,NTP,0000,0000,0000,!Effect,Farei qualquer coisa possível para acabar com os Saiya-jins!
+Dialogue: Marked=0,0:12:02.48,0:12:07.24,Default,NTP,0000,0000,0000,!Effect,Eu sou um terráqueo! Não deixarei você destruir a Terra!
+Dialogue: Marked=0,0:12:43.20,0:12:46.30,Poder,NTP,0000,0000,0000,!Effect,KAMEHAME
+Dialogue: Marked=0,0:12:46.88,0:12:49.30,Default,NTP,0000,0000,0000,!Effect,Kakarotto! O Dr. Raichi é meu!
+Dialogue: Marked=0,0:12:49.33,0:12:52.00,Poder,NTP,0000,0000,0000,!Effect,HA
+Dialogue: Marked=0,0:13:00.32,0:13:03.17,Default,NTP,0000,0000,0000,!Effect,Seus malditos Saiya-jins!
+Dialogue: Marked=0,0:13:08.61,0:13:13.05,Default,NTP,0000,0000,0000,!Effect,Malditos Saiya-jins! Seus malditos...
+Dialogue: Marked=0,0:13:21.62,0:13:23.99,Default,NTP,0000,0000,0000,!Effect,Isso é o que você consegue com seu comportamento tolo.
+Dialogue: Marked=0,0:13:24.34,0:13:26.67,Default,NTP,0000,0000,0000,!Effect,Um Tsufuru-jin que se rebela contra os Saiya-jins?!
+Dialogue: Marked=0,0:13:28.31,0:13:29.95,Default,NTP,0000,0000,0000,!Effect,Esse cara...
+Dialogue: Marked=0,0:13:30.85,0:13:34.64,Default,NTP,0000,0000,0000,!Effect,Não sabia que ia ser tão mau com todo esse ódio reunido.
+Dialogue: Marked=0,0:13:35.88,0:13:37.31,Default,NTP,0000,0000,0000,!Effect,Esse pobre homem...
+Dialogue: Marked=0,0:13:38.07,0:13:43.60,Default,NTP,0000,0000,0000,!Effect,Com todo este conhecimento científico, tudo que ele pensava era em vingança.
+Dialogue: Marked=0,0:13:58.49,0:14:04.22,Default,NTP,0000,0000,0000,!Effect,O último gerador de Gás Destron desapareceu da Terra! Ótimo trabalho!
+Dialogue: Marked=0,0:14:04.22,0:14:07.56,Default,NTP,0000,0000,0000,!Effect,Agora a Terra está bem e a paz foi restabelecida!
+Dialogue: Marked=0,0:14:08.16,0:14:11.65,Default,NTP,0000,0000,0000,!Effect,Sério? Legal!
+Dialogue: Marked=0,0:14:46.21,0:14:48.79,Default,NTP,0000,0000,0000,!Effect,Nós somos Guerreiros Fantasmas.
+Dialogue: Marked=0,0:14:49.11,0:14:53.53,Default,NTP,0000,0000,0000,!Effect,Contanto que mantenhamos nosso ódio e a Hatchhyack estiver aqui,
+Dialogue: Marked=0,0:14:53.89,0:14:57.09,Default,NTP,0000,0000,0000,!Effect,nós podemos voltar quantas vezes quisermos!
+Dialogue: Marked=0,0:14:58.44,0:14:59.08,Default,NTP,0000,0000,0000,!Effect,O quê?!
+Dialogue: Marked=0,0:15:07.51,0:15:08.93,Default,NTP,0000,0000,0000,!Effect,Vá para o inferno!
+Dialogue: Marked=0,0:15:12.27,0:15:16.25,Default,NTP,0000,0000,0000,!Effect,Malditos Saiya-jins! Malditos Saiya-jins!
+Dialogue: Marked=0,0:15:30.26,0:15:38.80,Default,NTP,0000,0000,0000,!Effect,Malditos Saiya-jins! Malditos Saiya-jins! Malditos Saiya-jins!
+Dialogue: Marked=0,0:15:40.40,0:15:41.64,Default,NTP,0000,0000,0000,!Effect,Raichi...
+Dialogue: Marked=0,0:15:42.21,0:15:43.67,Default,NTP,0000,0000,0000,!Effect,Saiya-jins...
+Dialogue: Marked=0,0:15:44.06,0:15:45.27,Default,NTP,0000,0000,0000,!Effect,Matar...
+Dialogue: Marked=0,0:16:14.53,0:16:18.73,Default,NTP,0000,0000,0000,!Effect,Droga...\NNunca senti um ki tão forte.
+Dialogue: Marked=0,0:16:19.37,0:16:20.13,Default,NTP,0000,0000,0000,!Effect,Espero que não...
+Dialogue: Marked=0,0:16:31.95,0:16:33.02,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:16:34.80,0:16:38.42,Default,NTP,0000,0000,0000,!Effect,Kaio-sama, por favor, me diga o que está acontecendo!
+Dialogue: Marked=0,0:16:39.45,0:16:42.65,Default,NTP,0000,0000,0000,!Effect,Goku, nós temos problemas.
+Dialogue: Marked=0,0:16:43.22,0:16:47.42,Default,NTP,0000,0000,0000,!Effect,Hatchhyack colecionou a energia do ódio do Dr. Raichi.
+Dialogue: Marked=0,0:16:47.42,0:16:53.82,Default,NTP,0000,0000,0000,!Effect,Era tão forte que foi além do limite de sua própria capacidade.
+Dialogue: Marked=0,0:16:54.28,0:16:55.28,Default,NTP,0000,0000,0000,!Effect,Além do limite?
+Dialogue: Marked=0,0:16:56.24,0:16:58.74,Default,NTP,0000,0000,0000,!Effect,Se Hatchhyack começar a vagar no espaço por vontade própria,
+Dialogue: Marked=0,0:16:58.74,0:17:01.11,Default,NTP,0000,0000,0000,!Effect,será o fim do universo.
+Dialogue: Marked=0,0:17:02.49,0:17:03.42,Default,NTP,0000,0000,0000,!Effect,O quê?
+Dialogue: Marked=0,0:17:05.76,0:17:08.44,Default,NTP,0000,0000,0000,!Effect,Tudo por causa dessa Hatchhyack.
+Dialogue: Marked=0,0:17:09.12,0:17:11.17,Default,NTP,0000,0000,0000,!Effect,Nós temos que nos livrar disso!
+Dialogue: Marked=0,0:17:12.02,0:17:15.61,Default,NTP,0000,0000,0000,!Effect,Não há nenhuma outra maneira, exceto destruir a Hatchhyack!
+Dialogue: Marked=0,0:17:23.83,0:17:25.78,Default,NTP,0000,0000,0000,!Effect,Agora está ficando um pouco mais interessante.
+Dialogue: Marked=0,0:17:45.30,0:17:47.22,Default,NTP,0000,0000,0000,!Effect,O-O que é isso?
+Dialogue: Marked=0,0:18:02.65,0:18:03.47,Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:18:16.59,0:18:17.59,Default,NTP,0000,0000,0000,!Effect,Maldito monstro!
+Dialogue: Marked=0,0:18:19.08,0:18:19.65,Default,NTP,0000,0000,0000,!Effect,Toma isso!
+Dialogue: Marked=0,0:18:19.70,0:18:22.05,Poder,NTP,0000,0000,0000,!Effect,FINAL FLASH ****************************************** EH ESSE NOME MESMO?
+Dialogue: Marked=0,0:18:34.90,0:18:37.21,Default,NTP,0000,0000,0000,!Effect,Isso é impossível!
+Dialogue: Marked=0,0:18:50.51,0:18:51.93,Default,NTP,0000,0000,0000,!Effect,Vegeta! mova-se!
+Dialogue: Marked=0,0:19:08.15,0:19:09.21,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:19:14.62,0:19:15.33,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:19:25.64,0:19:26.85,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:20:09.30,0:20:10.83,Default,NTP,0000,0000,0000,!Effect,P-Piccolo-san!
+Dialogue: Marked=0,0:20:30.99,0:20:32.98,Default,NTP,0000,0000,0000,!Effect,Mova-se! Trunks! Gohan!
+Dialogue: Marked=0,0:20:54.21,0:20:57.62,Default,NTP,0000,0000,0000,!Effect,O poder dele poderia ser maior que o do Brolly! Mas...
+Dialogue: Marked=0,0:21:19.10,0:21:19.88,Default,NTP,0000,0000,0000,!Effect,15!
+Dialogue: Marked=0,0:21:46.05,0:21:47.22,Default,NTP,0000,0000,0000,!Effect,Maldito monstro!
+Dialogue: Marked=0,0:22:03.76,0:22:08.59,Default,NTP,0000,0000,0000,!Effect,G-Gohan... Coma isso... Senzu...
+Dialogue: Marked=0,0:22:12.40,0:22:13.32,Default,NTP,0000,0000,0000,!Effect,Piccolo-san!
+Dialogue: Marked=0,0:22:15.29,0:22:16.16,Default,NTP,0000,0000,0000,!Effect,Gohan...
+Dialogue: Marked=0,0:22:19.01,0:22:21.36,Default,NTP,0000,0000,0000,!Effect,Piccolo-san! Piccolo-san!
+Dialogue: Marked=0,0:22:24.63,0:22:32.41,Default,NTP,0000,0000,0000,!Effect,Gohan... Tem mais três...  Dê aos outros...
+Dialogue: Marked=0,0:22:32.88,0:22:34.76,Default,NTP,0000,0000,0000,!Effect,Pra você também, Piccolo-san!
+Dialogue: Marked=0,0:22:35.83,0:22:40.48,Default,NTP,0000,0000,0000,!Effect,Dê aos outros... Eu ficarei bem...
+Dialogue: Marked=0,0:22:43.36,0:22:47.45,Default,NTP,0000,0000,0000,!Effect,Piccolo-san, Obrigado.
+Dialogue: Marked=0,0:23:16.04,0:23:17.25,Default,NTP,0000,0000,0000,!Effect,Gohan, me desculpe.
+Dialogue: Marked=0,0:23:18.71,0:23:19.84,Default,NTP,0000,0000,0000,!Effect,Isto é do Piccolo-san.
+Dialogue: Marked=0,0:23:21.12,0:23:22.62,Default,NTP,0000,0000,0000,!Effect,Entendo.
+Dialogue: Marked=0,0:23:24.08,0:23:24.79,Default,NTP,0000,0000,0000,!Effect,Vegeta!
+Dialogue: Marked=0,0:24:04.89,0:24:06.67,Default,NTP,0000,0000,0000,!Effect,Nós precisamos salvar a Terra!
+Dialogue: Marked=0,0:24:14.21,0:24:17.66,Default,NTP,0000,0000,0000,!Effect,Agora é nossa chance! Vegeta! Trunks! Gohan! Saiam do caminho!
+Dialogue: Marked=0,0:24:17.70,0:24:21.97,Default,NTP,0000,0000,0000,!Effect,Maldição! Um Saiya-jin nunca será derrotado por Tsufuru-jin!
+Dialogue: Marked=0,0:24:27.76,0:24:28.43,Default,NTP,0000,0000,0000,!Effect,Goku-san!
+Dialogue: Marked=0,0:24:29.68,0:24:30.32,Default,NTP,0000,0000,0000,!Effect,Papai!
+Dialogue: Marked=0,0:24:31.24,0:24:31.81,Default,NTP,0000,0000,0000,!Effect,Por favor...
+Dialogue: Marked=0,0:24:46.26,0:24:47.45,Default,NTP,0000,0000,0000,!Effect,Atire!
+Dialogue: Marked=0,0:24:48.00,0:24:50.30,Poder,NTP,0000,0000,0000,!Effect,SUPER KAMEHAMEHA ****************************************** EH ESSE NOME MESMO?
+Dialogue: Marked=0,0:26:22.49,0:26:24.52,Default,NTP,0000,0000,0000,!Effect,Goku, você fez um ótimo trabalho!
+Dialogue: Marked=0,0:26:26.08,0:26:30.14,Narrador,NTP,0000,0000,0000,!Effect,Graça aos Guerreiros Z, a Terra voltou a ser verde novamente.
+Dialogue: Marked=0,0:26:30.74,0:26:35.47,Narrador,NTP,0000,0000,0000,!Effect,Todos na Terra estão cheios de vida.
+Dialogue: Marked=0,0:26:36.54,0:26:39.27,Default,NTP,0000,0000,0000,!Effect,Goku-san! Gohan-chan!
+Dialogue: Marked=0,0:26:40.24,0:26:42.30,Default,NTP,0000,0000,0000,!Effect,Quanto tempo vocês vão me deixar esperando?
+Dialogue: Marked=0,0:26:42.35,0:26:44.25,Default,NTP,0000,0000,0000,!Effect,VOLTEM AGORA!
