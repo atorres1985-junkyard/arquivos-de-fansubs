@@ -1,0 +1,384 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: nota,CastleT,37,&H00FFF3E8,&H00000000,&H323E1F00,&H64000000,-1,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: pensamento,Miu,41,&H00ECECFF,&H00000000,&H46000051,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: lembrança,Miu,41,&H00F2FFFF,&H00000000,&H46003C3C,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: preview,Miu,41,&H00F2FFF2,&H00000000,&H46003500,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: Default,Miu,41,&H00F8F8F8,&H00000000,&H46000000,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.64,0:00:01.58,Default,,0000,0000,0000,,Não é possível!
+Dialogue: 0,0:00:03.89,0:00:07.00,Default,,0000,0000,0000,,Não existe bola que eu não consiga rebater, garoto.
+Dialogue: 0,0:00:07.99,0:00:09.34,Default,,0000,0000,0000,,Você vai ter o que merece, pirralho.
+Dialogue: 0,0:00:09.91,0:00:14.68,Default,,0000,0000,0000,,Meu pai ganhou o nome de "O Golden Retrivier de Meguro".
+Dialogue: 0,0:00:15.24,0:00:16.36,Default,,0000,0000,0000,,Golden?
+Dialogue: 0,0:00:16.36,0:00:17.66,Default,,0000,0000,0000,,Retrivier?
+Dialogue: 0,0:01:55.71,0:01:58.21,Default,,0000,0000,0000,,Seu pai deve ser demais, Kachiro!
+Dialogue: 0,0:01:58.21,0:02:00.95,Default,,0000,0000,0000,,Por ser técnico de um clube de Tênis tão grande.
+Dialogue: 0,0:02:00.95,0:02:04.92,Default,,0000,0000,0000,,Isso não é nada de mais. Ele é apenas um técnico comum.
+Dialogue: 0,0:02:07.75,0:02:11.71,Default,,0000,0000,0000,,Desculpem o atraso. Vocês esperaram muito?
+Dialogue: 0,0:02:12.77,0:02:13.74,Default,,0000,0000,0000,,Osakada.
+Dialogue: 0,0:02:13.74,0:02:15.41,Default,,0000,0000,0000,,Que mochila é essa?
+Dialogue: 0,0:02:15.41,0:02:16.48,Default,,0000,0000,0000,,Meu lanche embrulhado.
+Dialogue: 0,0:02:16.48,0:02:17.38,Default,,0000,0000,0000,,Lanche embrulhado?!
+Dialogue: 0,0:02:18.04,0:02:20.41,Default,,0000,0000,0000,,Não me diga que você vai comer tudo isso sozinha?
+Dialogue: 0,0:02:20.41,0:02:22.03,Default,,0000,0000,0000,,Claro que não.
+Dialogue: 0,0:02:22.03,0:02:23.06,Default,,0000,0000,0000,,Vou dividir com todos.
+Dialogue: 0,0:02:23.67,0:02:27.01,Default,,0000,0000,0000,,Na minha casa, eu tenho muitos irmãos. Estou acostumada a cozinhar para muitas pessoas.
+Dialogue: 0,0:02:27.96,0:02:30.43,Default,,0000,0000,0000,,Ei, Ryoma-sama, você tem treinado todos os dias, certo?
+Dialogue: 0,0:02:30.43,0:02:34.88,Default,,0000,0000,0000,,Coma muito da minha comida cheia de amor.
+Dialogue: 0,0:02:34.88,0:02:38.94,Default,,0000,0000,0000,,Eu passei a semana inteira escolhendo o menu, então estou muito confiante.
+Dialogue: 0,0:02:39.67,0:02:42.16,Default,,0000,0000,0000,,O sabor foi aprovado pelo meu irmão mais novo, então...
+Dialogue: 0,0:02:41.42,0:02:44.04,Default,,0000,0000,0000,,{\3a&H00&\3c&H515151&\2c&HC0C0C0&}Quem contou a elas que nós viríamos?
+Dialogue: 0,0:02:44.04,0:02:45.32,Default,,0000,0000,0000,,Quem sabe...
+Dialogue: 0,0:02:45.32,0:02:48.51,Default,,0000,0000,0000,,Eu as chamei. Vocês não acham que é mais divertido com mais pessoas?
+Dialogue: 0,0:02:49.53,0:02:51.81,Default,,0000,0000,0000,,Momo-chan-senpai também disse que viria.
+Dialogue: 0,0:02:51.81,0:02:54.43,Default,,0000,0000,0000,,Momo-chan-senpai também vem?
+Dialogue: 0,0:02:54.43,0:02:55.94,Default,,0000,0000,0000,,Além dele...
+Dialogue: 0,0:02:55.94,0:02:57.51,Default,,0000,0000,0000,,Tem mais gente vindo?
+Dialogue: 0,0:02:57.84,0:02:58.79,Default,,0000,0000,0000,,Kachiro!
+Dialogue: 0,0:02:59.44,0:03:00.21,Default,,0000,0000,0000,,Ah, pai.
+Dialogue: 0,0:03:00.89,0:03:02.46,Default,,0000,0000,0000,,Bom, vocês todos vieram.
+Dialogue: 0,0:03:02.46,0:03:03.35,Default,,0000,0000,0000,,Boa tarde!
+Dialogue: 0,0:03:03.35,0:03:03.92,Default,,0000,0000,0000,,Prazer.
+Dialogue: 0,0:03:04.68,0:03:06.39,Default,,0000,0000,0000,,Você é o Echizen-kun?
+Dialogue: 0,0:03:06.39,0:03:09.76,Default,,0000,0000,0000,,Meu filho me disse que você é muito bom.
+Dialogue: 0,0:03:10.64,0:03:11.22,Default,,0000,0000,0000,,Oh...
+Dialogue: 0,0:03:11.59,0:03:13.90,Default,,0000,0000,0000,,De qualquer maneira, hoje vai ser divertido.
+Dialogue: 0,0:03:13.90,0:03:15.77,Default,,0000,0000,0000,,Eu vou lhes mostrar as quadras.
+Dialogue: 0,0:03:22.00,0:03:22.90,Default,,0000,0000,0000,,Que bom...
+Dialogue: 0,0:03:23.59,0:03:24.60,Default,,0000,0000,0000,,Tio!
+Dialogue: 0,0:03:26.96,0:03:27.99,Default,,0000,0000,0000,,O que foi?
+Dialogue: 0,0:03:28.39,0:03:30.91,Default,,0000,0000,0000,,Você está lendo essa revista novamente?
+Dialogue: 0,0:03:30.91,0:03:31.53,Default,,0000,0000,0000,,Aqui.
+Dialogue: 0,0:03:31.53,0:03:34.17,Default,,0000,0000,0000,,A tia me disse para você levar este lanche embrulhado para o Ryoma-san.
+Dialogue: 0,0:03:34.70,0:03:37.77,Default,,0000,0000,0000,,Você está louca? Por que eu faria isso?
+Dialogue: 0,0:03:38.76,0:03:41.65,Default,,0000,0000,0000,,Ela me disse mais uma coisa.
+Dialogue: 0,0:03:41.65,0:03:46.30,Default,,0000,0000,0000,,Se você não entregar até o anoitecer, ela vai jogar fora todas as suas revistas.
+Dialogue: 0,0:03:46.76,0:03:49.98,Default,,0000,0000,0000,,O quê?! Por que você não me disse isso antes?!
+Dialogue: 0,0:03:50.26,0:03:52.57,Default,,0000,0000,0000,,Aquela mulher realmente vai jogar tudo fora!
+Dialogue: 0,0:03:52.57,0:03:54.20,Default,,0000,0000,0000,,Eu estou indo!
+Dialogue: 0,0:03:57.01,0:03:58.86,Default,,0000,0000,0000,,Vocês podem usar esta quadra.
+Dialogue: 0,0:03:58.86,0:04:02.04,Default,,0000,0000,0000,,Incrível, poder usar uma quadra tão grande...
+Dialogue: 0,0:04:02.04,0:04:05.72,Default,,0000,0000,0000,,No entanto, não atrapalhem os outros jogadores.
+Dialogue: 0,0:04:05.72,0:04:08.62,Default,,0000,0000,0000,,Ei, Echizen. Ensine-me o Twist Serve.
+Dialogue: 0,0:04:08.62,0:04:09.25,Default,,0000,0000,0000,,Não quero.
+Dialogue: 0,0:04:10.31,0:04:12.08,Default,,0000,0000,0000,,Vai, Ryoma-sama!
+Dialogue: 0,0:04:12.90,0:04:13.95,Default,,0000,0000,0000,,Treinador Katou.
+Dialogue: 0,0:04:15.05,0:04:16.96,Default,,0000,0000,0000,,Estou contando com você para a aula de hoje.
+Dialogue: 0,0:04:17.36,0:04:19.01,Default,,0000,0000,0000,,Sim, Sasabe-sama.
+Dialogue: 0,0:04:19.01,0:04:20.76,Default,,0000,0000,0000,,Por favor, espere na quadra F.
+Dialogue: 0,0:04:21.19,0:04:23.57,Default,,0000,0000,0000,,Quadra F? O que você está dizendo?
+Dialogue: 0,0:04:23.57,0:04:25.37,Default,,0000,0000,0000,,Esta quadra A é boa, não é?
+Dialogue: 0,0:04:25.37,0:04:27.93,Default,,0000,0000,0000,,Por que eu tenho que andar até a quadra F?
+Dialogue: 0,0:04:28.40,0:04:30.07,Default,,0000,0000,0000,,Nós vamos jogar aqui.
+Dialogue: 0,0:04:30.07,0:04:30.56,Default,,0000,0000,0000,,Está bem?!
+Dialogue: 0,0:04:32.02,0:04:34.77,Default,,0000,0000,0000,,Leve essa mochila para os armários!
+Dialogue: 0,0:04:35.45,0:04:37.86,Default,,0000,0000,0000,,Ela vai ficar suja se deixá-la no chão.
+Dialogue: 0,0:04:38.44,0:04:40.07,Default,,0000,0000,0000,,Quem é aquele homem?
+Dialogue: 0,0:04:40.07,0:04:41.30,Default,,0000,0000,0000,,Um dos sócios daqui.
+Dialogue: 0,0:04:42.03,0:04:43.74,Default,,0000,0000,0000,,Um imbecil que faz tudo o que quer.
+Dialogue: 0,0:04:44.31,0:04:46.36,Default,,0000,0000,0000,,Está tudo bem se formos para a quadra F...
+Dialogue: 0,0:04:46.36,0:04:49.95,Default,,0000,0000,0000,,Não! Eu vou mandar ele embora!
+Dialogue: 0,0:04:49.95,0:04:50.90,Default,,0000,0000,0000,,Ei, apresse-se!
+Dialogue: 0,0:04:52.92,0:04:54.37,Default,,0000,0000,0000,,Qual o problema com aquele cara?
+Dialogue: 0,0:04:54.37,0:04:56.36,Default,,0000,0000,0000,,É um velho arrogante, não é?
+Dialogue: 0,0:04:56.36,0:04:58.04,Default,,0000,0000,0000,,Ele traz más vibrações, não é?
+Dialogue: 0,0:04:58.89,0:04:59.71,Default,,0000,0000,0000,,Desculpem.
+Dialogue: 0,0:05:02.50,0:05:04.93,Default,,0000,0000,0000,,Ele não disse que iria mandá-lo embora?
+Dialogue: 0,0:05:04.93,0:05:08.37,Default,,0000,0000,0000,,Desculpa. Vamos para a quadra F.
+Dialogue: 0,0:05:08.37,0:05:09.10,Default,,0000,0000,0000,,Está tudo bem.
+Dialogue: 0,0:05:09.52,0:05:12.06,Default,,0000,0000,0000,,Existem caras como ele em todo lugar.
+Dialogue: 0,0:05:23.56,0:05:25.23,Default,,0000,0000,0000,,Sai da frente!
+Dialogue: 0,0:05:29.46,0:05:30.57,Default,,0000,0000,0000,,Isso doeu!
+Dialogue: 0,0:05:31.08,0:05:32.57,Default,,0000,0000,0000,,O que você está fazendo, seu monge estúpido?
+Dialogue: 0,0:05:33.76,0:05:37.12,Default,,0000,0000,0000,,Garoto, eu estou com pressa. Você vai me deixar passar?
+Dialogue: 0,0:05:38.70,0:05:41.25,Default,,0000,0000,0000,,Você que me acertou. Do que está falando?
+Dialogue: 0,0:05:41.25,0:05:43.14,Default,,0000,0000,0000,,Eu disse que você está no meu caminho.
+Dialogue: 0,0:05:43.14,0:05:44.01,Default,,0000,0000,0000,,Como é?!
+Dialogue: 0,0:05:44.63,0:05:48.24,Default,,0000,0000,0000,,Garotos bonitos e jovens como você não deveriam ficar andando de bicicleta.
+Dialogue: 0,0:05:48.24,0:05:50.12,Default,,0000,0000,0000,,Tente malhar de vez em quando.
+Dialogue: 0,0:05:51.71,0:05:56.55,Default,,0000,0000,0000,,Seu velho estúpido! É melhor você prestar atenção no que fala!
+Dialogue: 0,0:05:57.69,0:05:59.50,Default,,0000,0000,0000,,Quem deve prestar atenção no que os outros falam é você!
+Dialogue: 0,0:05:59.50,0:06:02.74,Default,,0000,0000,0000,,Saia, saia, saia, saia...
+Dialogue: 0,0:06:01.68,0:06:03.81,Default,,0000,0000,0000,,{\3a&H00&\3c&H515151&\2c&HC0C0C0&}Seu monge estúpido...
+Dialogue: 0,0:06:14.94,0:06:16.78,Default,,0000,0000,0000,,Ryoma-sama é tão impressionante!
+Dialogue: 0,0:06:23.51,0:06:27.63,Default,,0000,0000,0000,,Echizen, vamos descansar um pouco. Eu estou exausto.
+Dialogue: 0,0:06:28.56,0:06:31.21,Default,,0000,0000,0000,,Você fala muito, no entanto não tem nenhuma resistência.
+Dialogue: 0,0:06:31.21,0:06:32.49,Default,,0000,0000,0000,,Cale a boca.
+Dialogue: 0,0:06:32.49,0:06:34.74,Default,,0000,0000,0000,,Aquilo foi fantástico, Ryoma-sama!
+Dialogue: 0,0:06:35.32,0:06:38.89,Default,,0000,0000,0000,,Pensando bem, você nunca chega atrasada, mas esta manhã você se atrasou.
+Dialogue: 0,0:06:39.54,0:06:42.11,Default,,0000,0000,0000,,Não há nenhuma razão em especial...
+Dialogue: 0,0:06:42.27,0:06:44.27,Default,,0000,0000,0000,,Hum... Isso é suspeito.
+Dialogue: 0,0:06:44.71,0:06:46.05,Default,,0000,0000,0000,,Ah! Essa mochila.
+Dialogue: 0,0:06:47.85,0:06:49.31,Default,,0000,0000,0000,,Mostre-me! Mostre-me!
+Dialogue: 0,0:06:48.31,0:06:50.37,Default,,0000,0000,0000,,{\3a&H00&\3c&H515151&\2c&HC0C0C0&}Tomo-chan, pare!
+Dialogue: 0,0:06:50.37,0:06:52.58,Default,,0000,0000,0000,,Como eu suspeitei! Lanche embrulhado para dois.
+Dialogue: 0,0:06:52.58,0:06:55.18,Default,,0000,0000,0000,,Entendi. Você se atrasou preparando isso.
+Dialogue: 0,0:06:55.18,0:06:57.29,Default,,0000,0000,0000,,Para quem é o outro? Ryoma-sama?
+Dialogue: 0,0:06:57.29,0:06:58.86,Default,,0000,0000,0000,,Você está enganada.
+Dialogue: 0,0:06:58.86,0:07:02.50,Default,,0000,0000,0000,,Quem então? Horio-kun? Kachiro-kun? Katsuo-kun?
+Dialogue: 0,0:07:06.88,0:07:09.16,Default,,0000,0000,0000,,Legal! Legal!
+Dialogue: 0,0:07:09.16,0:07:12.22,Default,,0000,0000,0000,,Desse jeito, os membros da torcida de Ryoma-sama vão crescer pouco a pouco.
+Dialogue: 0,0:07:13.30,0:07:16.10,Default,,0000,0000,0000,,O que você disse?! Você está me escutando?
+Dialogue: 0,0:07:16.51,0:07:18.53,Default,,0000,0000,0000,,Hã? O quê?
+Dialogue: 0,0:07:18.53,0:07:20.06,Default,,0000,0000,0000,,Aquela voz...
+Dialogue: 0,0:07:20.06,0:07:21.70,Default,,0000,0000,0000,,Parece estar vindo da quadra A.
+Dialogue: 0,0:07:21.70,0:07:22.48,Default,,0000,0000,0000,,Vamos lá ver.
+Dialogue: 0,0:07:22.77,0:07:24.23,Default,,0000,0000,0000,,Deixem de ser maricas.
+Dialogue: 0,0:07:24.23,0:07:26.40,Default,,0000,0000,0000,,Eu não vou aceitar isso.
+Dialogue: 0,0:07:27.03,0:07:28.82,Default,,0000,0000,0000,,Eu não vim até aqui para isso.
+Dialogue: 0,0:07:28.82,0:07:30.95,Default,,0000,0000,0000,,Nós já nos aquecemos demais.
+Dialogue: 0,0:07:31.42,0:07:36.49,Default,,0000,0000,0000,,Sim, mas se você não se aquecer corretamente, poderá ter uma distensão muscular.
+Dialogue: 0,0:07:37.58,0:07:38.88,Default,,0000,0000,0000,,Ter uma distensão muscular?
+Dialogue: 0,0:07:40.41,0:07:43.42,Default,,0000,0000,0000,,Não me coloque na mesma categoria desses fracotes.
+Dialogue: 0,0:07:43.76,0:07:44.86,Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:07:46.31,0:07:48.53,Default,,0000,0000,0000,,É o Sasabe-san e sua turma novamente.
+Dialogue: 0,0:07:48.53,0:07:49.80,Default,,0000,0000,0000,,Eles só fazem o que querem.
+Dialogue: 0,0:07:49.80,0:07:50.88,Default,,0000,0000,0000,,Alguém tem que fazer com que parem.
+Dialogue: 0,0:07:51.43,0:07:52.30,Default,,0000,0000,0000,,Treinador Katou.
+Dialogue: 0,0:07:52.87,0:07:56.53,Default,,0000,0000,0000,,Eu já fui um finalista de torneios intercolegiais...
+Dialogue: 0,0:07:56.53,0:07:58.47,Default,,0000,0000,0000,,Você não pode me treinar de acordo com o meu nível?
+Dialogue: 0,0:07:59.21,0:08:02.56,Default,,0000,0000,0000,,Mas, se você não se aquecer...
+Dialogue: 0,0:08:02.56,0:08:03.97,Default,,0000,0000,0000,,Como?
+Dialogue: 0,0:08:03.97,0:08:06.77,Default,,0000,0000,0000,,Cobram uma mensalidade alta, mas não querem ensinar nada?
+Dialogue: 0,0:08:07.55,0:08:09.21,Default,,0000,0000,0000,,Esqueça essas coisas.
+Dialogue: 0,0:08:09.21,0:08:12.19,Default,,0000,0000,0000,,Apenas me ensine um incrível top spin.
+Dialogue: 0,0:08:12.74,0:08:16.66,Default,,0000,0000,0000,,Mostre-me um top spin de nível profissional, técnico Katou.
+Dialogue: 0,0:08:19.61,0:08:23.26,Default,,0000,0000,0000,,Aquele velho não quer técnico nenhum!
+Dialogue: 0,0:08:23.26,0:08:25.38,Default,,0000,0000,0000,,Ele quer apenas falar mal do técnico.
+Dialogue: 0,0:08:25.85,0:08:27.54,Default,,0000,0000,0000,,O quê? Você não pode ensinar?
+Dialogue: 0,0:08:28.39,0:08:32.70,Default,,0000,0000,0000,,As pessoas dizem que você desistiu de se tornar profissional por causa de uma distensão.
+Dialogue: 0,0:08:32.70,0:08:35.01,Default,,0000,0000,0000,,Mas não seria por que tudo o que você faz é o aquecimento?
+Dialogue: 0,0:08:36.42,0:08:37.93,Default,,0000,0000,0000,,Aquilo foi muito cruel de se dizer.
+Dialogue: 0,0:08:38.63,0:08:43.10,Default,,0000,0000,0000,,Seu filho parece ter entrado para o Clube de Tênis Seigaku...
+Dialogue: 0,0:08:44.07,0:08:48.60,Default,,0000,0000,0000,,Mas daqui a três anos, ele acabará se tornando um gandula.
+Dialogue: 0,0:08:48.60,0:08:50.95,Default,,0000,0000,0000,,É difícil para pessoas sem talento, não é?
+Dialogue: 0,0:08:53.36,0:08:57.39,Default,,0000,0000,0000,,Além disso, eu ouvi que no Seigaku há um calouro que se tornou titular.
+Dialogue: 0,0:08:57.39,0:08:58.95,Default,,0000,0000,0000,,O nível deles também está caindo.
+Dialogue: 0,0:09:00.54,0:09:02.11,Default,,0000,0000,0000,,Espere, Ryoma-kun.
+Dialogue: 0,0:09:07.22,0:09:08.58,Default,,0000,0000,0000,,Sasabe-san...
+Dialogue: 0,0:09:08.58,0:09:13.42,Default,,0000,0000,0000,,Está tudo bem em me desrespeitar, mas se você falar besteiras do meu filho e da sua escola,
+Dialogue: 0,0:09:14.05,0:09:15.39,Default,,0000,0000,0000,,eu não vou ficar quieto.
+Dialogue: 0,0:09:16.72,0:09:19.46,Default,,0000,0000,0000,,Que tipo de atitude é essa? Nós somos clientes.
+Dialogue: 0,0:09:21.42,0:09:23.02,Default,,0000,0000,0000,,Não pode agüentar uma brincadeira.
+Dialogue: 0,0:09:27.79,0:09:29.17,Default,,0000,0000,0000,,Ei, pai!
+Dialogue: 0,0:09:29.17,0:09:30.35,Default,,0000,0000,0000,,O que você está fazendo?
+Dialogue: 0,0:09:31.70,0:09:34.82,Default,,0000,0000,0000,,Esse técnico imbecil não quer me ensinar nada.
+Dialogue: 0,0:09:35.15,0:09:38.10,Default,,0000,0000,0000,,Hum... Que confusão.
+Dialogue: 0,0:09:39.68,0:09:40.38,Default,,0000,0000,0000,,Aquele cara!
+Dialogue: 0,0:09:40.38,0:09:42.16,Default,,0000,0000,0000,,Hã? Vocês se conhecem?
+Dialogue: 0,0:09:44.47,0:09:44.95,Default,,0000,0000,0000,,Ryoma-kun.
+Dialogue: 0,0:09:45.34,0:09:47.35,Default,,0000,0000,0000,,Desista disso.
+Dialogue: 0,0:09:47.35,0:09:50.30,Default,,0000,0000,0000,,Com o seu nível, você não precisa aprender mais nada.
+Dialogue: 0,0:09:51.27,0:09:54.18,Default,,0000,0000,0000,,Não precisava nem dizer.
+Dialogue: 0,0:09:54.67,0:09:56.53,Default,,0000,0000,0000,,Ei, você se lembra do grip, certo?
+Dialogue: 0,0:09:57.32,0:09:59.01,Default,,0000,0000,0000,,O grip correto de segurar a raquete.
+Dialogue: 0,0:09:59.57,0:10:00.53,Default,,0000,0000,0000,,Você se lembra?
+Dialogue: 0,0:10:03.21,0:10:04.28,Default,,0000,0000,0000,,Vocês se conhecem?
+Dialogue: 0,0:10:04.92,0:10:06.44,Default,,0000,0000,0000,,Eu não tenho nem idéia...
+Dialogue: 0,0:10:06.44,0:10:07.97,Default,,0000,0000,0000,,Ei, senhor.
+Dialogue: 0,0:10:08.90,0:10:10.27,Default,,0000,0000,0000,,Você pode me ensinar um pouco de tênis?
+Dialogue: 0,0:10:11.23,0:10:14.11,Default,,0000,0000,0000,,Você quer que eu lhe ensine tênis?
+Dialogue: 0,0:10:14.11,0:10:16.75,Default,,0000,0000,0000,,Pai, é melhor você não...
+Dialogue: 0,0:10:16.75,0:10:18.02,Default,,0000,0000,0000,,O que você disse?
+Dialogue: 0,0:10:18.02,0:10:22.20,Default,,0000,0000,0000,,Essa criança não está satisfeita com os técnicos daqui e precisa da minha ajuda.
+Dialogue: 0,0:10:22.81,0:10:25.22,Default,,0000,0000,0000,,Certo! Eu irei ensiná-lo.
+Dialogue: 0,0:10:25.22,0:10:28.97,Default,,0000,0000,0000,,{\fad(0,450)}Eu vou lhe ensinar as jogadas de um semifinalista do campeonato intercolegial.
+Dialogue: 0,0:10:35.98,0:10:38.13,Default,,0000,0000,0000,,Isso é terrível.
+Dialogue: 0,0:10:42.14,0:10:43.42,Default,,0000,0000,0000,,Seja gentil comigo.
+Dialogue: 0,0:10:49.43,0:10:52.06,Default,,0000,0000,0000,,Eu queria saber se o tio já encontrou o Ryoma-sama.
+Dialogue: 0,0:10:54.22,0:10:55.72,Default,,0000,0000,0000,,Mexa-se, pirralho!
+Dialogue: 0,0:10:55.72,0:10:57.46,Default,,0000,0000,0000,,Cale a boca, seu monge impertinente!
+Dialogue: 0,0:10:57.46,0:11:00.06,Default,,0000,0000,0000,,Aprenda direito! Monge Im-per-ti-nen-te!
+Dialogue: 0,0:11:00.06,0:11:03.49,Default,,0000,0000,0000,,O quê?! É você quem deveria aprender, seu monge impertinente!
+Dialogue: 0,0:11:03.49,0:11:06.39,Default,,0000,0000,0000,,Olhe para todos estes músculos!
+Dialogue: 0,0:11:06.39,0:11:07.95,Default,,0000,0000,0000,,Por que eu preciso me exercitar mais?
+Dialogue: 0,0:11:07.95,0:11:10.31,Default,,0000,0000,0000,,Eu não sei de onde você veio,
+Dialogue: 0,0:11:10.31,0:11:12.13,Default,,0000,0000,0000,,mas olhe para este corpo maravilhoso!
+Dialogue: 0,0:11:13.11,0:11:14.65,Default,,0000,0000,0000,,Com licença!
+Dialogue: 0,0:11:15.56,0:11:17.51,Default,,0000,0000,0000,,Por favor, afastem-se!
+Dialogue: 0,0:11:18.06,0:11:20.17,Default,,0000,0000,0000,,Ei! São Momoshiro-kun e Nanjiroh-san.
+Dialogue: 0,0:11:21.18,0:11:22.59,Default,,0000,0000,0000,,O que vocês estão fazendo?
+Dialogue: 0,0:11:24.12,0:11:25.72,Default,,0000,0000,0000,,O quê? O que está acontecendo?
+Dialogue: 0,0:11:26.15,0:11:28.27,Default,,0000,0000,0000,,Eu estou com pressa, então se afastem!
+Dialogue: 0,0:11:28.27,0:11:30.64,Default,,0000,0000,0000,,Nós estamos no meio de uma discussão. Vá embora, mulher!
+Dialogue: 0,0:11:31.68,0:11:36.11,Default,,0000,0000,0000,,Vá embora?! O que você está falando, seu velho pervertido!
+Dialogue: 0,0:11:36.71,0:11:38.71,Default,,0000,0000,0000,,Este é um problema entre homens!
+Dialogue: 0,0:11:38.71,0:11:40.73,Default,,0000,0000,0000,,Não há necessidade de uma mulher se intrometer!
+Dialogue: 0,0:11:40.73,0:11:42.05,Default,,0000,0000,0000,,O que vocês disseram?!
+Dialogue: 0,0:11:42.05,0:11:44.55,Default,,0000,0000,0000,,Isso é discriminação contra as mulheres!
+Dialogue: 0,0:11:44.55,0:11:47.21,Default,,0000,0000,0000,,Retire o que disse! Retire!
+Dialogue: 0,0:11:47.21,0:11:47.80,Default,,0000,0000,0000,,Cale a boca!
+Dialogue: 0,0:11:47.80,0:11:50.76,Default,,0000,0000,0000,,Isso não importa nem um pouco...
+Dialogue: 0,0:11:50.76,0:11:53.96,Default,,0000,0000,0000,,Isso é besteira! Eu...
+Dialogue: 0,0:11:52.36,0:11:53.96,Default,,0000,0000,0000,,{\3a&H00&\3c&H515151&\2c&HC0C0C0&}Retire logo o que disse!
+Dialogue: 0,0:11:56.80,0:11:59.07,Default,,0000,0000,0000,,Melhor de um set.
+Dialogue: 0,0:11:59.07,0:12:01.34,Default,,0000,0000,0000,,Serviço de Echizen.
+Dialogue: 0,0:12:01.66,0:12:02.88,Default,,0000,0000,0000,,Ryoma-kun.
+Dialogue: 0,0:12:02.88,0:12:05.64,Default,,0000,0000,0000,,Vai, Ryoma-sama! Ganhe desse velho!
+Dialogue: 0,0:12:06.07,0:12:09.07,Default,,0000,0000,0000,,Sasabe-san, vá devagar com ele.
+Dialogue: 0,0:12:09.07,0:12:11.22,Default,,0000,0000,0000,,Apesar de tudo, seu oponente é uma criança.
+Dialogue: 0,0:12:12.01,0:12:15.00,Default,,0000,0000,0000,,Faça o melhor que puder, certo?
+Dialogue: 0,0:12:15.00,0:12:17.25,Default,,0000,0000,0000,,O Echizen-kun vai ficar bem?
+Dialogue: 0,0:12:17.25,0:12:18.88,Default,,0000,0000,0000,,Pai, espere e veja.
+Dialogue: 0,0:12:18.88,0:12:20.40,Default,,0000,0000,0000,,Ryoma-kun é incrível.
+Dialogue: 0,0:12:23.29,0:12:24.16,pensamento,,0000,0000,0000,,É a sua direita...
+Dialogue: 0,0:12:27.88,0:12:31.33,Default,,0000,0000,0000,,Você tem bons movimentos. Ótimo, ótimo.
+Dialogue: 0,0:12:34.78,0:12:35.92,Default,,0000,0000,0000,,Você não precisa se segurar.
+Dialogue: 0,0:12:36.47,0:12:40.00,Default,,0000,0000,0000,,Mire no peito desse velho com o seu melhor ataque.
+Dialogue: 0,0:12:41.77,0:12:45.24,Default,,0000,0000,0000,,Por que Ryoma-kun não usa o Twist Serve?
+Dialogue: 0,0:12:45.24,0:12:46.33,Default,,0000,0000,0000,,Entendo.
+Dialogue: 0,0:12:47.50,0:12:50.08,Default,,0000,0000,0000,,Ele é um jogador muito inteligente.
+Dialogue: 0,0:12:50.74,0:12:53.23,Default,,0000,0000,0000,,É por isso que faz um saque normal no começo.
+Dialogue: 0,0:12:53.61,0:12:55.61,Default,,0000,0000,0000,,Não importa o quão bom é o jogador,
+Dialogue: 0,0:12:55.61,0:12:57.82,Default,,0000,0000,0000,,ele não pode ganhar sem conhecer o seu oponente.
+Dialogue: 0,0:12:58.98,0:13:03.41,Default,,0000,0000,0000,,Ele está reunindo informações do adversário enquanto conversamos.
+Dialogue: 0,0:13:03.41,0:13:04.90,Default,,0000,0000,0000,,Isso é impressionante.
+Dialogue: 0,0:13:05.29,0:13:09.17,Default,,0000,0000,0000,,Mas é claro! Echizen é um titular do Seigaku.
+Dialogue: 0,0:13:09.79,0:13:11.68,Default,,0000,0000,0000,,Isso não é algo que você deva dizer, Horio-kun.
+Dialogue: 0,0:13:16.63,0:13:18.09,Default,,0000,0000,0000,,Ele acertou bem no canto.
+Dialogue: 0,0:13:19.42,0:13:20.40,Default,,0000,0000,0000,,Fraco!
+Dialogue: 0,0:13:21.42,0:13:22.13,pensamento,,0000,0000,0000,,Muito bom.
+Dialogue: 0,0:13:23.12,0:13:25.43,Default,,0000,0000,0000,,Eu não sou tão ruim!
+Dialogue: 0,0:13:27.15,0:13:28.95,Default,,0000,0000,0000,,0 - 15.
+Dialogue: 0,0:13:31.88,0:13:33.65,Default,,0000,0000,0000,,Você conseguiu, pai!
+Dialogue: 0,0:13:33.65,0:13:35.69,Default,,0000,0000,0000,,Tomo-chan, você viu isso?
+Dialogue: 0,0:13:35.69,0:13:38.63,Default,,0000,0000,0000,,Hã... I-Isso foi sorte.
+Dialogue: 0,0:13:38.63,0:13:41.49,Default,,0000,0000,0000,,Esse velho logo vai perder o fôlego.
+Dialogue: 0,0:13:44.00,0:13:47.11,Default,,0000,0000,0000,,Garoto, ainda estou esperando.
+Dialogue: 0,0:13:54.14,0:13:56.04,Default,,0000,0000,0000,,Isso! Ele não poderá rebater essa!
+Dialogue: 0,0:14:01.79,0:14:03.66,Default,,0000,0000,0000,,0 - 30.
+Dialogue: 0,0:14:06.30,0:14:07.74,Default,,0000,0000,0000,,O que está acontecendo?
+Dialogue: 0,0:14:08.50,0:14:10.51,Default,,0000,0000,0000,,Esse é o Retrivier!
+Dialogue: 0,0:14:10.89,0:14:11.93,Default,,0000,0000,0000,,Retrivier?
+Dialogue: 0,0:14:13.39,0:14:16.39,Default,,0000,0000,0000,,Tente ganhar disso, garoto!
+Dialogue: 0,0:14:20.39,0:14:22.77,Default,,0000,0000,0000,,Você já ouviu falar do "Golden Retrivier", certo?
+Dialogue: 0,0:14:22.77,0:14:25.52,Default,,0000,0000,0000,,Em outras palavras, "Retrivier" é um cão de caça.
+Dialogue: 0,0:14:25.52,0:14:26.28,Default,,0000,0000,0000,,Cão de caça?
+Dialogue: 0,0:14:26.60,0:14:27.52,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:14:27.52,0:14:31.38,Default,,0000,0000,0000,,Um cão de caça que sempre consegue pegar a bola. Por isso ele é chamado de...
+Dialogue: 0,0:14:31.38,0:14:32.92,Default,,0000,0000,0000,,"Retrivier".
+Dialogue: 0,0:14:32.92,0:14:37.34,Default,,0000,0000,0000,,O melhor Retrivier é chamado de "Golden Retrivier".
+Dialogue: 0,0:14:38.41,0:14:40.13,Default,,0000,0000,0000,,Não importa que tipo de bola?
+Dialogue: 0,0:14:40.13,0:14:40.87,Default,,0000,0000,0000,,Não é possível!
+Dialogue: 0,0:14:41.77,0:14:44.52,Default,,0000,0000,0000,,Ele já foi finalista do torneio intercolegial.
+Dialogue: 0,0:14:44.52,0:14:46.30,Default,,0000,0000,0000,,Isso diz alguma coisa.
+Dialogue: 0,0:14:47.71,0:14:50.76,Default,,0000,0000,0000,,Não existe bola que eu não consiga rebater, garoto.
+Dialogue: 0,0:14:51.83,0:14:53.18,Default,,0000,0000,0000,,Você vai ter o que merece, pirralho.
+Dialogue: 0,0:14:53.62,0:14:58.39,Default,,0000,0000,0000,,Meu pai ganhou o nome de "O Golden Retrivier de Meguro".
+Dialogue: 0,0:14:58.83,0:14:59.97,Default,,0000,0000,0000,,Golden?
+Dialogue: 0,0:14:59.97,0:15:00.81,Default,,0000,0000,0000,,Retrivier?
+Dialogue: 0,0:15:05.66,0:15:06.79,Default,,0000,0000,0000,,É bem literal!
+Dialogue: 0,0:15:07.92,0:15:09.86,Default,,0000,0000,0000,,Esse dente de ouro está brilhando, mas...
+Dialogue: 0,0:15:10.43,0:15:13.36,Default,,0000,0000,0000,,Se eu conseguir mais pontos por causa disso, está tudo bem.
+Dialogue: 0,0:15:13.36,0:15:14.39,Default,,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:15:21.23,0:15:22.94,Default,,0000,0000,0000,,Ele é realmente um cão de caça.
+Dialogue: 0,0:15:22.94,0:15:24.67,Default,,0000,0000,0000,,Ele sempre rebate as bolas, não importa como.
+Dialogue: 0,0:15:25.10,0:15:26.82,Default,,0000,0000,0000,,Mas Ryoma-kun está estranho.
+Dialogue: 0,0:15:27.47,0:15:28.53,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:15:28.53,0:15:31.61,Default,,0000,0000,0000,,Porque agora é o serviço de Ryoma-kun,
+Dialogue: 0,0:15:31.61,0:15:34.14,Default,,0000,0000,0000,,e mesmo assim ele não usa o Twist Serve.
+Dialogue: 0,0:15:34.51,0:15:36.01,Default,,0000,0000,0000,,Por que ele não usa?
+Dialogue: 0,0:15:41.89,0:15:42.81,Default,,0000,0000,0000,,Ele foi para a rede!
+Dialogue: 0,0:15:43.20,0:15:44.95,Default,,0000,0000,0000,,Parece que Echizen quer finalizar!
+Dialogue: 0,0:15:45.64,0:15:47.62,Default,,0000,0000,0000,,Você que pediu.
+Dialogue: 0,0:15:55.79,0:15:56.99,Default,,0000,0000,0000,,Passing Shot!
+Dialogue: 0,0:15:57.43,0:16:01.81,Default,,0000,0000,0000,,É isso. O Retrivier continua na linha de trás,
+Dialogue: 0,0:16:01.81,0:16:05.29,Default,,0000,0000,0000,,e quando seu oponente vai para a rede, ele usa o Passing Shot.
+Dialogue: 0,0:16:06.06,0:16:08.40,Default,,0000,0000,0000,,Para Ryoma-kun perder seu serviço...
+Dialogue: 0,0:16:09.36,0:16:11.99,Default,,0000,0000,0000,,Contagem: 1 - 0.
+Dialogue: 0,0:16:13.33,0:16:17.05,Default,,0000,0000,0000,,"Golden Retrivier de Meguro" vencendo.
+Dialogue: 0,0:16:18.23,0:16:20.08,Default,,0000,0000,0000,,Eu me preocupei por nada.
+Dialogue: 0,0:16:20.08,0:16:22.57,Default,,0000,0000,0000,,Pai, ganhe dele!
+Dialogue: 0,0:16:24.49,0:16:26.19,Default,,0000,0000,0000,,Eu acho que já está na hora.
+Dialogue: 0,0:16:36.49,0:16:38.91,Default,,0000,0000,0000,,Ryoma-kun está suando demais.
+Dialogue: 0,0:16:38.91,0:16:41.04,Default,,0000,0000,0000,,Ryoma-sama, o que aconteceu?
+Dialogue: 0,0:16:42.00,0:16:44.71,pensamento,,0000,0000,0000,,Entendi! Então é isso que está acontecendo!
+Dialogue: 0,0:16:48.98,0:16:52.79,Default,,0000,0000,0000,,Idiota! Você não aprendeu nada com o meu Passing Shot?
+Dialogue: 0,0:17:06.03,0:17:07.10,Default,,0000,0000,0000,,0 - 15.
+Dialogue: 0,0:17:08.91,0:17:10.60,Default,,0000,0000,0000,,Incrivel, Ryoma-kun!
+Dialogue: 0,0:17:12.45,0:17:13.94,pensamento,,0000,0000,0000,,O que está acontecendo?
+Dialogue: 0,0:17:14.37,0:17:17.90,Default,,0000,0000,0000,,Ele estava apenas analisando as habilidades do seu adversário.
+Dialogue: 0,0:17:17.90,0:17:19.37,Default,,0000,0000,0000,,E ao mesmo tempo se aquecendo.
+Dialogue: 0,0:17:21.18,0:17:25.60,Default,,0000,0000,0000,,A quantidade de suor mostra que seu corpo está perfeitamente aquecido.
+Dialogue: 0,0:17:25.60,0:17:28.92,Default,,0000,0000,0000,,Até agora, ele estava observando as técnicas do Retrivier
+Dialogue: 0,0:17:28.92,0:17:30.67,Default,,0000,0000,0000,,e fazendo o seu corpo se acostumar.
+Dialogue: 0,0:17:36.29,0:17:39.02,Default,,0000,0000,0000,,Então é por isso que ele não usou o Twist Serve!
+Dialogue: 0,0:17:39.02,0:17:42.97,Default,,0000,0000,0000,,Então jogar conosco não serviu nem como aquecimento?
+Dialogue: 0,0:17:45.42,0:17:48.55,pensamento,,0000,0000,0000,,Droga! Eu pensei que ele jogava como uma criança.
+Dialogue: 0,0:17:48.55,0:17:52.30,Default,,0000,0000,0000,,Você não saiu da linha de trás desde o começo, não foi?
+Dialogue: 0,0:17:52.30,0:17:52.94,Default,,0000,0000,0000,,O que você disse?
+Dialogue: 0,0:17:53.40,0:17:55.11,Default,,0000,0000,0000,,Por que você não sobe à rede de vez em quando?
+Dialogue: 0,0:17:55.58,0:17:56.68,Default,,0000,0000,0000,,Cale a boca!
+Dialogue: 0,0:17:59.32,0:18:03.79,Default,,0000,0000,0000,,O ponto fraco do Retrivier é vir para a rede. É por isso ele só fica na linha de trás.
+Dialogue: 0,0:18:05.48,0:18:06.71,pensamento,,0000,0000,0000,,Ele percebeu!
+Dialogue: 0,0:18:09.51,0:18:10.69,pensamento,,0000,0000,0000,,Essa não!
+Dialogue: 0,0:18:12.16,0:18:12.75,pensamento,,0000,0000,0000,,Droga!
+Dialogue: 0,0:18:16.14,0:18:17.34,Default,,0000,0000,0000,,Mada Mada Dane.
+Dialogue: 0,0:18:29.39,0:18:31.19,Default,,0000,0000,0000,,Game vencido por Echizen.
+Dialogue: 0,0:18:34.07,0:18:36.24,Default,,0000,0000,0000,,Ei, pai! Agüente firme!
+Dialogue: 0,0:18:36.90,0:18:39.50,Default,,0000,0000,0000,,Acho que distendi um músculo.
+Dialogue: 0,0:18:39.50,0:18:42.68,Default,,0000,0000,0000,,Você distendeu um músculo porque não se aqueceu corretamente.
+Dialogue: 0,0:18:42.68,0:18:45.88,Default,,0000,0000,0000,,Não foi por isso que você não foi campeão do intercolegial?
+Dialogue: 0,0:18:45.88,0:18:48.90,Default,,0000,0000,0000,,Você deveria se juntar ao seu filho e recomeçar do básico.
+Dialogue: 0,0:18:48.90,0:18:49.92,Default,,0000,0000,0000,,Meu filho?
+Dialogue: 0,0:18:50.20,0:18:51.83,Default,,0000,0000,0000,,Certo, tio?
+Dialogue: 0,0:18:54.37,0:18:57.96,Default,,0000,0000,0000,,Como esperado de um titular do Seigaku, Echizen-kun.
+Dialogue: 0,0:18:58.33,0:19:00.12,Default,,0000,0000,0000,,Titular do Seigaku?
+Dialogue: 0,0:19:00.62,0:19:03.01,Default,,0000,0000,0000,,Não me diga que ele é o titular do primeiro ano é...
+Dialogue: 0,0:19:07.15,0:19:09.56,Default,,0000,0000,0000,,Droga! Que desgraça!\NQue dor!
+Dialogue: 0,0:19:11.20,0:19:14.95,Default,,0000,0000,0000,,Você conseguiu! Ryoma-sama, você é demais!
+Dialogue: 0,0:19:16.40,0:19:20.28,Default,,0000,0000,0000,,Saiam! Saiam! Saiam! Saiam logo daí!
+Dialogue: 0,0:19:20.28,0:19:22.24,Default,,0000,0000,0000,,Cale a boca! É você quem deveria sair!
+Dialogue: 0,0:19:22.24,0:19:24.30,Default,,0000,0000,0000,,Vocês estão no meu caminho!
+Dialogue: 0,0:19:24.30,0:19:27.41,Default,,0000,0000,0000,,Ah! Se eu não conseguir, meus tesouros já eram!
+Dialogue: 0,0:19:27.59,0:19:28.72,Default,,0000,0000,0000,,{\fad(0,300)}Tesouros?
+Dialogue: 0,0:19:29.93,0:19:31.37,Default,,0000,0000,0000,,Oh... Delicioso!
+Dialogue: 0,0:19:31.80,0:19:33.68,Default,,0000,0000,0000,,Incrível, Osakada!
+Dialogue: 0,0:19:33.68,0:19:35.41,Default,,0000,0000,0000,,Você cozinha muito bem.
+Dialogue: 0,0:19:35.41,0:19:38.10,Default,,0000,0000,0000,,Aproveitem bem.
+Dialogue: 0,0:19:38.62,0:19:40.30,Default,,0000,0000,0000,,Está realmente delicioso!
+Dialogue: 0,0:19:42.89,0:19:45.10,pensamento,,0000,0000,0000,,Ele está comendo por mim. Que bom...
+Dialogue: 0,0:19:45.72,0:19:48.98,Default,,0000,0000,0000,,R-Ryoma-kun, é...
+Dialogue: 0,0:19:49.40,0:19:53.56,Default,,0000,0000,0000,,Você está gostando da comida?
+Dialogue: 0,0:19:55.76,0:19:56.94,Default,,0000,0000,0000,,Mada Mada Dane.
+Dialogue: 0,0:20:04.02,0:20:06.06,Default,,0000,0000,0000,,Seu back-hand é ruim.
+Dialogue: 0,0:20:04.02,0:20:08.49,nota,,0000,0000,0000,,{\fad(0,300)}Back-hand: Rebatida em que a parte de trás da mão está virada em direção à bola.
+Dialogue: 0,0:20:06.72,0:20:08.49,Default,,0000,0000,0000,,Oh! meu lanche...
+Dialogue: 0,0:20:09.67,0:20:10.68,Default,,0000,0000,0000,,Ei...
+Dialogue: 0,0:20:11.11,0:20:12.58,Default,,0000,0000,0000,,Ryoma-kun é...
+Dialogue: 0,0:20:13.30,0:20:14.42,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:20:15.75,0:20:17.00,Default,,0000,0000,0000,,Meio...
+Dialogue: 0,0:20:17.00,0:20:18.25,Default,,0000,0000,0000,,Não é?
+Dialogue: 0,0:20:18.25,0:20:19.09,Default,,0000,0000,0000,,É...
+Dialogue: 0,0:20:22.71,0:20:27.40,pensamento,,0000,0000,0000,,{\fad(0,200)}Ryoma-kun, seu idiota!
+Dialogue: 0,0:21:37.46,0:21:40.71,preview,,0000,0000,0000,,Olá para todos! Eu sou Ryuzaki Sakuno.
+Dialogue: 0,0:21:41.32,0:21:46.39,preview,,0000,0000,0000,,Ryoma-kun parece estar sempre competindo com Momoshiro-senpai, mesmo em uma lanchonete.
+Dialogue: 0,0:21:46.39,0:21:48.34,preview,,0000,0000,0000,,Qual é o problema com eles?
+Dialogue: 0,0:21:50.56,0:21:54.40,preview,,0000,0000,0000,,Além disso, eles resolveram jogar tênis com estudantes de outra escola.
+Dialogue: 0,0:21:54.40,0:21:56.23,preview,,0000,0000,0000,,O que vamos fazer?
+Dialogue: 0,0:21:57.25,0:21:58.98,preview,,0000,0000,0000,,No próximo episódio de The Prince of Tennis:
+Dialogue: 0,0:21:59.43,0:22:01.12,preview,,0000,0000,0000,,Ryoma vs. Momoshiro
+Dialogue: 0,0:22:01.69,0:22:04.56,preview,,0000,0000,0000,,Ryoma-kun vai ficar bem?

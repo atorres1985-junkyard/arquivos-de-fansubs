@@ -1,0 +1,423 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,28,&H00FFFFFF,&H00000000,&H001D749E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,30,0
+Style: teste,Arial,16,&H00FFFFFF,&H00000000,&H00FF8080,&H00FBF3AC,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: sim,Arial,18,&H001D749E,&H00000000,&H00FFFFFF,&H001D749E,0,0,0,0,100,100,0,0,1,2,0,2,20,20,30,0
+Style: placa,Arial,40,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,30,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.81,0:00:08.01,Default,,0000,0000,0000,,Eu deixei aquilo cair no silencioso e eterno sono,
+Dialogue: 0,0:00:09.40,0:00:13.16,Default,,0000,0000,0000,,essa é a razão desta floresta ainda manter seus espinhos,
+Dialogue: 0,0:00:13.59,0:00:16.20,Default,,0000,0000,0000,,continuando a rejeitar o mundo lá fora.
+Dialogue: 0,0:00:19.75,0:00:20.40,Default,,0000,0000,0000,,Provavelmente...
+Dialogue: 0,0:00:21.17,0:00:22.31,Default,,0000,0000,0000,,até este momento...
+Dialogue: 0,0:00:22.71,0:00:23.67,Default,,0000,0000,0000,,eu estava morta.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(abertura)
+Dialogue: 0,0:00:31.90,0:00:37.33,Default,,0000,0000,0000,,{\fad(1000,1000)\4c&HFFFFFF&\3c&H0000A0&\2c&H0000A0&\4a&HC8&}Trazido até você por:\N#Okaeri @ irc.rizon.net{\4c&H000000&\3c&H000000&\2c&H000000&\4a&H00&}
+Dialogue: 0,0:00:40.00,0:00:44.79,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Encode:\NHeero
+Dialogue: 0,0:00:45.38,0:00:52.63,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Raw: Dragon_Ash
+Dialogue: 0,0:00:52.84,0:01:00.22,Default,,0000,0000,0000,,{\fad(1000,1000)\be1\an4}Tradução: \NCris
+Dialogue: 0,0:01:09.86,0:01:15.28,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Revisão: \NHeero
+Dialogue: 0,0:01:15.49,0:01:21.62,Default,,0000,0000,0000,,{\fad(1000,1000)\be1\an4}Timer: \NBlack-Dragoon
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:01:55.28,0:01:59.62,Default,,0000,0000,0000,,{\pos(315,330}A Floresta de Espinhos
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:04.76,0:02:06.32,Default,,0000,0000,0000,,Rosa Gigantea tem...?
+Dialogue: 0,0:02:08.87,0:02:10.27,Default,,0000,0000,0000,,Rosa Gigantea?
+Dialogue: 0,0:02:10.54,0:02:12.50,teste,,0000,0000,0000,,{\move(330,200,315,210[0,1960]}{\fs14\t(0,1960,\fs16)}{\frz-29}A Floresta de Espinhos \N\N\N\NSuga Sei
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:17.00,0:02:19.60,Default,,0000,0000,0000,,Após o termino dos exames, já será o Natal...
+Dialogue: 0,0:02:21.15,0:02:24.27,Default,,0000,0000,0000,,Rosa Foetida me contou que haverá uma festa na Mansão das Rosas,
+Dialogue: 0,0:02:24.63,0:02:26.50,Default,,0000,0000,0000,,depois do final da cerimônia...
+Dialogue: 0,0:02:29.51,0:02:31.37,Default,,0000,0000,0000,,Há algo... que a incomode?
+Dialogue: 0,0:02:34.70,0:02:35.50,Default,,0000,0000,0000,,Onee-sama?
+Dialogue: 0,0:02:36.96,0:02:39.11,Default,,0000,0000,0000,,Eu não gosto do Natal.
+Dialogue: 0,0:02:42.46,0:02:43.76,Default,,0000,0000,0000,,Vocês querem que os embrulhe?
+Dialogue: 0,0:02:44.02,0:02:44.98,Default,,0000,0000,0000,,Não, obrigada.
+Dialogue: 0,0:02:48.09,0:02:50.30,teste,,0000,0000,0000,,{\pos(325,235}{\fs20\t(0,2760,\fs25}{\frz18)}A Floresta de Espinhos \N\N\N\NSuga Sei
+Dialogue: 0,0:02:48.28,0:02:49.53,Default,,0000,0000,0000,,Então este é o livro que comentam...
+Dialogue: 0,0:02:51.83,0:02:54.34,Default,,0000,0000,0000,,Como eu pensei, talvez seja melhor se nós não...
+Dialogue: 0,0:02:55.03,0:02:55.97,Default,,0000,0000,0000,,lêssemos isto.
+Dialogue: 0,0:02:58.37,0:02:59.57,Default,,0000,0000,0000,,O que você acha, Yumi?
+Dialogue: 0,0:03:00.33,0:03:01.49,Default,,0000,0000,0000,,Eu o...
+Dialogue: 0,0:03:01.93,0:03:02.67,Default,,0000,0000,0000,,lerei.
+Dialogue: 0,0:03:03.12,0:03:06.22,Default,,0000,0000,0000,,Como eu estou curiosa sobre seu conteudo.
+Dialogue: 0,0:03:06.75,0:03:07.98,Default,,0000,0000,0000,,De qualquer modo, eu lerei assim como ele é,
+Dialogue: 0,0:03:08.11,0:03:10.87,Default,,0000,0000,0000,,se o que está escrito é sobre Rosa Gigantea...
+Dialogue: 0,0:03:13.56,0:03:15.75,Default,,0000,0000,0000,,se Suga Sei é realmente Rosa Gigantea,
+Dialogue: 0,0:03:15.96,0:03:17.45,Default,,0000,0000,0000,,eu provavelmente a admirarei.
+Dialogue: 0,0:03:18.13,0:03:20.19,Default,,0000,0000,0000,,Eu devo mesmo pedir a ela para assinar o livro de bolso.
+Dialogue: 0,0:03:23.03,0:03:24.00,Default,,0000,0000,0000,,Isso é bom...
+Dialogue: 0,0:03:24.27,0:03:25.67,Default,,0000,0000,0000,,Isto partir de você.
+Dialogue: 0,0:03:26.97,0:03:27.90,Default,,0000,0000,0000,,Onee-sama...
+Dialogue: 0,0:03:28.36,0:03:30.85,Default,,0000,0000,0000,,Como eu pensei, você está hesitando para ler este livro.
+Dialogue: 0,0:03:31.29,0:03:36.26,teste,,0000,0000,0000,,{\move(325,220,325,215[0,3960]}{\fs20\t(0,3960,\fs25)}{\frz18}A Floresta de Espinhos \N\N\NSuga Sei
+Dialogue: 0,0:03:32.15,0:03:33.03,Default,,0000,0000,0000,,"A Floresta de Espinhos"
+Dialogue: 0,0:03:33.55,0:03:35.45,Default,,0000,0000,0000,,A Autora deste livro, Suga Sei...
+Dialogue: 0,0:03:35.58,0:03:36.29,Default,,0000,0000,0000,,é realmente...
+Dialogue: 0,0:03:36.92,0:03:38.08,Default,,0000,0000,0000,,Rosa Gigantea.
+Dialogue: 0,0:03:38.82,0:03:42.84,Default,,0000,0000,0000,,Sim, Rosa Gigatea escreveu sobre seu passado escondido,
+Dialogue: 0,0:03:42.89,0:03:45.40,Default,,0000,0000,0000,,e se abriu em uma confissão publicada como um livro.
+Dialogue: 0,0:03:48.80,0:03:50.76,Default,,0000,0000,0000,,Um rumor assim está se espalhando...
+Dialogue: 0,0:03:51.82,0:03:53.40,Default,,0000,0000,0000,,No final, é ainda apenas um rumor, certo?
+Dialogue: 0,0:03:54.10,0:03:55.81,Default,,0000,0000,0000,,Começado por pessoas...
+Dialogue: 0,0:03:56.02,0:03:58.63,Default,,0000,0000,0000,,que viram "Cosmos Comunicações", o panfleto que introduz as novas publicações.
+Dialogue: 0,0:03:58.99,0:04:01.41,sim,,0000,0000,0000,,{\move(180,350,340,150[0,500]\fs12}{\frz-13}Publicações Cosmos
+Dialogue: 0,0:03:58.99,0:04:01.41,sim,,0000,0000,0000,,{\move(150,420,305,225[0,500]}{\frz-14}Cosmos Comunicações
+Dialogue: 0,0:03:59.16,0:04:03.61,Default,,0000,0000,0000,,"A Floresta de Espinho"
+Dialogue: 0,0:04:04.06,0:04:05.55,Default,,0000,0000,0000,,"Autor, Suga Sei"
+Dialogue: 0,0:04:06.14,0:04:10.41,Default,,0000,0000,0000,,"Os meses que gastamos na academia foram uma ilusão?"
+Dialogue: 0,0:04:11.13,0:04:15.56,Default,,0000,0000,0000,,"Se trancou todo em seu coração dentro da floresta de espinhos"?!
+Dialogue: 0,0:04:15.93,0:04:19.81,Default,,0000,0000,0000,,"O tão previsto debute de uma nova escritora."
+Dialogue: 0,0:04:20.42,0:04:23.76,Default,,0000,0000,0000,,No verdadeiro nome de Suga Sei e Rosa Gigantea, Satou Sei,
+Dialogue: 0,0:04:24.04,0:04:25.72,Default,,0000,0000,0000,,O "Sei" é o mesmo.
+Dialogue: 0,0:04:26.02,0:04:31.58,Default,,0000,0000,0000,,Além disso, ele é autobiográfico, o que significa que ela escreveu sobre seu próprio passado na história.
+Dialogue: 0,0:04:32.17,0:04:34.89,Default,,0000,0000,0000,,Eu posso entender o porquê de todos estarem falando sobre isso, mas...
+Dialogue: 0,0:04:35.64,0:04:37.75,Default,,0000,0000,0000,,o passado de Rosa Gigantea...?
+Dialogue: 0,0:04:42.09,0:04:44.86,Default,,0000,0000,0000,,Estando no primeiro ano, eu não acho que eu vocês saibam disso, mas...
+Dialogue: 0,0:04:45.42,0:04:48.72,Default,,0000,0000,0000,,o passado de Rosa Gigantea  é considerado um... tabu.
+Dialogue: 0,0:04:49.10,0:04:50.84,Default,,0000,0000,0000,,É algo que não é muito mencionado.
+Dialogue: 0,0:04:51.21,0:04:52.21,Default,,0000,0000,0000,,O que você quer dizer?
+Dialogue: 0,0:04:52.66,0:04:54.52,Default,,0000,0000,0000,,É como se houvesse este entendimento.
+Dialogue: 0,0:04:54.78,0:04:59.35,Default,,0000,0000,0000,,Aqueles que sabem sobre as circunstâncias mantêm seus lábios selados, como se eles o estivessem protegendo.
+Dialogue: 0,0:04:59.94,0:05:01.31,Default,,0000,0000,0000,,Eu me pergunto o que aconteceu?
+Dialogue: 0,0:05:02.07,0:05:06.62,Default,,0000,0000,0000,,Quem sabe...? Eu estava no primeiro ano naquela época, então eu não sei dos detalhes.
+Dialogue: 0,0:05:07.14,0:05:09.87,Default,,0000,0000,0000,,Aconteceu... no último ano, certo?
+Dialogue: 0,0:05:11.69,0:05:12.32,Default,,0000,0000,0000,,Isto está certo.
+Dialogue: 0,0:05:12.81,0:05:16.71,Default,,0000,0000,0000,,Se o passado de Rosa Gigantea está realmente escrito neste livro,
+Dialogue: 0,0:05:12.98,0:05:18.94,teste,,0000,0000,0000,,{\fad(1500,0)}{\move(325,215,325,220[0,3960]}{\fs20\t(0,3960,\fs23)}{\frz18}A Floresta de Espinhos \N\N\NSuga Sei
+Dialogue: 0,0:05:17.10,0:05:19.79,Default,,0000,0000,0000,,então não deve ser sem razão a hesitação de Sachiko-sama para lê-lo.
+Dialogue: 0,0:05:22.76,0:05:23.30,Default,,0000,0000,0000,,E então,
+Dialogue: 0,0:05:23.83,0:05:28.98,Default,,0000,0000,0000,,Parece que Sei e Kaori que eram melhores amigas,
+Dialogue: 0,0:05:29.63,0:05:30.93,Default,,0000,0000,0000,,mas foram obrigadas a se separar por conta dos adultos.
+Dialogue: 0,0:05:29.03,0:05:33.04,teste,,0000,0000,0000,,{\move(310,285,305,250[0,4010]}{\frz148}A Floresta de Espinhos \N\N\NSuga Sei
+Dialogue: 0,0:05:31.00,0:05:32.86,Default,,0000,0000,0000,,Na noite de Natal, elas saíram numa jornada sem destino.
+Dialogue: 0,0:05:34.00,0:05:36.07,Default,,0000,0000,0000,,Elas estavam planejando morrer, mas...
+Dialogue: 0,0:05:37.30,0:05:39.22,Default,,0000,0000,0000,,quando Sei acordou no hospital,
+Dialogue: 0,0:05:39.67,0:05:41.75,Default,,0000,0000,0000,,Kaori-san já tinha ido para o céu...
+Dialogue: 0,0:05:42.65,0:05:44.64,Default,,0000,0000,0000,,Que final típico...
+Dialogue: 0,0:05:45.03,0:05:48.07,Default,,0000,0000,0000,,Yoshino-san, você não chorou quando leu o final?
+Dialogue: 0,0:05:48.34,0:05:48.91,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:05:50.32,0:05:54.03,Default,,0000,0000,0000,,Há algumas partes que de algum modo me lembram de Sachiko-sama e eu.
+Dialogue: 0,0:05:54.98,0:05:58.97,Default,,0000,0000,0000,,Não... hum... eu não telefonei para falar sobre o romance...
+Dialogue: 0,0:05:59.13,0:06:00.97,Default,,0000,0000,0000,,Oh, eu sinto muito.
+Dialogue: 0,0:06:01.85,0:06:06.69,Default,,0000,0000,0000,,Mas após ler isto, eu posso entender o motivo de Rosa Gigantea ser apontada como a autora.
+Dialogue: 0,0:06:07.13,0:06:10.19,Default,,0000,0000,0000,,Depois de tudo, eu acho que isso deve ter tomado lugar no Lillian.
+Dialogue: 0,0:06:11.21,0:06:11.85,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:06:12.36,0:06:14.51,Default,,0000,0000,0000,,Rei-chan parece ter lido-o também, mas...
+Dialogue: 0,0:06:15.09,0:06:18.43,Default,,0000,0000,0000,,ela me disse que ela não interferiria neste incidente.
+Dialogue: 0,0:06:19.85,0:06:22.27,Default,,0000,0000,0000,,Ela disse que ela fingiria que não leu o romance.
+Dialogue: 0,0:06:23.13,0:06:26.66,Default,,0000,0000,0000,,Mesmo a respeito destes rumores, ela disse que ela não quer se envolver, de jeito nenhum.
+Dialogue: 0,0:06:27.43,0:06:31.75,Default,,0000,0000,0000,,Falando nisso, embora Sachiko-sama tenha comprado o livro,
+Dialogue: 0,0:06:31.98,0:06:34.09,Default,,0000,0000,0000,,ela parece relutante em lê-lo.
+Dialogue: 0,0:06:34.87,0:06:36.51,Default,,0000,0000,0000,,Eu me pergunto o que aconteceu no último ano...
+Dialogue: 0,0:06:37.34,0:06:39.43,Default,,0000,0000,0000,,Rei-chan não me contará nada.
+Dialogue: 0,0:06:40.19,0:06:43.26,Default,,0000,0000,0000,,Se for este o caso, nós temos que perguntar a Rosa Gigantea diretamente...
+Dialogue: 0,0:06:43.34,0:06:45.79,Default,,0000,0000,0000,,Yo-Yoshino-san, espere um minuto!
+Dialogue: 0,0:06:45.53,0:06:47.20,teste,,0000,0000,0000,,{\pos(300,260)}{\frz148}A Floresta de Espinhos \N\N\NSuga Sei
+Dialogue: 0,0:06:49.46,0:06:50.98,Default,,0000,0000,0000,,Eu também não sei.
+Dialogue: 0,0:06:51.96,0:06:53.05,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:06:53.60,0:06:56.43,Default,,0000,0000,0000,,Eu acho que não há outro modo senão perguntar diretamente para Rosa Gigantea.
+Dialogue: 0,0:06:58.17,0:07:00.12,Default,,0000,0000,0000,,Então, Shimako-san, por que você não vem conosco também?
+Dialogue: 0,0:07:01.46,0:07:02.14,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:07:03.12,0:07:04.15,Default,,0000,0000,0000,,Por quê?!
+Dialogue: 0,0:07:04.63,0:07:05.83,Default,,0000,0000,0000,,Você é a petite souer dela, certo?
+Dialogue: 0,0:07:06.08,0:07:07.25,Default,,0000,0000,0000,,Você não está interessada?
+Dialogue: 0,0:07:08.15,0:07:08.72,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:07:11.99,0:07:15.69,Default,,0000,0000,0000,,Mais importante, você não deveria estar indo agora, Yumi-san?
+Dialogue: 0,0:07:17.11,0:07:21.15,Default,,0000,0000,0000,,Se você não correr, Rosa Gigantea já terá ido para a Mansão das Rosa.
+Dialogue: 0,0:07:22.30,0:07:25.05,Default,,0000,0000,0000,,Você não quer perguntar isso a ela na frente de Rei-sama e de Sachiko-sama, quer?
+Dialogue: 0,0:07:29.76,0:07:32.54,Default,,0000,0000,0000,,{\an8}Terceiro ano, Grupo Wisteria, Satou Sei-san.
+Dialogue: 0,0:07:33.00,0:07:35.53,Default,,0000,0000,0000,,{\an8}Por favor, venha à Sala de Disciplina Estudantil.
+Dialogue: 0,0:07:35.93,0:07:38.07,Default,,0000,0000,0000,,Poderia ser sobre o romance?!
+Dialogue: 0,0:07:38.04,0:07:41.04,placa,,0000,0000,0000,,{\move(180,175,-200,175[0,3000]}Disciplina Estudantil
+Dialogue: 0,0:07:44.60,0:07:47.10,Default,,0000,0000,0000,,Ah! Eles chamaram você também, Yumi-chan?
+Dialogue: 0,0:07:48.27,0:07:49.50,Default,,0000,0000,0000,,Rosa Gigantea?
+Dialogue: 0,0:07:51.94,0:07:56.85,Default,,0000,0000,0000,,Yumi-chan, não me diga que você ficou à toa por aqui porque queria me abraçar.
+Dialogue: 0,0:07:57.13,0:08:00.17,Default,,0000,0000,0000,,Rosa Gigantea, você não sabe sobre aquilo?
+Dialogue: 0,0:08:01.19,0:08:02.03,Default,,0000,0000,0000,,Sobre o que?
+Dialogue: 0,0:08:02.64,0:08:05.71,Default,,0000,0000,0000,,Hum... eu, na realidade, queria perguntar a você sobre aquilo.
+Dialogue: 0,0:08:06.19,0:08:09.32,Default,,0000,0000,0000,,Se você é a autora de "A Floresta de Espinhos".
+Dialogue: 0,0:08:10.57,0:08:11.17,Default,,0000,0000,0000,,Espinhos?
+Dialogue: 0,0:08:15.71,0:08:18.43,Default,,0000,0000,0000,,Bem, Yumi-chan. Nós continuaremos isto mais tarde.
+Dialogue: 0,0:08:22.39,0:08:25.26,Default,,0000,0000,0000,,O Diretor desta Academia, o reitor da divisão do colegial,
+Dialogue: 0,0:08:25.47,0:08:27.83,Default,,0000,0000,0000,,o professor responsável pelos terceiros anos e até mesmo a classe dos professores Grupo Wisteria.
+Dialogue: 0,0:08:28.01,0:08:31.38,Default,,0000,0000,0000,,"A Floresta de Espinhos" tornou-se uma grande tiragem.
+Dialogue: 0,0:08:32.96,0:08:33.68,Default,,0000,0000,0000,,Yumi-san.
+Dialogue: 0,0:08:35.37,0:08:36.35,Default,,0000,0000,0000,,Yoshino-san.
+Dialogue: 0,0:08:37.04,0:08:38.44,Default,,0000,0000,0000,,Como está Rosa Gigantea?
+Dialogue: 0,0:08:39.25,0:08:41.02,Default,,0000,0000,0000,,Ela estava mais alegre que o normal.
+Dialogue: 0,0:08:41.40,0:08:44.22,Default,,0000,0000,0000,,E ela parecia saber o motivo de ela ser chamada aqui.
+Dialogue: 0,0:08:44.32,0:08:45.27,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:08:45.90,0:08:48.99,Default,,0000,0000,0000,,O que acontecerá a... Rosa Gigantea?
+Dialogue: 0,0:08:53.28,0:08:54.32,Default,,0000,0000,0000,,Está demorando.
+Dialogue: 0,0:09:00.24,0:09:01.42,Default,,0000,0000,0000,,Bom dia.
+Dialogue: 0,0:09:02.57,0:09:03.69,Default,,0000,0000,0000,,Bom dia.
+Dialogue: 0,0:09:04.38,0:09:09.18,Default,,0000,0000,0000,,Mas sobre informações para o Jornal do Clube... nós não sabemos nada!
+Dialogue: 0,0:09:10.14,0:09:12.30,Default,,0000,0000,0000,,Não diga isso. Coopere comigo.
+Dialogue: 0,0:09:12.98,0:09:15.93,Default,,0000,0000,0000,,Estaria tudo certo com você, se Rosa Gigantea fosse expulsa?
+Dialogue: 0,0:09:16.04,0:09:17.01,Default,,0000,0000,0000,,Expulsa?!
+Dialogue: 0,0:09:17.51,0:09:20.03,Default,,0000,0000,0000,,Nossas proibições de trabalhos de meio período.
+Dialogue: 0,0:09:20.56,0:09:24.33,Default,,0000,0000,0000,,Escrever romances obviamente viola as regras.
+Dialogue: 0,0:09:25.12,0:09:28.15,Default,,0000,0000,0000,,Ela não seria... expulsa?!
+Dialogue: 0,0:09:28.79,0:09:33.39,Default,,0000,0000,0000,,Se isso acontecer, eu poderia apelar para um abaixo-assinado no Jornal de Lillian.
+Dialogue: 0,0:09:34.14,0:09:37.20,Default,,0000,0000,0000,,Algo como: "Por favor, não expulsem Rosa Gigantea".
+Dialogue: 0,0:09:38.43,0:09:42.32,Default,,0000,0000,0000,,Mas nós realmente não sabemos de nada.
+Dialogue: 0,0:09:42.54,0:09:43.46,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:09:44.13,0:09:45.17,Default,,0000,0000,0000,,Sério!
+Dialogue: 0,0:09:48.47,0:09:49.38,Default,,0000,0000,0000,,Desculpe.
+Dialogue: 0,0:09:49.88,0:09:52.87,Default,,0000,0000,0000,,Eu não posso aguentar você assim por muito tempo, por favor, levante-se.
+Dialogue: 0,0:09:53.47,0:09:54.68,Default,,0000,0000,0000,,Rosa Gigantea?!
+Dialogue: 0,0:09:54.98,0:09:59.38,Default,,0000,0000,0000,,Além disso é muito ruim se nós cairmos na Sala de Disciplina Estudantil segurando uma a outra.
+Dialogue: 0,0:10:01.35,0:10:02.97,Default,,0000,0000,0000,,Desculpe pelo rebuliço que eu causei.
+Dialogue: 0,0:10:03.68,0:10:04.62,Default,,0000,0000,0000,,Com licença.
+Dialogue: 0,0:10:08.69,0:10:12.70,Default,,0000,0000,0000,,Já que eu acho que vocês não podem conservar aflições sobre isso, eu contarei à vocês.
+Dialogue: 0,0:10:12.81,0:10:17.25,Default,,0000,0000,0000,,É uma vergonha, mas não fui eu quem escreveu "A Floresta de Espinhos".
+Dialogue: 0,0:10:18.94,0:10:24.81,Default,,0000,0000,0000,,Conseqüentemente, eu sinto muito que eu não possa ajudar com o material para o Jornal de Lillian...
+Dialogue: 0,0:10:25.11,0:10:26.41,Default,,0000,0000,0000,,desta vez, Tsukiyama Minako-san.
+Dialogue: 0,0:10:28.47,0:10:29.92,Default,,0000,0000,0000,,Bem, vamos indo, então!
+Dialogue: 0,0:10:30.62,0:10:32.49,Default,,0000,0000,0000,,Para onde?
+Dialogue: 0,0:10:33.00,0:10:35.00,Default,,0000,0000,0000,,Para a Mansão das Rosas, é claro.
+Dialogue: 0,0:10:35.30,0:10:38.55,Default,,0000,0000,0000,,Todos provavelmente escutaram o aviso e estão esperando.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(Virgem Maria está olhando você)
+Dialogue: 0,0:10:47.64,0:10:49.42,Default,,0000,0000,0000,,Você foi chamada de um modo espalhafatoso, né?
+Dialogue: 0,0:10:50.49,0:10:52.78,Default,,0000,0000,0000,,Eu nunca vi alguém sendo chamado pessoalmente, então...
+Dialogue: 0,0:10:53.06,0:10:54.98,Default,,0000,0000,0000,,estou com um pouco de inveja.
+Dialogue: 0,0:10:55.47,0:10:56.55,Default,,0000,0000,0000,,Eu agradeço a você por isso.
+Dialogue: 0,0:11:00.73,0:11:02.31,Default,,0000,0000,0000,,Como esperado das Rosas,
+Dialogue: 0,0:11:02.67,0:11:05.62,Default,,0000,0000,0000,,elas não estavam escandalizadas, mudas ou algo, como eu.
+Dialogue: 0,0:11:09.85,0:11:11.84,Default,,0000,0000,0000,,Você foi à Sala de Disciplina?
+Dialogue: 0,0:11:12.33,0:11:12.84,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:11:14.11,0:11:14.64,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:11:15.94,0:11:16.63,Default,,0000,0000,0000,,Aprecie.
+Dialogue: 0,0:11:17.64,0:11:18.35,Default,,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:11:21.80,0:11:24.47,Default,,0000,0000,0000,,Hum, está bom e de boa qualidade.
+Dialogue: 0,0:11:26.65,0:11:28.44,Default,,0000,0000,0000,,Deixe-me dar a vocês uma pequena notícia.
+Dialogue: 0,0:11:28.77,0:11:31.50,Default,,0000,0000,0000,,Eu já conversei com Yumi-chan e Yoshino-chan sobre isso,
+Dialogue: 0,0:11:31.91,0:11:34.30,Default,,0000,0000,0000,,sobre o romance de que todos estão falando, mas...
+Dialogue: 0,0:11:34.80,0:11:35.83,Default,,0000,0000,0000,,Aquilo não foi escrito por mim.
+Dialogue: 0,0:11:36.28,0:11:36.88,Default,,0000,0000,0000,,É tudo.
+Dialogue: 0,0:11:37.62,0:11:39.79,Default,,0000,0000,0000,,Então qual foi à razão pela qual você foi chamada?
+Dialogue: 0,0:11:40.41,0:11:41.17,Default,,0000,0000,0000,,E?
+Dialogue: 0,0:11:42.13,0:11:42.93,Default,,0000,0000,0000,,Nenhuma.
+Dialogue: 0,0:11:43.30,0:11:47.04,Default,,0000,0000,0000,,Após eu esclarece que não era eu, o diretor me substituiu...
+Dialogue: 0,0:11:47.48,0:11:49.40,Default,,0000,0000,0000,,e então eu fui facilmente liberada.
+Dialogue: 0,0:11:49.85,0:11:52.10,Default,,0000,0000,0000,,Eu mesma não li o romance e, na realidade,
+Dialogue: 0,0:11:52.52,0:11:56.67,Default,,0000,0000,0000,,eu apenas fiquei sabendo dos rumores apenas então.
+Dialogue: 0,0:11:57.12,0:12:00.00,Default,,0000,0000,0000,,Então não foi você realmente quem o escreveu, hein?
+Dialogue: 0,0:12:01.06,0:12:02.71,Default,,0000,0000,0000,,Eu juro por Virgem Maria.
+Dialogue: 0,0:12:04.24,0:12:05.12,Default,,0000,0000,0000,,Eu compreendo.
+Dialogue: 0,0:12:05.96,0:12:08.21,Default,,0000,0000,0000,,Vamos encerrar este tópico agora.
+Dialogue: 0,0:12:08.72,0:12:10.88,Default,,0000,0000,0000,,O que acha, Rosa Foetida?
+Dialogue: 0,0:12:12.41,0:12:15.75,Default,,0000,0000,0000,,Nenhuma objeção, Rosa Chinensis.
+Dialogue: 0,0:12:17.80,0:12:20.47,Default,,0000,0000,0000,,Agora, sobre a festa de Natal...
+Dialogue: 0,0:12:20.68,0:12:21.44,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:12:22.96,0:12:26.16,Default,,0000,0000,0000,,Ninguém está surpreso pelos rumores...
+Dialogue: 0,0:12:27.78,0:12:30.34,Default,,0000,0000,0000,,Eu sou tão ignorante e superficial...
+Dialogue: 0,0:12:30.60,0:12:31.50,Default,,0000,0000,0000,,É deprimente.
+Dialogue: 0,0:12:35.85,0:12:38.11,Default,,0000,0000,0000,,E eu fiz alguma outra cara estranha de novo?
+Dialogue: 0,0:12:39.06,0:12:41.92,Default,,0000,0000,0000,,O que é isso, Yumi-chan? Você tem uma sugestão?
+Dialogue: 0,0:12:42.93,0:12:44.51,Default,,0000,0000,0000,,Hum... não...
+Dialogue: 0,0:12:45.90,0:12:46.94,Default,,0000,0000,0000,,Eu sinto muito.
+Dialogue: 0,0:12:47.59,0:12:49.50,Default,,0000,0000,0000,,Não sonhe acordada.
+Dialogue: 0,0:12:50.87,0:12:54.87,Default,,0000,0000,0000,,Alguém com uma opinião, por favor, erga sua mão adequadamente.
+Dialogue: 0,0:12:56.26,0:12:59.13,Default,,0000,0000,0000,,Eu não posso acreditar que eu estava preocupada com alguém como ela.
+Dialogue: 0,0:13:05.49,0:13:07.84,Default,,0000,0000,0000,,Pare com isso, Rosa Gigantea.
+Dialogue: 0,0:13:08.16,0:13:10.77,Default,,0000,0000,0000,,Nossa, nossa, nossa... não está com bom humor?
+Dialogue: 0,0:13:11.21,0:13:13.69,Default,,0000,0000,0000,,Sachiko, empreste-me Yumi-chan.
+Dialogue: 0,0:13:16.01,0:13:18.00,Default,,0000,0000,0000,,Eu não me importo realmente, mas...
+Dialogue: 0,0:13:18.44,0:13:22.38,Default,,0000,0000,0000,,Não se preocupe. Nós não tiraremos nossos uniformes e começaremos a brincar.
+Dialogue: 0,0:13:24.06,0:13:27.19,Default,,0000,0000,0000,,Se você não parar de brincar, eu devo negar seu pedido.
+Dialogue: 0,0:13:27.39,0:13:28.38,Default,,0000,0000,0000,,Certo, certo.
+Dialogue: 0,0:13:29.08,0:13:32.02,Default,,0000,0000,0000,,Ah, Rei. Empreste-me Yoshino-chan também.
+Dialogue: 0,0:13:32.96,0:13:34.60,Default,,0000,0000,0000,,Se Yoshino-san aceitar isso.
+Dialogue: 0,0:13:36.51,0:13:38.96,Default,,0000,0000,0000,,Está certo concordar com isso tão facilmente?
+Dialogue: 0,0:13:39.79,0:13:43.56,Default,,0000,0000,0000,,Rei sabe que eu não farei nada com Yoshino-chan.
+Dialogue: 0,0:13:43.95,0:13:46.52,Default,,0000,0000,0000,,Ah, então por que apenas comigo?
+Dialogue: 0,0:13:47.62,0:13:49.53,Default,,0000,0000,0000,,Talvez porque sua reação é boa.
+Dialogue: 0,0:13:49.81,0:13:52.00,Default,,0000,0000,0000,,A resposta de Sachiko é sempre engraçada.
+Dialogue: 0,0:13:53.99,0:13:56.28,Default,,0000,0000,0000,,É o "matar dois pássaros com um só tiro" de souers.
+Dialogue: 0,0:13:56.61,0:13:58.55,Default,,0000,0000,0000,,Eu agradeço.
+Dialogue: 0,0:14:00.63,0:14:03.25,Default,,0000,0000,0000,,Eu sou a única vítima da má senpai.
+Dialogue: 0,0:14:04.64,0:14:07.82,Default,,0000,0000,0000,,Então, deixem limpeza para nós três.
+Dialogue: 0,0:14:07.99,0:14:09.92,Default,,0000,0000,0000,,Todos se sintam livres para partir primeiro.
+Dialogue: 0,0:14:10.18,0:14:11.81,Default,,0000,0000,0000,,Então, nós deixaremos o resto para vocês.
+Dialogue: 0,0:14:11.97,0:14:13.09,Default,,0000,0000,0000,,Nós estamos indo à frente, então.
+Dialogue: 0,0:14:14.38,0:14:18.12,Default,,0000,0000,0000,,Yumi... tente não fazer Rosa Gigantea feliz, certo?
+Dialogue: 0,0:14:19.48,0:14:20.32,Default,,0000,0000,0000,,S-Sim!
+Dialogue: 0,0:14:21.20,0:14:24.77,Default,,0000,0000,0000,,Onee-sama, há algo em que eu possa ajudar?
+Dialogue: 0,0:14:25.82,0:14:28.17,Default,,0000,0000,0000,,Nada, realmente não há nada.
+Dialogue: 0,0:14:28.67,0:14:29.63,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:14:30.25,0:14:32.18,Default,,0000,0000,0000,,Então, eu irei à frente.
+Dialogue: 0,0:14:32.84,0:14:35.21,Default,,0000,0000,0000,,Desculpe por vocês serem forçadas a ficar com minha Onee-sama.
+Dialogue: 0,0:14:35.83,0:14:36.95,Default,,0000,0000,0000,,Tenham um bom dia.
+Dialogue: 0,0:14:40.17,0:14:42.69,Default,,0000,0000,0000,,Ela não deveria ter ficado conosco?
+Dialogue: 0,0:14:43.13,0:14:45.89,Default,,0000,0000,0000,,Shimako é o tipo de garota que não ficaria se eu pedisse,
+Dialogue: 0,0:14:46.17,0:14:49.42,Default,,0000,0000,0000,,se ela quisesse verdadeiramente ficar, ela ficaria por vontade própria.
+Dialogue: 0,0:14:51.43,0:14:54.63,Default,,0000,0000,0000,,Então, Yumi-chan. Você tem "A Floresta de Espinhos" com você, agora mesmo?
+Dialogue: 0,0:14:55.27,0:14:57.23,Default,,0000,0000,0000,,Hum... ah, sim.
+Dialogue: 0,0:14:57.99,0:14:59.06,Default,,0000,0000,0000,,Você o emprestaria para mim?
+Dialogue: 0,0:14:59.50,0:15:02.14,Default,,0000,0000,0000,,Claro, mas... o que você quer fazer com ele?
+Dialogue: 0,0:15:02.61,0:15:04.30,Default,,0000,0000,0000,,Eu quero indo lê-lo, claro.
+Dialogue: 0,0:15:04.57,0:15:07.56,Default,,0000,0000,0000,,Você pensou que eu fosse usá-lo como um descanso para "nabe"?
+Dialogue: 0,0:15:04.53,0:15:07.60,Default,,0000,0000,0000,,{\an8}(Nabe = é um prato típico que é cozido num pote na mesa)
+Dialogue: 0,0:15:08.39,0:15:09.04,Default,,0000,0000,0000,,Aqui.
+Dialogue: 0,0:15:10.29,0:15:11.04,Default,,0000,0000,0000,,Boa menina.
+Dialogue: 0,0:15:11.64,0:15:13.09,Default,,0000,0000,0000,,Em retribuição...
+Dialogue: 0,0:15:14.45,0:15:16.08,Default,,0000,0000,0000,,Cupons de cafeteria?
+Dialogue: 0,0:15:14.47,0:15:16.08,Default,,0000,0000,0000,,{\an8}(Cupons de cafeteria - Lamen)
+Dialogue: 0,0:15:16.79,0:15:18.13,Default,,0000,0000,0000,,Vão lá, vocês duas.
+Dialogue: 0,0:15:18.71,0:15:19.63,Default,,0000,0000,0000,,Mas...
+Dialogue: 0,0:15:19.93,0:15:22.77,Default,,0000,0000,0000,,Comprem para mim uma lata de café da maquina no caminho de volta.
+Dialogue: 0,0:15:23.25,0:15:25.50,Default,,0000,0000,0000,,Vocês podem comprar algumas para vocês mesmas, também.
+Dialogue: 0,0:15:26.39,0:15:26.88,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:15:28.28,0:15:30.49,Default,,0000,0000,0000,,Eu apenas não entendo a Rosa Gigantea...
+Dialogue: 0,0:15:32.45,0:15:34.26,Default,,0000,0000,0000,,Shimako-san é incrível.
+Dialogue: 0,0:15:34.83,0:15:37.05,Default,,0000,0000,0000,,Ela é a petit souer de alguém assim.
+Dialogue: 0,0:15:38.14,0:15:41.70,Default,,0000,0000,0000,,Yumi-san, seria melhor para você amarrar o lenço ao redor de sua nuca.
+Dialogue: 0,0:15:41.99,0:15:43.16,Default,,0000,0000,0000,,Você ficará com seu colarinho sujo.
+Dialogue: 0,0:15:43.93,0:15:44.73,Default,,0000,0000,0000,,Sim...
+Dialogue: 0,0:15:45.68,0:15:46.68,Default,,0000,0000,0000,,O que há de errado?
+Dialogue: 0,0:15:47.34,0:15:51.36,Default,,0000,0000,0000,,Por que Rosa Gigantea queria nos deixar para trás?
+Dialogue: 0,0:15:52.83,0:15:55.59,Default,,0000,0000,0000,,Afinal, se ela queria ler "A Floresta de Espinhos",
+Dialogue: 0,0:15:55.71,0:15:57.70,Default,,0000,0000,0000,,ela poderia ter apenas levado-o para a casa.
+Dialogue: 0,0:15:58.81,0:16:03.80,Default,,0000,0000,0000,,Ah! Poderia ser porque nós somos fofas, ela decidiu nos tratar com lamen?
+Dialogue: 0,0:16:04.93,0:16:07.45,Default,,0000,0000,0000,,Yumi-san... seu cérebro está fundindo...
+Dialogue: 0,0:16:12.12,0:16:13.43,Default,,0000,0000,0000,,É impossível.
+Dialogue: 0,0:16:13.49,0:16:14.40,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:16:14.66,0:16:16.76,Default,,0000,0000,0000,,Normalmente, ninguém compraria lata de "Sopa doce de feijão vermelho".
+Dialogue: 0,0:16:16.81,0:16:17.95,Default,,0000,0000,0000,,O que está errado com isso?
+Dialogue: 0,0:16:19.47,0:16:20.80,Default,,0000,0000,0000,,Desculpe por fazê-la esperar.
+Dialogue: 0,0:16:21.44,0:16:24.20,Default,,0000,0000,0000,,O que é? O objetivo daquela lata de "Sopa doce de feijão vermelho"
+Dialogue: 0,0:16:21.43,0:16:24.20,Default,,0000,0000,0000,,{\an8}("Sopa doce de feijão vermelho" - sabor Chá verde)
+Dialogue: 0,0:16:25.55,0:16:26.92,Default,,0000,0000,0000,,Yumi-san comprou isto.
+Dialogue: 0,0:16:27.80,0:16:28.79,Default,,0000,0000,0000,,O que é isso?!
+Dialogue: 0,0:16:29.46,0:16:31.58,Default,,0000,0000,0000,,Algo assim existe?!
+Dialogue: 0,0:16:33.75,0:16:34.28,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:16:34.69,0:16:37.81,Default,,0000,0000,0000,,Eu comprei o café que você queria.
+Dialogue: 0,0:16:38.49,0:16:39.35,Default,,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:16:41.56,0:16:43.34,Default,,0000,0000,0000,,Você já leu o livro?
+Dialogue: 0,0:16:44.21,0:16:44.94,Default,,0000,0000,0000,,Eu o li.
+Dialogue: 0,0:16:45.61,0:16:47.41,Default,,0000,0000,0000,,Elas devem ter uma boa intuição...
+Dialogue: 0,0:16:48.05,0:16:51.30,Default,,0000,0000,0000,,As pessoas que disseram que eu escrevi "A Floresta de Espinhos".
+Dialogue: 0,0:16:53.68,0:16:56.40,Default,,0000,0000,0000,,Afinal, vocês não acham que ela é parecida comigo?
+Dialogue: 0,0:16:56.97,0:17:01.45,Default,,0000,0000,0000,,Vocês podem me perguntar porque eu era erroneamente dada como a escritora do romance.
+Dialogue: 0,0:17:01.77,0:17:04.64,Default,,0000,0000,0000,,Eu estou certa que vocês perceberam que não é apenas uma similaridade nos nomes.
+Dialogue: 0,0:17:05.55,0:17:09.30,Default,,0000,0000,0000,,Eu me pergunto se nossa curiosidade era tão óbvia...
+Dialogue: 0,0:17:10.36,0:17:13.80,Default,,0000,0000,0000,,Eu não disse isso para fazer vocês se sentirem mal.
+Dialogue: 0,0:17:14.48,0:17:16.74,Default,,0000,0000,0000,,Eu pularei as partes que eu não quero contar, mas...
+Dialogue: 0,0:17:17.21,0:17:18.46,Default,,0000,0000,0000,,se estiver bem, então...
+Dialogue: 0,0:17:19.36,0:17:20.57,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:17:20.93,0:17:24.97,Default,,0000,0000,0000,,Bem, de qualquer modo, é injusto que vocês sejam as únicas que não saibam, certo?
+Dialogue: 0,0:17:25.58,0:17:28.89,Default,,0000,0000,0000,,Você nos deixou para trás para que pudesse nos contar sobre isso?
+Dialogue: 0,0:17:29.48,0:17:31.97,Default,,0000,0000,0000,,Eu também queria ler isso o mais cedo possível.
+Dialogue: 0,0:17:32.85,0:17:38.40,Default,,0000,0000,0000,,Eu acho que Youko e o resto não explicaram isso em consideração a mim.
+Dialogue: 0,0:17:40.19,0:17:42.35,Default,,0000,0000,0000,,Então foi um terrível evento...
+Dialogue: 0,0:17:42.99,0:17:46.55,Default,,0000,0000,0000,,Eu tive uma amiga verdadeiramente próxima.
+Dialogue: 0,0:17:46.96,0:17:49.85,Default,,0000,0000,0000,,Ela era mais importante que irmãos e pais.
+Dialogue: 0,0:17:50.07,0:17:53.80,Default,,0000,0000,0000,,Eu a amava a ponto de não precisar de nada mais contanto que eu a tivesse.
+Dialogue: 0,0:17:54.77,0:17:58.89,Default,,0000,0000,0000,,Ela era uma garota pura que queria se tornar uma freira no futuro.
+Dialogue: 0,0:17:59.48,0:18:03.00,Default,,0000,0000,0000,,Mas no último Natal, ela desapareceu.
+Dialogue: 0,0:18:04.25,0:18:05.06,Default,,0000,0000,0000,,Então...
+Dialogue: 0,0:18:05.18,0:18:09.08,Default,,0000,0000,0000,,Isso não é exatamente o mesmo com Sei e Kaori no "A Floresta de Espinhos"?!
+Dialogue: 0,0:18:09.37,0:18:11.43,Default,,0000,0000,0000,,Não "exatamente".
+Dialogue: 0,0:18:12.15,0:18:16.54,Default,,0000,0000,0000,,Eu não fugi com esta amiga, nem tomamos pílulas para dormir.
+Dialogue: 0,0:18:17.07,0:18:21.60,Default,,0000,0000,0000,,Ela foi transferida.
+Dialogue: 0,0:18:22.18,0:18:25.10,Default,,0000,0000,0000,,Então, Kaori-san ainda está viva?!
+Dialogue: 0,0:18:25.73,0:18:28.65,Default,,0000,0000,0000,,O quê? Você está desapontada que ela está viva?
+Dialogue: 0,0:18:29.16,0:18:30.14,Default,,0000,0000,0000,,Eu sinto muito.
+Dialogue: 0,0:18:30.32,0:18:36.93,Default,,0000,0000,0000,,Então, talvez alguém tenha usado você como uma referência e escrito este romance?
+Dialogue: 0,0:18:37.73,0:18:38.98,Default,,0000,0000,0000,,Eu me pergunto...
+Dialogue: 0,0:18:39.47,0:18:43.93,Default,,0000,0000,0000,,Há partes que são diferentes e algumas que foram sobrepostas para um surpreendente passo.
+Dialogue: 0,0:18:44.67,0:18:47.13,Default,,0000,0000,0000,,Você não sabe, Rosa Gigantea?
+Dialogue: 0,0:18:47.44,0:18:50.02,Default,,0000,0000,0000,,Aquela que tornou seu passado em um romance sem pedir...
+Dialogue: 0,0:18:50.48,0:18:52.74,Default,,0000,0000,0000,,então você tem sido confundida com a autora.
+Dialogue: 0,0:18:53.61,0:18:58.27,Default,,0000,0000,0000,,Eu estou bem, contanto que aqueles que eu me importo saibam.
+Dialogue: 0,0:18:59.10,0:19:01.46,Default,,0000,0000,0000,,Esse é o motivo de eu contar à vocês duas.
+Dialogue: 0,0:19:01.89,0:19:05.08,Default,,0000,0000,0000,,Eu não quero nenhum segredo persistindo em nosso relacionamento.
+Dialogue: 0,0:19:06.67,0:19:10.84,Default,,0000,0000,0000,,Sua amiga que foi transferida, como ela está agora?
+Dialogue: 0,0:19:12.17,0:19:15.00,Default,,0000,0000,0000,,Quem sabe...? Eu me pergunto.
+Dialogue: 0,0:19:16.12,0:19:17.66,Default,,0000,0000,0000,,Você não quer vê-la?
+Dialogue: 0,0:19:18.70,0:19:20.77,Default,,0000,0000,0000,,É melhor se eu não for.
+Dialogue: 0,0:19:21.66,0:19:24.73,Default,,0000,0000,0000,,O nome daquela garota não é Kaori.
+Dialogue: 0,0:19:26.34,0:19:28.40,Default,,0000,0000,0000,,Ela se chama Kubou Shiori.
+Dialogue: 0,0:19:33.43,0:19:37.10,Default,,0000,0000,0000,,Rosa Gigantea ainda a ama, certo?
+Dialogue: 0,0:19:37.68,0:19:40.69,Default,,0000,0000,0000,,Sim, eu também acho isso.
+Dialogue: 0,0:19:41.55,0:19:44.16,Default,,0000,0000,0000,,Este é o porquê de Shimako-san não ter ficado?
+Dialogue: 0,0:19:44.64,0:19:46.50,Default,,0000,0000,0000,,Uma vez que isso deve ser ruim para ela.
+Dialogue: 0,0:19:48.64,0:19:50.09,Default,,0000,0000,0000,,Eu acho que isso é imperdoável.
+Dialogue: 0,0:19:50.68,0:19:52.77,Default,,0000,0000,0000,,Alguém poderia se magoar com o que foi escrito naquele romance.
+Dialogue: 0,0:19:54.18,0:19:55.23,Default,,0000,0000,0000,,Yoshino-san?
+Dialogue: 0,0:19:55.99,0:19:59.73,Default,,0000,0000,0000,,Será que não foi Kubou Shiori-san que escreveu aquele romance?
+Dialogue: 0,0:20:00.92,0:20:05.34,Default,,0000,0000,0000,,Certo, decidi-me! Eu localizarei o autor de "A Floresta de Espinhos"!
+Dialogue: 0,0:20:13.14,0:20:15.35,Default,,0000,0000,0000,,Este é o Departamento Editorial da Cosmos...
+Dialogue: 0,0:20:15.99,0:20:17.33,Default,,0000,0000,0000,,Por que eu tenho que vir também?
+Dialogue: 0,0:20:17.70,0:20:19.67,Default,,0000,0000,0000,,Você não está curiosa também, Rei-chan?
+Dialogue: 0,0:20:19.98,0:20:22.01,Default,,0000,0000,0000,,Sobre quem é o autor de "A Floresta de Espinhos"?
+Dialogue: 0,0:20:22.31,0:20:23.16,Default,,0000,0000,0000,,Sim, mas...
+Dialogue: 0,0:20:25.59,0:20:26.77,Default,,0000,0000,0000,,Eu sinto muito por fazê-las esperar.
+Dialogue: 0,0:20:26.97,0:20:28.93,Default,,0000,0000,0000,,Desculpe por incomodar você num horário movimentado.
+Dialogue: 0,0:20:29.46,0:20:31.64,Default,,0000,0000,0000,,Você é a responsável por "A Floresta de Espinhos", certo?
+Dialogue: 0,0:20:32.17,0:20:36.93,Default,,0000,0000,0000,,Sim, mas eu não posso revelar a verdadeira identidade de Suga Sei.
+Dialogue: 0,0:20:38.95,0:20:40.15,Default,,0000,0000,0000,,Há poucos dias,
+Dialogue: 0,0:20:40.59,0:20:43.71,Default,,0000,0000,0000,,tem chegado uma onda sem fim de cartas de indagação de estudantes de Lillian,
+Dialogue: 0,0:20:44.05,0:20:47.23,Default,,0000,0000,0000,,perguntando se a identidade verdadeira de Suga Sei é Satou Sei-san.
+Dialogue: 0,0:20:49.18,0:20:49.99,Default,,0000,0000,0000,,Sasaki-san.
+Dialogue: 0,0:20:50.96,0:20:52.32,Default,,0000,0000,0000,,Se-Sensei?!
+Dialogue: 0,0:20:50.86,0:20:52.32,Default,,0000,0000,0000,,{\an8}(Nota do tradutor: Sensei, ou professor, é um termo empregado para um superior)
+Dialogue: 0,0:20:54.34,0:20:57.30,Default,,0000,0000,0000,,Ah, estes uniformes são tão nostálgicos.
+Dialogue: 0,0:20:58.05,0:21:01.10,Default,,0000,0000,0000,,Em pensar que eu encontraria minhas "kouhais" em um lugar como este.
+Dialogue: 0,0:20:58.11,0:21:01.10,Default,,0000,0000,0000,,{\an8}(Nota do tradutor: "Kouhai" significa em nível inferior, é o contrário de "sempai")
+Dialogue: 0,0:21:01.39,0:21:02.26,Default,,0000,0000,0000,,Sensei...
+Dialogue: 0,0:21:03.60,0:21:06.28,Default,,0000,0000,0000,,Então, você graduou no Lillian?!
+Dialogue: 0,0:21:07.09,0:21:09.57,Default,,0000,0000,0000,,Sim, há muito tempo atrás.
+Dialogue: 0,0:21:11.94,0:21:12.68,Default,,0000,0000,0000,,Então...
+Dialogue: 0,0:21:12.78,0:21:13.48,Default,,0000,0000,0000,,Você é...
+Dialogue: 0,0:21:14.45,0:21:17.63,Default,,0000,0000,0000,,Eu sou Suga Sei. Meu nome é Kasuka Seiko.
+Dialogue: 0,0:21:17.93,0:21:21.04,Default,,0000,0000,0000,,Então, mesmo pensando que o cenário de "A Floresta de Espinhos" era o Lillian...
+Dialogue: 0,0:21:21.45,0:21:23.65,Default,,0000,0000,0000,,isso aconteceu há muito tempo atrás.
+Dialogue: 0,0:21:25.37,0:21:28.34,Default,,0000,0000,0000,,"A Floresta de Espinhos" foi sobre eventos que ocorreram há tanto tempo...
+Dialogue: 0,0:21:28.40,0:21:29.81,Default,,0000,0000,0000,,que nem mesmo rumores restaram.
+Dialogue: 0,0:21:30.83,0:21:34.10,Default,,0000,0000,0000,,Foi uma história completamente diferente da de Rosa Gigantea...
+Dialogue: 0,0:21:38.30,0:21:42.03,Default,,0000,0000,0000,,Faz tanto tempo que ele passou pelos meus lábios... o nome dela...
+Dialogue: 0,0:21:55.06,0:21:56.36,Default,,0000,0000,0000,,Nova estudante?
+Dialogue: 0,0:21:57.96,0:22:01.67,Default,,0000,0000,0000,,Sim. Eu estou começando no Lillian neste ano.
+Dialogue: 0,0:22:03.26,0:22:04.24,Default,,0000,0000,0000,,Qual o seu nome?
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(fecho)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(Prévia)
+Dialogue: 0,0:23:20.60,0:23:23.42,Default,,0000,0000,0000,,Onee-sama, o que é o "bira" no "hanabira", o "bira"?
+Dialogue: 0,0:23:20.60,0:23:23.42,Default,,0000,0000,0000,,{\an8}(Nota do tradutor: "Hanabira" significa pétalas)
+Dialogue: 0,0:23:23.47,0:23:25.39,Default,,0000,0000,0000,,Você realmente se preocupa com coisas estranhas.
+Dialogue: 0,0:23:25.50,0:23:28.16,Default,,0000,0000,0000,,Você escreve o "bira" no "hanabira" com o mesmo kanji que o "ben" em "bentoo".
+Dialogue: 0,0:23:28.24,0:23:31.24,Default,,0000,0000,0000,,O "ben" em "bentoo"? Eu entendo" Então é o "ben" no "bento"!
+Dialogue: 0,0:23:19.98,0:23:34.75,Default,,0000,0000,0000,,{\fad(1500,0)\pos(150,120)}Próximo episódio
+Dialogue: 0,0:23:30.08,0:23:34.75,Default,,0000,0000,0000,,{\fad(1500,0)\pos(430,380)}Pétalas Brancas
+Dialogue: 0,0:23:31.32,0:23:34.02,Default,,0000,0000,0000,,E essa é uma boa história para a próxima semana, parece que você gastou a prévia!

@@ -1,0 +1,342 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: nota,CastleT,37,&H00FFF3E8,&H00000000,&H323E1F00,&H64000000,-1,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: pensamento,Miu,41,&H00ECECFF,&H00000000,&H46000051,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: lembrança,Miu,41,&H00F2FFFF,&H00000000,&H46003C3C,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: preview,Miu,41,&H00F2FFF2,&H00000000,&H46003500,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: Default,Miu,41,&H00F8F8F8,&H00000000,&H46000000,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.14,0:00:09.96,Default,,0000,0000,0000,,Vovó!
+Dialogue: 0,0:00:10.23,0:00:11.76,Default,,0000,0000,0000,,Amanhã às duas da tarde está bom, não é?
+Dialogue: 0,0:00:12.03,0:00:13.25,Default,,0000,0000,0000,,Só para ter certeza.
+Dialogue: 0,0:00:14.51,0:00:17.80,Default,,0000,0000,0000,,Ah... Me desculpa, eu acho que não vai dar amanhã.
+Dialogue: 0,0:00:19.30,0:00:22.68,Default,,0000,0000,0000,,Bem, eu esqueci que estarei ocupada no domingo.
+Dialogue: 0,0:00:22.97,0:00:27.23,Default,,0000,0000,0000,,Então você não vai me levar àquele cara que conserta as cordas das raquetes?
+Dialogue: 0,0:00:27.91,0:00:29.53,Default,,0000,0000,0000,,Pois é...
+Dialogue: 0,0:00:33.28,0:00:34.99,Default,,0000,0000,0000,,Ryoma! Venha cá um pouco!
+Dialogue: 0,0:00:36.79,0:00:38.23,Default,,0000,0000,0000,,Você está livre amanhã?
+Dialogue: 0,0:00:38.23,0:00:39.20,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:00:39.20,0:00:42.29,Default,,0000,0000,0000,,As cordas da raquete da Sakuno estão soltas.
+Dialogue: 0,0:00:42.29,0:00:45.59,Default,,0000,0000,0000,,Você o conhece, certo? Aquele velho do Haritatsu.
+Dialogue: 0,0:00:45.59,0:00:47.46,Default,,0000,0000,0000,,Eu estava pensando em levar ela até lá.
+Dialogue: 0,0:00:48.04,0:00:49.13,Default,,0000,0000,0000,,E daí?
+Dialogue: 0,0:00:49.19,0:00:51.50,Default,,0000,0000,0000,,Eu não posso levá-la amanhã.
+Dialogue: 0,0:00:51.50,0:00:53.73,Default,,0000,0000,0000,,Você pode levar a Sakuno até lá?
+Dialogue: 0,0:00:53.73,0:00:55.20,Default,,0000,0000,0000,,V-Vovó...
+Dialogue: 0,0:00:55.20,0:00:57.55,Default,,0000,0000,0000,,Eu não sou muito amigo daquele cara.
+Dialogue: 0,0:00:57.55,0:00:59.56,Default,,0000,0000,0000,,Mesmo assim, por favor!
+Dialogue: 0,0:00:59.56,0:01:00.60,Default,,0000,0000,0000,,Certo...
+Dialogue: 0,0:01:00.90,0:01:04.92,Default,,0000,0000,0000,,Atendendo a um pedido de uma garota. Pelo menos você é um garoto útil.
+Dialogue: 0,0:01:05.72,0:01:08.23,Default,,0000,0000,0000,,O-Obrigada!
+Dialogue: 0,0:01:09.21,0:01:10.73,Default,,0000,0000,0000,,C-Certo...
+Dialogue: 0,0:01:10.73,0:01:12.41,Default,,0000,0000,0000,,Meus agradecimentos por fazer isso amanhã.
+Dialogue: 0,0:01:12.41,0:01:14.70,Default,,0000,0000,0000,,Encontre-me em frente à estação às duas da tarde, está bem?
+Dialogue: 0,0:02:55.59,0:02:58.90,Default,,0000,0000,0000,,Eu sou a Ryuzaki Sakuno e estou com um grande problema nesse exato momento!
+Dialogue: 0,0:03:00.02,0:03:02.55,Default,,0000,0000,0000,,Ah! O que devo fazer?
+Dialogue: 0,0:03:02.55,0:03:04.97,Default,,0000,0000,0000,,Eu ainda não decidi que roupa vestir!
+Dialogue: 0,0:03:06.86,0:03:09.06,Default,,0000,0000,0000,,Faltam quinze minutos para as duas horas.
+Dialogue: 0,0:03:16.85,0:03:18.74,Default,,0000,0000,0000,,Sim, aqui é a Ryuzaki!
+Dialogue: 0,0:03:18.74,0:03:21.07,Default,,0000,0000,0000,,Sakuno, você está livre hoje?
+Dialogue: 0,0:03:21.07,0:03:22.57,Default,,0000,0000,0000,,É a Tomoka.
+Dialogue: 0,0:03:22.72,0:03:24.55,Default,,0000,0000,0000,,Se não estiver fazendo nada, quer vir aqui?
+Dialogue: 0,0:03:24.55,0:03:26.10,Default,,0000,0000,0000,,Me pediram para cuidar da casa hoje.
+Dialogue: 0,0:03:26.91,0:03:29.98,Default,,0000,0000,0000,,Hã? Consertar as cordas da sua raquete?
+Dialogue: 0,0:03:29.98,0:03:32.42,Default,,0000,0000,0000,,Sim, e além disso...
+Dialogue: 0,0:03:32.63,0:03:34.44,Default,,0000,0000,0000,,Hum, com o Ryoma-sama...
+Dialogue: 0,0:03:38.50,0:03:39.15,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:03:40.00,0:03:43.95,Default,,0000,0000,0000,,O quê?! Você está brincando! Um encontro com o Ryoma-sama?!
+Dialogue: 0,0:03:43.95,0:03:45.55,Default,,0000,0000,0000,,N-Não é um encontro!
+Dialogue: 0,0:03:45.55,0:03:48.62,Default,,0000,0000,0000,,A vovó pediu para o Ryoma-kun ajudar...
+Dialogue: 0,0:03:48.62,0:03:53.31,Default,,0000,0000,0000,,Sakuno, sua trapaceira! Eu também quero ir! Um encontro!
+Dialogue: 0,0:03:53.31,0:03:55.73,Default,,0000,0000,0000,,Como eu disse, não é um encontro!
+Dialogue: 0,0:03:59.35,0:04:00.65,Default,,0000,0000,0000,,Estou com fome.
+Dialogue: 0,0:04:01.91,0:04:04.20,Default,,0000,0000,0000,,E então, garoto, aonde você está indo?
+Dialogue: 0,0:04:04.20,0:04:05.30,Default,,0000,0000,0000,,Um encontro?
+Dialogue: 0,0:04:05.30,0:04:06.70,Default,,0000,0000,0000,,Para a casa do velho que conserta cordas de raquete.
+Dialogue: 0,0:04:06.87,0:04:11.36,Default,,0000,0000,0000,,Isso é estranho. Você raramente vai no Haritatsu.
+Dialogue: 0,0:04:11.36,0:04:14.62,Default,,0000,0000,0000,,Eu tenho que levar a neta da Ryuzaki-sensei até lá.
+Dialogue: 0,0:04:14.62,0:04:15.60,Default,,0000,0000,0000,,Neta?
+Dialogue: 0,0:04:15.60,0:04:17.95,Default,,0000,0000,0000,,Então é um encontro!
+Dialogue: 0,0:04:18.66,0:04:22.50,Default,,0000,0000,0000,,Você já chegou à idade disso, não é?
+Dialogue: 0,0:04:22.50,0:04:24.30,Default,,0000,0000,0000,,Eu como seu pai estou feliz por isso.
+Dialogue: 0,0:04:24.30,0:04:26.62,Default,,0000,0000,0000,,Eu só estou levando ela até lá.
+Dialogue: 0,0:04:26.62,0:04:29.53,Default,,0000,0000,0000,,Aproveite o seu tempo e divirta-se.
+Dialogue: 0,0:04:30.96,0:04:33.82,Default,,0000,0000,0000,,Então agora ele gosta de alguém...
+Dialogue: 0,0:04:33.82,0:04:37.80,Default,,0000,0000,0000,,Espere. Será que ele sabe o que fazer em um encontro?
+Dialogue: 0,0:04:38.01,0:04:39.85,Default,,0000,0000,0000,,Não posso perder essa...
+Dialogue: 0,0:04:58.05,0:04:59.40,Default,,0000,0000,0000,,Essa não...
+Dialogue: 0,0:05:15.40,0:05:17.40,Default,,0000,0000,0000,,O Haritatsu-san é por aqui.
+Dialogue: 0,0:05:17.40,0:05:21.15,Default,,0000,0000,0000,,H-Hum... Desculpa! Você deve ter esperado muito!
+Dialogue: 0,0:05:29.25,0:05:32.60,Default,,0000,0000,0000,,O que devo fazer? Ele deve estar com raiva de mim...
+Dialogue: 0,0:05:32.60,0:05:34.93,Default,,0000,0000,0000,,Eu me atrasei trinta minutos...
+Dialogue: 0,0:05:34.93,0:05:36.71,Default,,0000,0000,0000,,O que devo fazer?
+Dialogue: 0,0:05:40.90,0:05:42.50,Default,,0000,0000,0000,,Você é muito imaturo, Ryoma.
+Dialogue: 0,0:05:42.50,0:05:45.63,Default,,0000,0000,0000,,Como você quer ser um homem se não pode nem perdoar uma garota que se atrasou um pouco?
+Dialogue: 0,0:05:47.82,0:05:49.60,Default,,0000,0000,0000,,O que há com aquele homem?
+Dialogue: 0,0:05:49.60,0:05:50.55,Default,,0000,0000,0000,,Ele é meio estranho...
+Dialogue: 0,0:05:53.08,0:05:55.41,Default,,0000,0000,0000,,Muito obrigado por hoje.
+Dialogue: 0,0:05:55.41,0:05:58.27,Default,,0000,0000,0000,,Graças a você, nós aprendemos a julgar a nós mesmos.
+Dialogue: 0,0:05:58.27,0:06:00.88,Default,,0000,0000,0000,,E também conseguimos comida de graça.
+Dialogue: 0,0:06:00.88,0:06:03.91,Default,,0000,0000,0000,,Que nada. Como senpai, isso é algo que eu devo fazer.
+Dialogue: 0,0:06:06.47,0:06:08.08,Default,,0000,0000,0000,,Ah! É o Echizen!
+Dialogue: 0,0:06:08.08,0:06:10.31,Default,,0000,0000,0000,,Sim, aquele é o Ryoma-kun.
+Dialogue: 0,0:06:10.31,0:06:12.28,Default,,0000,0000,0000,,Ele está com a Ryuzaki-san.
+Dialogue: 0,0:06:12.28,0:06:14.08,Default,,0000,0000,0000,,Eles estão tendo um encontro?
+Dialogue: 0,0:06:14.32,0:06:15.95,Default,,0000,0000,0000,,Parece um encontro...
+Dialogue: 0,0:06:15.95,0:06:19.69,Default,,0000,0000,0000,,Sério?! Aquele cara... Eu estou com ciúmes!
+Dialogue: 0,0:06:20.85,0:06:24.09,Default,,0000,0000,0000,,Então aqueles dois têm esse tipo de relação?
+Dialogue: 0,0:06:24.45,0:06:26.60,Default,,0000,0000,0000,,Essa juventude...
+Dialogue: 0,0:06:26.60,0:06:28.90,Default,,0000,0000,0000,,Interessante! Vamos segui-los!
+Dialogue: 0,0:06:29.89,0:06:31.42,Default,,0000,0000,0000,,Momo-chan senpai...
+Dialogue: 0,0:06:31.42,0:06:33.01,Default,,0000,0000,0000,,Você não tem nada para fazer, não é?
+Dialogue: 0,0:06:46.81,0:06:49.81,Default,,0000,0000,0000,,Ah! Anda logo com isso!
+Dialogue: 0,0:06:49.81,0:06:50.57,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:06:51.45,0:06:54.87,Default,,0000,0000,0000,,Eu não estava falando com você, mas... Que seja.
+Dialogue: 0,0:07:00.03,0:07:01.50,Default,,0000,0000,0000,,Aonde eles estão indo?
+Dialogue: 0,0:07:01.50,0:07:02.60,Default,,0000,0000,0000,,Ao cinema?
+Dialogue: 0,0:07:03.52,0:07:06.30,Default,,0000,0000,0000,,Echizen não sabe de nada...
+Dialogue: 0,0:07:06.30,0:07:13.14,Default,,0000,0000,0000,,Agora, agora... Agora, agora... Agora, agora...
+Dialogue: 0,0:07:13.19,0:07:15.15,Default,,0000,0000,0000,,O que há com aquele cara?
+Dialogue: 0,0:07:15.15,0:07:18.55,Default,,0000,0000,0000,,Ah! Aquele monge! Ele é aquele maníaco sexual!
+Dialogue: 0,0:07:18.55,0:07:19.51,Default,,0000,0000,0000,,Maníaco sexual?
+Dialogue: 0,0:07:19.51,0:07:20.31,Default,,0000,0000,0000,,Vamos!
+Dialogue: 0,0:07:25.49,0:07:27.87,Default,,0000,0000,0000,,Essa é a primeira vez que venho a essa região.
+Dialogue: 0,0:07:27.87,0:07:30.20,Default,,0000,0000,0000,,Há muitas lojas de esportes aqui...
+Dialogue: 0,0:07:32.67,0:07:36.08,Default,,0000,0000,0000,,O velho está numa dessas lojas?
+Dialogue: 0,0:07:36.08,0:07:37.66,Default,,0000,0000,0000,,Hã? Ryoma-kun...
+Dialogue: 0,0:07:37.81,0:07:38.53,Default,,0000,0000,0000,,Por aqui.
+Dialogue: 0,0:07:39.56,0:07:41.00,Default,,0000,0000,0000,,Ah! Espere!
+Dialogue: 0,0:07:46.16,0:07:48.11,Default,,0000,0000,0000,,Ele com certeza não está falando muito.
+Dialogue: 0,0:07:50.99,0:07:54.43,Default,,0000,0000,0000,,Pensando bem, eu ainda não comi nada...
+Dialogue: 0,0:07:55.05,0:07:56.35,Default,,0000,0000,0000,,Só um pouco, senhor!
+Dialogue: 0,0:07:56.35,0:07:56.97,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:07:57.11,0:07:58.76,Default,,0000,0000,0000,,Nós já te vimos antes.
+Dialogue: 0,0:07:58.76,0:08:01.39,Default,,0000,0000,0000,,Você está seguindo o Echizen?
+Dialogue: 0,0:08:02.57,0:08:05.23,Default,,0000,0000,0000,,Eu não entendo japonês.
+Dialogue: 0,0:08:05.32,0:08:06.55,Default,,0000,0000,0000,,Não brinque comigo!
+Dialogue: 0,0:08:06.55,0:08:09.28,Default,,0000,0000,0000,,Como um monge pode ser estrangeiro?
+Dialogue: 0,0:08:15.66,0:08:16.95,Default,,0000,0000,0000,,Ah! Ele fugiu!
+Dialogue: 0,0:08:17.53,0:08:18.97,Default,,0000,0000,0000,,Suspeito...
+Dialogue: 0,0:08:18.97,0:08:20.25,Default,,0000,0000,0000,,Quem é ele?
+Dialogue: 0,0:08:20.85,0:08:24.04,Default,,0000,0000,0000,,Entendi. Ele deve estar de olho naquela garota.
+Dialogue: 0,0:08:24.07,0:08:24.71,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:08:25.30,0:08:26.87,Default,,0000,0000,0000,,Que miserável!
+Dialogue: 0,0:08:26.87,0:08:29.68,Default,,0000,0000,0000,,Todos nós iremos proteger o encontro do Echizen!
+Dialogue: 0,0:08:29.68,0:08:30.47,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:08:30.47,0:08:31.59,Default,,0000,0000,0000,,Entenderam?!
+Dialogue: 0,0:08:31.59,0:08:33.09,Default,,0000,0000,0000,,Hã? Sim!
+Dialogue: 0,0:08:41.26,0:08:41.85,Default,,0000,0000,0000,,É aqui.
+Dialogue: 0,0:08:46.80,0:08:49.07,Default,,0000,0000,0000,,Ei... É aqui?
+Dialogue: 0,0:08:49.07,0:08:50.66,Default,,0000,0000,0000,,Sim, por quê?
+Dialogue: 0,0:08:50.66,0:08:53.91,Default,,0000,0000,0000,,Bem, é diferente do que eu imaginava.
+Dialogue: 0,0:08:53.91,0:08:54.82,Default,,0000,0000,0000,,Como assim?
+Dialogue: 0,0:08:54.82,0:08:59.59,Default,,0000,0000,0000,,Bem, essa é a primeira vez que eu venho a uma loja como essa.
+Dialogue: 0,0:08:59.59,0:09:01.66,Default,,0000,0000,0000,,Eu pensava que seria melhor do que isso...
+Dialogue: 0,0:09:11.77,0:09:14.38,Default,,0000,0000,0000,,Eles foram a uma loja bem suja.
+Dialogue: 0,0:09:14.43,0:09:15.45,Default,,0000,0000,0000,,E o perseguidor?
+Dialogue: 0,0:09:15.45,0:09:16.91,Default,,0000,0000,0000,,Ele desapareceu!
+Dialogue: 0,0:09:16.91,0:09:20.54,Default,,0000,0000,0000,,Hum... Isso é meio estranho para ser um encontro...
+Dialogue: 0,0:09:20.54,0:09:22.06,Default,,0000,0000,0000,,Eu fico imaginando o que eles estão fazendo.
+Dialogue: 0,0:09:36.90,0:09:37.95,Default,,0000,0000,0000,,Boa tarde.
+Dialogue: 0,0:09:47.62,0:09:49.08,Default,,0000,0000,0000,,Bem-vindos...
+Dialogue: 0,0:09:55.37,0:09:58.50,Default,,0000,0000,0000,,O quê? Esse não é o Ryoma-kun?
+Dialogue: 0,0:09:58.50,0:10:02.57,Default,,0000,0000,0000,,Eu não te via faz tempo. Posso ajudá-lo em alguma coisa?
+Dialogue: 0,0:10:02.57,0:10:04.15,Default,,0000,0000,0000,,Esta é uma loja de cordas de raquete, certo?
+Dialogue: 0,0:10:05.16,0:10:09.25,Default,,0000,0000,0000,,Bom, bom. Eu estou feliz em ouvir isso.
+Dialogue: 0,0:10:09.78,0:10:13.07,Default,,0000,0000,0000,,Ora, ora, que garotinha linda.
+Dialogue: 0,0:10:13.07,0:10:15.51,Default,,0000,0000,0000,,Prazer em conhecê-la.
+Dialogue: 0,0:10:15.51,0:10:18.78,Default,,0000,0000,0000,,Eu me chamo Tatsugoro Tenmon e conserto cordas de raquetes.
+Dialogue: 0,0:10:19.31,0:10:21.83,Default,,0000,0000,0000,,Você pode me chamar de Haritatsu.
+Dialogue: 0,0:10:23.26,0:10:24.84,Default,,0000,0000,0000,,Prazer em conhecê-lo.
+Dialogue: 0,0:10:24.84,0:10:25.80,Default,,0000,0000,0000,,Eu sou Ryuzaki.
+Dialogue: 0,0:10:25.80,0:10:30.12,Default,,0000,0000,0000,,Ryuzaki? Oh, a Sumire-chan é...
+Dialogue: 0,0:10:30.12,0:10:31.90,Default,,0000,0000,0000,,Sim, eu sou a neta dela, Sakuno.
+Dialogue: 0,0:10:31.90,0:10:34.03,Default,,0000,0000,0000,,Ah... Legal.
+Dialogue: 0,0:10:34.03,0:10:36.51,Default,,0000,0000,0000,,Aqui, sentem-se.
+Dialogue: 0,0:10:36.84,0:10:42.72,Default,,0000,0000,0000,,O pai do Ryoma-kun e Sumire-chan vinham aqui freqüentemente.
+Dialogue: 0,0:10:42.80,0:10:48.52,Default,,0000,0000,0000,,Não é nada para se orgulhar, mas eu me empenhei muito fazendo a raquete do Ryoma.
+Dialogue: 0,0:10:48.52,0:10:49.68,Default,,0000,0000,0000,,E?
+Dialogue: 0,0:10:51.25,0:10:54.20,Default,,0000,0000,0000,,Garotinha, Ryoma-kun é um bom jogador, certo?
+Dialogue: 0,0:10:54.20,0:10:55.36,Default,,0000,0000,0000,,Sim, muito.
+Dialogue: 0,0:10:55.36,0:10:57.82,Default,,0000,0000,0000,,Mas, no meu ponto de vista,
+Dialogue: 0,0:10:57.82,0:11:02.81,Default,,0000,0000,0000,,pare de jogar jogos de criança e siga os passos do Nannoji.
+Dialogue: 0,0:10:57.82,0:11:02.81,nota,,0000,0000,0000,,{\fad(0,300)}Nannoji: Apelido do pai de Echizen.
+Dialogue: 0,0:11:02.81,0:11:04.45,Default,,0000,0000,0000,,Eu sou diferente dele!
+Dialogue: 0,0:11:08.88,0:11:11.00,Default,,0000,0000,0000,,Desculpe, eu falei demais.
+Dialogue: 0,0:11:11.14,0:11:12.40,Default,,0000,0000,0000,,Esqueça isso.
+Dialogue: 0,0:11:13.51,0:11:15.88,Default,,0000,0000,0000,,Me ajude com os reparos das minhas cordas, por favor!
+Dialogue: 0,0:11:18.12,0:11:19.56,Default,,0000,0000,0000,,Vamos dar uma olhada.
+Dialogue: 0,0:11:26.38,0:11:31.09,Default,,0000,0000,0000,,Garotinha, você está se empenhando muito em treinos básicos,
+Dialogue: 0,0:11:31.09,0:11:33.77,Default,,0000,0000,0000,,mas você ainda não consegue atingir a bola no centro da raquete.
+Dialogue: 0,0:11:34.28,0:11:35.82,Default,,0000,0000,0000,,Como você sabe?
+Dialogue: 0,0:11:36.61,0:11:40.19,Default,,0000,0000,0000,,Quando você atinge a bola no centro da raquete, apenas essas cordas ficam danificadas.
+Dialogue: 0,0:11:40.19,0:11:43.74,Default,,0000,0000,0000,,Então, devemos apertar um pouco?
+Dialogue: 0,0:11:43.88,0:11:45.91,Default,,0000,0000,0000,,Sim! Por favor!
+Dialogue: 0,0:11:54.60,0:12:00.34,Default,,0000,0000,0000,,Finalmente, nós iremos começar a final individual masculina do Torneio Japonês.
+Dialogue: 0,0:12:00.60,0:12:04.11,Default,,0000,0000,0000,,Essa é uma partida que ultrapassa o nível japonês.
+Dialogue: 0,0:12:04.77,0:12:08.61,Default,,0000,0000,0000,,É provável que ambos irão entrar no cenário do tênis mundial em breve.
+Dialogue: 0,0:12:08.81,0:12:11.35,Default,,0000,0000,0000,,Ryoma-kun, você não deve saber,
+Dialogue: 0,0:12:11.35,0:12:14.90,Default,,0000,0000,0000,,mas antigamente, Nannoji era mais forte do que isso.
+Dialogue: 0,0:12:16.57,0:12:19.12,Default,,0000,0000,0000,,Poder, velocidade, reflexos e um carisma atraía a todos.
+Dialogue: 0,0:12:19.12,0:12:23.51,Default,,0000,0000,0000,,Um estilo de tênis capaz de animar a multidão como se fosse mágica.
+Dialogue: 0,0:12:23.51,0:12:25.76,Default,,0000,0000,0000,,Mesmo assim, ele se aposentou repentinamente.
+Dialogue: 0,0:12:25.76,0:12:29.45,Default,,0000,0000,0000,,Mas, desde sua estréia, ele venceu todos os trinta e sete jogos no Circuito Mundial.
+Dialogue: 0,0:12:29.86,0:12:32.16,Default,,0000,0000,0000,,Um homem que chocou o mundo do tênis.
+Dialogue: 0,0:12:32.16,0:12:34.63,pensamento,,0000,0000,0000,,Por falar nisso, quem é esse Nannoji?
+Dialogue: 0,0:12:35.35,0:12:37.59,pensamento,,0000,0000,0000,,Será que ele está falando sobre o pai do Ryoma-kun?
+Dialogue: 0,0:12:41.14,0:12:43.50,Default,,0000,0000,0000,,Eu não posso nem comer um ramen com isso...
+Dialogue: 0,0:12:43.50,0:12:46.42,Default,,0000,0000,0000,,Droga! Estou faminto...
+Dialogue: 0,0:12:46.42,0:12:49.64,Default,,0000,0000,0000,,Talvez eu devesse pedir alguma comida para aquele velho.
+Dialogue: 0,0:12:50.15,0:12:56.06,Default,,0000,0000,0000,,Garotinha, isso deve demorar um pouco, então por que vocês não vão passear um pouco?
+Dialogue: 0,0:12:56.95,0:12:57.90,Default,,0000,0000,0000,,Vamos.
+Dialogue: 0,0:12:58.83,0:13:01.28,Default,,0000,0000,0000,,Ryoma-kun, sua raquete também precisa de conserto?
+Dialogue: 0,0:13:01.35,0:13:02.65,Default,,0000,0000,0000,,Ela está boa.
+Dialogue: 0,0:13:02.65,0:13:05.50,Default,,0000,0000,0000,,Hã? Então por que você a trouxe?
+Dialogue: 0,0:13:16.75,0:13:17.95,Default,,0000,0000,0000,,Finalmente eles saíram.
+Dialogue: 0,0:13:17.95,0:13:19.87,Default,,0000,0000,0000,,Aonde eles estão indo agora?
+Dialogue: 0,0:13:19.87,0:13:21.57,Default,,0000,0000,0000,,De qualquer maneira, vamos apenas segui-los.
+Dialogue: 0,0:13:28.12,0:13:30.81,Default,,0000,0000,0000,,Este ano, o Torneio Regional foi incrível!
+Dialogue: 0,0:13:30.81,0:13:33.57,Default,,0000,0000,0000,,É verdade. Aquele novato, certo?
+Dialogue: 0,0:13:33.57,0:13:36.44,Default,,0000,0000,0000,,Hum... Ele foi tão bem assim?
+Dialogue: 0,0:13:36.53,0:13:40.56,Default,,0000,0000,0000,,Sim. Mesmo estando ferido,
+Dialogue: 0,0:13:40.56,0:13:42.71,Default,,0000,0000,0000,,ele venceu a partida em dez minutos!
+Dialogue: 0,0:13:42.71,0:13:46.36,Default,,0000,0000,0000,,E o seu oponente era o cara que derrotou o Kuki.
+Dialogue: 0,0:13:46.36,0:13:47.94,Default,,0000,0000,0000,,Ele foi incrível.
+Dialogue: 0,0:13:47.94,0:13:52.35,Default,,0000,0000,0000,,Ele venceu o cara que derrotou o Kuki-kun em dez minutos?
+Dialogue: 0,0:13:52.35,0:13:55.20,Default,,0000,0000,0000,,Qual o nome desse novato?
+Dialogue: 0,0:13:55.53,0:13:58.00,Default,,0000,0000,0000,,Qual é o nome daquele novato mesmo?
+Dialogue: 0,0:13:58.00,0:14:00.50,Default,,0000,0000,0000,,É Echizen. Echizen Ryoma.
+Dialogue: 0,0:14:00.71,0:14:02.79,Default,,0000,0000,0000,,É mesmo! Echizen Ryoma.
+Dialogue: 0,0:14:12.04,0:14:14.45,Default,,0000,0000,0000,,Será que ele consegue seguir os passos do lendário jogador profissional?
+Dialogue: 0,0:14:15.83,0:14:18.35,Default,,0000,0000,0000,,Muito obrigada por hoje, Ryoma-kun.
+Dialogue: 0,0:14:18.35,0:14:19.35,Default,,0000,0000,0000,,Não foi nada.
+Dialogue: 0,0:14:20.03,0:14:22.52,Default,,0000,0000,0000,,Haritatsu-san é uma pessoa interessante.
+Dialogue: 0,0:14:22.63,0:14:23.50,Default,,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:14:26.57,0:14:28.99,pensamento,,0000,0000,0000,,Eu não consigo manter uma conversa como essa...
+Dialogue: 0,0:14:34.60,0:14:39.37,Default,,0000,0000,0000,,Fazendo uma garota ficar tão entediada... Que tipo de filho mais idiota é esse?
+Dialogue: 0,0:14:39.37,0:14:41.83,Default,,0000,0000,0000,,Tênis não é a única coisa na vida!
+Dialogue: 0,0:14:44.57,0:14:47.41,Default,,0000,0000,0000,,Não parece um encontro.
+Dialogue: 0,0:14:47.41,0:14:50.16,Default,,0000,0000,0000,,O Echizen está andando muito na frente.
+Dialogue: 0,0:14:50.16,0:14:52.88,Default,,0000,0000,0000,,Não, não. O Echizen é assim mesmo.
+Dialogue: 0,0:14:52.88,0:14:56.33,Default,,0000,0000,0000,,E ele não sabe nada sobre encontros mesmo!
+Dialogue: 0,0:14:56.33,0:14:58.94,Default,,0000,0000,0000,,Eu vou lá dar umas dicas para ele!
+Dialogue: 0,0:14:58.94,0:15:00.71,Default,,0000,0000,0000,,Não faça isso, Momo-chan senpai!
+Dialogue: 0,0:15:00.71,0:15:02.43,Default,,0000,0000,0000,,Você deve deixá-lo assim.
+Dialogue: 0,0:15:02.43,0:15:05.98,Default,,0000,0000,0000,,Mas eu sinto pena da garota.
+Dialogue: 0,0:15:17.75,0:15:21.80,pensamento,,0000,0000,0000,,Certo! Nesse caso, eu irei tomar uma atitude, assim como a Tomo-chan faz.
+Dialogue: 0,0:15:28.87,0:15:32.58,Default,,0000,0000,0000,,Que tipo de música você escuta, Ryoma-kun?
+Dialogue: 0,0:15:32.58,0:15:33.30,Default,,0000,0000,0000,,Eu...
+Dialogue: 0,0:15:33.43,0:15:36.85,Default,,0000,0000,0000,,Música... Por que você está perguntando isso?
+Dialogue: 0,0:15:36.99,0:15:39.45,Default,,0000,0000,0000,,Hã? Por quê?
+Dialogue: 0,0:15:39.45,0:15:40.99,Default,,0000,0000,0000,,Só por perguntar...
+Dialogue: 0,0:15:42.31,0:15:45.15,Default,,0000,0000,0000,,Você está sendo extremamente estúpido, Echizen!
+Dialogue: 0,0:15:45.15,0:15:46.73,Default,,0000,0000,0000,,Vá em frente, Ryoma-kun!
+Dialogue: 0,0:15:48.15,0:15:50.60,Default,,0000,0000,0000,,Droga! Que filho idiota!
+Dialogue: 0,0:15:50.60,0:15:53.11,Default,,0000,0000,0000,,O que ele está fazendo? Diga algo depressa!
+Dialogue: 0,0:15:55.53,0:15:58.44,Default,,0000,0000,0000,,Bem... De alguma maneira, hoje...
+Dialogue: 0,0:15:59.54,0:16:00.71,Default,,0000,0000,0000,,Você está falando bastante.
+Dialogue: 0,0:16:00.71,0:16:01.54,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:16:06.84,0:16:08.40,Default,,0000,0000,0000,,Por quê?
+Dialogue: 0,0:16:15.00,0:16:16.44,Default,,0000,0000,0000,,Eu não posso mais agüentar isso!
+Dialogue: 0,0:16:16.44,0:16:17.95,Default,,0000,0000,0000,,Ah! Momo-chan senpai!
+Dialogue: 0,0:16:17.95,0:16:19.95,Default,,0000,0000,0000,,Echizen!
+Dialogue: 0,0:16:19.95,0:16:22.73,Default,,0000,0000,0000,,Eu vi! Eu estava vendo desde o começo!
+Dialogue: 0,0:16:22.73,0:16:24.90,Default,,0000,0000,0000,,O que você está fazendo aqui?
+Dialogue: 0,0:16:24.90,0:16:26.49,Default,,0000,0000,0000,,Isso não importa!
+Dialogue: 0,0:16:26.49,0:16:28.02,Default,,0000,0000,0000,,O que diabos você está fazendo?!
+Dialogue: 0,0:16:28.02,0:16:29.35,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:16:29.35,0:16:31.99,Default,,0000,0000,0000,,Corra atrás dela e se desculpe!
+Dialogue: 0,0:16:32.33,0:16:34.18,Default,,0000,0000,0000,,Mas eu não disse nada.
+Dialogue: 0,0:16:34.18,0:16:35.87,Default,,0000,0000,0000,,Apenas vá e se desculpe!
+Dialogue: 0,0:16:35.87,0:16:41.58,Default,,0000,0000,0000,,Fazer uma garota chorar... Mesmo que Deus lhe perdoe, eu não irei!
+Dialogue: 0,0:16:42.15,0:16:43.12,Default,,0000,0000,0000,,Corra!
+Dialogue: 0,0:16:44.49,0:16:46.79,Default,,0000,0000,0000,,É uma ordem de um senpai! Rápido!
+Dialogue: 0,0:16:48.71,0:16:51.30,pensamento,,0000,0000,0000,,Certo! É isso que se chama juventude!
+Dialogue: 0,0:16:51.72,0:16:54.35,Default,,0000,0000,0000,,Uau, garoto! Você é bem intenso.
+Dialogue: 0,0:16:54.35,0:16:55.40,Default,,0000,0000,0000,,Gostei de você.
+Dialogue: 0,0:16:56.90,0:16:59.40,Default,,0000,0000,0000,,Quem é você, senhor?
+Dialogue: 0,0:16:59.40,0:17:00.85,Default,,0000,0000,0000,,Eu sou o mesmo tipo de pessoa que você.
+Dialogue: 0,0:17:00.85,0:17:01.48,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:17:20.40,0:17:22.15,pensamento,,0000,0000,0000,,Eu sou uma idiota.
+Dialogue: 0,0:17:23.25,0:17:24.90,pensamento,,0000,0000,0000,,Ficando com raiva de mim mesma desse jeito.
+Dialogue: 0,0:17:25.99,0:17:28.31,pensamento,,0000,0000,0000,,Como eu sempre sou assim, o Ryoma-kun...
+Dialogue: 0,0:17:32.51,0:17:33.42,Default,,0000,0000,0000,,Quer beber?
+Dialogue: 0,0:17:34.66,0:17:35.54,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:17:37.40,0:17:38.43,Default,,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:17:44.63,0:17:46.02,Default,,0000,0000,0000,,Está consertada.
+Dialogue: 0,0:17:46.48,0:17:47.85,Default,,0000,0000,0000,,Muito obrigada!
+Dialogue: 0,0:17:47.85,0:17:52.07,Default,,0000,0000,0000,,Garotinha, não fique confusa pelo tênis ou por qualquer outra coisa.
+Dialogue: 0,0:17:52.12,0:17:55.40,Default,,0000,0000,0000,,Esse senhor aqui passou por muita coisa, sabe?
+Dialogue: 0,0:17:57.18,0:17:57.95,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:17:58.15,0:17:59.99,Default,,0000,0000,0000,,Então, mande lembranças minhas à Sumire-chan.
+Dialogue: 0,0:17:59.99,0:18:02.08,Default,,0000,0000,0000,,Certo! Muito obrigada!
+Dialogue: 0,0:18:02.08,0:18:02.70,Default,,0000,0000,0000,,Tchau.
+Dialogue: 0,0:18:03.16,0:18:05.25,Default,,0000,0000,0000,,Só uma coisa, Ryoma-kun.
+Dialogue: 0,0:18:06.57,0:18:10.59,Default,,0000,0000,0000,,Você não fica entediado por jogar esse tênis tão fácil?
+Dialogue: 0,0:18:10.59,0:18:13.95,Default,,0000,0000,0000,,Por que você não pára de andar por aí como uma criança?
+Dialogue: 0,0:18:17.53,0:18:18.68,Default,,0000,0000,0000,,Eu sou uma criança.
+Dialogue: 0,0:18:21.10,0:18:22.97,Default,,0000,0000,0000,,Igual ao seu pai...
+Dialogue: 0,0:18:26.10,0:18:28.99,Default,,0000,0000,0000,,Ei, agora venha comigo para um compromisso.
+Dialogue: 0,0:18:30.02,0:18:31.82,pensamento,,0000,0000,0000,,Que tipo de compromisso?
+Dialogue: 0,0:18:34.05,0:18:36.26,Default,,0000,0000,0000,,Agora sim!
+Dialogue: 0,0:18:36.26,0:18:38.16,Default,,0000,0000,0000,,Finalmente, o clímax...
+Dialogue: 0,0:18:46.17,0:18:47.91,pensamento,,0000,0000,0000,,O-O que devo fazer?
+Dialogue: 0,0:18:47.91,0:18:49.79,pensamento,,0000,0000,0000,,Jogar tênis com o Ryoma-kun...
+Dialogue: 0,0:18:49.92,0:18:52.59,Default,,0000,0000,0000,,Não fique tão tensa! Não é uma partida.
+Dialogue: 0,0:18:52.82,0:18:53.88,Default,,0000,0000,0000,,Estou apenas checando a sua forma.
+Dialogue: 0,0:18:56.43,0:19:00.40,pensamento,,0000,0000,0000,,Ryoma-kun trouxe sua raquete especialmente para isso...
+Dialogue: 0,0:19:02.90,0:19:07.21,Default,,0000,0000,0000,,Ryoma-kun, o senpai elogiou minha forma há pouco tempo atrás.
+Dialogue: 0,0:19:07.21,0:19:10.44,Default,,0000,0000,0000,,Você disse para ficar de olho na minha forma, certo?
+Dialogue: 0,0:19:11.47,0:19:12.40,Default,,0000,0000,0000,,Isso não é bom?
+Dialogue: 0,0:19:18.89,0:19:20.82,Default,,0000,0000,0000,,Essa foi a forma elogiada?
+Dialogue: 0,0:19:20.82,0:19:23.49,Default,,0000,0000,0000,,Hã? De jeito nenhum. Essa não é...
+Dialogue: 0,0:19:24.30,0:19:26.09,Default,,0000,0000,0000,,Mais uma vez, por favor!
+Dialogue: 0,0:19:30.04,0:19:34.38,Default,,0000,0000,0000,,Ryoma-kun, obrigada por vir no lugar da vovó.
+Dialogue: 0,0:19:34.38,0:19:34.90,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:19:34.90,0:19:37.24,Default,,0000,0000,0000,,Hã? No lugar da vovó?
+Dialogue: 0,0:19:37.24,0:19:39.76,Default,,0000,0000,0000,,Então não é um encontro?
+Dialogue: 0,0:19:39.76,0:19:44.97,Default,,0000,0000,0000,,Então é isso! É estranho pensar que o Echizen estivesse tendo um encontro.
+Dialogue: 0,0:19:45.01,0:19:47.81,Default,,0000,0000,0000,,Que chato!
+Dialogue: 0,0:19:47.90,0:19:50.42,Default,,0000,0000,0000,,Isso é ridículo. Estou indo para casa.
+Dialogue: 0,0:19:52.16,0:19:55.52,Default,,0000,0000,0000,,Ei, senhor! Qual o problema? Você está bem?
+Dialogue: 0,0:19:55.52,0:19:56.80,Default,,0000,0000,0000,,Estou com fome.
+Dialogue: 0,0:19:56.80,0:19:57.90,Default,,0000,0000,0000,,Não consigo andar.
+Dialogue: 0,0:19:59.68,0:20:03.15,Default,,0000,0000,0000,,Fazer o quê... Eu comprarei alguma coisa.
+Dialogue: 0,0:20:03.15,0:20:04.74,Default,,0000,0000,0000,,Sério? Obrigado!
+Dialogue: 0,0:20:04.74,0:20:07.41,Default,,0000,0000,0000,,Sério, o que há com esse senhor?
+Dialogue: 0,0:20:12.42,0:20:14.18,Default,,0000,0000,0000,,Ora essa... O que há com você?
+Dialogue: 0,0:20:14.18,0:20:15.90,Default,,0000,0000,0000,,Qual o problema? Hoje é domingo...
+Dialogue: 0,0:20:17.90,0:20:18.95,Default,,0000,0000,0000,,Ryuzaki-sensei.
+Dialogue: 0,0:20:23.44,0:20:25.50,Default,,0000,0000,0000,,Deixe-me jogar contra o Echizen, por favor.
+Dialogue: 0,0:21:36.04,0:21:38.04,preview,,0000,0000,0000,,Eu sou o Capitão Tezuka.
+Dialogue: 0,0:21:38.04,0:21:41.71,preview,,0000,0000,0000,,Echizen, o que você mais precisa é
+Dialogue: 0,0:21:41.71,0:21:44.22,preview,,0000,0000,0000,,despertar essa força que há dentro de você.
+Dialogue: 0,0:21:44.75,0:21:50.01,preview,,0000,0000,0000,,Se ficar copiando o seu pai, você não irá subir de nível.
+Dialogue: 0,0:21:50.95,0:21:51.76,preview,,0000,0000,0000,,Eu quero ver.
+Dialogue: 0,0:21:51.76,0:21:54.52,preview,,0000,0000,0000,,O tênis que apenas você consegue jogar.
+Dialogue: 0,0:21:54.52,0:21:56.35,preview,,0000,0000,0000,,Mostre-me que você pode me ultrapassar.
+Dialogue: 0,0:21:57.10,0:21:59.40,preview,,0000,0000,0000,,No próximo episódio de The Prince of Tennis:
+Dialogue: 0,0:21:59.40,0:22:02.00,preview,,0000,0000,0000,,O Homem Mais Forte do Seigaku  {\fscy150}«{\fscy100}Primeira Parte{\fscy150}»
+Dialogue: 0,0:22:02.00,0:22:04.74,preview,,0000,0000,0000,,Echizen, você pode me derrotar?

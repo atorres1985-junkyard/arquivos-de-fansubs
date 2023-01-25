@@ -1,0 +1,423 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Koblenz-DemiBold,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Pensamento,Koblenz-DemiBold,30,&H00E9DFD6,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Logo,Comic Sans MS,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0,1.5,2,20,20,20,0
+Style: Logo2,Comic Sans MS,40,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0,1.5,2,20,20,20,0
+Style: Passado,Koblenz-DemiBold,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Preview,Koblenz-DemiBold,30,&H00C0FFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:26.40,0:01:30.10,Default,,0000,0000,0000,,{\fad(1500,0)\pos(207,370)\bord0\shad2.5\fnComic Sans MS\b1\i1\fs37}Okaeri Fansubs
+Dialogue: 0,0:01:28.42,0:01:30.10,Logo,,0000,0000,0000,,{\fad(900,0)\pos(395,100\bord0\shad2.5\fnComic Sans MS\b1\i1\fs30}Suzuka
+Dialogue: 0,0:01:26.40,0:01:30.10,Logo,,0000,0000,0000,,{\fad(1500,0)\pos(203,390\shad2.5\b1\i1\fs22\bord0\fnComic Sans MS}#Okaeri@irc.rizon.net
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,SUZUKA-15    by      Aeka_Hime
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:01:45.95,0:01:48.02,Default,,0000,0000,0000,,O Akitsuki e a Asahina não embarcaram?
+Dialogue: 0,0:01:48.50,0:01:49.22,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:01:49.58,0:01:51.23,Default,,0000,0000,0000,,Parece que eles se atrasaram para o embarque.
+Dialogue: 0,0:01:51.91,0:01:54.54,Default,,0000,0000,0000,,O Akitsuki-kun e a Asahina-san?
+Dialogue: 0,0:01:56.06,0:01:57.77,Default,,0000,0000,0000,,O que nós vamos fazer agora?
+Dialogue: 0,0:01:58.56,0:02:00.51,Default,,0000,0000,0000,,Eu não sei o que fazer...
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:01.00,0:02:06.98,Default,,0000,0000,0000,,{\pos(236,290)\fnAd Hoc\4c&HFFFFFF&\bord0.1\1c&HC00000&\shad1.7}Bellflower
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:02:21.84,0:02:23.61,Default,,0000,0000,0000,,Culpa minha...
+Dialogue: 0,0:02:23.61,0:02:25.81,Default,,0000,0000,0000,,É minha culpa as coisas terem terminado dessa forma....
+Dialogue: 0,0:02:26.18,0:02:27.23,Default,,0000,0000,0000,,Isso é óbvio!
+Dialogue: 0,0:02:27.23,0:02:28.77,Default,,0000,0000,0000,,Como você vai me compensar por isso?
+Dialogue: 0,0:02:35.13,0:02:36.91,Default,,0000,0000,0000,,Ah, já sei!
+Dialogue: 0,0:02:37.36,0:02:38.85,Default,,0000,0000,0000,,Por que não vamos a um karaokê ou a um restaurante familiar?
+Dialogue: 0,0:02:40.20,0:02:43.65,Default,,0000,0000,0000,,Poderemos ficar lá até o amanhecer e voltar para casa de trem bala.
+Dialogue: 0,0:02:44.21,0:02:45.31,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:02:46.11,0:02:49.46,Default,,0000,0000,0000,,E-Então, você se importaria de me emprestar algum dinheiro, Asahina?
+Dialogue: 0,0:02:49.46,0:02:51.81,Default,,0000,0000,0000,,Eu só tenho 600 yens comigo.
+Dialogue: 0,0:02:52.78,0:02:54.48,Default,,0000,0000,0000,,Eu não tenho dinheiro comigo.
+Dialogue: 0,0:02:55.93,0:02:57.69,Default,,0000,0000,0000,,Não tive chance de trazer a minha bolsa.
+Dialogue: 0,0:02:57.69,0:02:59.61,Default,,0000,0000,0000,,Eu saí do trem de repente.
+Dialogue: 0,0:02:59.61,0:03:00.64,Default,,0000,0000,0000,,Eu... imagino...
+Dialogue: 0,0:03:07.84,0:03:12.09,Default,,0000,0000,0000,,Amor! Amor! Amor! Hiroshima!
+Dialogue: 0,0:03:13.23,0:03:15.23,Default,,0000,0000,0000,,Qual o problema, garoto?
+Dialogue: 0,0:03:15.23,0:03:17.43,Default,,0000,0000,0000,,Tendo uma briga com a sua garota?
+Dialogue: 0,0:03:18.33,0:03:20.39,Default,,0000,0000,0000,,Não, não é o que parece.
+Dialogue: 0,0:03:20.67,0:03:24.01,Default,,0000,0000,0000,,De qualquer forma, o cara está sendo infiel.
+Dialogue: 0,0:03:24.21,0:03:25.30,Default,,0000,0000,0000,,Certo, garota?
+Dialogue: 0,0:03:25.30,0:03:27.89,Default,,0000,0000,0000,,Ser infiel é a melhor habilidade do homem.
+Dialogue: 0,0:03:27.89,0:03:29.10,Default,,0000,0000,0000,,Você não pode evitar.
+Dialogue: 0,0:03:29.10,0:03:31.06,Default,,0000,0000,0000,,Você tem que perdoá-lo por uma ou duas ofensas.
+Dialogue: 0,0:03:33.76,0:03:37.65,Default,,0000,0000,0000,,Caras com as suas próprias garotas são os melhores.
+Dialogue: 0,0:03:37.65,0:03:39.68,Default,,0000,0000,0000,,Certo? Certo?
+Dialogue: 0,0:03:40.00,0:03:40.85,Default,,0000,0000,0000,,Droga, você fede.
+Dialogue: 0,0:03:41.13,0:03:44.77,Default,,0000,0000,0000,,Tem um motel logo ali.
+Dialogue: 0,0:03:45.80,0:03:47.36,Default,,0000,0000,0000,,O-O que você está falando?!
+Dialogue: 0,0:03:49.25,0:03:50.75,Default,,0000,0000,0000,,Oh, chefe!
+Dialogue: 0,0:03:50.75,0:03:52.77,Default,,0000,0000,0000,,Pare de se divertir com os garotos!
+Dialogue: 0,0:03:53.55,0:03:56.14,Default,,0000,0000,0000,,Boa sorte, jovens!
+Dialogue: 0,0:03:57.97,0:04:01.78,Default,,0000,0000,0000,,D-Deus, como se tivéssemos dinheiro para ir a um motel.
+Dialogue: 0,0:04:01.78,0:04:02.39,Default,,0000,0000,0000,,Certo?
+Dialogue: 0,0:04:02.93,0:04:04.56,Default,,0000,0000,0000,,Eu não iria mesmo se tivéssemos!
+Dialogue: 0,0:04:05.01,0:04:07.29,Default,,0000,0000,0000,,Ah, não, não foi isso o que eu quis dizer...
+Dialogue: 0,0:04:08.13,0:04:09.37,Default,,0000,0000,0000,,Eu também não iria.
+Dialogue: 0,0:04:10.20,0:04:12.06,Pensamento,,0000,0000,0000,,A-Algum assunto a mais que eu posso conversar?
+Dialogue: 0,0:04:12.40,0:04:14.23,Default,,0000,0000,0000,,Oh, sim!
+Dialogue: 0,0:04:14.89,0:04:16.75,Default,,0000,0000,0000,,Vou ligar para casa!
+Dialogue: 0,0:04:16.75,0:04:18.55,Default,,0000,0000,0000,,Vou pedir ao meu pai para nos emprestar algum dinheiro!
+Dialogue: 0,0:04:19.60,0:04:23.26,Default,,0000,0000,0000,,Então você poderá ficar em um hotel,
+Dialogue: 0,0:04:23.26,0:04:24.98,Default,,0000,0000,0000,,e nós poderemos voltar amanhã.
+Dialogue: 0,0:04:24.98,0:04:26.76,Default,,0000,0000,0000,,Eu ficarei em casa.
+Dialogue: 0,0:04:27.33,0:04:28.91,Default,,0000,0000,0000,,Isso parece bom...
+Dialogue: 0,0:04:28.91,0:04:31.60,Default,,0000,0000,0000,,Mas eles não vão ficar com raiva por você pedir isso?
+Dialogue: 0,0:04:32.12,0:04:33.02,Default,,0000,0000,0000,,Não se preocupe.
+Dialogue: 0,0:04:33.47,0:04:35.72,Default,,0000,0000,0000,,Você pode me emprestar o celular?
+Dialogue: 0,0:04:35.72,0:04:37.75,Default,,0000,0000,0000,,Eu deixei o meu no trem.
+Dialogue: 0,0:04:38.15,0:04:38.95,Default,,0000,0000,0000,,Está bem.
+Dialogue: 0,0:04:43.28,0:04:45.34,Default,,0000,0000,0000,,Eu vou ligar dali.
+Dialogue: 0,0:04:46.61,0:04:47.99,Default,,0000,0000,0000,,Hã, por quê?
+Dialogue: 0,0:04:47.99,0:04:49.01,Default,,0000,0000,0000,,Porque...
+Dialogue: 0,0:04:49.62,0:04:52.93,Pensamento,,0000,0000,0000,,...eu ficaria sem graça se deixasse você escutar o meu sotaque.
+Dialogue: 0,0:04:56.89,0:04:58.85,Default,,0000,0000,0000,,Ainda nenhum contato deles?
+Dialogue: 0,0:05:00.09,0:05:00.81,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:05:13.32,0:05:14.56,Default,,0000,0000,0000,,Ele está vindo agora.
+Dialogue: 0,0:05:15.23,0:05:15.84,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:05:15.84,0:05:18.93,Default,,0000,0000,0000,,Então, eu vou ligar para o Capitão.
+Dialogue: 0,0:05:18.93,0:05:20.97,Default,,0000,0000,0000,,Aposto que eles estão preocupados.
+Dialogue: 0,0:05:22.97,0:05:23.89,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:05:27.92,0:05:29.60,Default,,0000,0000,0000,,Ah, são eles.
+Dialogue: 0,0:05:29.60,0:05:30.41,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:05:34.20,0:05:35.30,Default,,0000,0000,0000,,Ah, Miki.
+Dialogue: 0,0:05:35.30,0:05:37.14,Default,,0000,0000,0000,,Passe para o Capitão.
+Dialogue: 0,0:05:38.05,0:05:38.91,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:05:38.91,0:05:39.93,Default,,0000,0000,0000,,Está certo.
+Dialogue: 0,0:05:40.50,0:05:43.47,Default,,0000,0000,0000,,O pai do Yamato-kun está disposto a dar uma passada por aqui.
+Dialogue: 0,0:05:45.23,0:05:45.67,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:05:50.09,0:05:50.67,Default,,0000,0000,0000,,Aqui.
+Dialogue: 0,0:05:51.52,0:05:51.98,Default,,0000,0000,0000,,Eu?
+Dialogue: 0,0:05:55.38,0:05:56.30,Pensamento,,0000,0000,0000,,Quem poderia ser?
+Dialogue: 0,0:05:56.30,0:05:57.85,Default,,0000,0000,0000,,Ele deve estar com raiva de mim.
+Dialogue: 0,0:05:59.85,0:06:00.63,Default,,0000,0000,0000,,Sim, alô?
+Dialogue: 0,0:06:01.32,0:06:02.24,Default,,0000,0000,0000,,Akitsuki-kun?
+Dialogue: 0,0:06:04.98,0:06:06.50,Default,,0000,0000,0000,,H-Honoka-chan?
+Dialogue: 0,0:06:07.38,0:06:10.60,Default,,0000,0000,0000,,Ah, eu escutei que vocês não conseguiram embarcar no trem e fiquei preocupada...
+Dialogue: 0,0:06:11.54,0:06:13.34,Default,,0000,0000,0000,,Ah, não se preocupe.
+Dialogue: 0,0:06:13.34,0:06:14.52,Default,,0000,0000,0000,,Meu pai está vindo nos pegar.
+Dialogue: 0,0:06:15.05,0:06:17.93,Default,,0000,0000,0000,,Ah, hum... Não é sobre isso, mas...
+Dialogue: 0,0:06:18.61,0:06:19.47,Default,,0000,0000,0000,,É que...
+Dialogue: 0,0:06:21.99,0:06:23.17,Default,,0000,0000,0000,,Não se preocupe.
+Dialogue: 0,0:06:27.16,0:06:29.68,Default,,0000,0000,0000,,Eu irei para casa sozinho.
+Dialogue: 0,0:06:30.58,0:06:32.80,Default,,0000,0000,0000,,Então, não se preocupe.
+Dialogue: 0,0:06:35.00,0:06:36.56,Default,,0000,0000,0000,,Entendo, então tudo bem.
+Dialogue: 0,0:06:37.76,0:06:40.49,Default,,0000,0000,0000,,Eu ligarei para você quando chegar em casa.
+Dialogue: 0,0:06:40.94,0:06:42.37,Default,,0000,0000,0000,,Sim, tchau.
+Dialogue: 0,0:06:43.99,0:06:45.29,Default,,0000,0000,0000,,Ah, obrigado.
+Dialogue: 0,0:06:45.56,0:06:45.98,Default,,0000,0000,0000,,Tudo bem.
+Dialogue: 0,0:06:55.38,0:06:55.84,Default,,0000,0000,0000,,Ei.
+Dialogue: 0,0:06:57.90,0:06:59.63,Default,,0000,0000,0000,,A declaração...
+Dialogue: 0,0:07:00.13,0:07:01.43,Default,,0000,0000,0000,,Veio de você?
+Dialogue: 0,0:07:04.11,0:07:04.97,Default,,0000,0000,0000,,Bem...
+Dialogue: 0,0:07:06.82,0:07:07.44,Default,,0000,0000,0000,,Sim...
+Dialogue: 0,0:07:08.09,0:07:08.99,Default,,0000,0000,0000,,Veio de mim.
+Dialogue: 0,0:07:10.14,0:07:11.06,Default,,0000,0000,0000,,Entendo.
+Dialogue: 0,0:07:11.40,0:07:13.92,Default,,0000,0000,0000,,Então, você gosta da Honoka-chan...
+Dialogue: 0,0:07:14.52,0:07:15.47,Default,,0000,0000,0000,,Hum...
+Dialogue: 0,0:07:15.47,0:07:16.90,Default,,0000,0000,0000,,I-Isto é...
+Dialogue: 0,0:07:16.90,0:07:17.88,Default,,0000,0000,0000,,Como eu posso dizer...
+Dialogue: 0,0:07:18.41,0:07:20.50,Default,,0000,0000,0000,,Eu a achava linda e delicada...
+Dialogue: 0,0:07:20.50,0:07:23.85,Default,,0000,0000,0000,,...e muito atenciosa.
+Dialogue: 0,0:07:24.56,0:07:25.48,Default,,0000,0000,0000,,Hum...
+Dialogue: 0,0:07:26.59,0:07:29.14,Default,,0000,0000,0000,,Mas isso não é tudo.
+Dialogue: 0,0:07:29.14,0:07:32.23,Default,,0000,0000,0000,,É como... Estando com ela meu coração se acalmasse.
+Dialogue: 0,0:07:32.43,0:07:33.66,Default,,0000,0000,0000,,É o bastante.
+Dialogue: 0,0:07:36.51,0:07:39.10,Default,,0000,0000,0000,,O-O quê? Foi você quem perguntou!
+Dialogue: 0,0:07:39.10,0:07:41.45,Default,,0000,0000,0000,,Eu não queria saber tudo isso.
+Dialogue: 0,0:07:42.06,0:07:43.02,Default,,0000,0000,0000,,Parece idiota.
+Dialogue: 0,0:07:45.21,0:07:46.38,Default,,0000,0000,0000,,O que há com você?!
+Dialogue: 0,0:07:46.38,0:07:48.43,Default,,0000,0000,0000,,Eu não a entendo!
+Dialogue: 0,0:07:48.43,0:07:50.38,Default,,0000,0000,0000,,Não grite tão alto.
+Dialogue: 0,0:07:50.38,0:07:51.27,Default,,0000,0000,0000,,Isso é tão embaraçoso.
+Dialogue: 0,0:08:01.63,0:08:05.71,Pensamento,,0000,0000,0000,,No final, a Asahina não abriu mais a boca depois daquela conversa.
+Dialogue: 0,0:08:06.37,0:08:08.97,Pensamento,,0000,0000,0000,,Nos noventa minutos que antecederam a chegada do meu pai,
+Dialogue: 0,0:08:09.88,0:08:13.99,Pensamento,,0000,0000,0000,,nada além de um mal estar, que nos cercava.
+Dialogue: 0,0:08:19.02,0:08:19.95,Default,,0000,0000,0000,,Ah, ele chegou!
+Dialogue: 0,0:08:24.36,0:08:25.64,Default,,0000,0000,0000,,Por que você demorou tanto pai?
+Dialogue: 0,0:08:28.04,0:08:29.27,Default,,0000,0000,0000,,Garoto bobo!
+Dialogue: 0,0:08:29.27,0:08:32.00,Default,,0000,0000,0000,,Se atrasar para um trem por que estava comprando um suco?
+Dialogue: 0,0:08:32.00,0:08:35.03,Default,,0000,0000,0000,,Hum, desculpe por fazê-lo vir por nossa causa.
+Dialogue: 0,0:08:37.61,0:08:39.46,Default,,0000,0000,0000,,Isso não é um problema.
+Dialogue: 0,0:08:39.46,0:08:41.99,Default,,0000,0000,0000,,De qualquer forma, é tudo culpa do Yamato.
+Dialogue: 0,0:08:41.99,0:08:43.43,Default,,0000,0000,0000,,Vamos, entre no carro.
+Dialogue: 0,0:08:43.58,0:08:44.12,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:08:44.52,0:08:45.79,Default,,0000,0000,0000,,O carro?
+Dialogue: 0,0:08:45.79,0:08:47.39,Default,,0000,0000,0000,,O hotel é logo ali.
+Dialogue: 0,0:08:47.81,0:08:49.93,Default,,0000,0000,0000,,Pare de ficar dizendo coisas estúpidas.
+Dialogue: 0,0:08:50.44,0:08:53.72,Default,,0000,0000,0000,,De jeito nenhum nós vamos deixar uma garota ficar sozinha em um lugar como este.
+Dialogue: 0,0:08:53.72,0:08:55.73,Default,,0000,0000,0000,,Eu trarei vocês amanhã,
+Dialogue: 0,0:08:55.73,0:08:57.83,Default,,0000,0000,0000,,então ficar em nossa casa é bom, não é?
+Dialogue: 0,0:08:57.83,0:08:58.83,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:08:58.83,0:09:00.46,Default,,0000,0000,0000,,V-Você não pode fazer isso...
+Dialogue: 0,0:09:00.81,0:09:02.42,Default,,0000,0000,0000,,Tudo bem para você sentar atrás?
+Dialogue: 0,0:09:02.42,0:09:04.06,Default,,0000,0000,0000,,Está um pouco sujo, mas...
+Dialogue: 0,0:09:05.53,0:09:06.66,Default,,0000,0000,0000,,Pai, escute-me!
+Dialogue: 0,0:09:08.64,0:09:10.48,Default,,0000,0000,0000,,Blah-blah-blah-blah...
+Dialogue: 0,0:09:10.48,0:09:12.49,Default,,0000,0000,0000,,Deus, você é barulhento.
+Dialogue: 0,0:09:12.49,0:09:14.87,Default,,0000,0000,0000,,Apenas entre no carro,\Nou o deixarei aqui.
+Dialogue: 0,0:09:16.69,0:09:17.39,Default,,0000,0000,0000,,Mas...
+Dialogue: 0,0:09:20.03,0:09:23.06,Pensamento,,0000,0000,0000,,...isso significa que a Asahina ficará em casa esta noite?
+Dialogue: 0,0:09:27.67,0:09:30.05,Default,,0000,0000,0000,,Ah, estou com sono.
+Dialogue: 0,0:09:30.68,0:09:33.48,Default,,0000,0000,0000,,Eu tive que dirigir três horas por causa do Yamato.
+Dialogue: 0,0:09:33.84,0:09:35.88,Default,,0000,0000,0000,,Eu sinto muito por tudo isso.
+Dialogue: 0,0:09:35.88,0:09:37.63,Default,,0000,0000,0000,,Não se preocupe com isso, Suzuka-chan.
+Dialogue: 0,0:09:37.63,0:09:38.43,Default,,0000,0000,0000,,Certo, mãe?
+Dialogue: 0,0:09:38.69,0:09:41.19,Default,,0000,0000,0000,,Yamato, coma.
+Dialogue: 0,0:09:41.19,0:09:42.35,Default,,0000,0000,0000,,Você ficou mais magro, não ficou?
+Dialogue: 0,0:09:43.65,0:09:46.10,Default,,0000,0000,0000,,Coma o máximo que você puder, Suzuka-chan.
+Dialogue: 0,0:09:46.98,0:09:47.48,Default,,0000,0000,0000,,Está bem.
+Dialogue: 0,0:09:47.84,0:09:49.88,Default,,0000,0000,0000,,Pai, estes são os meus hashis!
+Dialogue: 0,0:09:49.88,0:09:52.13,Default,,0000,0000,0000,,Yamato, você quer outra tigela?
+Dialogue: 0,0:09:52.81,0:09:54.68,Default,,0000,0000,0000,,Está bem, vó.
+Dialogue: 0,0:09:54.68,0:09:56.10,Default,,0000,0000,0000,,Ele disse que não quer.
+Dialogue: 0,0:09:56.41,0:09:58.16,Default,,0000,0000,0000,,Miko, quer os ossos?
+Dialogue: 0,0:09:59.42,0:10:01.77,Pensamento,,0000,0000,0000,,O-O que é esta situação?
+Dialogue: 0,0:10:02.15,0:10:07.64,Default,,0000,0000,0000,,Concluindo, Yamato, você não conseguiu entrar no trem porque demorou muito.
+Dialogue: 0,0:10:08.33,0:10:10.67,Default,,0000,0000,0000,,Você é realmente um cabeça oca.
+Dialogue: 0,0:10:10.67,0:10:14.99,Default,,0000,0000,0000,,Foi por isso que eu falei para você ir a um colégio em Hiroshima.
+Dialogue: 0,0:10:15.36,0:10:17.84,Default,,0000,0000,0000,,Está tudo bem, Konoko-san.
+Dialogue: 0,0:10:17.84,0:10:20.78,Default,,0000,0000,0000,,Já faz algum tempo desde a última vez que o Yamato veio
+Dialogue: 0,0:10:21.35,0:10:24.83,Default,,0000,0000,0000,,Irmão, mesmo depois de ir para Tokyo, você ainda é um vagabundo.
+Dialogue: 0,0:10:24.83,0:10:25.60,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:10:26.66,0:10:30.91,Pensamento,,0000,0000,0000,,Este é o ambiente da casa em que eu cresci por dezesseis anos,
+Dialogue: 0,0:10:30.91,0:10:33.75,Pensamento,,0000,0000,0000,,mas a razão pela qual eu me sinto desconfortável...
+Dialogue: 0,0:10:33.75,0:10:35.74,Pensamento,,0000,0000,0000,,é parecido com... uma sensação estranha...
+Dialogue: 0,0:10:35.74,0:10:38.23,Pensamento,,0000,0000,0000,,...é porque a Asahina está próxima a mim.
+Dialogue: 0,0:10:38.50,0:10:40.69,Default,,0000,0000,0000,,Suzuka-chan, prove algumas lesmas do mar.
+Dialogue: 0,0:10:40.69,0:10:41.18,Default,,0000,0000,0000,,Elas estão deliciosas.
+Dialogue: 0,0:10:41.57,0:10:43.40,Default,,0000,0000,0000,,Está bem, eu como algumas.
+Dialogue: 0,0:10:43.40,0:10:45.85,Default,,0000,0000,0000,,Ei, não a faça comer essas coisas.
+Dialogue: 0,0:10:45.85,0:10:49.10,Default,,0000,0000,0000,,De qualquer forma, quando é que você vai nos levar?
+Dialogue: 0,0:10:49.10,0:10:51.10,Default,,0000,0000,0000,,A estação é longe, então é melhor irmos cedo.
+Dialogue: 0,0:10:51.68,0:10:54.84,Default,,0000,0000,0000,,Eu vou deixar isso para o final da tarde.
+Dialogue: 0,0:10:54.84,0:10:59.02,Default,,0000,0000,0000,,Em todo caso, se não houver trânsito, saindo daqui às quatro chegamos lá às seis e meia.
+Dialogue: 0,0:10:59.49,0:11:02.33,Default,,0000,0000,0000,,Oh não, você já está indo Yamato!
+Dialogue: 0,0:11:02.33,0:11:04.65,Default,,0000,0000,0000,,Você voltou ontem.
+Dialogue: 0,0:11:04.65,0:11:06.27,Default,,0000,0000,0000,,Você deveria relaxar.
+Dialogue: 0,0:11:07.13,0:11:09.73,Default,,0000,0000,0000,,Isso não é um problema para mim, mas é para a Asahina.
+Dialogue: 0,0:11:09.99,0:11:13.36,Default,,0000,0000,0000,,Sinto muito, parece que eu estou causando problemas a vocês.
+Dialogue: 0,0:11:13.86,0:11:15.63,Default,,0000,0000,0000,,Não se preocupe.
+Dialogue: 0,0:11:15.63,0:11:18.63,Default,,0000,0000,0000,,Isso tudo é culpa do Yamato.
+Dialogue: 0,0:11:19.21,0:11:22.36,Default,,0000,0000,0000,,Sim, é tudo culpa do mano por derrubar as latas de suco.
+Dialogue: 0,0:11:22.36,0:11:23.64,Default,,0000,0000,0000,,Certo, Miko?
+Dialogue: 0,0:11:25.38,0:11:26.98,Default,,0000,0000,0000,,Não digam isso, vocês dois!
+Dialogue: 0,0:11:27.34,0:11:29.39,Default,,0000,0000,0000,,Eu estou indo então.
+Dialogue: 0,0:11:30.38,0:11:32.85,Default,,0000,0000,0000,,Vocês dois ainda têm algum tempo.
+Dialogue: 0,0:11:33.54,0:11:34.46,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:11:35.57,0:11:36.78,Default,,0000,0000,0000,,Bem, então Yamato.
+Dialogue: 0,0:11:36.78,0:11:38.74,Default,,0000,0000,0000,,Eu preciso fazer algumas compras.
+Dialogue: 0,0:11:38.74,0:11:40.42,Default,,0000,0000,0000,,Estou contando com você para levar o Koro para passear.
+Dialogue: 0,0:11:50.90,0:11:51.60,Default,,0000,0000,0000,,E-Ei.
+Dialogue: 0,0:11:52.25,0:11:53.26,Default,,0000,0000,0000,,Sim?
+Dialogue: 0,0:11:54.12,0:11:55.55,Default,,0000,0000,0000,,Isto é muito chato, não é?
+Dialogue: 0,0:11:55.55,0:11:58.08,Default,,0000,0000,0000,,Eu posso levá-la para dar uma volta se quiser.
+Dialogue: 0,0:11:59.38,0:12:00.35,Default,,0000,0000,0000,,Estou bem.
+Dialogue: 0,0:12:00.35,0:12:01.53,Default,,0000,0000,0000,,Apenas me deixe em paz.
+Dialogue: 0,0:12:01.53,0:12:04.06,Default,,0000,0000,0000,,Mas tem muito tempo até a noite.
+Dialogue: 0,0:12:04.50,0:12:06.14,Default,,0000,0000,0000,,Como parte do passeio do cachorro, nós poderíamos...
+Dialogue: 0,0:12:06.96,0:12:09.22,Default,,0000,0000,0000,,Eu peguei algumas roupas da sua irmã emprestadas.
+Dialogue: 0,0:12:10.28,0:12:12.52,Default,,0000,0000,0000,,Eu tenho que agradecê-la quando ela voltar.
+Dialogue: 0,0:12:12.52,0:12:13.63,Default,,0000,0000,0000,,S-Sim...
+Dialogue: 0,0:12:14.28,0:12:15.49,Default,,0000,0000,0000,,Hum...
+Dialogue: 0,0:12:16.23,0:12:17.42,Default,,0000,0000,0000,,Se você não tiver mais nada a fazer,
+Dialogue: 0,0:12:17.42,0:12:18.43,Default,,0000,0000,0000,,então deixe-me sozinha.
+Dialogue: 0,0:12:20.38,0:12:20.90,Default,,0000,0000,0000,,Tudo bem.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:20.12,0:12:29.39,Default,,0000,0000,0000,,{\fad(300,900)\pos(90,430)\bord0\shad1\fnComic Sans MS\b1\i1\fs14}Okaeri\NFansubs
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:26.32,0:12:27.53,Default,,0000,0000,0000,,Nossa...
+Dialogue: 0,0:12:27.53,0:12:29.36,Default,,0000,0000,0000,,Eu estava sendo gentil com ela.
+Dialogue: 0,0:12:29.92,0:12:35.14,Default,,0000,0000,0000,,Eu sei que a culpa é minha por ela estar aqui,
+Dialogue: 0,0:12:35.14,0:12:37.35,Default,,0000,0000,0000,,mas não é razão para ela ter esse tipo de atitude, certo Koro?
+Dialogue: 0,0:12:37.72,0:12:38.75,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:12:38.75,0:12:41.59,Default,,0000,0000,0000,,Seu dono está falando, escute-o!
+Dialogue: 0,0:12:53.63,0:12:56.41,Pensamento,,0000,0000,0000,,Acho que está sendo muito chato para a Asahina,
+Dialogue: 0,0:12:56.41,0:12:58.75,Pensamento,,0000,0000,0000,,vir para um lugar como este onde não acontece nada.
+Dialogue: 0,0:13:18.16,0:13:19.33,Default,,0000,0000,0000,,Ei, Asahina.
+Dialogue: 0,0:13:21.25,0:13:23.04,Default,,0000,0000,0000,,Você quer ver os vaga-lumes?
+Dialogue: 0,0:13:25.10,0:13:26.84,Default,,0000,0000,0000,,Eu contei sobre eles antes, certo?
+Dialogue: 0,0:13:27.33,0:13:31.45,Default,,0000,0000,0000,,Os vaga-lumes são muito bonitos sobre aquele rio durante a noite.
+Dialogue: 0,0:13:31.45,0:13:35.07,Default,,0000,0000,0000,,Então, se estiver tudo bem, você não gostaria de ficar mais uma noite...
+Dialogue: 0,0:13:35.07,0:13:37.85,Default,,0000,0000,0000,,...e ver essa cena antes de voltarmos?
+Dialogue: 0,0:13:43.35,0:13:44.08,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:13:45.63,0:13:47.23,Default,,0000,0000,0000,,Eu disse para você me deixar sozinha.
+Dialogue: 0,0:13:49.65,0:13:51.83,Default,,0000,0000,0000,,O que você acha que eu devo dizer?
+Dialogue: 0,0:13:51.83,0:13:54.35,Default,,0000,0000,0000,,Você está nervosa desde ontem, sem motivos.
+Dialogue: 0,0:13:54.35,0:13:55.74,Default,,0000,0000,0000,,Você é incompreensível!
+Dialogue: 0,0:13:56.64,0:13:58.98,Default,,0000,0000,0000,,Você é o único que é incompreensível!
+Dialogue: 0,0:13:59.93,0:14:02.73,Default,,0000,0000,0000,,Dizendo coisas como "Vamos" e "fique mais uma noite".
+Dialogue: 0,0:14:03.21,0:14:05.39,Default,,0000,0000,0000,,Com que intenções você está dizendo essas coisas?
+Dialogue: 0,0:14:09.56,0:14:12.63,Default,,0000,0000,0000,,Você não está confundindo a pessoa com quem você deveria estar sendo legal?
+Dialogue: 0,0:14:14.27,0:14:15.60,Pensamento,,0000,0000,0000,,Entendo...
+Dialogue: 0,0:14:15.60,0:14:18.71,Pensamento,,0000,0000,0000,,Asahina está tentando ser gentil com a Honoka-chan.
+Dialogue: 0,0:14:22.42,0:14:24.66,Default,,0000,0000,0000,,Apenas... deixe-me sozinha...
+Dialogue: 0,0:14:31.92,0:14:34.90,Default,,0000,0000,0000,,Sim, nós íamos voltar ontem a noite.
+Dialogue: 0,0:14:35.37,0:14:36.35,Default,,0000,0000,0000,,Entendo...
+Dialogue: 0,0:14:36.35,0:14:37.72,Default,,0000,0000,0000,,Está se divertindo na volta para casa?
+Dialogue: 0,0:14:37.72,0:14:38.57,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:14:39.33,0:14:40.11,Default,,0000,0000,0000,,E também...
+Dialogue: 0,0:14:40.11,0:14:42.60,Default,,0000,0000,0000,,Eu... hum...
+Dialogue: 0,0:14:44.36,0:14:48.20,Default,,0000,0000,0000,,Para falar a verdade, meu pai obrigou... quero dizer...
+Dialogue: 0,0:14:48.20,0:14:50.56,Default,,0000,0000,0000,,Asahina acabou ficando em casa.
+Dialogue: 0,0:14:50.93,0:14:53.49,Default,,0000,0000,0000,,M-Mas, nós voltaremos esta noite.
+Dialogue: 0,0:14:53.99,0:14:57.40,Default,,0000,0000,0000,,Eu não tenho nenhuma má intenção ou algo assim.
+Dialogue: 0,0:14:57.84,0:14:59.40,Default,,0000,0000,0000,,Sim, eu sei.
+Dialogue: 0,0:14:59.73,0:15:02.03,Default,,0000,0000,0000,,Hã? Eu pensei que você fosse ficar com raiva.
+Dialogue: 0,0:15:02.03,0:15:05.27,Default,,0000,0000,0000,,Bem, sua família também está aí, certo?
+Dialogue: 0,0:15:05.81,0:15:07.50,Default,,0000,0000,0000,,Bem, sim.
+Dialogue: 0,0:15:07.50,0:15:08.95,Default,,0000,0000,0000,,Então está tudo bem.
+Dialogue: 0,0:15:08.95,0:15:10.45,Default,,0000,0000,0000,,Você está certa.
+Dialogue: 0,0:15:12.75,0:15:14.25,Default,,0000,0000,0000,,Eu não faria isso.
+Dialogue: 0,0:15:14.74,0:15:16.18,Default,,0000,0000,0000,,Sério mesmo.
+Dialogue: 0,0:15:17.54,0:15:19.23,Default,,0000,0000,0000,,Nós estaremos saindo daqui a pouco.
+Dialogue: 0,0:15:20.02,0:15:22.43,Default,,0000,0000,0000,,Eu mandarei um e-mail para você quando chegar.
+Dialogue: 0,0:15:23.46,0:15:25.31,Default,,0000,0000,0000,,Certo, então tchau.
+Dialogue: 0,0:15:28.90,0:15:30.74,Default,,0000,0000,0000,,Ei, Asahina!
+Dialogue: 0,0:15:30.74,0:15:32.59,Default,,0000,0000,0000,,Meu pai deve estar voltando logo para casa,
+Dialogue: 0,0:15:32.59,0:15:34.12,Default,,0000,0000,0000,,então vamos nos arrumar.
+Dialogue: 0,0:15:37.19,0:15:38.25,Default,,0000,0000,0000,,Ei, você me ouviu?
+Dialogue: 0,0:15:42.28,0:15:42.98,Default,,0000,0000,0000,,Ei.
+Dialogue: 0,0:15:45.10,0:15:49.50,Default,,0000,0000,0000,,Você deixaria eu ficar mais uma noite?
+Dialogue: 0,0:15:50.05,0:15:52.06,Default,,0000,0000,0000,,P-Por quê?
+Dialogue: 0,0:15:52.96,0:15:55.02,Default,,0000,0000,0000,,Eu estou com vontade de ver os vaga-lumes agora...
+Dialogue: 0,0:15:55.65,0:15:57.49,Default,,0000,0000,0000,,Eu... hum...
+Dialogue: 0,0:16:04.27,0:16:05.30,Default,,0000,0000,0000,,Entendo.
+Dialogue: 0,0:16:17.16,0:16:19.42,Pensamento,,0000,0000,0000,,O que aconteceu com a Asahina?
+Dialogue: 0,0:16:19.42,0:16:23.06,Passado,,0000,0000,0000,,Dizendo coisas como "Vamos" e "fique mais uma noite"...
+Dialogue: 0,0:16:23.06,0:16:25.61,Passado,,0000,0000,0000,,Com que intenções você está dizendo essas coisas?
+Dialogue: 0,0:16:26.76,0:16:29.85,Pensamento,,0000,0000,0000,,Por que ela mudou de idéia tão de repente, depois de dizer tudo aquilo?
+Dialogue: 0,0:16:29.85,0:16:33.55,Pensamento,,0000,0000,0000,,E eu disse a Honoka-chan que voltaria hoje à noite.
+Dialogue: 0,0:16:34.41,0:16:35.77,Default,,0000,0000,0000,,Ei, onde estão eles?
+Dialogue: 0,0:16:36.56,0:16:38.50,Default,,0000,0000,0000,,Ah, ali na ponte.
+Dialogue: 0,0:16:38.50,0:16:40.86,Default,,0000,0000,0000,,Deve haver um monte em torno do rio.
+Dialogue: 0,0:16:40.86,0:16:42.04,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:16:42.04,0:16:43.57,Default,,0000,0000,0000,,Vamos logo!
+Dialogue: 0,0:16:45.41,0:16:47.73,Default,,0000,0000,0000,,Ei, é perigoso correr!
+Dialogue: 0,0:16:51.68,0:16:53.19,Default,,0000,0000,0000,,Alguma coisa errada?
+Dialogue: 0,0:16:53.19,0:16:56.06,Default,,0000,0000,0000,,Ah, você está tão comovida que perdeu a fala?
+Dialogue: 0,0:16:57.79,0:17:00.86,Default,,0000,0000,0000,,Não há... um vaga-lume se quer aqui.
+Dialogue: 0,0:17:07.03,0:17:07.85,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:17:07.85,0:17:09.14,Default,,0000,0000,0000,,Isto é estranho.
+Dialogue: 0,0:17:10.79,0:17:11.71,Default,,0000,0000,0000,,O que há com o mundo?
+Dialogue: 0,0:17:11.71,0:17:13.73,Default,,0000,0000,0000,,Normalmente, há um monte deles no verão.
+Dialogue: 0,0:17:13.73,0:17:16.00,Default,,0000,0000,0000,,Como se tudo estivesse brilhando e...
+Dialogue: 0,0:17:17.57,0:17:21.27,Default,,0000,0000,0000,,Sinto muito, por ficarmos mais uma noite por isto.
+Dialogue: 0,0:17:22.42,0:17:24.12,Default,,0000,0000,0000,,Está tudo bem. Eu não ligo.
+Dialogue: 0,0:17:24.12,0:17:25.78,Default,,0000,0000,0000,,Eu sabia que algo desse tipo poderia acontecer.
+Dialogue: 0,0:17:27.67,0:17:31.26,Default,,0000,0000,0000,,Droga, e tinham tantos deles aqui quando não era importante.
+Dialogue: 0,0:17:31.26,0:17:33.78,Default,,0000,0000,0000,,Sempre termina dessa forma quando tem importância.
+Dialogue: 0,0:17:33.78,0:17:35.33,Default,,0000,0000,0000,,Vaga-lumes aqui são realmente...
+Dialogue: 0,0:17:35.33,0:17:37.85,Default,,0000,0000,0000,,Hã? Você já veio com alguém antes?
+Dialogue: 0,0:17:38.73,0:17:43.77,Default,,0000,0000,0000,,Bem, eu chamei uma garota de quem eu gostava no ginásio para vir aqui.
+Dialogue: 0,0:17:44.67,0:17:47.74,Default,,0000,0000,0000,,Eu achei que este lugar cheio de vaga-lumes criaria um clima legal.
+Dialogue: 0,0:17:48.58,0:17:50.14,Default,,0000,0000,0000,,Hum, e então?
+Dialogue: 0,0:17:50.63,0:17:56.05,Default,,0000,0000,0000,,E então, apenas em momentos como este, não havia nenhum vaga-lume, e ainda começou a chover.
+Dialogue: 0,0:17:56.53,0:17:59.35,Default,,0000,0000,0000,,Tudo em que eu pensei, no final, resultou em uma perda de tempo.
+Dialogue: 0,0:18:00.61,0:18:03.11,Default,,0000,0000,0000,,Nesse ponto, eu não me importei mais e me declarei.
+Dialogue: 0,0:18:03.11,0:18:06.30,Default,,0000,0000,0000,,Eu fui rejeitado.
+Dialogue: 0,0:18:08.44,0:18:10.27,Default,,0000,0000,0000,,O-O quê?! Não ria!
+Dialogue: 0,0:18:11.32,0:18:13.39,Default,,0000,0000,0000,,Eu tive uma visão da cena na minha cabeça agora.
+Dialogue: 0,0:18:13.39,0:18:15.18,Default,,0000,0000,0000,,Isso é tão típico de você, Yamato-kun.
+Dialogue: 0,0:18:15.84,0:18:17.45,Default,,0000,0000,0000,,O-O quê?
+Dialogue: 0,0:18:18.27,0:18:19.70,Default,,0000,0000,0000,,Você é sempre assim.
+Dialogue: 0,0:18:19.70,0:18:22.12,Default,,0000,0000,0000,,Você nunca consegue terminar os seus assuntos quando realmente importa.
+Dialogue: 0,0:18:22.12,0:18:23.48,Default,,0000,0000,0000,,Cale a boca!
+Dialogue: 0,0:18:23.48,0:18:25.90,Default,,0000,0000,0000,,Eu estou muito sério aqui.
+Dialogue: 0,0:18:25.90,0:18:28.23,Default,,0000,0000,0000,,Eu não estou tentando fazer você rir!
+Dialogue: 0,0:18:28.95,0:18:30.84,Default,,0000,0000,0000,,Isso deixa tudo ainda mais engraçado,
+Dialogue: 0,0:18:30.84,0:18:32.56,Default,,0000,0000,0000,,com todo o clima sendo destruído.
+Dialogue: 0,0:18:34.84,0:18:38.32,Default,,0000,0000,0000,,Ei, eu me declarei nos momentos certos também!
+Dialogue: 0,0:18:40.62,0:18:41.51,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:18:41.51,0:18:43.26,Default,,0000,0000,0000,,Yamato-kun, você se apaixona facilmente ou algo do tipo?
+Dialogue: 0,0:18:43.66,0:18:45.35,Default,,0000,0000,0000,,Com certeza, você se declara muito fácil.
+Dialogue: 0,0:18:45.71,0:18:46.68,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:18:47.48,0:18:48.71,Default,,0000,0000,0000,,O que você está dizendo?
+Dialogue: 0,0:18:48.71,0:18:49.68,Default,,0000,0000,0000,,Eu estou falando sobre o momento em que me declarei a você.
+Dialogue: 0,0:18:52.08,0:18:54.58,Default,,0000,0000,0000,,Não, eu...
+Dialogue: 0,0:18:59.40,0:19:02.14,Default,,0000,0000,0000,,Ei, olhe! Um vaga-lume!
+Dialogue: 0,0:19:08.18,0:19:08.89,Default,,0000,0000,0000,,E?
+Dialogue: 0,0:19:08.89,0:19:12.92,Default,,0000,0000,0000,,Como você planeja uma declaração para uma garota de quem você está gostando?
+Dialogue: 0,0:19:14.63,0:19:17.00,Default,,0000,0000,0000,,Você realmente pensa em tudo, certo?
+Dialogue: 0,0:19:17.00,0:19:18.73,Default,,0000,0000,0000,,Bem, agora que nós temos tudo, experimente.
+Dialogue: 0,0:19:18.73,0:19:20.64,Default,,0000,0000,0000,,Uma declaração da Akitsuki Produções.
+Dialogue: 0,0:19:20.92,0:19:22.09,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:19:22.09,0:19:23.51,Default,,0000,0000,0000,,O que você é? Uma idiota?
+Dialogue: 0,0:19:23.51,0:19:25.06,Default,,0000,0000,0000,,Por que eu devo fazer isso agora?
+Dialogue: 0,0:19:25.74,0:19:27.87,Default,,0000,0000,0000,,Ei, apenas faça!
+Dialogue: 0,0:19:27.87,0:19:30.20,Default,,0000,0000,0000,,Eu estou dizendo a você que irei ver como você faz isso!
+Dialogue: 0,0:19:30.87,0:19:32.93,Pensamento,,0000,0000,0000,,Ela está me testando?
+Dialogue: 0,0:19:33.64,0:19:35.60,Default,,0000,0000,0000,,Você está tão insensata.
+Dialogue: 0,0:19:35.60,0:19:36.78,Default,,0000,0000,0000,,Eu não posso acreditar nisso.
+Dialogue: 0,0:19:36.78,0:19:37.89,Default,,0000,0000,0000,,Ei, aonde você está indo?
+Dialogue: 0,0:19:50.99,0:19:52.00,Default,,0000,0000,0000,,Você conhece isso?
+Dialogue: 0,0:19:52.00,0:19:54.77,Default,,0000,0000,0000,,Esta flor é chamada de Bellflower.
+Dialogue: 0,0:20:01.73,0:20:04.23,Default,,0000,0000,0000,,Eu gosto de você desde que entrei naquela escola!
+Dialogue: 0,0:20:05.60,0:20:08.45,Default,,0000,0000,0000,,Por favor, namore comigo!
+Dialogue: 0,0:20:13.32,0:20:14.70,Default,,0000,0000,0000,,...desse jeito.
+Dialogue: 0,0:20:31.77,0:20:34.85,Default,,0000,0000,0000,,Certo, eu namoro com você.
+Dialogue: 0,0:20:36.05,0:20:37.93,Default,,0000,0000,0000,,O-O quê? Ei, não me faça de bobo!
+Dialogue: 0,0:20:39.17,0:20:41.89,Default,,0000,0000,0000,,Eu não estou... fazendo você de bobo...
+Dialogue: 0,0:21:08.82,0:21:09.79,Default,,0000,0000,0000,,Não!
+Dialogue: 0,0:21:10.31,0:21:11.14,Default,,0000,0000,0000,,Eu estou brincando. Eu estou brincando.
+Dialogue: 0,0:21:13.33,0:21:15.30,Default,,0000,0000,0000,,Olhe para você, está todo vermelho.
+Dialogue: 0,0:21:15.30,0:21:16.48,Default,,0000,0000,0000,,Por que você levou isso tão a sério?
+Dialogue: 0,0:21:17.12,0:21:18.99,Default,,0000,0000,0000,,Porque você...
+Dialogue: 0,0:21:19.68,0:21:20.93,Default,,0000,0000,0000,,É tão lindo!
+Dialogue: 0,0:21:21.26,0:21:23.70,Default,,0000,0000,0000,,Tinham tantos vaga-lumes desses por aqui?
+Dialogue: 0,0:21:23.70,0:21:26.44,Default,,0000,0000,0000,,Talvez seus olhos não estivessem brilhando ainda.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:21:33.75,0:21:36.18,Default,,0000,0000,0000,,{\pos(370,400)\fs20\shad0\bord0.5}U\Nm\Na\N\N\N b\Nr\Ni\Nn\Nc\Na\Nd\Ne\Ni\Nr\Na\N.\N.\N.
+Dialogue: 0,0:21:34.90,0:21:36.18,Default,,0000,0000,0000,,{\fad(300,0)\pos(370,450)\fs20\shad0\bord0.5}É
+Dialogue: 0,0:21:36.89,0:21:38.08,Pensamento,,0000,0000,0000,,Eu imagino.
+Dialogue: 0,0:21:38.08,0:21:42.10,Pensamento,,0000,0000,0000,,De jeito nenhum, a Asahina estava falando sério sobre aquilo.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Próximo Episódio
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:23:25.11,0:23:27.36,Preview,,0000,0000,0000,,Hã, Akitsuki, cuida...
+Dialogue: 0,0:23:28.10,0:23:30.90,Preview,,0000,0000,0000,,Não, o que está acontecendo com você, Akitsuki-kun?
+Dialogue: 0,0:23:30.90,0:23:32.28,Preview,,0000,0000,0000,,Você parece tão assustado.
+Dialogue: 0,0:23:35.12,0:23:39.93,Default,,0000,0000,0000,,{\pos(535,40)\fnAd Hoc\bord0.1\shad2}Preview
+Dialogue: 0,0:23:35.12,0:23:39.93,Default,,0000,0000,0000,,{\pos(320,190)\fnAd Hoc\4c&HFFFFFF&\bord0.1\shad1.7\1c&H0000D0&}Instinto
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:23:32.77,0:23:35.14,Preview,,0000,0000,0000,,E-Espere...
+Dialogue: 0,0:23:35.14,0:23:38.13,Preview,,0000,0000,0000,,Ei, qual o problema com você, Akitsuki-kun?
+Dialogue: 0,0:23:38.13,0:23:39.36,Preview,,0000,0000,0000,,Ei!
+Dialogue: 0,0:23:55.00,0:25:00.00,Default,,0000,0000,0000,,{\pos(210,390)\fnAd Hoc\4c&HFFFFFF&\bord0.1\1c&HC00000&\shad1.7}Não perca o próximo episódio
+Dialogue: 0,0:23:55.00,0:25:00.00,Default,,0000,0000,0000,,{\fad(0,0)\pos(478,433)\bord0\shad1\fnComic Sans MS\b1\i1\fs14}Okaeri\NFansubs
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,

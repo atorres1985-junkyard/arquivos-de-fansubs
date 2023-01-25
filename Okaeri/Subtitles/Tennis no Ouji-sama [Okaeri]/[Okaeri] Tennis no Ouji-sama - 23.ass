@@ -1,0 +1,314 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: nota,CastleT,37,&H00FFF3E8,&H00000000,&H323E1F00,&H64000000,-1,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: pensamento,Miu,41,&H00ECECFF,&H00000000,&H46000051,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: lembrança,Miu,41,&H00F2FFFF,&H00000000,&H46003C3C,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: preview,Miu,41,&H00F2FFF2,&H00000000,&H46003500,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: Default,Miu,41,&H00F8F8F8,&H00000000,&H46000000,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.96,0:00:15.77,Default,,0000,0000,0000,,Oishi!
+Dialogue: 0,0:00:15.77,0:00:16.65,Default,,0000,0000,0000,,Oishi!
+Dialogue: 0,0:00:18.30,0:00:21.06,Default,,0000,0000,0000,,Oishi? Agüente firme!
+Dialogue: 0,0:01:52.96,0:01:58.28,Default,,0000,0000,0000,,Isso aconteceu um dia antes do treinamento para o Torneio Regional começar.
+Dialogue: 0,0:01:58.28,0:02:01.28,Default,,0000,0000,0000,,Nós o vimos...
+Dialogue: 0,0:02:03.95,0:02:06.10,Default,,0000,0000,0000,,Não consigo achar a bola...
+Dialogue: 0,0:02:06.10,0:02:07.91,Default,,0000,0000,0000,,Vamos desistir de procurá-la...
+Dialogue: 0,0:02:07.91,0:02:09.40,Default,,0000,0000,0000,,Eu não agüento mais nem ficar de pé.
+Dialogue: 0,0:02:09.40,0:02:11.65,Default,,0000,0000,0000,,Nós não podemos desistir por causa de coisas assim!
+Dialogue: 0,0:02:11.65,0:02:13.67,Default,,0000,0000,0000,,Ainda há um grande caminho para se tornar um titular!
+Dialogue: 0,0:02:13.67,0:02:15.80,Default,,0000,0000,0000,,Mesmo assim...
+Dialogue: 0,0:02:15.86,0:02:17.10,Default,,0000,0000,0000,,Não diga coisas desanimadoras como essa!
+Dialogue: 0,0:02:17.10,0:02:20.72,Default,,0000,0000,0000,,Um titular do Seigaku nunca irá desistir, sob nenhuma circunstância!
+Dialogue: 0,0:02:22.51,0:02:25.13,Default,,0000,0000,0000,,Entendi, Horio-kun.
+Dialogue: 0,0:02:25.99,0:02:28.35,Default,,0000,0000,0000,,Alguém está ali.
+Dialogue: 0,0:02:29.76,0:02:31.60,Default,,0000,0000,0000,,O que ele está fazendo em um lugar como aquele?
+Dialogue: 0,0:02:31.60,0:02:33.61,Default,,0000,0000,0000,,Parece que está cavando.
+Dialogue: 0,0:02:37.02,0:02:39.50,Default,,0000,0000,0000,,I-Inui-senpai...
+Dialogue: 0,0:02:45.08,0:02:47.68,Default,,0000,0000,0000,,O que exatamente ele está fazendo?
+Dialogue: 0,0:02:50.79,0:02:55.96,Default,,0000,0000,0000,,{\fad(500,0)}Vamos lá! Isso aí! Vai!
+Dialogue: 0,0:02:55.96,0:02:58.31,Default,,0000,0000,0000,,Certo! Titulares, reúnam-se aqui.
+Dialogue: 0,0:03:00.51,0:03:02.94,Default,,0000,0000,0000,,Faltam nove dias para o Torneio Regional começar.
+Dialogue: 0,0:03:02.94,0:03:05.76,Default,,0000,0000,0000,,De hoje em diante, os titulares terão um treinamento especial.
+Dialogue: 0,0:03:05.76,0:03:09.61,Default,,0000,0000,0000,,Um rally com limitações de onde a bola pode cair.
+Dialogue: 0,0:03:05.76,0:03:11.61,nota,,0000,0000,0000,,{\fad(0,300)}Rally é uma seqüência grande de rebatidas sem que haja nenhum ponto.
+Dialogue: 0,0:03:09.61,0:03:11.14,Default,,0000,0000,0000,,Ele é conhecido como treinamento de área.
+Dialogue: 0,0:03:12.08,0:03:14.01,Default,,0000,0000,0000,,É? Parece interessante.
+Dialogue: 0,0:03:16.71,0:03:20.82,Default,,0000,0000,0000,,Os estilos de jogos dos titulares são os seguintes:
+Dialogue: 0,0:03:21.49,0:03:28.66,Default,,0000,0000,0000,,Counter Puncher, aquele que fica na linha de trás e espera o oponente errar, usando ataques estáveis.
+Dialogue: 0,0:03:28.66,0:03:30.83,Default,,0000,0000,0000,,Kaidoh, Fuji, Oishi.
+Dialogue: 0,0:03:32.85,0:03:37.84,Default,,0000,0000,0000,,Agressive Baseliner, aquele que também fica na linha de trás, mas ataca com mais força.
+Dialogue: 0,0:03:38.62,0:03:40.32,Default,,0000,0000,0000,,Kawamura, Momoshiro.
+Dialogue: 0,0:03:41.96,0:03:48.25,Default,,0000,0000,0000,,Server & Volley, aquele que possui talento na velocidade e nos reflexos, centrado no jogo de rede.
+Dialogue: 0,0:03:49.03,0:03:50.14,Default,,0000,0000,0000,,Kikumaru.
+Dialogue: 0,0:03:51.05,0:03:54.97,Default,,0000,0000,0000,,E Tezuka e Echizen são All-rounders.
+Dialogue: 0,0:03:54.97,0:04:00.11,Default,,0000,0000,0000,,Aquele que usa diferentes técnicas para aumentar a sua força.
+Dialogue: 0,0:04:00.34,0:04:04.44,Default,,0000,0000,0000,,Agora, os Counter Puncher e os Server & Volley,
+Dialogue: 0,0:04:04.44,0:04:07.00,Default,,0000,0000,0000,,que são Oishi, Fuji, Kaidoh e Kikumaru,
+Dialogue: 0,0:04:07.00,0:04:08.87,Default,,0000,0000,0000,,irão defender todo o seu lado da quadra.
+Dialogue: 0,0:04:08.87,0:04:15.55,Default,,0000,0000,0000,,Os Aggressive Baseliner e All-rounder, que são Kawamura, Momoshiro, Tezuka e Echizen,
+Dialogue: 0,0:04:15.55,0:04:17.75,Default,,0000,0000,0000,,irão atacar usando apenas a metade deles.
+Dialogue: 0,0:04:17.75,0:04:19.76,Default,,0000,0000,0000,,A partida terá cinco jogadas.
+Dialogue: 0,0:04:19.76,0:04:24.94,Default,,0000,0000,0000,,Os jogadores defensivos devem apenas retornar a bola para parte delimitada.
+Dialogue: 0,0:04:24.94,0:04:28.35,Default,,0000,0000,0000,,Você perde se não acertar a parte delimitada.
+Dialogue: 0,0:04:28.94,0:04:31.66,Default,,0000,0000,0000,,E quanto aos jogadores ofensivos,
+Dialogue: 0,0:04:31.66,0:04:36.02,Default,,0000,0000,0000,,vocês irão perder se não conseguirem fazer nenhum ponto durante as partidas.
+Dialogue: 0,0:04:37.08,0:04:42.74,Default,,0000,0000,0000,,Então, nós, os atacantes, apenas precisamos acabar com isso marcando pontos em todas as partidas, não é?
+Dialogue: 0,0:04:42.74,0:04:43.57,Default,,0000,0000,0000,,Correto.
+Dialogue: 0,0:04:43.98,0:04:46.27,Default,,0000,0000,0000,,Mas por outro lado,
+Dialogue: 0,0:04:46.27,0:04:49.85,Default,,0000,0000,0000,,os defensores ganham se não levarem nenhum ponto durante os jogos, certo?
+Dialogue: 0,0:04:49.85,0:04:50.87,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:04:50.99,0:04:52.14,Default,,0000,0000,0000,,E por fim...
+Dialogue: 0,0:04:52.14,0:04:56.54,Default,,0000,0000,0000,,Se perder, você tomará o suco especial de vegetais do Inui.
+Dialogue: 0,0:05:11.67,0:05:13.48,Default,,0000,0000,0000,,Que droga é essa?!
+Dialogue: 0,0:05:13.76,0:05:14.39,Default,,0000,0000,0000,,Vermelho.
+Dialogue: 0,0:05:30.45,0:05:32.91,Default,,0000,0000,0000,,Certo! Comecem o treinamento!
+Dialogue: 0,0:05:33.05,0:05:36.48,Default,,0000,0000,0000,,Legal! Será uma partida entre os titulares!
+Dialogue: 0,0:05:36.48,0:05:37.83,Default,,0000,0000,0000,,Incrível!
+Dialogue: 0,0:05:37.97,0:05:41.25,Default,,0000,0000,0000,,O primeiro jogo será entre Kawamura-senpai e Kaidoh-senpai.
+Dialogue: 0,0:05:41.47,0:05:43.79,Default,,0000,0000,0000,,É uma combinação bem dura, não é?
+Dialogue: 0,0:05:43.79,0:05:46.04,Default,,0000,0000,0000,,É uma partida de poder e bolas transgressivas.
+Dialogue: 0,0:05:47.61,0:05:51.64,Default,,0000,0000,0000,,Seria injusto deixar cada lado servir, então eu irei escolher.
+Dialogue: 0,0:05:55.25,0:05:58.71,Default,,0000,0000,0000,,O que seria injusto? Mamushi, seu pirralho!
+Dialogue: 0,0:06:01.22,0:06:05.83,Default,,0000,0000,0000,,Aqui, aqui, vamos lá! Eu irei lhe mostrar o meu Burning Shot!
+Dialogue: 0,0:06:05.83,0:06:07.70,Default,,0000,0000,0000,,Não fique com medo agora!
+Dialogue: 0,0:06:07.99,0:06:09.40,pensamento,,0000,0000,0000,,Desgraçado...
+Dialogue: 0,0:06:10.93,0:06:12.08,Default,,0000,0000,0000,,Lá vai!
+Dialogue: 0,0:06:12.55,0:06:13.37,Default,,0000,0000,0000,,Comecem!
+Dialogue: 0,0:06:17.44,0:06:20.58,Default,,0000,0000,0000,,Oh! Kaidoh já está ficando sério.
+Dialogue: 0,0:06:22.42,0:06:23.17,Default,,0000,0000,0000,,Snake!
+Dialogue: 0,0:06:26.87,0:06:29.72,Default,,0000,0000,0000,,Está bem, Mabu-chan, eu vou acabar com isso!
+Dialogue: 0,0:06:30.66,0:06:32.60,Default,,0000,0000,0000,,Great!
+Dialogue: 0,0:06:41.19,0:06:42.77,Default,,0000,0000,0000,,Muito fácil!
+Dialogue: 0,0:06:42.92,0:06:44.87,Default,,0000,0000,0000,,Que poder incrível!
+Dialogue: 0,0:06:44.87,0:06:46.57,Default,,0000,0000,0000,,O Kaidoh está sendo pressionado!
+Dialogue: 0,0:06:46.57,0:06:48.18,Default,,0000,0000,0000,,Vai, vai, vai!
+Dialogue: 0,0:06:48.18,0:06:52.34,Default,,0000,0000,0000,,Snake é uma batida usada para fazer as pessoas correrem pela quadra.
+Dialogue: 0,0:06:52.86,0:06:55.63,Default,,0000,0000,0000,,Como eles estão jogando na metade do espaço,
+Dialogue: 0,0:06:55.63,0:06:57.00,Default,,0000,0000,0000,,ele está com problemas.
+Dialogue: 0,0:06:59.67,0:07:01.21,Default,,0000,0000,0000,,Que rally incrível!
+Dialogue: 0,0:07:01.21,0:07:02.00,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:07:05.60,0:07:08.07,Default,,0000,0000,0000,,Kaidoh irá usar o Snake de novo.
+Dialogue: 0,0:07:08.07,0:07:10.19,Default,,0000,0000,0000,,O que irá acontecer se o defensor atacar?
+Dialogue: 0,0:07:10.19,0:07:12.84,Default,,0000,0000,0000,,Não faça isso, Kaidoh! Defenda!
+Dialogue: 0,0:07:15.28,0:07:17.05,pensamento,,0000,0000,0000,,Que tipo de poder estúpido é esse?
+Dialogue: 0,0:07:17.05,0:07:19.25,pensamento,,0000,0000,0000,,Dependendo apenas de sua força e batendo cada vez mais forte.
+Dialogue: 0,0:07:20.63,0:07:21.98,Default,,0000,0000,0000,,O último!
+Dialogue: 0,0:07:21.98,0:07:25.23,Default,,0000,0000,0000,,Strong Burning!
+Dialogue: 0,0:07:26.76,0:07:27.82,Default,,0000,0000,0000,,Que força incrível!
+Dialogue: 0,0:07:27.89,0:07:29.65,Default,,0000,0000,0000,,Kaidoh-senpai não vai conseguir devolver!
+Dialogue: 0,0:07:30.00,0:07:32.41,pensamento,,0000,0000,0000,,Não importa se for ataque ou defesa...
+Dialogue: 0,0:07:32.70,0:07:33.95,pensamento,,0000,0000,0000,,Eu irei acabar com isso!
+Dialogue: 0,0:07:39.81,0:07:41.87,Default,,0000,0000,0000,,Aí está! Boomerang Snake!
+Dialogue: 0,0:07:44.52,0:07:45.83,Default,,0000,0000,0000,,Fora!
+Dialogue: 0,0:07:46.74,0:07:50.42,Default,,0000,0000,0000,,O Kaidoh foi pressionado pelo poder do Taka-san.
+Dialogue: 0,0:07:50.69,0:07:53.26,Default,,0000,0000,0000,,Ok! Great!
+Dialogue: 0,0:07:53.26,0:07:54.97,Default,,0000,0000,0000,,Delicioso!
+Dialogue: 0,0:07:57.11,0:07:59.39,Default,,0000,0000,0000,,Vitória!
+Dialogue: 0,0:08:07.73,0:08:12.07,Default,,0000,0000,0000,,Os próximos. Na quadra toda, Oishi. Na metade da quadra, Momoshiro.
+Dialogue: 0,0:08:12.13,0:08:14.39,Default,,0000,0000,0000,,Olá! Pegue leve comigo, por favor.
+Dialogue: 0,0:08:14.39,0:08:15.36,Default,,0000,0000,0000,,Digo o mesmo.
+Dialogue: 0,0:08:21.99,0:08:23.84,Default,,0000,0000,0000,,E-Ei, você está bem?
+Dialogue: 0,0:08:23.84,0:08:25.59,Default,,0000,0000,0000,,O que exatamente ele bebeu?
+Dialogue: 0,0:08:25.59,0:08:26.78,Default,,0000,0000,0000,,Kaidoh!
+Dialogue: 0,0:08:28.61,0:08:29.39,pensamento,,0000,0000,0000,,Eu...
+Dialogue: 0,0:08:29.39,0:08:30.62,pensamento,,0000,0000,0000,,Não posso perder!
+Dialogue: 0,0:08:34.08,0:08:36.07,Default,,0000,0000,0000,,Como esperado do vice-capitão Oishi!
+Dialogue: 0,0:08:36.07,0:08:37.34,Default,,0000,0000,0000,,Fazendo jogadas como essa...
+Dialogue: 0,0:08:43.21,0:08:46.59,pensamento,,0000,0000,0000,,Esse Momo... Desde quando ele consegue bater tão forte assim?
+Dialogue: 0,0:08:50.44,0:08:51.11,Default,,0000,0000,0000,,Droga!
+Dialogue: 0,0:08:53.17,0:08:56.87,Default,,0000,0000,0000,,Senpai, já que eu não posso ficar do seu lado hoje...
+Dialogue: 0,0:08:56.92,0:08:58.80,Default,,0000,0000,0000,,Eu vou pular agora!
+Dialogue: 0,0:09:03.14,0:09:05.09,Default,,0000,0000,0000,,Aí está! Dunk Smash!
+Dialogue: 0,0:09:05.09,0:09:06.50,Default,,0000,0000,0000,,Ele o está usando para acabar o jogo!
+Dialogue: 0,0:09:08.99,0:09:10.63,Default,,0000,0000,0000,,Ele pegou...
+Dialogue: 0,0:09:16.20,0:09:20.47,pensamento,,0000,0000,0000,,Esse Momo... Ele aumentou o poder do Dunk Smash.
+Dialogue: 0,0:09:23.18,0:09:28.52,Default,,0000,0000,0000,,Incrível.
+Dialogue: 0,0:09:40.95,0:09:41.78,Default,,0000,0000,0000,,Oishi!
+Dialogue: 0,0:09:41.78,0:09:42.67,Default,,0000,0000,0000,,Oishi!
+Dialogue: 0,0:09:44.15,0:09:47.08,Default,,0000,0000,0000,,Oishi? Agüente firme!
+Dialogue: 0,0:09:49.78,0:09:52.41,Default,,0000,0000,0000,,Heh... Essa foi por pouco! Por pouco!
+Dialogue: 0,0:09:52.41,0:09:54.40,Default,,0000,0000,0000,,Que bom que eu não tive que beber aquilo.
+Dialogue: 0,0:10:09.32,0:10:10.82,Default,,0000,0000,0000,,E-Essa foi rápida.
+Dialogue: 0,0:10:10.82,0:10:12.74,Default,,0000,0000,0000,,A partida já acabou.
+Dialogue: 0,0:10:12.74,0:10:14.33,Default,,0000,0000,0000,,Como esperado do Capitão Tezuka.
+Dialogue: 0,0:10:14.33,0:10:15.92,Default,,0000,0000,0000,,Mesmo o seu oponente sendo o Fuji-senpai...
+Dialogue: 0,0:10:17.97,0:10:19.97,Default,,0000,0000,0000,,Agora há pouco, você jogou sério, não é?
+Dialogue: 0,0:10:21.51,0:10:22.51,Default,,0000,0000,0000,,Claro.
+Dialogue: 0,0:10:25.20,0:10:26.27,Default,,0000,0000,0000,,Que pena...
+Dialogue: 0,0:10:26.27,0:10:29.08,Default,,0000,0000,0000,,Seria engraçado se o capitão tivesse que beber aquilo.
+Dialogue: 0,0:10:31.48,0:10:34.06,Default,,0000,0000,0000,,Você não desistiu rapidamente, Fuji?
+Dialogue: 0,0:10:34.06,0:10:37.05,Default,,0000,0000,0000,,Sim. Eu também queria beber o suco do Inui novamente.
+Dialogue: 0,0:10:41.60,0:10:43.36,Default,,0000,0000,0000,,Isso é do Tezuka...
+Dialogue: 0,0:11:02.40,0:11:05.70,Default,,0000,0000,0000,,O que vocês estão olhando? Apressem-se e comecem a outra partida.
+Dialogue: 0,0:11:06.79,0:11:07.63,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:11:07.63,0:11:09.30,Default,,0000,0000,0000,,Inexplicavelmente, ele parece estar bem...
+Dialogue: 0,0:11:09.30,0:11:10.90,Default,,0000,0000,0000,,Ele deve ter nervos rígidos, eu acho...
+Dialogue: 0,0:11:14.65,0:11:16.04,pensamento,,0000,0000,0000,,Não tem jeito.
+Dialogue: 0,0:11:16.04,0:11:18.95,pensamento,,0000,0000,0000,,Eu tinha guardado ele para o Torneio Nacional.
+Dialogue: 0,0:11:18.95,0:11:20.59,pensamento,,0000,0000,0000,,Eu vou ter que usá-lo...
+Dialogue: 0,0:11:21.50,0:11:23.18,Default,,0000,0000,0000,,Eu o fiz esses dias.
+Dialogue: 0,0:11:23.18,0:11:27.44,Default,,0000,0000,0000,,Esse é o Special Golden Power Remix Inui Juice.
+Dialogue: 0,0:11:28.24,0:11:29.74,Default,,0000,0000,0000,,Inui Juice?
+Dialogue: 0,0:11:29.74,0:11:31.77,Default,,0000,0000,0000,,O que tem dentro disso?
+Dialogue: 0,0:11:31.77,0:11:33.11,Default,,0000,0000,0000,,É mesmo possível beber isso?
+Dialogue: 0,0:11:36.06,0:11:38.41,Default,,0000,0000,0000,,Falando no Inui Juice...
+Dialogue: 0,0:11:38.41,0:11:41.00,Default,,0000,0000,0000,,Ele não contém apenas vegetais agora.
+Dialogue: 0,0:11:48.38,0:11:49.23,Default,,0000,0000,0000,,É aquela coisa...
+Dialogue: 0,0:11:49.23,0:11:50.08,Default,,0000,0000,0000,,Daquele dia!
+Dialogue: 0,0:11:54.28,0:11:55.95,Default,,0000,0000,0000,,Se eles não souberem...
+Dialogue: 0,0:11:55.95,0:11:57.59,Default,,0000,0000,0000,,Eles serão mais felizes.
+Dialogue: 0,0:12:03.56,0:12:07.15,Default,,0000,0000,0000,,Eu nunca irei beber aquele suco!
+Dialogue: 0,0:12:07.15,0:12:08.56,Default,,0000,0000,0000,,Você não precisa ficar preocupado.
+Dialogue: 0,0:12:09.39,0:12:12.11,Default,,0000,0000,0000,,Ele parece gostoso, Kikumaru-senpai.
+Dialogue: 0,0:12:13.02,0:12:16.81,Default,,0000,0000,0000,,Oh! Dessa vez a partida será entre Echizen-kun e Kikumaru-senpai!
+Dialogue: 0,0:12:29.02,0:12:31.92,Default,,0000,0000,0000,,Eu nunca irei beber aquele suco!
+Dialogue: 0,0:12:32.61,0:12:37.43,Default,,0000,0000,0000,,Ele parece gostoso, Kikumaru-senpai.
+Dialogue: 0,0:12:38.39,0:12:42.34,Default,,0000,0000,0000,,Oh! Dessa vez a partida será entre Echizen-kun e Kikumaru-senpai!
+Dialogue: 0,0:13:02.77,0:13:03.82,Default,,0000,0000,0000,,Comecem!
+Dialogue: 0,0:13:07.00,0:13:09.30,Default,,0000,0000,0000,,Eu não posso perder para o nosso garotinho.
+Dialogue: 0,0:13:10.08,0:13:11.04,Default,,0000,0000,0000,,Aqui!
+Dialogue: 0,0:13:11.46,0:13:12.70,Default,,0000,0000,0000,,Quem conduzir a partida vence!
+Dialogue: 0,0:13:17.19,0:13:19.00,Default,,0000,0000,0000,,Indo para a rede logo depois de rebater!
+Dialogue: 0,0:13:19.03,0:13:23.67,Default,,0000,0000,0000,,Esse Eiji... Ele pretende acabar a partida com o seu estilo favorito de jogo.
+Dialogue: 0,0:13:24.29,0:13:27.39,Default,,0000,0000,0000,,Nós não estamos sérios, Kikumaru-senpai?
+Dialogue: 0,0:13:27.59,0:13:30.10,Default,,0000,0000,0000,,No canto! Belo lugar para jogar!
+Dialogue: 0,0:13:30.13,0:13:31.72,Default,,0000,0000,0000,,Fácil, fácil...
+Dialogue: 0,0:13:33.10,0:13:34.60,Default,,0000,0000,0000,,Primeira batida!
+Dialogue: 0,0:13:36.09,0:13:39.47,Default,,0000,0000,0000,,Aí está! A jogada acrobática do Kikumaru-senpai!
+Dialogue: 0,0:13:39.47,0:13:40.15,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:13:48.71,0:13:49.85,Default,,0000,0000,0000,,Boa, Echizen!
+Dialogue: 0,0:13:49.85,0:13:51.08,Default,,0000,0000,0000,,Ele respondeu com uma rebatida no canto!
+Dialogue: 0,0:13:51.88,0:13:52.87,Default,,0000,0000,0000,,Mada Mada!
+Dialogue: 0,0:13:56.41,0:13:58.18,Default,,0000,0000,0000,,Aqui, aqui! Jogada dois!
+Dialogue: 0,0:14:00.40,0:14:03.36,Default,,0000,0000,0000,,Kikumaru-senpai tem bons reflexos!
+Dialogue: 0,0:14:03.36,0:14:05.39,Default,,0000,0000,0000,,Ele pode devolver qualquer tipo de bola!
+Dialogue: 0,0:14:05.39,0:14:08.18,Default,,0000,0000,0000,,Então onde o Ryoma-kun deve jogar?
+Dialogue: 0,0:14:08.84,0:14:10.80,pensamento,,0000,0000,0000,,Esse rally de cinco bolas
+Dialogue: 0,0:14:10.80,0:14:16.50,pensamento,,0000,0000,0000,,parece ser um treinamento para o Kikumaru rebater as bolas do Echizen...
+Dialogue: 0,0:14:16.50,0:14:19.42,pensamento,,0000,0000,0000,,Agora parece que o Kikumaru está no ataque...
+Dialogue: 0,0:14:20.88,0:14:26.82,pensamento,,0000,0000,0000,,Por outro lado, Echizen está apenas recebendo bolas na linha de fundo.
+Dialogue: 0,0:14:26.82,0:14:31.05,pensamento,,0000,0000,0000,,Já que o seu oponente sabe tudo sobre jogo acrobático...
+Dialogue: 0,0:14:33.64,0:14:35.50,pensamento,,0000,0000,0000,,Eu acho que é por causa disso.
+Dialogue: 0,0:14:38.88,0:14:41.55,Default,,0000,0000,0000,,Hum... Echizen ainda não perdeu.
+Dialogue: 0,0:14:41.55,0:14:42.84,Default,,0000,0000,0000,,Três jogadas restantes.
+Dialogue: 0,0:14:43.01,0:14:44.95,pensamento,,0000,0000,0000,,E então, o que você fará, Echizen?
+Dialogue: 0,0:14:44.95,0:14:46.79,pensamento,,0000,0000,0000,,Você irá perder se continuar desse jeito.
+Dialogue: 0,0:14:48.18,0:14:49.55,Default,,0000,0000,0000,,Aqui! Terceira jogada!
+Dialogue: 0,0:14:51.27,0:14:53.31,Default,,0000,0000,0000,,Oh... Droga.
+Dialogue: 0,0:14:55.66,0:14:57.80,Default,,0000,0000,0000,,Eu tenho muitos senpais espertinhos.
+Dialogue: 0,0:15:00.88,0:15:03.06,Default,,0000,0000,0000,,Oh! Echizen também está indo para a rede!
+Dialogue: 0,0:15:03.06,0:15:04.32,Default,,0000,0000,0000,,Não brinca!
+Dialogue: 0,0:15:08.37,0:15:09.78,Default,,0000,0000,0000,,Bom trabalho, Echizen!
+Dialogue: 0,0:15:11.79,0:15:12.82,Default,,0000,0000,0000,,Ops...
+Dialogue: 0,0:15:12.82,0:15:14.16,Default,,0000,0000,0000,,Eu esqueci de dizer...
+Dialogue: 0,0:15:15.24,0:15:18.07,Default,,0000,0000,0000,,Quando o atacante decide ir para a rede,
+Dialogue: 0,0:15:18.07,0:15:22.07,Default,,0000,0000,0000,,ele tem que cuidar de toda a sua quadra.
+Dialogue: 0,0:15:24.23,0:15:25.96,Default,,0000,0000,0000,,Eh... Não brinca!
+Dialogue: 0,0:15:26.03,0:15:27.17,Default,,0000,0000,0000,,Você está falando sério?!
+Dialogue: 0,0:15:27.36,0:15:28.67,Default,,0000,0000,0000,,Como ele disse.
+Dialogue: 0,0:15:28.67,0:15:30.59,Default,,0000,0000,0000,,Me desculpe por isso, garotinho!
+Dialogue: 0,0:15:33.79,0:15:36.82,Default,,0000,0000,0000,,Me desculpe e tente outra vez na próxima semana!
+Dialogue: 0,0:15:38.27,0:15:40.77,Default,,0000,0000,0000,,Boa! Um lob para o fundo oposto!
+Dialogue: 0,0:15:43.52,0:15:44.68,pensamento,,0000,0000,0000,,Desgraçado...
+Dialogue: 0,0:15:45.40,0:15:47.82,Default,,0000,0000,0000,,Tudo bem! Se é com ele, com certeza conseguirá pegar!
+Dialogue: 0,0:15:47.96,0:15:49.74,Default,,0000,0000,0000,,É, mas...
+Dialogue: 0,0:15:50.19,0:15:53.34,Default,,0000,0000,0000,,Inui e o carrinho de bolas estarão no caminho.
+Dialogue: 0,0:16:02.79,0:16:04.50,Default,,0000,0000,0000,,Com essa velocidade, ele irá passar reto!
+Dialogue: 0,0:16:07.40,0:16:09.38,Default,,0000,0000,0000,,O que você vai fazer, Ryoma-kun?
+Dialogue: 0,0:16:09.71,0:16:13.55,Default,,0000,0000,0000,,Mesmo que seja o Echizen, não há como rebater uma bola de costas para a rede!
+Dialogue: 0,0:16:14.17,0:16:16.47,Default,,0000,0000,0000,,Eu sempre quis tentar isso.
+Dialogue: 0,0:16:23.50,0:16:23.95,Default,,0000,0000,0000,,Aqui!
+Dialogue: 0,0:16:28.16,0:16:29.45,Default,,0000,0000,0000,,Acrobacia?
+Dialogue: 0,0:16:29.45,0:16:30.33,Default,,0000,0000,0000,,Você está falando sério?
+Dialogue: 0,0:16:30.33,0:16:32.95,Default,,0000,0000,0000,,E ainda por cima, é extremamente difícil rebater entre as pernas!
+Dialogue: 0,0:16:35.02,0:16:36.49,Default,,0000,0000,0000,,Legal!
+Dialogue: 0,0:16:36.50,0:16:37.50,Default,,0000,0000,0000,,Droga...
+Dialogue: 0,0:16:45.01,0:16:46.30,Default,,0000,0000,0000,,De alguma maneira, ele conseguiu pegá-la!
+Dialogue: 0,0:16:49.53,0:16:50.82,Default,,0000,0000,0000,,Tão rápido quanto o normal!
+Dialogue: 0,0:16:50.82,0:16:53.30,Default,,0000,0000,0000,,Finalmente! É a chance do Ryoma-kun!
+Dialogue: 0,0:16:54.44,0:16:55.30,Default,,0000,0000,0000,,Garotinho!
+Dialogue: 0,0:16:56.22,0:16:59.01,Default,,0000,0000,0000,,Wee! Já se passaram cinco bolas.
+Dialogue: 0,0:17:02.03,0:17:03.97,Default,,0000,0000,0000,,Yay! Yay! Minha vitória...
+Dialogue: 0,0:17:06.50,0:17:09.04,Default,,0000,0000,0000,,Ei, Echizen! O que você pensa que está fazendo?
+Dialogue: 0,0:17:09.04,0:17:09.91,Default,,0000,0000,0000,,Inui!
+Dialogue: 0,0:17:09.91,0:17:14.49,Default,,0000,0000,0000,,Dê para esse garoto o máximo possível do Inui Juice Special, ou seja lá do que isso é chamado!
+Dialogue: 0,0:17:17.65,0:17:22.70,Default,,0000,0000,0000,,Com novos ingredientes, é o Special Golden Power Remix Inui Juice.
+Dialogue: 0,0:17:29.98,0:17:31.56,Default,,0000,0000,0000,,Droga...
+Dialogue: 0,0:17:31.56,0:17:34.63,Default,,0000,0000,0000,,Eu bebi aquela coisa terrível...
+Dialogue: 0,0:17:39.82,0:17:40.97,Default,,0000,0000,0000,,Terrível...
+Dialogue: 0,0:17:48.93,0:17:50.75,Default,,0000,0000,0000,,Ah! Ryuzaki-sensei.
+Dialogue: 0,0:17:51.67,0:17:53.36,Default,,0000,0000,0000,,Tudo bem! Juntem-se!
+Dialogue: 0,0:17:53.36,0:17:55.49,Default,,0000,0000,0000,,A lista para o Torneio Regional já está pronta.
+Dialogue: 0,0:17:57.97,0:17:58.57,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:17:59.48,0:18:01.63,Default,,0000,0000,0000,,Parece que tem menos pessoas aqui...
+Dialogue: 0,0:18:02.32,0:18:06.39,Default,,0000,0000,0000,,N-Na verdade, é por causa do suco de vegetais do Inui-senpai...
+Dialogue: 0,0:18:08.43,0:18:13.09,Default,,0000,0000,0000,,Com novos ingredientes, é o Special Golden Power Remix Inui Juice.
+Dialogue: 0,0:18:13.67,0:18:15.07,Default,,0000,0000,0000,,É a última versão.
+Dialogue: 0,0:18:15.72,0:18:17.17,Default,,0000,0000,0000,,Quer beber um pouco?
+Dialogue: 0,0:18:19.08,0:18:20.79,Default,,0000,0000,0000,,E-Eu passo...
+Dialogue: 0,0:18:25.01,0:18:27.25,Default,,0000,0000,0000,,Cento e oito colégios ficaram depois das preliminares.
+Dialogue: 0,0:18:27.25,0:18:28.75,Default,,0000,0000,0000,,Todos eles são fortes.
+Dialogue: 0,0:18:30.21,0:18:35.38,Default,,0000,0000,0000,,Apenas cinco equipes irão entrar no Torneio Regional de Kantou.
+Dialogue: 0,0:18:37.36,0:18:40.98,Default,,0000,0000,0000,,Fudomine irá jogar contra o Colégio Hyoutei antes de nós, não é?
+Dialogue: 0,0:18:42.02,0:18:46.75,Default,,0000,0000,0000,,Nós iremos jogar contra o colégio do seu irmão, St. Rudolph, nas oitavas-de-final, não é, Fuji?
+Dialogue: 0,0:18:46.75,0:18:47.41,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:18:56.60,0:18:59.60,Default,,0000,0000,0000,,Certo! Nós temos que enfrentar esses colégios agora.
+Dialogue: 0,0:18:59.60,0:19:02.36,Default,,0000,0000,0000,,Nosso objetivo é o título, certo?
+Dialogue: 0,0:19:02.36,0:19:03.70,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:19:03.70,0:19:04.49,Default,,0000,0000,0000,,Certo!
+Dialogue: 0,0:19:04.49,0:19:07.00,Default,,0000,0000,0000,,Vamos continuar o treinamento! Agora, será combinação!
+Dialogue: 0,0:19:07.98,0:19:10.19,Default,,0000,0000,0000,,Para quem não quiser treinar,
+Dialogue: 0,0:19:10.95,0:19:12.35,Default,,0000,0000,0000,,isso aqui estará esperando...
+Dialogue: 0,0:19:22.76,0:19:23.89,Default,,0000,0000,0000,,Certo, certo...
+Dialogue: 0,0:19:24.47,0:19:26.09,Default,,0000,0000,0000,,Na véspera próximo torneio.
+Dialogue: 0,0:19:26.09,0:19:30.27,Default,,0000,0000,0000,,Os juniores Kaidoh e Momoshiro, e o calouro Echizen.
+Dialogue: 0,0:19:31.66,0:19:36.09,Default,,0000,0000,0000,,Quanto será que eles podem melhorar nesse curto espaço de tempo?
+Dialogue: 0,0:19:36.19,0:19:41.84,Default,,0000,0000,0000,,Eu não vejo a hora de começar... o Torneio Regional.
+Dialogue: 0,0:19:56.43,0:19:59.29,Default,,0000,0000,0000,,Isso não é bom... Eu não consigo achá-la...
+Dialogue: 0,0:19:59.29,0:20:00.98,Default,,0000,0000,0000,,Ei! Agüente firme!
+Dialogue: 0,0:20:00.98,0:20:04.10,Default,,0000,0000,0000,,Se nós desistirmos agora, nunca nos tornaremos titulares!
+Dialogue: 0,0:20:04.10,0:20:05.69,Default,,0000,0000,0000,,Mesmo que você diga isso...
+Dialogue: 0,0:20:05.69,0:20:07.12,Default,,0000,0000,0000,,Cale-se! Cale-se!
+Dialogue: 0,0:20:07.27,0:20:09.34,Default,,0000,0000,0000,,Quem disser isso de novo...
+Dialogue: 0,0:20:10.60,0:20:15.33,Default,,0000,0000,0000,,Terá que beber o Horio Juice Special Grand Extra Version!
+Dialogue: 0,0:20:15.33,0:20:16.18,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:20:16.84,0:20:17.89,Default,,0000,0000,0000,,Deixe de brincadeira!
+Dialogue: 0,0:20:17.89,0:20:19.58,Default,,0000,0000,0000,,Saiba qual é o seu lugar, Horio-kun!
+Dialogue: 0,0:20:19.58,0:20:20.96,Default,,0000,0000,0000,,Que cor é essa?!
+Dialogue: 0,0:20:20.96,0:20:22.89,Default,,0000,0000,0000,,Beba isso você mesmo!
+Dialogue: 0,0:20:22.89,0:20:25.14,Default,,0000,0000,0000,,De jeito nenhum! D-De jeito nenhum!
+Dialogue: 0,0:20:23.43,0:20:25.16,Default,,0000,0000,0000,,Você tem dois anos de experiência jogando tênis, certo?
+Dialogue: 0,0:20:25.16,0:20:25.76,Default,,0000,0000,0000,,Idiota!
+Dialogue: 0,0:20:26.71,0:20:28.53,Default,,0000,0000,0000,,O que está acontecendo?!
+Dialogue: 0,0:21:36.57,0:21:38.09,preview,,0000,0000,0000,,Boa tarde, pessoal!
+Dialogue: 0,0:21:38.09,0:21:40.04,preview,,0000,0000,0000,,Eu sou Meino Nanako.
+Dialogue: 0,0:21:40.13,0:21:41.28,preview,,0000,0000,0000,,Como vocês estão?
+Dialogue: 0,0:21:42.15,0:21:46.43,preview,,0000,0000,0000,,O quê? Aonde você está indo antes do almoço, tio?
+Dialogue: 0,0:21:46.61,0:21:48.86,preview,,0000,0000,0000,,Hã? Ryoma-san está tendo um encontro?
+Dialogue: 0,0:21:48.86,0:21:51.10,preview,,0000,0000,0000,,E ainda por cima, seu encontro é com uma bela garota?
+Dialogue: 0,0:21:52.56,0:21:55.11,preview,,0000,0000,0000,,Eu me pergunto qual o nome da garota.
+Dialogue: 0,0:21:56.24,0:21:58.19,preview,,0000,0000,0000,,No próximo episódio de The Prince of Tennis:
+Dialogue: 0,0:21:58.55,0:21:59.98,preview,,0000,0000,0000,,O Feriado de Ryoma
+Dialogue: 0,0:22:00.30,0:22:03.48,preview,,0000,0000,0000,,Tio, já que não há mais nada para ver, por que você não pára?

@@ -1,0 +1,423 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Koblenz-DemiBold,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Pensamento,Koblenz-DemiBold,30,&H00E9DFD6,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Logo,Comic Sans MS,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0,1.5,2,20,20,20,0
+Style: Logo2,Comic Sans MS,40,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0,1.5,2,20,20,20,0
+Style: Passado,Koblenz-DemiBold,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: Preview,Koblenz-DemiBold,30,&H00C0FFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+Style: signos,Koblenz-DemiBold,30,&H00909090,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1,2,20,20,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:26.40,0:01:30.08,Default,,0000,0000,0000,,{\fad(1500,0)\pos(207,370)\bord0\shad2.5\fnComic Sans MS\b1\i1\fs37}Okaeri Fansubs
+Dialogue: 0,0:01:28.42,0:01:30.08,Logo,,0000,0000,0000,,{\fad(900,0)\pos(395,100\bord0\shad2.5\fnComic Sans MS\b1\i1\fs30}Suzuka
+Dialogue: 0,0:01:26.40,0:01:30.08,Logo,,0000,0000,0000,,{\fad(1500,0)\pos(203,390\shad2.5\b1\i1\fs22\bord0\fnComic Sans MS}#Okaeri@irc.rizon.net
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:01:53.68,0:01:56.02,Default,,0000,0000,0000,,Obrigada pela refeição, Ayano-san!
+Dialogue: 0,0:01:56.49,0:01:57.63,Default,,0000,0000,0000,,Estava deliciosa!
+Dialogue: 0,0:01:57.63,0:01:59.10,Default,,0000,0000,0000,,Você é sempre bem-vinda.
+Dialogue: 0,0:01:59.10,0:02:01.77,Default,,0000,0000,0000,,Pode deixar os pratos aí.
+Dialogue: 0,0:02:01.77,0:02:02.45,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:02:04.00,0:02:06.13,Default,,0000,0000,0000,,Então, já vou indo para o treino.
+Dialogue: 0,0:02:06.48,0:02:08.14,Default,,0000,0000,0000,,Você tem treino hoje também?
+Dialogue: 0,0:02:08.14,0:02:10.43,Default,,0000,0000,0000,,A equipe de atletismo está sempre ocupada.
+Dialogue: 0,0:02:11.61,0:02:13.90,Default,,0000,0000,0000,,Mas amanhã é o aniversário da escola,
+Dialogue: 0,0:02:13.90,0:02:15.36,Default,,0000,0000,0000,,então poderemos ter um bom descanso.
+Dialogue: 0,0:02:15.85,0:02:17.79,Default,,0000,0000,0000,,Esforce-se, Suzuka-oneechan!
+Dialogue: 0,0:02:17.79,0:02:19.70,Default,,0000,0000,0000,,Sim, obrigada.
+Dialogue: 0,0:02:21.32,0:02:22.74,Pensamento,,0000,0000,0000,,Um dia livre, é?
+Dialogue: 0,0:02:23.87,0:02:28.11,Default,,0000,0000,0000,,{\pos(130,80)\1c&H0000D0&\3c&HC0FFFF&\an7}Gatinho de hoje
+Dialogue: 0,0:02:23.87,0:02:28.11,Default,,0000,0000,0000,,{\pos(320,200)\bord0\shad0}Terminou
+Dialogue: 0,0:02:23.87,0:02:28.11,Default,,0000,0000,0000,,{\pos(320,350)\3c&H008000&\1c&H00FF00&}Sexta-feira 7:30
+Dialogue: 0,0:02:24.49,0:02:26.46,Default,,0000,0000,0000,,É manhã de Sexta-feira, são 7:30,
+Dialogue: 0,0:02:26.46,0:02:27.98,Default,,0000,0000,0000,,e hoje é o dia da sorte de ...
+Dialogue: 0,0:02:28.13,0:02:29.80,Default,,0000,0000,0000,,{\pos(250,90)\1c&H00FFFF&\3c&H50A7FE&}Sorte de Hoje
+Dialogue: 0,0:02:28.13,0:02:29.80,Default,,0000,0000,0000,,{\pos(290,205)\1c&H50A7FE&\3c&HFFFFFF&\shad0}Dia de sorte
+Dialogue: 0,0:02:28.13,0:02:29.80,Default,,0000,0000,0000,,{\pos(410,300)\1c&H50A7FE&\3c&HFFFFFF&\shad0}Item da sorte
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(55,415)\shad0\bord0\fs16}Á\Nr\Ni\Ne\Ns
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(100,415)\shad0\bord0\fs16}T\No\Nu\Nr\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(140,418)\shad0\bord0\fs16}G\Nê\Nm\Ne\No\Ns
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(185,418)\shad0\bord0\fs16}C\Nâ\Nn\Nc\Ne\Nr
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(228,410)\shad0\bord0\fs16}L\Ne\Nã\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(272,419)\shad0\bord0\fs16}V\Ni\Nr\Ng\Ne\Nm
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(315,415)\shad0\bord0\fs16}L\Ni\Nb\Nr\Na
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(360,443)\shad0\bord0\fs16}E\Ns\Nc\No\Nr\Np\Ni\Nã\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(400,445)\shad0\bord0\fs16}S\Na\Ng\Ni\Nt\Ná\Nr\Ni\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(445,440)\shad0\bord0\fs12}C\Na\Np\Nr\Ni\Nc\Nó\Nr\Nn\Ni\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(490,425)\shad0\bord0\fs16}A\Nq\Nu\Ná\Nr\Ni\No
+Dialogue: 0,0:02:28.13,0:02:29.80,signos,,0000,0000,0000,,{\pos(532,415)\shad0\bord0\fs16}P\Ne\Ni\Nx\Ne\Ns
+Dialogue: 0,0:02:29.82,0:02:35.80,Default,,0000,0000,0000,,{\pos(236,290)\fnAd Hoc\4c&HFFFFFF&\bord0.1\1c&HC00000&\shad1.7}Confissão
+Dialogue: 0,0:02:39.59,0:02:43.03,Default,,0000,0000,0000,,É raro ela ter um dia sem treinamento...
+Dialogue: 0,0:02:43.03,0:02:45.38,Default,,0000,0000,0000,,Gostaria de ir a algum lugar com ela,
+Dialogue: 0,0:02:45.38,0:02:49.02,Default,,0000,0000,0000,,mas ontem já fomos fazer compras.
+Dialogue: 0,0:02:52.34,0:02:54.94,Default,,0000,0000,0000,,E não acho que ela goste de cantar no karaokê...
+Dialogue: 0,0:02:56.38,0:02:59.98,Default,,0000,0000,0000,,E quem perderia o dia livre para ir ao karaokê?
+Dialogue: 0,0:03:00.71,0:03:02.68,Default,,0000,0000,0000,,Talvez ir ao cinema ou a um parque de diversões...
+Dialogue: 0,0:03:03.71,0:03:04.93,Default,,0000,0000,0000,,Parecem ser ótimos lugares para um encontro.
+Dialogue: 0,0:03:08.08,0:03:12.90,Default,,0000,0000,0000,,Mas minhas intenções seriam óbvias demais se eu a convidasse para sair justo no seu dia livre.
+Dialogue: 0,0:03:16.41,0:03:19.00,Default,,0000,0000,0000,,E também vai ser difícil me confessar para ela...
+Dialogue: 0,0:03:20.95,0:03:21.85,Default,,0000,0000,0000,,Será que é a Ayano-san?
+Dialogue: 0,0:03:23.68,0:03:27.05,Default,,0000,0000,0000,,Bom dia! Eu sou do Jornal Maiasa!
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,-Maiasa: De cada manhã
+Dialogue: 0,0:03:27.22,0:03:29.06,Default,,0000,0000,0000,,Gostaria de assinar o nosso jornal?
+Dialogue: 0,0:03:29.52,0:03:31.52,Default,,0000,0000,0000,,Se você assinar o jornal do dia e o da noite agora,
+Dialogue: 0,0:03:31.52,0:03:33.85,Default,,0000,0000,0000,,nós daremos a você dois ingressos grátis para o Fantasy Land.
+Dialogue: 0,0:03:38.50,0:03:41.25,Default,,0000,0000,0000,,São os dois últimos ingressos e eles valem só até amanhã!
+Dialogue: 0,0:03:41.71,0:03:43.38,Default,,0000,0000,0000,,Então, o que você acha?
+Dialogue: 0,0:03:43.38,0:03:44.67,Pensamento,,0000,0000,0000,,É isso!
+Dialogue: 0,0:03:45.09,0:03:46.81,Default,,0000,0000,0000,,Sim! Eu assino o pacote!
+Dialogue: 0,0:03:46.81,0:03:48.12,Default,,0000,0000,0000,,Eu assinarei, então me dê os ingressos!
+Dialogue: 0,0:03:48.48,0:03:49.59,Default,,0000,0000,0000,,Entregue-os logo!
+Dialogue: 0,0:03:49.59,0:03:51.04,Default,,0000,0000,0000,,Muito obrigada!
+Dialogue: 0,0:03:51.04,0:03:53.52,Default,,0000,0000,0000,,Começaremos a entregar esta noite!
+Dialogue: 0,0:03:53.52,0:03:54.97,Default,,0000,0000,0000,,Certo, pode mandar!
+Dialogue: 0,0:03:59.52,0:04:01.67,Default,,0000,0000,0000,,Muito obrigado, garota do jornal!
+Dialogue: 0,0:04:01.67,0:04:03.71,Default,,0000,0000,0000,,Obrigado por este último recurso!
+Dialogue: 0,0:04:03.73,0:04:04.71,Default,,0000,0000,0000,,{\pos(389,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}C\No\Nn\Ns\Nt\Nr\Nu\Ní\Nd\Na\Ns
+Dialogue: 0,0:04:03.73,0:04:08.06,Default,,0000,0000,0000,,{\pos(360,2)\bord0\shad0\1c&H606060&\an8\fs18}C\Na\Ns\Na\Ns\N\N 
+Dialogue: 0,0:04:03.73,0:04:04.71,Default,,0000,0000,0000,,{\pos(375,2)\bord0\shad0\1c&H606060&\an8\fs18}R\Ne\Nc\Ne\Nn\Nt\Ne\Ns
+Dialogue: 0,0:04:03.73,0:04:04.71,Default,,0000,0000,0000,,{\pos(401,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}P\Na\Nr\Na\N\N V\Ne\Nn\Nd\Na
+Dialogue: 0,0:04:04.71,0:04:04.87,Default,,0000,0000,0000,,{\pos(389,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}C\No\Nn\Ns\Nt\Nr\Nu\Ní\Nd
+Dialogue: 0,0:04:04.71,0:04:04.87,Default,,0000,0000,0000,,{\pos(401,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}P\Na\Nr\Na\N\N V\Ne\Nn\Nd\N
+Dialogue: 0,0:04:04.71,0:04:04.87,Default,,0000,0000,0000,,{\pos(375,2)\bord0\shad0\1c&H606060&\an8\fs18}R\Ne\Nc\Ne\Nn\Nt\Ne\N
+Dialogue: 0,0:04:04.87,0:04:08.06,Default,,0000,0000,0000,,{\pos(389,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}C\No\Nn\Ns\Nt\Nr\Nu\Ní\Nd\Na\Ns
+Dialogue: 0,0:04:04.87,0:04:08.06,Default,,0000,0000,0000,,{\pos(401,2)\bord0\shad0\an8\fs18\1c&HC0C0C0&}P\Na\Nr\Na\N\N V\Ne\Nn\Nd\Na
+Dialogue: 0,0:04:04.87,0:04:08.06,Default,,0000,0000,0000,,{\pos(375,2)\bord0\shad0\1c&H606060&\an8\fs18}R\Ne\Nc\Ne\Nn\Nt\Ne\Ns
+Dialogue: 0,0:04:09.47,0:04:12.09,Default,,0000,0000,0000,,Ganhei isso da garota do jornal,
+Dialogue: 0,0:04:12.09,0:04:13.96,Default,,0000,0000,0000,,você gostaria de ir?
+Dialogue: 0,0:04:13.96,0:04:16.22,Default,,0000,0000,0000,,Seria um desperdício se não os usasse.
+Dialogue: 0,0:04:16.22,0:04:18.27,Default,,0000,0000,0000,,Certo! Isso pareceu bem natural.
+Dialogue: 0,0:04:18.27,0:04:19.11,Default,,0000,0000,0000,,E soa completamente normal.
+Dialogue: 0,0:04:20.45,0:04:22.06,Default,,0000,0000,0000,,O que ele tem?
+Dialogue: 0,0:04:27.27,0:04:29.35,Default,,0000,0000,0000,,Agora eu só preciso dizer isso a Asahina.
+Dialogue: 0,0:04:29.35,0:04:30.90,Default,,0000,0000,0000,,Vou falar naturalmente e com calma.
+Dialogue: 0,0:04:31.53,0:04:32.17,Default,,0000,0000,0000,,Essa não!
+Dialogue: 0,0:04:44.76,0:04:46.04,Default,,0000,0000,0000,,Eu não consegui falar...
+Dialogue: 0,0:04:46.59,0:04:48.83,Default,,0000,0000,0000,,Não pensei que seria tão difícil quando estava vindo para a escola.
+Dialogue: 0,0:04:57.35,0:04:59.12,Default,,0000,0000,0000,,Certo, eu vou falar.
+Dialogue: 0,0:04:59.84,0:05:03.04,Default,,0000,0000,0000,,Vou perguntar quando ela voltar, antes de nós irmos jantar.
+Dialogue: 0,0:05:05.95,0:05:07.33,Default,,0000,0000,0000,,Yamato-kun?
+Dialogue: 0,0:05:08.44,0:05:10.02,Default,,0000,0000,0000,,A-Asahina?
+Dialogue: 0,0:05:14.76,0:05:16.98,Default,,0000,0000,0000,,Ayano-san me pediu para avisá-lo que o jantar já está pronto.
+Dialogue: 0,0:05:17.63,0:05:19.12,Default,,0000,0000,0000,,S-Sim.
+Dialogue: 0,0:05:19.81,0:05:20.98,Default,,0000,0000,0000,,Hum...
+Dialogue: 0,0:05:20.98,0:05:22.06,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:05:22.06,0:05:23.24,Default,,0000,0000,0000,,Não está se sentindo bem de novo?
+Dialogue: 0,0:05:24.69,0:05:27.17,Default,,0000,0000,0000,,Não, não é bem isso.
+Dialogue: 0,0:05:33.94,0:05:35.76,Pensamento,,0000,0000,0000,,Eu pratiquei bastante para falar isso,
+Dialogue: 0,0:05:35.76,0:05:38.28,Pensamento,,0000,0000,0000,,mas minha voz não está querendo sair.
+Dialogue: 0,0:05:40.75,0:05:41.53,Default,,0000,0000,0000,,Apresse-se, está bem?
+Dialogue: 0,0:05:41.90,0:05:42.88,Default,,0000,0000,0000,,Ah!
+Dialogue: 0,0:05:44.71,0:05:45.85,Pensamento,,0000,0000,0000,,Eu sou um covarde!
+Dialogue: 0,0:05:55.44,0:05:58.85,Pensamento,,0000,0000,0000,,Droga, seria impossível para mim convidá-la durante o jantar na frente de todos...
+Dialogue: 0,0:05:58.85,0:06:01.14,Pensamento,,0000,0000,0000,,Acho que irei até o apartamento dela.
+Dialogue: 0,0:06:01.14,0:06:02.71,Default,,0000,0000,0000,,Ah, ele está aqui, está aqui!
+Dialogue: 0,0:06:04.92,0:06:08.09,Default,,0000,0000,0000,,Você não devia estar bebendo aqui, Saotome-san.
+Dialogue: 0,0:06:08.09,0:06:12.06,Default,,0000,0000,0000,,Eu estava esperando por você, Ya-ma-to-kun.
+Dialogue: 0,0:06:13.12,0:06:14.14,Pensamento,,0000,0000,0000,,Ela aqui...
+Dialogue: 0,0:06:14.14,0:06:15.61,Pensamento,,0000,0000,0000,,Essa mulher bêbada...
+Dialogue: 0,0:06:19.48,0:06:20.91,Default,,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:06:21.98,0:06:24.82,Default,,0000,0000,0000,,Ingressos grátis para o Fantasy Land?
+Dialogue: 0,0:06:24.82,0:06:26.81,Default,,0000,0000,0000,,- Ei, me dê isso!
+Dialogue: 0,0:06:25.81,0:06:26.81,Default,,0000,0000,0000,,- Tarde demais!
+Dialogue: 0,0:06:26.81,0:06:31.32,Default,,0000,0000,0000,,Como são dois ingressos, será que você estava indo convidar a Suzuka-chan?
+Dialogue: 0,0:06:31.32,0:06:33.81,Default,,0000,0000,0000,,Claro que não!
+Dialogue: 0,0:06:33.81,0:06:34.55,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:06:34.55,0:06:36.15,Default,,0000,0000,0000,,Então você vai comigo?
+Dialogue: 0,0:06:36.15,0:06:36.76,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:37.89,0:06:40.63,Default,,0000,0000,0000,,Justo amanhã que eu estou livre.
+Dialogue: 0,0:06:40.63,0:06:42.76,Default,,0000,0000,0000,,Eu poderei ir com você sem problemas.
+Dialogue: 0,0:06:42.98,0:06:44.80,Default,,0000,0000,0000,,E quem disse que eu quero ir com você?!
+Dialogue: 0,0:06:44.80,0:06:45.54,Default,,0000,0000,0000,,Me devolva!
+Dialogue: 0,0:06:46.88,0:06:48.36,Default,,0000,0000,0000,,Megumi-chan, pegue!
+Dialogue: 0,0:06:49.92,0:06:51.45,Default,,0000,0000,0000,,Droga, me devolvam isso!
+Dialogue: 0,0:06:55.31,0:06:56.48,Default,,0000,0000,0000,,Ai...
+Dialogue: 0,0:06:56.48,0:06:57.73,Default,,0000,0000,0000,,Droga!
+Dialogue: 0,0:06:58.04,0:07:00.24,Default,,0000,0000,0000,,Cuidado, isso foi perigoso!
+Dialogue: 0,0:07:00.24,0:07:01.91,Default,,0000,0000,0000,,Por que você está tão sério?
+Dialogue: 0,0:07:01.91,0:07:03.80,Default,,0000,0000,0000,,Apenas me devolva!
+Dialogue: 0,0:07:04.51,0:07:07.04,Pensamento,,0000,0000,0000,,Isso é a minha última esperança.
+Dialogue: 0,0:07:07.44,0:07:09.35,Default,,0000,0000,0000,,O-O que esse garoto tem?
+Dialogue: 0,0:07:09.35,0:07:10.79,Default,,0000,0000,0000,,Que nojento.
+Dialogue: 0,0:07:10.79,0:07:13.24,Default,,0000,0000,0000,,Saotome-san, devolva isso para ele.
+Dialogue: 0,0:07:13.24,0:07:15.41,Default,,0000,0000,0000,,Parece realmente importante para ele.
+Dialogue: 0,0:07:15.41,0:07:16.85,Default,,0000,0000,0000,,Então eu acho...
+Dialogue: 0,0:07:16.85,0:07:19.41,Default,,0000,0000,0000,,Yamato-kun, você é pesado, você pode...
+Dialogue: 0,0:07:33.11,0:07:35.19,Default,,0000,0000,0000,,Oh, o gato rasgou...
+Dialogue: 0,0:07:38.37,0:07:41.01,Default,,0000,0000,0000,,O que você está fazendo, Gorou-chan?!
+Dialogue: 0,0:07:41.69,0:07:44.21,Pensamento,,0000,0000,0000,,Minha última esperança...
+Dialogue: 0,0:07:45.74,0:07:47.41,Default,,0000,0000,0000,,O que você vai fazer para me pagar?
+Dialogue: 0,0:07:47.41,0:07:49.58,Default,,0000,0000,0000,,O quê? A culpa não foi minha.
+Dialogue: 0,0:07:50.25,0:07:52.94,Default,,0000,0000,0000,,Agora vá comprar senbei para mim!
+Dialogue: 0,0:07:52.94,0:07:54.13,Default,,0000,0000,0000,,Como se eu fosse!
+Dialogue: 0,0:07:54.13,0:07:56.93,Default,,0000,0000,0000,,Eu consegui alguns vídeos "interessantes" de você.
+Dialogue: 0,0:07:56.93,0:08:00.01,Default,,0000,0000,0000,,Este aqui é "Yamato-kun se aproveitando de uma menina da faculdade!".
+Dialogue: 0,0:08:00.01,0:08:00.80,Default,,0000,0000,0000,,O que será isto?!
+Dialogue: 0,0:08:02.54,0:08:04.71,Default,,0000,0000,0000,,Droga! Está tudo acabado agora.
+Dialogue: 0,0:08:05.48,0:08:07.38,Default,,0000,0000,0000,,Eu não tenho mais nenhum recurso.
+Dialogue: 0,0:08:08.17,0:08:11.18,Default,,0000,0000,0000,,Se eu soubesse que isso aconteceria, eu a teria convidado antes do jantar.
+Dialogue: 0,0:08:12.65,0:08:15.25,Default,,0000,0000,0000,,E ninguém mais vende ingressos a essa hora.
+Dialogue: 0,0:08:18.24,0:08:18.79,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:08:19.34,0:08:20.95,Default,,0000,0000,0000,,Eu quero ir à loja de conveniência...
+Dialogue: 0,0:08:21.78,0:08:24.36,Default,,0000,0000,0000,,Mas eu não poderei ir se você estiver no meio do caminho, não é?
+Dialogue: 0,0:08:24.82,0:08:25.91,Default,,0000,0000,0000,,Asahina...
+Dialogue: 0,0:08:28.13,0:08:30.49,Pensamento,,0000,0000,0000,,Agora não adianta mais.
+Dialogue: 0,0:08:30.49,0:08:32.55,Default,,0000,0000,0000,,Oh sim, Yamato-kun.
+Dialogue: 0,0:08:32.55,0:08:35.43,Default,,0000,0000,0000,,Eu vi um jornal na sua porta.
+Dialogue: 0,0:08:35.43,0:08:37.29,Default,,0000,0000,0000,,Você assinou um jornal?
+Dialogue: 0,0:08:37.29,0:08:38.40,Default,,0000,0000,0000,,S-Sim...
+Dialogue: 0,0:08:39.14,0:08:41.42,Default,,0000,0000,0000,,Uma menina muito irritante bateu na porta.
+Dialogue: 0,0:08:41.42,0:08:42.94,Default,,0000,0000,0000,,Assinei por um mês, eu acho.
+Dialogue: 0,0:08:42.94,0:08:44.62,Default,,0000,0000,0000,,Ela veio no meu apartamento também.
+Dialogue: 0,0:08:44.62,0:08:45.84,Default,,0000,0000,0000,,Mas eu recusei.
+Dialogue: 0,0:08:45.84,0:08:49.02,Default,,0000,0000,0000,,Entretanto, eu ganhei ingressos para o Fantasy Land.
+Dialogue: 0,0:08:49.14,0:08:50.11,Default,,0000,0000,0000,,Hum?
+Dialogue: 0,0:08:50.11,0:08:51.41,Default,,0000,0000,0000,,Você ganhou?!
+Dialogue: 0,0:08:51.41,0:08:53.82,Default,,0000,0000,0000,,Sim, ela me deu dois ingressos como brinde.
+Dialogue: 0,0:08:54.46,0:08:55.56,Pensamento,,0000,0000,0000,,Aquela mulher!
+Dialogue: 0,0:08:55.56,0:08:57.19,Pensamento,,0000,0000,0000,,Ela tinha muito mais, não tinha?
+Dialogue: 0,0:08:57.47,0:08:59.73,Default,,0000,0000,0000,,Bem, mesmo sendo um brinde
+Dialogue: 0,0:08:59.73,0:09:02.96,Default,,0000,0000,0000,,seria um desperdício se não os usasse.
+Dialogue: 0,0:09:05.57,0:09:06.99,Default,,0000,0000,0000,,O que houve?
+Dialogue: 0,0:09:06.99,0:09:08.41,Default,,0000,0000,0000,,Não, eu...
+Dialogue: 0,0:09:09.42,0:09:11.60,Pensamento,,0000,0000,0000,,Eu tenho que falar calmamente agora.
+Dialogue: 0,0:09:11.60,0:09:13.41,Pensamento,,0000,0000,0000,,Calmamente...
+Dialogue: 0,0:09:14.11,0:09:17.38,Pensamento,,0000,0000,0000,,"Então, você quer ir comigo?", isso soa um pouco estranho.
+Dialogue: 0,0:09:17.80,0:09:18.62,Pensamento,,0000,0000,0000,,Diga!
+Dialogue: 0,0:09:18.62,0:09:20.28,Pensamento,,0000,0000,0000,,Diga isso naturalmente.
+Dialogue: 0,0:09:20.28,0:09:21.67,Pensamento,,0000,0000,0000,,Realmente, essa é a minha última chance.
+Dialogue: 0,0:09:24.93,0:09:28.99,Default,,0000,0000,0000,,Hum... Se você quiser, eu posso ir com você.
+Dialogue: 0,0:09:30.09,0:09:33.56,Pensamento,,0000,0000,0000,,Oh, isso soou como se eu estivesse implorando a ela.
+Dialogue: 0,0:09:33.56,0:09:34.69,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:34.69,0:09:37.17,Pensamento,,0000,0000,0000,,Droga, eu vou deixar ela irritada de novo.
+Dialogue: 0,0:09:37.17,0:09:41.09,Default,,0000,0000,0000,,Não, hum... desculpe.
+Dialogue: 0,0:09:41.67,0:09:43.15,Default,,0000,0000,0000,,Realmente, você é uma criança.
+Dialogue: 0,0:09:43.67,0:09:44.39,Default,,0000,0000,0000,,Sim?
+Dialogue: 0,0:09:45.53,0:09:48.44,Default,,0000,0000,0000,,Se quer ir, apenas seja franco sobre isso.
+Dialogue: 0,0:09:48.44,0:09:50.05,Default,,0000,0000,0000,,M-Mas...
+Dialogue: 0,0:09:51.19,0:09:54.06,Default,,0000,0000,0000,,Não importa, eu posso ir com você se você quiser.
+Dialogue: 0,0:09:56.22,0:09:59.05,Default,,0000,0000,0000,,Ultimamente, eu só tenho treinado.
+Dialogue: 0,0:09:59.05,0:10:00.47,Default,,0000,0000,0000,,Acho que um pouco de diversão vai ser bom.
+Dialogue: 0,0:10:01.26,0:10:03.30,Default,,0000,0000,0000,,O quê? Você não quer ir?
+Dialogue: 0,0:10:03.30,0:10:04.72,Default,,0000,0000,0000,,Ah, não...
+Dialogue: 0,0:10:04.72,0:10:06.30,Default,,0000,0000,0000,,E-Eu vou!
+Dialogue: 0,0:10:06.30,0:10:07.64,Default,,0000,0000,0000,,Você também parece que está com vontade de ir!
+Dialogue: 0,0:10:07.64,0:10:08.44,Default,,0000,0000,0000,,Sim, sim.
+Dialogue: 0,0:10:09.45,0:10:11.48,Default,,0000,0000,0000,,Então, nos encontramos amanhã às 8.
+Dialogue: 0,0:10:11.48,0:10:13.48,Default,,0000,0000,0000,,Eu vou sozinha se você não acordar até esse horário.
+Dialogue: 0,0:10:13.86,0:10:15.30,Default,,0000,0000,0000,,T-Tudo bem!
+Dialogue: 0,0:10:17.47,0:10:19.09,Pensamento,,0000,0000,0000,,Eu consegui.
+Dialogue: 0,0:10:19.09,0:10:20.25,Pensamento,,0000,0000,0000,,Eu consegui!
+Dialogue: 0,0:10:22.81,0:10:24.25,Pensamento,,0000,0000,0000,,Beleza!
+Dialogue: 0,0:10:26.17,0:10:33.95,Default,,0000,0000,0000,,{\fad(900,900)\pos(90,438)\bord0\shad1\fnComic Sans MS\b1\i1\fs14}Okaeri\NFansubs
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:10:48.50,0:10:49.93,Default,,0000,0000,0000,,Que azar...
+Dialogue: 0,0:10:49.93,0:10:51.72,Default,,0000,0000,0000,,Por que tinha que chover justo hoje?
+Dialogue: 0,0:10:58.89,0:11:00.23,Default,,0000,0000,0000,,O pior...
+Dialogue: 0,0:11:00.23,0:11:02.55,Default,,0000,0000,0000,,É que se continuar assim, não haverá desfile a noite.
+Dialogue: 0,0:11:03.25,0:11:05.00,Default,,0000,0000,0000,,Não está bem assim?
+Dialogue: 0,0:11:05.00,0:11:07.66,Default,,0000,0000,0000,,Vamos dar uma olhada sem compromisso nas atrações cobertas.
+Dialogue: 0,0:11:07.66,0:11:09.36,Default,,0000,0000,0000,,Sem compromisso?
+Dialogue: 0,0:11:09.36,0:11:11.93,Default,,0000,0000,0000,,Primeiro, vamos planejar aonde vamos.
+Dialogue: 0,0:11:12.28,0:11:13.44,Default,,0000,0000,0000,,Como assim?
+Dialogue: 0,0:11:13.44,0:11:16.41,Default,,0000,0000,0000,,Por hora, vamos até ali.
+Dialogue: 0,0:11:19.50,0:11:22.12,Default,,0000,0000,0000,,"Sem compromisso", "Por hora"...
+Dialogue: 0,0:11:22.83,0:11:24.83,Default,,0000,0000,0000,,Yamato-kun, você é realmente...
+Dialogue: 0,0:11:24.83,0:11:25.73,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:11:25.73,0:11:26.81,Default,,0000,0000,0000,,Nada!
+Dialogue: 0,0:11:37.61,0:11:40.43,Pensamento,,0000,0000,0000,,Embora nós tenhamos vindo para nos divertir...
+Dialogue: 0,0:11:40.43,0:11:42.62,Pensamento,,0000,0000,0000,,Isso está sendo terrível...
+Dialogue: 0,0:11:42.62,0:11:45.58,Default,,0000,0000,0000,,Por favor, entrem!
+Dialogue: 0,0:11:45.58,0:11:47.31,Default,,0000,0000,0000,,Ei, Yamato-kun!
+Dialogue: 0,0:11:47.37,0:11:49.04,Default,,0000,0000,0000,,S-Sim.
+Dialogue: 0,0:11:49.04,0:11:50.25,Default,,0000,0000,0000,,É isso!
+Dialogue: 0,0:11:50.25,0:11:52.01,Default,,0000,0000,0000,,Eu vou para casa depois desse brinquedo.
+Dialogue: 0,0:11:53.36,0:11:56.16,Pensamento,,0000,0000,0000,,Se eu soubesse que isso ia acontecer, não teria vindo.
+Dialogue: 0,0:11:59.27,0:12:02.43,Pensamento,,0000,0000,0000,,Eu pensei que os brinquedos cobertos eram só para os idiotas...
+Dialogue: 0,0:12:10.25,0:12:13.83,Pensamento,,0000,0000,0000,,Por que será que isso é coberto?!
+Dialogue: 0,0:12:14.46,0:12:16.04,Default,,0000,0000,0000,,I-Incrível!
+Dialogue: 0,0:12:16.04,0:12:18.39,Default,,0000,0000,0000,,Olhe, veja a cidade ali embaixo!
+Dialogue: 0,0:12:18.39,0:12:19.63,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:19.63,0:12:20.55,Default,,0000,0000,0000,,Lá embaixo!
+Dialogue: 0,0:12:20.55,0:12:21.92,Default,,0000,0000,0000,,Você está vendo uma cidade, certo?
+Dialogue: 0,0:12:21.92,0:12:23.31,Default,,0000,0000,0000,,Huh?!
+Dialogue: 0,0:12:23.31,0:12:25.15,Default,,0000,0000,0000,,Uma cidade, uma cidade!
+Dialogue: 0,0:12:25.15,0:12:26.95,Default,,0000,0000,0000,,Huh?!
+Dialogue: 0,0:12:29.01,0:12:32.04,Pensamento,,0000,0000,0000,,Eu subestimei esse brinquedo coberto.
+Dialogue: 0,0:12:32.77,0:12:34.64,Pensamento,,0000,0000,0000,,E aqueles efeitos especiais eram extraordinários.
+Dialogue: 0,0:12:34.64,0:12:36.39,Pensamento,,0000,0000,0000,,Parque de diversões em dias assim...
+Dialogue: 0,0:12:37.55,0:12:40.78,Pensamento,,0000,0000,0000,,Mas... eu gostei.
+Dialogue: 0,0:12:42.68,0:12:44.88,Pensamento,,0000,0000,0000,,Ela ainda parece irritada.
+Dialogue: 0,0:12:45.64,0:12:47.59,Pensamento,,0000,0000,0000,,Lá vamos nós novamente ao "de volta para casa".
+Dialogue: 0,0:12:49.24,0:12:50.45,Default,,0000,0000,0000,,Olhe isto!
+Dialogue: 0,0:12:51.38,0:12:53.41,Default,,0000,0000,0000,,Yamato-kun, você saiu com uma cara bem estranha.
+Dialogue: 0,0:12:53.41,0:12:55.29,Default,,0000,0000,0000,,Ei, para sua informação...
+Dialogue: 0,0:12:55.29,0:12:56.45,Default,,0000,0000,0000,,Eu estava realmente apavorado!
+Dialogue: 0,0:12:57.16,0:13:00.23,Pensamento,,0000,0000,0000,,{\fad(0,300)}Droga, quando tiraram isso?
+Dialogue: 0,0:13:01.80,0:13:05.06,Default,,0000,0000,0000,,Bem então, vamos para o próximo brinquedo.
+Dialogue: 0,0:13:06.44,0:13:07.98,Default,,0000,0000,0000,,Mas você disse que ia para casa!
+Dialogue: 0,0:13:07.98,0:13:09.22,Default,,0000,0000,0000,,Vamos logo!
+Dialogue: 0,0:13:09.22,0:13:11.11,Default,,0000,0000,0000,,O tempo é precioso!
+Dialogue: 0,0:13:11.11,0:13:12.06,Default,,0000,0000,0000,,S-Sim!
+Dialogue: 0,0:13:12.62,0:13:16.37,Default,,0000,0000,0000,,Então vamos em todos os brinquedos cobertos!
+Dialogue: 0,0:13:16.37,0:13:18.94,Default,,0000,0000,0000,,Você realmente acredita que conseguiremos fazer isso?
+Dialogue: 0,0:13:30.33,0:13:34.99,Default,,0000,0000,0000,,No final, nós só fomos na metade dos brinquedos.
+Dialogue: 0,0:13:34.99,0:13:37.05,Default,,0000,0000,0000,,Você tem muita energia...
+Dialogue: 0,0:13:37.79,0:13:40.48,Default,,0000,0000,0000,,Eu nunca pensei que este lugar fosse tão grande.
+Dialogue: 0,0:13:40.48,0:13:42.20,Default,,0000,0000,0000,,Isso se parece com uma cidade!
+Dialogue: 0,0:13:44.04,0:13:45.28,Default,,0000,0000,0000,,Que embaraçoso.
+Dialogue: 0,0:13:45.28,0:13:46.72,Default,,0000,0000,0000,,É você que não pratica exercícios o suficiente!
+Dialogue: 0,0:13:46.72,0:13:48.06,Default,,0000,0000,0000,,Você não tem jeito.
+Dialogue: 0,0:13:48.06,0:13:49.61,Default,,0000,0000,0000,,Então vamos comprar algo e ir para casa.
+Dialogue: 0,0:13:49.61,0:13:51.52,Default,,0000,0000,0000,,Provavelmente não haverá desfile por causa da chuva.
+Dialogue: 0,0:13:51.52,0:13:53.01,Default,,0000,0000,0000,,E-Ei!
+Dialogue: 0,0:13:53.01,0:13:54.89,Default,,0000,0000,0000,,Vamos descansar mais um pouco antes de ir.
+Dialogue: 0,0:13:54.89,0:13:55.98,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:13:55.98,0:13:57.45,Default,,0000,0000,0000,,Eu olho muito antes de escolher,
+Dialogue: 0,0:13:57.45,0:13:58.92,Default,,0000,0000,0000,,então preciso de muito tempo.
+Dialogue: 0,0:13:58.92,0:14:00.60,Default,,0000,0000,0000,,Ah, então é isso?
+Dialogue: 0,0:14:00.93,0:14:03.54,Pensamento,,0000,0000,0000,,Sim, ela precisa de muito tempo para fazer compras.
+Dialogue: 0,0:14:03.93,0:14:08.21,Default,,0000,0000,0000,,Bem, no final você também gostou de vir ao parque, certo?
+Dialogue: 0,0:14:08.21,0:14:08.93,Default,,0000,0000,0000,,Quê?
+Dialogue: 0,0:14:09.57,0:14:11.17,Default,,0000,0000,0000,,Você tem algum problema com isso?
+Dialogue: 0,0:14:11.17,0:14:13.59,Default,,0000,0000,0000,,Não, não mesmo.
+Dialogue: 0,0:14:13.59,0:14:15.50,Default,,0000,0000,0000,,Vamos logo, levante-se daí.
+Dialogue: 0,0:14:15.50,0:14:16.48,Default,,0000,0000,0000,,Sim, sim!
+Dialogue: 0,0:14:16.69,0:14:20.15,Default,,0000,0000,0000,,{\pos(320,235)\shad0\bord0}Loja de presentes Fantasy Land
+Dialogue: 0,0:14:17.13,0:14:21.72,Pensamento,,0000,0000,0000,,Isso sempre acontece quando nós saímos.
+Dialogue: 0,0:14:25.14,0:14:27.19,Default,,0000,0000,0000,,Aqui, isso é bom.
+Dialogue: 0,0:14:27.19,0:14:29.06,Default,,0000,0000,0000,,Não, isso não parece gostoso.
+Dialogue: 0,0:14:30.04,0:14:32.04,Pensamento,,0000,0000,0000,,Eu sempre sou arrastado por ela,
+Dialogue: 0,0:14:32.04,0:14:34.88,Pensamento,,0000,0000,0000,,e forçado a segurar as compras.
+Dialogue: 0,0:14:36.11,0:14:38.40,Default,,0000,0000,0000,,Isso se parece muito com o Gorou-chan!
+Dialogue: 0,0:14:38.40,0:14:40.18,Default,,0000,0000,0000,,Não é uma gracinha?
+Dialogue: 0,0:14:40.18,0:14:45.45,Pensamento,,0000,0000,0000,,É a mesma relação de "velhos amigos" que tivemos até agora.
+Dialogue: 0,0:14:55.23,0:14:56.56,Default,,0000,0000,0000,,Olhe Yamato-kun!
+Dialogue: 0,0:14:56.56,0:14:58.11,Default,,0000,0000,0000,,Está parando de chover!
+Dialogue: 0,0:14:58.70,0:15:00.18,Default,,0000,0000,0000,,Você está certa.
+Dialogue: 0,0:15:01.76,0:15:04.07,Pensamento,,0000,0000,0000,,Agora não adianta mais...
+Dialogue: 0,0:15:06.47,0:15:07.26,Default,,0000,0000,0000,,Vamos!
+Dialogue: 0,0:15:07.26,0:15:08.90,Default,,0000,0000,0000,,Pode ser que tenha o desfile noturno!
+Dialogue: 0,0:15:09.78,0:15:11.24,Default,,0000,0000,0000,,S-Sim...
+Dialogue: 0,0:15:36.20,0:15:37.54,Default,,0000,0000,0000,,Isso é lindo!
+Dialogue: 0,0:15:37.54,0:15:38.45,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:15:39.25,0:15:41.37,Pensamento,,0000,0000,0000,,Eu ainda estou segurando sua mão...
+Dialogue: 0,0:15:45.14,0:15:49.43,Pensamento,,0000,0000,0000,,Quanto mais fico com ela, mais eu gosto dela.
+Dialogue: 0,0:15:51.84,0:15:56.03,Pensamento,,0000,0000,0000,,Então talvez seja melhor continuarmos como estamos.
+Dialogue: 0,0:15:56.03,0:15:59.82,Pensamento,,0000,0000,0000,,Se eu me confessar, isso pode destruir nossa relação.
+Dialogue: 0,0:16:00.87,0:16:03.46,Pensamento,,0000,0000,0000,,Eu ficaria feliz se ficássemos assim para sempre.
+Dialogue: 0,0:16:12.70,0:16:15.51,Pensamento,,0000,0000,0000,,Eu ficaria feliz se ficássemos assim para sempre.
+Dialogue: 0,0:16:19.36,0:16:20.25,Default,,0000,0000,0000,,Eu...
+Dialogue: 0,0:16:21.83,0:16:23.60,Default,,0000,0000,0000,,Asahina, eu gosto de você.
+Dialogue: 0,0:16:33.89,0:16:35.46,Default,,0000,0000,0000,,O que você está dizendo?
+Dialogue: 0,0:16:35.46,0:16:38.23,Default,,0000,0000,0000,,Você achou que eu ia ficar surpresa com essa brincadeira?
+Dialogue: 0,0:16:39.16,0:16:40.81,Default,,0000,0000,0000,,Você é bem ingênuo.
+Dialogue: 0,0:16:40.81,0:16:42.53,Default,,0000,0000,0000,,Não, eu...
+Dialogue: 0,0:16:42.53,0:16:45.00,Pensamento,,0000,0000,0000,,Isso não é bom, o que estou dizendo?
+Dialogue: 0,0:16:46.60,0:16:48.00,Pensamento,,0000,0000,0000,,Se eu parar agora, isso vai parecer apenas uma brincadeira.
+Dialogue: 0,0:16:49.36,0:16:52.00,Pensamento,,0000,0000,0000,,Se isso for brincadeira, talvez nós continuemos como estávamos.
+Dialogue: 0,0:16:53.17,0:16:54.70,Default,,0000,0000,0000,,Eu não estou brincando!
+Dialogue: 0,0:16:54.70,0:16:56.50,Default,,0000,0000,0000,,{\fad(0,300)}Eu gosto de você desde que a encontrei!
+Dialogue: 0,0:16:57.34,0:16:59.40,Default,,0000,0000,0000,,Desde a primeira vez que a vi!
+Dialogue: 0,0:16:59.40,0:17:00.70,Default,,0000,0000,0000,,Desde então...
+Dialogue: 0,0:17:03.28,0:17:04.90,Default,,0000,0000,0000,,Por favor, saia comigo.
+Dialogue: 0,0:17:04.90,0:17:08.76,Default,,0000,0000,0000,,I-Isso foi repentino para mim.
+Dialogue: 0,0:17:09.52,0:17:12.25,Default,,0000,0000,0000,,Nós só nos conhecemos por um curto período de tempo.
+Dialogue: 0,0:17:12.25,0:17:14.36,Default,,0000,0000,0000,,I-Isso não importa!
+Dialogue: 0,0:17:19.18,0:17:22.01,Default,,0000,0000,0000,,Você está... falando sério?
+Dialogue: 0,0:17:52.37,0:17:53.36,Default,,0000,0000,0000,,Desculpe.
+Dialogue: 0,0:17:56.74,0:17:58.98,Default,,0000,0000,0000,,V-Você está certa.
+Dialogue: 0,0:17:58.98,0:18:00.99,Default,,0000,0000,0000,,N-Não, tudo bem.
+Dialogue: 0,0:18:00.99,0:18:02.70,Default,,0000,0000,0000,,É que eu precisava dizer isso.
+Dialogue: 0,0:18:04.15,0:18:05.43,Default,,0000,0000,0000,,Me desculpe.
+Dialogue: 0,0:18:12.93,0:18:15.12,Default,,0000,0000,0000,,Vamos indo então.
+Dialogue: 0,0:18:15.12,0:18:16.51,Default,,0000,0000,0000,,O desfile já está acabando.
+Dialogue: 0,0:18:17.55,0:18:19.91,Default,,0000,0000,0000,,Deixa que eu seguro essa sacola.
+Dialogue: 0,0:18:20.74,0:18:22.70,Default,,0000,0000,0000,,Tudo bem, ela não está pesada.
+Dialogue: 0,0:18:22.70,0:18:25.07,Default,,0000,0000,0000,,Não, eu não me sentiria bem...
+Dialogue: 0,0:18:25.98,0:18:27.68,Default,,0000,0000,0000,,E-Eu... entendo...
+Dialogue: 0,0:18:47.44,0:18:48.50,Default,,0000,0000,0000,,Até mais, então...
+Dialogue: 0,0:18:49.46,0:18:50.43,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:18:57.66,0:18:59.76,Default,,0000,0000,0000,,"Até mais" é?
+Dialogue: 0,0:19:00.72,0:19:01.98,Default,,0000,0000,0000,,Bem-vindo!
+Dialogue: 0,0:19:01.98,0:19:03.20,Default,,0000,0000,0000,,Eu estou comendo suas batatas.
+Dialogue: 0,0:19:06.33,0:19:07.75,Default,,0000,0000,0000,,A porta não estava fechada?
+Dialogue: 0,0:19:07.75,0:19:08.89,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:19:09.73,0:19:12.32,Default,,0000,0000,0000,,Você assinou um jornal?
+Dialogue: 0,0:19:13.15,0:19:13.97,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:19:14.99,0:19:17.92,Default,,0000,0000,0000,,Acho que você só lê a programação da televisão e as colunas dos esportes.
+Dialogue: 0,0:19:17.92,0:19:19.36,Default,,0000,0000,0000,,Que desperdício.
+Dialogue: 0,0:19:19.36,0:19:20.34,Default,,0000,0000,0000,,Cale a boca.
+Dialogue: 0,0:19:23.80,0:19:27.59,Default,,0000,0000,0000,,Hoje eu fui ao parque com a Asahina.
+Dialogue: 0,0:19:27.59,0:19:28.83,Default,,0000,0000,0000,,E então?
+Dialogue: 0,0:19:28.83,0:19:30.71,Default,,0000,0000,0000,,Ela perguntou se eu queria acompanhá-la,
+Dialogue: 0,0:19:30.71,0:19:32.75,Default,,0000,0000,0000,,mas como você acha que ela falou?
+Dialogue: 0,0:19:33.84,0:19:34.40,Default,,0000,0000,0000,,Não sei.
+Dialogue: 0,0:19:35.20,0:19:37.90,Default,,0000,0000,0000,,"Eu posso ir com você se você quiser".
+Dialogue: 0,0:19:39.14,0:19:40.64,Default,,0000,0000,0000,,Ela não foi muito sincera, não é?
+Dialogue: 0,0:19:40.64,0:19:42.91,Default,,0000,0000,0000,,Afinal ela também queria ir.
+Dialogue: 0,0:19:43.32,0:19:44.84,Default,,0000,0000,0000,,Então quando chegamos lá,
+Dialogue: 0,0:19:44.84,0:19:47.84,Default,,0000,0000,0000,,ela começou a se queixar da chuva e do fato de que não haveria o desfile.
+Dialogue: 0,0:19:47.84,0:19:50.11,Default,,0000,0000,0000,,A culpa não foi minha de ter chovido.
+Dialogue: 0,0:19:53.49,0:19:58.52,Default,,0000,0000,0000,,E então ela disse que viria para casa depois de andar na montanha-russa.
+Dialogue: 0,0:19:58.52,0:20:01.13,Default,,0000,0000,0000,,Foi como se ela dissesse, "Qual o motivo de ter vindo aqui?"
+Dialogue: 0,0:20:01.13,0:20:04.53,Default,,0000,0000,0000,,Mas eu pensei, "Fazer o que...".
+Dialogue: 0,0:20:06.37,0:20:09.33,Default,,0000,0000,0000,,Então repentinamente ela falou "Vamos logo para o próximo brinquedo".
+Dialogue: 0,0:20:09.33,0:20:11.63,Default,,0000,0000,0000,,Eu realmente não a entendo.
+Dialogue: 0,0:20:14.25,0:20:16.89,Default,,0000,0000,0000,,Depois ela me arrastou por todo lugar,
+Dialogue: 0,0:20:16.89,0:20:18.76,Default,,0000,0000,0000,,e fui forçado a carregar as compras dela...
+Dialogue: 0,0:20:18.76,0:20:21.09,Default,,0000,0000,0000,,Então a chuva parou, e ela disse que iríamos ver o desfile.
+Dialogue: 0,0:20:22.00,0:20:24.60,Default,,0000,0000,0000,,O que há de bom nesses desfiles?
+Dialogue: 0,0:20:25.31,0:20:27.28,Default,,0000,0000,0000,,Isso é apenas um desperdício de eletricidade.
+Dialogue: 0,0:20:27.71,0:20:29.02,Default,,0000,0000,0000,,É ridículo!
+Dialogue: 0,0:20:31.55,0:20:33.77,Default,,0000,0000,0000,,Ela disse que era bonito.
+Dialogue: 0,0:20:38.47,0:20:41.54,Default,,0000,0000,0000,,Então vou indo para casa.
+Dialogue: 0,0:20:43.64,0:20:44.97,Default,,0000,0000,0000,,Ah é.
+Dialogue: 0,0:20:44.97,0:20:47.28,Default,,0000,0000,0000,,Eu ganhei isso na estação.
+Dialogue: 0,0:20:49.23,0:20:50.21,Default,,0000,0000,0000,,Pegue.
+Dialogue: 0,0:20:51.68,0:20:52.97,Default,,0000,0000,0000,,Então até mais.
+Dialogue: 0,0:20:52.97,0:20:54.61,Default,,0000,0000,0000,,Feche a porta para mim.
+Dialogue: 0,0:21:05.84,0:21:08.50,Default,,0000,0000,0000,,Eu não preciso disso.
+Dialogue: 0,0:21:15.72,0:21:17.60,Default,,0000,0000,0000,,Eu não preciso disso, seu idiota!
+Dialogue: 0,0:21:24.25,0:21:26.31,Default,,0000,0000,0000,,Bem, esforce-se.
+Dialogue: 0,0:21:27.78,0:21:30.06,Default,,0000,0000,0000,,{\pos(300,230)\frz3\1c&H000000&\shad0\bord0\fnTimes New Roman\fs22}Asahina Suzuka
+Dialogue: 0,0:21:30.47,0:21:33.26,Default,,0000,0000,0000,,Não, isso é uma montanha russa!
+Dialogue: 0,0:21:41.89,0:21:43.57,Default,,0000,0000,0000,,Não está parando!
+Dialogue: 0,0:21:44.74,0:21:47.49,Pensamento,,0000,0000,0000,,Por que esse choro?
+Dialogue: 0,0:21:49.92,0:21:51.96,Pensamento,,0000,0000,0000,,Isso é estranho...
+Dialogue: 0,0:23:25.30,0:23:28.00,Preview,,0000,0000,0000,,O quê? Você vai entrar para a equipe de Atletismo?
+Dialogue: 0,0:23:28.00,0:23:32.72,Preview,,0000,0000,0000,,Sim, eu vou entrar, com isso terei mais chances com a Asahina.
+Dialogue: 0,0:23:32.72,0:23:35.44,Preview,,0000,0000,0000,,Quero ficar perto dela o máximo de tempo possível.
+Dialogue: 0,0:23:35.44,0:23:39.61,Preview,,0000,0000,0000,,Ficar com ela? Isso é um pouco diferente, não é?
+Dialogue: 0,0:23:36.64,0:23:39.94,Default,,0000,0000,0000,,{\pos(538,40)\fnAd Hoc\bord0.1\shad2}Preview
+Dialogue: 0,0:23:36.64,0:23:39.94,Default,,0000,0000,0000,,{\pos(320,210)\fnAd Hoc\4c&HFFFFFF&\bord0.1\shad1.7\1c&H0000D0&}Decisão
+Dialogue: 0,0:23:54.95,0:25:05.00,Default,,0000,0000,0000,,{\pos(210,390)\fnAd Hoc\4c&HFFFFFF&\bord0.1\1c&HC00000&\shad1.7}Não perca o próximo episódio
+Dialogue: 0,0:23:54.95,0:25:10.00,Default,,0000,0000,0000,,{\fad(0,0)\pos(478,433)\bord0\shad1\fnComic Sans MS\b1\i1\fs14}Okaeri\NFansubs
+Dialogue: 0,0:00:10.00,0:00:15.00,Default,,0000,0000,0000,,

@@ -1,0 +1,358 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Amigo,32,&H00F7F2EE,&H00FFC1FF,&H01FF6F6F,&H00A27C57,-1,0,0,0,100,100,0,0,1,2,0,2,20,20,15,0
+Style: xicara,20th Century Font,30,&H0000007D,&H00FFE6FF,&H0000007D,&H00A27C57,-1,0,0,0,100,100,0,0,1,0.8,0,1,20,20,15,0
+Style: Título,Abscissa,63,&H00C0C0C0,&H00000000,&H00606060,&H02E8E8FF,0,-1,0,0,100,100,0,0,1,1.5,1.5,2,20,20,30,0
+Style: Notas,Folks-Bold,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,0,8,20,20,30,0
+Style: New Style,Arial,14,&H00000000,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,30,0
+Style: Mesc,20th Century Font,36,&H00000000,&H00000000,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0.5,2,20,20,30,0
+Style: proximo,Arial,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: chute,21 Kilobyte Salute,30,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: placa,Verdana,30,&H00A8FFFF,&H00CEB0B7,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1,1,2,20,20,30,0
+Style: placa 2,Arena Condensed,16,&H00FFFFFF,&H00000000,&H000000A0,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,30,0
+Style: baka red,@Dotum,21,&H002626D9,&H007070FF,&H007070FF,&H007070FF,-1,0,0,0,100,100,0,0,1,0.5,1.5,2,20,20,30,0
+Style: baka pink,@Dotum,21,&H00C583E9,&H00FFB7FF,&H00FFB7FF,&H00FFB7FF,-1,0,0,0,100,100,0,0,1,0.5,1.5,2,20,20,30,0
+Style: baka black,@Dotum,21,&H00000000,&H00909090,&H00909090,&H00909090,-1,0,0,0,100,100,0,0,1,0.5,1.5,2,20,20,30,0
+Style: baka yellow,@Dotum,21,&H0003B1FC,&H00C0FFFF,&H00C0FFFF,&H00C0FFFF,-1,0,0,0,100,100,0,0,1,0.5,1.5,2,20,20,30,0
+Style: baka blue,@Dotum,21,&H006C2427,&H00F08C13,&H00F08C13,&H00F08C13,-1,0,0,0,100,100,0,0,1,0.5,1.5,2,20,20,30,0
+Style: carta,Arial,30,&H00000000,&H00FFFFFF,&H000053A6,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0.2,0.1,2,20,20,30,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:30.94,0:01:35.08,Título,,0000,0000,0000,,{\pos(310,320)\b1\i1\2c&H000000&\1a&HFF&}As aparências enganam
+Dialogue: 0,0:01:39.86,0:01:43.25,Default,,0000,0000,0000,,Onde será que foi o Negi-aniki?
+Dialogue: 0,0:01:43.87,0:01:45.81,Default,,0000,0000,0000,,Será que ele foi embora?
+Dialogue: 0,0:01:46.30,0:01:47.60,Default,,0000,0000,0000,,Isso é impossível.
+Dialogue: 0,0:01:48.21,0:01:50.60,Default,,0000,0000,0000,,Ele não tem para onde ir.
+Dialogue: 0,0:01:58.42,0:02:00.41,Default,,0000,0000,0000,,É como ela disse.
+Dialogue: 0,0:02:02.66,0:02:03.70,Default,,0000,0000,0000,,Evangeline!
+Dialogue: 0,0:02:06.53,0:02:08.53,Default,,0000,0000,0000,,O que você fez com Negi?
+Dialogue: 0,0:02:09.19,0:02:10.21,Default,,0000,0000,0000,,Não fui eu.
+Dialogue: 0,0:02:10.79,0:02:13.08,Default,,0000,0000,0000,,Ele foi por conta própria.
+Dialogue: 0,0:02:13.08,0:02:13.58,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:02:14.16,0:02:16.35,Default,,0000,0000,0000,,Não se preocupe, Kagurazaka Asuna.
+Dialogue: 0,0:02:16.87,0:02:20.70,Default,,0000,0000,0000,,Até a próxima lua cheia, eu serei só uma humana.
+Dialogue: 0,0:02:21.91,0:02:25.34,Default,,0000,0000,0000,,Mesmo que eu o capture, não poderei sugar seu sangue.
+Dialogue: 0,0:02:28.89,0:02:32.59,Default,,0000,0000,0000,,Até mais, tenho trabalho a fazer.
+Dialogue: 0,0:02:36.51,0:02:37.60,Default,,0000,0000,0000,,Trabalho?
+Dialogue: 0,0:02:44.41,0:02:48.61,Default,,0000,0000,0000,,Mas nunca imaginei que iria encontrar Nagase-san num lugar como esses.
+Dialogue: 0,0:02:48.61,0:02:52.76,Default,,0000,0000,0000,,Nos fins de semana, eu costumo vir treinar aqui.
+Dialogue: 0,0:02:53.14,0:02:54.00,Default,,0000,0000,0000,,Treinar?
+Dialogue: 0,0:02:54.28,0:02:55.35,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:02:55.79,0:02:59.03,Default,,0000,0000,0000,,Mas não posso falar que tipo de treino que é.
+Dialogue: 0,0:02:59.03,0:02:59.75,Default,,0000,0000,0000,,Nin-nin.
+Dialogue: 0,0:03:00.35,0:03:04.49,Default,,0000,0000,0000,,Nin-nin... isso não seria treino de ninja?
+Dialogue: 0,0:03:05.46,0:03:09.07,Default,,0000,0000,0000,,E o que você veio fazer nesse lugar, Negi-pirralho?
+Dialogue: 0,0:03:09.07,0:03:11.13,Default,,0000,0000,0000,,Ah... hum...
+Dialogue: 0,0:03:13.42,0:03:16.42,Default,,0000,0000,0000,,Se não quer dizer, tudo bem.
+Dialogue: 0,0:03:16.42,0:03:18.13,Default,,0000,0000,0000,,Não... é que...
+Dialogue: 0,0:03:25.21,0:03:29.20,Default,,0000,0000,0000,,Negi-pirralho, que tal treinar um pouco comigo?
+Dialogue: 0,0:03:31.99,0:03:34.89,Default,,0000,0000,0000,,As regras aqui é conseguir seus próprios alimentos.
+Dialogue: 0,0:03:34.89,0:03:36.87,Default,,0000,0000,0000,,Que tal pescar?
+Dialogue: 0,0:03:38.58,0:03:39.35,Default,,0000,0000,0000,,Ah... sim.
+Dialogue: 0,0:03:43.21,0:03:44.39,Default,,0000,0000,0000,,Olhe! Ali!
+Dialogue: 0,0:03:45.07,0:03:46.00,Default,,0000,0000,0000,,Ah...está ali.
+Dialogue: 0,0:03:48.70,0:03:53.81,Default,,0000,0000,0000,,Esse peixe é muito cauteloso, qualquer barulho ele foge rapidamente.
+Dialogue: 0,0:03:54.20,0:03:56.66,Default,,0000,0000,0000,,É? Então como vamos pegar?
+Dialogue: 0,0:03:56.66,0:03:58.21,Default,,0000,0000,0000,,Com isso.
+Dialogue: 0,0:04:05.34,0:04:06.50,Default,,0000,0000,0000,,Olhe, 3 de uma vez.
+Dialogue: 0,0:04:06.50,0:04:08.66,Default,,0000,0000,0000,,Nossa! Incrível!
+Dialogue: 0,0:04:09.52,0:04:11.44,Default,,0000,0000,0000,,Tente agora.
+Dialogue: 0,0:04:11.44,0:04:12.78,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:04:26.52,0:04:28.45,Default,,0000,0000,0000,,Não é assim.
+Dialogue: 0,0:04:29.00,0:04:31.13,Default,,0000,0000,0000,,Olhe, é assim.
+Dialogue: 0,0:04:31.13,0:04:32.59,Default,,0000,0000,0000,,Eu não consigo!
+Dialogue: 0,0:04:35.04,0:04:37.10,Default,,0000,0000,0000,,Agora vamos colher vegetais da montanha.
+Dialogue: 0,0:04:37.40,0:04:41.86,Default,,0000,0000,0000,,Agora sim, os vegetais não se movem, então até eu posso pegar.
+Dialogue: 0,0:04:42.64,0:04:47.49,Default,,0000,0000,0000,,Se multiplicar em 16, a colheita será 16 vezes mais rápida.
+Dialogue: 0,0:04:53.29,0:04:55.76,Default,,0000,0000,0000,,Não tem nenhum anuncio sobre crianças perdidas.
+Dialogue: 0,0:04:55.76,0:04:59.45,Default,,0000,0000,0000,,Se for para ter um lugar onde o Aniki vá é...
+Dialogue: 0,0:05:00.10,0:05:00.80,Default,,0000,0000,0000,,Ei.
+Dialogue: 0,0:05:00.80,0:05:01.43,Default,,0000,0000,0000,,Hum?
+Dialogue: 0,0:05:02.14,0:05:05.84,Default,,0000,0000,0000,,Será que não tem um jeito do Negi ganhar daquelas duas?
+Dialogue: 0,0:05:05.84,0:05:06.34,Default,,0000,0000,0000,,Ah?
+Dialogue: 0,0:05:06.84,0:05:11.13,Default,,0000,0000,0000,,Se tiver um jeito de ganhar delas, o Negi voltará.
+Dialogue: 0,0:05:11.13,0:05:13.30,Default,,0000,0000,0000,,Tem sim, um jeito muito especial de ganhar deles.
+Dialogue: 0,0:05:13.30,0:05:14.22,Default,,0000,0000,0000,,Verdade?
+Dialogue: 0,0:05:14.55,0:05:20.02,Default,,0000,0000,0000,,É fácil, é só a Anee-san fazer o \Ncontrato de pactio com o Negi...
+Dialogue: 0,0:05:20.02,0:05:23.38,Default,,0000,0000,0000,,E derrotar um inimigo de uma vez.
+Dialogue: 0,0:05:24.55,0:05:26.11,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:05:26.11,0:05:29.18,Default,,0000,0000,0000,,Tenho certeza, vai funcionar.
+Dialogue: 0,0:05:30.74,0:05:35.06,Default,,0000,0000,0000,,Parece jogar sujo, mas se não tiver outra escolha...
+Dialogue: 0,0:05:35.06,0:05:36.24,Default,,0000,0000,0000,,Não é?
+Dialogue: 0,0:05:36.24,0:05:39.74,Default,,0000,0000,0000,,Então logo que Negi voltar, beije-o.
+Dialogue: 0,0:05:39.74,0:05:43.44,Default,,0000,0000,0000,,Hum... É...?! Pactio precisa beijar?
+Dialogue: 0,0:05:43.44,0:05:45.46,Default,,0000,0000,0000,,É só um beijo.
+Dialogue: 0,0:05:45.98,0:05:48.49,Default,,0000,0000,0000,,... é só um beijo...
+Dialogue: 0,0:05:49.43,0:05:55.38,Default,,0000,0000,0000,,Não me diga Anee-san, que mesmo \Nestando na 8ª série você nunca beijou?
+Dialogue: 0,0:05:57.31,0:05:58.75,Default,,0000,0000,0000,,Ah...desculpe, acertei?
+Dialogue: 0,0:05:58.75,0:06:02.48,Default,,0000,0000,0000,,Desse jeito, mesmo sendo por causa do pactio, você vai ficar envergonhada, não?
+Dialogue: 0,0:06:05.49,0:06:07.28,Default,,0000,0000,0000,,O-o que está dizendo?
+Dialogue: 0,0:06:07.28,0:06:13.74,Default,,0000,0000,0000,,S-se for só beijo tudo bem, mas por que eu tenho que ser a parceira?
+Dialogue: 0,0:06:13.75,0:06:19.49,Default,,0000,0000,0000,,Mas só você sabe que Negi-aniki é um mago.
+Dialogue: 0,0:06:24.89,0:06:26.28,Default,,0000,0000,0000,,Está saboroso!
+Dialogue: 0,0:06:26.28,0:06:27.34,Default,,0000,0000,0000,,Sim, sim.
+Dialogue: 0,0:06:28.44,0:06:31.76,Default,,0000,0000,0000,,Realmente é impressionante, Nagase-san.
+Dialogue: 0,0:06:31.76,0:06:33.95,Default,,0000,0000,0000,,Se ela fosse minha parceira...
+Dialogue: 0,0:06:34.17,0:06:39.31,Default,,0000,0000,0000,,Ah, idiota, mesmo falando ser parceira, só vou precisar dela para lutar.
+Dialogue: 0,0:06:39.31,0:06:44.31,Default,,0000,0000,0000,,Eu como professor dela não posso fazer isso...
+Dialogue: 0,0:06:53.44,0:06:56.62,Default,,0000,0000,0000,,Ei, Negi-pirralho, vamos.
+Dialogue: 0,0:06:57.63,0:07:01.53,Default,,0000,0000,0000,,O treino da tarde é procurar ingredientes para a janta.
+Dialogue: 0,0:07:02.37,0:07:05.48,Default,,0000,0000,0000,,Eh?! Vamos procurar comida de novo?
+Dialogue: 0,0:07:05.48,0:07:08.79,Default,,0000,0000,0000,,Treinar na montanha é procurar alimentos. Vamos.
+Dialogue: 0,0:07:08.79,0:07:09.67,Default,,0000,0000,0000,,Nin-nin.
+Dialogue: 0,0:07:09.67,0:07:11.04,Default,,0000,0000,0000,,Ah, Nagase-san!
+Dialogue: 0,0:07:11.48,0:07:13.98,Default,,0000,0000,0000,,Se ficar enrolando, o dia vai escurecer.
+Dialogue: 0,0:07:13.98,0:07:16.05,Default,,0000,0000,0000,,E-Espere, por favor!
+Dialogue: 0,0:07:19.89,0:07:22.08,Default,,0000,0000,0000,,A-Até... onde nós vamos?
+Dialogue: 0,0:07:22.54,0:07:26.00,Default,,0000,0000,0000,,Os vegetais do topo são mais gostosos.
+Dialogue: 0,0:07:29.18,0:07:31.03,Default,,0000,0000,0000,,U-U-U-Urso!
+Dialogue: 0,0:07:31.03,0:07:31.95,Default,,0000,0000,0000,,Isso, isso.
+Dialogue: 0,0:07:32.50,0:07:34.34,Default,,0000,0000,0000,,Olhe, foi para o seu lado.
+Dialogue: 0,0:07:34.65,0:07:36.46,Default,,0000,0000,0000,,Mesmo assim não...
+Dialogue: 0,0:07:39.98,0:07:42.18,Default,,0000,0000,0000,,Está tudo bem, Negi-pirralho?
+Dialogue: 0,0:07:45.37,0:07:46.37,Default,,0000,0000,0000,,Olhe onde ele está...
+Dialogue: 0,0:07:47.31,0:07:49.18,Default,,0000,0000,0000,,Até que é grande.
+Dialogue: 0,0:07:49.67,0:07:51.96,Default,,0000,0000,0000,,É mesmo.
+Dialogue: 0,0:07:55.65,0:07:59.19,Default,,0000,0000,0000,,Ah, estou cansado! Estou suado e sujo de lama.
+Dialogue: 0,0:07:59.19,0:08:01.05,Default,,0000,0000,0000,,Vamos tomar banho?
+Dialogue: 0,0:08:01.05,0:08:03.10,Default,,0000,0000,0000,,Hum? Num lugar como esse?
+Dialogue: 0,0:08:03.10,0:08:04.37,Default,,0000,0000,0000,,Sim, sim.
+Dialogue: 0,0:08:09.54,0:08:13.00,Default,,0000,0000,0000,,Ah, é uma banheira né?
+Dialogue: 0,0:08:13.00,0:08:13.88,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:08:13.88,0:08:16.13,Default,,0000,0000,0000,,Se chama banheira de lata.
+Dialogue: 0,0:08:18.59,0:08:19.82,Default,,0000,0000,0000,,Como é bom.
+Dialogue: 0,0:08:20.63,0:08:24.67,Default,,0000,0000,0000,,Na verdade eu não gosto muito de banheira, mas esse eu adorei.
+Dialogue: 0,0:08:25.46,0:08:28.45,Default,,0000,0000,0000,,Que bom, parece que você está melhor.
+Dialogue: 0,0:08:29.93,0:08:33.57,Default,,0000,0000,0000,,Negi-pirralho, é o meu importante professor.
+Dialogue: 0,0:08:33.57,0:08:35.34,Default,,0000,0000,0000,,Estava preocupada com você.
+Dialogue: 0,0:08:37.83,0:08:41.79,Default,,0000,0000,0000,,É verdade, eu sou o professor da sala 2-A...
+Dialogue: 0,0:08:41.79,0:08:43.18,Default,,0000,0000,0000,,Sou professor...
+Dialogue: 0,0:08:46.85,0:08:49.94,Default,,0000,0000,0000,,Pois então, eu também vou entrar.
+Dialogue: 0,0:08:54.69,0:08:57.82,Default,,0000,0000,0000,,Ah, n-não... e-eu saio então...
+Dialogue: 0,0:08:57.83,0:08:59.97,Default,,0000,0000,0000,,Vai, vai...
+Dialogue: 0,0:08:59.97,0:09:02.44,Default,,0000,0000,0000,,N-não Nagase-san, aqui é apertado...
+Dialogue: 0,0:09:02.44,0:09:05.32,Default,,0000,0000,0000,,Tudo bem.
+Dialogue: 0,0:09:10.92,0:09:13.87,Default,,0000,0000,0000,,A água está boa, não está? Negi-pirralho?
+Dialogue: 0,0:09:13.87,0:09:15.38,Default,,0000,0000,0000,,S-Sim...
+Dialogue: 0,0:09:23.57,0:09:25.48,Default,,0000,0000,0000,,Mas é impressionante.
+Dialogue: 0,0:09:25.48,0:09:27.62,Default,,0000,0000,0000,,Nagase-san ainda está na 8ª série.
+Dialogue: 0,0:09:28.51,0:09:30.59,Default,,0000,0000,0000,,Os meus peitos?
+Dialogue: 0,0:09:31.05,0:09:33.21,Default,,0000,0000,0000,,N-não é isso.
+Dialogue: 0,0:09:33.21,0:09:38.37,Default,,0000,0000,0000,,Ainda só tem 14 e é tão calma e eficiente.
+Dialogue: 0,0:09:38.97,0:09:39.88,Default,,0000,0000,0000,,Admiro isso.
+Dialogue: 0,0:09:39.88,0:09:46.21,Default,,0000,0000,0000,,Se for falar disso, você, Negi-pirralho, \Ntambém tem só 10 anos e é um professor.
+Dialogue: 0,0:09:47.15,0:09:50.15,Default,,0000,0000,0000,,Não, eu não sou nada...
+Dialogue: 0,0:09:50.78,0:09:53.58,Default,,0000,0000,0000,,Hoje também fugi de lá...
+Dialogue: 0,0:09:54.41,0:09:55.75,Default,,0000,0000,0000,,Negi-pirralho.
+Dialogue: 0,0:09:56.98,0:10:02.67,Default,,0000,0000,0000,,Negi-pirralho só tem 10 anos, \Nmesmo que erre isso, é normal.
+Dialogue: 0,0:10:04.07,0:10:07.15,Default,,0000,0000,0000,,Algumas vezes fugir é normal.
+Dialogue: 0,0:10:07.15,0:10:09.02,Default,,0000,0000,0000,,M-mas...
+Dialogue: 0,0:10:09.85,0:10:11.71,Default,,0000,0000,0000,,Não se preocupe...
+Dialogue: 0,0:10:14.65,0:10:20.32,Default,,0000,0000,0000,,Quando se sentir assim de novo, venha para cá.
+Dialogue: 0,0:10:22.48,0:10:23.37,Default,,0000,0000,0000,,Nagase-san...
+Dialogue: 0,0:10:58.75,0:11:00.57,Default,,0000,0000,0000,,Achei! Meu cajado mágico!
+Dialogue: 0,0:11:01.35,0:11:02.79,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,1440,\K49,\fscx280,\fscy350,(\fscx100,\fscy100)}Mea Virga.
+Dialogue: 0,0:11:20.71,0:11:22.83,Default,,0000,0000,0000,,Obrigado, meu cajado mágico.
+Dialogue: 0,0:11:34.58,0:11:35.25,Default,,0000,0000,0000,,Certo...
+Dialogue: 0,0:11:36.06,0:11:37.73,Default,,0000,0000,0000,,Obrigado, Nagase-san.
+Dialogue: 0,0:10:41.48,0:10:44.59,carta,,0000,0000,0000,,{\move(180,220,320,210[0,3110])\frz-32}Muito obrigado, pela
+Dialogue: 0,0:10:41.48,0:10:44.59,carta,,0000,0000,0000,,{\move(160,310,290,300[0,3110])\frz-32}comida e pelo banho
+Dialogue: 0,0:10:41.48,0:10:44.59,carta,,0000,0000,0000,,{\move(150,385,295,385[0,3110])\frz-32}Negi
+Dialogue: 0,0:11:46.70,0:11:47.82,Default,,0000,0000,0000,,Você vai né...
+Dialogue: 0,0:11:50.41,0:11:53.56,Default,,0000,0000,0000,,Existem magos de verdade, né?
+Dialogue: 0,0:11:53.56,0:11:56.33,Default,,0000,0000,0000,,Certo que não posso falar muito dos outros.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:00.97,0:12:11.01,Default,,0000,0000,0000,,{\3c&HD2E8E0&}{\pos(200,470)\fnGlue\fs40\b1\i1\1c&HA3BE96&}#Okaeri@irc.rizon.net
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:12:14.78,0:12:17.79,Default,,0000,0000,0000,,Meus pés estão cansados.
+Dialogue: 0,0:12:17.79,0:12:19.89,Default,,0000,0000,0000,,Aniki não está em nenhum lugar.
+Dialogue: 0,0:12:20.45,0:12:24.57,Default,,0000,0000,0000,,Essa criança, só me deixa preocupada.
+Dialogue: 0,0:12:24.57,0:12:30.01,Default,,0000,0000,0000,,Volte logo Aniki agora que Anee-san decidiu.
+Dialogue: 0,0:12:30.01,0:12:31.10,Default,,0000,0000,0000,,Asuna-san.
+Dialogue: 0,0:12:31.10,0:12:32.27,Default,,0000,0000,0000,,Que foi?
+Dialogue: 0,0:12:35.75,0:12:36.49,Default,,0000,0000,0000,,Negi!
+Dialogue: 0,0:12:36.49,0:12:37.96,Default,,0000,0000,0000,,Aniki.
+Dialogue: 0,0:12:37.96,0:12:40.32,Default,,0000,0000,0000,,Estou de volta, Asuna-san, Kamo-kun.
+Dialogue: 0,0:12:40.32,0:12:42.25,Default,,0000,0000,0000,,Aonde você estava até agora?
+Dialogue: 0,0:12:42.25,0:12:44.49,Default,,0000,0000,0000,,Você sabe o quanto nos preocupou?
+Dialogue: 0,0:12:44.49,0:12:46.63,Default,,0000,0000,0000,,Você não pode confiar em mim?
+Dialogue: 0,0:12:47.05,0:12:48.82,Default,,0000,0000,0000,,Desculpe, Asuna-san.
+Dialogue: 0,0:12:49.39,0:12:52.05,Default,,0000,0000,0000,,Mas, agora está tudo bem. Eu decidi.
+Dialogue: 0,0:12:52.90,0:12:54.30,Default,,0000,0000,0000,,Decidiu?
+Dialogue: 0,0:12:54.30,0:12:55.88,Default,,0000,0000,0000,,Por acaso? Aniki!
+Dialogue: 0,0:12:57.26,0:12:59.99,Default,,0000,0000,0000,,Não vou mais fugir sem lutar.
+Dialogue: 0,0:13:01.38,0:13:02.58,Default,,0000,0000,0000,,Negi...
+Dialogue: 0,0:13:02.58,0:13:05.53,Default,,0000,0000,0000,,Está certo! Assim que é meu Aniki.
+Dialogue: 0,0:13:05.53,0:13:07.16,Default,,0000,0000,0000,,Anee-san, por favor.
+Dialogue: 0,0:13:07.16,0:13:08.36,Default,,0000,0000,0000,,Ah?... Certo.
+Dialogue: 0,0:13:10.20,0:13:12.14,Default,,0000,0000,0000,,HUm? Kamo-kun?
+Dialogue: 0,0:13:18.30,0:13:20.51,Default,,0000,0000,0000,,Ufa... Pronto!
+Dialogue: 0,0:13:24.16,0:13:26.63,Default,,0000,0000,0000,,I-isso... É o pactio.
+Dialogue: 0,0:13:27.15,0:13:28.92,Default,,0000,0000,0000,,Fique feliz, Aniki!
+Dialogue: 0,0:13:28.92,0:13:31.45,Default,,0000,0000,0000,,Anee-san disse que aceita ser sua parceira.
+Dialogue: 0,0:13:32.58,0:13:34.67,Default,,0000,0000,0000,,É só uma vez, tudo bem?
+Dialogue: 0,0:13:34.67,0:13:37.14,Default,,0000,0000,0000,,Estou fazendo isso porque me pediram.
+Dialogue: 0,0:13:37.15,0:13:40.56,Default,,0000,0000,0000,,Mas não posso envolver Asuna-san em perigo.
+Dialogue: 0,0:13:40.56,0:13:44.29,Default,,0000,0000,0000,,É que quando eu chutei a Evangeline tive problemas.
+Dialogue: 0,0:13:44.29,0:13:47.48,Default,,0000,0000,0000,,E apesar de tudo isso é a vingança da Honya-chan e Makie.
+Dialogue: 0,0:13:47.48,0:13:49.82,Default,,0000,0000,0000,,Mas eu sou professor de vocês.
+Dialogue: 0,0:13:49.82,0:13:52.15,Default,,0000,0000,0000,,E eu sou uma aluna.
+Dialogue: 0,0:13:53.78,0:13:57.52,Default,,0000,0000,0000,,Certo, certo, então negócio fechado.
+Dialogue: 0,0:13:57.52,0:14:00.91,Default,,0000,0000,0000,,{\fnBoomerang\c&H00E8ED78\shad3\fs40}{\t(0,3390,\K26,\fscx350,\fscy350,(\fscx100,\fscy100)\fs50}Pactio!
+Dialogue: 0,0:14:11.33,0:14:13.28,Default,,0000,0000,0000,,O que é essa luz?
+Dialogue: 0,0:14:13.28,0:14:14.74,Default,,0000,0000,0000,,Me sinto bem...
+Dialogue: 0,0:14:21.95,0:14:23.48,Default,,0000,0000,0000,,Vamos lá.
+Dialogue: 0,0:14:23.48,0:14:25.00,Default,,0000,0000,0000,,Ah.. Sim.
+Dialogue: 0,0:14:28.69,0:14:34.10,Default,,0000,0000,0000,,Ah... Falando nisso, isso é um beijo com a Asuna-san.
+Dialogue: 0,0:14:37.59,0:14:41.09,Default,,0000,0000,0000,,Anee-san, na testa não vale.
+Dialogue: 0,0:14:41.09,0:14:42.95,Default,,0000,0000,0000,,Não interessa onde seja, né?
+Dialogue: 0,0:14:43.85,0:14:45.46,Default,,0000,0000,0000,,Testa...
+Dialogue: 0,0:14:45.65,0:14:50.21,Default,,0000,0000,0000,,Ah. De qualquer forma, pactio feito, Kagurazaka Asuna!
+Dialogue: 0,0:14:58.79,0:15:01.57,Default,,0000,0000,0000,,O "hacking" está indo bem?
+Dialogue: 0,0:15:01.57,0:15:05.64,Default,,0000,0000,0000,,Sim, mas se o Negi-sensei não voltar.
+Dialogue: 0,0:15:05.64,0:15:11.09,Default,,0000,0000,0000,,Essa manhã, alguém ultrapassou minha barreira e entrou nessa escola.
+Dialogue: 0,0:15:11.09,0:15:12.79,Default,,0000,0000,0000,,É o Negi-sensei?
+Dialogue: 0,0:15:12.79,0:15:16.49,Default,,0000,0000,0000,,Eu sabia que ele ia voltar, se ele for o filho dele.
+Dialogue: 0,0:15:16.87,0:15:18.46,Default,,0000,0000,0000,,Ei, Eva.
+Dialogue: 0,0:15:19.74,0:15:21.21,Default,,0000,0000,0000,,É o Takamichi.
+Dialogue: 0,0:15:21.21,0:15:22.55,Default,,0000,0000,0000,,Que foi?
+Dialogue: 0,0:15:22.55,0:15:24.43,Default,,0000,0000,0000,,Se for o trabalho, eu estou fazendo.
+Dialogue: 0,0:15:24.43,0:15:26.05,Default,,0000,0000,0000,,O diretor está chamando.
+Dialogue: 0,0:15:26.65,0:15:28.35,Default,,0000,0000,0000,,Avisou para ir sozinha.
+Dialogue: 0,0:15:28.35,0:15:32.42,Default,,0000,0000,0000,,Entendi, volto logo. Vá para casa antes.
+Dialogue: 0,0:15:32.42,0:15:33.67,Default,,0000,0000,0000,,Sim, mestra.
+Dialogue: 0,0:15:37.65,0:15:40.13,Default,,0000,0000,0000,,Cuidado, mestra.
+Dialogue: 0,0:15:41.82,0:15:43.02,Default,,0000,0000,0000,,Maido!!
+Dialogue: 0,0:15:41.82,0:15:43.52,Notas,,0000,0000,0000,,Nota: Maido é um agradecimento por ter comprado algo.
+Dialogue: 0,0:15:56.86,0:15:59.60,Default,,0000,0000,0000,,Meu balão...
+Dialogue: 0,0:16:09.29,0:16:11.63,Default,,0000,0000,0000,,Eba! Onee-chan, obrigada.
+Dialogue: 0,0:16:12.53,0:16:14.04,Default,,0000,0000,0000,,O que... É isso?
+Dialogue: 0,0:16:16.03,0:16:19.43,Default,,0000,0000,0000,,Falando nisso como é a Chachamaru-san?
+Dialogue: 0,0:16:19.43,0:16:23.15,Default,,0000,0000,0000,,Err... Quase nunca falei com ela.
+Dialogue: 0,0:16:23.15,0:16:24.70,Default,,0000,0000,0000,,Mas aquilo é um robô.
+Dialogue: 0,0:16:24.70,0:16:28.22,Default,,0000,0000,0000,,O Japão é impressionante, robôs vão a escola.
+Dialogue: 0,0:16:28.59,0:16:32.35,Default,,0000,0000,0000,,Quê? Chachamaru-san não é humana?
+Dialogue: 0,0:16:32.35,0:16:35.07,Default,,0000,0000,0000,,Nossa! Olhando dá para perceber!!
+Dialogue: 0,0:16:35.07,0:16:38.98,Default,,0000,0000,0000,,Mas eu não me dou muito bem com máquinas...
+Dialogue: 0,0:16:38.98,0:16:41.37,Default,,0000,0000,0000,,Eu pensei que era um brinco diferente.
+Dialogue: 0,0:16:41.37,0:16:43.71,Default,,0000,0000,0000,,Na verdade, eu também.
+Dialogue: 0,0:16:43.71,0:16:45.45,Default,,0000,0000,0000,,Não, esse não é o problema.
+Dialogue: 0,0:16:45.99,0:16:47.51,Default,,0000,0000,0000,,Olhe, é a Chachamaru.
+Dialogue: 0,0:16:47.51,0:16:49.03,Default,,0000,0000,0000,,É a Chachamaru.
+Dialogue: 0,0:16:49.03,0:16:50.28,Default,,0000,0000,0000,,Chachamaru.
+Dialogue: 0,0:16:52.54,0:16:55.95,Default,,0000,0000,0000,,Oba, Chachamaru está fazendo uma boa ação de novo!
+Dialogue: 0,0:16:55.95,0:16:57.78,Default,,0000,0000,0000,,Só podia ser a Chachamaru...
+Dialogue: 0,0:16:57.78,0:17:00.80,Default,,0000,0000,0000,,Obrigada por sempre me ajudar, Chachamaru-san.
+Dialogue: 0,0:17:03.66,0:17:04.71,Default,,0000,0000,0000,,Olhe!
+Dialogue: 0,0:17:04.71,0:17:05.71,Default,,0000,0000,0000,,E agora, o que vamos fazer?
+Dialogue: 0,0:17:05.71,0:17:06.86,Default,,0000,0000,0000,,Vamos telefonar para a polícia.
+Dialogue: 0,0:17:06.86,0:17:07.71,Default,,0000,0000,0000,,Vamos salvá-lo.
+Dialogue: 0,0:17:10.48,0:17:11.95,Default,,0000,0000,0000,,Ah, a Chachamaru-san de novo.
+Dialogue: 0,0:17:11.95,0:17:13.50,Default,,0000,0000,0000,,É ela como sempre.
+Dialogue: 0,0:17:16.17,0:17:20.17,Default,,0000,0000,0000,,Ela é uma pessoa boa, ainda por cima é famosa na cidade.
+Dialogue: 0,0:17:20.17,0:17:22.04,Default,,0000,0000,0000,,Está certa Chachamaru-san.
+Dialogue: 0,0:17:22.04,0:17:24.78,Default,,0000,0000,0000,,Isso pode ser um modo de disfarçar.
+Dialogue: 0,0:17:39.84,0:17:41.55,Default,,0000,0000,0000,,Aonde ela vai?
+Dialogue: 0,0:18:23.78,0:18:25.37,Default,,0000,0000,0000,,Ela é uma boa pessoa.
+Dialogue: 0,0:18:25.37,0:18:26.91,Default,,0000,0000,0000,,Esperem ai!
+Dialogue: 0,0:18:26.91,0:18:29.30,Default,,0000,0000,0000,,Aniki está sendo perseguido por ela.
+Dialogue: 0,0:18:29.31,0:18:32.18,Default,,0000,0000,0000,,Isso é verdade... mas...
+Dialogue: 0,0:18:32.18,0:18:33.41,Default,,0000,0000,0000,,Mas...
+Dialogue: 0,0:18:34.46,0:18:36.05,Default,,0000,0000,0000,,Ei, Chachamaru!
+Dialogue: 0,0:18:36.86,0:18:39.10,Default,,0000,0000,0000,,Eu sei que você é má.
+Dialogue: 0,0:18:39.10,0:18:40.35,Default,,0000,0000,0000,,Agora o Negi-aniki vai te...
+Dialogue: 0,0:18:40.35,0:18:41.60,Default,,0000,0000,0000,,Ei, Kamo-kun.
+Dialogue: 0,0:18:42.48,0:18:46.18,Default,,0000,0000,0000,,Boa tarde, Negi-sensei e Kagurazaka Asuna-san.
+Dialogue: 0,0:18:48.06,0:18:49.23,Default,,0000,0000,0000,,Me distraí.
+Dialogue: 0,0:18:50.18,0:18:51.83,Default,,0000,0000,0000,,Mas eu serei sua oponente.
+Dialogue: 0,0:18:52.70,0:18:57.18,Default,,0000,0000,0000,,Chachamaru-san, por favor pare de me perseguir.
+Dialogue: 0,0:18:57.65,0:19:00.16,Default,,0000,0000,0000,,Sinto muito, Negi-sensei.
+Dialogue: 0,0:19:00.16,0:19:03.95,Default,,0000,0000,0000,,Para mim as ordens da mestra são únicas.
+Dialogue: 0,0:19:05.42,0:19:08.40,Default,,0000,0000,0000,,Pode ser do jeito que fizemos aquela hora?
+Dialogue: 0,0:19:09.91,0:19:12.23,Default,,0000,0000,0000,,Eu também não quero isso.
+Dialogue: 0,0:19:12.23,0:19:14.82,Default,,0000,0000,0000,,Se pensar em Makie e na Honya-chan.
+Dialogue: 0,0:19:16.03,0:19:18.40,Default,,0000,0000,0000,,Aniki, a oponente é uma robô.
+Dialogue: 0,0:19:18.40,0:19:20.23,Default,,0000,0000,0000,,Não tenha dó dela.
+Dialogue: 0,0:19:24.94,0:19:26.09,Default,,0000,0000,0000,,Vamos lá.
+Dialogue: 0,0:19:26.09,0:19:27.42,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,1330,\K49,\fscx280,\fscy350,(\fscx100,\fscy100)}Sis mea pulse!
+Dialogue: 0,0:19:27.42,0:19:29.64,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,2220,\K49,\fscx280,\fscy350,(\fscx100,\fscy100)}Per dekim secundus!
+Dialogue: 0,0:19:29.64,0:19:32.95,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,3310,\K49,\fscx180,\fscy250,(\fscx100,\fscy100)}Minister Negi, Kagurazaka Asuna.
+Dialogue: 0,0:19:37.28,0:19:39.81,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,2530,\K49,\fscx280,\fscy350,(\fscx100,\fscy100)}Ras tel ma scir magister.
+Dialogue: 0,0:19:43.30,0:19:44.45,Default,,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:19:44.45,0:19:46.51,Default,,0000,0000,0000,,Meu corpo está leve como uma pena.
+Dialogue: 0,0:19:46.51,0:19:48.99,Default,,0000,0000,0000,,Esse é o efeito de pactio?
+Dialogue: 0,0:19:56.00,0:19:58.81,Default,,0000,0000,0000,,Que rápido, nem parece iniciante.
+Dialogue: 0,0:20:01.54,0:20:03.91,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,2370,\K49,\fscx280,\fscy350,(\fscx100,\fscy100)}Undecim spiritus lacis!
+Dialogue: 0,0:20:03.91,0:20:06.97,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,3060,\K49,\fscx220,\fscy300,(\fscx100,\fscy100)}Coeuntes sagittent inimicum!
+Dialogue: 0,0:20:06.97,0:20:09.40,Default,,0000,0000,0000,,{\fnZone23_explosions\c&H00DE0A14\shad3}{\t(0,2430,\K49,\fscx220,\fscy300,(\fscx100,\fscy100)}Sagitta magica! Serius lucis!
+Dialogue: 0,0:20:13.55,0:20:16.47,Default,,0000,0000,0000,,Magia direcionada, várias se aproximam.
+Dialogue: 0,0:20:16.47,0:20:18.83,Default,,0000,0000,0000,,Impossível desviar, impossível desviar...
+Dialogue: 0,0:20:19.47,0:20:21.74,Default,,0000,0000,0000,,Conseguimos!
+Dialogue: 0,0:20:22.37,0:20:24.33,Default,,0000,0000,0000,,Desculpe, mestra.
+Dialogue: 0,0:20:24.33,0:20:27.03,Default,,0000,0000,0000,,Se eu não puder me mexer mais...
+Dialogue: 0,0:20:27.86,0:20:29.28,Default,,0000,0000,0000,,... Cuide dos gatos.
+Dialogue: 0,0:20:30.99,0:20:34.59,Default,,0000,0000,0000,,As minhas alunas não são só Miyazaki-san e Makie-san.
+Dialogue: 0,0:20:34.59,0:20:35.88,Default,,0000,0000,0000,,Chachamaru-san também.
+Dialogue: 0,0:20:36.68,0:20:39.39,Default,,0000,0000,0000,,Não posso fazer isso! Volte!
+Dialogue: 0,0:20:45.97,0:20:47.16,Default,,0000,0000,0000,,Ne-Negi!
+Dialogue: 0,0:20:47.16,0:20:48.65,Default,,0000,0000,0000,,A-Aniki!
+Dialogue: 0,0:20:51.48,0:20:54.33,Default,,0000,0000,0000,,Negi, você está bem?
+Dialogue: 0,0:20:54.33,0:20:57.84,Default,,0000,0000,0000,,Aniki, porque voltou atrás?
+Dialogue: 0,0:21:02.31,0:21:04.81,Default,,0000,0000,0000,,Ah... ela fugiu.
+Dialogue: 0,0:21:04.81,0:21:07.21,Default,,0000,0000,0000,,Aniki, era a nossa chance.
+Dialogue: 0,0:21:07.75,0:21:12.99,Default,,0000,0000,0000,,Chachamaru-san é minha aluna, e não posso ferí-la.
+Dialogue: 0,0:21:12.99,0:21:15.72,Default,,0000,0000,0000,,Mesmo assim, por que você tinha que se machucar?
+Dialogue: 0,0:21:19.62,0:21:20.75,Default,,0000,0000,0000,,Negi-sensei...
+Dialogue: 0,0:21:21.60,0:21:23.76,Default,,0000,0000,0000,,Negi Springfield...
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,MUSICA ENDING
+Dialogue: 0,0:22:57.06,0:22:58.08,Default,,0000,0000,0000,,{\an1}Você escutou, Yuna? 
+Dialogue: 0,0:22:58.09,0:23:00.01,Default,,0000,0000,0000,,{\an1}O time de basquete\N perdeu de novo?
+Dialogue: 0,0:23:00.01,0:23:00.75,Default,,0000,0000,0000,,{\an1}Deixe-me sozinha!
+Dialogue: 0,0:23:00.75,0:23:02.10,Default,,0000,0000,0000,,{\an1}O time de futebol\N de Ako vai ser forte.
+Dialogue: 0,0:23:02.10,0:23:05.42,Default,,0000,0000,0000,,{\an1}Você deveria colocar pessoas\N fortes, como os estrangeiros.
+Dialogue: 0,0:23:05.42,0:23:06.78,Default,,0000,0000,0000,,{\an1}Mesmo que você diga isso,\N aonde eu vou encontrar?
+Dialogue: 0,0:23:06.78,0:23:08.64,Default,,0000,0000,0000,,{\an1}Na nosssa classe, \NKu Fei e a Chao.
+Dialogue: 0,0:23:08.64,0:23:09.45,Default,,0000,0000,0000,,{\an1}Elas são muito fortes.
+Dialogue: 0,0:23:09.45,0:23:10.40,Default,,0000,0000,0000,,{\an1}Sério?
+Dialogue: 0,0:23:10.40,0:23:11.61,Default,,0000,0000,0000,,{\an1}O ataque não pode ser\N enganado pelos olhos.
+Dialogue: 0,0:23:11.61,0:23:12.08,Default,,0000,0000,0000,,{\an1}E a defesa?
+Dialogue: 0,0:23:12.08,0:23:13.62,Default,,0000,0000,0000,,{\an1}É fácil obter 10!
+Dialogue: 0,0:23:13.62,0:23:14.93,Default,,0000,0000,0000,,{\an1}Eu quero recrutá-las!
+Dialogue: 0,0:23:14.93,0:23:15.38,Default,,0000,0000,0000,,{\an1}Não é mesmo?
+Dialogue: 0,0:23:15.38,0:23:17.24,Default,,0000,0000,0000,,{\an1}Ambas são habilidosas\N no kenpo!
+Dialogue: 0,0:23:17.24,0:23:19.57,Default,,0000,0000,0000,,{\an1}Derrotam qualquer \Noponente com um golpe.
+Dialogue: 0,0:23:19.57,0:23:21.30,Default,,0000,0000,0000,,{\an1}Com isso seremos invencíveis!
+Dialogue: 0,0:23:21.30,0:23:23.07,Default,,0000,0000,0000,,{\an1}É isso aí!
+Dialogue: 0,0:22:55.05,0:23:25.02,proximo,,0000,0000,0000,,{\pos(135,35)\1c&HFFFFFF&\fnAkbar\b1\fs25}Próximo Episódio
+Dialogue: 0,0:22:55.05,0:23:25.02,proximo,,0000,0000,0000,,{\pos(480,475)\1c&HFFFFFF&\fnAkbar\b1\fs45}Período VIII
+Dialogue: 0,0:23:25.04,0:23:29.91,proximo,,0000,0000,0000,,{\pos(290,465)\fnComic Sans MS\1c&HFFFFFF&\3c&HA27C57&\fs40}Espere o próximo episódio!!

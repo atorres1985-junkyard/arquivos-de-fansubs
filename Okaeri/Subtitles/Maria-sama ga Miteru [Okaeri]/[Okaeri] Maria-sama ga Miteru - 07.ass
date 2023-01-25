@@ -1,0 +1,419 @@
+[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,28,&H00FFFFFF,&H00000000,&H001D749E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,30,0
+Style: weyt,Arial,20,&H00FFFFFF,&H00000000,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,20,20,30,0
+Style: teste,Arial,20,&H0000FFFF,&H00000000,&H000000FF,&H001D749E,0,0,0,0,100,100,0,0,1,0.5,0.5,2,20,20,30,0
+Style: placa,Arial,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0.5,2,20,20,30,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.67,0:00:02.86,Default,,0000,0000,0000,,Dia dos Namorados?
+Dialogue: 0,0:00:03.48,0:00:04.10,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:00:05.25,0:00:07.55,Default,,0000,0000,0000,,Já está nesta época do ano?
+Dialogue: 0,0:00:12.28,0:00:15.83,Default,,0000,0000,0000,,Eu me pergunto se a mente humana é tão determinada que não pensam sobre isso...
+Dialogue: 0,0:00:16.87,0:00:18.40,Default,,0000,0000,0000,,elas não querem lembrar?
+Dialogue: 0,0:00:18.71,0:00:19.45,Default,,0000,0000,0000,,Por que?
+Dialogue: 0,0:00:19.77,0:00:21.65,Default,,0000,0000,0000,,Você não dá chocolates para Rei-sama?
+Dialogue: 0,0:00:21.76,0:00:25.17,Default,,0000,0000,0000,,Eu dou todos os anos. Mas...
+Dialogue: 0,0:00:25.88,0:00:31.00,Default,,0000,0000,0000,,o que eu deveria dar no lugar dos chocolates que ficam maiores a cada ano?
+Dialogue: 0,0:00:32.03,0:00:34.42,Default,,0000,0000,0000,,Você ganha um presente de Rei-sama todo ano?
+Dialogue: 0,0:00:35.49,0:00:39.30,Default,,0000,0000,0000,,Em contraste a sua aparência, Rei-sama é muito feminina no seu interior.
+Dialogue: 0,0:00:39.74,0:00:48.99,Default,,0000,0000,0000,,Agora eu estou saudável, então eu não poderei dar apenas chocolates comprados em loja.
+Dialogue: 0,0:00:49.51,0:00:51.15,Default,,0000,0000,0000,,Por que chocolate tem que ter forma?
+Dialogue: 0,0:00:51.57,0:00:54.97,Default,,0000,0000,0000,,Estaria certo você dar a ela algo mais. Talvez algo feito em casa...
+Dialogue: 0,0:01:00.70,0:01:05.42,Default,,0000,0000,0000,,Tudo que está mantendo Yoshino-san quente agora foi feito por Rei-sama.
+Dialogue: 0,0:01:06.90,0:01:08.92,Default,,0000,0000,0000,,Sinto muito, eu não posso ajudá-la..
+Dialogue: 0,0:01:10.24,0:01:11.91,Default,,0000,0000,0000,,dando chocolates a Sachiko-sama.
+Dialogue: 0,0:01:13.99,0:01:17.08,Default,,0000,0000,0000,,É meu primeiro Dia dos Namorados com Sachiko-sama!
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:01:20.87,0:01:23.32,Default,,0000,0000,0000,,As donzelas que entram no jardim de Virgem Maria...
+Dialogue: 0,0:01:23.49,0:01:25.69,Default,,0000,0000,0000,,tem um sorriso tão angelical que...
+Dialogue: 0,0:01:25.87,0:01:28.27,Default,,0000,0000,0000,,a ignorância passa por lá e vai embora.
+Dialogue: 0,0:01:28.82,0:01:32.95,Default,,0000,0000,0000,,Seus corpos e mentes estão envolvidos pelos uniformes de cor escura.
+Dialogue: 0,0:01:33.68,0:01:35.95,Default,,0000,0000,0000,,As pregas em suas saias não devem ser visíveis.
+Dialogue: 0,0:01:36.35,0:01:39.47,Default,,0000,0000,0000,,Seus lenços brancos devem estar sempre arrumados.
+Dialogue: 0,0:01:39.54,0:01:42.74,Default,,0000,0000,0000,,Andar devagar por aqui é o mais adequado.
+Dialogue: 0,0:01:43.42,0:01:45.24,Default,,0000,0000,0000,,Colégio Feminino Lillian
+Dialogue: 0,0:01:46.00,0:01:48.23,Default,,0000,0000,0000,,é um jardim para donzelas.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:01:57.24,0:02:02.47,Default,,0000,0000,0000,,{\fad(1000,1000)\4c&HFFFFFF&\3c&H0000A0&\2c&H0000A0&\4a&HC8&}Trazido até você por:\N#Okaeri @ irc.drynet.org{\4c&H000000&\3c&H000000&\2c&H000000&\4a&H00&}
+Dialogue: 0,0:02:04.24,0:02:10.00,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Encode:\NHeero
+Dialogue: 0,0:02:10.76,0:02:17.13,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Raw: Dragon_Ash
+Dialogue: 0,0:02:18.10,0:02:25.05,Default,,0000,0000,0000,,{\fad(1000,1000)\be1\an4}Tradução: \NCris
+Dialogue: 0,0:02:35.21,0:02:40.31,Default,,0000,0000,0000,,{\fad(1000,1000)\an6}Revisão: \NHeero
+Dialogue: 0,0:02:40.68,0:02:46.32,Default,,0000,0000,0000,,{\fad(1000,1000)\be1\an4}Timer: \NBlack-Dragoon
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Virgem Maria está olhando você
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:03:20.34,0:03:24.38,Default,,0000,0000,0000,,{\pos(315,330}Os Chocolates Inesperados - parte I
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:03:28.33,0:03:29.70,Default,,0000,0000,0000,,Dia dos Namorados?
+Dialogue: 0,0:03:29.98,0:03:31.92,Default,,0000,0000,0000,,Você conhece, não é Shimako-san?
+Dialogue: 0,0:03:32.54,0:03:33.89,Default,,0000,0000,0000,,Não seja tola, Yumi-san!
+Dialogue: 0,0:03:34.16,0:03:36.78,Default,,0000,0000,0000,,É claro que eu conheço o Dia dos Namorados.
+Dialogue: 0,0:03:37.52,0:03:40.41,Default,,0000,0000,0000,,Dia dos Namorados, 14 de Fevereiro.
+Dialogue: 0,0:03:37.50,0:03:40.41,weyt,,0000,0000,0000,,{\an8}Nota: Valentine´s Day (Dia dos Namorados) no exterior é 14 de fevereiro
+Dialogue: 0,0:03:41.98,0:03:45.38,Default,,0000,0000,0000,,É um feriado para um Santo Italiano que foi um mártir.
+Dialogue: 0,0:03:45.86,0:03:48.55,Default,,0000,0000,0000,,Não tem nada a ver com o chocolate, mas...
+Dialogue: 0,0:03:48.82,0:03:51.51,Default,,0000,0000,0000,,Então você não dará chocolates para Rosa Gigantea?
+Dialogue: 0,0:03:52.37,0:03:54.92,Default,,0000,0000,0000,,É seu primeiro Dia dos Namorados com ela, não é?
+Dialogue: 0,0:03:55.41,0:03:57.16,Default,,0000,0000,0000,,Eu nem havia pensado sobre isso.
+Dialogue: 0,0:03:57.49,0:03:58.63,Default,,0000,0000,0000,,E-Eu entendo.
+Dialogue: 0,0:03:59.30,0:04:01.48,Default,,0000,0000,0000,,Desculpe, eu não fui capaz de ajudar.
+Dialogue: 0,0:04:02.50,0:04:05.10,Default,,0000,0000,0000,,Não há sentido me perguntar sobre isso.
+Dialogue: 0,0:04:05.53,0:04:08.65,Default,,0000,0000,0000,,Infelizmente, eu não tenho petite souer nem Onee-sama.
+Dialogue: 0,0:04:09.04,0:04:12.95,Default,,0000,0000,0000,,Eu me pergunto se o Dia dos Namorados é um evento mais difícil que eu pensei?
+Dialogue: 0,0:04:13.75,0:04:16.62,Default,,0000,0000,0000,,Eu não posso contar com \NYoshino-san ou Shimako-san.
+Dialogue: 0,0:04:17.23,0:04:18.77,Default,,0000,0000,0000,,Para quem mais eu posso perguntar?
+Dialogue: 0,0:04:19.35,0:04:21.23,Default,,0000,0000,0000,,Por que tem que ser para alguém do primeiro ano?
+Dialogue: 0,0:04:22.38,0:04:26.72,Default,,0000,0000,0000,,Tanto o segundo ano, quanto o terceiro ano atravessaram a experiência de estar no primeiro ano.
+Dialogue: 0,0:04:29.97,0:04:32.08,Default,,0000,0000,0000,,As alunas do terceiro ano estão muito ocupadas estudando para os exames de admissão.
+Dialogue: 0,0:04:32.20,0:04:33.25,Default,,0000,0000,0000,,Isso deve funcionar!
+Dialogue: 0,0:04:34.56,0:04:36.32,Default,,0000,0000,0000,,Se eu dei chocolates para minha Onee-sama?
+Dialogue: 0,0:04:37.50,0:04:39.43,Default,,0000,0000,0000,,Eu dei alguns, ano passado... por que?
+Dialogue: 0,0:04:39.65,0:04:43.80,Default,,0000,0000,0000,,Ah, eu apenas quis saber para futuras referências.
+Dialogue: 0,0:04:44.29,0:04:47.73,Default,,0000,0000,0000,,Eu dei à ela algo modesto, trufas de chocolate amargo.
+Dialogue: 0,0:04:48.44,0:04:49.77,Default,,0000,0000,0000,,Eu anotarei a receita para você.
+Dialogue: 0,0:04:50.11,0:04:51.30,Default,,0000,0000,0000,,T-Trufas...
+Dialogue: 0,0:04:52.05,0:04:54.07,Default,,0000,0000,0000,,Não soa como um conselho que eu serei capaz de usar...
+Dialogue: 0,0:04:54.97,0:04:56.24,Default,,0000,0000,0000,,Eu não me orgulho disso,
+Dialogue: 0,0:04:56.33,0:05:00.43,Default,,0000,0000,0000,,mas em relação a fazer doces, o que eu tenho mais feito é preparar sonhos.
+Dialogue: 0,0:05:01.27,0:05:02.53,Default,,0000,0000,0000,,Será difícil...
+Dialogue: 0,0:05:04.27,0:05:06.65,teste,,0000,0000,0000,,{\frz14}{\move(280,130,800,-50[500,3400]}{\t(0,1849,\frz4)}Onde estão os chocolates das boutons!?
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,"Caçada ao tesouro".
+Dialogue: 0,0:05:06.92,0:05:10.03,Default,,0000,0000,0000,,"Onde estão os chocolates das boutons?"
+Dialogue: 0,0:05:10.62,0:05:11.74,Default,,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:05:12.35,0:05:14.33,Default,,0000,0000,0000,,É o Jornal do Clube sobre o Projeto do Dia dos Namorados.
+Dialogue: 0,0:05:14.78,0:05:18.28,Default,,0000,0000,0000,,Os boutons esconderão alguns chocolates caseiros em algum lugar no terreno da escola.
+Dialogue: 0,0:05:19.28,0:05:20.17,Default,,0000,0000,0000,,Parece divertido!
+Dialogue: 0,0:05:23.01,0:05:23.93,Default,,0000,0000,0000,,Desculpem-me!
+Dialogue: 0,0:05:25.23,0:05:25.75,Default,,0000,0000,0000,,Yumi,
+Dialogue: 0,0:05:26.53,0:05:29.47,Default,,0000,0000,0000,,para as coisas não se tornarem mais tumultuadas, por favor, fique quieta.
+Dialogue: 0,0:05:30.83,0:05:31.55,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:05:36.22,0:05:38.88,Default,,0000,0000,0000,,Eu sei que atravessamos muitos problemas, mas eu não posso participar disso.
+Dialogue: 0,0:05:39.15,0:05:40.88,Default,,0000,0000,0000,,Não! Por favor!
+Dialogue: 0,0:05:41.11,0:05:43.40,Default,,0000,0000,0000,,Eu quero melhorar a imagem do Jornal do Clube.
+Dialogue: 0,0:05:43.67,0:05:46.97,Default,,0000,0000,0000,,O plano será provavelmente aceito por todos os estudantes.
+Dialogue: 0,0:05:47.69,0:05:48.49,Default,,0000,0000,0000,,É impossível.
+Dialogue: 0,0:05:48.85,0:05:52.28,Default,,0000,0000,0000,,Primeiro, há o problema de deixar comida exposta por um longo período de tempo.
+Dialogue: 0,0:05:52.76,0:05:55.78,Default,,0000,0000,0000,,E como as pessoas reagirão, ao trazermos chocolates à escola?
+Dialogue: 0,0:05:56.20,0:06:00.33,Default,,0000,0000,0000,,Mas os professores permitem no Dia dos Namorados.
+Dialogue: 0,0:06:00.86,0:06:02.38,Default,,0000,0000,0000,,Dia dos Namorados, hum?
+Dialogue: 0,0:06:03.32,0:06:06.83,Default,,0000,0000,0000,,Presentes dados em reciprocidade são apenas incômodos.
+Dialogue: 0,0:06:07.67,0:06:12.57,Default,,0000,0000,0000,,Seria possível que Sachiko-sama não goste do Dia dos Namorados?
+Dialogue: 0,0:06:13.32,0:06:16.51,Default,,0000,0000,0000,,E considerando que o campus inteiro irá cheirar chocolate...
+Dialogue: 0,0:06:17.57,0:06:19.76,Default,,0000,0000,0000,,Seria possível que ela odeie chocolate?
+Dialogue: 0,0:06:20.54,0:06:24.07,Default,,0000,0000,0000,,Então se nós mudássemos o tesouro, você participaria do nosso plano?
+Dialogue: 0,0:06:24.59,0:06:26.89,Default,,0000,0000,0000,,Você pode esconder um cartão de Dia dos Namorados escrito a mão.
+Dialogue: 0,0:06:27.29,0:06:28.83,Default,,0000,0000,0000,,Cartões coloridos de vermelho, branco e amarelo.
+Dialogue: 0,0:06:29.72,0:06:34.06,Default,,0000,0000,0000,,O feriado era originalmente celebrado mandando cartões e não chocolate, não era?
+Dialogue: 0,0:06:34.78,0:06:38.03,Default,,0000,0000,0000,,E quanto ter esses cartões simbólicos e que possam ser trocados pelos prêmios?
+Dialogue: 0,0:06:38.57,0:06:39.37,Default,,0000,0000,0000,,Prêmios?
+Dialogue: 0,0:06:40.22,0:06:41.97,Default,,0000,0000,0000,,Certificados para encontro de metade do dia com os boutons.
+Dialogue: 0,0:06:42.22,0:06:43.28,Default,,0000,0000,0000,,Espere um pouco!
+Dialogue: 0,0:06:43.53,0:06:47.84,Default,,0000,0000,0000,,Se o Yamayurikai está patrocinando isso, então nós não podemos participar dele, podemos?!
+Dialogue: 0,0:06:48.07,0:06:52.04,Default,,0000,0000,0000,,O que significaria outra pessoa que não eu, teria um encontro com minha Onee-sama?
+Dialogue: 0,0:06:53.93,0:06:56.83,Default,,0000,0000,0000,,Eu sou contra, contra, DEFINITIVAMENTE CONTRA isso!
+Dialogue: 0,0:06:57.80,0:07:02.26,Default,,0000,0000,0000,,Eu acho errado comercializar um tempo individual e privado.
+Dialogue: 0,0:07:07.07,0:07:11.25,Default,,0000,0000,0000,,Então é unânime. O Yamayurikai rejeita o plano.
+Dialogue: 0,0:07:14.70,0:07:17.06,Default,,0000,0000,0000,,Com a forte negativa de Yoshino-san,
+Dialogue: 0,0:07:17.28,0:07:19.28,Default,,0000,0000,0000,,o plano foi rejeitado, mas...
+Dialogue: 0,0:07:20.03,0:07:20.96,Default,,0000,0000,0000,,No dia seguinte...
+Dialogue: 0,0:07:25.19,0:07:27.00,Default,,0000,0000,0000,,Houve uma decisão para a proposta do Jornal do Clube?
+Dialogue: 0,0:07:31.07,0:07:32.74,Default,,0000,0000,0000,,Rosa Chinensis... ,
+Dialogue: 0,0:07:34.24,0:07:35.72,Default,,0000,0000,0000,,Rosa Gigantea
+Dialogue: 0,0:07:36.55,0:07:38.24,Default,,0000,0000,0000,,e até mesmo Rosa Foetida.
+Dialogue: 0,0:07:40.12,0:07:42.94,Default,,0000,0000,0000,,Se vocês ordenarem isso, nós não temos alternativa a não ser concordarmos relutantes.
+Dialogue: 0,0:07:43.31,0:07:44.33,Default,,0000,0000,0000,,Você está sendo teimosa como sempre.
+Dialogue: 0,0:07:44.40,0:07:47.27,Default,,0000,0000,0000,,E quem foi que escolheu uma pessoa teimosa como sua souer?
+Dialogue: 0,0:07:47.55,0:07:50.10,Default,,0000,0000,0000,,Fui eu. Então eu quero que você seja um pouco mais flexível.
+Dialogue: 0,0:07:51.07,0:07:53.78,Default,,0000,0000,0000,,Eu quero que você junte-se aos estudantes.
+Dialogue: 0,0:07:54.00,0:07:54.99,Default,,0000,0000,0000,,O que há de errado com isso?
+Dialogue: 0,0:07:55.83,0:08:08.42,Default,,0000,0000,0000,,Você começou a ter essa expressão facial graciosa desde que você transformou Yumi-chan sua souer, certo?
+Dialogue: 0,0:08:13.27,0:08:16.89,Default,,0000,0000,0000,,Round Um: Sachiko-sama está nocauteada.
+Dialogue: 0,0:08:17.50,0:08:18.22,Default,,0000,0000,0000,,Rei?
+Dialogue: 0,0:08:18.86,0:08:19.50,Default,,0000,0000,0000,,Sim?
+Dialogue: 0,0:08:19.80,0:08:22.68,Default,,0000,0000,0000,,Você sabe o que eu direi, certo?
+Dialogue: 0,0:08:28.22,0:08:30.02,Default,,0000,0000,0000,,Eu colaborarei com o Jornal do Clube.
+Dialogue: 0,0:08:30.11,0:08:30.90,Default,,0000,0000,0000,,Eu sou contra isso.
+Dialogue: 0,0:08:31.20,0:08:35.10,Default,,0000,0000,0000,,Você acha que não está indo muito longe a pressionando assim, Rosa Foetida?
+Dialogue: 0,0:08:35.29,0:08:36.64,Default,,0000,0000,0000,,E você, Rei-chan?
+Dialogue: 0,0:08:36.86,0:08:38.76,Default,,0000,0000,0000,,Eu estou falando com Rei agora.
+Dialogue: 0,0:08:39.30,0:08:42.39,Default,,0000,0000,0000,,Eu não quero mais ninguém, que não esteja envolvida se intrometendo.
+Dialogue: 0,0:08:44.03,0:08:49.10,Default,,0000,0000,0000,,Não percebe que quanto mais categórica quanto a isso, mais você provoca Rosa Foetida?
+Dialogue: 0,0:08:49.43,0:08:51.82,Default,,0000,0000,0000,,Você ainda tem um longo caminho para percorrer, Yoshino-chan.
+Dialogue: 0,0:08:53.30,0:08:57.29,Default,,0000,0000,0000,,Round Dois: Rei-sama e Yoshino-san perdem a partida.
+Dialogue: 0,0:08:57.68,0:08:58.93,Default,,0000,0000,0000,,Round Três.
+Dialogue: 0,0:08:59.53,0:09:02.09,Default,,0000,0000,0000,,Isto é como é, então vamos dar nosso melhor, certo?
+Dialogue: 0,0:09:02.26,0:09:03.33,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:09:04.37,0:09:06.31,Default,,0000,0000,0000,,Sei-sama ganha por não comparecimento.
+Dialogue: 0,0:09:06.77,0:09:07.74,Default,,0000,0000,0000,,O que há de errado?
+Dialogue: 0,0:09:07.91,0:09:09.91,Default,,0000,0000,0000,,Você parece chateada, Yumi-chan.
+Dialogue: 0,0:09:10.42,0:09:11.54,Default,,0000,0000,0000,,Nada.
+Dialogue: 0,0:09:14.06,0:09:15.33,Default,,0000,0000,0000,,Elas são tão sortudas.
+Dialogue: 0,0:09:19.58,0:09:24.19,Default,,0000,0000,0000,,Se Sachiko-sama sorrisse para mim pelo menos um pouco, eu poderia me sentir aliviada.
+Dialogue: 0,0:09:25.50,0:09:27.55,Default,,0000,0000,0000,,Obrigada por concordarem com isso.
+Dialogue: 0,0:09:28.08,0:09:32.36,Default,,0000,0000,0000,,Os locais para esconder os cartões estão limitados a aqueles aos quais os estudantes têm livre acesso.
+Dialogue: 0,0:09:32.65,0:09:37.10,Default,,0000,0000,0000,,Eu também quero excluir as salas de aula e de clubes que poderiam dar a certas pessoas vantagens.
+Dialogue: 0,0:09:39.32,0:09:41.06,Default,,0000,0000,0000,,Este é o pior Dia dos Namorados.
+Dialogue: 0,0:09:43.22,0:09:47.57,Default,,0000,0000,0000,,Se eu não fosse apenas um boton petite souer, eu seria capaz de participar também.
+Dialogue: 0,0:09:48.25,0:09:53.14,Default,,0000,0000,0000,,Eu me pergunto se nós poderíamos fazer com que apenas as boutons fossem acusadas de planejar este evento.
+Dialogue: 0,0:09:54.26,0:09:57.97,Default,,0000,0000,0000,,Se nós o fizermos, todos senão os boutons podem participar na caçada do tesouro.
+Dialogue: 0,0:10:00.34,0:10:03.61,Default,,0000,0000,0000,,Eu acho que seria bom para vocês duas.
+Dialogue: 0,0:10:04.10,0:10:08.69,Default,,0000,0000,0000,,Você não quer apostar um em um milhão e tentar um encontro com sua Onee-sama?
+Dialogue: 0,0:10:09.09,0:10:10.30,Default,,0000,0000,0000,,Claro!
+Dialogue: 0,0:10:11.51,0:10:12.47,Default,,0000,0000,0000,,Eu quero!
+Dialogue: 0,0:10:12.87,0:10:14.27,Default,,0000,0000,0000,,Está bom para nós.
+Dialogue: 0,0:10:14.63,0:10:18.12,Default,,0000,0000,0000,,Se nós permitirmos que os boutons petite souers participarem, todos falarão sobre isso.
+Dialogue: 0,0:10:20.68,0:10:24.26,Default,,0000,0000,0000,,Ainda que eu pense que é para algo assim, que eu preciso da ajuda da minha petite souer.
+Dialogue: 0,0:10:24.78,0:10:29.33,Default,,0000,0000,0000,,Sachiko-sama não está pensando em ter um encontro comigo apesar de tudo.
+Dialogue: 0,0:10:29.72,0:10:32.43,Default,,0000,0000,0000,,Eu tenho um último pedido.
+Dialogue: 0,0:10:33.20,0:10:36.54,Default,,0000,0000,0000,,Eu quero que a Mansão das Rosas seja incluído nos lugares potenciais para esconder os cartões.
+Dialogue: 0,0:10:36.84,0:10:37.64,Default,,0000,0000,0000,,Onee-sama!
+Dialogue: 0,0:10:38.01,0:10:39.00,Default,,0000,0000,0000,,Por que?
+Dialogue: 0,0:10:39.72,0:10:41.86,Default,,0000,0000,0000,,Este era originalmente uma sala de Conselho Estudantil, mas...
+Dialogue: 0,0:10:42.09,0:10:44.42,Default,,0000,0000,0000,,em algum lugar ao longo do tempo, as Rosas começaram a ser encaradas como sagradas...
+Dialogue: 0,0:10:44.69,0:10:46.31,Default,,0000,0000,0000,,e todos pararam de vir aqui, certo?
+Dialogue: 0,0:10:46.80,0:10:51.87,Default,,0000,0000,0000,,Então antes de eu me formar, gostaria de ver a Mansão das Rosas cheias de estudantes.
+Dialogue: 0,0:10:52.21,0:10:54.26,Default,,0000,0000,0000,,Este é meu sonho.
+Dialogue: 0,0:10:55.47,0:10:57.12,Default,,0000,0000,0000,,Eu entendo, Onee-sama.
+Dialogue: 0,0:10:58.01,0:11:02.18,Default,,0000,0000,0000,,Para nosso último Dia dos Namorados, eu darei a você seu dia ideal como presente.
+Dialogue: 0,0:11:05.02,0:11:07.44,Default,,0000,0000,0000,,Diferente de mim, que está sempre aborrecida,
+Dialogue: 0,0:11:07.93,0:11:11.27,Default,,0000,0000,0000,,Youko-sama e Sachiko-sama têm um forte laço.
+Dialogue: 0,0:11:17.45,0:11:20.08,Default,,0000,0000,0000,,Eu definitivamente acharei a carta de Rei-chan.
+Dialogue: 0,0:11:20.44,0:11:22.21,Default,,0000,0000,0000,,Eu não tenho está confiança em mim mesma.
+Dialogue: 0,0:11:22.69,0:11:23.45,Default,,0000,0000,0000,,Por que?
+Dialogue: 0,0:11:23.76,0:11:26.59,Default,,0000,0000,0000,,Apenas por ser a petite souer dela, você tem uma vantagem.
+Dialogue: 0,0:11:27.59,0:11:32.30,Default,,0000,0000,0000,,Você sabe os passatempos e gostos dela, que poderiam ser pistas para achar o cartão dela.
+Dialogue: 0,0:11:33.44,0:11:36.93,Default,,0000,0000,0000,,E estando perto dela, você pode apanhá-la soltando uma dica.
+Dialogue: 0,0:11:37.79,0:11:40.86,Default,,0000,0000,0000,,E você pode dizer quando ela esconder isso através da atitude dela.
+Dialogue: 0,0:11:41.77,0:11:45.68,Default,,0000,0000,0000,,Eu me pergunto se a vantagem de Yoshino-san é por ela ser a petite souer de Rei-sama...
+Dialogue: 0,0:11:48.23,0:11:51.79,Default,,0000,0000,0000,,Até o Dia dos Namorados, isso irá acontecer muito, não irá?
+Dialogue: 0,0:11:52.58,0:11:55.33,Default,,0000,0000,0000,,Eu aposto que nós não seremos capazes de nos ver muito na Mansão das Rosas.
+Dialogue: 0,0:11:55.70,0:11:59.67,Default,,0000,0000,0000,,Após Sachiko-sama se tornar Rosa Chinensis, ela estará mais ocupada.
+Dialogue: 0,0:12:00.56,0:12:06.11,Default,,0000,0000,0000,,E então a distância entre eu e ela deve crescer...
+Dialogue: 0,0:12:06.38,0:12:07.80,Default,,0000,0000,0000,,Yoshino! Desculpe por fazer você esperar.
+Dialogue: 0,0:12:08.00,0:12:08.79,Default,,0000,0000,0000,,Podemos ir?
+Dialogue: 0,0:12:09.69,0:12:10.75,Default,,0000,0000,0000,,Vejo você, Yumi-chan!
+Dialogue: 0,0:12:11.17,0:12:12.25,Default,,0000,0000,0000,,Tenha um bom dia.
+Dialogue: 0,0:12:12.58,0:12:13.64,Default,,0000,0000,0000,,Tenha um bom dia.
+Dialogue: 0,0:12:16.83,0:12:17.92,Default,,0000,0000,0000,,O que há de errado?
+Dialogue: 0,0:12:20.27,0:12:21.01,Default,,0000,0000,0000,,Nada.
+Dialogue: 0,0:12:21.91,0:12:24.15,Default,,0000,0000,0000,,Eu tentarei não me tornar um fardo para Onee-sama.
+Dialogue: 0,0:12:24.38,0:12:26.27,Default,,0000,0000,0000,,Eu tentarei não aborrecê-la.
+Dialogue: 0,0:12:26.86,0:12:31.28,Default,,0000,0000,0000,,Eu me pergunto se eu fiz você se sentir solitária, por que eu estava falando com as outras boutons?
+Dialogue: 0,0:12:32.29,0:12:34.08,Default,,0000,0000,0000,,Já está ficando escuro.
+Dialogue: 0,0:12:34.51,0:12:35.75,Default,,0000,0000,0000,,Podemos ir?
+Dialogue: 0,0:12:35.95,0:12:36.79,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:12:38.28,0:12:39.53,Default,,0000,0000,0000,,Eu não pude contar a ela.
+Dialogue: 0,0:12:40.35,0:12:44.83,Default,,0000,0000,0000,,Não foi por causa da escuridão que eu me senti solitária, Onee-sama.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(Virgem Maria está olhando Você)
+Dialogue: 0,0:12:58.43,0:13:03.98,Default,,0000,0000,0000,,Yumi-san, você realmente não sabe onde os boutons podem esconder suas cartas?
+Dialogue: 0,0:13:04.49,0:13:05.03,Default,,0000,0000,0000,,Está certa.
+Dialogue: 0,0:13:05.16,0:13:06.10,Default,,0000,0000,0000,,Sem chance!
+Dialogue: 0,0:13:06.47,0:13:07.91,Default,,0000,0000,0000,,Você não pode nos dar pelo menos uma dica?
+Dialogue: 0,0:13:08.27,0:13:10.35,Default,,0000,0000,0000,,Nós somos participantes do jogo também,
+Dialogue: 0,0:13:10.56,0:13:12.48,Default,,0000,0000,0000,,então elas realmente não nos contaram nada.
+Dialogue: 0,0:13:12.79,0:13:13.51,Default,,0000,0000,0000,,Ah.
+Dialogue: 0,0:13:14.30,0:13:17.01,Default,,0000,0000,0000,,Bem, então nós vamos à biblioteca agora.
+Dialogue: 0,0:13:20.30,0:13:24.40,Default,,0000,0000,0000,,Ah, o fato de alguém naturalmente feliz como você suspirando...
+Dialogue: 0,0:13:24.89,0:13:28.45,Default,,0000,0000,0000,,significa que esta não é uma situação engraçada para você como uma petite soeur?
+Dialogue: 0,0:13:28.64,0:13:29.66,Default,,0000,0000,0000,,Você poderia dizer isso.
+Dialogue: 0,0:13:30.06,0:13:32.09,Default,,0000,0000,0000,,Yumi-san, você não está indo para a biblioteca?
+Dialogue: 0,0:13:32.60,0:13:35.94,Default,,0000,0000,0000,,Parece que todos estão olhando livros sobre chocolate durante o almoço.
+Dialogue: 0,0:13:36.18,0:13:39.04,Default,,0000,0000,0000,,Sachiko-sama parece odiar chocolate.
+Dialogue: 0,0:13:39.36,0:13:40.28,Default,,0000,0000,0000,,Você deve estar brincando!
+Dialogue: 0,0:13:40.59,0:13:43.70,Default,,0000,0000,0000,,{\an8}Nota: Bijoux de Noel significa literalmente "Jóias de Natal"
+Dialogue: 0,0:13:40.57,0:13:46.64,Default,,0000,0000,0000,,No Natal, Sachiko-sama comeu "Bijoux de Noel" que Rosa Foetida en bouton fez.
+Dialogue: 0,0:13:47.82,0:13:52.89,Default,,0000,0000,0000,,Então eu me pergunto se ela é apenas contra o costume de dar chocolates no Dia dos Namorados.
+Dialogue: 0,0:13:54.00,0:13:56.77,Default,,0000,0000,0000,,Qualquer que ele seja, o resultado para mim será o mesmo.
+Dialogue: 0,0:13:57.67,0:14:01.03,Default,,0000,0000,0000,,Você pode não ficar aguardando ansiosa para dar os chocolates do Dia dos Namorados
+Dialogue: 0,0:14:01.44,0:14:05.13,Default,,0000,0000,0000,,e a pessoa que é querida à você pode estar para se encontrar com outra pessoa.
+Dialogue: 0,0:14:05.88,0:14:07.33,Default,,0000,0000,0000,,Vocês acabaram.
+Dialogue: 0,0:14:07.73,0:14:09.73,Default,,0000,0000,0000,,Não apenas isso, não há lugares para você na Mansão das Rosas,
+Dialogue: 0,0:14:09.87,0:14:12.47,Default,,0000,0000,0000,,e o único tópico na sala de aula é o Dia dos Namorados.
+Dialogue: 0,0:14:15.06,0:14:16.63,Default,,0000,0000,0000,,Por favor, use isso, se você quiser.
+Dialogue: 0,0:14:16.79,0:14:19.49,Default,,0000,0000,0000,,A "Receita Especial de Rei-san" está passada aí.
+Dialogue: 0,0:14:20.12,0:14:21.30,Default,,0000,0000,0000,,Muito obrigada!
+Dialogue: 0,0:14:24.63,0:14:25.90,Default,,0000,0000,0000,,Que tal essa?
+Dialogue: 0,0:14:26.63,0:14:28.59,Default,,0000,0000,0000,,Rei-sama está ficando envergonhada.
+Dialogue: 0,0:14:29.09,0:14:33.70,Default,,0000,0000,0000,,Por causa de sua aparência bishounen, ela não parece ser assim,
+Dialogue: 0,0:14:34.13,0:14:36.41,Default,,0000,0000,0000,,mas ela é uma pessoa afetuosa por natureza.
+Dialogue: 0,0:14:36.72,0:14:40.50,Default,,0000,0000,0000,,Bem, não há surpresa nisso, uma vez que ela tem se dado bem com Yoshino-san por tanto tempo.
+Dialogue: 0,0:14:44.75,0:14:46.01,Default,,0000,0000,0000,,S-Sachiko-sama!
+Dialogue: 0,0:14:46.26,0:14:47.72,Default,,0000,0000,0000,,Por que você está surpresa?
+Dialogue: 0,0:14:48.35,0:14:49.57,Default,,0000,0000,0000,,Não, não é nada.
+Dialogue: 0,0:14:49.90,0:14:51.22,Default,,0000,0000,0000,,Então, por favor, com licença.
+Dialogue: 0,0:14:52.40,0:14:55.27,Default,,0000,0000,0000,,Eu estou certa que elas terão outro encontro sobre o Dia dos Namorados.
+Dialogue: 0,0:14:55.72,0:14:57.25,Default,,0000,0000,0000,,Você tem negócios para cuidar?
+Dialogue: 0,0:14:57.56,0:14:58.66,Default,,0000,0000,0000,,Sim, eu acho.
+Dialogue: 0,0:14:59.50,0:15:01.92,Default,,0000,0000,0000,,Sachiko-sama parece estar de mau humor também.
+Dialogue: 0,0:15:02.71,0:15:05.07,Default,,0000,0000,0000,,Então pare de perder tempo aqui e vá.
+Dialogue: 0,0:15:06.18,0:15:06.76,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:15:07.16,0:15:09.41,Default,,0000,0000,0000,,Sachiko, não diga isso.
+Dialogue: 0,0:15:09.86,0:15:12.62,Default,,0000,0000,0000,,Eu pedi para ela vir aqui.
+Dialogue: 0,0:15:13.06,0:15:13.84,Default,,0000,0000,0000,,Eu entendo.
+Dialogue: 0,0:15:15.63,0:15:19.31,Default,,0000,0000,0000,,Desculpe, mas você pararia na sala do Grupo do Crisantemo e daria isso para Yoshino?
+Dialogue: 0,0:15:24.91,0:15:29.67,Default,,0000,0000,0000,,Não há meio que eu possa dar chocolates para Sachiko-sama, enquanto ela estiver com tamanho mau humor, há?
+Dialogue: 0,0:15:31.67,0:15:36.52,Default,,0000,0000,0000,,Enquanto eu estava me preocupando com isso, a véspera do Dia dos Namorados chegou.
+Dialogue: 0,0:15:36.71,0:15:39.48,Default,,0000,0000,0000,,Espero que meu Dia dos Namorados seja perfeito.
+Dialogue: 0,0:15:47.38,0:15:49.54,placa,,0000,0000,0000,,{\frz-20}{\move(400,150,450,100[0,2160]}Sala de Música
+Dialogue: 0,0:15:54.86,0:15:56.01,Default,,0000,0000,0000,,Shizuka-sama!
+Dialogue: 0,0:15:56.34,0:15:59.45,Default,,0000,0000,0000,,Por favor, desculpe-me. É quase hora de seu treino de coral, não é?
+Dialogue: 0,0:15:59.59,0:16:01.88,Default,,0000,0000,0000,,Está tudo bem. Ninguém está aqui ainda.
+Dialogue: 0,0:16:03.47,0:16:05.71,Default,,0000,0000,0000,,O Dia dos Namorados é uma verdadeira provocação, não é?
+Dialogue: 0,0:16:05.89,0:16:09.25,Default,,0000,0000,0000,,Especialmente para as boutons petite soeurs, neste ano.
+Dialogue: 0,0:16:09.67,0:16:10.47,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:16:11.10,0:16:11.79,Default,,0000,0000,0000,,Posso ver isso?
+Dialogue: 0,0:16:13.13,0:16:16.57,Default,,0000,0000,0000,,Eu estou planejando dar a Rosa Gigantea chocolates.
+Dialogue: 0,0:16:18.07,0:16:20.69,Default,,0000,0000,0000,,Não é o dia que as pessoas confessam seus sentimentos aos outros?
+Dialogue: 0,0:16:21.49,0:16:24.00,Default,,0000,0000,0000,,Ela está fazendo isso ainda que saiba que Rosa Gigantea não corresponda seus sentimentos...
+Dialogue: 0,0:16:24.41,0:16:26.26,Default,,0000,0000,0000,,Ela prospera sobre a adversidade.
+Dialogue: 0,0:16:27.33,0:16:31.80,Default,,0000,0000,0000,,Rosa Gigantea é gentil, então ela não se recusará a receber chocolates de ninguém.
+Dialogue: 0,0:16:32.41,0:16:35.28,Default,,0000,0000,0000,,Mas Rosa Chinensis en bouton é diferente.
+Dialogue: 0,0:16:36.43,0:16:37.62,Default,,0000,0000,0000,,No último Dia dos Namorados,
+Dialogue: 0,0:16:38.12,0:16:41.28,Default,,0000,0000,0000,,Sachiko-san devolveu montanhas de chocolates...
+Dialogue: 0,0:16:41.41,0:16:45.02,Default,,0000,0000,0000,,e os que ela aceitou foi com um jeito desgostoso e espalhafatoso no seu rosto.
+Dialogue: 0,0:16:46.61,0:16:48.94,Default,,0000,0000,0000,,Embora eu ache que aquele é outro tipo de bondade.
+Dialogue: 0,0:16:50.01,0:16:52.81,Default,,0000,0000,0000,,Devolvendo-os é...?
+Dialogue: 0,0:16:53.88,0:16:57.43,Default,,0000,0000,0000,,Como eu pensei, acho que eu não posso dar qualquer chocolate a Sachiko-sama.
+Dialogue: 0,0:16:57.66,0:16:59.88,Default,,0000,0000,0000,,Por que não tentar apreciar isso tanto quanto possível?
+Dialogue: 0,0:17:00.82,0:17:04.48,Default,,0000,0000,0000,,Eu estou certa que suas preocupações e hesitações resultarão em uma lembrança feliz.
+Dialogue: 0,0:17:05.13,0:17:07.93,Default,,0000,0000,0000,,No último ano, eu não participei,
+Dialogue: 0,0:17:08.23,0:17:11.63,Default,,0000,0000,0000,,então este ano, eu quero criar uma memória que eu possa levar comigo para a Itália.
+Dialogue: 0,0:17:12.07,0:17:13.48,Default,,0000,0000,0000,,Então você deve fazer isso também.
+Dialogue: 0,0:17:14.46,0:17:15.67,Default,,0000,0000,0000,,Shizuka-sama.
+Dialogue: 0,0:17:16.37,0:17:18.19,Default,,0000,0000,0000,,Faça seu melhor na caçada ao tesouro, também.
+Dialogue: 0,0:17:18.41,0:17:24.27,Default,,0000,0000,0000,,Se fosse comigo, eu iria querer que a pessoa que me entendesse fizesse o melhor para achar meu cartão.
+Dialogue: 0,0:17:24.58,0:17:25.07,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:17:28.75,0:17:29.65,Default,,0000,0000,0000,,Está certo.
+Dialogue: 0,0:17:29.82,0:17:31.80,Default,,0000,0000,0000,,Eu não serei capaz de dar chocolates a ela,
+Dialogue: 0,0:17:32.01,0:17:33.60,Default,,0000,0000,0000,,mas eu farei o meu melhor no jogo.
+Dialogue: 0,0:17:33.98,0:17:36.47,Default,,0000,0000,0000,,Eu quero achar o cartão vermelho antes que qualquer outro o faça.
+Dialogue: 0,0:17:36.96,0:17:40.18,Default,,0000,0000,0000,,Como a petite souer dela, eu quero ser aquela que a entende melhor.
+Dialogue: 0,0:17:41.14,0:17:45.04,Default,,0000,0000,0000,,E então talvez ela aceite me pouco mais...
+Dialogue: 0,0:18:06.35,0:18:09.91,weyt,,0000,0000,0000,,{\an8}Nota: Uma raposa que surrupiou o castanheiro para um pescador combinar de roubar sua enguia, apenas para ser morto por ele.
+Dialogue: 0,0:18:06.27,0:18:07.65,Default,,0000,0000,0000,,Você é Gon, a raposa, ou algo assim?
+Dialogue: 0,0:18:10.03,0:18:11.37,Default,,0000,0000,0000,,Rosa Gigantea.
+Dialogue: 0,0:18:11.97,0:18:12.88,Default,,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:18:13.11,0:18:14.87,Default,,0000,0000,0000,,Sua idéia de harmonia?
+Dialogue: 0,0:18:15.59,0:18:18.27,Default,,0000,0000,0000,,Você entra sorrateiramente aqui todo dia, faz seu trabalho e parte,
+Dialogue: 0,0:18:18.35,0:18:20.52,Default,,0000,0000,0000,,então ninguém apanha uma visão de você, não é?
+Dialogue: 0,0:18:21.55,0:18:23.54,Default,,0000,0000,0000,,É difícil para mim ficar aqui por um longo período.
+Dialogue: 0,0:18:23.84,0:18:25.09,Default,,0000,0000,0000,,Bem, está certo.
+Dialogue: 0,0:18:25.66,0:18:28.00,Default,,0000,0000,0000,,Não é da minha conta dizer a você sobre isso ou aquilo.
+Dialogue: 0,0:18:28.33,0:18:31.27,Default,,0000,0000,0000,,E seria rude de minha parte jogar água fria na sua satisfação pessoal.
+Dialogue: 0,0:18:31.76,0:18:34.01,Default,,0000,0000,0000,,Eu cometi algum tipo de erro?
+Dialogue: 0,0:18:34.40,0:18:38.60,Default,,0000,0000,0000,,Para mim agora está claro que você sendo controlada por seus sentimentos,
+Dialogue: 0,0:18:39.14,0:18:40.45,Default,,0000,0000,0000,,embora eu não possa explicar isso bem.
+Dialogue: 0,0:18:41.10,0:18:42.51,Default,,0000,0000,0000,,Satisfação pessoal?
+Dialogue: 0,0:18:45.36,0:18:46.81,Default,,0000,0000,0000,,Ah, Onee-sama!
+Dialogue: 0,0:18:47.61,0:18:48.63,Default,,0000,0000,0000,,Eu passei!
+Dialogue: 0,0:18:50.76,0:18:52.11,Default,,0000,0000,0000,,Parabéns!
+Dialogue: 0,0:18:52.65,0:18:56.36,Default,,0000,0000,0000,,Eu entendo. Rosa Gigantea entrou na faculdade que era sua primeira escolha.
+Dialogue: 0,0:18:56.82,0:19:00.30,Default,,0000,0000,0000,,E ela queria contar a Shimako-san antes que qualquer pessoa.
+Dialogue: 0,0:19:00.95,0:19:02.68,Default,,0000,0000,0000,,Elas não precisam de chocolates.
+Dialogue: 0,0:19:03.00,0:19:04.39,Default,,0000,0000,0000,,As souers Rosas Brancas tem tamanho sentimento forte uma pela outra,
+Dialogue: 0,0:19:04.74,0:19:07.58,Default,,0000,0000,0000,,ainda que isso não apareça.
+Dialogue: 0,0:19:09.36,0:19:10.16,Default,,0000,0000,0000,,Ei, ei!
+Dialogue: 0,0:19:10.44,0:19:12.35,Default,,0000,0000,0000,,Não vai me cumprimentar também Gon, a Raposa?
+Dialogue: 0,0:19:12.86,0:19:13.94,Default,,0000,0000,0000,,Parabéns!
+Dialogue: 0,0:19:15.71,0:19:16.42,Default,,0000,0000,0000,,Obrigada.
+Dialogue: 0,0:19:17.58,0:19:19.26,Default,,0000,0000,0000,,Nossa, isso foi realmente um problema.
+Dialogue: 0,0:19:19.76,0:19:21.76,Default,,0000,0000,0000,,Na maior parte do tempo, eu não estava planejando ir a uma faculdade.
+Dialogue: 0,0:19:21.95,0:19:24.92,Default,,0000,0000,0000,,então eu apenas comecei a estudar para o exame no começo do ano.
+Dialogue: 0,0:19:26.17,0:19:29.05,Default,,0000,0000,0000,,Você passou apenas tendo estudado por um mês?
+Dialogue: 0,0:19:29.60,0:19:32.76,Default,,0000,0000,0000,,Eu me sinto mal por Eriko e Youko, que não sabem o resultados dos exames delas,
+Dialogue: 0,0:19:33.15,0:19:34.96,Default,,0000,0000,0000,,mas eu realmente irei me soltar e ter divertimento amanhã!
+Dialogue: 0,0:19:36.29,0:19:39.49,Default,,0000,0000,0000,,Você está participando da caçada ao tesouro, Rosa Gigantea?
+Dialogue: 0,0:19:40.25,0:19:43.42,Default,,0000,0000,0000,,Eu não poderia apenas observar algo assim interessante de fora do campo, poderia?
+Dialogue: 0,0:19:45.04,0:19:47.63,Default,,0000,0000,0000,,Você deveria gritar mais elegantemente.
+Dialogue: 0,0:19:47.73,0:19:50.89,Default,,0000,0000,0000,,Eu estive dizendo isso a você há pouco tempo, Yumi-chan.
+Dialogue: 0,0:19:50.93,0:19:53.42,Default,,0000,0000,0000,,Rosa Gigantea, por favor pare!
+Dialogue: 0,0:19:55.99,0:19:57.47,Default,,0000,0000,0000,,{\an8}Eu estou pedindo par você esperar!
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Não!
+Dialogue: 0,0:19:59.82,0:20:00.87,Default,,0000,0000,0000,,Onee-sama.
+Dialogue: 0,0:20:01.01,0:20:01.90,Default,,0000,0000,0000,,Bom dia.
+Dialogue: 0,0:20:05.92,0:20:06.81,Default,,0000,0000,0000,,O que há de errado com ela?
+Dialogue: 0,0:20:06.94,0:20:09.39,Default,,0000,0000,0000,,Seus olhos estão excepcionalmente ríspidos hoje.
+Dialogue: 0,0:20:11.29,0:20:13.12,Default,,0000,0000,0000,,Vocês parecem estar se divertindo um bocado.
+Dialogue: 0,0:20:13.94,0:20:15.88,Default,,0000,0000,0000,,Apenas agora, Rosa Gigantea...
+Dialogue: 0,0:20:16.16,0:20:19.65,Default,,0000,0000,0000,,Estar ao redor de Rosa Gigantea é divertido para você, não é?
+Dialogue: 0,0:20:21.82,0:20:22.59,Default,,0000,0000,0000,,Então...
+Dialogue: 0,0:20:22.86,0:20:26.29,Default,,0000,0000,0000,,quando você começou a me odiar tanto assim, que não quer nem ver meu rosto?
+Dialogue: 0,0:20:27.79,0:20:30.14,Default,,0000,0000,0000,,Eu... odiando Onee-sama?
+Dialogue: 0,0:20:30.36,0:20:31.72,Default,,0000,0000,0000,,Você está dizendo que isso não é verdade?
+Dialogue: 0,0:20:32.13,0:20:34.15,Default,,0000,0000,0000,,Então porque você estava me evitando?
+Dialogue: 0,0:20:34.49,0:20:36.99,Default,,0000,0000,0000,,Evitando você... Eu não estou...
+Dialogue: 0,0:20:38.59,0:20:39.65,Default,,0000,0000,0000,,Não está você me evitando?
+Dialogue: 0,0:20:40.67,0:20:43.03,Default,,0000,0000,0000,,Primeiramente, eu pensei que você estava me evitando...
+Dialogue: 0,0:20:43.14,0:20:46.94,Default,,0000,0000,0000,,porque eu sou uma bouton e você me queria manter longe do plano de atividades do Dia dos Namorados.
+Dialogue: 0,0:20:48.19,0:20:51.73,Default,,0000,0000,0000,,Mas você está conversando normalmente com Rei e Shimako.
+Dialogue: 0,0:20:52.25,0:20:53.25,Default,,0000,0000,0000,,Onee-sama!
+Dialogue: 0,0:20:53.98,0:20:57.37,Default,,0000,0000,0000,,Ainda quando você vem para a Mansão das Rosas, você parte antes que eu chegue aqui.
+Dialogue: 0,0:20:57.58,0:20:59.77,Default,,0000,0000,0000,,Quando eu chego, você parte como se estivesse fugindo de mim.
+Dialogue: 0,0:21:00.74,0:21:01.78,Default,,0000,0000,0000,,Foi assim esta manhã também.
+Dialogue: 0,0:21:02.08,0:21:02.94,Default,,0000,0000,0000,,Esta manhã?
+Dialogue: 0,0:21:03.31,0:21:04.56,Default,,0000,0000,0000,,Em frente de Virgem Maria
+Dialogue: 0,0:21:04.72,0:21:06.78,Default,,0000,0000,0000,,você partiu como se você estivesse me evitando.
+Dialogue: 0,0:21:07.92,0:21:10.07,Default,,0000,0000,0000,,Eu vi Sachiko-sama esta manhã?
+Dialogue: 0,0:21:10.79,0:21:13.00,Default,,0000,0000,0000,,E eu não estou tentando evitá-la.
+Dialogue: 0,0:21:13.30,0:21:14.04,Default,,0000,0000,0000,,O que há de errado?
+Dialogue: 0,0:21:14.33,0:21:16.41,Default,,0000,0000,0000,,Se você tem algo a dizer, então apareça e diga isso!
+Dialogue: 0,0:21:17.47,0:21:20.66,Default,,0000,0000,0000,,Eu não queria entrar no caminho de Onee-sama...
+Dialogue: 0,0:21:21.46,0:21:23.90,Default,,0000,0000,0000,,Então eu fazia a limpeza e saia.
+Dialogue: 0,0:21:24.71,0:21:25.48,Default,,0000,0000,0000,,Mas...
+Dialogue: 0,0:21:25.72,0:21:29.99,Default,,0000,0000,0000,,Como Rosa Gigantea disse, era apenas satisfação pessoal?
+Dialogue: 0,0:21:30.88,0:21:32.12,Default,,0000,0000,0000,,Por que você não está dizendo nada?
+Dialogue: 0,0:21:32.39,0:21:36.22,Default,,0000,0000,0000,,Por que você não está me atacando com as palavras que estão no seu coração?
+Dialogue: 0,0:21:36.67,0:21:38.93,Default,,0000,0000,0000,,Então eu não posso saber o que você está sentindo!
+Dialogue: 0,0:21:42.49,0:21:43.74,Default,,0000,0000,0000,,Eu sinto muito...
+Dialogue: 0,0:21:44.45,0:21:45.26,Default,,0000,0000,0000,,Onee-sama...
+Dialogue: 0,0:21:46.29,0:21:47.96,Default,,0000,0000,0000,,Hum... Sachiko-sama?
+Dialogue: 0,0:21:48.34,0:21:49.36,Default,,0000,0000,0000,,Shimako. Venha comigo.
+Dialogue: 0,0:21:56.09,0:22:00.44,Default,,0000,0000,0000,,"Não importa o que aconteça, não há como eu odiar Sachiko-sama."
+Dialogue: 0,0:22:01.41,0:22:05.72,Default,,0000,0000,0000,,Mas eu não pude dizer a ela isso, então, invés disso, as lágrimas vieram.
+Dialogue: 0,0:22:07.09,0:22:11.48,Default,,0000,0000,0000,,A pessoa à margem, a quem tanto me preocupei foi gradualmente ficando borrada.
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,(Prévia)
+Dialogue: 0,0:23:20.53,0:23:24.09,weyt,,0000,0000,0000,,{\an8}Nota: Elas estão jogando o jogo "shitori", onde um pensa numa palavra que começa com a última sílaba da palavra anterior.
+Dialogue: 0,0:23:20.56,0:23:21.09,Default,,0000,0000,0000,,Espantoso (bikkuri)!
+Dialogue: 0,0:23:21.20,0:23:21.81,Default,,0000,0000,0000,,Maça (ringo)!
+Dialogue: 0,0:23:21.86,0:23:22.46,Default,,0000,0000,0000,,Gorila (gorira)!
+Dialogue: 0,0:23:22.52,0:23:23.13,Default,,0000,0000,0000,,Trompete (rappa)!
+Dialogue: 0,0:23:23.20,0:23:23.93,Default,,0000,0000,0000,,Pachinko!
+Dialogue: 0,0:23:24.07,0:23:24.63,Default,,0000,0000,0000,,Naja (kobura)!
+Dialogue: 0,0:23:24.76,0:23:25.45,Default,,0000,0000,0000,,Rádio (rajio)!
+Dialogue: 0,0:23:25.52,0:23:26.11,Default,,0000,0000,0000,,Quiabo (okura)!
+Dialogue: 0,0:23:26.21,0:23:27.66,Default,,0000,0000,0000,,"Ra" de novo?
+Dialogue: 0,0:23:28.04,0:23:28.77,Default,,0000,0000,0000,,Almoço (raanchi)!
+Dialogue: 0,0:23:28.91,0:23:29.63,Default,,0000,0000,0000,,Chinchila (chinchira)!
+Dialogue: 0,0:23:29.70,0:23:31.15,Default,,0000,0000,0000,,Eu sabia que ela faria um "ra"!
+Dialogue: 0,0:23:20.19,0:23:34.87,Default,,0000,0000,0000,,{\fad(1500,0)\pos(150,120)}No próximo capítulo
+Dialogue: 0,0:23:29.90,0:23:34.87,Default,,0000,0000,0000,,{\fad(1500,0)\pos(335,390)}Os Chocolates Inesperados - parte II
+Dialogue: 0,0:23:31.34,0:23:33.75,Default,,0000,0000,0000,,Este tipo de coisa demonstra sua personalidade, Onee-sama.

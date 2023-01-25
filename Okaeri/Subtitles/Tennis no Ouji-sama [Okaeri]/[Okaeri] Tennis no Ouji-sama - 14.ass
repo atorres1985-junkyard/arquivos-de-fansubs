@@ -1,0 +1,289 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: nota,CastleT,37,&H00FFF3E8,&H00000000,&H323E1F00,&H64000000,-1,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: pensamento,Miu,41,&H00ECECFF,&H00000000,&H46000051,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: lembrança,Miu,41,&H00F2FFFF,&H00000000,&H46003C3C,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: preview,Miu,41,&H00F2FFF2,&H00000000,&H46003500,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+Style: Default,Miu,41,&H00F8F8F8,&H00000000,&H46000000,&H78000000,0,0,0,0,100,100,0,0,1,2,1.3,8,15,15,15,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.39,0:00:02.16,pensamento,,0000,0000,0000,,Nós vamos vencer!
+Dialogue: 0,0:00:04.50,0:00:07.29,pensamento,,0000,0000,0000,,Eles estão muito empolgados.
+Dialogue: 0,0:00:07.65,0:00:11.47,pensamento,,0000,0000,0000,,Este ponto vai definir a partida contra Fudomine.
+Dialogue: 0,0:00:16.85,0:00:17.76,pensamento,,0000,0000,0000,,Eu acabarei com eles.
+Dialogue: 0,0:01:56.55,0:01:59.44,Default,,0000,0000,0000,,Vamos jogar contra o Colégio Mizunofuchi depois do almoço.
+Dialogue: 0,0:01:59.44,0:02:00.10,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:02:00.88,0:02:02.53,Default,,0000,0000,0000,,Tezuka e Fuji?
+Dialogue: 0,0:02:02.53,0:02:04.58,Default,,0000,0000,0000,,Vocês estão reunindo informações de seus adversários?
+Dialogue: 0,0:02:05.49,0:02:07.03,Default,,0000,0000,0000,,Conseguiram alguma coisa?
+Dialogue: 0,0:02:08.17,0:02:09.90,Default,,0000,0000,0000,,Falando nisso, Tezuka...
+Dialogue: 0,0:02:09.90,0:02:12.70,Default,,0000,0000,0000,,Eu ouvi dizer que você não jogou contra o Gyokurin.
+Dialogue: 0,0:02:13.12,0:02:14.13,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:02:14.13,0:02:16.72,Default,,0000,0000,0000,,Você provavelmente não pôde jogar.
+Dialogue: 0,0:02:16.72,0:02:18.10,Default,,0000,0000,0000,,Vamos embora, Fuji.
+Dialogue: 0,0:02:18.92,0:02:19.90,Default,,0000,0000,0000,,Espere!
+Dialogue: 0,0:02:20.86,0:02:24.06,Default,,0000,0000,0000,,Por que você não mostra o seu braço? \NVocê tem algum motivo para escondê-lo?
+Dialogue: 0,0:02:26.49,0:02:27.42,Default,,0000,0000,0000,,Solte.
+Dialogue: 0,0:02:29.79,0:02:31.02,pensamento,,0000,0000,0000,,Ele nem sequer se mexeu.
+Dialogue: 0,0:02:35.72,0:02:38.65,pensamento,,0000,0000,0000,,Tezuka... Você me paga.
+Dialogue: 0,0:02:46.84,0:02:49.04,Default,,0000,0000,0000,,Game e partida, Fudomine.
+Dialogue: 0,0:02:53.97,0:02:55.21,Default,,0000,0000,0000,,Não pode ser.
+Dialogue: 0,0:03:06.44,0:03:09.56,Default,,0000,0000,0000,,Nunca houve uma equipe como essa!
+Dialogue: 0,0:03:14.75,0:03:17.53,Default,,0000,0000,0000,,O quê? O Colégio Kakinoki perdeu?
+Dialogue: 0,0:03:17.53,0:03:20.20,Default,,0000,0000,0000,,Não pode ser. Eles eram os favoritos.
+Dialogue: 0,0:03:20.31,0:03:22.31,Default,,0000,0000,0000,,É verdade, Momo-chan-senpai.
+Dialogue: 0,0:03:22.31,0:03:24.70,Default,,0000,0000,0000,,Está escrito no quadro.
+Dialogue: 0,0:03:35.75,0:03:38.80,Default,,0000,0000,0000,,Pensando bem, aonde foi o Ryoma-kun?
+Dialogue: 0,0:03:39.50,0:03:41.51,Default,,0000,0000,0000,,Hã?! Não é isso! Verdade!
+Dialogue: 0,0:03:41.51,0:03:43.30,Default,,0000,0000,0000,,Tudo bem, tudo bem.
+Dialogue: 0,0:03:46.86,0:03:49.27,Default,,0000,0000,0000,,Mas então, com quem iremos jogar nas finais?
+Dialogue: 0,0:03:49.27,0:03:50.61,Default,,0000,0000,0000,,Colégio Fudomine.
+Dialogue: 0,0:03:50.61,0:03:51.80,Default,,0000,0000,0000,,Eles não estavam entre os favoritos.
+Dialogue: 0,0:03:51.80,0:03:53.25,Default,,0000,0000,0000,,Colégio Fudomine?
+Dialogue: 0,0:03:53.25,0:03:56.20,Default,,0000,0000,0000,,O mesmo Fudomine que teve que se retirar no ano passado?
+Dialogue: 0,0:03:56.20,0:03:57.06,Default,,0000,0000,0000,,Hã?
+Dialogue: 0,0:04:04.25,0:04:08.00,Default,,0000,0000,0000,,Certo, então eles tiveram que se retirar.
+Dialogue: 0,0:04:08.00,0:04:09.20,Default,,0000,0000,0000,,Muito obrigado.
+Dialogue: 0,0:04:09.87,0:04:13.30,Default,,0000,0000,0000,,É muito conveniente ter um amigo trabalhando em um jornal.
+Dialogue: 0,0:04:13.80,0:04:14.65,Default,,0000,0000,0000,,Até depois.
+Dialogue: 0,0:04:17.42,0:04:18.90,Default,,0000,0000,0000,,Retiraram-se...
+Dialogue: 0,0:04:19.49,0:04:21.92,Default,,0000,0000,0000,,O atual capitão, Tachibana Kippei...
+Dialogue: 0,0:04:21.92,0:04:25.34,Default,,0000,0000,0000,,Um incidente envolvendo... um ato de violência.
+Dialogue: 0,0:04:26.69,0:04:28.31,Default,,0000,0000,0000,,Ato de violência...
+Dialogue: 0,0:04:36.88,0:04:39.27,Default,,0000,0000,0000,,Eu fui assistir a partida do Fudomine.
+Dialogue: 0,0:04:40.01,0:04:42.69,Default,,0000,0000,0000,,É um Fudomine completamente diferente daquele do ano passado.
+Dialogue: 0,0:04:42.69,0:04:47.16,Default,,0000,0000,0000,,Todos os titulares são do segundo ano, exceto o capitão.
+Dialogue: 0,0:04:47.16,0:04:50.83,Default,,0000,0000,0000,,O segredo do seu sucesso é a sua grande liderança.
+Dialogue: 0,0:04:50.83,0:04:53.70,Default,,0000,0000,0000,,O capitão Tachibana Kippei, do terceiro ano.
+Dialogue: 0,0:04:54.46,0:05:00.13,Default,,0000,0000,0000,,Além disso, os seis desconhecidos do segundo ano venceram Kakinoki em sets corridos.
+Dialogue: 0,0:05:02.46,0:05:06.01,Default,,0000,0000,0000,,As finais... Parece que não serão fáceis.
+Dialogue: 0,0:05:06.44,0:05:09.41,Default,,0000,0000,0000,,Mas se for o Seigaku, não haverá nenhum problema contra iniciantes.
+Dialogue: 0,0:05:09.41,0:05:11.15,Default,,0000,0000,0000,,Nós vamos acabar com eles e vencer o torneio.
+Dialogue: 0,0:05:11.15,0:05:13.02,Default,,0000,0000,0000,,Ei, Horio-kun.
+Dialogue: 0,0:05:13.02,0:05:14.68,Default,,0000,0000,0000,,Tudo bem, deixe-me falar.
+Dialogue: 0,0:05:14.68,0:05:19.24,Default,,0000,0000,0000,,O Seigaku não pode perder para uma equipe que não estava entre as favoritas, com jogadores desconhecidos!
+Dialogue: 0,0:05:19.24,0:05:20.21,Default,,0000,0000,0000,,Ei, me escute.
+Dialogue: 0,0:05:20.21,0:05:21.80,Default,,0000,0000,0000,,O que foi? Você está me irritando.
+Dialogue: 0,0:05:23.28,0:05:24.57,Default,,0000,0000,0000,,F-Fudomine?
+Dialogue: 0,0:05:54.17,0:05:55.70,Default,,0000,0000,0000,,Você é Tezuka, do Seigaku?
+Dialogue: 0,0:05:55.70,0:05:56.73,Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:05:57.66,0:06:00.11,Default,,0000,0000,0000,,Eu sou o capitão do Fudomine, Tachibana.
+Dialogue: 0,0:06:10.22,0:06:11.62,Default,,0000,0000,0000,,Vamos ter uma boa partida.
+Dialogue: 0,0:06:11.62,0:06:12.45,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:06:12.45,0:06:16.72,Default,,0000,0000,0000,,Ah.. Foi por pouco! Eu achei que haveria uma briga.
+Dialogue: 0,0:06:16.72,0:06:18.07,Default,,0000,0000,0000,,Eles parecem ser bons.
+Dialogue: 0,0:06:18.92,0:06:20.28,Default,,0000,0000,0000,,O quê, qual o problema?
+Dialogue: 0,0:06:20.28,0:06:22.09,Default,,0000,0000,0000,,M-Minha coluna saiu do lugar.
+Dialogue: 0,0:06:32.70,0:06:36.74,Default,,0000,0000,0000,,O último deles não está olhando para a raquete e possui uma habilidade incrível.
+Dialogue: 0,0:06:36.74,0:06:38.22,Default,,0000,0000,0000,,Fudomine é incrível.
+Dialogue: 0,0:06:55.23,0:06:58.00,Default,,0000,0000,0000,,É... Echizen está provocando.
+Dialogue: 0,0:06:59.41,0:07:03.50,Default,,0000,0000,0000,,Depois de jogar em dupla e ficar como substituto, ele deve estar bastante estressado.
+Dialogue: 0,0:07:10.93,0:07:12.35,pensamento,,0000,0000,0000,,Um calouro...
+Dialogue: 0,0:07:14.30,0:07:15.10,Default,,0000,0000,0000,,Vamos.
+Dialogue: 0,0:07:23.07,0:07:24.65,Default,,0000,0000,0000,,Mada Mada Dane.
+Dialogue: 0,0:07:24.92,0:07:26.85,Default,,0000,0000,0000,,Parece interessante, Shinji.
+Dialogue: 0,0:07:26.85,0:07:27.82,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:07:28.10,0:07:30.69,Default,,0000,0000,0000,,Entendam isso: nós enfrentaremos Fudomine nas finais,
+Dialogue: 0,0:07:30.69,0:07:32.92,Default,,0000,0000,0000,,e eles não são nada parecidos com os oponentes anteriores.
+Dialogue: 0,0:07:32.92,0:07:33.77,Default,,0000,0000,0000,,Sim!
+Dialogue: 0,0:07:33.77,0:07:34.91,Default,,0000,0000,0000,,São as finais!
+Dialogue: 0,0:07:35.18,0:07:38.37,Default,,0000,0000,0000,,Duplas 2: Fuji e Kawamura. Ganhem a primeira.
+Dialogue: 0,0:07:38.68,0:07:41.04,Default,,0000,0000,0000,,Duplas 1: Oishi e Kikumaru.
+Dialogue: 0,0:07:41.04,0:07:44.21,Default,,0000,0000,0000,,Individuais 3: Kaidoh. Não perca.
+Dialogue: 0,0:07:44.21,0:07:47.63,Default,,0000,0000,0000,,Individuais 2: Ryoma. Vá pegá-los.
+Dialogue: 0,0:07:47.63,0:07:50.10,Default,,0000,0000,0000,,E individuais 1: Tezuka.
+Dialogue: 0,0:07:50.66,0:07:52.95,Default,,0000,0000,0000,,Finalmente será a estréia de Echizen nas individuais!
+Dialogue: 0,0:07:52.95,0:07:55.00,Default,,0000,0000,0000,,Isso aí, Ryoma-kun!
+Dialogue: 0,0:08:03.02,0:08:05.24,Default,,0000,0000,0000,,A final será Seigaku contra Fudomine?
+Dialogue: 0,0:08:05.24,0:08:07.28,Default,,0000,0000,0000,,Essa será uma vitória devastadora do Seigaku.
+Dialogue: 0,0:08:07.81,0:08:11.00,Default,,0000,0000,0000,,É uma partida entre o favorito contra um desconhecido.
+Dialogue: 0,0:08:12.21,0:08:15.35,Default,,0000,0000,0000,,Partida de um set. Serviço de Sakurai, do Fudomine.
+Dialogue: 0,0:08:16.81,0:08:18.31,Default,,0000,0000,0000,,Finalmente.
+Dialogue: 0,0:08:18.31,0:08:20.12,Default,,0000,0000,0000,,Você é um repórter de jornal, não é?
+Dialogue: 0,0:08:20.12,0:08:22.30,Default,,0000,0000,0000,,Não pode ser mais preciso?
+Dialogue: 0,0:08:21.02,0:08:22.84,Default,,0000,0000,0000,,{\3a&H00&\3c&H515151&\2c&HC0C0C0&}Ah... Não é o Inoue-senpai?
+Dialogue: 0,0:08:22.84,0:08:24.76,Default,,0000,0000,0000,,Será que ele não vai assistir a final?
+Dialogue: 0,0:08:27.78,0:08:29.63,Default,,0000,0000,0000,,Não, não é isso...
+Dialogue: 0,0:08:29.63,0:08:34.40,Default,,0000,0000,0000,,Eu só quero saber os fatos que ocorreram no Fudomine
+Dialogue: 0,0:08:34.40,0:08:37.16,Default,,0000,0000,0000,,que levaram à sua saída do colégio.
+Dialogue: 0,0:08:37.16,0:08:38.81,Default,,0000,0000,0000,,Alô? Alô?
+Dialogue: 0,0:08:39.03,0:08:42.60,Default,,0000,0000,0000,,O antigo treinador não tem nada a dizer.
+Dialogue: 0,0:08:44.77,0:08:46.90,Default,,0000,0000,0000,,Senhor, você é um repórter de uma revista de tênis?
+Dialogue: 0,0:08:46.90,0:08:48.60,Default,,0000,0000,0000,,Sim, como você sabe?
+Dialogue: 0,0:08:48.60,0:08:52.69,Default,,0000,0000,0000,,Você acabou de falar que é o repórter Inoue, da revista Monthly Pro Tennis.
+Dialogue: 0,0:08:53.75,0:08:55.95,Default,,0000,0000,0000,,Você está investigando o Fudomine, não está?
+Dialogue: 0,0:08:56.81,0:08:58.37,Default,,0000,0000,0000,,Você sabe de alguma coisa?
+Dialogue: 0,0:08:58.37,0:09:00.76,Default,,0000,0000,0000,,A equipe atual do Fudomine é muito boa.
+Dialogue: 0,0:09:06.44,0:09:10.13,Default,,0000,0000,0000,,Eles são como este refrigerante.
+Dialogue: 0,0:09:10.13,0:09:14.72,Default,,0000,0000,0000,,Você não pode dizer nada olhando por fora, mas ele tem um grande poder escondido.
+Dialogue: 0,0:09:16.13,0:09:17.89,Default,,0000,0000,0000,,Eles são realmente incríveis.
+Dialogue: 0,0:09:22.42,0:09:24.06,Default,,0000,0000,0000,,Espere. Qual é o seu nome?
+Dialogue: 0,0:09:25.29,0:09:26.00,Default,,0000,0000,0000,,É Ann.
+Dialogue: 0,0:09:27.00,0:09:29.65,Default,,0000,0000,0000,,E é melhor você não abrir essa garrafa por um tempo.
+Dialogue: 0,0:09:38.34,0:09:40.83,Default,,0000,0000,0000,,Bom! Eu sinto tudo queimando!
+Dialogue: 0,0:09:42.22,0:09:43.66,Default,,0000,0000,0000,,Que devolução incrível!
+Dialogue: 0,0:09:48.85,0:09:49.50,Default,,0000,0000,0000,,Sakurai!
+Dialogue: 0,0:09:59.33,0:10:01.14,Default,,0000,0000,0000,,30 - 15.
+Dialogue: 0,0:10:01.84,0:10:03.14,Default,,0000,0000,0000,,Forte!
+Dialogue: 0,0:10:03.14,0:10:06.28,Default,,0000,0000,0000,,Como eles não estavam entre os favoritos, se são tão bons?
+Dialogue: 0,0:10:11.74,0:10:13.32,Default,,0000,0000,0000,,Um poderoso top spin.
+Dialogue: 0,0:10:13.32,0:10:15.69,Default,,0000,0000,0000,,Eles devem ser bons para poder fazer aquilo.
+Dialogue: 0,0:10:22.75,0:10:25.04,Default,,0000,0000,0000,,Fuji Syuusuke nas Duplas 2.
+Dialogue: 0,0:10:25.04,0:10:27.67,Default,,0000,0000,0000,,Tachibana-san, você errou um pouco em suas previsões.
+Dialogue: 0,0:10:27.67,0:10:30.93,Default,,0000,0000,0000,,Ah, eu pensei que Fuji enfrentaria Shinji nas Individuais 2.
+Dialogue: 0,0:10:31.55,0:10:34.75,Default,,0000,0000,0000,,Não se preocupe. Parece que eles estão se divertindo.
+Dialogue: 0,0:10:40.39,0:10:41.50,Default,,0000,0000,0000,,É mesmo.
+Dialogue: 0,0:10:49.24,0:10:53.15,Default,,0000,0000,0000,,Ele não é o capitão? Não deveria ficar sentado durante a partida?
+Dialogue: 0,0:10:53.15,0:10:54.86,Default,,0000,0000,0000,,Ah, é uma surpresa.
+Dialogue: 0,0:10:55.03,0:10:58.78,Default,,0000,0000,0000,,Que confiança. Não precisa nem mesmo assistir a partida?
+Dialogue: 0,0:10:59.29,0:11:01.35,Default,,0000,0000,0000,,Você foi insultado, Tezuka.
+Dialogue: 0,0:11:01.35,0:11:02.50,Default,,0000,0000,0000,,Foi um Ace!
+Dialogue: 0,0:11:09.54,0:11:10.87,Default,,0000,0000,0000,,40 - 15.
+Dialogue: 0,0:11:28.09,0:11:28.89,Default,,0000,0000,0000,,Quer uma bebida?
+Dialogue: 0,0:11:29.24,0:11:30.94,Default,,0000,0000,0000,,Não, estou bem.
+Dialogue: 0,0:11:30.99,0:11:33.00,Default,,0000,0000,0000,,Você é Tachibana-kun, do Fudomine, não é?
+Dialogue: 0,0:11:35.14,0:11:37.70,Default,,0000,0000,0000,,Vocês são como essas bolhas.
+Dialogue: 0,0:11:38.15,0:11:42.20,Default,,0000,0000,0000,,Foi o que uma garota me disse quando me deu isto.
+Dialogue: 0,0:11:42.72,0:11:44.57,Default,,0000,0000,0000,,O que você acha?
+Dialogue: 0,0:11:46.82,0:11:47.66,Default,,0000,0000,0000,,O que tem?
+Dialogue: 0,0:11:47.71,0:11:50.02,Default,,0000,0000,0000,,Não fique na defensiva desse jeito.
+Dialogue: 0,0:11:50.02,0:11:52.80,Default,,0000,0000,0000,,Eu não sou de nenhum jornal ou alguém que faça escândalos.
+Dialogue: 0,0:11:53.37,0:11:55.34,Default,,0000,0000,0000,,Sou apenas um repórter de uma revista de tênis.
+Dialogue: 0,0:11:55.70,0:11:59.03,Default,,0000,0000,0000,,Eu só quero te perguntar uma coisa, para satisfazer minha curiosidade...
+Dialogue: 0,0:12:00.39,0:12:03.70,Default,,0000,0000,0000,,Sobre o incidente do ano passado.
+Dialogue: 0,0:12:29.00,0:12:30.87,Default,,0000,0000,0000,,Eles estão em um rally!
+Dialogue: 0,0:12:30.87,0:12:33.70,Default,,0000,0000,0000,,A dupla do Fudomine é muito persistente.
+Dialogue: 0,0:12:33.70,0:12:36.80,Default,,0000,0000,0000,,Não me diga que eles podem perder.
+Dialogue: 0,0:12:43.62,0:12:45.78,Default,,0000,0000,0000,,Fuji e Kawamura estão sendo pressionados.
+Dialogue: 0,0:12:45.78,0:12:48.70,Default,,0000,0000,0000,,É difícil jogar bem quando eles estão sendo encurralados desse jeito.
+Dialogue: 0,0:12:48.70,0:12:50.25,Default,,0000,0000,0000,,Eu odeio jogar contra esse tipo de gente.
+Dialogue: 0,0:12:50.25,0:12:51.79,Default,,0000,0000,0000,,É uma batalha de força de vontade...
+Dialogue: 0,0:12:51.79,0:12:54.32,Default,,0000,0000,0000,,A dupla com a maior força de vontade levará vantagem.
+Dialogue: 0,0:13:00.19,0:13:02.53,Default,,0000,0000,0000,,Eu prometo. Não escreverei nada sobre isso.
+Dialogue: 0,0:13:02.98,0:13:03.87,Default,,0000,0000,0000,,Então, por quê?
+Dialogue: 0,0:13:04.68,0:13:09.60,Default,,0000,0000,0000,,Eu só quero saber... O segredo por trás da força do Fudomine.
+Dialogue: 0,0:13:10.03,0:13:12.00,Default,,0000,0000,0000,,Eu sou um repórter de uma revista de tênis.
+Dialogue: 0,0:13:12.00,0:13:14.96,Default,,0000,0000,0000,,Não escreverei nada que não envolva tênis.
+Dialogue: 0,0:13:15.50,0:13:17.70,Default,,0000,0000,0000,,A garota que me deu isso me disse.
+Dialogue: 0,0:13:24.82,0:13:28.12,Default,,0000,0000,0000,,Os atuais jogadores do Fudomine parecem calmos por fora,
+Dialogue: 0,0:13:28.12,0:13:31.68,Default,,0000,0000,0000,,mas eles possuem muita força escondida.
+Dialogue: 0,0:13:32.17,0:13:37.65,Default,,0000,0000,0000,,Talvez o incidente ano passado tenha algo a ver com isso.
+Dialogue: 0,0:13:38.03,0:13:39.70,Default,,0000,0000,0000,,Isso é o que eu acho.
+Dialogue: 0,0:13:40.25,0:13:41.07,Default,,0000,0000,0000,,Estou enganado?
+Dialogue: 0,0:13:44.83,0:13:49.70,Default,,0000,0000,0000,,Você agrediu seu instrutor, o que resultou na retirada do Fudomine ano passado.
+Dialogue: 0,0:13:50.13,0:13:52.59,Default,,0000,0000,0000,,Isso é tudo que eu sei...
+Dialogue: 0,0:13:52.59,0:13:54.91,Default,,0000,0000,0000,,Mas isso não é do meu interesse.
+Dialogue: 0,0:13:59.55,0:14:00.55,Default,,0000,0000,0000,,Inoue-san...
+Dialogue: 0,0:14:01.96,0:14:05.16,Default,,0000,0000,0000,,Você me promete que não escreverá nada sobre isso?
+Dialogue: 0,0:14:05.16,0:14:05.85,Default,,0000,0000,0000,,Sim.
+Dialogue: 0,0:14:15.15,0:14:17.35,Default,,0000,0000,0000,,Você quer participar da próxima competição?
+Dialogue: 0,0:14:17.35,0:14:19.33,Default,,0000,0000,0000,,Eu prometi isso?
+Dialogue: 0,0:14:19.33,0:14:23.27,Default,,0000,0000,0000,,Você disse que nós seríamos os titulares se ganhássemos dos veteranos.
+Dialogue: 0,0:14:24.08,0:14:25.94,Default,,0000,0000,0000,,Então...
+Dialogue: 0,0:14:26.31,0:14:31.00,Default,,0000,0000,0000,,Vocês são calouros. Deveriam apenas ficar juntando as bolas.
+Dialogue: 0,0:14:33.53,0:14:35.05,Default,,0000,0000,0000,,Hã? O que foi?
+Dialogue: 0,0:14:37.00,0:14:40.30,Default,,0000,0000,0000,,Eu sou o aluno transferido Tachibana Kippei, do segundo ano.
+Dialogue: 0,0:14:49.53,0:14:50.41,Default,,0000,0000,0000,,Kamio!
+Dialogue: 0,0:14:50.87,0:14:53.47,Default,,0000,0000,0000,,Não perturbe o instrutor!
+Dialogue: 0,0:14:53.57,0:14:56.64,Default,,0000,0000,0000,,Vocês deveriam aprender os costumes e tradições dos clubes de esporte.
+Dialogue: 0,0:14:57.45,0:14:58.93,Default,,0000,0000,0000,,Eu não pude perdoá-los.
+Dialogue: 0,0:14:59.51,0:15:01.27,Default,,0000,0000,0000,,O instrutor que não se importava,
+Dialogue: 0,0:15:01.27,0:15:04.97,Default,,0000,0000,0000,,e os estudantes do segundo e terceiro anos sem nenhum talento que abusavam de seu poder.
+Dialogue: 0,0:15:04.97,0:15:09.20,Default,,0000,0000,0000,,Eles trouxeram muitas dificuldades aos calouros de coração puro, que só queriam jogar tênis.
+Dialogue: 0,0:15:10.13,0:15:13.55,Default,,0000,0000,0000,,Peguem as bolas! Comecem a trabalhar duro!
+Dialogue: 0,0:15:17.80,0:15:19.40,Default,,0000,0000,0000,,Mostrem algum espírito!
+Dialogue: 0,0:15:19.40,0:15:22.55,Default,,0000,0000,0000,,Por que não vão correr vinte voltas ao redor da quadra?
+Dialogue: 0,0:15:25.54,0:15:26.98,Default,,0000,0000,0000,,Vocês são os únicos que deveriam correr.
+Dialogue: 0,0:15:26.98,0:15:27.88,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:15:28.02,0:15:29.75,Default,,0000,0000,0000,,Tachibana, você...
+Dialogue: 0,0:15:29.75,0:15:31.30,Default,,0000,0000,0000,,Você é corajoso.
+Dialogue: 0,0:15:31.69,0:15:34.14,Default,,0000,0000,0000,,Por favor, jogue uma partida comigo, senpai.
+Dialogue: 0,0:15:36.72,0:15:41.23,Default,,0000,0000,0000,,Mas se você perder, vocês deverão correr vinte voltas ao redor do campo, Senpai.
+Dialogue: 0,0:15:50.96,0:15:54.00,Default,,0000,0000,0000,,Ele ficou todo sério...
+Dialogue: 0,0:15:57.62,0:16:00.00,Default,,0000,0000,0000,,Aquele que se acha melhor do que eu dê um passo à frente.
+Dialogue: 0,0:16:18.30,0:16:23.18,Default,,0000,0000,0000,,O quê?! Os calouros estão formando um outro clube de tênis?
+Dialogue: 0,0:16:23.18,0:16:25.21,Default,,0000,0000,0000,,Parece que o Tachibana é o líder.
+Dialogue: 0,0:16:29.61,0:16:36.21,Default,,0000,0000,0000,,Nós pegamos leve com você da última vez, Tachibana, mas você não aprendeu, não é?
+Dialogue: 0,0:16:37.56,0:16:40.24,Default,,0000,0000,0000,,Pessoal, não percam a calma.
+Dialogue: 0,0:16:40.76,0:16:43.29,Default,,0000,0000,0000,,Vocês são irritantes!
+Dialogue: 0,0:16:44.60,0:16:46.71,Default,,0000,0000,0000,,Que conversa é essa sobre um novo clube de tênis?
+Dialogue: 0,0:16:47.07,0:16:50.38,Default,,0000,0000,0000,,Os calouros devem apenas ficar quietos e juntar as bolas até a próxima primavera.
+Dialogue: 0,0:16:50.38,0:16:51.64,Default,,0000,0000,0000,,Seus moleques inúteis.
+Dialogue: 0,0:16:55.93,0:16:58.23,Default,,0000,0000,0000,,Os calouros começaram com isso.
+Dialogue: 0,0:17:03.17,0:17:04.14,Default,,0000,0000,0000,,Tachibana-san?
+Dialogue: 0,0:17:04.20,0:17:07.29,Default,,0000,0000,0000,,Você não está qualificado para ser um instrutor!
+Dialogue: 0,0:17:20.71,0:17:23.39,Default,,0000,0000,0000,,Foi Tachibana-san quem disse para não revidarmos.
+Dialogue: 0,0:17:23.39,0:17:27.42,Default,,0000,0000,0000,,Cale a boca. Até parece que vocês não ficaram loucos depois daquilo.
+Dialogue: 0,0:17:29.27,0:17:33.10,Default,,0000,0000,0000,,Vamos entregar o formulário para formar um novo clube de tênis.
+Dialogue: 0,0:17:36.16,0:17:37.78,Default,,0000,0000,0000,,Será que eles aceitarão?
+Dialogue: 0,0:17:37.78,0:17:39.30,Default,,0000,0000,0000,,Até sair a permissão, eu vou insistir.
+Dialogue: 0,0:17:39.30,0:17:41.89,Default,,0000,0000,0000,,Nós vamos para o Nacional!
+Dialogue: 0,0:17:42.38,0:17:46.44,Default,,0000,0000,0000,,Nacional. Nacional. Nacional.
+Dialogue: 0,0:17:51.36,0:17:52.74,Default,,0000,0000,0000,,Entendo.
+Dialogue: 0,0:17:52.74,0:17:55.58,Default,,0000,0000,0000,,O instrutor e os estudantes que não tinham nenhum interesse em tênis...
+Dialogue: 0,0:17:55.58,0:17:57.00,Default,,0000,0000,0000,,Todos deixaram o clube.
+Dialogue: 0,0:17:57.48,0:18:01.99,Default,,0000,0000,0000,,Certo. Aquele incidente tornou-se a base de sua força.
+Dialogue: 0,0:18:02.45,0:18:03.86,Default,,0000,0000,0000,,Obrigado por me deixar confirmar isso.
+Dialogue: 0,0:18:03.86,0:18:04.40,Default,,0000,0000,0000,,Errado.
+Dialogue: 0,0:18:05.37,0:18:08.16,Default,,0000,0000,0000,,Aquilo foi apenas o catalisador.
+Dialogue: 0,0:18:10.47,0:18:15.99,Default,,0000,0000,0000,,O passado é o passado, o que queremos é vencer todos que nos enfrentarem.
+Dialogue: 0,0:18:16.54,0:18:17.55,Default,,0000,0000,0000,,Isso é tudo.
+Dialogue: 0,0:18:17.74,0:18:19.70,Default,,0000,0000,0000,,Aquele smash foi demais!
+Dialogue: 0,0:18:19.70,0:18:20.97,Default,,0000,0000,0000,,Fique quieto.
+Dialogue: 0,0:18:20.97,0:18:21.75,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:18:22.60,0:18:25.52,Default,,0000,0000,0000,,Seigaku logo irá para a ofensiva.
+Dialogue: 0,0:18:25.52,0:18:26.50,Default,,0000,0000,0000,,Com licença.
+Dialogue: 0,0:18:31.43,0:18:32.65,pensamento,,0000,0000,0000,,Fudomine.
+Dialogue: 0,0:18:41.33,0:18:43.37,Default,,0000,0000,0000,,O capitão deles voltou.
+Dialogue: 0,0:18:49.97,0:18:51.58,Default,,0000,0000,0000,,Ele saiu de propósito.
+Dialogue: 0,0:18:51.97,0:18:52.77,Default,,0000,0000,0000,,De propósito?
+Dialogue: 0,0:18:52.77,0:18:53.91,Default,,0000,0000,0000,,O que você quer dizer?
+Dialogue: 0,0:18:53.91,0:18:55.82,Default,,0000,0000,0000,,Foi uma boa estratégia psicológica.
+Dialogue: 0,0:18:55.82,0:18:59.42,Default,,0000,0000,0000,,O capitão sair durante uma partida importante.
+Dialogue: 0,0:18:59.42,0:19:04.56,Default,,0000,0000,0000,,Fudomine foi submetido a uma grande pressão pela ausência de seu capitão.
+Dialogue: 0,0:19:04.79,0:19:06.68,pensamento,,0000,0000,0000,,Nós seremos os vencedores!
+Dialogue: 0,0:19:09.22,0:19:11.95,pensamento,,0000,0000,0000,,Eles estão empolgados.
+Dialogue: 0,0:19:12.33,0:19:16.14,pensamento,,0000,0000,0000,,Este ponto determinará o rumo da partida contra Fudomine.
+Dialogue: 0,0:19:22.27,0:19:23.24,pensamento,,0000,0000,0000,,Vou pará-los.
+Dialogue: 0,0:19:40.67,0:19:42.09,Default,,0000,0000,0000,,Ela não quicou...
+Dialogue: 0,0:19:42.19,0:19:45.67,Default,,0000,0000,0000,,O que foi aquilo? A bola saiu rolando no chão.
+Dialogue: 0,0:19:45.67,0:19:49.06,Default,,0000,0000,0000,,Aquele foi um dos três contra-ataques especiais do Fuji, chamado...
+Dialogue: 0,0:19:49.23,0:19:50.45,Default,,0000,0000,0000,,Tsubame Gaeshi.
+Dialogue: 0,0:19:49.23,0:19:52.15,nota,,0000,0000,0000,,{\fad(0,300)}Tsubame Gaeshi: O retorno da Andorinha
+Dialogue: 0,0:19:50.45,0:19:51.92,Default,,0000,0000,0000,,Tsubame Gaeshi?
+Dialogue: 0,0:19:52.15,0:19:57.03,Default,,0000,0000,0000,,Esse top spin utiliza o giro original da bola,
+Dialogue: 0,0:19:57.03,0:20:00.40,Default,,0000,0000,0000,,e adiciona mais giro na mesma direção.
+Dialogue: 0,0:20:01.64,0:20:05.30,Default,,0000,0000,0000,,Como eu esperava, Fuji Syuusuke não vai ficar quieto.
+Dialogue: 0,0:20:06.62,0:20:08.71,Default,,0000,0000,0000,,O quê? Aonde você foi?
+Dialogue: 0,0:20:08.71,0:20:10.14,Default,,0000,0000,0000,,Ah, Inoue-san.
+Dialogue: 0,0:20:17.33,0:20:20.51,Default,,0000,0000,0000,,Talvez o Seigaku possa não ser capaz de vencer desta vez.
+Dialogue: 0,0:21:35.76,0:21:38.65,preview,,0000,0000,0000,,Olá. Eu sou Fuji Syuusuke, do terceiro ano.
+Dialogue: 0,0:21:38.65,0:21:43.73,preview,,0000,0000,0000,,Taka-san e eu estamos jogando contra a dupla Ishida e Sakurai, do Fudomine.
+Dialogue: 0,0:21:43.73,0:21:47.45,preview,,0000,0000,0000,,Parece que conseguimos uma vantagem com o meu Tsubame Gaeshi,
+Dialogue: 0,0:21:47.99,0:21:50.69,preview,,0000,0000,0000,,mas o Fudomine também mostrará seu ataque especial.
+Dialogue: 0,0:21:51.80,0:21:53.78,preview,,0000,0000,0000,,Existe mais alguma coisa que nós possamos fazer?
+Dialogue: 0,0:21:54.52,0:21:57.00,preview,,0000,0000,0000,,Pessoal, prestem atenção no Fudomine.
+Dialogue: 0,0:21:58.04,0:22:00.20,preview,,0000,0000,0000,,No próximo episódio de The Prince of Tennis:
+Dialogue: 0,0:22:00.20,0:22:01.60,preview,,0000,0000,0000,,Suas Respectivas Lutas
+Dialogue: 0,0:22:02.27,0:22:04.60,preview,,0000,0000,0000,,Taka-san, você é o cara...
